@@ -140,6 +140,11 @@ section { padding: clamp(72px, 11vw, 140px) 0; border-bottom: 1px solid var(--li
 .about h2 { margin-bottom: 28px; }
 .about .lead { margin-bottom: 20px; }
 .about p:not(.kicker) { color: #D8D8D2; }
+.milestones { list-style: none; margin: clamp(40px, 6vw, 64px) 0 0; padding: 0; display: grid; grid-template-columns: repeat(5, 1fr); gap: 24px; border-top: 1px solid var(--line); }
+.milestones li { padding-top: 20px; }
+.milestones strong { display: block; font-family: var(--display); font-weight: 400; font-size: 34px; line-height: 1; color: var(--yellow); margin-bottom: 8px; }
+.milestones span { display: block; font-size: 15px; line-height: 1.45; color: #BDBDB7; }
+@media (max-width: 860px) { .milestones { grid-template-columns: 1fr; gap: 0; } .milestones li { display: grid; grid-template-columns: 72px 1fr; gap: 12px; align-items: baseline; padding: 16px 0; border-bottom: 1px solid var(--line); } .milestones strong { font-size: 26px; margin: 0; } }
 .members { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: clamp(48px, 7vw, 88px); }
 .member { text-decoration: none; display: block; min-width: 0; }
 .member-photo { aspect-ratio: 4 / 5; background: var(--yellow); display: flex; align-items: flex-end; justify-content: center; overflow: hidden; }

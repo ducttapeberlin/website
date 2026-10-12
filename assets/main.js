@@ -9,15 +9,15 @@ if (toggle && nav) {
   nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => nav.classList.remove('open')));
 }
 
-// Vergangene Termine ausblenden, nächsten Termin oben anzeigen
-const today = new Date().toISOString().slice(0, 10);
-const upcoming = [];
-document.querySelectorAll('.event[data-date]').forEach(ev => {
-  if (ev.dataset.date < today) ev.remove();
-  else upcoming.push(ev);
+// Vergangene Termine ausblenden (auch Tage in Highlight-Karten), nächsten Termin oben anzeigen
+const today = new Date().toLocaleDateString('sv-SE');
+document.querySelectorAll('.event[data-date], .featured-dates li[data-date]').forEach(el => {
+  if (el.dataset.date < today) el.remove();
 });
+document.querySelectorAll('.featured').forEach(f => { if (!f.querySelector('.featured-dates li')) f.remove(); });
+const upcoming = [...document.querySelectorAll('.event[data-date]')];
 const list = document.querySelector('.events');
-if (list && !upcoming.length && !list.querySelector('.events-empty')) {
+if (list && !upcoming.length && !document.querySelector('.featured') && !list.querySelector('.events-empty')) {
   list.insertAdjacentHTML('beforeend', '<li class="events-empty">Neue Termine folgen in Kürze.</li>');
 }
 // Lange Liste kürzen: erst 6 Termine, Rest per Button
@@ -31,14 +31,17 @@ if (list && upcoming.length > SHOW + 1) {
   more.addEventListener('click', () => { list.classList.add('show-all'); more.remove(); });
   list.after(more);
 }
-const first = upcoming[0];
+const first = [...document.querySelectorAll('.event[data-date], .featured-dates li[data-date]')]
+  .sort((a, b) => a.dataset.date.localeCompare(b.dataset.date))[0];
 const strip = document.getElementById('next-up');
 if (first && strip) {
-  const tag = first.querySelector('.event-tag')?.textContent ?? '';
-  const title = first.querySelector('h3')?.textContent ?? '';
+  const box = first.closest('.featured') ?? first;
+  const tag = box.querySelector('.event-tag')?.textContent ?? '';
+  const title = box.querySelector('h3')?.textContent ?? '';
   const label = !tag || title.toLowerCase().includes(tag.toLowerCase()) ? title : `${tag} – ${title}`;
+  const d = first.dataset.date;
   document.getElementById('next-title').textContent = `Next: ${label}`;
-  document.getElementById('next-when').textContent = first.querySelector('.event-date')?.firstChild.textContent.trim() ?? '';
+  document.getElementById('next-when').textContent = `${d.slice(8, 10)}.${d.slice(5, 7)}.`;
   strip.hidden = false;
 }
 
@@ -73,10 +76,7 @@ if (dlg) {
   const body = document.getElementById('tickets-body');
   document.querySelectorAll('[data-tickets]').forEach(btn => btn.addEventListener('click', () => {
     const slug = btn.dataset.tickets;
-    const event = btn.closest('.event');
-    const day = (event?.querySelector('.event-date small span') ?? event?.querySelector('.event-date small'))?.textContent ?? '';
-    const date = event?.querySelector('.event-date')?.firstChild.textContent.trim() ?? '';
-    document.getElementById('tickets-title').textContent = `${event?.querySelector('h3')?.textContent ?? 'Tickets'} · ${day} ${date}`;
+    document.getElementById('tickets-title').textContent = btn.dataset.label ?? 'Tickets';
     document.getElementById('tickets-fallback').href = `https://t.rausgegangen.de/tickets/${slug}`;
     body.innerHTML = '<p class="tickets-loading">Ticketshop lädt …</p>';
     const s = document.createElement('script');

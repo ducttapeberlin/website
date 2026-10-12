@@ -21,7 +21,8 @@ SHEET_ID = "17gTptLrfvTtNU7fB6bJKMsSKL1nsc0myymPQorFi5YQ"
 CSV_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=csv&gid=0"
 INDEX = Path(__file__).resolve().parent.parent / "index.html"
 START, END = "<!-- EVENTS:START -->", "<!-- EVENTS:END -->"
-INDENT = "        "
+F_START, F_END = "<!-- FEATURED:START -->", "<!-- FEATURED:END -->"
+INDENT, F_INDENT = "        ", "      "
 WEEKDAYS = ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"]
 MONTHS = {"jan": 1, "feb": 2, "mär": 3, "mar": 3, "apr": 4, "mai": 5, "may": 5, "jun": 6, "jul": 7,
           "aug": 8, "sep": 9, "okt": 10, "oct": 10, "nov": 11, "dez": 12, "dec": 12}
@@ -114,48 +115,107 @@ def match_page(row, date, pages):
     return best[1] if best else ""
 
 
-def render(row):
+def when(row):
+    """Datum, Wochentag und Zeiten einer Zeile."""
     date = parse_date(row.get("Datum"))
     begin, end, doors = (parse_time(row.get(k)) for k in ("Beginn", "Ende", "Einlass"))
-    title = (row.get("Titel") or "").strip()
-    meta = [f"<span>{WEEKDAYS[date.weekday()]}</span>"]
-    if begin and end:
-        meta.append(f"<span>{hour(begin)}–{hour(end)} Uhr</span>")
-    elif begin:
-        meta.append(f"<span>ab {hour(begin)} Uhr</span>")
-    if doors:
-        meta.append(f'<span class="event-doors">Einlass {hour(doors)} Uhr</span>')
+    time = f"{hour(begin)}–{hour(end)} Uhr" if begin and end else f"ab {hour(begin)} Uhr" if begin else ""
+    return date, begin, time, f"Einlass {hour(doors)} Uhr" if doors else ""
 
+
+def title_html(row):
     page = (row.get("Eventseite") or "").strip()
-    h3 = link(page, title) if page.startswith("http") else esc(title)
+    title = (row.get("Titel") or "").strip()
+    return link(page, title) if page.startswith("http") else esc(title)
+
+
+def subtitle(row):
     sub = [esc(x) for x in [(row.get("Location") or "").strip()] if x]
     if g := guests(row.get("Gäste")):
         sub.append(g)
     if (row.get("Free Entry") or "").strip().lower() in ("ja", "yes", "x", "true"):
         sub.append("Free Entry")
-    tag = (row.get("Format") or "").strip()
+    return " · ".join(sub)
 
+
+def button(row):
+    """Tickets (rausgegangen-Overlay) oder Reservierung; None, wenn es nichts zu buchen gibt."""
+    date, begin, *_ = when(row)
+    slug = ticket_slug(row.get("Tickets"))
+    booking = (row.get("Reservierung") or "").strip()
+    if slug:
+        label = f"{(row.get('Titel') or '').strip()} · {WEEKDAYS[date.weekday()]} {date:%d.%m.}"
+        return f'<button class="btn btn-primary" type="button" data-tickets="{esc(slug)}" data-label="{esc(label)}">Tickets</button>'
+    if booking.lower() == "opentable":
+        t = begin or (12, 0)
+        booking = OPENTABLE.format(date=date.isoformat(), time=f"{t[0]:02d}%3A{t[1]:02d}")
+    if booking.startswith("http"):
+        return f'<a class="btn btn-ghost" href="{esc(booking)}" target="_blank" rel="noopener">Tisch reservieren</a>'
+    return None
+
+
+def render(row):
+    date, _, time, doors = when(row)
+    meta = [f"<span>{WEEKDAYS[date.weekday()]}</span>"]
+    meta += [f"<span>{time}</span>"] if time else []
+    meta += [f'<span class="event-doors">{doors}</span>'] if doors else []
+    tag = (row.get("Format") or "").strip()
+    sub = subtitle(row)
+    btn = button(row)
     lines = [
         f'<li class="event" data-date="{date.isoformat()}">',
         f'  <div class="event-date">{date:%d.%m.}<small>{"".join(meta)}</small></div>',
         "  <div>",
         *([f'    <span class="event-tag">{esc(tag)}</span>'] if tag else []),
-        f"    <h3>{h3}</h3>",
-        *([f"    <p>{' · '.join(sub)}</p>"] if sub else []),
+        f"    <h3>{title_html(row)}</h3>",
+        *([f"    <p>{sub}</p>"] if sub else []),
         "  </div>",
+        *([f"  {btn}"] if btn else []),
+        "</li>",
     ]
-    slug = ticket_slug(row.get("Tickets"))
-    booking = (row.get("Reservierung") or "").strip()
-    if slug:
-        lines.append(f'  <button class="btn btn-primary" type="button" data-tickets="{esc(slug)}">Tickets</button>')
-    elif booking.lower() == "opentable":
-        t = begin or (12, 0)
-        url = OPENTABLE.format(date=date.isoformat(), time=f"{t[0]:02d}%3A{t[1]:02d}")
-        lines.append(f'  <a class="btn btn-ghost" href="{esc(url)}" target="_blank" rel="noopener">Tisch reservieren</a>')
-    elif booking.startswith("http"):
-        lines.append(f'  <a class="btn btn-ghost" href="{esc(booking)}" target="_blank" rel="noopener">Tisch reservieren</a>')
-    lines.append("</li>")
     return "\n".join(INDENT + l for l in lines)
+
+
+def theme_class(value):
+    """'ja' = Standard-Highlight (gelb), sonst ein Farbthema wie 'Weihnachten' -> theme-weihnachten."""
+    v = value.strip().lower()
+    if v in ("ja", "yes", "x", "true"):
+        return ""
+    v = v.translate(str.maketrans({"ä": "ae", "ö": "oe", "ü": "ue", "ß": "ss"}))
+    return " theme-" + re.sub(r"[^a-z0-9]+", "-", v).strip("-")
+
+
+def render_featured(rows):
+    """Eine Highlight-Karte für alle Termine mit gleichem Titel, z. B. beide Christmas-Show-Tage."""
+    first = rows[0]
+    tag = (first.get("Format") or "").strip()
+    sub = subtitle(first)
+    lines = [
+        f'<article class="featured{theme_class(first.get("Featured", ""))}">',
+        '  <div class="featured-body">',
+        *([f'    <span class="event-tag">{esc(tag)}</span>'] if tag else []),
+        f"    <h3>{title_html(first)}</h3>",
+        *([f"    <p>{sub}</p>"] if sub else []),
+        "  </div>",
+        '  <ul class="featured-dates">',
+    ]
+    for r in rows:
+        date, _, time, doors = when(r)
+        small = time + (f'<span class="event-doors">{doors}</span>' if doors else "")
+        btn = button(r)
+        lines += [
+            f'    <li data-date="{date.isoformat()}">',
+            f"      <div><strong>{WEEKDAYS[date.weekday()][:2]} {date:%d.%m.}</strong><small>{small}</small></div>",
+            *([f"      {btn}"] if btn else []),
+            "    </li>",
+        ]
+    lines += ["  </ul>", "</article>"]
+    return "\n".join(F_INDENT + l for l in lines)
+
+
+def replace_between(src, start, end, body, indent):
+    a, b = src.index(start) + len(start), src.index(end)
+    return src[:a] + "\n" + (body + "\n" if body else "") + indent + src[b:]
 
 
 def main():
@@ -183,15 +243,20 @@ def main():
                 r["Eventseite"] = match_page(r, date, pages)
             events.append((date, parse_time(r.get("Beginn")) or (0, 0), r))
     events.sort(key=lambda e: e[:2])
-    body = "\n".join(render(r) for *_, r in events) or (
+    featured = {}
+    for *_, r in events:
+        if (r.get("Featured") or "").strip():
+            featured.setdefault((r["Titel"].strip(), r["Featured"].strip()), []).append(r)
+    listed = [r for *_, r in events if not (r.get("Featured") or "").strip()]
+    body = "\n".join(render(r) for r in listed) or (
         INDENT + '<li class="events-empty">Neue Termine folgen in Kürze.</li>')
 
     src = INDEX.read_text(encoding="utf-8")
-    a, b = src.index(START) + len(START), src.index(END)
-    new = src[:a] + "\n" + body + "\n" + INDENT + src[b:]
+    new = replace_between(src, START, END, body, INDENT)
+    new = replace_between(new, F_START, F_END, "\n".join(render_featured(g) for g in featured.values()), F_INDENT)
     if new != src:
         INDEX.write_text(new, encoding="utf-8")
-    print(f"{len(events)} Termine", "aktualisiert" if new != src else "unverändert")
+    print(f"{len(events)} Termine, {len(featured)} Highlight(s)", "aktualisiert" if new != src else "unverändert")
 
 
 if __name__ == "__main__":

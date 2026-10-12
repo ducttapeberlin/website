@@ -103,6 +103,35 @@ section { padding: clamp(72px, 11vw, 140px) 0; border-bottom: 1px solid var(--li
 .events:not(.show-all) .event.is-more { display: none; }
 .events-more { display: flex; width: fit-content; margin: 28px auto 0; }
 .events-empty { padding: 28px 0; color: var(--grey); border-bottom: 1px solid var(--line); }
+
+/* Highlight-Karte (Spalte "Featured" in der Tabelle). Standard gelb, Farbthemen über theme-* */
+.featured { --accent: var(--yellow); --accent-ink: var(--black); position: relative; display: grid; grid-template-columns: 1.15fr 1fr; gap: clamp(24px, 4vw, 48px); align-items: center; padding: clamp(28px, 4vw, 52px); margin-bottom: clamp(32px, 5vw, 56px); border-radius: 22px; background: var(--ink); border: 2px solid var(--accent); overflow: hidden; }
+.featured > * { position: relative; }
+.featured .event-tag { background: var(--accent); color: var(--accent-ink); }
+.featured h3 { font-size: clamp(38px, 5.4vw, 68px); margin: 6px 0 12px; }
+.featured h3 a { text-decoration: none; transition: color .2s ease; }
+.featured h3 a:hover { color: var(--accent); }
+.featured h3 a::after { content: " ↗"; font-family: var(--body); font-size: .4em; vertical-align: super; color: var(--accent); }
+.featured-body p { margin: 0; color: #D8D8D2; font-size: 18px; }
+.featured-dates { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+.featured-dates li { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 16px 16px 16px 22px; border-radius: 16px; background: rgba(255, 255, 255, .07); backdrop-filter: blur(2px); }
+.featured-dates strong { display: block; font-family: var(--display); font-weight: 400; font-size: 30px; line-height: 1; text-transform: uppercase; }
+.featured-dates small { display: block; margin-top: 6px; font-size: 13px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: #CFCFC8; }
+.featured-dates .event-doors { opacity: .55; }
+.featured-dates .event-doors::before { content: " · "; }
+.featured .btn-primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+
+/* Thema Weihnachten: Tannengrün, Rot, Gold, leichter Schnee und ein Zuckerstangen-Tape oben */
+.featured.theme-weihnachten { --accent: #E0313F; --accent-ink: #fff; border-color: transparent; padding-top: calc(clamp(28px, 4vw, 52px) + 14px);
+  background:
+    radial-gradient(circle, rgba(255, 255, 255, .5) 0 1.6px, transparent 2.6px) 11px 7px / 97px 89px,
+    radial-gradient(circle, rgba(255, 255, 255, .35) 0 1.2px, transparent 2.2px) 53px 41px / 67px 71px,
+    radial-gradient(circle, rgba(255, 255, 255, .22) 0 1px, transparent 2px) 29px 63px / 43px 53px,
+    radial-gradient(120% 90% at 100% 0%, rgba(242, 193, 78, .22), transparent 55%),
+    linear-gradient(140deg, #13513C 0%, #0B3326 60%, #08261C 100%); }
+.featured.theme-weihnachten::before { content: ""; position: absolute; inset: 0 0 auto; height: 14px; background: repeating-linear-gradient(-45deg, #E0313F 0 14px, #FAFAF7 14px 28px); }
+.featured.theme-weihnachten h3 a::after { color: #F2C14E; }
+.featured.theme-weihnachten .featured-dates li { background: rgba(4, 24, 17, .55); }
 @media (max-width: 720px) {
   .event { grid-template-columns: 1fr; gap: 12px; }
 }
@@ -186,3 +215,4 @@ footer a:hover { color: var(--yellow); }
 .partner img { max-width: 58%; max-height: 50%; object-fit: contain; filter: grayscale(1) contrast(1.1); opacity: .8; transition: filter .3s ease, opacity .3s ease, transform .3s ease; }
 .partner:hover img { filter: none; opacity: 1; transform: scale(1.06); }
 @media (max-width: 720px) { .partners { --cols: 3; } }
+@media (max-width: 760px) { .featured { grid-template-columns: 1fr; } .featured-dates li { padding-left: 18px; } .featured-dates strong { font-size: 26px; } .featured-dates .event-doors { display: block; } .featured-dates .event-doors::before { content: none; } }

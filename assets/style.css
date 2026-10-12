@@ -63,7 +63,7 @@ h3 { font-size: clamp(26px, 3.2vw, 34px); }
 .hero:has(.hero-logo:hover) .hero-media::after { opacity: .8; }
 .hero .wrap { position: relative; padding-bottom: clamp(40px, 8vh, 88px); width: 100%; }
 .hero h1 { margin: 0; line-height: 0; }
-.hero-logo { width: clamp(200px, 30vw, 380px); height: auto; transition: transform .4s cubic-bezier(.2,.7,.2,1), filter .4s ease; cursor: pointer; }
+.hero-logo { width: clamp(200px, 30vw, 380px); height: auto; transition: transform .4s cubic-bezier(.2,.7,.2,1), filter .4s ease; cursor: default; }
 .hero-logo:hover { transform: scale(1.05) rotate(-1.5deg); filter: drop-shadow(0 10px 40px rgba(239,202,0,.35)); }
 .hero p { margin: 22px 0 30px; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; }

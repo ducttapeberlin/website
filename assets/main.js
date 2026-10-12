@@ -51,5 +51,29 @@ document.querySelectorAll('.service[data-images]').forEach(tile => {
   }
 });
 
+// Tickets: rausgegangen-Shop erst beim Klick laden (Datenschutz) und im Overlay anzeigen
+const dlg = document.getElementById('tickets');
+if (dlg) {
+  const body = document.getElementById('tickets-body');
+  document.querySelectorAll('[data-tickets]').forEach(btn => btn.addEventListener('click', () => {
+    const slug = btn.dataset.tickets;
+    const event = btn.closest('.event');
+    const day = event?.querySelector('.event-date small')?.textContent ?? '';
+    const date = event?.querySelector('.event-date')?.firstChild.textContent.trim() ?? '';
+    document.getElementById('tickets-title').textContent = `${event?.querySelector('h3')?.textContent ?? 'Tickets'} · ${day} ${date}`;
+    document.getElementById('tickets-fallback').href = `https://t.rausgegangen.de/tickets/${slug}`;
+    body.innerHTML = '<p class="tickets-loading">Ticketshop lädt …</p>';
+    const s = document.createElement('script');
+    s.src = `https://t.rausgegangen.de/tickets/${slug}/external-loader.js`;
+    s.id = 'purchase-widget-loader';
+    s.dataset.layout = 'fullwidth';
+    body.appendChild(s);
+    dlg.showModal();
+  }));
+  dlg.querySelector('.tickets-close').addEventListener('click', () => dlg.close());
+  dlg.addEventListener('click', e => { if (e.target === dlg) dlg.close(); });
+  dlg.addEventListener('close', () => { body.innerHTML = ''; });
+}
+
 const year = document.getElementById('year');
 if (year) year.textContent = new Date().getFullYear();

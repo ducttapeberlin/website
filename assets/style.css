@@ -145,11 +145,15 @@ section { padding: clamp(72px, 11vw, 140px) 0; border-bottom: 1px solid var(--li
 .milestones strong { display: block; font-family: var(--display); font-weight: 400; font-size: 34px; line-height: 1; color: var(--yellow); margin-bottom: 8px; }
 .milestones span { display: block; font-size: 15px; line-height: 1.45; color: #BDBDB7; }
 @media (max-width: 860px) { .milestones { grid-template-columns: 1fr; gap: 0; } .milestones li { display: grid; grid-template-columns: 72px 1fr; gap: 12px; align-items: baseline; padding: 16px 0; border-bottom: 1px solid var(--line); } .milestones strong { font-size: 26px; margin: 0; } }
-.members { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: clamp(48px, 7vw, 88px); }
+.members { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: clamp(80px, 10vw, 140px); }
 .member { text-decoration: none; display: block; min-width: 0; }
-.member-photo { aspect-ratio: 4 / 5; background: var(--yellow); display: flex; align-items: flex-end; justify-content: center; overflow: hidden; }
-.member-photo img { height: 94%; width: auto; max-width: 100%; object-fit: contain; transform-origin: bottom center; transition: transform .4s ease; }
-.member:hover .member-photo img { transform: scale(1.04); }
+/* Porträt im gelben Rahmen; beim Hover (Handy: wenn mittig im Bild) tritt die Figur oben aus dem Rahmen */
+.member-photo { position: relative; aspect-ratio: 4 / 5; background: var(--yellow); }
+.member-clip { position: absolute; inset: 0; clip-path: inset(0); transition: clip-path .5s cubic-bezier(.2, .8, .2, 1); }
+.member-clip img { position: absolute; left: 50%; top: var(--top, 5%); height: var(--h, 210%); width: auto; max-width: none; transform: translateX(-50%); transform-origin: 50% 45%; transition: transform .5s cubic-bezier(.2, .8, .2, 1); }
+.member:hover .member-photo, .member.is-pop .member-photo { z-index: 2; }
+.member:hover .member-clip, .member.is-pop .member-clip { clip-path: inset(-45% -30% 0 -30%); }
+.member:hover .member-clip img, .member.is-pop .member-clip img { transform: translateX(-50%) translateY(-6%) scale(1.1); }
 .member-photo .ph { font-family: var(--display); font-size: 64px; color: #262626; }
 .member h3 { margin-top: 16px; }
 .member .handle { color: var(--yellow); font-weight: 600; font-size: 15px; }

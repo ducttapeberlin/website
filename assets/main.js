@@ -70,6 +70,12 @@ document.querySelectorAll('.service[data-images]').forEach(tile => {
   }
 });
 
+// Mitglieder: auf dem Handy tritt die Figur aus dem Rahmen, sobald die Karte mittig im Bild ist
+if (touch) {
+  document.querySelectorAll('.member').forEach(m => new IntersectionObserver(([e]) => m.classList.toggle('is-pop', e.isIntersecting),
+    { rootMargin: '-35% 0px -35% 0px' }).observe(m));
+}
+
 // Tickets: rausgegangen-Shop erst beim Klick laden (Datenschutz) und im Overlay anzeigen
 const dlg = document.getElementById('tickets');
 if (dlg) {

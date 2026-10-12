@@ -16,12 +16,28 @@ document.querySelectorAll('.event[data-date]').forEach(ev => {
   if (ev.dataset.date < today) ev.remove();
   else upcoming.push(ev);
 });
+const list = document.querySelector('.events');
+if (list && !upcoming.length && !list.querySelector('.events-empty')) {
+  list.insertAdjacentHTML('beforeend', '<li class="events-empty">Neue Termine folgen in Kürze.</li>');
+}
+// Lange Liste kürzen: erst 6 Termine, Rest per Button
+const SHOW = 6;
+if (list && upcoming.length > SHOW + 1) {
+  upcoming.slice(SHOW).forEach(ev => ev.classList.add('is-more'));
+  const more = document.createElement('button');
+  more.type = 'button';
+  more.className = 'btn btn-ghost events-more';
+  more.textContent = `Alle ${upcoming.length} Termine zeigen`;
+  more.addEventListener('click', () => { list.classList.add('show-all'); more.remove(); });
+  list.after(more);
+}
 const first = upcoming[0];
 const strip = document.getElementById('next-up');
 if (first && strip) {
   const tag = first.querySelector('.event-tag')?.textContent ?? '';
   const title = first.querySelector('h3')?.textContent ?? '';
-  document.getElementById('next-title').textContent = `Next: ${tag} – ${title}`;
+  const label = !tag || title.toLowerCase().includes(tag.toLowerCase()) ? title : `${tag} – ${title}`;
+  document.getElementById('next-title').textContent = `Next: ${label}`;
   document.getElementById('next-when').textContent = first.querySelector('.event-date')?.firstChild.textContent.trim() ?? '';
   strip.hidden = false;
 }

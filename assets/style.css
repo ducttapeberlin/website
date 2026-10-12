@@ -99,6 +99,9 @@ section { padding: clamp(72px, 11vw, 140px) 0; border-bottom: 1px solid var(--li
 .event h3 a { text-decoration: none; transition: color .2s ease; }
 .event h3 a:hover { color: var(--yellow); }
 .event h3 a::after { content: " ↗"; font-family: var(--body); font-size: .5em; vertical-align: super; color: var(--yellow); }
+.events:not(.show-all) .event.is-more { display: none; }
+.events-more { display: flex; width: fit-content; margin: 28px auto 0; }
+.events-empty { padding: 28px 0; color: var(--grey); border-bottom: 1px solid var(--line); }
 @media (max-width: 720px) {
   .event { grid-template-columns: 1fr; gap: 12px; }
 }

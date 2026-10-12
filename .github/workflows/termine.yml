@@ -1,0 +1,34 @@
+# Holt stündlich die Termine aus der Google-Tabelle "DUCT TAPE Termine (Website)" und schreibt sie in index.html.
+# Fehlende Eventseiten-Links werden auf der rausgegangen-Organizer-Seite gesucht.
+# Manuell starten: GitHub → Actions → "Termine aktualisieren" → Run workflow.
+name: Termine aktualisieren
+on:
+  schedule:
+    - cron: "23 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: termine
+jobs:
+  termine:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: rausgegangen-Organizer-Seite laden
+        continue-on-error: true
+        run: |
+          timeout 60 google-chrome --headless=new --no-sandbox --disable-gpu --virtual-time-budget=15000 \
+            --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0 Safari/537.36" \
+            --dump-dom https://rausgegangen.de/organizations/duct-tape/ > "$RUNNER_TEMP/rausgegangen.html" 2>/dev/null
+      - name: Termine aus der Google-Tabelle einsetzen
+        env:
+          RAUSGEGANGEN_HTML: ${{ runner.temp }}/rausgegangen.html
+        run: python3 scripts/termine.py
+      - name: Änderungen speichern
+        run: |
+          if git diff --quiet; then echo "Keine Änderungen"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Termine aus der Google-Tabelle aktualisiert"
+          git push

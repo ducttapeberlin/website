@@ -96,6 +96,9 @@ section { padding: clamp(72px, 11vw, 140px) 0; border-bottom: 1px solid var(--li
 .event-date small span { display: block; }
 .event-tag { display: inline-block; font-size: 12px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: var(--black); background: var(--yellow); padding: 3px 9px; border-radius: 4px; margin-bottom: 8px; }
 .event p { margin: 6px 0 0; color: #BDBDB7; }
+.event h3 a { text-decoration: none; transition: color .2s ease; }
+.event h3 a:hover { color: var(--yellow); }
+.event h3 a::after { content: " ↗"; font-family: var(--body); font-size: .5em; vertical-align: super; color: var(--yellow); }
 @media (max-width: 720px) {
   .event { grid-template-columns: 1fr; gap: 12px; }
 }
@@ -174,7 +177,7 @@ footer a:hover { color: var(--yellow); }
 
 /* Partner / Referenzen: Logos in weißen Kreisen, grau, beim Hover in Farbe */
 .partners-wrap { margin-top: clamp(56px, 8vw, 96px); }
-.partners { --cols: 7; --gap: clamp(12px, 2vw, 24px); list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: var(--gap); }
+.partners { --cols: 6; --gap: clamp(12px, 2vw, 24px); list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: var(--gap); }
 .partner { width: calc((100% - (var(--cols) - 1) * var(--gap)) / var(--cols)); max-width: 150px; aspect-ratio: 1; border-radius: 50%; background: var(--white); display: grid; place-items: center; }
 .partner img { max-width: 58%; max-height: 50%; object-fit: contain; filter: grayscale(1) contrast(1.1); opacity: .8; transition: filter .3s ease, opacity .3s ease, transform .3s ease; }
 .partner:hover img { filter: none; opacity: 1; transform: scale(1.06); }

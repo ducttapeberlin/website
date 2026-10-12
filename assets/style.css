@@ -146,10 +146,10 @@ section { padding: clamp(72px, 11vw, 140px) 0; border-bottom: 1px solid var(--li
 /* Porträt im gelben Rahmen; beim Hover (Handy: wenn mittig im Bild) tritt die Figur oben aus dem Rahmen */
 .member-photo { position: relative; aspect-ratio: 4 / 5; background: var(--yellow); }
 .member-clip { position: absolute; inset: 0; clip-path: inset(0); transition: clip-path .5s cubic-bezier(.2, .8, .2, 1); }
-.member-clip img { position: absolute; left: 50%; top: var(--top, 5%); height: var(--h, 210%); width: auto; max-width: none; transform: translateX(-50%); transform-origin: 50% 45%; transition: transform .5s cubic-bezier(.2, .8, .2, 1); }
+.member-clip img { position: absolute; left: 50%; top: var(--top, 5%); height: var(--h, 210%); width: auto; max-width: none; transform: translateX(-50%); transform-origin: 50% 45%; filter: grayscale(1) contrast(1.05); transition: transform .5s cubic-bezier(.2, .8, .2, 1), filter .4s ease; }
 .member:hover .member-photo, .member.is-pop .member-photo { z-index: 2; }
 .member:hover .member-clip, .member.is-pop .member-clip { clip-path: inset(-45% -30% 0 -30%); }
-.member:hover .member-clip img, .member.is-pop .member-clip img { transform: translateX(-50%) translateY(-6%) scale(1.1); }
+.member:hover .member-clip img, .member.is-pop .member-clip img { transform: translateX(-50%) translateY(-6%) scale(1.1); filter: none; }
 .member-photo .ph { font-family: var(--display); font-size: 64px; color: #262626; }
 .member h3 { margin-top: 16px; }
 .member .handle { color: var(--yellow); font-weight: 600; font-size: 15px; }

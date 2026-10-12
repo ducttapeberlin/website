@@ -97,8 +97,17 @@ section { padding: clamp(72px, 11vw, 140px) 0; border-bottom: 1px solid var(--li
 
 /* About + members */
 .about { max-width: 820px; }
-.about h2 { margin-bottom: 24px; }
+.about h2 { margin-bottom: 28px; }
+.about .lead { margin-bottom: 20px; }
 .about p:not(.kicker) { color: #D8D8D2; }
+.offer { margin-top: clamp(56px, 8vw, 96px); }
+.offer-list { list-style: none; margin: 0 0 40px; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); column-gap: clamp(24px, 4vw, 56px); }
+.offer-list li { border-top: 2px solid var(--yellow); padding: 20px 0 32px; }
+.offer-list h3 { font-size: clamp(24px, 2.6vw, 30px); }
+.offer-list p { margin: 10px 0 0; color: #BDBDB7; font-size: 16px; }
+@media (max-width: 900px) { .offer-list { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 600px) { .offer-list { grid-template-columns: 1fr; } }
+
 .members { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: clamp(48px, 7vw, 88px); }
 .member { text-decoration: none; display: block; }
 .member-photo { aspect-ratio: 4 / 5; background: linear-gradient(160deg, #1D1D1D, #111); border: 1px solid var(--line); display: grid; place-items: center; overflow: hidden; }

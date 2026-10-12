@@ -81,8 +81,18 @@
           </div>
           <a class="btn btn-ghost" href="https://www.opentable.de/booking/restref/availability?lang=de-DE&amp;restRef=514161&amp;dateTime=2026-11-15T12%3A00&amp;partySize=2" target="_blank" rel="noopener">Tisch reservieren</a>
         </li>
+        <li class="event" data-date="2026-12-04">
+          <div class="event-date">04.12.<small>Freitag</small></div>
+          <div>
+            <span class="event-tag">Show</span>
+            <h3>A Berlin Drag Queens Christmas Show</h3>
+            <p>Theater im Delphi · präsentiert von Anytime Studios · nur Berliner Artists</p>
+          </div>
+          <!-- rausgegangen-Ticket-Code hier einsetzen -->
+          <a class="btn btn-primary" href="#">Tickets</a>
+        </li>
         <li class="event" data-date="2026-12-05">
-          <div class="event-date">04.+05.12.<small>Fr + Sa</small></div>
+          <div class="event-date">05.12.<small>Samstag</small></div>
           <div>
             <span class="event-tag">Show</span>
             <h3>A Berlin Drag Queens Christmas Show</h3>
@@ -121,26 +131,35 @@
 
   <section id="about">
     <div class="wrap">
-      <div class="about-grid">
-        <div>
-          <p class="kicker">Über uns</p>
-          <h2>Was uns zusammenhält</h2>
-          <p class="lead" style="margin-top:24px">DUCT TAPE ist ein Berliner Drag-Kollektiv von EMI, Symba und Magda von Pfeffer. Wir verbinden Drag mit Theater, Comedy, Tanz, Musik, Camp und Fashion, und jede Produktion soll ein eigenes Erlebnis sein statt einer Abfolge von Nummern.</p>
+      <div class="about">
+        <p class="kicker">Über uns</p>
+        <h2>Das Kollektiv</h2>
+        <p class="lead" style="margin-top:24px">DUCT TAPE ist ein Berliner Drag-Kollektiv von EMI, Symba und Magda von Pfeffer. Wir verbinden Drag mit Theater, Comedy, Tanz, Musik, Camp und Fashion, und jede Produktion soll ein eigenes Erlebnis sein statt einer Abfolge von Nummern.</p>
           <p>Angefangen hat alles im September 2022 mit einer Show im Salöön am Holzmarkt, die sofort ausverkauft war. Seitdem feiern wir jedes Jahr Ende September unsere Birthday Show, spielen regelmäßig im Theater im Delphi, haben mit HOLY GLORY ein eigenes Drag-Weihnachtsmusical geschrieben und mit eBay die YouTube-Serie HOT STUFF gedreht. 2026 waren wir mit Gaysi Family und dem Goethe-Institut New Delhi auf Tour in Mumbai, New Delhi und Kolkata.</p>
           <p>Und der Name? Ohne Duct Tape hält in Drag nichts: keine Perücke, kein Kostüm, kein Tuck.</p>
-        </div>
-        <ul class="facts">
-          <li><b>2022</b><span>gegründet in Berlin</span></li>
-          <li><b>30.000</b><span>Menschen vor der CSD Mainstage 2025</span></li>
-          <li><b>25</b><span>Artists in unserer CSD-Produktion</span></li>
-          <li><b>2024</b><span>REMIX Popculture Icon Award</span></li>
-        </ul>
       </div>
 
-      <p class="kicker" style="margin-top:56px">Partner &amp; Kooperationen</p>
-      <ul class="partners">
-        <li>eBay</li><li>About You</li><li>Zalando</li><li>Lieferando</li><li>Lollapalooza</li><li>Tinder</li><li>No Cosmetics</li><li>Anytime Studios</li><li>Goethe-Institut New Delhi</li><li>Gaysi Family</li><li>Theater im Delphi</li><li>CSD Berlin</li><li>SCHWUZ</li><li>Ritter Butzke</li><li>Fritz-Kola</li>
-      </ul>
+      <div class="partners-wrap">
+        <p class="kicker">Partner &amp; Kooperationen</p>
+        <!-- Logos: SVG/PNG nach assets/img/partner/ legen und den Namen hier durch das Logo ersetzen -->
+        <ul class="partners">
+          <li class="partner partner-logo" title="eBay"><svg aria-hidden="true" fill="currentColor" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6.056 12.132v-4.92h1.2v3.026c.59-.703 1.402-.906 2.202-.906 1.34 0 2.828.904 2.828 2.855 0 .233-.015.457-.06.668.24-.953 1.274-1.305 2.896-1.344.51-.018 1.095-.018 1.56-.018v-.135c0-.885-.556-1.244-1.53-1.244-.72 0-1.245.3-1.305.81h-1.275c.136-1.29 1.5-1.62 2.686-1.62 1.064 0 1.995.27 2.415 1.02l-.436-.84h1.41l2.055 4.125 2.055-4.126H24l-3.72 7.305h-1.346l1.07-2.04-2.33-4.38c.13.255.2.555.2.93v2.46c0 .346.01.69.04 1.005H16.8a6.543 6.543 0 01-.046-.765c-.603.734-1.32.96-2.32.96-1.48 0-2.272-.78-2.272-1.695 0-.15.015-.284.037-.405-.3 1.246-1.36 2.086-2.767 2.086-.87 0-1.694-.315-2.2-.93 0 .24-.015.494-.04.734h-1.18c.02-.39.04-.855.04-1.245v-1.05h-4.83c.065 1.095.818 1.74 1.853 1.74.718 0 1.355-.3 1.568-.93h1.24c-.24 1.29-1.61 1.725-2.79 1.725C.95 15.009 0 13.822 0 12.232c0-1.754.982-2.91 3.116-2.91 1.688 0 2.93.886 2.94 2.806v.005zm9.137.183c-1.095.034-1.77.233-1.77.95 0 .465.36.97 1.305.97 1.26 0 1.935-.69 1.935-1.814v-.13c-.45 0-.99.006-1.484.022h.012zm-6.06 1.875c1.11 0 1.876-.806 1.876-2.02s-.768-2.02-1.893-2.02c-1.11 0-1.89.806-1.89 2.02s.765 2.02 1.875 2.02h.03zm-4.35-2.514c-.044-1.125-.854-1.546-1.725-1.546-.944 0-1.694.474-1.815 1.546z"/></svg><span class="sr">eBay</span></li>
+          <li class="partner" title="Tinder"><svg aria-hidden="true" fill="currentColor" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.317 9.451c.045.073.123.12.212.12.06 0 .116-.021.158-.057l.015-.012c.39-.325.741-.66 1.071-1.017 3.209-3.483 1.335-7.759 1.32-7.799-.09-.21-.03-.459.15-.594.195-.135.435-.12.615.033 10.875 10.114 7.995 17.818 7.785 18.337-.87 3.141-4.335 5.414-8.444 5.53-.138.008-.242.008-.363.008-4.852 0-8.977-2.989-8.977-6.807v-.06c0-5.297 4.795-10.522 5.009-10.744.136-.149.345-.195.525-.105.18.076.297.255.291.451-.043 1.036.167 1.935.631 2.7v.015l.002.001z"/></svg><span>Tinder</span></li>
+          <li class="partner" title="Zalando"><svg aria-hidden="true" fill="currentColor" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M5.27 24c-.88 0-1.36-.2-1.62-.36-.36-.21-1.02-.75-1.62-2.33A27.06 27.06 0 01.49 12c.02-3.66.59-6.76 1.54-9.3C2.63 1.1 3.29.56 3.65.35 3.91.21 4.39 0 5.27 0c.33 0 .72.03 1.18.1a26.1 26.1 0 018.7 3.3h.01a26.4 26.4 0 017.16 6.01c1.06 1.32 1.19 2.17 1.19 2.59 0 .42-.13 1.27-1.19 2.59a26.4 26.4 0 01-7.16 6h-.01a26.03 26.03 0 01-8.7 3.3c-.46.08-.85.11-1.18.11z"/></svg><span>Zalando</span></li>
+          <li class="partner"><span>About You</span></li>
+          <li class="partner"><span>Lieferando</span></li>
+          <li class="partner"><span>Lollapalooza</span></li>
+          <li class="partner"><span>No Cosmetics</span></li>
+          <li class="partner"><span>Fritz-Kola</span></li>
+          <li class="partner"><span>Anytime Studios</span></li>
+          <li class="partner"><span>Goethe-Institut</span></li>
+          <li class="partner"><span>Gaysi Family</span></li>
+          <li class="partner"><span>Theater im Delphi</span></li>
+          <li class="partner"><span>CSD Berlin</span></li>
+          <li class="partner"><span>SCHWUZ</span></li>
+          <li class="partner"><span>Ritter Butzke</span></li>
+        </ul>
+      </div>
 
       <div class="members">
         <a class="member" href="https://www.instagram.com/whatis.emi/" target="_blank" rel="noopener">

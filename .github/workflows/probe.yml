@@ -1,0 +1,25 @@
+name: Probe rausgegangen
+on:
+  push:
+    branches: [probe-rausgegangen]
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch organizer page
+        run: |
+          mkdir -p out
+          UA="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0 Safari/537.36"
+          curl -sSL -A "$UA" -o out/org-raw.html -w "%{http_code}\n" https://rausgegangen.de/organizations/duct-tape/ > out/status.txt || true
+          google-chrome --headless=new --no-sandbox --disable-gpu --virtual-time-budget=15000 --user-agent="$UA" --dump-dom https://rausgegangen.de/organizations/duct-tape/ > out/org-dom.html 2> out/chrome.log || true
+          ls -la out
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add out
+          git commit -m "Probe results"
+          git push

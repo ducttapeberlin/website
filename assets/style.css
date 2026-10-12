@@ -136,11 +136,11 @@ section { padding: clamp(72px, 11vw, 140px) 0; border-bottom: 1px solid var(--li
 }
 
 /* About + members */
-.about { max-width: 820px; }
+.about { max-width: 820px; margin-top: clamp(80px, 10vw, 140px); }
 .about h2 { margin-bottom: 28px; }
 .about .lead { margin-bottom: 20px; }
 .about p:not(.kicker) { color: #D8D8D2; }
-.members { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: clamp(80px, 10vw, 140px); }
+.members { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: clamp(56px, 7vw, 96px); }
 .member { text-decoration: none; display: block; min-width: 0; }
 #about { overflow-x: clip; }
 /* Porträt im gelben Rahmen; beim Hover (Handy: wenn mittig im Bild) tritt die Figur oben aus dem Rahmen */

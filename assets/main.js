@@ -26,5 +26,30 @@ if (first && strip) {
   strip.hidden = false;
 }
 
+// Leistungs-Kacheln: Bilder aus data-images laden, beim Hover (Handy: wenn sichtbar) als Slideshow abspielen
+const touch = window.matchMedia('(hover: none)').matches;
+document.querySelectorAll('.service[data-images]').forEach(tile => {
+  const srcs = tile.dataset.images.split(',').map(s => s.trim()).filter(Boolean);
+  if (!srcs.length) return;
+  const media = tile.querySelector('.service-media');
+  const imgs = srcs.map(src => {
+    const img = document.createElement('img');
+    img.src = src; img.alt = ''; img.loading = 'lazy';
+    media.appendChild(img);
+    return img;
+  });
+  let i = 0, timer = null;
+  imgs[0].classList.add('on');
+  const step = () => { imgs[i].classList.remove('on'); i = (i + 1) % imgs.length; imgs[i].classList.add('on'); };
+  const play = () => { tile.classList.add('playing'); if (!timer && imgs.length > 1) { step(); timer = setInterval(step, 1400); } };
+  const stop = () => { tile.classList.remove('playing'); clearInterval(timer); timer = null; };
+  if (touch) {
+    new IntersectionObserver(([e]) => e.isIntersecting ? play() : stop(), { threshold: .6 }).observe(tile);
+  } else {
+    tile.addEventListener('mouseenter', play);
+    tile.addEventListener('mouseleave', stop);
+  }
+});
+
 const year = document.getElementById('year');
 if (year) year.textContent = new Date().getFullYear();

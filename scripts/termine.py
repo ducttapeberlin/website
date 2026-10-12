@@ -162,10 +162,15 @@ def main():
     if len(sys.argv) > 1:
         text = Path(sys.argv[1]).read_text(encoding="utf-8")
     else:
-        with urllib.request.urlopen(CSV_URL, timeout=30) as r:
-            text = r.read().decode("utf-8")
+        try:
+            with urllib.request.urlopen(CSV_URL, timeout=30) as r:
+                text = r.read().decode("utf-8")
+        except OSError as e:
+            text = f"<{e}>"
     if text.lstrip().startswith("<"):
-        sys.exit("Die Tabelle ist nicht öffentlich lesbar (Teilen → Jeder mit dem Link → Betrachter).")
+        # Warnung statt Fehler: die Website bleibt unverändert, und GitHub verschickt nicht stündlich Fehler-Mails.
+        print("::warning::Tabelle nicht lesbar (Teilen → Jeder mit dem Link → Betrachter). Termine bleiben unverändert.")
+        return
 
     today = dt.datetime.now(ZoneInfo("Europe/Berlin")).date()
     rows = [{(k or "").strip(): (v or "") for k, v in r.items()} for r in csv.DictReader(io.StringIO(text))]

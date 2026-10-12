@@ -136,8 +136,9 @@ section { padding: clamp(56px, 8vw, 104px) 0; border-bottom: 1px solid var(--lin
 }
 
 /* About + members */
-.about { max-width: 820px; margin-top: clamp(48px, 6vw, 80px); }
-.about h2 { margin-bottom: 20px; font-size: clamp(32px, 4.4vw, 52px); }
+.about { max-width: 820px; margin-top: clamp(32px, 4vw, 48px); }
+.about h2 { margin-bottom: 20px; font-size: clamp(30px, 4.4vw, 52px); }
+@media (min-width: 560px) { .about h2 { white-space: nowrap; } }
 .about-title { color: var(--yellow); }
 .about .lead { margin-bottom: 20px; }
 .about p:not(.kicker) { color: #D8D8D2; }

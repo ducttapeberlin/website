@@ -117,8 +117,7 @@ section { padding: clamp(72px, 11vw, 140px) 0; border-bottom: 1px solid var(--li
 .featured-dates li { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 16px 16px 16px 22px; border-radius: 16px; background: rgba(255, 255, 255, .07); backdrop-filter: blur(2px); }
 .featured-dates strong { display: block; font-family: var(--display); font-weight: 400; font-size: 30px; line-height: 1; text-transform: uppercase; }
 .featured-dates small { display: block; margin-top: 6px; font-size: 13px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: #CFCFC8; }
-.featured-dates .event-doors { opacity: .55; }
-.featured-dates .event-doors::before { content: " · "; }
+.featured-dates .event-doors { display: block; opacity: .55; }
 .featured .btn-primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
 
 /* Thema Weihnachten: Tannengrün, Rot, Gold, leichter Schnee und ein Zuckerstangen-Tape oben */
@@ -215,4 +214,4 @@ footer a:hover { color: var(--yellow); }
 .partner img { max-width: 58%; max-height: 50%; object-fit: contain; filter: grayscale(1) contrast(1.1); opacity: .8; transition: filter .3s ease, opacity .3s ease, transform .3s ease; }
 .partner:hover img { filter: none; opacity: 1; transform: scale(1.06); }
 @media (max-width: 720px) { .partners { --cols: 3; } }
-@media (max-width: 760px) { .featured { grid-template-columns: 1fr; } .featured-dates li { padding-left: 18px; } .featured-dates strong { font-size: 26px; } .featured-dates .event-doors { display: block; } .featured-dates .event-doors::before { content: none; } }
+@media (max-width: 760px) { .featured { grid-template-columns: 1fr; } .featured-dates li { padding-left: 18px; } .featured-dates strong { font-size: 26px; } }

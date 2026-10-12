@@ -124,7 +124,7 @@ def render(row):
     elif begin:
         meta.append(f"<span>ab {hour(begin)} Uhr</span>")
     if doors:
-        meta.append(f"<span>Einlass {hour(doors)} Uhr</span>")
+        meta.append(f'<span class="event-doors">Einlass {hour(doors)} Uhr</span>')
 
     page = (row.get("Eventseite") or "").strip()
     h3 = link(page, title) if page.startswith("http") else esc(title)

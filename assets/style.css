@@ -92,6 +92,8 @@ section { padding: clamp(72px, 11vw, 140px) 0; border-bottom: 1px solid var(--li
 .event { display: grid; grid-template-columns: 140px 1fr auto; gap: 24px; align-items: center; padding: 28px 0; border-bottom: 1px solid var(--line); }
 .event-date { font-family: var(--display); font-size: 44px; line-height: .9; color: var(--yellow); text-transform: uppercase; }
 .event-date small { display: block; font-family: var(--body); font-size: 13px; font-weight: 600; letter-spacing: .12em; color: var(--grey); margin-top: 6px; }
+.event-date small { line-height: 1.5; }
+.event-date small span { display: block; }
 .event-tag { display: inline-block; font-size: 12px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: var(--black); background: var(--yellow); padding: 3px 9px; border-radius: 4px; margin-bottom: 8px; }
 .event p { margin: 6px 0 0; color: #BDBDB7; }
 @media (max-width: 720px) {

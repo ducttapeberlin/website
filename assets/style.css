@@ -57,10 +57,10 @@ h3 { font-size: clamp(26px, 3.2vw, 34px); }
 /* Hero: Foto mit Verlauf ins Schwarze, Logo links. Beim Hover übers Logo kommt das Foto nach vorn. */
 .hero { position: relative; min-height: min(88svh, 820px); display: flex; align-items: flex-end; background: var(--black); overflow: hidden; }
 .hero-media { position: absolute; inset: 0; background: radial-gradient(1200px 600px at 75% 20%, rgba(239,202,0,.16), transparent 60%), linear-gradient(180deg, #151515, #0B0B0B); }
-.hero-media img { width: 100%; height: 100%; object-fit: cover; object-position: center 25%; opacity: .6; filter: saturate(.9); transform: scale(1.02); transition: opacity .6s ease, transform 1.2s cubic-bezier(.2,.7,.2,1), filter .6s ease; }
-.hero-media::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(11,11,11,.95) 0%, rgba(11,11,11,.7) 35%, rgba(11,11,11,0) 75%), linear-gradient(0deg, rgba(11,11,11,1) 0%, rgba(11,11,11,0) 45%); transition: opacity .6s ease; }
+.hero-media img { position: absolute; right: 0; top: 0; width: 65%; height: 100%; object-fit: cover; object-position: center 18%; opacity: .75; filter: saturate(.9); transform: scale(1.02); transition: opacity .6s ease, transform 1.2s cubic-bezier(.2,.7,.2,1), filter .6s ease; }
+.hero-media::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(11,11,11,1) 0%, rgba(11,11,11,1) 35%, rgba(11,11,11,.55) 55%, rgba(11,11,11,0) 80%), linear-gradient(0deg, rgba(11,11,11,1) 0%, rgba(11,11,11,0) 30%); transition: opacity .6s ease; }
 .hero:has(.hero-logo:hover) .hero-media img { opacity: 1; filter: saturate(1.05); transform: scale(1.06); }
-.hero:has(.hero-logo:hover) .hero-media::after { opacity: .55; }
+.hero:has(.hero-logo:hover) .hero-media::after { opacity: .8; }
 .hero .wrap { position: relative; padding-bottom: clamp(40px, 8vh, 88px); width: 100%; }
 .hero h1 { margin: 0; line-height: 0; }
 .hero-logo { width: clamp(200px, 30vw, 380px); height: auto; transition: transform .4s cubic-bezier(.2,.7,.2,1), filter .4s ease; cursor: pointer; }
@@ -68,6 +68,8 @@ h3 { font-size: clamp(26px, 3.2vw, 34px); }
 .hero p { margin: 22px 0 30px; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; }
 @media (max-width: 720px) {
+  .hero { min-height: 92svh; }
+  .hero-media img { width: 100%; object-position: center 10%; }
   .hero-media::after { background: linear-gradient(0deg, rgba(11,11,11,1) 0%, rgba(11,11,11,.75) 50%, rgba(11,11,11,.2) 100%); }
 }
 

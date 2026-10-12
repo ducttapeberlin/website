@@ -177,7 +177,9 @@ section { padding: clamp(72px, 11vw, 140px) 0; border-bottom: 1px solid var(--li
 .split .yellow { background: var(--yellow); color: var(--black); }
 .split .yellow .kicker { color: var(--black); }
 .split .yellow .lead { color: #222; }
-.mail { font-family: var(--display); font-size: clamp(28px, 4vw, 44px); text-decoration: none; color: var(--yellow); word-break: break-word; }
+.split > div { container-type: inline-size; }
+.mail { display: inline-block; font-family: var(--display); font-size: min(44px, 9cqi); white-space: nowrap; text-decoration: none; color: var(--yellow); border-bottom: 2px solid transparent; transition: border-color .2s ease; }
+.mail:hover { border-bottom-color: var(--yellow); }
 .nl-form { display: flex; gap: 8px; margin-top: 24px; flex-wrap: wrap; }
 .nl-form input { flex: 1 1 220px; padding: 14px 18px; border-radius: 999px; border: 2px solid var(--black); background: transparent; font: 600 16px var(--body); color: var(--black); }
 .nl-form input::placeholder { color: #5a5000; }

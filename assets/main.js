@@ -58,7 +58,7 @@ if (dlg) {
   document.querySelectorAll('[data-tickets]').forEach(btn => btn.addEventListener('click', () => {
     const slug = btn.dataset.tickets;
     const event = btn.closest('.event');
-    const day = event?.querySelector('.event-date small')?.textContent ?? '';
+    const day = (event?.querySelector('.event-date small span') ?? event?.querySelector('.event-date small'))?.textContent ?? '';
     const date = event?.querySelector('.event-date')?.firstChild.textContent.trim() ?? '';
     document.getElementById('tickets-title').textContent = `${event?.querySelector('h3')?.textContent ?? 'Tickets'} · ${day} ${date}`;
     document.getElementById('tickets-fallback').href = `https://t.rausgegangen.de/tickets/${slug}`;

@@ -122,10 +122,16 @@ document.querySelectorAll('.offer[data-images]').forEach(tile => {
   first.classList.add('on');
   const step = () => { imgs[i].classList.remove('on'); i = (i + 1) % imgs.length; imgs[i].classList.add('on'); };
   new IntersectionObserver(([e]) => {
-    if (e.isIntersecting && !timer) timer = setInterval(step, 2600);
+    if (e.isIntersecting && !timer) timer = setInterval(step, 1400);
     else if (!e.isIntersecting) { clearInterval(timer); timer = null; }
   }, { threshold: .5 }).observe(tile);
 });
+
+// Leistungen auf dem Handy: die Kachel in der Bildmitte tritt nach vorne
+if (touch) {
+  document.querySelectorAll('.offer').forEach(o => new IntersectionObserver(([e]) => o.classList.toggle('is-pop', e.isIntersecting),
+    { rootMargin: '-40% 0px -40% 0px' }).observe(o));
+}
 
 // Mitglieder: auf dem Handy tritt die Figur aus dem Rahmen, sobald die Karte mittig im Bild ist
 if (touch) {

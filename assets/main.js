@@ -51,9 +51,11 @@ document.querySelectorAll('.service[data-images]').forEach(tile => {
   const srcs = tile.dataset.images.split(',').map(s => s.trim()).filter(Boolean);
   if (!srcs.length) return;
   const media = tile.querySelector('.service-media');
-  const imgs = srcs.map(src => {
+  const imgs = srcs.map(entry => {
+    const [src, pos] = entry.split('@').map(s => s.trim());
     const img = document.createElement('img');
     img.src = src; img.alt = ''; img.loading = 'lazy';
+    if (pos) img.style.objectPosition = pos;
     media.appendChild(img);
     return img;
   });

@@ -173,21 +173,24 @@ section { padding: clamp(56px, 8vw, 104px) 0; border-bottom: 1px solid var(--lin
 @media (max-width: 1000px) { .services { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 560px) { .services { grid-template-columns: 1fr; } .service { aspect-ratio: 4 / 3; } }
 
-/* Booking-Kachel: Text links, rechts ein Porträtrahmen, in dem die Fotos ungeschnitten durchlaufen */
-.service.service-wide { aspect-ratio: auto; display: grid; grid-template-columns: 1.3fr 1fr; align-items: center; gap: clamp(20px, 3vw, 40px); padding: clamp(20px, 3vw, 32px); }
-.service-wide::after { display: none; }
-.service-wide .service-body { padding: clamp(4px, 2vw, 24px); }
-.service-wide h2 { margin-bottom: 8px; }
-.service-wide .kicker { color: var(--yellow); font-size: 13px; margin-bottom: 18px; }
+/* Booking-Kachel: Fotos laufen als Hintergrund, rechts angeschnitten und nach links ins Dunkle verlaufend.
+   Bildausschnitt pro Foto über data-images ("pfad @ x y"), damit Gesichter im Bild bleiben. */
+.booking-title { color: var(--yellow); margin-bottom: clamp(20px, 3vw, 32px); }
+.service.service-wide { aspect-ratio: auto; min-height: clamp(400px, 40vw, 540px); align-items: center; }
+.service-wide .service-media { left: 32%; }
+.service-wide .service-media img { transform: none; transition: opacity .6s ease; }
+.service-wide .service-media img.on { opacity: .75; }
+.service-wide:hover .service-media img.on, .service-wide.playing .service-media img.on { opacity: 1; }
+.service-wide::after { background: linear-gradient(90deg, #111 0%, #111 32%, rgba(17,17,17,.75) 45%, rgba(17,17,17,0) 70%); }
+.service-wide .service-body { max-width: 560px; padding: clamp(24px, 4vw, 56px); }
+.service-wide .kicker { color: var(--yellow); font-size: 13px; margin-bottom: 14px; }
 .service-wide .service-body > p:not(.kicker) { font-size: 17px; margin: 0 0 24px; color: #E4E4DE; }
 .service-wide .hero-actions { flex-wrap: wrap; }
-.service-wide .service-media { position: relative; inset: auto; aspect-ratio: 4 / 5; max-height: 460px; width: 100%; justify-self: end; background: #111; overflow: hidden; }
-.service-wide .service-media img { object-fit: contain; transform: none; transition: opacity .35s ease; }
-.service-wide .service-media img.on { opacity: .9; }
-.service-wide:hover .service-media img.on, .service-wide.playing .service-media img.on { opacity: 1; }
 @media (max-width: 760px) {
-  .service.service-wide { grid-template-columns: 1fr; }
-  .service-wide .service-media { max-height: 300px; justify-self: stretch; }
+  .service.service-wide { min-height: 0; align-items: flex-end; }
+  .service-wide .service-media { left: 0; bottom: auto; height: 340px; }
+  .service-wide::after { background: linear-gradient(0deg, #111 0%, #111 calc(100% - 340px), rgba(17,17,17,.6) calc(100% - 240px), rgba(17,17,17,0) calc(100% - 140px)); }
+  .service-wide .service-body { padding: 300px 22px 26px; }
 }
 
 /* Booking + newsletter */

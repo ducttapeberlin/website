@@ -204,3 +204,23 @@ if (reels) {
   reels.addEventListener('click', e => { if (e.target === reels) reels.close(); });
   reels.addEventListener('close', () => { body.innerHTML = ''; });
 }
+
+// Newsletter-Anmeldung an Brevo schicken, ohne die Seite zu verlassen
+const nlForm = document.getElementById('nl-form');
+if (nlForm) {
+  const msg = document.getElementById('nl-msg');
+  nlForm.addEventListener('submit', async e => {
+    e.preventDefault();
+    const btn = nlForm.querySelector('button');
+    btn.disabled = true;
+    try {
+      await fetch(nlForm.action + '?isAjax=1', { method: 'POST', body: new FormData(nlForm), mode: 'no-cors' });
+      msg.textContent = 'Fast geschafft! Bitte bestätige deine Anmeldung über den Link in der Mail, die wir dir gerade geschickt haben.';
+      nlForm.style.display = 'none';
+    } catch {
+      msg.textContent = 'Deine Anmeldung konnte nicht gespeichert werden. Bitte versuche es erneut.';
+      btn.disabled = false;
+    }
+    msg.hidden = false;
+  });
+}

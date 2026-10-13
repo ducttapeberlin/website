@@ -360,7 +360,8 @@ footer a:hover { color: var(--yellow); }
 .newsletter .lead { color: #222; }
 .newsletter .split-title { font-size: min(64px, 9cqi); }
 .newsletter .split-lead { margin: 18px 0 0; }
-.newsletter .nl-form { margin-top: 0; }
+.newsletter .nl-form { margin-top: 0; position: relative; }
+.nl-msg { margin: 0 0 12px; font-weight: 700; font-size: 18px; line-height: 1.45; color: var(--black); }
 .booking-mail { font-weight: 700; white-space: nowrap; color: var(--yellow); text-decoration: none; border-bottom: 1px solid transparent; transition: border-color .2s ease; }
 .booking-mail:hover { border-bottom-color: var(--yellow); }
 @media (max-width: 820px) { .newsletter { grid-template-columns: 1fr; } .newsletter .split-title { font-size: min(64px, 15cqi); } }

@@ -288,11 +288,14 @@
           <p class="lead split-lead">Neue Events, exklusiver Vorverkauf und Special Deals direkt in dein Postfach.</p>
         </div>
         <div>
-          <!-- Brevo-Formular hier einsetzen -->
-          <form class="nl-form" onsubmit="return false">
-            <input type="email" placeholder="deine@mail.de" aria-label="E-Mail-Adresse">
+          <!-- Brevo-Anmeldeformular (Liste "DUCT TAPE", Double-Opt-in; Bestätigungslink führt auf newsletter-bestaetigt.html) -->
+          <form class="nl-form" id="nl-form" method="POST" action="https://1df5a1c1.sibforms.com/serve/MUIFAL95FQPDX7oHegyDlrr5DwIKd9XfQPEBQ1IF6MBiIyrbekF1udJoqwIYg1CYyzp_fpdvKC9YsToGDo74IQmOqd-jDDFU8tYOo1hu5BEBa00IcPoWlypTKLcf71Pi5lDBMgEWcXwiHZkTLIkzv0zeitmzjjrzwFy6isEUAdqM5cO7Oe888wFmi1jGtiGVbjdMBQBRF24-2HYc">
+            <input type="email" name="EMAIL" required placeholder="deine@mail.de" aria-label="E-Mail-Adresse" autocomplete="email">
+            <input type="text" name="email_address_check" value="" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px">
+            <input type="hidden" name="locale" value="de">
             <button class="btn" type="submit">Anmelden</button>
           </form>
+          <p class="nl-msg" id="nl-msg" role="status" hidden></p>
           <p class="small">Abmeldung jederzeit möglich. Details in der <a href="datenschutz.html">Datenschutzerklärung</a>.</p>
         </div>
       </div>

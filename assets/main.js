@@ -106,7 +106,7 @@ document.querySelectorAll('.service[data-images]').forEach(tile => {
 
 // Leistungen-Seite: Kacheln mit mehreren Bildern laufen beim Drüberfahren als Slideshow durch
 document.querySelectorAll('.offer[data-images]').forEach(tile => {
-  const media = tile.querySelector('.offer-media');
+  const media = tile.querySelector('.offer-frame');
   const first = media.querySelector('img');
   const imgs = [first, ...tile.dataset.images.split(',').map(s => s.trim()).filter(Boolean).slice(1).map(entry => {
     const [src, pos] = entry.split('@').map(s => s.trim());

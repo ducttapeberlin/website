@@ -237,11 +237,12 @@ footer a:hover { color: var(--yellow); }
 
 /* Partner / Referenzen: Logos in weißen Kreisen, grau, beim Hover in Farbe */
 .partners-wrap { margin-top: clamp(40px, 5vw, 64px); }
-.partners { --cols: 6; --gap: clamp(12px, 2vw, 24px); list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: var(--gap); }
-.partner { width: calc((100% - (var(--cols) - 1) * var(--gap)) / var(--cols)); max-width: 150px; aspect-ratio: 1; border-radius: 50%; background: var(--white); display: grid; place-items: center; }
-.partner img { max-width: 58%; max-height: 50%; object-fit: contain; filter: grayscale(1) contrast(1.1); opacity: .8; transition: filter .3s ease, opacity .3s ease, transform .3s ease; }
+.partners { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(12, 1fr); gap: clamp(8px, 1.2vw, 16px); }
+.partner { aspect-ratio: 1; border-radius: 50%; background: var(--white); display: grid; place-items: center; }
+.partner img { max-width: 62%; max-height: 52%; object-fit: contain; filter: grayscale(1) contrast(1.1); opacity: .8; transition: filter .3s ease, opacity .3s ease, transform .3s ease; }
 .partner:hover img { filter: none; opacity: 1; transform: scale(1.06); }
-@media (max-width: 720px) { .partners { --cols: 3; } }
+@media (max-width: 1000px) { .partners { grid-template-columns: repeat(6, 1fr); } }
+@media (max-width: 560px) { .partners { grid-template-columns: repeat(4, 1fr); } }
 @media (max-width: 760px) { .featured { grid-template-columns: 1fr; } .featured-dates li { padding-left: 18px; } .featured-dates strong { font-size: 26px; } }
 
 /* Unterseite Leistungen */

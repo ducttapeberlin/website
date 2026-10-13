@@ -1,3 +1,7 @@
+// Sprache der Seite: Texte, die das Skript selbst einsetzt, gibt es auf Deutsch und Englisch
+const EN = document.documentElement.lang === 'en';
+const t = (de, en) => EN ? en : de;
+
 // Unterseiten immer oben öffnen (der Browser übernimmt sonst teils die Scrollposition der vorigen Seite)
 if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
 if (!location.hash) window.scrollTo(0, 0);
@@ -23,7 +27,7 @@ document.querySelectorAll('.featured').forEach(f => { if (!f.querySelector('.fea
 const upcoming = [...document.querySelectorAll('.event[data-date]')];
 const list = document.querySelector('.events');
 if (list && !upcoming.length && !document.querySelector('.featured') && !list.querySelector('.events-empty')) {
-  list.insertAdjacentHTML('beforeend', '<li class="events-empty">Neue Termine folgen in Kürze.</li>');
+  list.insertAdjacentHTML('beforeend', `<li class="events-empty">${t('Neue Termine folgen in Kürze.', 'New dates coming soon.')}</li>`);
 }
 // Lange Liste kürzen: neben dem Featured-Event erst 4 Termine, "Weitere Termine" zeigt 4 mehr,
 // danach führt "Alle Termine anzeigen" auf die Termine-Seite mit Postern und Beschreibungen
@@ -33,14 +37,14 @@ if (list && upcoming.length) {
   actions.className = 'events-actions';
   const all = document.createElement('a');
   all.className = 'btn btn-ghost events-more';
-  all.href = 'termine.html';
-  all.textContent = 'Alle Termine anzeigen';
+  all.href = t('termine.html', 'dates.html');
+  all.textContent = t('Alle Termine anzeigen', 'See all dates');
   if (upcoming.length > SHOW) {
     upcoming.slice(SHOW).forEach(ev => ev.classList.add('is-more'));
     const more = document.createElement('button');
     more.type = 'button';
     more.className = 'btn btn-ghost events-more';
-    more.textContent = 'Weitere Termine anzeigen';
+    more.textContent = t('Weitere Termine anzeigen', 'Show more dates');
     more.addEventListener('click', () => {
       upcoming.filter(ev => ev.classList.contains('is-more')).slice(0, SHOW).forEach(ev => ev.classList.remove('is-more'));
       more.replaceWith(all);
@@ -151,7 +155,7 @@ if (dlg) {
     const slug = btn.dataset.tickets;
     document.getElementById('tickets-title').textContent = btn.dataset.label ?? 'Tickets';
     document.getElementById('tickets-fallback').href = `https://t.rausgegangen.de/tickets/${slug}`;
-    body.innerHTML = '<p class="tickets-loading">Ticketshop lädt …</p>';
+    body.innerHTML = `<p class="tickets-loading">${t('Ticketshop lädt …', 'Loading ticket shop …')}</p>`;
     const s = document.createElement('script');
     s.src = `https://t.rausgegangen.de/tickets/${slug}/external-loader.js`;
     s.id = 'purchase-widget-loader';
@@ -172,7 +176,7 @@ document.querySelectorAll('.tevent-desc details').forEach(d => {
   const close = document.createElement('button');
   close.type = 'button';
   close.className = 'tevent-less';
-  close.textContent = 'Weniger anzeigen';
+  close.textContent = t('Weniger anzeigen', 'Show less');
   close.addEventListener('click', () => {
     d.open = false;
     const card = d.closest('.tevent');
@@ -192,11 +196,11 @@ if (reels) {
     const ig = (btn.dataset.reels || '').split(' ').filter(Boolean).map((id, n) =>
       `<figure class="reel">${titles[n] ? `<figcaption class="reels-label">${titles[n]}</figcaption>` : ''}` +
       `<div class="reel-frame"><iframe src="https://www.instagram.com/reel/${id}/embed/" scrolling="no" allowfullscreen title="${titles[n] || 'Instagram-Video'}"></iframe></div>` +
-      `<a href="https://www.instagram.com/reel/${id}/" target="_blank" rel="noopener">Mehr auf Instagram ↗</a></figure>`).join('');
+      `<a href="https://www.instagram.com/reel/${id}/" target="_blank" rel="noopener">${t('Mehr auf Instagram', 'More on Instagram')} ↗</a></figure>`).join('');
     body.innerHTML = (yt ? `<h3 class="reels-label">eBay · hot stuff</h3>` +
-      `<p class="reels-desc">Talkshow-Reihe auf YouTube, umgesetzt von DUCT TAPE in Kooperation mit eBay.</p>` +
+      `<p class="reels-desc">${t('Talkshow-Reihe auf YouTube, umgesetzt von DUCT TAPE in Kooperation mit eBay.', 'YouTube talk show series, produced by DUCT TAPE in collaboration with eBay.')}</p>` +
       `<div class="yt-grid">${yt}</div>` +
-      (btn.dataset.playlist ? `<a class="reels-more" href="https://www.youtube.com/playlist?list=${btn.dataset.playlist}" target="_blank" rel="noopener">Alle Folgen auf YouTube ↗</a>` : '') : '') +
+      (btn.dataset.playlist ? `<a class="reels-more" href="https://www.youtube.com/playlist?list=${btn.dataset.playlist}" target="_blank" rel="noopener">${t('Alle Folgen auf YouTube', 'All episodes on YouTube')} ↗</a>` : '') : '') +
       (ig ? `<div class="reels-grid">${ig}</div>` : '');
     reels.showModal();
   }));
@@ -215,13 +219,13 @@ if (nlForm) {
     btn.disabled = true;
     try {
       await fetch(nlForm.action + '?isAjax=1', { method: 'POST', body: new FormData(nlForm), mode: 'no-cors' });
-      msg.textContent = 'Fast geschafft! Bitte bestätige deine Anmeldung über den Link in der Mail, die wir dir gerade geschickt haben.';
+      msg.textContent = t('Fast geschafft! Bitte bestätige deine Anmeldung über den Link in der Mail, die wir dir gerade geschickt haben.', 'Almost there! Please confirm your subscription via the link in the email we just sent you.');
       nlForm.style.display = 'none';
     } catch {
       // Falls der direkte Versand blockiert ist: normal an Brevo schicken (öffnet Brevos Bestätigung in neuem Tab)
       nlForm.target = '_blank';
       HTMLFormElement.prototype.submit.call(nlForm);
-      msg.textContent = 'Fast geschafft! Bitte bestätige deine Anmeldung über den Link in der Mail, die wir dir gerade geschickt haben.';
+      msg.textContent = t('Fast geschafft! Bitte bestätige deine Anmeldung über den Link in der Mail, die wir dir gerade geschickt haben.', 'Almost there! Please confirm your subscription via the link in the email we just sent you.');
       nlForm.style.display = 'none';
     }
     msg.hidden = false;

@@ -1,5 +1,6 @@
 """Holt alle DUCT TAPE Events von rausgegangen und schreibt sie in index.html (zwischen EVENTS:START und EVENTS:END)
-und mit Poster und Beschreibung in termine.html (zwischen ALL:START und ALL:END).
+und mit Poster und Beschreibung in termine.html (zwischen ALL:START und ALL:END), dasselbe auf Englisch in
+en/index.html und en/dates.html. Die Eventbeschreibungen bleiben, wie sie auf rausgegangen stehen.
 
 Läuft stündlich über .github/workflows/termine.yml. Quelle ist die Organizer-Seite (gerendertes HTML in
 $RAUSGEGANGEN_HTML) und die Eventseiten dahinter (JSON-LD). Was rausgegangen nicht hergibt (Featured, Einlass,
@@ -25,6 +26,8 @@ ORGANIZER = "https://rausgegangen.de/organizations/duct-tape/"
 ROOT = Path(__file__).resolve().parent.parent
 INDEX = ROOT / "index.html"
 TERMINE = ROOT / "termine.html"
+EN_INDEX = ROOT / "en" / "index.html"
+EN_TERMINE = ROOT / "en" / "dates.html"
 POSTERS = ROOT / "assets" / "img" / "termine"
 CACHE = Path(__file__).resolve().parent / "termine-details.json"
 CONFIG = Path(__file__).resolve().parent / "termine-config.json"
@@ -39,7 +42,19 @@ MONTH_NAMES = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "Au
 WEEKDAYS = ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"]
 MONTHS = {"jan": 1, "feb": 2, "mär": 3, "mar": 3, "apr": 4, "mai": 5, "may": 5, "jun": 6, "jul": 7,
           "aug": 8, "sep": 9, "okt": 10, "oct": 10, "nov": 11, "dez": 12, "dec": 12}
-OPENTABLE = "https://www.opentable.de/booking/restref/availability?lang=de-DE&restRef=514161&dateTime={date}T{time}&partySize=2"
+OPENTABLE = "https://www.opentable.de/booking/restref/availability?lang={lang}&restRef=514161&dateTime={date}T{time}&partySize=2"
+
+# Texte je Sprache; L ist die gerade erzeugte Sprache (main() schaltet um)
+DE = {"weekdays": WEEKDAYS, "wd_short": 2, "months": MONTH_NAMES, "guest": "Special Guest", "guests": "Special Guests",
+      "with": "mit", "and": "und", "doors": "Einlass", "table": "Tisch reservieren", "event_page": "Eventseite",
+      "more": "Weiterlesen", "empty": "Neue Termine folgen in Kürze.", "opentable": "de-DE", "prefix": ""}
+EN = {"weekdays": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], "wd_short": 3,
+      "months": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October",
+                 "November", "December"],
+      "guest": "Special Guest", "guests": "Special Guests", "with": "with", "and": "and", "doors": "Doors",
+      "table": "Book a table", "event_page": "Event page", "more": "Read more", "empty": "New dates coming soon.",
+      "opentable": "en-GB", "prefix": "../"}
+L = DE
 
 
 def esc(s):
@@ -80,10 +95,10 @@ def guests(s):
     if not out:
         return ""
     if len(out) == 1:
-        return f"Special Guest {out[0]}"
+        return f"{L['guest']} {out[0]}"
     if len(out) == 2:
-        return f"Special Guests {out[0]} &amp; {out[1]}"
-    return f"mit {', '.join(out[:-1])} und {out[-1]}"
+        return f"{L['guests']} {out[0]} &amp; {out[1]}"
+    return f"{L['with']} {', '.join(out[:-1])} {L['and']} {out[-1]}"
 
 
 def ticket_slug(s):
@@ -94,10 +109,20 @@ def ticket_slug(s):
     return s if re.fullmatch(r"[a-z0-9-]+", s) else None
 
 
+def hour_en(t, suffix=True):
+    """(19, 30) -> '7:30 pm'."""
+    h = t[0] % 12 or 12
+    return (f"{h}" if t[1] == 0 else f"{h}:{t[1]:02d}") + ((" am" if t[0] < 12 else " pm") if suffix else "")
+
+
 def when(row):
     """Datum, Wochentag und Zeiten einer Zeile."""
     date = parse_date(row.get("Datum"))
     begin, end, doors = (parse_time(row.get(k)) for k in ("Beginn", "Ende", "Einlass"))
+    if L is EN:
+        same = begin and end and (begin[0] < 12) == (end[0] < 12)
+        time = (f"{hour_en(begin, not same)}–{hour_en(end)}" if begin and end else f"from {hour_en(begin)}" if begin else "")
+        return date, begin, time, f"{L['doors']} {hour_en(doors)}" if doors else ""
     time = f"{hour(begin)}–{hour(end)} Uhr" if begin and end else f"ab {hour(begin)} Uhr" if begin else ""
     return date, begin, time, f"Einlass {hour(doors)} Uhr" if doors else ""
 
@@ -123,19 +148,19 @@ def button(row):
     slug = ticket_slug(row.get("Tickets"))
     booking = (row.get("Reservierung") or "").strip()
     if slug:
-        label = f"{(row.get('Titel') or '').strip()} · {WEEKDAYS[date.weekday()]} {date:%d.%m.}"
+        label = f"{(row.get('Titel') or '').strip()} · {L['weekdays'][date.weekday()]} {date:%d.%m.}"
         return f'<button class="btn btn-primary" type="button" data-tickets="{esc(slug)}" data-label="{esc(label)}">Tickets</button>'
     if booking.lower() == "opentable":
         t = begin or (12, 0)
-        booking = OPENTABLE.format(date=date.isoformat(), time=f"{t[0]:02d}%3A{t[1]:02d}")
+        booking = OPENTABLE.format(lang=L["opentable"], date=date.isoformat(), time=f"{t[0]:02d}%3A{t[1]:02d}")
     if booking.startswith("http"):
-        return f'<a class="btn btn-ghost" href="{esc(booking)}" target="_blank" rel="noopener">Tisch reservieren</a>'
+        return f'<a class="btn btn-ghost" href="{esc(booking)}" target="_blank" rel="noopener">{L["table"]}</a>'
     return None
 
 
 def render(row):
     date, _, time, doors = when(row)
-    meta = [f"<span>{WEEKDAYS[date.weekday()]}</span>"]
+    meta = [f"<span>{L['weekdays'][date.weekday()]}</span>"]
     meta += [f"<span>{time}</span>"] if time else []
     meta += [f'<span class="event-doors">{doors}</span>'] if doors else []
     tag = (row.get("Format") or "").strip()
@@ -184,7 +209,7 @@ def render_featured(rows):
         btn = button(r)
         lines += [
             f'    <li data-date="{date.isoformat()}">',
-            f"      <div><strong>{WEEKDAYS[date.weekday()][:2]} {date:%d.%m.}</strong><small>{small}</small></div>",
+            f"      <div><strong>{L['weekdays'][date.weekday()][:L['wd_short']]} {date:%d.%m.}</strong><small>{small}</small></div>",
             *([f"      {btn}"] if btn else []),
             "    </li>",
         ]
@@ -278,7 +303,7 @@ def render_all(events):
             if month:
                 out.append("</div>")
             month = (date.year, date.month)
-            out += [f'<div class="month" data-month="{date:%Y-%m}">', f"  <h2>{MONTH_NAMES[date.month - 1]} {date.year}</h2>"]
+            out += [f'<div class="month" data-month="{date:%Y-%m}">', f"  <h2>{L['months'][date.month - 1]} {date.year}</h2>"]
         _, _, time, doors = when(r)
         desc, poster = details(r)
         desc = add_breaks(desc)
@@ -287,14 +312,16 @@ def render_all(events):
         sub = subtitle(r)
         btn = button(r)
         page = (r.get("Eventseite") or "").strip()
-        when_line = " · ".join(x for x in [f"{WEEKDAYS[date.weekday()]}, {date:%d.%m.%Y}", time, doors] if x)
-        media = (f'<img src="{poster}" alt="Poster: {esc(title)}" loading="lazy">' if poster else
+        day = (f"{L['weekdays'][date.weekday()]}, {date.day} {L['months'][date.month - 1]} {date.year}" if L is EN
+               else f"{WEEKDAYS[date.weekday()]}, {date:%d.%m.%Y}")
+        when_line = " · ".join(x for x in [day, time, doors] if x)
+        media = (f'<img src="{L["prefix"]}{poster}" alt="Poster: {esc(title)}" loading="lazy">' if poster else
                  f'<div class="tevent-noposter"><span>{date:%d.%m.}</span></div>')
         paras = [f"      <p>{esc(p).replace(chr(10), '<br>')}</p>" for p in desc.split("\n\n") if p.strip()]
         if len(paras) > 3:  # lange Texte: Rest hinter "Weiterlesen"
-            paras = paras[:2] + ["      <details>", "        <summary>Weiterlesen</summary>", *["  " + p for p in paras[2:]], "      </details>"]
+            paras = paras[:2] + ["      <details>", f"        <summary>{L['more']}</summary>", *["  " + p for p in paras[2:]], "      </details>"]
         actions = ([f"      {btn}"] if btn else []) + (
-            [f'      <a class="btn btn-ghost" href="{esc(page)}" target="_blank" rel="noopener">Eventseite</a>'] if page.startswith("http") else [])
+            [f'      <a class="btn btn-ghost" href="{esc(page)}" target="_blank" rel="noopener">{L["event_page"]}</a>'] if page.startswith("http") else [])
         out += [
             f'  <article class="tevent" data-date="{date.isoformat()}">',
             f'    <div class="tevent-poster">{media}</div>',
@@ -461,28 +488,33 @@ def main():
         if (r.get("Featured") or "").strip():
             featured.setdefault((r["Titel"].strip(), r["Featured"].strip()), []).append(r)
     listed = [r for *_, r in events if not (r.get("Featured") or "").strip()]
-    body = "\n".join(render(r) for r in listed) or (
-        INDENT + '<li class="events-empty">Neue Termine folgen in Kürze.</li>')
 
-    src = INDEX.read_text(encoding="utf-8")
-    new = replace_between(src, START, END, body, INDENT)
-    new = replace_between(new, F_START, F_END, "\n".join(render_featured(g) for g in featured.values()), F_INDENT)
-    if new != src:
-        INDEX.write_text(new, encoding="utf-8")
+    global L
+    changed, used = False, set()
+    for L, index, termine in ((DE, INDEX, TERMINE), (EN, EN_INDEX, EN_TERMINE)):
+        if not index.exists() or not termine.exists():
+            continue
+        body = "\n".join(render(r) for r in listed) or (INDENT + f'<li class="events-empty">{L["empty"]}</li>')
+        src = index.read_text(encoding="utf-8")
+        new = replace_between(src, START, END, body, INDENT)
+        new = replace_between(new, F_START, F_END, "\n".join(render_featured(g) for g in featured.values()), F_INDENT)
+        if new != src:
+            index.write_text(new, encoding="utf-8")
 
-    # Termine-Seite mit Postern und Beschreibungen
-    all_src = TERMINE.read_text(encoding="utf-8")
-    all_body = render_all(events) or (F_INDENT + '<p class="events-empty">Neue Termine folgen in Kürze.</p>')
-    all_new = replace_between(all_src, A_START, A_END, all_body, F_INDENT)
-    if all_new != all_src:
-        TERMINE.write_text(all_new, encoding="utf-8")
+        # Termine-Seite mit Postern und Beschreibungen
+        all_src = termine.read_text(encoding="utf-8")
+        all_body = render_all(events) or (F_INDENT + f'<p class="events-empty">{L["empty"]}</p>')
+        all_new = replace_between(all_src, A_START, A_END, all_body, F_INDENT)
+        if all_new != all_src:
+            termine.write_text(all_new, encoding="utf-8")
+        changed = changed or new != src or all_new != all_src
+        used |= set(re.findall(r"assets/img/termine/([\w.]+)", all_new))
+    L = DE
     cache = {k: v for k, v in cache.items() if k in urls}
     CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=1, sort_keys=True) + "\n", encoding="utf-8")
-    used = set(re.findall(r"assets/img/termine/([\w.]+)", all_new))
     for f in POSTERS.glob("*.jpg") if POSTERS.exists() else []:
         if f.name not in used:
             f.unlink()
-    changed = new != src or all_new != all_src
     print(f"{len(events)} Termine, {len(featured)} Highlight(s)", "aktualisiert" if changed else "unverändert")
 
 

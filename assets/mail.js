@@ -5,7 +5,7 @@ document.querySelectorAll('a[href^="mailto:"]').forEach(a => a.addEventListener(
   const done = () => {
     let t = document.querySelector('.mail-toast');
     if (!t) { t = document.createElement('div'); t.className = 'mail-toast'; t.setAttribute('role', 'status'); document.body.append(t); }
-    t.textContent = `${addr} kopiert`;
+    t.textContent = document.documentElement.lang === 'en' ? `${addr} copied` : `${addr} kopiert`;
     t.classList.add('on'); clearTimeout(t._h); t._h = setTimeout(() => t.classList.remove('on'), 2600);
   };
   try { navigator.clipboard.writeText(addr).then(done, () => {}); } catch (e) {}

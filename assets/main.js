@@ -191,7 +191,7 @@ if (reels) {
     const ig = (btn.dataset.reels || '').split(' ').filter(Boolean).map(id =>
       `<figure class="reel"><iframe src="https://www.instagram.com/reel/${id}/embed/" allowfullscreen title="Instagram-Video"></iframe>` +
       `<a href="https://www.instagram.com/reel/${id}/" target="_blank" rel="noopener">Auf Instagram öffnen ↗</a></figure>`).join('');
-    body.innerHTML = (yt ? `<h3 class="reels-label">hot stuff × eBay · YouTube</h3><div class="yt-grid">${yt}</div>` +
+    body.innerHTML = (yt ? `<p class="reels-desc">„hot stuff“ war eine YouTube-Talkshow mit DUCT TAPE in Kooperation mit eBay.</p><div class="yt-grid">${yt}</div>` +
       (btn.dataset.playlist ? `<a class="reels-more" href="https://www.youtube.com/playlist?list=${btn.dataset.playlist}" target="_blank" rel="noopener">Alle Folgen auf YouTube ↗</a>` : '') : '') +
       (ig ? `<h3 class="reels-label">Instagram</h3><div class="reels-grid">${ig}</div>` : '');
     reels.showModal();

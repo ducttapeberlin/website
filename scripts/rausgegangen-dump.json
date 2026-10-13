@@ -1,0 +1,1153 @@
+{
+ "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
+  "title": "A Berlin Drag Queens CHRISTMAS SHOW by DUCT TAPE on 04.12.2026 in Berlin - Rausgegangen - Rausgegangen Berlin",
+  "ld": [
+   {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "A Berlin Drag Queens CHRISTMAS SHOW by DUCT TAPE",
+    "description": "A BERLIN DRAG QUEENS CHRISTMAS SHOW 🎄✨Dieses Weihnachten bringt DUCT TAPE die Berliner Drag-Szene für zwei ganz besondere Abende im Theater im Delphi zusammen.Am 4. und 5. Dezember feiern wir Weihnachten mit zwei unterschiedlichen gigantischen Berlin Allstars Line-ups. Und dieses Mal bleibt alles in der Hauptstadt: Auf der Bühne stehen ausschließlich Berliner Artists. ❤️Freut euch auf ein weihnachtliches Spektakel voller Drag, Comedy, Live-Gesang, Tanz und Performance. Von glamouröser Christmas Fantasy über große Showmomente bis hin zum absoluten Weihnachtschaos ist alles dabei.Und weil Berlin viel zu viele großartige Künstler*innen für nur einen Abend hat, bekommt jede der beiden Shows ein eigenes Line-up und Programm. Zwei Abende, zwei unterschiedliche Casts und jede Menge Berliner Drag.🎄 SHOW 1 📅 Freitag, 4. DezemberYvonne Nightstand • Rachel Intervention • Jacky-Oh Weinhaus • Bambi Mercury • Harpy • Toylette Paypr • Lady Dina • Anna Klatsche • Bibingka🎄 SHOW 2 📅 Samstag, 5. DezemberYvonne Nightstand • Sasha Glam • Anesha • Karlie Kant • Yenny Stark • Raven van Krüger • Cordova • Daniela Candela • Daisy Dick Präsentiert von Anytime Studios.Tickets sind ab jetzt verfügbar.",
+    "startDate": "2026-12-04T19:00+0100",
+    "endDate": "2026-12-04T21:30+0100",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "location": {
+     "@type": "Place",
+     "name": "Theater im Delphi",
+     "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Gustav-Adolf-Straße 2",
+      "addressLocality": "Berlin",
+      "postalCode": "13086",
+      "addressCountry": "DE"
+     }
+    },
+    "image": [
+     "https://s3.eu-central-1.amazonaws.com/rausgegangen/9kornxavQEOUAZdo40a0_banner.png"
+    ],
+    "offers": {
+     "@type": "AggregateOffer",
+     "lowPrice": "16.50",
+     "highPrice": "31.34",
+     "priceCurrency": "EUR",
+     "offerCount": 5,
+     "offers": [
+      {
+       "@type": "Offer",
+       "name": "Parkett - Early Bird",
+       "price": "27.10",
+       "priceCurrency": "EUR",
+       "availabilty": "https://schema.org/InStock"
+      },
+      {
+       "@type": "Offer",
+       "name": "Balkon - Early Bird",
+       "price": "21.80",
+       "priceCurrency": "EUR",
+       "availabilty": "https://schema.org/InStock"
+      },
+      {
+       "@type": "Offer",
+       "name": "Parkett - Regulär",
+       "price": "31.34",
+       "priceCurrency": "EUR",
+       "availabilty": "https://schema.org/InStock"
+      },
+      {
+       "@type": "Offer",
+       "name": "Parkett  - ermäßigt (Schüler*innen, Student*innen, Arbeitslose und Rentner*innen, Schwerbehinderte)",
+       "price": "21.80",
+       "priceCurrency": "EUR",
+       "availabilty": "https://schema.org/InStock"
+      },
+      {
+       "@type": "Offer",
+       "name": "Balkon  - ermäßigt (Schüler*innen, Student*innen, Arbeitslose und Rentner*innen, Schwerbehinderte)",
+       "price": "16.50",
+       "priceCurrency": "EUR",
+       "availabilty": "https://schema.org/InStock"
+      }
+     ]
+    },
+    "organizer": [
+     {
+      "@type": "Organization",
+      "name": "Anytime Studios - Creative Production Company",
+      "url": "https://rausgegangen.de/organizations/anytime-studios-creative-production-company/"
+     },
+     {
+      "@type": "Organization",
+      "name": "CURA Berlin",
+      "url": "https://rausgegangen.de/organizations/cura-berlin/"
+     },
+     {
+      "@type": "Organization",
+      "name": "DUCT TAPE",
+      "url": "https://rausgegangen.de/organizations/duct-tape/"
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Berlin",
+      "item": "https://rausgegangen.de/berlin/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Shows & Performances",
+      "item": "https://rausgegangen.de/berlin/kategorie/shows-and-performances/"
+     }
+    ]
+   }
+  ],
+  "tickets": [
+   "love-at-first-slide-gutschein-by-rausgegangen",
+   "rausgegangen-geheimkonzert-gutschein"
+  ],
+  "len": 359113
+ },
+ "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
+  "title": "A Berlin Drag Queens CHRISTMAS SHOW by DUCT TAPE on 05.12.2026 in Berlin - Rausgegangen - Rausgegangen Berlin",
+  "ld": [
+   {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "A Berlin Drag Queens CHRISTMAS SHOW by DUCT TAPE",
+    "description": "A BERLIN DRAG QUEENS CHRISTMAS SHOW 🎄✨Dieses Weihnachten bringt DUCT TAPE die Berliner Drag-Szene für zwei ganz besondere Abende im Theater im Delphi zusammen.Am 4. und 5. Dezember feiern wir Weihnachten mit zwei unterschiedlichen gigantischen Berlin Allstars Line-ups. Und dieses Mal bleibt alles in der Hauptstadt: Auf der Bühne stehen ausschließlich Berliner Artists. ❤️Freut euch auf ein weihnachtliches Spektakel voller Drag, Comedy, Live-Gesang, Tanz und Performance. Von glamouröser Christmas Fantasy über große Showmomente bis hin zum absoluten Weihnachtschaos ist alles dabei.Und weil Berlin viel zu viele großartige Künstler*innen für nur einen Abend hat, bekommt jede der beiden Shows ein eigenes Line-up und Programm. Zwei Abende, zwei unterschiedliche Casts und jede Menge Berliner Drag.🎄 SHOW 1 📅 Freitag, 4. DezemberYvonne Nightstand • Rachel Intervention • Jacky-Oh Weinhaus • Bambi Mercury • Harpy • Toylette Paypr • Lady Dina • Anna Klatsche • Bibingka🎄 SHOW 2 📅 Samstag, 5. DezemberYvonne Nightstand • Sasha Glam • Anesha • Karlie Kant • Yenny Stark • Raven van Krüger • Cordova • Daniela Candela • Daisy Dick Präsentiert von Anytime Studios.Tickets sind ab jetzt verfügbar.",
+    "startDate": "2026-12-05T19:00+0100",
+    "endDate": "2026-12-05T21:30+0100",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "location": {
+     "@type": "Place",
+     "name": "Theater im Delphi",
+     "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Gustav-Adolf-Straße 2",
+      "addressLocality": "Berlin",
+      "postalCode": "13086",
+      "addressCountry": "DE"
+     }
+    },
+    "image": [
+     "https://s3.eu-central-1.amazonaws.com/rausgegangen/9kornxavQEOUAZdo40a0_banner.png"
+    ],
+    "offers": {
+     "@type": "AggregateOffer",
+     "lowPrice": null,
+     "highPrice": null,
+     "priceCurrency": "EUR",
+     "offerCount": 5,
+     "offers": [
+      {
+       "@type": "Offer",
+       "name": "Early Bird - Parkett",
+       "price": "27.10",
+       "priceCurrency": "EUR",
+       "availabilty": "https://schema.org/InStock"
+      },
+      {
+       "@type": "Offer",
+       "name": "Early Bird - Balkon",
+       "price": "21.80",
+       "priceCurrency": "EUR",
+       "availabilty": "https://schema.org/InStock"
+      },
+      {
+       "@type": "Offer",
+       "name": "Parkett - Regulär",
+       "price": "31.34",
+       "priceCurrency": "EUR",
+       "availabilty": "https://schema.org/InStock"
+      },
+      {
+       "@type": "Offer",
+       "name": "Parkett  - ermäßigt (Schüler*innen, Student*innen, Arbeitslose und Rentner*innen, Schwerbehinderte)",
+       "price": "21.80",
+       "priceCurrency": "EUR",
+       "availabilty": "https://schema.org/InStock"
+      },
+      {
+       "@type": "Offer",
+       "name": "Balkon  - ermäßigt (Schüler*innen, Student*innen, Arbeitslose und Rentner*innen, Schwerbehinderte)",
+       "price": "16.50",
+       "priceCurrency": "EUR",
+       "availabilty": "https://schema.org/InStock"
+      }
+     ]
+    },
+    "organizer": [
+     {
+      "@type": "Organization",
+      "name": "Anytime Studios - Creative Production Company",
+      "url": "https://rausgegangen.de/organizations/anytime-studios-creative-production-company/"
+     },
+     {
+      "@type": "Organization",
+      "name": "CURA Berlin",
+      "url": "https://rausgegangen.de/organizations/cura-berlin/"
+     },
+     {
+      "@type": "Organization",
+      "name": "DUCT TAPE",
+      "url": "https://rausgegangen.de/organizations/duct-tape/"
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Berlin",
+      "item": "https://rausgegangen.de/berlin/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Shows & Performances",
+      "item": "https://rausgegangen.de/berlin/kategorie/shows-and-performances/"
+     }
+    ]
+   }
+  ],
+  "tickets": [
+   "love-at-first-slide-gutschein-by-rausgegangen",
+   "rausgegangen-geheimkonzert-gutschein"
+  ],
+  "len": 358495
+ },
+ "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-1/": {
+  "title": "DRAG BINGO NIGHT @ Bademeister Bar by DUCT TAPE on 22.10.2026 in Berlin - Rausgegangen - Rausgegangen Berlin",
+  "ld": [
+   {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "DRAG BINGO NIGHT @ Bademeister Bar by DUCT TAPE",
+    "description": "DRAG BINGO @ BADEMEISTER 🎱Weißensee, wir sind wieder da! 💋Einmal im Monat verwandelt DUCT TAPE die Bademeister Bar in das Zuhause unseres Drag Bingos. Wir lieben es, nach Weißensee zu kommen und finden: Der Kiez kann ruhig noch ein bisschen mehr Drag vertragen.Freut euch auf einen Abend mit Bingo, Drag Show und Bar Night, gehostet von EMI, Symba oder Magda von Pfeffer aus dem DUCT TAPE Kollektiv. In mehreren Bingo-Runden wird gespielt, gewonnen, performt und natürlich auch ein bisschen eskaliert.Für 5€ bekommt ihr drei Bingo-Scheine für den gesamten Abend und damit die Chance auf verschiedene Preise. Dazu gibt’s Drinks und die leckeren deutschen Snackteller der Bademeister Bar. Also kommt hungrig, durstig und ready to win. 🍻🥨Bringt eure Freund*innen mit und macht euch bereit für ein bisschen mehr Drag in Weißensee.📅 24.09. · 22.10. · 19.11. · 10.12. 🎱 Bingo-Schein: 5 € 💋 Hosted by EMI, Symba & Magda von Pfeffer 📍 Bademeister Bar, Weißensee",
+    "startDate": "2026-10-22T19:00+0200",
+    "endDate": "2026-10-22T22:00+0200",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "location": {
+     "@type": "Place",
+     "name": "Bademeister Bar",
+     "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Bizetstraße 143",
+      "addressLocality": "Berlin",
+      "postalCode": "13088",
+      "addressCountry": "DE"
+     }
+    },
+    "image": [
+     "https://s3.eu-central-1.amazonaws.com/rausgegangen/MHRsSAVSTFKLckljeSrU_cefc30c5-4816-4717-beb8-aad821a67f32.jpeg"
+    ],
+    "offers": {
+     "@type": "Offer",
+     "price": 0,
+     "priceCurrency": "EUR",
+     "validFrom": "2026-10-22T19:00+0200"
+    },
+    "organizer": [
+     {
+      "@type": "Organization",
+      "name": "CURA Berlin",
+      "url": "https://rausgegangen.de/organizations/cura-berlin/"
+     },
+     {
+      "@type": "Organization",
+      "name": "DUCT TAPE",
+      "url": "https://rausgegangen.de/organizations/duct-tape/"
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Berlin",
+      "item": "https://rausgegangen.de/berlin/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Shows & Performances",
+      "item": "https://rausgegangen.de/berlin/kategorie/shows-and-performances/"
+     }
+    ]
+   }
+  ],
+  "tickets": [
+   "love-at-first-slide-gutschein-by-rausgegangen",
+   "rausgegangen-geheimkonzert-gutschein"
+  ],
+  "len": 291250
+ },
+ "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
+  "title": "DRAG BINGO NIGHT @ Bademeister Bar by DUCT TAPE on 19.11.2026 in Berlin - Rausgegangen - Rausgegangen Berlin",
+  "ld": [
+   {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "DRAG BINGO NIGHT @ Bademeister Bar by DUCT TAPE",
+    "description": "DRAG BINGO @ BADEMEISTER 🎱Weißensee, wir sind wieder da! 💋Einmal im Monat verwandelt DUCT TAPE die Bademeister Bar in das Zuhause unseres Drag Bingos. Wir lieben es, nach Weißensee zu kommen und finden: Der Kiez kann ruhig noch ein bisschen mehr Drag vertragen.Freut euch auf einen Abend mit Bingo, Drag Show und Bar Night, gehostet von EMI, Symba oder Magda von Pfeffer aus dem DUCT TAPE Kollektiv. In mehreren Bingo-Runden wird gespielt, gewonnen, performt und natürlich auch ein bisschen eskaliert.Für 5€ bekommt ihr drei Bingo-Scheine für den gesamten Abend und damit die Chance auf verschiedene Preise. Dazu gibt’s Drinks und die leckeren deutschen Snackteller der Bademeister Bar. Also kommt hungrig, durstig und ready to win. 🍻🥨Bringt eure Freund*innen mit und macht euch bereit für ein bisschen mehr Drag in Weißensee.📅 24.09. · 22.10. · 19.11. · 10.12. 🎱 Bingo-Schein: 5 € 💋 Hosted by EMI, Symba & Magda von Pfeffer 📍 Bademeister Bar, Weißensee",
+    "startDate": "2026-11-19T19:00+0100",
+    "endDate": "2026-11-19T22:00+0100",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "location": {
+     "@type": "Place",
+     "name": "Bademeister Bar",
+     "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Bizetstraße 143",
+      "addressLocality": "Berlin",
+      "postalCode": "13088",
+      "addressCountry": "DE"
+     }
+    },
+    "image": [
+     "https://s3.eu-central-1.amazonaws.com/rausgegangen/MHRsSAVSTFKLckljeSrU_cefc30c5-4816-4717-beb8-aad821a67f32.jpeg"
+    ],
+    "offers": {
+     "@type": "Offer",
+     "price": 0,
+     "priceCurrency": "EUR",
+     "validFrom": "2026-11-19T19:00+0100"
+    },
+    "organizer": [
+     {
+      "@type": "Organization",
+      "name": "CURA Berlin",
+      "url": "https://rausgegangen.de/organizations/cura-berlin/"
+     },
+     {
+      "@type": "Organization",
+      "name": "DUCT TAPE",
+      "url": "https://rausgegangen.de/organizations/duct-tape/"
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Berlin",
+      "item": "https://rausgegangen.de/berlin/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Shows & Performances",
+      "item": "https://rausgegangen.de/berlin/kategorie/shows-and-performances/"
+     }
+    ]
+   }
+  ],
+  "tickets": [
+   "love-at-first-slide-gutschein-by-rausgegangen",
+   "rausgegangen-geheimkonzert-gutschein"
+  ],
+  "len": 290113
+ },
+ "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
+  "title": "DRAG BINGO NIGHT @ Bademeister Bar by DUCT TAPE on 10.12.2026 in Berlin - Rausgegangen - Rausgegangen Berlin",
+  "ld": [
+   {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "DRAG BINGO NIGHT @ Bademeister Bar by DUCT TAPE",
+    "description": "DRAG BINGO @ BADEMEISTER 🎱Weißensee, wir sind wieder da! 💋Einmal im Monat verwandelt DUCT TAPE die Bademeister Bar in das Zuhause unseres Drag Bingos. Wir lieben es, nach Weißensee zu kommen und finden: Der Kiez kann ruhig noch ein bisschen mehr Drag vertragen.Freut euch auf einen Abend mit Bingo, Drag Show und Bar Night, gehostet von EMI, Symba oder Magda von Pfeffer aus dem DUCT TAPE Kollektiv. In mehreren Bingo-Runden wird gespielt, gewonnen, performt und natürlich auch ein bisschen eskaliert.Für 5€ bekommt ihr drei Bingo-Scheine für den gesamten Abend und damit die Chance auf verschiedene Preise. Dazu gibt’s Drinks und die leckeren deutschen Snackteller der Bademeister Bar. Also kommt hungrig, durstig und ready to win. 🍻🥨Bringt eure Freund*innen mit und macht euch bereit für ein bisschen mehr Drag in Weißensee.📅 24.09. · 22.10. · 19.11. · 10.12. 🎱 Bingo-Schein: 5 € 💋 Hosted by EMI, Symba & Magda von Pfeffer 📍 Bademeister Bar, Weißensee",
+    "startDate": "2026-12-10T19:00+0100",
+    "endDate": "2026-12-10T22:00+0100",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "location": {
+     "@type": "Place",
+     "name": "Bademeister Bar",
+     "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Bizetstraße 143",
+      "addressLocality": "Berlin",
+      "postalCode": "13088",
+      "addressCountry": "DE"
+     }
+    },
+    "image": [
+     "https://s3.eu-central-1.amazonaws.com/rausgegangen/MHRsSAVSTFKLckljeSrU_cefc30c5-4816-4717-beb8-aad821a67f32.jpeg"
+    ],
+    "offers": {
+     "@type": "Offer",
+     "price": 0,
+     "priceCurrency": "EUR",
+     "validFrom": "2026-12-10T19:00+0100"
+    },
+    "organizer": [
+     {
+      "@type": "Organization",
+      "name": "CURA Berlin",
+      "url": "https://rausgegangen.de/organizations/cura-berlin/"
+     },
+     {
+      "@type": "Organization",
+      "name": "DUCT TAPE",
+      "url": "https://rausgegangen.de/organizations/duct-tape/"
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Berlin",
+      "item": "https://rausgegangen.de/berlin/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Shows & Performances",
+      "item": "https://rausgegangen.de/berlin/kategorie/shows-and-performances/"
+     }
+    ]
+   }
+  ],
+  "tickets": [
+   "love-at-first-slide-gutschein-by-rausgegangen",
+   "rausgegangen-geheimkonzert-gutschein"
+  ],
+  "len": 291395
+ },
+ "https://rausgegangen.de/events/drag-bingo-night-torte-bar-19/": {
+  "title": "Drag Bingo Night @ Torte Bar by DUCT TAPE on 14.10.2026 in Berlin - Rausgegangen - Rausgegangen Berlin",
+  "ld": [
+   {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "Drag Bingo Night @ Torte Bar by DUCT TAPE",
+    "description": "Alle zwei Wochen wird Bingo durch wechselnde Drag-Hosts aus dem DUCT TAPE Universum mit viel Charme, Humor und spannenden Performances aufgemischt. Drei Runden, coole Gewinne und jede Menge Überraschungen garantieren einen Abend, der mehr als nur Glücksspiel ist 🎟️",
+    "startDate": "2026-10-14T20:00+0200",
+    "endDate": "2026-10-14T22:00+0200",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "location": {
+     "@type": "Place",
+     "name": "TORTE BAR",
+     "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Brusendorfer Straße 12",
+      "addressLocality": "Berlin",
+      "postalCode": "12055",
+      "addressCountry": "DE"
+     }
+    },
+    "image": [
+     "https://s3.eu-central-1.amazonaws.com/rausgegangen/dsOpfIJYSWKxCWfqUnU1_28be860b-ff2c-43a3-a934-bdea454b9030.png"
+    ],
+    "offers": {
+     "@type": "Offer",
+     "price": 0,
+     "priceCurrency": "EUR",
+     "validFrom": "2026-10-14T20:00+0200"
+    },
+    "organizer": [
+     {
+      "@type": "Organization",
+      "name": "CURA Berlin",
+      "url": "https://rausgegangen.de/organizations/cura-berlin/"
+     },
+     {
+      "@type": "Organization",
+      "name": "DUCT TAPE",
+      "url": "https://rausgegangen.de/organizations/duct-tape/"
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Berlin",
+      "item": "https://rausgegangen.de/berlin/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Shows & Performances",
+      "item": "https://rausgegangen.de/berlin/kategorie/shows-and-performances/"
+     }
+    ]
+   }
+  ],
+  "tickets": [
+   "love-at-first-slide-gutschein-by-rausgegangen",
+   "rausgegangen-geheimkonzert-gutschein"
+  ],
+  "len": 312972
+ },
+ "https://rausgegangen.de/events/drag-bingo-night-torte-bar-20/": {
+  "title": "Drag Bingo Night @ Torte Bar by DUCT TAPE on 21.10.2026 in Berlin - Rausgegangen - Rausgegangen Berlin",
+  "ld": [
+   {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "Drag Bingo Night @ Torte Bar by DUCT TAPE",
+    "description": "Alle zwei Wochen wird Bingo durch wechselnde Drag-Hosts aus dem DUCT TAPE Universum mit viel Charme, Humor und spannenden Performances aufgemischt. Drei Runden, coole Gewinne und jede Menge Überraschungen garantieren einen Abend, der mehr als nur Glücksspiel ist 🎟️",
+    "startDate": "2026-10-21T20:00+0200",
+    "endDate": "2026-10-21T22:00+0200",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "location": {
+     "@type": "Place",
+     "name": "TORTE BAR",
+     "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Brusendorfer Straße 12",
+      "addressLocality": "Berlin",
+      "postalCode": "12055",
+      "addressCountry": "DE"
+     }
+    },
+    "image": [
+     "https://s3.eu-central-1.amazonaws.com/rausgegangen/dsOpfIJYSWKxCWfqUnU1_28be860b-ff2c-43a3-a934-bdea454b9030.png"
+    ],
+    "offers": {
+     "@type": "Offer",
+     "price": 0,
+     "priceCurrency": "EUR",
+     "validFrom": "2026-10-21T20:00+0200"
+    },
+    "organizer": [
+     {
+      "@type": "Organization",
+      "name": "CURA Berlin",
+      "url": "https://rausgegangen.de/organizations/cura-berlin/"
+     },
+     {
+      "@type": "Organization",
+      "name": "DUCT TAPE",
+      "url": "https://rausgegangen.de/organizations/duct-tape/"
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Berlin",
+      "item": "https://rausgegangen.de/berlin/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Shows & Performances",
+      "item": "https://rausgegangen.de/berlin/kategorie/shows-and-performances/"
+     }
+    ]
+   }
+  ],
+  "tickets": [
+   "love-at-first-slide-gutschein-by-rausgegangen",
+   "rausgegangen-geheimkonzert-gutschein"
+  ],
+  "len": 312094
+ },
+ "https://rausgegangen.de/events/drag-bingo-night-torte-bar-21/": {
+  "title": "Drag Bingo Night @ Torte Bar by DUCT TAPE on 04.11.2026 in Berlin - Rausgegangen - Rausgegangen Berlin",
+  "ld": [
+   {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "Drag Bingo Night @ Torte Bar by DUCT TAPE",
+    "description": "Alle zwei Wochen wird Bingo durch wechselnde Drag-Hosts aus dem DUCT TAPE Universum mit viel Charme, Humor und spannenden Performances aufgemischt. Drei Runden, coole Gewinne und jede Menge Überraschungen garantieren einen Abend, der mehr als nur Glücksspiel ist 🎟️",
+    "startDate": "2026-11-04T20:00+0100",
+    "endDate": "2026-11-04T22:00+0100",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "location": {
+     "@type": "Place",
+     "name": "TORTE BAR",
+     "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Brusendorfer Straße 12",
+      "addressLocality": "Berlin",
+      "postalCode": "12055",
+      "addressCountry": "DE"
+     }
+    },
+    "image": [
+     "https://s3.eu-central-1.amazonaws.com/rausgegangen/dsOpfIJYSWKxCWfqUnU1_28be860b-ff2c-43a3-a934-bdea454b9030.png"
+    ],
+    "offers": {
+     "@type": "Offer",
+     "price": 0,
+     "priceCurrency": "EUR",
+     "validFrom": "2026-11-04T20:00+0100"
+    },
+    "organizer": [
+     {
+      "@type": "Organization",
+      "name": "CURA Berlin",
+      "url": "https://rausgegangen.de/organizations/cura-berlin/"
+     },
+     {
+      "@type": "Organization",
+      "name": "DUCT TAPE",
+      "url": "https://rausgegangen.de/organizations/duct-tape/"
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Berlin",
+      "item": "https://rausgegangen.de/berlin/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Shows & Performances",
+      "item": "https://rausgegangen.de/berlin/kategorie/shows-and-performances/"
+     }
+    ]
+   }
+  ],
+  "tickets": [
+   "love-at-first-slide-gutschein-by-rausgegangen",
+   "rausgegangen-geheimkonzert-gutschein"
+  ],
+  "len": 310579
+ },
+ "https://rausgegangen.de/events/drag-bingo-night-torte-bar-22/": {
+  "title": "Drag Bingo Night @ Torte Bar by DUCT TAPE on 18.11.2026 in Berlin - Rausgegangen - Rausgegangen Berlin",
+  "ld": [
+   {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "Drag Bingo Night @ Torte Bar by DUCT TAPE",
+    "description": "Alle zwei Wochen wird Bingo durch wechselnde Drag-Hosts aus dem DUCT TAPE Universum mit viel Charme, Humor und spannenden Performances aufgemischt. Drei Runden, coole Gewinne und jede Menge Überraschungen garantieren einen Abend, der mehr als nur Glücksspiel ist 🎟️",
+    "startDate": "2026-11-18T20:00+0100",
+    "endDate": "2026-11-18T22:00+0100",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "location": {
+     "@type": "Place",
+     "name": "TORTE BAR",
+     "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Brusendorfer Straße 12",
+      "addressLocality": "Berlin",
+      "postalCode": "12055",
+      "addressCountry": "DE"
+     }
+    },
+    "image": [
+     "https://s3.eu-central-1.amazonaws.com/rausgegangen/dsOpfIJYSWKxCWfqUnU1_28be860b-ff2c-43a3-a934-bdea454b9030.png"
+    ],
+    "offers": {
+     "@type": "Offer",
+     "price": 0,
+     "priceCurrency": "EUR",
+     "validFrom": "2026-11-18T20:00+0100"
+    },
+    "organizer": [
+     {
+      "@type": "Organization",
+      "name": "CURA Berlin",
+      "url": "https://rausgegangen.de/organizations/cura-berlin/"
+     },
+     {
+      "@type": "Organization",
+      "name": "DUCT TAPE",
+      "url": "https://rausgegangen.de/organizations/duct-tape/"
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Berlin",
+      "item": "https://rausgegangen.de/berlin/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Shows & Performances",
+      "item": "https://rausgegangen.de/berlin/kategorie/shows-and-performances/"
+     }
+    ]
+   }
+  ],
+  "tickets": [
+   "love-at-first-slide-gutschein-by-rausgegangen",
+   "rausgegangen-geheimkonzert-gutschein"
+  ],
+  "len": 312091
+ },
+ "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
+  "title": "Drag Bingo Night @ Torte Bar by DUCT TAPE on 02.12.2026 in Berlin - Rausgegangen - Rausgegangen Berlin",
+  "ld": [
+   {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "Drag Bingo Night @ Torte Bar by DUCT TAPE",
+    "description": "Alle zwei Wochen wird Bingo durch wechselnde Drag-Hosts aus dem DUCT TAPE Universum mit viel Charme, Humor und spannenden Performances aufgemischt. Drei Runden, coole Gewinne und jede Menge Überraschungen garantieren einen Abend, der mehr als nur Glücksspiel ist 🎟️",
+    "startDate": "2026-12-02T20:00+0100",
+    "endDate": "2026-12-02T22:00+0100",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "location": {
+     "@type": "Place",
+     "name": "TORTE BAR",
+     "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Brusendorfer Straße 12",
+      "addressLocality": "Berlin",
+      "postalCode": "12055",
+      "addressCountry": "DE"
+     }
+    },
+    "image": [
+     "https://s3.eu-central-1.amazonaws.com/rausgegangen/dsOpfIJYSWKxCWfqUnU1_28be860b-ff2c-43a3-a934-bdea454b9030.png"
+    ],
+    "offers": {
+     "@type": "Offer",
+     "price": 0,
+     "priceCurrency": "EUR",
+     "validFrom": "2026-12-02T20:00+0100"
+    },
+    "organizer": [
+     {
+      "@type": "Organization",
+      "name": "CURA Berlin",
+      "url": "https://rausgegangen.de/organizations/cura-berlin/"
+     },
+     {
+      "@type": "Organization",
+      "name": "DUCT TAPE",
+      "url": "https://rausgegangen.de/organizations/duct-tape/"
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Berlin",
+      "item": "https://rausgegangen.de/berlin/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Shows & Performances",
+      "item": "https://rausgegangen.de/berlin/kategorie/shows-and-performances/"
+     }
+    ]
+   }
+  ],
+  "tickets": [
+   "love-at-first-slide-gutschein-by-rausgegangen",
+   "rausgegangen-geheimkonzert-gutschein"
+  ],
+  "len": 311781
+ },
+ "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
+  "title": "Drag Bingo Night @ Torte Bar by DUCT TAPE on 16.12.2026 in Berlin - Rausgegangen - Rausgegangen Berlin",
+  "ld": [
+   {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "Drag Bingo Night @ Torte Bar by DUCT TAPE",
+    "description": "Alle zwei Wochen wird Bingo durch wechselnde Drag-Hosts aus dem DUCT TAPE Universum mit viel Charme, Humor und spannenden Performances aufgemischt. Drei Runden, coole Gewinne und jede Menge Überraschungen garantieren einen Abend, der mehr als nur Glücksspiel ist 🎟️",
+    "startDate": "2026-12-16T20:00+0100",
+    "endDate": "2026-12-16T22:00+0100",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "location": {
+     "@type": "Place",
+     "name": "TORTE BAR",
+     "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Brusendorfer Straße 12",
+      "addressLocality": "Berlin",
+      "postalCode": "12055",
+      "addressCountry": "DE"
+     }
+    },
+    "image": [
+     "https://s3.eu-central-1.amazonaws.com/rausgegangen/dsOpfIJYSWKxCWfqUnU1_28be860b-ff2c-43a3-a934-bdea454b9030.png"
+    ],
+    "offers": {
+     "@type": "Offer",
+     "price": 0,
+     "priceCurrency": "EUR",
+     "validFrom": "2026-12-16T20:00+0100"
+    },
+    "organizer": [
+     {
+      "@type": "Organization",
+      "name": "CURA Berlin",
+      "url": "https://rausgegangen.de/organizations/cura-berlin/"
+     },
+     {
+      "@type": "Organization",
+      "name": "DUCT TAPE",
+      "url": "https://rausgegangen.de/organizations/duct-tape/"
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Berlin",
+      "item": "https://rausgegangen.de/berlin/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Shows & Performances",
+      "item": "https://rausgegangen.de/berlin/kategorie/shows-and-performances/"
+     }
+    ]
+   }
+  ],
+  "tickets": [
+   "love-at-first-slide-gutschein-by-rausgegangen",
+   "rausgegangen-geheimkonzert-gutschein"
+  ],
+  "len": 311801
+ },
+ "https://rausgegangen.de/events/drag-brunch-sponsored-by-fritz-kola-halloween-edition-0/": {
+  "title": "DRAG BRUNCH // sponsored by FRITZ-KOLA - Halloween Edition on 31.10.2026 in Berlin - Rausgegangen - Rausgegangen Berlin",
+  "ld": [
+   {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "DRAG BRUNCH // sponsored by FRITZ-KOLA - Halloween Edition",
+    "description": "HALLOWEEN DRAG BRUNCH 🎃🦇Duct Tape und Fritz-Kola laden euch zum schaurigsten Drag Brunch des Jahres ein!Am Samstag, den 31. Oktober, feiern wir Halloween im The Dawn Neukölln. Freut euch auf einen entspannten Mittag mit mehreren Showblöcken, schaurigen Drinks, gutem Essen und jeder Menge guter Laune.DIE SHOW 👻 Durch den Brunch führen euch eure DUCT TAPE Mädels: 👑 EMI 👑 Symba 👑 Magda von Pfeffer  Freut euch auf mehrere Drag-Performances, spontane Challenges, Gewinnspiele und jede Menge Überraschungen.KOSTÜMWETTBEWERB 🎃 Kommt verkleidet! Alle, die im Kostüm kommen, bekommen ein Getränk aufs Haus. Und das beste Kostüm des Tages wird von uns gekürt.DAS ESSEN 🍽️ Das Essen bestellt ihr wie gewohnt à la carte direkt aus der Speisekarte des The Dawn.HALLOWEEN SPECIALS 🍹 🍊 Exklusive Drink Specials Gemeinsam mit Fritz-Kola und Aperol erwarten euch schaurige Signature Drinks und Halloween Specials.🧡 Aperol for a Good Cause Wer am Eingang eine kleine Spende für unsere Drag Artists dalässt, erhält als Dankeschön einen Aperol Spritz.🎡 Spin the Wheel Dreht an unserem Glücksrad und gewinnt tolle Preise, darunter Merch, Gratis-Drinks und viele weitere Überraschungen.🎭 Mehrere Showblöcke Während des gesamten Brunchs erwarten euch verschiedene Drag-Performances. Perfekt, egal ob ihr zum Frühstück oder auf den letzten Aperol vorbeikommt.WICHTIGE INFOS 📍 📍 The Dawn Neukölln KALLE, Karl-Marx-Straße 101, 12043 Berlin einfach mit dem Aufzug bis ins Dachgeschoss 📅 Samstag, 31. Oktober 🕛 12:00 bis 15:00 Uhr 💸 Eintritt frei, ihr zahlt lediglich eure Speisen und Getränke. 🪑 Nur mit TischreservierungReserviert euren Tisch ganz einfach über OpenTable. Ohne Reservierung können wir euch leider keinen Platz garantieren.Mehr Infos & Updates findet ihr wie immer auf Instagram bei @ducttapeberlin und @fritzkola_berWir sehen uns beim HALLOWEEN DRAG BRUNCH. 🎃🖤",
+    "startDate": "2026-10-31T12:00+0100",
+    "endDate": "2026-10-31T15:00+0100",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "location": {
+     "@type": "Place",
+     "name": "The Dawn Neukölln",
+     "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Karl-Marx-Straße 101",
+      "addressLocality": "Berlin",
+      "postalCode": "12043",
+      "addressCountry": "DE"
+     }
+    },
+    "image": [
+     "https://s3.eu-central-1.amazonaws.com/rausgegangen/BjdcjpjhRKK9ZwAjS9mP_banner-halloween.jpg"
+    ],
+    "offers": {
+     "@type": "AggregateOffer",
+     "lowPrice": null,
+     "highPrice": null,
+     "priceCurrency": "EUR",
+     "offerCount": 0,
+     "offers": []
+    },
+    "organizer": {
+     "@type": "Organization",
+     "name": "DUCT TAPE",
+     "url": "https://rausgegangen.de/organizations/duct-tape/"
+    }
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Berlin",
+      "item": "https://rausgegangen.de/berlin/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Food & Drinks",
+      "item": "https://rausgegangen.de/berlin/kategorie/food-and-drinks/"
+     }
+    ]
+   }
+  ],
+  "tickets": [
+   "love-at-first-slide-gutschein-by-rausgegangen",
+   "rausgegangen-geheimkonzert-gutschein"
+  ],
+  "len": 280232
+ },
+ "https://rausgegangen.de/events/drag-brunch-sponsored-by-fritz-kola-winter-edition-0/": {
+  "title": "DRAG BRUNCH // sponsored by Fritz-Kola - Winter Edition on 15.11.2026 in Berlin - Rausgegangen - Rausgegangen Berlin",
+  "ld": [
+   {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "DRAG BRUNCH // sponsored by Fritz-Kola - Winter Edition",
+    "description": "WINTER EDITION DRAG BRUNCH ❄️🍹Duct Tape und Fritz-Kola laden euch zur Winter Edition unseres Drag Brunch ein!Am Sonntag, den 15. November, machen wir es uns auf dem Dach des The Dawn Neukölln gemütlich. Freut euch auf einen Mittag mit drei Showblöcken, winterlichen Drinks, gutem Essen und jeder Menge guter Laune.DIE SHOW ❄️ Durch den Brunch führen euch: 👑 EMI 👑 Harpy Freut euch auf drei Showblöcke voller Drag-Performances, kleine Challenges, Gewinnspiele und jede Menge Überraschungen.DAS ESSEN 🍽️ Das Essen bestellt ihr wie gewohnt à la carte direkt aus der Speisekarte des The Dawn.WINTER SPECIALS 🍹 🥤 Exklusive Drink Specials Gemeinsam mit Fritz-Kola erwarten euch winterliche Signature Drinks und Specials.🧡 Aperol for a Good Cause Wer am Eingang eine kleine Spende für unsere Drag Artists dalässt, erhält als Dankeschön einen Aperol Spritz aufs Haus.🎭 Drei Showblöcke Während des gesamten Brunchs erwarten euch Drag-Performances. Perfekt, egal ob ihr zum Frühstück oder auf den letzten Aperol vorbeikommt.WICHTIGE INFOS 📍 📍 The Dawn Neukölln KALLE HALLE, Karl-Marx-Straße 101, 12043 Berlin einfach mit dem Aufzug bis ins Dachgeschoss 📅 Sonntag, 15. November 🕛 12:00 bis 15:00 Uhr 💸 Eintritt frei, ihr zahlt lediglich eure Speisen und Getränke. 🪑 Tischreservierung empfohlenReserviert euren Tisch ganz einfach über OpenTable. Ohne Reservierung können wir euch leider keinen Platz garantieren.Mehr Infos & Updates findet ihr wie immer auf Instagram bei @ducttapeberlin und @fritzkola_berWir sehen uns bei der WINTER EDITION DRAG BRUNCH. ❄️💖",
+    "startDate": "2026-11-15T12:00+0100",
+    "endDate": "2026-11-15T15:00+0100",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "location": {
+     "@type": "Place",
+     "name": "The Dawn Neukölln",
+     "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Karl-Marx-Straße 101",
+      "addressLocality": "Berlin",
+      "postalCode": "12043",
+      "addressCountry": "DE"
+     }
+    },
+    "image": [
+     "https://s3.eu-central-1.amazonaws.com/rausgegangen/lqWDJ6PcTfapOAkLtrU9_winter-brunch-banner.jpg"
+    ],
+    "offers": {
+     "@type": "Offer",
+     "url": "https://www.opentable.de/booking/restref/availability?lang=de-DE&restRef=514161&dateTime=2026-11-15T12%3A00&partySize=2&correlationId=ac469bb7-615a-4b57-a6b6-04dec8fac906",
+     "price": "0.00",
+     "priceCurrency": "EUR",
+     "validFrom": "2026-11-15T12:00+0100"
+    },
+    "performer": {
+     "@type": "PerformingGroup",
+     "name": "Harpy Fatale"
+    },
+    "organizer": {
+     "@type": "Organization",
+     "name": "DUCT TAPE",
+     "url": "https://rausgegangen.de/organizations/duct-tape/"
+    }
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Berlin",
+      "item": "https://rausgegangen.de/berlin/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Food & Drinks",
+      "item": "https://rausgegangen.de/berlin/kategorie/food-and-drinks/"
+     }
+    ]
+   }
+  ],
+  "tickets": [
+   "love-at-first-slide-gutschein-by-rausgegangen",
+   "rausgegangen-geheimkonzert-gutschein"
+  ],
+  "len": 312966
+ },
+ "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
+  "title": "House of Pride (HOP) Berlin | THE MAIN PARTY OF BERLIN PRIDE on 24.07.2027 in Berlin - Rausgegangen - Rausgegangen Berlin",
+  "ld": [
+   {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "House of Pride (HOP) Berlin | THE MAIN PARTY OF BERLIN PRIDE",
+    "description": "HOUSE OF PRIDE 2027 | edition #s6xBERLIN’S QUEEREST MAIN PARTYJuly 24, 2027.  Berlin Pride hits its peak — and House of Pride takes over after the Parade.For one unforgettable night our multi-venue Ritter Butzke, AQUAHŌFE Berlin & Kreuzwerk transform into a massive queer playground in the heart of Berlin: seven areas, indoor & outdoor, packed with beats, 50+ performers & djs, wild energy and thousands of people coming together to celebrate exactly who they are.House of Pride is not just another party. It’s a statement. A celebration. A beautiful, sweaty, loud and unapologetic explosion of queer culture. The event supports Berlin Pride and a beneficial project every year! From house to techno, disco to pop, RnB, rave & to everything in between, expect a genre-hopping journey through some of Berlin’s most iconic spaces — with 50+ artists, spectacular performances and enough energy to carry you through 12+ hours of Pride night.Come for the music. Stay for the madness. Dance with strangers. Kiss whoever you want. Lose yourself in the crowd.No labels. No limits. No judgment. Just Pride.HOUSE OF PRIDE 2027July 24, 2027 | 21:00  7 AREAS · INDOOR & OUTDOOR 50+ ARTISTS · 5 GENRES 3,500+ PEOPLE · 12+ HOURS KREUZBERG · BERLINThe official Main Party of Berlin Pride | CSD Berlin 2027.Headliner & Line-Up: TBAThis is your Pride night. Make it c(o)unt.",
+    "startDate": "2027-07-24T21:00+0200",
+    "endDate": "2027-07-25T11:00+0200",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "location": {
+     "@type": "Place",
+     "name": "AQUAHÖFE Berlin (AHB)",
+     "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Ritterstraße 24-27",
+      "addressLocality": "Berlin",
+      "postalCode": "10969",
+      "addressCountry": "DE"
+     }
+    },
+    "image": [
+     "https://s3.eu-central-1.amazonaws.com/rausgegangen/DjTKRQ6SvYNM8CgoMbsQ_house-of-pride-2027-8.png"
+    ],
+    "offers": {
+     "@type": "AggregateOffer",
+     "lowPrice": "17.56",
+     "highPrice": "80.10",
+     "priceCurrency": "EUR",
+     "offerCount": 5,
+     "offers": [
+      {
+       "@type": "Offer",
+       "name": "SUPPORT Ticket (Special) | Phase 1",
+       "price": "21.80",
+       "priceCurrency": "EUR",
+       "availabilty": "https://schema.org/InStock"
+      },
+      {
+       "@type": "Offer",
+       "name": "EARLY BIRD | Regular (Access all night long)",
+       "price": "27.10",
+       "priceCurrency": "EUR",
+       "availabilty": "https://schema.org/InStock"
+      },
+      {
+       "@type": "Offer",
+       "name": "EARLY BIRD | VIP (Acces all night long)",
+       "price": "80.10",
+       "priceCurrency": "EUR",
+       "availabilty": "https://schema.org/InStock"
+      },
+      {
+       "@type": "Offer",
+       "name": "EARLY BIRD | BESTIE (2 Pax)",
+       "price": "21.80",
+       "priceCurrency": "EUR",
+       "availabilty": "https://schema.org/InStock"
+      },
+      {
+       "@type": "Offer",
+       "name": "EARLY BIRD | GROUP (4 Pax)",
+       "price": "17.56",
+       "priceCurrency": "EUR",
+       "availabilty": "https://schema.org/InStock"
+      }
+     ]
+    },
+    "organizer": [
+     {
+      "@type": "Organization",
+      "name": "DUCT TAPE",
+      "url": "https://rausgegangen.de/organizations/duct-tape/"
+     },
+     {
+      "@type": "Organization",
+      "name": "House of Pride",
+      "url": "https://rausgegangen.de/organizations/page-for-team-house-of-pride/"
+     },
+     {
+      "@type": "Organization",
+      "name": "Ritter Butzke",
+      "url": "https://rausgegangen.de/organizations/ritter-butzke-3/"
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Berlin",
+      "item": "https://rausgegangen.de/berlin/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Party",
+      "item": "https://rausgegangen.de/berlin/kategorie/party/"
+     }
+    ]
+   }
+  ],
+  "tickets": [
+   "love-at-first-slide-gutschein-by-rausgegangen",
+   "rausgegangen-geheimkonzert-gutschein"
+  ],
+  "len": 288554
+ },
+ "https://rausgegangen.de/events/unreleased-xmas-special-0/": {
+  "title": "unreleased XMAS SPECIAL on 09.12.2026 in Berlin - Rausgegangen - Rausgegangen Berlin",
+  "ld": [
+   {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "unreleased XMAS SPECIAL",
+    "description": "Handys bleiben aus, damit die Songs zum ersten Mal wirklich nur im Raum passieren. Bei unreleased stehen mindestens zehn geheime Acts auf der Bühne und testen neue Tracks vor Publikum 🪩",
+    "startDate": "2026-12-09T19:30+0100",
+    "endDate": "2026-12-10T00:00+0100",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "location": {
+     "@type": "Place",
+     "name": "Astra Kulturhaus",
+     "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Revaler Straße 99",
+      "addressLocality": "Berlin",
+      "postalCode": "10245",
+      "addressCountry": "DE"
+     }
+    },
+    "image": [
+     "https://s3.eu-central-1.amazonaws.com/rausgegangen/27x1IjXpSRKPGtbcnRmX_unreleased-releases.jpg"
+    ],
+    "offers": {
+     "@type": "Offer",
+     "url": "https://unreleased.berlin/tickets?utm_source=rausgegangen.de&utm_medium=referral&utm_campaign=URB_TOUR2_BER_REF_091226&utm_content=listing_091226&utm_term=listing&utm_id=listing#/de/event/unreleased-xmas-special/224938",
+     "price": "35.00",
+     "priceCurrency": "EUR",
+     "validFrom": "2026-12-09T19:30+0100"
+    },
+    "organizer": {
+     "@type": "Organization",
+     "name": "UNRELEASED",
+     "url": "https://rausgegangen.de/organizations/unreleased-1/"
+    }
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Berlin",
+      "item": "https://rausgegangen.de/berlin/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concerts & Music",
+      "item": "https://rausgegangen.de/berlin/kategorie/concerts-and-music/"
+     }
+    ]
+   }
+  ],
+  "tickets": [
+   "love-at-first-slide-gutschein-by-rausgegangen",
+   "rausgegangen-geheimkonzert-gutschein"
+  ],
+  "len": 320914
+ }
+}

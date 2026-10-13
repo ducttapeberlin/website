@@ -358,3 +358,11 @@ footer a:hover { color: var(--yellow); }
 /* Hinweis nach Klick auf einen Mail-Link */
 .mail-toast { position: fixed; left: 50%; bottom: 24px; transform: translate(-50%, 20px); z-index: 200; padding: 12px 18px; border-radius: 999px; background: var(--yellow); color: var(--black); font-weight: 700; font-size: 14px; opacity: 0; pointer-events: none; transition: opacity .2s, transform .2s; }
 .mail-toast.on { opacity: 1; transform: translate(-50%, 0); }
+
+/* Leistungen: Collage im Intro wie im Presskit, abgedunkelt, damit der Text lesbar bleibt */
+.page-intro.has-collage { position: relative; overflow: hidden; isolation: isolate; padding-top: clamp(96px, 14vw, 180px); }
+.intro-collage { position: absolute; inset: 0; z-index: -1; display: flex; flex-direction: column; }
+.intro-collage > div { flex: 1; display: flex; min-height: 0; }
+.intro-collage img { min-width: 0; width: 0; height: 100%; object-fit: cover; }
+.intro-collage::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(0,0,0,.9) 0%, rgba(0,0,0,.72) 50%, rgba(0,0,0,.35) 100%), linear-gradient(0deg, var(--black) 0%, rgba(0,0,0,0) 35%); }
+@media (max-width: 760px) { .intro-collage::after { background: linear-gradient(0deg, var(--black) 0%, rgba(0,0,0,.72) 45%, rgba(0,0,0,.6) 100%); } }

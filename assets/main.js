@@ -51,7 +51,7 @@ if (list && upcoming.length) {
   }
   list.after(actions);
 }
-// Menü "Shows": erster Unterpunkt ist die Featured Show, falls es eine gibt
+// Menü "Events": erster Unterpunkt ist die Featured Show, falls es eine gibt
 const feat = document.querySelector('.featured');
 const featLink = document.querySelector('.nav-featured');
 if (feat && featLink) {

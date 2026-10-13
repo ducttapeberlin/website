@@ -186,9 +186,13 @@ const reels = document.getElementById('reels');
 if (reels) {
   const body = document.getElementById('reels-body');
   document.querySelectorAll('[data-reels]').forEach(btn => btn.addEventListener('click', () => {
-    body.innerHTML = btn.dataset.reels.split(' ').map(id =>
+    const yt = (btn.dataset.youtube || '').split(' ').filter(Boolean).map(id =>
+      `<figure class="yt"><iframe src="https://www.youtube-nocookie.com/embed/${id}?rel=0" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen title="YouTube-Video"></iframe></figure>`).join('');
+    const ig = (btn.dataset.reels || '').split(' ').filter(Boolean).map(id =>
       `<figure class="reel"><iframe src="https://www.instagram.com/reel/${id}/embed/" allowfullscreen title="Instagram-Video"></iframe>` +
       `<a href="https://www.instagram.com/reel/${id}/" target="_blank" rel="noopener">Auf Instagram öffnen ↗</a></figure>`).join('');
+    body.innerHTML = (yt ? `<h3 class="reels-label">hot stuff × eBay · YouTube</h3><div class="yt-grid">${yt}</div>` : '') +
+      (ig ? `<h3 class="reels-label">Instagram</h3><div class="reels-grid">${ig}</div>` : '');
     reels.showModal();
   }));
   reels.querySelector('.tickets-close').addEventListener('click', () => reels.close());

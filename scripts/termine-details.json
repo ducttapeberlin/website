@@ -743,16 +743,16 @@
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/liebes-tagebuch-ich-geh-auf-tour-4/": {
-  "fetched": "2026-10-13T18:42:33+02:00",
+ "https://rausgegangen.de/events/patina-records-rus-us-d3m-1nt3rn3t-tour-2k27-5/": {
+  "fetched": "2026-10-13T19:39:28+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Sie hat sich selbst die Kündigung geschrieben, und genau das steckt jetzt in Antje Schomakers neuem Album. Nach der Pause klingt Liebes Tagebuch nach Befreiung mit scharfem Blick auf Macht und Biografie 💜",
-   "endDate": "2027-03-14T19:00+0100",
+   "description": "Sechs Leute aus dem Pott, die eher wie Clique als wie klassisches Label wirken. Patina Records gehen mit ihrer ersten eigenen Tour raus aus dem Feed und rauf auf die Bühne, irgendwo zwischen Freundschaft und Deutschrap Gegenwart 👀",
+   "endDate": "2027-03-07T23:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/l23lLEuZT6N6wIjIum98_antjetourplakar828x315logos.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/4ZJ5fY10QnaZxumbIiO0_rausgegangen.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -760,29 +760,29 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10245",
-     "streetAddress": "Revaler Strasse 99"
+     "postalCode": "10435",
+     "streetAddress": "Schönhauser Allee 36"
     },
-    "name": "Badehaus Berlin"
+    "name": "frannz club berlin"
    },
-   "name": "Antje Schomaker | Liebes Tagebuch, ich geh auf Tour!",
+   "name": "PATINA RECORDS: RAUS AUS DEM INTERNET TOUR 2027",
    "offers": {
     "@type": "Offer",
-    "price": "26.85",
+    "price": "26.00",
     "priceCurrency": "EUR",
-    "url": "https://loveyourartist.com/de/profiles/antje-schomaker-EZ0UH1/events",
-    "validFrom": "2027-03-14T19:00+0100"
+    "url": "https://www.eventim.de/noapp/event/patina-records-raus-aus-dem-internet-tour-2027-frannz-club-22190428/?affiliate=BBK&utm_campaign=gmbh&utm_source=bbk&utm_medium=dp",
+    "validFrom": "2027-03-07T19:00+0100"
    },
    "organizer": {
     "@type": "Organization",
-    "name": "Florida Touring Co. GmbH",
-    "url": "https://rausgegangen.de/organizations/florida-touring-co-gmbh/"
+    "name": "Buback",
+    "url": "https://rausgegangen.de/organizations/buback-1/"
    },
    "performer": {
     "@type": "PerformingGroup",
-    "name": "Antje Schomaker"
+    "name": "Patina Records"
    },
-   "startDate": "2027-03-14T19:00+0100"
+   "startDate": "2027-03-07T19:00+0100"
   }
  }
 }

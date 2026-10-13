@@ -279,7 +279,7 @@ footer a:hover { color: var(--yellow); }
 .offer-media img { width: 100%; height: 100%; object-fit: cover; filter: grayscale(1) contrast(1.05); transition: filter .5s ease, transform .8s ease; }
 .offer:hover .offer-media img { filter: none; transform: scale(1.03); }
 .offer.slides .offer-media { position: relative; }
-.offer.slides .offer-media img { position: absolute; inset: 0; opacity: 0; transition: opacity .8s ease, filter .5s ease, transform .8s ease; }
+.offer.slides .offer-media img { position: absolute; inset: 0; opacity: 0; transition: opacity .35s ease, filter .5s ease, transform .8s ease; }
 .offer.slides .offer-media img.on { opacity: 1; }
 .offer h2 { font-size: clamp(26px, 2.6vw, 34px); margin-bottom: 14px; }
 .offer ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }

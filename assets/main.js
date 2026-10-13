@@ -1,3 +1,7 @@
+// Unterseiten immer oben öffnen (der Browser übernimmt sonst teils die Scrollposition der vorigen Seite)
+if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+if (!location.hash) window.scrollTo(0, 0);
+
 // Mobile-Menü
 const toggle = document.querySelector('.nav-toggle');
 const nav = document.getElementById('nav');

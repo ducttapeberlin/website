@@ -207,6 +207,14 @@ section { padding: clamp(56px, 8vw, 104px) 0; border-bottom: 1px solid var(--lin
 .service.service-wide { align-items: stretch; }
 .service-wide .service-body { display: flex; flex-direction: column; width: 100%; max-width: none; }
 .service-wide .service-body > p, .service-wide .service-body > .kicker { max-width: 460px; }
+.service-wide .service-media img { filter: grayscale(1) contrast(1.05); }
+.service-wide .service-body > p.service-list { font-size: 20px; font-weight: 600; line-height: 1.7; color: var(--white); margin: 0; }
+.service-wide .service-body > p.service-list { display: flex; flex-wrap: wrap; overflow: hidden; }
+.service-list span { white-space: nowrap; display: inline-flex; align-items: center; }
+.service-list span::before { content: ""; flex: none; width: 9px; height: 9px; border-radius: 50%; background: var(--yellow); margin: 0 14px; }
+.service-wide .service-body > p.service-list { margin-left: -37px !important; clip-path: inset(0 0 0 37px); }
+.service-wide .booking-note { margin-left: calc(50% + 6px) !important; text-align: center; text-shadow: 0 1px 8px rgba(0,0,0,.9), 0 0 2px rgba(0,0,0,.8); }
+@media (max-width: 560px) { .service-wide .booking-note { margin-left: 0 !important; text-align: right; } }
 .service-wide .service-foot { margin-top: auto; padding-top: 40px; }
 .service-wide .service-body p.booking-note { font-size: 15px; margin: 0 0 18px; color: #CFCFCA; }
 .service-wide .hero-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }

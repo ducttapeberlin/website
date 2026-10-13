@@ -258,3 +258,8 @@ footer a:hover { color: var(--yellow); }
   .offer:nth-child(even) .offer-media { order: 0; }
   .steps { grid-template-columns: 1fr; }
 }
+
+/* Booking-Kopf: Überschrift und beide Buttons in einer Zeile */
+.section-head .hero-actions { flex-wrap: nowrap; gap: 10px; }
+@media (min-width: 700px) { .section-head { flex-wrap: nowrap; align-items: center; } }
+@media (max-width: 699px) { .section-head .hero-actions { width: 100%; } .section-head .hero-actions .btn { flex: 1; justify-content: center; padding: 12px 14px; font-size: 13px; } }

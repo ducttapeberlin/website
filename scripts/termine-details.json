@@ -177,39 +177,6 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/das-gegenteil-von-jetzt-kunstlerische-wege-in-eine-andere-ge-51/": {
-  "fetched": "2026-10-13T16:44:52+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Wenn Dich Kunst interessiert, die nicht nur Gegenwart abbildet, sondern nach einem anderen Heute sucht, klingt diese Ausstellung ziemlich stark: Zwölf Künstler:innen arbeiten mit jüdischen Überlieferungen und Denkfiguren von Bloch bis Adorno. Zum 25jährigen Bestehen wird das Museum zum Raum für offene Fragen, Gemeinschaft und Möglichkeiten 👀",
-   "endDate": "2026-11-01T18:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/zmk6xZgbTz2zi2la52k4_yael-bartana-the-birds-die-vogel-videostill-2026.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10969",
-     "streetAddress": "Lindenstraße 9-14"
-    },
-    "name": "Jüdisches Museum Berlin"
-   },
-   "name": "Das Gegenteil von Jetzt. Künstlerische Wege in eine andere Gegenwart",
-   "offers": {
-    "@type": "Offer",
-    "price": 0,
-    "priceCurrency": "EUR",
-    "url": "https://tickets.jmberlin.de/tickets/?museum_id=1&exhibition_id=18",
-    "validFrom": "2026-11-01T10:00+0100"
-   },
-   "startDate": "2026-11-01T10:00+0100"
-  }
- },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-1/": {
   "fetched": "2026-10-13T16:27:03+02:00",
   "ld": {
@@ -775,5 +742,43 @@
   },
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
+ },
+ "https://rausgegangen.de/events/keo-3/": {
+  "fetched": "2026-10-13T17:42:28+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Früher standen Finn und Conor Keogh noch in britischen Pubs auf der Bühne, jetzt klingt Keo nach deutlich lauteren Gitarren und offener Kante. Viel Alternative Rock, aber ohne Schutzschild 👀",
+   "endDate": "2027-04-11T06:00+0200",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Jg1vNdRjIbgCaKFsFpQK_press-photo-keobehappydigiv1judeharrison-39-klein.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "12051",
+     "streetAddress": "Hermannstraße 146"
+    },
+    "name": "HOLE"
+   },
+   "name": "Keo",
+   "offers": {
+    "@type": "Offer",
+    "price": "29.30",
+    "priceCurrency": "EUR",
+    "url": "https://www.eventim.de/noapp/event/keo-hole-44-22217130/?affiliate=SZ3&utm_campaign=SzeneTickets+GmbH&utm_source=SZ3&utm_medium=dp",
+    "validFrom": "2027-04-10T20:00+0200"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Trinity Music",
+    "url": "https://rausgegangen.de/organizations/trinity-music-ah-4tam/"
+   },
+   "startDate": "2027-04-10T20:00+0200"
+  }
  }
 }

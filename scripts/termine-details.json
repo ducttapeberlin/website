@@ -654,6 +654,91 @@
    "startDate": "2026-11-15T12:00+0100"
   }
  },
+ "https://rausgegangen.de/events/geheimkonzert-berlin-23-by-rausgegangen-0/": {
+  "fetched": "2026-10-13T21:53:31+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Na Hallo! Es ist wieder so weit: Ein Abend voller Überraschung - denn wer auf der Bühne steht, bleibt bis zum ersten Ton geheim. Wir hatten schon Blond, Berq, Ennio, Futurebae, Jassin, Anais, Katha Pauer & viele mehr zu Gast – und das schon bevor sie die großen Bühnen der Nation gestürmt haben. Also entdecke die Stars von morgen bei unseren Geheimkonzerten. 🪩",
+   "endDate": "2026-10-26T22:15+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/udcU1rZtRaW4gjPcOu73_gk202516x9photoheadline-29-5.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin"
+    },
+    "name": "Secret location"
+   },
+   "name": "Geheimkonzert Berlin #23 by Rausgegangen",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "29.90",
+    "lowPrice": "24.50",
+    "offerCount": 5,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "LOYALITY TICKET",
+      "price": "21.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "MITGEGANGEN LOYALITY TICKET",
+      "price": "24.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "REGULAR",
+      "price": "26.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "4er FRIENDS BUNDLE für 98€",
+      "price": "24.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "MITGEGANGEN",
+      "price": "29.90",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "Mitgegangen",
+     "url": "https://rausgegangen.de/organizations/mitgegangen/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Rausgegangen Geheimkonzerte",
+     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Rausgegangen Geheimkonzerte Berlin",
+     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte-3/"
+    }
+   ],
+   "startDate": "2026-10-26T19:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
   "fetched": "2026-10-13T16:27:03+02:00",
   "ld": {
@@ -742,47 +827,5 @@
   },
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/patina-records-rus-us-d3m-1nt3rn3t-tour-2k27-5/": {
-  "fetched": "2026-10-13T19:39:28+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Sechs Leute aus dem Pott, die eher wie Clique als wie klassisches Label wirken. Patina Records gehen mit ihrer ersten eigenen Tour raus aus dem Feed und rauf auf die Bühne, irgendwo zwischen Freundschaft und Deutschrap Gegenwart 👀",
-   "endDate": "2027-03-07T23:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/4ZJ5fY10QnaZxumbIiO0_rausgegangen.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10435",
-     "streetAddress": "Schönhauser Allee 36"
-    },
-    "name": "frannz club berlin"
-   },
-   "name": "PATINA RECORDS: RAUS AUS DEM INTERNET TOUR 2027",
-   "offers": {
-    "@type": "Offer",
-    "price": "26.00",
-    "priceCurrency": "EUR",
-    "url": "https://www.eventim.de/noapp/event/patina-records-raus-aus-dem-internet-tour-2027-frannz-club-22190428/?affiliate=BBK&utm_campaign=gmbh&utm_source=bbk&utm_medium=dp",
-    "validFrom": "2027-03-07T19:00+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Buback",
-    "url": "https://rausgegangen.de/organizations/buback-1/"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Patina Records"
-   },
-   "startDate": "2027-03-07T19:00+0100"
-  }
  }
 }

@@ -133,3 +133,17 @@ if (dlg) {
 
 const year = document.getElementById('year');
 if (year) year.textContent = new Date().getFullYear();
+
+// Termine-Seite: aufgeklappte Eventtexte unten wieder zuklappen
+document.querySelectorAll('.tevent-desc details').forEach(d => {
+  const close = document.createElement('button');
+  close.type = 'button';
+  close.className = 'tevent-less';
+  close.textContent = 'Weniger anzeigen';
+  close.addEventListener('click', () => {
+    d.open = false;
+    const card = d.closest('.tevent');
+    if (card.getBoundingClientRect().top < 0) card.scrollIntoView({ block: 'start' });
+  });
+  d.appendChild(close);
+});

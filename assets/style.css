@@ -326,3 +326,5 @@ footer a:hover { color: var(--yellow); }
 .tevent-desc details summary::-webkit-details-marker { display: none; }
 .tevent-desc details summary::after { content: " ↓"; }
 .tevent-desc details[open] summary { display: none; }
+.tevent-less { background: none; border: 0; padding: 0; cursor: pointer; font: 700 16px var(--body); color: var(--yellow); }
+.tevent-less::after { content: " ↑"; }

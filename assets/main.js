@@ -20,9 +20,9 @@ const list = document.querySelector('.events');
 if (list && !upcoming.length && !document.querySelector('.featured') && !list.querySelector('.events-empty')) {
   list.insertAdjacentHTML('beforeend', '<li class="events-empty">Neue Termine folgen in Kürze.</li>');
 }
-// Lange Liste kürzen: erst 6 Termine, Rest per Button
-const SHOW = 6;
-if (list && upcoming.length > SHOW + 1) {
+// Lange Liste kürzen: neben dem Featured-Event höchstens 4 Termine, Rest per Button
+const SHOW = 4;
+if (list && upcoming.length > SHOW) {
   upcoming.slice(SHOW).forEach(ev => ev.classList.add('is-more'));
   const more = document.createElement('button');
   more.type = 'button';

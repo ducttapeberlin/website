@@ -220,7 +220,7 @@ section { padding: clamp(56px, 8vw, 104px) 0; border-bottom: 1px solid var(--lin
 .service-wide .hero-actions .btn-ghost { background: rgba(11,11,11,.85); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); }
 .service-wide .hero-actions .btn-ghost:hover { background: var(--yellow); }
 .service-wide .service-foot { margin-top: auto; padding-top: 40px; }
-.service-wide .service-body p.booking-note { font-size: 15px; margin: 0 0 18px; color: #CFCFCA; }
+.service-wide .service-body p.booking-note { font-size: 15px; margin: 14px 0 0; color: #CFCFCA; }
 .service-wide .hero-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
 .service-wide .hero-actions .btn { justify-content: center; text-align: center; padding: 20px 16px; font-size: 16px; white-space: nowrap; }
 @media (max-width: 560px) { .service-wide .hero-actions { gap: 8px; } .service-wide .hero-actions .btn { padding: 16px 8px; font-size: 13px; letter-spacing: .02em; } }

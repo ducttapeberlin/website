@@ -743,16 +743,16 @@
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/provinz-cry-baby-cry-tour-2027-13/": {
-  "fetched": "2026-10-13T22:55:47+02:00",
+ "https://rausgegangen.de/events/liebes-tagebuch-ich-geh-auf-tour-3/": {
+  "fetched": "2026-10-13T23:51:21+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Vier Leute, ein neuer Songtitel, und sofort ist wieder dieses Provinz Gefühl da, das zwischen Indie und Britpop hängen bleibt. Im Winter 2027 geht die Band mit Cry Baby Cry auf Tour 👀",
-   "endDate": "2027-12-03T23:00+0100",
+   "description": "Sie hat sich selbst die Kündigung geschrieben, und genau das steckt jetzt in Antje Schomakers neuem Album. Nach der Pause klingt Liebes Tagebuch nach Befreiung mit scharfem Blick auf Macht und Biografie 💜",
+   "endDate": "2027-03-13T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/T2uMq2bRMaULDzfM5M5w_provinz-cbc-2027-fb-banner-1920x1005px.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/l23lLEuZT6N6wIjIum98_antjetourplakar828x315logos.png"
    ],
    "location": {
     "@type": "Place",
@@ -760,29 +760,29 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10437",
-     "streetAddress": "Am Falkplatz 1"
+     "postalCode": "10245",
+     "streetAddress": "Revaler Strasse 99"
     },
-    "name": "Max-Schmeling-Halle"
+    "name": "Badehaus Berlin"
    },
-   "name": "Provinz • \"Cry Baby Cry\" Tour 2027",
+   "name": "Antje Schomaker | Liebes Tagebuch, ich geh auf Tour!",
    "offers": {
     "@type": "Offer",
-    "price": "69.99",
+    "price": "26.85",
     "priceCurrency": "EUR",
-    "url": "https://shop.provinzband.com/events/provinz-cry-baby-cry-tour-2027-zusatzshow-max-schmeling-halle",
-    "validFrom": "2027-12-03T18:00+0100"
+    "url": "https://loveyourartist.com/de/profiles/antje-schomaker-EZ0UH1/events",
+    "validFrom": "2027-03-12T19:00+0100"
    },
    "organizer": {
     "@type": "Organization",
-    "name": "LANDSTREICHER BOOKING",
-    "url": "https://rausgegangen.de/organizations/landstreicher-booking-ah-fk3y/"
+    "name": "Florida Touring Co. GmbH",
+    "url": "https://rausgegangen.de/organizations/florida-touring-co-gmbh/"
    },
    "performer": {
     "@type": "PerformingGroup",
-    "name": "Provinz"
+    "name": "Antje Schomaker"
    },
-   "startDate": "2027-12-03T18:00+0100"
+   "startDate": "2027-03-12T19:00+0100"
   }
  }
 }

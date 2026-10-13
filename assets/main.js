@@ -104,6 +104,29 @@ document.querySelectorAll('.service[data-images]').forEach(tile => {
   }
 });
 
+// Leistungen-Seite: Kacheln mit mehreren Bildern laufen als Slideshow durch, solange sie sichtbar sind
+document.querySelectorAll('.offer[data-images]').forEach(tile => {
+  const media = tile.querySelector('.offer-media');
+  const first = media.querySelector('img');
+  const imgs = [first, ...tile.dataset.images.split(',').map(s => s.trim()).filter(Boolean).slice(1).map(entry => {
+    const [src, pos] = entry.split('@').map(s => s.trim());
+    const img = document.createElement('img');
+    img.src = src; img.alt = ''; img.loading = 'lazy';
+    if (pos) img.style.objectPosition = pos;
+    media.appendChild(img);
+    return img;
+  })];
+  if (imgs.length < 2) return;
+  tile.classList.add('slides');
+  let i = 0, timer = null;
+  first.classList.add('on');
+  const step = () => { imgs[i].classList.remove('on'); i = (i + 1) % imgs.length; imgs[i].classList.add('on'); };
+  new IntersectionObserver(([e]) => {
+    if (e.isIntersecting && !timer) timer = setInterval(step, 2600);
+    else if (!e.isIntersecting) { clearInterval(timer); timer = null; }
+  }, { threshold: .5 }).observe(tile);
+});
+
 // Mitglieder: auf dem Handy tritt die Figur aus dem Rahmen, sobald die Karte mittig im Bild ist
 if (touch) {
   document.querySelectorAll('.member').forEach(m => new IntersectionObserver(([e]) => m.classList.toggle('is-pop', e.isIntersecting),

@@ -180,3 +180,17 @@ document.querySelectorAll('.tevent-desc details').forEach(d => {
   });
   d.appendChild(close);
 });
+
+// Kooperationen: Reels im Fenster, Instagram wird erst beim Klick geladen
+const reels = document.getElementById('reels');
+if (reels) {
+  const body = document.getElementById('reels-body');
+  document.querySelectorAll('[data-reels]').forEach(btn => btn.addEventListener('click', () => {
+    body.innerHTML = btn.dataset.reels.split(' ').map(id =>
+      `<iframe src="https://www.instagram.com/reel/${id}/embed/" loading="lazy" allowfullscreen title="Instagram-Video"></iframe>`).join('');
+    reels.showModal();
+  }));
+  reels.querySelector('.tickets-close').addEventListener('click', () => reels.close());
+  reels.addEventListener('click', e => { if (e.target === reels) reels.close(); });
+  reels.addEventListener('close', () => { body.innerHTML = ''; });
+}

@@ -573,6 +573,55 @@
    "startDate": "2026-12-16T20:00+0100"
   }
  },
+ "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
+  "fetched": "2026-10-14T01:46:17+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "CHRISTMAS EDITION DRAG BRUNCH 🎄✨Duct Tape und Fritz-Kola laden euch zur Christmas Edition unseres Drag Brunch ein!Am Sonntag, den 13. Dezember, feiern wir unseren letzten Drag Brunch des Jahres auf dem Dach des The Dawn Neukölln. Freut euch auf einen festlichen Mittag mit drei Showblöcken, weihnachtlichen Drinks, gutem Essen und jeder Menge guter Laune.DIE SHOW 🎄 Durch den Brunch führen euch: 👑 EMI 👑 Rachel Intervention 👑 Amy Strong Freut euch auf drei Showblöcke voller Drag-Performances, kleine Challenges, Gewinnspiele und jede Menge Überraschungen.DAS ESSEN 🍽️ Das Essen bestellt ihr wie gewohnt à la carte direkt aus der Speisekarte des The Dawn.CHRISTMAS SPECIALS 🍹 🥤 Exklusive Drink Specials Gemeinsam mit Fritz-Kola erwarten euch weihnachtliche Signature Drinks und Specials.🧡 Aperol for a Good Cause Wer am Eingang eine kleine Spende für unsere Drag Artists dalässt, erhält als Dankeschön einen Aperol Spritz aufs Haus.🎭 Drei Showblöcke Während des gesamten Brunchs erwarten euch Drag-Performances. Perfekt, egal ob ihr zum Frühstück oder auf den letzten Aperol vorbeikommt.WICHTIGE INFOS 📍 📍 The Dawn Neukölln KALLE HALLE, Karl-Marx-Straße 101, 12043 Berlin einfach mit dem Aufzug bis ins Dachgeschoss 📅 Sonntag, 13. Dezember 🕛 12:00 bis 15:00 Uhr 💸 Eintritt frei, ihr zahlt lediglich eure Speisen und Getränke. 🪑 Tischreservierung empfohlenReserviert euren Tisch ganz einfach über OpenTable. Ohne Reservierung können wir euch leider keinen Platz garantieren.Mehr Infos & Updates findet ihr auf unserer WEBSITE und wie immer auf Instagram bei @ducttapeberlin und @fritzkola_berWir sehen uns bei der CHRISTMAS EDITION DRAG BRUNCH. 🎄💖",
+   "endDate": "2026-12-13T15:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/r6x4rdeSQNutLkAW7jZd_banner-xmas-brunch.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "12043",
+     "streetAddress": "Karl-Marx-Straße 101"
+    },
+    "name": "The Dawn Neukölln"
+   },
+   "name": "DRAG BRUNCH - Christmas Edition // sponsored by Fritz-Kola",
+   "offers": {
+    "@type": "Offer",
+    "price": "0.00",
+    "priceCurrency": "EUR",
+    "url": "https://www.opentable.de/booking/restref/availability?lang=de-DE&restRef=514161&dateTime=2026-12-13T12%3A00&partySize=2&correlationId=98cd1fa9-d19a-4a55-9fbd-debb83d3ce3c",
+    "validFrom": "2026-12-13T12:00+0100"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "Amy Strong",
+     "url": "https://rausgegangen.de/organizations/page-for-team-amy-strong/"
+    },
+    {
+     "@type": "Organization",
+     "name": "DUCT TAPE",
+     "url": "https://rausgegangen.de/organizations/duct-tape/"
+    }
+   ],
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Amy Strong"
+   },
+   "startDate": "2026-12-13T12:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/drag-brunch-sponsored-by-fritz-kola-halloween-edition-0/": {
   "fetched": "2026-10-13T22:55:47+02:00",
   "ld": {
@@ -652,6 +701,60 @@
     "name": "Harpy Fatale"
    },
    "startDate": "2026-11-15T12:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/gay-panic-alter-ego-0/": {
+  "fetched": "2026-10-14T01:46:17+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Zwischen Drag und Whacking geht es bei GAY PANIC diesmal ums Alter Ego, also um die Seite von Dir, die sonst eher unter dem Bett wohnt. Dahinter steckt eine queere Partyreihe, die vor allem FLINTA und queer Artists Platz macht und auf Awareness achtet 🌈",
+   "endDate": "2026-10-26T02:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/DTtkItOzTi4xeMDmEW5l_bannerrausgegangenbanner-copy.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10245",
+     "streetAddress": "Revaler Str. 99"
+    },
+    "name": "Crack Bellmer"
+   },
+   "name": "GAY PANIC: Alter Ego",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "15.00",
+    "lowPrice": "10.00",
+    "offerCount": 2,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Early Bird",
+      "price": "8.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Soli",
+      "price": "5.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "GAY PANIC",
+    "url": "https://rausgegangen.de/organizations/gay-panic/"
+   },
+   "startDate": "2026-10-25T19:00+0100"
   }
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
@@ -742,47 +845,5 @@
   },
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/provinz-cry-baby-cry-tour-2027-13/": {
-  "fetched": "2026-10-14T00:50:17+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Vier Leute, ein neuer Songtitel, und sofort ist wieder dieses Provinz Gefühl da, das zwischen Indie und Britpop hängen bleibt. Im Winter 2027 geht die Band mit Cry Baby Cry auf Tour 👀",
-   "endDate": "2027-12-03T23:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/T2uMq2bRMaULDzfM5M5w_provinz-cbc-2027-fb-banner-1920x1005px.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10437",
-     "streetAddress": "Am Falkplatz 1"
-    },
-    "name": "Max-Schmeling-Halle"
-   },
-   "name": "Provinz • \"Cry Baby Cry\" Tour 2027",
-   "offers": {
-    "@type": "Offer",
-    "price": "69.99",
-    "priceCurrency": "EUR",
-    "url": "https://shop.provinzband.com/events/provinz-cry-baby-cry-tour-2027-zusatzshow-max-schmeling-halle",
-    "validFrom": "2027-12-03T18:00+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "LANDSTREICHER BOOKING",
-    "url": "https://rausgegangen.de/organizations/landstreicher-booking-ah-fk3y/"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Provinz"
-   },
-   "startDate": "2027-12-03T18:00+0100"
-  }
  }
 }

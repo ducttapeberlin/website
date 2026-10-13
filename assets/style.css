@@ -94,7 +94,18 @@ button.btn { font-family: var(--body); cursor: pointer; }
   .hero { min-height: 92svh; }
   .hero-media img { width: 100%; object-position: center 10%; }
   .hero-media::after { background: linear-gradient(0deg, rgba(11,11,11,1) 0%, rgba(11,11,11,.75) 50%, rgba(11,11,11,.2) 100%); }
+  /* Handy: Buttons als eigene schwarze Reihe unter dem Bild, in einer Zeile */
+  .hero .wrap { padding-bottom: 0; }
+  .hero p { margin-bottom: 24px; }
+  .hero-actions { display: grid; grid-template-columns: 1fr 1fr auto; gap: 8px; margin: 0 calc(-1 * var(--gutter)); padding: 16px var(--gutter) 20px; background: var(--black); }
+  .hero-actions .btn { justify-content: center; padding: 14px 10px; font-size: 13px; letter-spacing: .02em; white-space: nowrap; }
+  .hero-actions .btn-ig { padding: 12px 14px; }
+  .hero-actions .lg-only { display: none; }
+  .hero-actions .btn-ig .ig-label { display: none; }
 }
+.ig-icon { display: none; }
+.hero .hero-actions .btn { gap: 0; }
+@media (max-width: 720px) { .hero-actions .btn-ig .ig-icon { display: block; } }
 
 /* Next-up strip */
 .next { background: var(--yellow); color: var(--black); }

@@ -381,7 +381,8 @@ footer a:hover { color: var(--yellow); }
 .page-intro.has-collage { position: relative; overflow: hidden; isolation: isolate; padding-top: clamp(96px, 14vw, 180px); }
 .intro-collage { position: absolute; inset: 0; z-index: -1; }
 .intro-collage img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 70% 50%; }
-.intro-collage::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(11,11,11,1) 0%, rgba(11,11,11,1) 35%, rgba(11,11,11,.55) 55%, rgba(11,11,11,0) 80%), linear-gradient(0deg, rgba(11,11,11,1) 0%, rgba(11,11,11,0) 30%); }
+.intro-collage::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(11,11,11,1) 0%, rgba(11,11,11,1) 40%, rgba(11,11,11,.85) 60%, rgba(11,11,11,.35) 80%, rgba(11,11,11,0) 95%), linear-gradient(0deg, rgba(11,11,11,1) 0%, rgba(11,11,11,0) 30%); }
 .intro-collage img { filter: grayscale(1) contrast(1.05); transition: filter .4s ease; }
 .page-intro.has-collage:hover .intro-collage img { filter: none; }
+.page-intro.has-collage .lead, .page-intro.has-collage h1 { text-shadow: 0 2px 12px rgba(0,0,0,.9), 0 0 3px rgba(0,0,0,.8); }
 @media (max-width: 760px) { .intro-collage::after { background: linear-gradient(0deg, rgba(11,11,11,1) 0%, rgba(11,11,11,.75) 50%, rgba(11,11,11,.2) 100%); } }

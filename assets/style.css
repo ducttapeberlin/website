@@ -204,6 +204,8 @@ section { padding: clamp(56px, 8vw, 104px) 0; border-bottom: 1px solid var(--lin
 .nl-form input::placeholder { color: #5a5000; }
 .nl-form .btn { border-color: var(--black); background: var(--black); color: var(--yellow); }
 .small { font-size: 13px; color: inherit; opacity: .75; margin-top: 12px; }
+.split-title { font-size: min(64px, 11.5cqi); white-space: nowrap; }
+.split .split-lead { margin: 18px 0 26px; }
 @media (max-width: 820px) { .split { grid-template-columns: 1fr; } }
 
 /* Ticket-Overlay */

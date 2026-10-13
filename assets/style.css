@@ -243,7 +243,8 @@ section { padding: clamp(56px, 8vw, 104px) 0; border-bottom: 1px solid var(--lin
 .tickets-foot { margin: 0; padding: 12px 20px; font-size: 13px; color: var(--grey); border-top: 1px solid var(--line); }
 .tickets-foot a { color: var(--yellow); }
 /* Kooperationen: Instagram-Reels, erst beim Öffnen geladen */
-.offer-more { align-self: flex-start; margin-top: 20px; padding: 11px 20px; font-size: 13px; }
+.offer-link { padding: 0; border: 0; background: none; font: inherit; color: var(--yellow); text-decoration: underline; text-underline-offset: 3px; cursor: pointer; text-align: left; }
+.offer-link:hover { color: var(--white); }
 .reels { width: min(1180px, calc(100% - 24px)); height: 92svh; max-height: 92svh; }
 .reels-body { flex: 1 1 auto; min-height: 0; overflow-y: auto; -webkit-overflow-scrolling: touch; background: var(--black); padding: 16px 16px 24px; }
 .reels-label { margin: 8px 0 12px; font-family: var(--display); font-weight: 400; font-size: 18px; text-transform: uppercase; letter-spacing: .02em; color: var(--white); }

@@ -270,16 +270,15 @@ footer a:hover { color: var(--yellow); }
 .page-intro { border-bottom: 1px solid var(--line); }
 .page-intro h1 { font-size: clamp(56px, 10vw, 120px); color: var(--yellow); margin-bottom: 20px; }
 .page-intro .lead { margin: 0 0 28px; }
-.offers .wrap { display: grid; gap: clamp(48px, 7vw, 88px); }
-.offer { display: grid; grid-template-columns: 1.1fr 1fr; gap: clamp(24px, 4vw, 56px); align-items: center; }
-.offer .offer-media { order: 2; }
-.offer-media { aspect-ratio: 4 / 3; overflow: hidden; border: 1px solid var(--line); }
+.offers .wrap { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(36px, 4vw, 56px) clamp(20px, 2.6vw, 36px); }
+.offer { display: flex; flex-direction: column; }
+.offer-media { aspect-ratio: 4 / 3; overflow: hidden; border: 1px solid var(--line); margin-bottom: 20px; }
 .offer-media img { width: 100%; height: 100%; object-fit: cover; filter: grayscale(1) contrast(1.05); transition: filter .5s ease, transform .8s ease; }
 .offer:hover .offer-media img { filter: none; transform: scale(1.03); }
-.offer h2 { font-size: clamp(32px, 4.4vw, 52px); margin-bottom: 16px; }
-.offer-body > p:not(.kicker) { color: #D8D8D2; margin: 0 0 16px; }
+.offer h2 { font-size: clamp(26px, 2.6vw, 34px); margin-bottom: 14px; }
 .offer ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
 .offer li { position: relative; padding-left: 22px; color: #BDBDB7; font-size: 15px; }
+@media (max-width: 1000px) and (min-width: 761px) { .offers .wrap { grid-template-columns: repeat(2, 1fr); } }
 .offer li::before { content: ""; position: absolute; left: 0; top: .62em; width: 10px; height: 4px; background: var(--yellow); transform: rotate(-8deg); }
 .steps { list-style: none; counter-reset: step; margin: 28px 0 36px; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
 .steps li { counter-increment: step; padding: 24px; border: 1px solid var(--line); background: var(--ink); }
@@ -287,8 +286,7 @@ footer a:hover { color: var(--yellow); }
 .steps strong { display: block; font-size: 18px; margin-bottom: 6px; }
 .steps span { color: #BDBDB7; font-size: 15px; }
 @media (max-width: 760px) {
-  .offer { grid-template-columns: 1fr; }
-  .offer .offer-media { order: 0; }
+  .offers .wrap { grid-template-columns: 1fr; }
   .steps { grid-template-columns: 1fr; }
 }
 

@@ -1,5 +1,5 @@
-# Holt stündlich die Termine aus der Google-Tabelle "DUCT TAPE Termine (Website)" und schreibt sie in index.html und termine.html.
-# Fehlende Eventseiten-Links werden auf der rausgegangen-Organizer-Seite gesucht, Poster und Beschreibungen auf den Eventseiten.
+# Holt stündlich alle DUCT TAPE Events von der rausgegangen-Organizer-Seite (mit Poster und Beschreibung von den Eventseiten)
+# und schreibt sie in index.html und termine.html. Featured, Einlass, Gäste und fehlende Termine: scripts/termine-config.json.
 # Manuell starten: GitHub → Actions → "Termine aktualisieren" → Run workflow.
 name: Termine aktualisieren
 on:
@@ -13,6 +13,7 @@ concurrency:
 jobs:
   termine:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
       - name: rausgegangen-Organizer-Seite laden
@@ -24,20 +25,15 @@ jobs:
       - name: Pillow für die Poster
         continue-on-error: true
         run: python3 -m pip install --quiet --break-system-packages pillow
-      - name: Termine aus der Google-Tabelle einsetzen
+      - name: Termine einsetzen
         env:
           RAUSGEGANGEN_HTML: ${{ runner.temp }}/rausgegangen.html
         run: python3 scripts/termine.py
-      - name: rausgegangen-Daten abziehen (einmalig)
-        continue-on-error: true
-        env:
-          RAUSGEGANGEN_HTML: ${{ runner.temp }}/rausgegangen.html
-        run: python3 scripts/rausgegangen_dump.py
       - name: Änderungen speichern
         run: |
-          git add -A index.html termine.html scripts/termine-details.json scripts/rausgegangen-dump.json assets/img/termine
+          git add -A index.html termine.html scripts/termine-details.json assets/img/termine
           if git diff --cached --quiet; then echo "Keine Änderungen"; exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Termine aus der Google-Tabelle aktualisiert"
+          git commit -m "Termine von rausgegangen aktualisiert"
           git push

@@ -1,13 +1,10 @@
-"""Schreibt die Termine aus der Google-Tabelle in index.html (zwischen EVENTS:START und EVENTS:END)
+"""Holt alle DUCT TAPE Events von rausgegangen und schreibt sie in index.html (zwischen EVENTS:START und EVENTS:END)
 und mit Poster und Beschreibung in termine.html (zwischen ALL:START und ALL:END).
 
-Läuft stündlich über .github/workflows/termine.yml. Fehlt in der Tabelle die Eventseite, sucht das Skript
-den Termin am selben Tag auf der rausgegangen-Organizer-Seite (gerendertes HTML in $RAUSGEGANGEN_HTML).
-Lokal testen:
-    python3 scripts/termine.py              # liest die Tabelle online
-    python3 scripts/termine.py termine.csv  # liest eine heruntergeladene CSV
+Läuft stündlich über .github/workflows/termine.yml. Quelle ist die Organizer-Seite (gerendertes HTML in
+$RAUSGEGANGEN_HTML) und die Eventseiten dahinter (JSON-LD). Was rausgegangen nicht hergibt (Featured, Einlass,
+Gäste, Termine die dort fehlen), steht in scripts/termine-config.json.
 """
-import csv
 import datetime as dt
 import hashlib
 import html
@@ -16,19 +13,22 @@ import json
 import os
 import re
 import shutil
+import unicodedata
 import subprocess
 import sys
+import urllib.error
 import urllib.request
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-SHEET_ID = "17gTptLrfvTtNU7fB6bJKMsSKL1nsc0myymPQorFi5YQ"
-CSV_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=csv&gid=0"
+ORGANIZER = "https://rausgegangen.de/organizations/duct-tape/"
 ROOT = Path(__file__).resolve().parent.parent
 INDEX = ROOT / "index.html"
 TERMINE = ROOT / "termine.html"
 POSTERS = ROOT / "assets" / "img" / "termine"
 CACHE = Path(__file__).resolve().parent / "termine-details.json"
+CONFIG = Path(__file__).resolve().parent / "termine-config.json"
+REFETCH = dt.timedelta(hours=6)
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0 Safari/537.36"
 START, END = "<!-- EVENTS:START -->", "<!-- EVENTS:END -->"
 F_START, F_END = "<!-- FEATURED:START -->", "<!-- FEATURED:END -->"
@@ -92,40 +92,6 @@ def ticket_slug(s):
         return m[1]
     s = (s or "").strip()
     return s if re.fullmatch(r"[a-z0-9-]+", s) else None
-
-
-def rausgegangen_pages(path, today):
-    """Eventseiten von der Organizer-Seite: {Datum: [(Kartentext, URL), …]}. Leer, wenn die Seite fehlt."""
-    try:
-        src = Path(path).read_text(encoding="utf-8")
-    except (OSError, TypeError):
-        return {}
-    pages = {}
-    for m in re.finditer(r'<a[^>]*href="(?:https://rausgegangen\.de)?(?:/en)?/events/([^"/]+)/?"[^>]*>(.*?)</a>', src, re.S):
-        text = html.unescape(re.sub(r"<[^>]+>", " ", m[2]))
-        d = re.search(r"(\d{1,2})\.\s*([A-Za-zä]{3})", text)
-        day, mon = (d[1], d[2]) if d else (None, None)
-        if not d and (d := re.search(r"\b([A-Z][a-z]{2})\s+(\d{1,2})\b", text)):
-            day, mon = d[2], d[1]
-        if not day or mon.lower() not in MONTHS:
-            continue
-        try:
-            date = dt.date(today.year, MONTHS[mon.lower()], int(day))
-            if date < today - dt.timedelta(days=7):
-                date = date.replace(year=today.year + 1)
-        except ValueError:
-            continue
-        url = f"https://rausgegangen.de/events/{m[1]}/"
-        if url not in (u for _, u in pages.get(date, [])):
-            pages.setdefault(date, []).append((text.lower(), url))
-    return pages
-
-
-def match_page(row, date, pages):
-    """Bei mehreren Events am selben Tag gewinnt das mit den meisten gemeinsamen Wörtern aus Titel und Location."""
-    words = set(re.findall(r"\w{3,}", f"{row.get('Titel')} {row.get('Location')}".lower()))
-    best = max(pages.get(date, []), key=lambda p: len(words & set(re.findall(r"\w{3,}", p[0]))), default=None)
-    return best[1] if best else ""
 
 
 def when(row):
@@ -248,7 +214,7 @@ def fetch(url):
 def clean_text(s):
     """HTML-Beschreibung -> Klartext mit Absätzen."""
     s = re.sub(r"(?i)<br\s*/?>|</p>|</li>|</h\d>", "\n", s or "")
-    s = html.unescape(re.sub(r"<[^>]+>", "", s))
+    s = unicodedata.normalize("NFC", html.unescape(re.sub(r"<[^>]+>", "", s)))  # "fu\u0308r" -> "für"
     lines = [re.sub(r"[ \t ]+", " ", l).strip() for l in s.splitlines()]
     return re.sub(r"\n{3,}", "\n\n", "\n".join(lines)).strip()
 
@@ -264,30 +230,6 @@ def add_breaks(s):
     s = re.sub(r"([.!?…])(?=[A-ZÄÖÜ" + EMOJI + "])", "\\1\n\n", s)
     s = re.sub(r"([" + EMOJI + "]\ufe0f?)(?=[A-ZÄÖÜ])", "\\1\n\n", s)
     return re.sub(r"(?<=[a-zäöüß])(?=[" + EMOJI + "] [A-ZÄÖÜ])", "\n\n", s)
-
-
-def page_details(src):
-    """Beschreibung und Bild aus einer Eventseite (JSON-LD, sonst Open-Graph-Tags)."""
-    desc = image = ""
-    for block in re.findall(r'<script[^>]*application/ld\+json[^>]*>(.*?)</script>', src, re.S):
-        try:
-            data = json.loads(html.unescape(block))
-        except ValueError:
-            continue
-        items = data if isinstance(data, list) else data.get("@graph", [data]) if isinstance(data, dict) else []
-        for it in items:
-            if isinstance(it, dict) and "Event" in str(it.get("@type", "")):
-                desc = desc or clean_text(it.get("description") or "")
-                img = it.get("image")
-                img = img[0] if isinstance(img, list) and img else img
-                img = img.get("url") if isinstance(img, dict) else img
-                image = image or (img if isinstance(img, str) else "")
-
-    def meta(prop):
-        m = re.search(rf'<meta[^>]+(?:property|name)="{prop}"[^>]+content="([^"]*)"', src) or \
-            re.search(rf'<meta[^>]+content="([^"]*)"[^>]+(?:property|name)="{prop}"', src)
-        return html.unescape(m[1]).strip() if m else ""
-    return desc or meta("og:description") or meta("description"), image or meta("og:image")
 
 
 def drive_direct(url):
@@ -321,23 +263,14 @@ def save_poster(url):
     return f"assets/img/termine/{name}"
 
 
-def details(row, cache):
-    """Beschreibung und Poster: aus der Tabelle, sonst von der rausgegangen-Eventseite (zwischengespeichert)."""
+def details(row):
+    """Beschreibung und Poster (von der rausgegangen-Eventseite, Poster lokal gespeichert)."""
     desc = (row.get("Beschreibung") or "").strip()
     poster = (row.get("Poster") or "").strip()
-    page = (row.get("Eventseite") or "").strip()
-    if (not desc or not poster) and page.startswith("http"):
-        if page not in cache:
-            src = fetch(page)
-            if src:
-                d, img = page_details(src)
-                cache[page] = {"description": d, "image": img}
-        desc = desc or cache.get(page, {}).get("description", "")
-        poster = poster or cache.get(page, {}).get("image", "")
     return desc, save_poster(poster) if poster.startswith("http") else ""
 
 
-def render_all(events, cache):
+def render_all(events):
     """Alle Termine mit Poster und Beschreibung für termine.html, nach Monaten gruppiert."""
     out, month = [], None
     for date, _, r in events:
@@ -347,7 +280,7 @@ def render_all(events, cache):
             month = (date.year, date.month)
             out += [f'<div class="month" data-month="{date:%Y-%m}">', f"  <h2>{MONTH_NAMES[date.month - 1]} {date.year}</h2>"]
         _, _, time, doors = when(r)
-        desc, poster = details(r, cache)
+        desc, poster = details(r)
         desc = add_breaks(desc)
         title = (r.get("Titel") or "").strip()
         tag = (r.get("Format") or "").strip()
@@ -385,29 +318,142 @@ def replace_between(src, start, end, body, indent):
     return src[:a] + "\n" + (body + "\n" if body else "") + indent + src[b:]
 
 
-def main():
-    if len(sys.argv) > 1:
-        text = Path(sys.argv[1]).read_text(encoding="utf-8")
-    else:
+KEEP_CAPS = {"DUCT", "TAPE", "HOP", "CSD", "DJ", "XMAS", "LGBTQ", "NYE"}
+
+
+def tidy(s):
+    """'DRAG BINGO NIGHT' -> 'Drag Bingo Night', 'CHRISTMAS SHOW' -> 'Christmas Show'; kurze Wörter und Kürzel bleiben."""
+    return " ".join(w.capitalize() if w.isupper() and len(w) > 2 and w not in KEEP_CAPS else w for w in s.split())
+
+
+def slug_of(url):
+    return url.rstrip("/").rsplit("/", 1)[-1]
+
+
+def series(slug):
+    """'a-berlin-drag-queens-christmas-show-1' -> 'a-berlin-drag-queens-christmas-show' (Termine einer Reihe)."""
+    return re.sub(r"-\d+$", "", slug)
+
+
+def event_ld(url, cache, now):
+    """JSON-LD der Eventseite, zwischengespeichert und alle paar Stunden neu geholt."""
+    hit = cache.get(url)
+    if hit and hit.get("ld") and dt.datetime.fromisoformat(hit["fetched"]) > now - REFETCH:
+        return hit["ld"]
+    src = fetch(url)
+    for block in re.findall(r'<script[^>]*application/ld\+json[^>]*>(.*?)</script>', src, re.S):
         try:
-            with urllib.request.urlopen(CSV_URL, timeout=30) as r:
-                text = r.read().decode("utf-8")
-        except OSError as e:
-            text = f"<{e}>"
-    if text.lstrip().startswith("<"):
+            data = json.loads(html.unescape(block))
+        except ValueError:
+            continue
+        for it in data if isinstance(data, list) else [data]:
+            if isinstance(it, dict) and it.get("@type") == "Event":
+                cache[url] = {**(hit or {}), "ld": it, "fetched": now.isoformat(timespec="seconds")}
+                return it
+    return hit.get("ld") if hit else None  # Abruf fehlgeschlagen: alte Daten behalten
+
+
+def ticket_exists(slug, entry):
+    """Prüft einmal, ob es den Ticketshop zum geratenen Kürzel gibt. Nur ein klares 404 zählt als nein."""
+    if entry.get("tickets") != slug:
+        try:
+            urllib.request.urlopen(urllib.request.Request(
+                f"https://t.rausgegangen.de/tickets/{slug}/external-loader.js", headers={"User-Agent": UA}), timeout=20)
+            ok = True
+        except urllib.error.HTTPError as e:
+            ok = e.code != 404
+        except OSError:
+            return True  # Netzproblem: lieber den Button zeigen und beim nächsten Lauf neu prüfen
+        entry.update({"tickets": slug, "tickets_ok": ok})
+    return entry["tickets_ok"]
+
+
+def to_row(url, ld):
+    """Eventseite -> Zeile im selben Format wie früher die Tabelle."""
+    name = ld.get("name", "")
+    start = dt.datetime.fromisoformat(re.sub(r"([+-]\d\d)(\d\d)$", r"\1:\2", ld["startDate"]))
+    end = ld.get("endDate")
+    end = dt.datetime.fromisoformat(re.sub(r"([+-]\d\d)(\d\d)$", r"\1:\2", end)) if end else None
+    low = name.lower()
+    title = re.split(r"\s+(?:@|\||//)\s+", name)[0]
+    title = re.sub(r"\s+by DUCT TAPE\s*$", "", title, flags=re.I)
+    title = re.sub(r"\s*\([^)]*\)", "", title)
+    tag, row = "", {}
+    if "brunch" in low:
+        edition = re.search(r"-\s*([^-]*edition)\s*$", name, re.I)
+        title = "Fritz-Kola Drag Brunch" if "fritz" in low else "Drag Brunch"
+        tag = tidy(edition[1]) if edition else "Drag Brunch"
+        row.update({"Free Entry": "ja", "Reservierung": "OpenTable"})
+    elif "bingo" in low:
+        tag = "Drag Bingo"
+    elif "show" in low:
+        tag = "Show"
+    elif "party" in low or "pride" in low:
+        tag = "Party"
+    offers = ld.get("offers") or {}
+    tickets = ""
+    if isinstance(offers, dict):
+        if offers.get("url"):
+            tickets = offers["url"]
+        elif offers.get("offerCount") or offers.get("offers") or float(offers.get("price") or 0) > 0:
+            s = slug_of(url)
+            tickets = s[:-2] if s.endswith("-0") else s  # Ticketshop-Kürzel: ohne "-0", ab dem zweiten Termin mit "-1" usw.
+    img = ld.get("image")
+    img = img[0] if isinstance(img, list) and img else img
+    row.update({
+        "Datum": f"{start:%d.%m.%Y}", "Beginn": f"{start:%H:%M}", "Ende": f"{end:%H:%M}" if end and end.date() == start.date() else "",
+        "Format": tag, "Titel": tidy(title), "Location": tidy(re.sub(r"\s*\([^)]*\)", "", (ld.get("location") or {}).get("name", ""))),
+        "Eventseite": url, "Tickets": tickets, "Beschreibung": clean_text(ld.get("description") or ""),
+        "Poster": img if isinstance(img, str) else "",
+    })
+    return row
+
+
+def main():
+    try:
+        organizer = Path(os.environ["RAUSGEGANGEN_HTML"]).read_text(encoding="utf-8")
+    except (KeyError, OSError):
+        organizer = ""
+    urls = sorted({f"https://rausgegangen.de/events/{m}/"
+                   for m in re.findall(r'href="(?:https://rausgegangen\.de)?(?:/en)?/events/([^"/?#]+)/?', organizer)})
+    if not urls:
         # Warnung statt Fehler: die Website bleibt unverändert, und GitHub verschickt nicht stündlich Fehler-Mails.
-        print("::warning::Tabelle nicht lesbar (Teilen → Jeder mit dem Link → Betrachter). Termine bleiben unverändert.")
+        print("::warning::rausgegangen-Organizer-Seite nicht lesbar. Termine bleiben unverändert.")
         return
 
-    today = dt.datetime.now(ZoneInfo("Europe/Berlin")).date()
-    rows = [{(k or "").strip(): (v or "") for k, v in r.items()} for r in csv.DictReader(io.StringIO(text))]
-    pages = rausgegangen_pages(os.environ.get("RAUSGEGANGEN_HTML"), today)
+    now = dt.datetime.now(ZoneInfo("Europe/Berlin"))
+    today = now.date()
+    config = json.loads(CONFIG.read_text(encoding="utf-8"))
+    try:
+        cache = json.loads(CACHE.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        cache = {}
+    cache = {k: v for k, v in cache.items() if "ld" in v}
+    hidden = set(config.get("ausblenden", []))
+    rows = []
+    for url in urls:
+        slug = slug_of(url)
+        if slug in hidden or series(slug) in hidden:
+            continue
+        ld = event_ld(url, cache, now)
+        organizers = ld and ld.get("organizer")
+        organizers = organizers if isinstance(organizers, list) else [organizers or {}]
+        if not ld or not any("duct-tape" in (o or {}).get("url", "") for o in organizers):
+            continue  # Werbung oder fremdes Event auf der Organizer-Seite
+        row = to_row(url, ld)
+        if ticket_slug(row["Tickets"]) and not ticket_exists(ticket_slug(row["Tickets"]), cache[url]):
+            row["Tickets"] = ""
+        for key in (series(slug), slug):  # Ergänzungen aus der Config, für die ganze Reihe oder einen Termin
+            row.update(config.get("ergaenzungen", {}).get(key, {}))
+        if config.get("featured", {}).get(series(slug)):
+            row["Featured"] = config["featured"][series(slug)]
+        rows.append(row)
+    rows += [dict(r) for r in config.get("zusaetzliche_termine", [])]
+
     events = []
     for r in rows:
         date = parse_date(r.get("Datum"))
         if date and date >= today and (r.get("Titel") or "").strip():
-            if not r.get("Eventseite", "").strip():
-                r["Eventseite"] = match_page(r, date, pages)
             events.append((date, parse_time(r.get("Beginn")) or (0, 0), r))
     events.sort(key=lambda e: e[:2])
     featured = {}
@@ -425,17 +471,12 @@ def main():
         INDEX.write_text(new, encoding="utf-8")
 
     # Termine-Seite mit Postern und Beschreibungen
-    try:
-        cache = json.loads(CACHE.read_text(encoding="utf-8"))
-    except (OSError, ValueError):
-        cache = {}
     all_src = TERMINE.read_text(encoding="utf-8")
-    all_body = render_all(events, cache) or (F_INDENT + '<p class="events-empty">Neue Termine folgen in Kürze.</p>')
+    all_body = render_all(events) or (F_INDENT + '<p class="events-empty">Neue Termine folgen in Kürze.</p>')
     all_new = replace_between(all_src, A_START, A_END, all_body, F_INDENT)
     if all_new != all_src:
         TERMINE.write_text(all_new, encoding="utf-8")
-    pages_now = {(r.get("Eventseite") or "").strip() for *_, r in events}
-    cache = {k: v for k, v in cache.items() if k in pages_now}
+    cache = {k: v for k, v in cache.items() if k in urls}
     CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=1, sort_keys=True) + "\n", encoding="utf-8")
     used = set(re.findall(r"assets/img/termine/([\w.]+)", all_new))
     for f in POSTERS.glob("*.jpg") if POSTERS.exists() else []:

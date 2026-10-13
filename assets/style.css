@@ -46,8 +46,8 @@ button.btn { font-family: var(--body); cursor: pointer; }
 .logo { display: block; }
 .logo img { height: 38px; width: auto; }
 .nav { display: flex; gap: 28px; align-items: center; }
-.nav a { text-decoration: none; font-weight: 600; font-size: 14px; letter-spacing: .08em; text-transform: uppercase; color: #CFCFCA; }
-.nav a:hover { color: var(--yellow); }
+.nav a { text-decoration: none; font-weight: 600; font-size: 14px; letter-spacing: .08em; text-transform: uppercase; color: var(--white); }
+.nav a:hover, .nav a[aria-current="page"] { color: var(--yellow); }
 /* "Shows" im Menü: beim Hover wird der Reiter zur Lasche, aus der die Unterpunkte nach unten herausklappen */
 .nav { align-self: stretch; }
 .nav > a { align-self: center; }
@@ -69,9 +69,11 @@ button.btn { font-family: var(--body); cursor: pointer; }
   .nav { align-self: auto; }
   .nav > a, .nav-group { align-self: stretch; }
   .nav-group { display: block; }
-  .nav-group > a, .nav-group:hover > a { display: block; margin: 0; padding: 16px var(--gutter); background: none; color: #CFCFCA; }
+  .nav-group > a, .nav-group:hover > a { display: block; margin: 0; padding: 16px var(--gutter); background: none; color: var(--white); }
+  .nav-group > a[aria-current="page"] { color: var(--yellow); }
   .nav-sub { position: static; visibility: visible; opacity: 1; clip-path: none; background: none; box-shadow: none; border-radius: 0; padding: 0; min-width: 0; }
-  .nav-sub a { padding-left: calc(var(--gutter) + 18px); font-size: 13px; color: #9a9a95; white-space: normal; }
+  .nav-sub a { padding-left: calc(var(--gutter) + 18px); font-size: 13px; color: #CFCFCA; white-space: normal; }
+  .nav-sub a[aria-current="page"] { color: var(--yellow); }
   .nav-sub a + a { border-top: 1px solid var(--line); }
 }
 

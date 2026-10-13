@@ -12,7 +12,30 @@
 </head>
 <body>
 
-<header class="site-header"><div class="wrap"><a class="logo" href="index.html"><img src="assets/img/logo-yellow.png" alt="DUCT TAPE"></a><nav class="nav" style="display:flex;position:static;flex-direction:row;background:none;border:0"><a href="index.html#leistungen">← Zurück</a></nav></div></header>
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="index.html"><img src="assets/img/logo-yellow.png" alt="DUCT TAPE"></a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menü</button>
+    <nav class="nav" id="nav">
+      <a href="index.html">Home</a>
+      <div class="nav-group">
+        <a href="index.html#shows">Events</a>
+        <div class="nav-sub">
+          <a href="termine.html">Alle Termine</a>
+        </div>
+      </div>
+      <a href="index.html#about">Über uns</a>
+      <div class="nav-group">
+        <a href="index.html#leistungen" aria-current="page">Booking</a>
+        <div class="nav-sub">
+          <a href="leistungen.html" aria-current="page">Unsere Leistungen</a>
+          <a href="index.html#leistungen">Booking anfragen</a>
+        </div>
+      </div>
+      <a href="index.html#newsletter">Newsletter</a>
+    </nav>
+  </div>
+</header>
 
 <main>
   <section class="page-intro has-collage">

@@ -218,8 +218,11 @@ if (nlForm) {
       msg.textContent = 'Fast geschafft! Bitte bestätige deine Anmeldung über den Link in der Mail, die wir dir gerade geschickt haben.';
       nlForm.style.display = 'none';
     } catch {
-      msg.textContent = 'Deine Anmeldung konnte nicht gespeichert werden. Bitte versuche es erneut.';
-      btn.disabled = false;
+      // Falls der direkte Versand blockiert ist: normal an Brevo schicken (öffnet Brevos Bestätigung in neuem Tab)
+      nlForm.target = '_blank';
+      HTMLFormElement.prototype.submit.call(nlForm);
+      msg.textContent = 'Fast geschafft! Bitte bestätige deine Anmeldung über den Link in der Mail, die wir dir gerade geschickt haben.';
+      nlForm.style.display = 'none';
     }
     msg.hidden = false;
   });

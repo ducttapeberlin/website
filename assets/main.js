@@ -57,6 +57,9 @@ const featLink = document.querySelector('.nav-featured');
 if (feat && featLink) {
   feat.id = 'featured';
   featLink.textContent = feat.querySelector('h3')?.textContent.trim() ?? 'Featured Show';
+  // direkt auf die Eventseite, falls verlinkt; sonst zur Karte auf dieser Seite
+  const page = feat.querySelector('h3 a[href^="http"]');
+  if (page) { featLink.href = page.href; featLink.target = '_blank'; featLink.rel = 'noopener'; }
   featLink.hidden = false;
 }
 

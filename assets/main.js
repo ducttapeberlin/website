@@ -188,12 +188,16 @@ if (reels) {
   document.querySelectorAll('[data-reels]').forEach(btn => btn.addEventListener('click', () => {
     const yt = (btn.dataset.youtube || '').split(' ').filter(Boolean).map(id =>
       `<figure class="yt"><iframe src="https://www.youtube-nocookie.com/embed/${id}?rel=0" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen title="YouTube-Video"></iframe></figure>`).join('');
-    const ig = (btn.dataset.reels || '').split(' ').filter(Boolean).map(id =>
-      `<figure class="reel"><iframe src="https://www.instagram.com/reel/${id}/embed/" allowfullscreen title="Instagram-Video"></iframe>` +
-      `<a href="https://www.instagram.com/reel/${id}/" target="_blank" rel="noopener">Auf Instagram öffnen ↗</a></figure>`).join('');
-    body.innerHTML = (yt ? `<p class="reels-desc">„hot stuff“ war eine YouTube-Talkshow mit DUCT TAPE in Kooperation mit eBay.</p><div class="yt-grid">${yt}</div>` +
+    const titles = (btn.dataset.reelTitles || '').split('|');
+    const ig = (btn.dataset.reels || '').split(' ').filter(Boolean).map((id, n) =>
+      `<figure class="reel">${titles[n] ? `<figcaption class="reels-label">${titles[n]}</figcaption>` : ''}` +
+      `<div class="reel-frame"><iframe src="https://www.instagram.com/reel/${id}/embed/" scrolling="no" allowfullscreen title="${titles[n] || 'Instagram-Video'}"></iframe></div>` +
+      `<a href="https://www.instagram.com/reel/${id}/" target="_blank" rel="noopener">Mehr auf Instagram ↗</a></figure>`).join('');
+    body.innerHTML = (yt ? `<h3 class="reels-label">eBay · hot stuff</h3>` +
+      `<p class="reels-desc">Talkshow-Reihe auf YouTube, umgesetzt von DUCT TAPE in Kooperation mit eBay.</p>` +
+      `<div class="yt-grid">${yt}</div>` +
       (btn.dataset.playlist ? `<a class="reels-more" href="https://www.youtube.com/playlist?list=${btn.dataset.playlist}" target="_blank" rel="noopener">Alle Folgen auf YouTube ↗</a>` : '') : '') +
-      (ig ? `<h3 class="reels-label">Instagram</h3><div class="reels-grid">${ig}</div>` : '');
+      (ig ? `<div class="reels-grid">${ig}</div>` : '');
     reels.showModal();
   }));
   reels.querySelector('.tickets-close').addEventListener('click', () => reels.close());

@@ -328,4 +328,6 @@ footer a:hover { color: var(--yellow); }
 .tevent-less::after { content: " ↑"; }
 .page-intro:has(+ .all-events) { padding-bottom: clamp(24px, 3vw, 40px); }
 .page-intro:has(+ .all-events) .lead { margin-bottom: 0; }
+.page-intro:has(+ .offers) { padding-bottom: clamp(24px, 3vw, 40px); border-bottom: 0; }
+.offers { padding-top: clamp(16px, 2vw, 28px); }
 .all-events { padding-top: clamp(28px, 3.5vw, 48px); }

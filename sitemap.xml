@@ -1,9 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://ducttape.berlin/</loc></url>
-  <url><loc>https://ducttape.berlin/leistungen.html</loc></url>
-  <url><loc>https://ducttape.berlin/termine.html</loc></url>
-  <url><loc>https://ducttape.berlin/en/</loc></url>
-  <url><loc>https://ducttape.berlin/en/services.html</loc></url>
-  <url><loc>https://ducttape.berlin/en/dates.html</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://ducttape.berlin/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ducttape.berlin/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ducttape.berlin/en/"/>
+  </url>
+  <url>
+    <loc>https://ducttape.berlin/en/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ducttape.berlin/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ducttape.berlin/en/"/>
+  </url>
+  <url>
+    <loc>https://ducttape.berlin/leistungen.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ducttape.berlin/leistungen.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ducttape.berlin/en/services.html"/>
+  </url>
+  <url>
+    <loc>https://ducttape.berlin/en/services.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ducttape.berlin/leistungen.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ducttape.berlin/en/services.html"/>
+  </url>
+  <url>
+    <loc>https://ducttape.berlin/termine.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ducttape.berlin/termine.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ducttape.berlin/en/dates.html"/>
+  </url>
+  <url>
+    <loc>https://ducttape.berlin/en/dates.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ducttape.berlin/termine.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ducttape.berlin/en/dates.html"/>
+  </url>
 </urlset>

@@ -36,6 +36,8 @@ UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML,
 START, END = "<!-- EVENTS:START -->", "<!-- EVENTS:END -->"
 F_START, F_END = "<!-- FEATURED:START -->", "<!-- FEATURED:END -->"
 A_START, A_END = "<!-- ALL:START -->", "<!-- ALL:END -->"
+LD_START, LD_END = "<!-- LD:START -->", "<!-- LD:END -->"
+SITE = "https://ducttape.berlin/"
 INDENT, F_INDENT = "        ", "      "
 MONTH_NAMES = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober",
                "November", "Dezember"]
@@ -340,6 +342,45 @@ def render_all(events):
     return "\n".join(F_INDENT + l for l in out)
 
 
+def events_ld(events):
+    """Strukturierte Daten (schema.org/Event) für Google und KI-Suchen, als JSON-LD im <head> der Terminseiten."""
+    group = {"@type": "PerformingGroup", "name": "DUCT TAPE", "url": SITE}
+    items = []
+    for date, start, r in events:
+        end = parse_time(r.get("Ende"))
+        iso = lambda hm: dt.datetime(date.year, date.month, date.day, *hm, tzinfo=ZoneInfo("Europe/Berlin")).isoformat()
+        loc = r.get("_location") or {"@type": "Place", "name": (r.get("Location") or "").strip() or "Berlin",
+                                     "address": {"@type": "PostalAddress", "addressLocality": "Berlin", "addressCountry": "DE"}}
+        _, poster = details(r)
+        page = (r.get("Eventseite") or "").strip()
+        tickets = (r.get("Tickets") or "").strip()
+        free = (r.get("Free Entry") or "").strip() or str(r.get("_price")) in ("0", "0.0", "0.00")
+        ev = {"@type": "Event", "name": (r.get("Titel") or "").strip(), "startDate": iso(start),
+              "eventStatus": "https://schema.org/EventScheduled",
+              "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+              "location": loc, "organizer": group, "performer": group}
+        if end and end > start:
+            ev["endDate"] = iso(end)
+        desc = re.sub(r"\s+", " ", r.get("Beschreibung") or "").strip()
+        if desc:
+            ev["description"] = desc[:300].rsplit(" ", 1)[0] + "…" if len(desc) > 300 else desc
+        if poster:
+            ev["image"] = SITE + poster
+        if page.startswith("http"):
+            ev["url"] = page
+        if free or tickets:
+            offer = {"@type": "Offer", "priceCurrency": "EUR", "availability": "https://schema.org/InStock",
+                     "url": tickets if tickets.startswith("http") else page or SITE}
+            if free:
+                offer["price"] = 0
+            elif r.get("_price"):
+                offer["price"] = r["_price"]
+            ev["offers"] = offer
+        items.append(ev)
+    data = {"@context": "https://schema.org", "@graph": items}
+    return '  <script type="application/ld+json">' + json.dumps(data, ensure_ascii=False).replace("</", "<\\/") + "</script>"
+
+
 def replace_between(src, start, end, body, indent):
     a, b = src.index(start) + len(start), src.index(end)
     return src[:a] + "\n" + (body + "\n" if body else "") + indent + src[b:]
@@ -432,6 +473,8 @@ def to_row(url, ld):
         "Format": tag, "Titel": tidy(title), "Location": tidy(re.sub(r"\s*\([^)]*\)", "", (ld.get("location") or {}).get("name", ""))),
         "Eventseite": url, "Tickets": tickets, "Beschreibung": clean_text(ld.get("description") or ""),
         "Poster": img if isinstance(img, str) else "",
+        "_location": ld.get("location") if isinstance(ld.get("location"), dict) else None,
+        "_price": offers.get("lowPrice") or offers.get("price") if isinstance(offers, dict) else None,
     })
     return row
 
@@ -505,6 +548,8 @@ def main():
         all_src = termine.read_text(encoding="utf-8")
         all_body = render_all(events) or (F_INDENT + f'<p class="events-empty">{L["empty"]}</p>')
         all_new = replace_between(all_src, A_START, A_END, all_body, F_INDENT)
+        if LD_START in all_new:
+            all_new = replace_between(all_new, LD_START, LD_END, events_ld(events), "  ")
         if all_new != all_src:
             termine.write_text(all_new, encoding="utf-8")
         changed = changed or new != src or all_new != all_src

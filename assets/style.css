@@ -244,9 +244,11 @@ section { padding: clamp(56px, 8vw, 104px) 0; border-bottom: 1px solid var(--lin
 .tickets-foot a { color: var(--yellow); }
 /* Kooperationen: Instagram-Reels, erst beim Öffnen geladen */
 .offer-more { align-self: flex-start; margin-top: 20px; padding: 11px 20px; font-size: 13px; }
-.reels { width: min(1120px, calc(100% - 32px)); }
-.reels-body { flex: 1; overflow: auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(310px, 1fr)); gap: 16px; padding: 16px; }
-.reels-body iframe { width: 100%; height: 640px; border: 0; border-radius: 8px; background: #fff; }
+.reels { width: min(1180px, calc(100% - 24px)); height: 92svh; max-height: 92svh; }
+.reels-body { flex: 1 1 auto; min-height: 0; overflow-y: auto; -webkit-overflow-scrolling: touch; background: var(--black); display: grid; grid-template-columns: repeat(auto-fit, minmax(310px, 1fr)); gap: 16px; padding: 16px; }
+.reel { margin: 0; width: 100%; max-width: 400px; justify-self: center; display: flex; flex-direction: column; gap: 8px; }
+.reel a { color: var(--yellow); font-size: 13px; text-align: center; }
+.reels-body iframe { display: block; width: 100%; height: 780px; border: 0; border-radius: 8px; background: #fff; }
 
 /* Footer */
 footer { padding: 48px 0 64px; color: var(--grey); font-size: 14px; }

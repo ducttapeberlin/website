@@ -187,7 +187,8 @@ if (reels) {
   const body = document.getElementById('reels-body');
   document.querySelectorAll('[data-reels]').forEach(btn => btn.addEventListener('click', () => {
     body.innerHTML = btn.dataset.reels.split(' ').map(id =>
-      `<iframe src="https://www.instagram.com/reel/${id}/embed/" loading="lazy" allowfullscreen title="Instagram-Video"></iframe>`).join('');
+      `<figure class="reel"><iframe src="https://www.instagram.com/reel/${id}/embed/" allowfullscreen title="Instagram-Video"></iframe>` +
+      `<a href="https://www.instagram.com/reel/${id}/" target="_blank" rel="noopener">Auf Instagram öffnen ↗</a></figure>`).join('');
     reels.showModal();
   }));
   reels.querySelector('.tickets-close').addEventListener('click', () => reels.close());

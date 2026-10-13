@@ -249,7 +249,7 @@ section { padding: clamp(56px, 8vw, 104px) 0; border-bottom: 1px solid var(--lin
 .reels-body { flex: 1 1 auto; min-height: 0; overflow-y: auto; -webkit-overflow-scrolling: touch; background: var(--black); padding: 16px 16px 24px; }
 .reels-label { margin: 8px 0 12px; font-family: var(--display); font-weight: 400; font-size: 18px; text-transform: uppercase; letter-spacing: .02em; color: var(--white); }
 .reels-desc + div { margin-bottom: 24px; }
-.reels-desc { margin: 0 0 14px; max-width: 60ch; font-size: 16px; color: var(--white); }
+.reels-desc { margin: 0 0 14px; font-size: 16px; color: var(--white); }
 .reels-more { display: inline-block; margin: -10px 0 28px; color: var(--yellow); font-weight: 700; font-size: 14px; }
 .yt-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; }
 .yt { margin: 0; position: relative; padding-bottom: 56.25%; height: 0; }

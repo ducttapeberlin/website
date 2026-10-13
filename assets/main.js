@@ -104,7 +104,7 @@ document.querySelectorAll('.service[data-images]').forEach(tile => {
   }
 });
 
-// Leistungen-Seite: Kacheln mit mehreren Bildern laufen als Slideshow durch, solange sie sichtbar sind
+// Leistungen-Seite: Kacheln mit mehreren Bildern laufen beim Drüberfahren als Slideshow durch
 document.querySelectorAll('.offer[data-images]').forEach(tile => {
   const media = tile.querySelector('.offer-media');
   const first = media.querySelector('img');
@@ -121,10 +121,14 @@ document.querySelectorAll('.offer[data-images]').forEach(tile => {
   let i = 0, timer = null;
   first.classList.add('on');
   const step = () => { imgs[i].classList.remove('on'); i = (i + 1) % imgs.length; imgs[i].classList.add('on'); };
-  new IntersectionObserver(([e]) => {
-    if (e.isIntersecting && !timer) timer = setInterval(step, 1400);
-    else if (!e.isIntersecting) { clearInterval(timer); timer = null; }
-  }, { threshold: .5 }).observe(tile);
+  const play = () => { if (!timer) { step(); timer = setInterval(step, 1400); } };
+  const stop = () => { clearInterval(timer); timer = null; };
+  if (touch) {  // Handy: solange die Kachel in der Bildmitte ist
+    new IntersectionObserver(([e]) => e.isIntersecting ? play() : stop(), { rootMargin: '-40% 0px -40% 0px' }).observe(tile);
+  } else {
+    tile.addEventListener('mouseenter', play);
+    tile.addEventListener('mouseleave', stop);
+  }
 });
 
 // Leistungen auf dem Handy: die Kachel in der Bildmitte tritt nach vorne

@@ -253,6 +253,19 @@ def clean_text(s):
     return re.sub(r"\n{3,}", "\n\n", "\n".join(lines)).strip()
 
 
+EMOJI = "\u2600-\u27bf\U0001f000-\U0001faff"
+
+
+def add_breaks(s):
+    """rausgegangen liefert die Beschreibung ohne Zeilenumbrüche ("...zusammen.Am 4. ..."). Wo nach Satzende oder
+    Emoji ohne Leerzeichen ein neuer Satz beginnt, war ursprünglich ein Absatz."""
+    if "\n" in s:
+        return s
+    s = re.sub(r"([.!?…])(?=[A-ZÄÖÜ" + EMOJI + "])", "\\1\n\n", s)
+    s = re.sub(r"([" + EMOJI + "]\ufe0f?)(?=[A-ZÄÖÜ])", "\\1\n\n", s)
+    return re.sub(r"(?<=[a-zäöüß])(?=[" + EMOJI + "] [A-ZÄÖÜ])", "\n\n", s)
+
+
 def page_details(src):
     """Beschreibung und Bild aus einer Eventseite (JSON-LD, sonst Open-Graph-Tags)."""
     desc = image = ""
@@ -335,6 +348,7 @@ def render_all(events, cache):
             out += [f'<div class="month" data-month="{date:%Y-%m}">', f"  <h2>{MONTH_NAMES[date.month - 1]} {date.year}</h2>"]
         _, _, time, doors = when(r)
         desc, poster = details(r, cache)
+        desc = add_breaks(desc)
         title = (r.get("Titel") or "").strip()
         tag = (r.get("Format") or "").strip()
         sub = subtitle(r)
@@ -344,6 +358,8 @@ def render_all(events, cache):
         media = (f'<img src="{poster}" alt="Poster: {esc(title)}" loading="lazy">' if poster else
                  f'<div class="tevent-noposter"><span>{date:%d.%m.}</span></div>')
         paras = [f"      <p>{esc(p).replace(chr(10), '<br>')}</p>" for p in desc.split("\n\n") if p.strip()]
+        if len(paras) > 3:  # lange Texte: Rest hinter "Weiterlesen"
+            paras = paras[:2] + ["      <details>", "        <summary>Weiterlesen</summary>", *["  " + p for p in paras[2:]], "      </details>"]
         actions = ([f"      {btn}"] if btn else []) + (
             [f'      <a class="btn btn-ghost" href="{esc(page)}" target="_blank" rel="noopener">Eventseite</a>'] if page.startswith("http") else [])
         out += [

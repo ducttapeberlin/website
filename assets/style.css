@@ -204,6 +204,14 @@ section { padding: clamp(56px, 8vw, 104px) 0; border-bottom: 1px solid var(--lin
 .service-wide .kicker { color: var(--yellow); font-size: 13px; margin-bottom: 14px; }
 .service-wide .service-body > p:not(.kicker) { font-size: 17px; margin: 0 0 24px; color: #E4E4DE; }
 .service-wide .hero-actions { flex-wrap: wrap; }
+.service.service-wide { align-items: stretch; }
+.service-wide .service-body { display: flex; flex-direction: column; width: 100%; max-width: none; }
+.service-wide .service-body > p, .service-wide .service-body > .kicker { max-width: 460px; }
+.service-wide .service-foot { margin-top: auto; padding-top: 40px; }
+.service-wide .service-body p.booking-note { font-size: 15px; margin: 0 0 18px; color: #CFCFCA; }
+.service-wide .hero-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.service-wide .hero-actions .btn { justify-content: center; text-align: center; padding: 20px 16px; font-size: 16px; white-space: nowrap; }
+@media (max-width: 560px) { .service-wide .hero-actions { gap: 8px; } .service-wide .hero-actions .btn { padding: 16px 8px; font-size: 13px; letter-spacing: .02em; } }
 @media (max-width: 760px) {
   .service.service-wide { min-height: 0; align-items: flex-end; }
   .service-wide .service-media { left: 0; bottom: auto; height: 340px; }

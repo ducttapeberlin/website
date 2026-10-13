@@ -351,3 +351,6 @@ footer a:hover { color: var(--yellow); }
 .page-intro:has(+ .offers) { padding-bottom: clamp(24px, 3vw, 40px); border-bottom: 0; }
 .offers { padding-top: clamp(16px, 2vw, 28px); }
 .all-events { padding-top: clamp(28px, 3.5vw, 48px); }
+/* Hinweis nach Klick auf einen Mail-Link */
+.mail-toast { position: fixed; left: 50%; bottom: 24px; transform: translate(-50%, 20px); z-index: 200; padding: 12px 18px; border-radius: 999px; background: var(--yellow); color: var(--black); font-weight: 700; font-size: 14px; opacity: 0; pointer-events: none; transition: opacity .2s, transform .2s; }
+.mail-toast.on { opacity: 1; transform: translate(-50%, 0); }

@@ -173,13 +173,14 @@ section { padding: clamp(56px, 8vw, 104px) 0; border-bottom: 1px solid var(--lin
 @media (max-width: 1000px) { .services { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 560px) { .services { grid-template-columns: 1fr; } .service { aspect-ratio: 4 / 3; } }
 
-.service-wide { aspect-ratio: 21 / 9; text-decoration: none; color: inherit; }
-.service-wide .service-body { padding: clamp(22px, 4vw, 44px); max-width: 760px; }
-.service-wide h3 { font-size: clamp(30px, 4.4vw, 56px); }
-.service-wide p { font-size: 17px; }
-.service-more { display: inline-block; margin-top: 16px; font-weight: 800; font-size: 14px; letter-spacing: .08em; text-transform: uppercase; color: var(--yellow); }
-.service-wide:hover .service-more { text-decoration: underline; text-underline-offset: 4px; }
-@media (max-width: 760px) { .service-wide { aspect-ratio: 4 / 5; } }
+.service.service-wide { aspect-ratio: auto; min-height: clamp(360px, 38vw, 480px); }
+.service-wide .service-body { padding: clamp(24px, 4vw, 48px); max-width: 720px; }
+.service-wide h2 { margin-bottom: 14px; }
+.service-wide .kicker { color: var(--yellow); font-size: 13px; margin-bottom: 10px; }
+.service-wide .service-body > p:not(.kicker) { font-size: 17px; margin: 0 0 24px; color: #E4E4DE; }
+.service-wide .hero-actions { flex-wrap: wrap; }
+.service-wide::after { background: linear-gradient(90deg, rgba(11,11,11,.92) 0%, rgba(11,11,11,.6) 55%, rgba(11,11,11,.15) 100%), linear-gradient(0deg, rgba(11,11,11,.7) 0%, rgba(11,11,11,0) 50%); }
+@media (max-width: 760px) { .service.service-wide { aspect-ratio: auto; min-height: 440px; } .service-wide::after { background: linear-gradient(0deg, rgba(11,11,11,.95) 0%, rgba(11,11,11,.55) 100%); } }
 
 /* Booking + newsletter */
 .split { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; background: var(--line); border: 1px solid var(--line); }
@@ -258,8 +259,3 @@ footer a:hover { color: var(--yellow); }
   .offer:nth-child(even) .offer-media { order: 0; }
   .steps { grid-template-columns: 1fr; }
 }
-
-/* Booking-Kopf: Überschrift und beide Buttons in einer Zeile */
-.section-head .hero-actions { flex-wrap: nowrap; gap: 10px; }
-@media (min-width: 700px) { .section-head { flex-wrap: nowrap; align-items: center; } }
-@media (max-width: 699px) { .section-head .hero-actions { width: 100%; } .section-head .hero-actions .btn { flex: 1; justify-content: center; padding: 12px 14px; font-size: 13px; } }

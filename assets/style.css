@@ -45,9 +45,16 @@ button.btn { font-family: var(--body); cursor: pointer; }
 .site-header .wrap { display: flex; align-items: center; justify-content: space-between; height: 64px; }
 .logo { display: block; }
 .logo img { height: 38px; width: auto; }
-.nav { display: flex; gap: 28px; }
+.nav { display: flex; gap: 28px; align-items: center; }
 .nav a { text-decoration: none; font-weight: 600; font-size: 14px; letter-spacing: .08em; text-transform: uppercase; color: #CFCFCA; }
 .nav a:hover { color: var(--yellow); }
+.nav-group { position: relative; }
+.nav-group > a { display: block; }
+.nav-sub { position: absolute; top: 100%; left: -18px; padding-top: 22px; display: none; }
+.nav-sub::before { content: ""; position: absolute; inset: 22px 0 0; background: var(--black); border: 1px solid var(--line); }
+.nav-sub a { position: relative; display: block; padding: 12px 18px; white-space: nowrap; }
+.nav-sub a + a { border-top: 1px solid var(--line); }
+.nav-group:hover .nav-sub, .nav-group:focus-within .nav-sub { display: block; }
 .nav-toggle { display: none; background: none; border: 0; color: var(--white); font: 800 14px var(--body); letter-spacing: .1em; text-transform: uppercase; cursor: pointer; padding: 10px 0; }
 
 @media (max-width: 820px) {
@@ -55,6 +62,11 @@ button.btn { font-family: var(--body); cursor: pointer; }
   .nav { position: absolute; top: 64px; left: 0; right: 0; flex-direction: column; gap: 0; background: var(--black); border-bottom: 1px solid var(--line); display: none; }
   .nav.open { display: flex; }
   .nav a { padding: 16px var(--gutter); border-top: 1px solid var(--line); }
+  .nav-group > a { display: block; }
+  .nav-sub { position: static; display: block; padding: 0; }
+  .nav-sub::before { display: none; }
+  .nav-sub a { padding-left: calc(var(--gutter) + 18px); font-size: 13px; color: #9a9a95; white-space: normal; }
+  .nav-sub a + a { border-top: 1px solid var(--line); }
 }
 
 /* Hero: Foto mit Verlauf ins Schwarze, Logo links. Beim Hover übers Logo kommt das Foto nach vorn. */

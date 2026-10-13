@@ -47,6 +47,15 @@ if (list && upcoming.length) {
   }
   list.after(actions);
 }
+// Menü "Shows": erster Unterpunkt ist die Featured Show, falls es eine gibt
+const feat = document.querySelector('.featured');
+const featLink = document.querySelector('.nav-featured');
+if (feat && featLink) {
+  feat.id = 'featured';
+  featLink.textContent = feat.querySelector('h3')?.textContent.trim() ?? 'Featured Show';
+  featLink.hidden = false;
+}
+
 const first = [...document.querySelectorAll('.event[data-date], .featured-dates li[data-date]')]
   .sort((a, b) => a.dataset.date.localeCompare(b.dataset.date))[0];
 const strip = document.getElementById('next-up');

@@ -11,25 +11,41 @@ if (toggle && nav) {
 
 // Vergangene Termine ausblenden (auch Tage in Highlight-Karten), nächsten Termin oben anzeigen
 const today = new Date().toLocaleDateString('sv-SE');
-document.querySelectorAll('.event[data-date], .featured-dates li[data-date]').forEach(el => {
+document.querySelectorAll('.event[data-date], .featured-dates li[data-date], .tevent[data-date]').forEach(el => {
   if (el.dataset.date < today) el.remove();
 });
+document.querySelectorAll('.month').forEach(m => { if (!m.querySelector('.tevent')) m.remove(); });
 document.querySelectorAll('.featured').forEach(f => { if (!f.querySelector('.featured-dates li')) f.remove(); });
 const upcoming = [...document.querySelectorAll('.event[data-date]')];
 const list = document.querySelector('.events');
 if (list && !upcoming.length && !document.querySelector('.featured') && !list.querySelector('.events-empty')) {
   list.insertAdjacentHTML('beforeend', '<li class="events-empty">Neue Termine folgen in Kürze.</li>');
 }
-// Lange Liste kürzen: neben dem Featured-Event höchstens 4 Termine, Rest per Button
+// Lange Liste kürzen: neben dem Featured-Event erst 4 Termine, "Weitere Termine" zeigt 4 mehr,
+// danach führt "Alle Termine anzeigen" auf die Termine-Seite mit Postern und Beschreibungen
 const SHOW = 4;
-if (list && upcoming.length > SHOW) {
-  upcoming.slice(SHOW).forEach(ev => ev.classList.add('is-more'));
-  const more = document.createElement('button');
-  more.type = 'button';
-  more.className = 'btn btn-ghost events-more';
-  more.textContent = `Alle ${upcoming.length} Termine zeigen`;
-  more.addEventListener('click', () => { list.classList.add('show-all'); more.remove(); });
-  list.after(more);
+if (list && upcoming.length) {
+  const actions = document.createElement('div');
+  actions.className = 'events-actions';
+  const all = document.createElement('a');
+  all.className = 'btn btn-ghost events-more';
+  all.href = 'termine.html';
+  all.textContent = 'Alle Termine anzeigen';
+  if (upcoming.length > SHOW) {
+    upcoming.slice(SHOW).forEach(ev => ev.classList.add('is-more'));
+    const more = document.createElement('button');
+    more.type = 'button';
+    more.className = 'btn btn-ghost events-more';
+    more.textContent = 'Weitere Termine anzeigen';
+    more.addEventListener('click', () => {
+      upcoming.filter(ev => ev.classList.contains('is-more')).slice(0, SHOW).forEach(ev => ev.classList.remove('is-more'));
+      more.replaceWith(all);
+    });
+    actions.append(more);
+  } else {
+    actions.append(all);
+  }
+  list.after(actions);
 }
 const first = [...document.querySelectorAll('.event[data-date], .featured-dates li[data-date]')]
   .sort((a, b) => a.dataset.date.localeCompare(b.dataset.date))[0];

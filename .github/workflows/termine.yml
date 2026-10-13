@@ -1,5 +1,5 @@
-# Holt stündlich die Termine aus der Google-Tabelle "DUCT TAPE Termine (Website)" und schreibt sie in index.html.
-# Fehlende Eventseiten-Links werden auf der rausgegangen-Organizer-Seite gesucht.
+# Holt stündlich die Termine aus der Google-Tabelle "DUCT TAPE Termine (Website)" und schreibt sie in index.html und termine.html.
+# Fehlende Eventseiten-Links werden auf der rausgegangen-Organizer-Seite gesucht, Poster und Beschreibungen auf den Eventseiten.
 # Manuell starten: GitHub → Actions → "Termine aktualisieren" → Run workflow.
 name: Termine aktualisieren
 on:
@@ -21,14 +21,18 @@ jobs:
           timeout 60 google-chrome --headless=new --no-sandbox --disable-gpu --virtual-time-budget=15000 \
             --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0 Safari/537.36" \
             --dump-dom https://rausgegangen.de/organizations/duct-tape/ > "$RUNNER_TEMP/rausgegangen.html" 2>/dev/null
+      - name: Pillow für die Poster
+        continue-on-error: true
+        run: python3 -m pip install --quiet --break-system-packages pillow
       - name: Termine aus der Google-Tabelle einsetzen
         env:
           RAUSGEGANGEN_HTML: ${{ runner.temp }}/rausgegangen.html
         run: python3 scripts/termine.py
       - name: Änderungen speichern
         run: |
-          if git diff --quiet; then echo "Keine Änderungen"; exit 0; fi
+          git add -A index.html termine.html scripts/termine-details.json assets/img/termine
+          if git diff --cached --quiet; then echo "Keine Änderungen"; exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -am "Termine aus der Google-Tabelle aktualisiert"
+          git commit -m "Termine aus der Google-Tabelle aktualisiert"
           git push

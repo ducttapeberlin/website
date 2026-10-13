@@ -328,3 +328,6 @@ footer a:hover { color: var(--yellow); }
 .tevent-desc details[open] summary { display: none; }
 .tevent-less { background: none; border: 0; padding: 0; cursor: pointer; font: 700 16px var(--body); color: var(--yellow); }
 .tevent-less::after { content: " ↑"; }
+.page-intro:has(+ .all-events) { padding-bottom: clamp(24px, 3vw, 40px); }
+.page-intro:has(+ .all-events) .lead { margin-bottom: 0; }
+.all-events { padding-top: clamp(28px, 3.5vw, 48px); }

@@ -173,6 +173,14 @@ section { padding: clamp(56px, 8vw, 104px) 0; border-bottom: 1px solid var(--lin
 @media (max-width: 1000px) { .services { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 560px) { .services { grid-template-columns: 1fr; } .service { aspect-ratio: 4 / 3; } }
 
+.service-wide { aspect-ratio: 21 / 9; text-decoration: none; color: inherit; }
+.service-wide .service-body { padding: clamp(22px, 4vw, 44px); max-width: 760px; }
+.service-wide h3 { font-size: clamp(30px, 4.4vw, 56px); }
+.service-wide p { font-size: 17px; }
+.service-more { display: inline-block; margin-top: 16px; font-weight: 800; font-size: 14px; letter-spacing: .08em; text-transform: uppercase; color: var(--yellow); }
+.service-wide:hover .service-more { text-decoration: underline; text-underline-offset: 4px; }
+@media (max-width: 760px) { .service-wide { aspect-ratio: 4 / 5; } }
+
 /* Booking + newsletter */
 .split { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; background: var(--line); border: 1px solid var(--line); }
 .split > div { background: var(--black); padding: clamp(32px, 5vw, 56px); }

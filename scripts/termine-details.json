@@ -1,6 +1,6 @@
 {
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
-  "fetched": "2026-10-13T22:55:47+02:00",
+  "fetched": "2026-10-14T05:55:41+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -89,7 +89,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-10-13T22:55:47+02:00",
+  "fetched": "2026-10-14T05:55:41+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -178,7 +178,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-1/": {
-  "fetched": "2026-10-13T22:55:47+02:00",
+  "fetched": "2026-10-14T05:55:41+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -222,7 +222,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
-  "fetched": "2026-10-13T22:55:47+02:00",
+  "fetched": "2026-10-14T05:55:41+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -266,7 +266,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
-  "fetched": "2026-10-13T22:55:47+02:00",
+  "fetched": "2026-10-14T05:55:41+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -310,7 +310,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-19/": {
-  "fetched": "2026-10-13T22:55:47+02:00",
+  "fetched": "2026-10-14T05:55:41+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -354,7 +354,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-20/": {
-  "fetched": "2026-10-13T22:55:47+02:00",
+  "fetched": "2026-10-14T05:55:41+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -398,7 +398,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-21/": {
-  "fetched": "2026-10-13T22:55:47+02:00",
+  "fetched": "2026-10-14T05:55:41+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -442,7 +442,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-22/": {
-  "fetched": "2026-10-13T22:55:47+02:00",
+  "fetched": "2026-10-14T05:55:41+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -486,7 +486,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
-  "fetched": "2026-10-13T22:55:47+02:00",
+  "fetched": "2026-10-14T05:55:41+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -530,7 +530,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
-  "fetched": "2026-10-13T22:55:47+02:00",
+  "fetched": "2026-10-14T05:55:41+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -623,7 +623,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-brunch-sponsored-by-fritz-kola-halloween-edition-0/": {
-  "fetched": "2026-10-13T22:55:47+02:00",
+  "fetched": "2026-10-14T05:55:41+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -662,7 +662,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-brunch-sponsored-by-fritz-kola-winter-edition-0/": {
-  "fetched": "2026-10-13T22:55:47+02:00",
+  "fetched": "2026-10-14T05:55:41+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -703,41 +703,8 @@
    "startDate": "2026-11-15T12:00+0100"
   }
  },
- "https://rausgegangen.de/events/dressed-like-boys-13/": {
-  "fetched": "2026-10-14T04:51:53+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Bei Dressed Like Boys kommt Pop nicht als Pose, sondern aus sehr persönlichen Geschichten über queere Identität. Hinter dem Projekt steckt Jelle Denturck aus Belgien, sonst Stimme von DIRK. 🌈",
-   "endDate": "2027-04-10T23:00+0200",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/D3CFGkCfS0OIxI4TCH11_photo-dressed-like-boyscredit-sieme-hermansweb.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10179",
-     "streetAddress": "Holzmarktstraße 15-18"
-    },
-    "name": "LARK"
-   },
-   "name": "Dressed Like Boys",
-   "offers": {
-    "@type": "Offer",
-    "price": 0,
-    "priceCurrency": "EUR",
-    "url": "https://www.eventim.de/artist/dressed-like-boys/",
-    "validFrom": "2027-04-10T19:00+0200"
-   },
-   "startDate": "2027-04-10T19:00+0200"
-  }
- },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-10-13T22:55:47+02:00",
+  "fetched": "2026-10-14T05:55:41+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -824,5 +791,43 @@
   },
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
+ },
+ "https://rausgegangen.de/events/just-signed-3/": {
+  "fetched": "2026-10-14T05:55:41+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Drei Acts, frisch unterschrieben, und noch nichts wirkt geschniegelt. Yasola, Victoria West und PARA zeigen Pop, Rap und Indie lieber mit Ecken und eigener Handschrift als auf Nummer sicher 🌈",
+   "endDate": "2026-11-19T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/PNsu3JEFSvqskyhEJ5cd_26justsigned18-11websitenews1080x1920.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10969",
+     "streetAddress": "Ritterstraße 24-27"
+    },
+    "name": "MODUS Berlin"
+   },
+   "name": "Just Signed!",
+   "offers": {
+    "@type": "Offer",
+    "price": "10.00",
+    "priceCurrency": "EUR",
+    "url": "https://tickets.infield.live/event/just-signed-0qyt3h",
+    "validFrom": "2026-11-18T19:00+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "RBX GmbH",
+    "url": "https://rausgegangen.de/organizations/rbx-gmbh/"
+   },
+   "startDate": "2026-11-18T19:00+0100"
+  }
  }
 }

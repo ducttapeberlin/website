@@ -792,46 +792,37 @@
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/liebes-tagebuch-ich-geh-auf-tour-4/": {
-  "fetched": "2026-10-14T09:57:33+02:00",
+ "https://rausgegangen.de/events/restaurantweek-berlin-drei-gange-menus-zum-festivalpreis-281-0/": {
+  "fetched": "2026-10-14T10:57:50+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Sie hat sich selbst die Kündigung geschrieben, und genau das steckt jetzt in Antje Schomakers neuem Album. Nach der Pause klingt Liebes Tagebuch nach Befreiung mit scharfem Blick auf Macht und Biografie 💜",
-   "endDate": "2027-03-14T19:00+0100",
+   "description": "Dieses kurze Zögern vor einer Restaurantreservierung kennen leider alle. Die RestaurantWeek nimmt genau das raus, mit eigens zusammengestellten Drei Gängen zum festen Preis in teilnehmenden Restaurants 🙂",
+   "endDate": "2026-11-22T00:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/l23lLEuZT6N6wIjIum98_antjetourplakar828x315logos.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/jjEJICYUTVKs7SN4XuSA_rw-logo-without-trademark-navy.png"
    ],
    "location": {
     "@type": "Place",
     "address": {
      "@type": "PostalAddress",
      "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10245",
-     "streetAddress": "Revaler Strasse 99"
+     "addressLocality": null,
+     "postalCode": null,
+     "streetAddress": null
     },
-    "name": "Badehaus Berlin"
+    "name": "Berlin"
    },
-   "name": "Antje Schomaker | Liebes Tagebuch, ich geh auf Tour!",
+   "name": "RestaurantWeek Berlin: Drei-Gänge-Menüs zum Festivalpreis, 28.10.–22.11.",
    "offers": {
     "@type": "Offer",
-    "price": "26.85",
+    "price": "29.00",
     "priceCurrency": "EUR",
-    "url": "https://loveyourartist.com/de/profiles/antje-schomaker-EZ0UH1/events",
-    "validFrom": "2027-03-14T19:00+0100"
+    "url": "https://restaurant-week.de/restaurantweek?utm_type=partner&utm_medium=email&utm_campaign=RWD26A&utm_content=Rausgegangen",
+    "validFrom": "2026-10-28T00:00+0100"
    },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Florida Touring Co. GmbH",
-    "url": "https://rausgegangen.de/organizations/florida-touring-co-gmbh/"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Antje Schomaker"
-   },
-   "startDate": "2027-03-14T19:00+0100"
+   "startDate": "2026-10-28T00:00+0100"
   }
  }
 }

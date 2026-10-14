@@ -410,3 +410,12 @@ footer a:hover { color: var(--yellow); }
 @media (max-width: 820px) { .nav .lang-switch { align-self: stretch; border: 0; border-top: 1px solid var(--line); border-radius: 0; padding: 16px var(--gutter); font-size: 14px; } }
 
 sup.reg { font-size: .6em; vertical-align: super; line-height: 0; margin-left: 1px; }
+@media (max-width: 560px) {
+  /* Handy: Leistungen kompakter, damit mehrere pro Zeile mit gelben Punkten dazwischen stehen */
+  .service-wide .service-body > p.service-list { font-size: 15px; line-height: 1.7; margin-left: -22px !important; clip-path: inset(0 0 0 22px); }
+  .service-list span::before { width: 5px; height: 5px; margin: 0 8px; }
+}
+@media (max-width: 380px) {
+  .service-wide .service-body > p.service-list { font-size: 14px; }
+  .service-wide .hero-actions .btn { font-size: 12px; padding: 14px 6px; letter-spacing: 0; }
+}

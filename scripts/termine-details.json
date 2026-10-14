@@ -177,39 +177,6 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/das-gegenteil-von-jetzt-kunstlerische-wege-in-eine-andere-ge-51/": {
-  "fetched": "2026-10-14T12:55:50+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Wenn Dich Kunst interessiert, die nicht nur Gegenwart abbildet, sondern nach einem anderen Heute sucht, klingt diese Ausstellung ziemlich stark: Zwölf Künstler:innen arbeiten mit jüdischen Überlieferungen und Denkfiguren von Bloch bis Adorno. Zum 25jährigen Bestehen wird das Museum zum Raum für offene Fragen, Gemeinschaft und Möglichkeiten 👀",
-   "endDate": "2026-11-01T18:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/zmk6xZgbTz2zi2la52k4_yael-bartana-the-birds-die-vogel-videostill-2026.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10969",
-     "streetAddress": "Lindenstraße 9-14"
-    },
-    "name": "Jüdisches Museum Berlin"
-   },
-   "name": "Das Gegenteil von Jetzt. Künstlerische Wege in eine andere Gegenwart",
-   "offers": {
-    "@type": "Offer",
-    "price": 0,
-    "priceCurrency": "EUR",
-    "url": "https://tickets.jmberlin.de/tickets/?museum_id=1&exhibition_id=18",
-    "validFrom": "2026-11-01T10:00+0100"
-   },
-   "startDate": "2026-11-01T10:00+0100"
-  }
- },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-1/": {
   "fetched": "2026-10-14T12:55:50+02:00",
   "ld": {
@@ -607,7 +574,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-10-14T07:52:36+02:00",
+  "fetched": "2026-10-14T13:54:33+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -824,5 +791,38 @@
   },
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
+ },
+ "https://rausgegangen.de/events/the-answering-machine-film-premiere-im-babylon-2/": {
+  "fetched": "2026-10-14T13:54:33+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "The Answering Machine ist ein psychologisches, musikgetriebenes Arthouse-Drama über eine Künstlerin an der Schwelle zwischen Schaffen und Zerbrechen. Ein 90-minütiger Abstieg in das innere Labyrinth einer jungen Opernsängerin, in dem Klang, Erinnerung und Wahrheit untrennbar miteinander verschmelzen. Julia, eine junge Opernsängerin aus Berlin, lebt für ihre Kunst. Doch zwischen den Erwartungen ihrer Familie, dem Druck einer kompromisslosen Karriere und wachsender emotionaler Isolation beginnt ihr inneres Gleichgewicht zu kippen.Während sich Nachrichten auf ihrem Anrufbeantworter sammeln, dringen die Stimmen der Außenwelt immer tiefer in ihr Denken ein. Was zunächst banal und alltäglich erscheint, wird zunehmend Teil einer inneren Klanglandschaft, in der Erinnerung, Angst und Realität nicht mehr klar voneinander zu trennen sind. Der 90-minütige Independentfilm verbindet psychologisches Drama, Oper und eine intensive Berliner Bildwelt zu einem atmosphärischen Abstieg in ein persönliches Labyrinth aus Erwartung, Einsamkeit und Selbstwahrnehmung.Nach einer erfolgreichen internationalen Festivalreise feiert The Answering Machine nun seine Berlin-Premiere im Babylon. The Answering MachineDrama I Deutschland I 2026 Regie: José CortésMit: Ivon Mateljan, Thomas Quasthoff, Friedrich Richter Premiere 5. NovemberBabylon KinoRosa-Luxemburg-Str. 30Weitere Vorstellungen am 5.11, 6.11, 10.11, 17.11 und 18.11Tickets: https://babylonberlin.eu/film/10650-the-answering-machine  ",
+   "endDate": "2026-11-05T21:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/fvXroAdJT12QLkwjAjMH_teaser465x351.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10178",
+     "streetAddress": "Rosa-Luxemburg-Straße 30"
+    },
+    "name": "Kino Babylon"
+   },
+   "name": "The Answering Machine - Film Premiere im Babylon!",
+   "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "EUR",
+    "url": "https://babylonberlin.eu/film/10650-the-answering-machine",
+    "validFrom": "2026-11-05T19:30+0100"
+   },
+   "startDate": "2026-11-05T19:30+0100"
+  }
  }
 }

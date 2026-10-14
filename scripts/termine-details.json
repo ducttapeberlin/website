@@ -703,38 +703,6 @@
    "startDate": "2026-11-15T12:00+0100"
   }
  },
- "https://rausgegangen.de/events/herbst-bitte-lieb-mich-tourdrama-2027-10/": {
-  "fetched": "2026-10-14T09:08:17+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Popkonzert reicht ihm offenbar nicht, herbst baut seine Songs zu einem richtigen Tourdrama zusammen. Während das zweite Album bitte lieb mich schon am Horizont hängt, wirkt diese Show eher wie ein Kapitel mit Ansage 👀",
-   "endDate": "2027-04-07T06:00+0200",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/gyqSBVZRZyy3BRI8MAow_herbst2026by-andy-rumball03.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "12051",
-     "streetAddress": "Hermannstraße 146"
-    },
-    "name": "Hole44"
-   },
-   "name": "herbst /// bitte lieb mich - tourdrama 2027",
-   "offers": {
-    "@type": "Offer",
-    "price": 0,
-    "priceCurrency": "EUR",
-    "validFrom": "2027-04-06T19:00+0200"
-   },
-   "startDate": "2027-04-06T19:00+0200"
-  }
- },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
   "fetched": "2026-10-14T05:55:41+02:00",
   "ld": {
@@ -823,5 +791,47 @@
   },
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
+ },
+ "https://rausgegangen.de/events/liebes-tagebuch-ich-geh-auf-tour-4/": {
+  "fetched": "2026-10-14T09:57:33+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Sie hat sich selbst die Kündigung geschrieben, und genau das steckt jetzt in Antje Schomakers neuem Album. Nach der Pause klingt Liebes Tagebuch nach Befreiung mit scharfem Blick auf Macht und Biografie 💜",
+   "endDate": "2027-03-14T19:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/l23lLEuZT6N6wIjIum98_antjetourplakar828x315logos.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10245",
+     "streetAddress": "Revaler Strasse 99"
+    },
+    "name": "Badehaus Berlin"
+   },
+   "name": "Antje Schomaker | Liebes Tagebuch, ich geh auf Tour!",
+   "offers": {
+    "@type": "Offer",
+    "price": "26.85",
+    "priceCurrency": "EUR",
+    "url": "https://loveyourartist.com/de/profiles/antje-schomaker-EZ0UH1/events",
+    "validFrom": "2027-03-14T19:00+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Florida Touring Co. GmbH",
+    "url": "https://rausgegangen.de/organizations/florida-touring-co-gmbh/"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Antje Schomaker"
+   },
+   "startDate": "2027-03-14T19:00+0100"
+  }
  }
 }

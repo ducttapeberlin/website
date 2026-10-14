@@ -177,6 +177,48 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/anna-erhard-1000-sheep-tour-2027-5/": {
+  "fetched": "2026-10-14T03:49:58+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Alltagsbeobachtungen, Reisen, Zufallsbegegnungen, daraus baut Anna Erhard ihre Songs. Mit der Single 1000 Sheep schlägt die in Berlin lebende Schweizer Musikerin das nächste Kapitel auf 👀",
+   "endDate": "2027-03-20T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/BFIujDZqRCuWHmLjNatZ_anna-erhard-hp-1270x700-px.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10245",
+     "streetAddress": "Revaler Strasse 99"
+    },
+    "name": "Badehaus Berlin"
+   },
+   "name": "Anna Erhard | 1000 Sheep Tour 2027",
+   "offers": {
+    "@type": "Offer",
+    "price": "24.90",
+    "priceCurrency": "EUR",
+    "url": "https://www.eventim.de/noapp/event/anna-erhard-1000-sheep-tour-2027-badehaus-raw-gelaende-eingang-simon-dach-str--22176999/?affiliate=KSG&utm_campaign=Schoneberg&utm_source=KSG&utm_medium=dp",
+    "validFrom": "2027-03-19T19:00+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Konzertbüro Schoneberg",
+    "url": "https://rausgegangen.de/organizations/schoneberg-konzerte/"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Anna Erhard"
+   },
+   "startDate": "2027-03-19T19:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-1/": {
   "fetched": "2026-10-13T22:55:47+02:00",
   "ld": {
@@ -791,39 +833,5 @@
   },
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/inkart-1/": {
-  "fetched": "2026-10-14T03:04:40+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Berlin's subcultures are losing their spaces. One venue after another shuts down, and each one takes a place where something could happen. There's no shortage of talent. What's missing is the stage.INK&ART is an attempt to push back. We're building a labyrinth inside the Black Hall of Mahalla. Inside it: work by more than 40 artists, plus stations for tattooing, piercing and tooth gems. The exhibition stays the same all day — the room doesn't. Light and music shift how you read it, from house in the bright afternoon to techno once it gets dark.Tattooers, photographers, painters, body artists and DJs share the same room. Not in separate zones, but as one thing. Scenes that work in the same city and still barely cross paths.No white cube, no discipline above another.Saturday, 7 November 2026 · 3–10 PM Mahalla Berlin · Black Hall · Wilhelminenhofstr. 76/77DJ Sets · Body Artists · Photography · Tattoo Artists · Art Vernissage    Berlins Subkulturen verlieren ihre Räume. Eine Location nach der anderen macht dicht, und mit jeder verschwindet ein Ort, an dem etwas entstehen konnte. Talent gibt es weiter genug. Was fehlt, ist die Bühne.INK&ART ist der Versuch, dagegen etwas zu setzen. In der Black Hall des Mahalla bauen wir ein Labyrinth. Darin: Arbeiten von über 40 Künstlern und Stationen für Tattoo, Piercing und Tooth Gems. Die Ausstellung bleibt den ganzen Tag dieselbe, der Raum nicht — mit Licht und Musik verschiebt sich die Wahrnehmung, von House am hellen Nachmittag zu Techno am dunklen Abend.Tätowierer, Fotografen, Maler, Body Artists und DJs teilen sich denselben Raum. Nicht in getrennten Bereichen, sondern als eine Sache. Szenen, die in derselben Stadt arbeiten und sich trotzdem kaum begegnen.Kein weißer Raum, keine Disziplin über der anderen.Samstag, 7. November 2026 · 15–22 Uhr Mahalla Berlin · Black Hall · Wilhelminenhofstr. 76/77DJ Sets · Body Artists · Photography · Tattoo Artists · Art Vernissage",
-   "endDate": "2026-11-07T22:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/CT8YbS8WyUPSdXSUELgk_art.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "12459",
-     "streetAddress": "Wilhelminenhofstraße 76"
-    },
-    "name": "MaHalla"
-   },
-   "name": "INK&ART",
-   "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "10.00",
-    "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/inkart",
-    "validFrom": "2026-09-13T21:53+0200"
-   },
-   "startDate": "2026-11-07T15:00+0100"
-  }
  }
 }

@@ -177,6 +177,39 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/das-gegenteil-von-jetzt-kunstlerische-wege-in-eine-andere-ge-51/": {
+  "fetched": "2026-10-14T15:56:14+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Wenn Dich Kunst interessiert, die nicht nur Gegenwart abbildet, sondern nach einem anderen Heute sucht, klingt diese Ausstellung ziemlich stark: Zwölf Künstler:innen arbeiten mit jüdischen Überlieferungen und Denkfiguren von Bloch bis Adorno. Zum 25jährigen Bestehen wird das Museum zum Raum für offene Fragen, Gemeinschaft und Möglichkeiten 👀",
+   "endDate": "2026-11-01T18:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/zmk6xZgbTz2zi2la52k4_yael-bartana-the-birds-die-vogel-videostill-2026.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10969",
+     "streetAddress": "Lindenstraße 9-14"
+    },
+    "name": "Jüdisches Museum Berlin"
+   },
+   "name": "Das Gegenteil von Jetzt. Künstlerische Wege in eine andere Gegenwart",
+   "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "EUR",
+    "url": "https://tickets.jmberlin.de/tickets/?museum_id=1&exhibition_id=18",
+    "validFrom": "2026-11-01T10:00+0100"
+   },
+   "startDate": "2026-11-01T10:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-1/": {
   "fetched": "2026-10-14T12:55:50+02:00",
   "ld": {
@@ -701,49 +734,6 @@
     "name": "Harpy Fatale"
    },
    "startDate": "2026-11-15T12:00+0100"
-  }
- },
- "https://rausgegangen.de/events/erobique-neujahrs-party-2/": {
-  "fetched": "2026-10-14T15:05:38+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Während andere noch über Silvester reden, sitzen Erobique am Klavier und Lucas Kochbeck am Schlagzeug schon am besseren Plan fürs neue Jahr. Seit Jahren ist das eine feste Neujahrstradition, bei der niemand lange stillsteht 🪩",
-   "endDate": "2027-01-02T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/0Dt4UJIyQRqZOpavY5CD_erobique725quer-webanne-backhaus.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "12435",
-     "streetAddress": "Am Flutgraben 2"
-    },
-    "name": "Festsaal Kreuzberg"
-   },
-   "name": "Erobique - Neujahrs Party",
-   "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "51.08",
-    "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/erobique-neujahrs-party-2",
-    "validFrom": "2026-08-06T12:02+0200"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Festsaal Kreuzberg",
-    "url": "https://rausgegangen.de/organizations/festsaal-kreuzberg-ah-e0rn/"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Erobique"
-   },
-   "startDate": "2027-01-01T19:00+0100"
   }
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {

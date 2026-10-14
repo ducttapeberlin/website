@@ -177,6 +177,38 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/berlin-premiere-von-identitti-0/": {
+  "fetched": "2026-10-14T17:59:20+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Eine Dozentin, die sich als Deutsche statt als Inderin entpuppt, und plötzlich steht alles auf dem Spiel, was Nivedita über Zugehörigkeit glaubt. Zur Berlin Premiere kommen Regisseurin Randa Chahoud und die drei Hauptdarsteller:innen 👀",
+   "endDate": "2026-11-11T23:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/UpkPFnCOQwa1jeFARHMh_design-ohne-titel-3.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10407",
+     "streetAddress": "Bötzowstraße 1-5"
+    },
+    "name": "Filmtheater am Friedrichshain"
+   },
+   "name": "Berlin-Premiere von IDENTITTI",
+   "offers": {
+    "@type": "Offer",
+    "price": "12.50",
+    "priceCurrency": "EUR",
+    "validFrom": "2026-11-11T20:00+0100"
+   },
+   "startDate": "2026-11-11T20:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-1/": {
   "fetched": "2026-10-14T12:55:50+02:00",
   "ld": {
@@ -791,38 +823,5 @@
   },
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/monomono-4/": {
-  "fetched": "2026-10-14T16:55:46+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Das Format MONO:MONO lässt zwei Solo-Arbeiten an einem Abend aufeinandertreffen und feiert den Monolog als Keimzelle von Gemeinschaft. In der Geschichts-Satire ANGELALAND surft Juliane Hendes  spielerisch durch 37 Jahre Wiedervereinigung und blickt auf das gesellschaftliche Erbe der ersten Kanzlerin der Deutschen. Das Markus&Markus Theaterkollektiv  wandelt in TAKE CARE & STAY SAFE Perspektiven auf Freiheit und Fürsorge per Briefwechsel mit einer lebenslänglich wegen Mordes Verurteilten. Die humorvolle SciFi-Adaption AKTE ICH – EIN ALIEN STARRT ZURÜCK bietet der Angst vor dem Fremden im Mystery und Action Genre humorvoll die Stirn. Als Special blickt der Cora Frost in THE RETURN OF BARABARILLA auf extraterrestrische Extravaganzen und eigens gedrehte Theater-Kurzfilme bringen Unsichtbares ans Licht. MONO:MONO #4 am Freitag 16 OktoberDouble Bill: ANGELALAND (19 Uhr) + TAKE CARE & STAY SAFE (20.15 Uhr)Performance-Special:  THE RETURN OF BARBARILLA (21:30) MONO:MONO #5 am Samstag 17 OktoberDouble Bill: TAKE CARE & STAY SAFE (20 Uhr)+ AKTE ICH – EIN ALIEN STARRT ZURÜCK (21.15 Uhr)Kurzfilme-Special (19 Uhr): DER THEATERREINIGER + FEMALE GAZE NEUTRAL DENSITY FILTER  MONO:MONO #6 am Sonntag 18 OktoberDouble Bill: ANGELALAND (18 Uhr) + AKTE ICH – EIN ALIEN STARRT ZURÜCK (19:30 Uhr)Kurzfilme-Special (17 Uhr): DER THEATERREINIGER + FEMALE GAZE NEUTRAL DENSITY FILTER MONO:MONO ist ein Spin-Off-Format des Monologfestivals. Die Stücke entstanden 2025 als Auftragsarbeiten unter dem Motto I WANT TO BELIEVE. Sie erkunden Glauben als kreative Kraft, als Initiation von Handlungen, als gemeinschaftsstiftendes oder -zerstörendes Element. Nach jeder Doppelvorstellung: Beichten, Glaubensbekenntnissen und Ketzerei bei Musik, Suppe & Drinks in der Bar. ",
-   "endDate": "2026-10-17T06:00+0200",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://rausgegangen.s3.amazonaws.com/ay85a9htjlqj.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10179",
-     "streetAddress": "Klosterstraße 44"
-    },
-    "name": "TD Berlin"
-   },
-   "name": "MONO:MONO",
-   "offers": {
-    "@type": "Offer",
-    "price": "10.00",
-    "priceCurrency": "EUR",
-    "url": "https://tdberlin.reservix.de/tickets-monomono-4-double-bill-freitag-16102026-in-berlin-td-berlin-am-16-10-2026/e2587994",
-    "validFrom": "2026-10-16T19:00+0200"
-   },
-   "startDate": "2026-10-16T19:00+0200"
-  }
  }
 }

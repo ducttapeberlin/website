@@ -1,6 +1,6 @@
 {
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
-  "fetched": "2026-10-14T12:55:50+02:00",
+  "fetched": "2026-10-14T18:57:41+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -89,7 +89,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-10-14T12:55:50+02:00",
+  "fetched": "2026-10-14T18:57:41+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -177,40 +177,8 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/berlin-premiere-von-identitti-0/": {
-  "fetched": "2026-10-14T17:59:20+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Eine Dozentin, die sich als Deutsche statt als Inderin entpuppt, und plötzlich steht alles auf dem Spiel, was Nivedita über Zugehörigkeit glaubt. Zur Berlin Premiere kommen Regisseurin Randa Chahoud und die drei Hauptdarsteller:innen 👀",
-   "endDate": "2026-11-11T23:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/UpkPFnCOQwa1jeFARHMh_design-ohne-titel-3.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10407",
-     "streetAddress": "Bötzowstraße 1-5"
-    },
-    "name": "Filmtheater am Friedrichshain"
-   },
-   "name": "Berlin-Premiere von IDENTITTI",
-   "offers": {
-    "@type": "Offer",
-    "price": "12.50",
-    "priceCurrency": "EUR",
-    "validFrom": "2026-11-11T20:00+0100"
-   },
-   "startDate": "2026-11-11T20:00+0100"
-  }
- },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-1/": {
-  "fetched": "2026-10-14T12:55:50+02:00",
+  "fetched": "2026-10-14T18:57:41+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -254,7 +222,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
-  "fetched": "2026-10-14T12:55:50+02:00",
+  "fetched": "2026-10-14T18:57:41+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -298,7 +266,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
-  "fetched": "2026-10-14T12:55:50+02:00",
+  "fetched": "2026-10-14T18:57:41+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -342,7 +310,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-19/": {
-  "fetched": "2026-10-14T12:55:50+02:00",
+  "fetched": "2026-10-14T18:57:41+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -386,7 +354,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-20/": {
-  "fetched": "2026-10-14T12:55:50+02:00",
+  "fetched": "2026-10-14T18:57:41+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -430,7 +398,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-21/": {
-  "fetched": "2026-10-14T12:55:50+02:00",
+  "fetched": "2026-10-14T18:57:41+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -474,7 +442,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-22/": {
-  "fetched": "2026-10-14T12:55:50+02:00",
+  "fetched": "2026-10-14T18:57:41+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -518,7 +486,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
-  "fetched": "2026-10-14T12:55:50+02:00",
+  "fetched": "2026-10-14T18:57:41+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -562,7 +530,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
-  "fetched": "2026-10-14T12:55:50+02:00",
+  "fetched": "2026-10-14T18:57:41+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -655,7 +623,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-brunch-sponsored-by-fritz-kola-halloween-edition-0/": {
-  "fetched": "2026-10-14T12:55:50+02:00",
+  "fetched": "2026-10-14T18:57:41+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -694,7 +662,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-brunch-sponsored-by-fritz-kola-winter-edition-0/": {
-  "fetched": "2026-10-14T12:55:50+02:00",
+  "fetched": "2026-10-14T18:57:41+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -736,7 +704,7 @@
   }
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-10-14T12:55:50+02:00",
+  "fetched": "2026-10-14T18:57:41+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -760,14 +728,14 @@
    "name": "House of Pride (HOP) Berlin | THE MAIN PARTY OF BERLIN PRIDE",
    "offers": {
     "@type": "AggregateOffer",
-    "highPrice": "80.10",
+    "highPrice": "90.70",
     "lowPrice": "17.56",
-    "offerCount": 5,
+    "offerCount": 9,
     "offers": [
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "SUPPORT Ticket (Special) | Phase 1",
+      "name": "SUPPORT Ticket | Phase 1",
       "price": "21.80",
       "priceCurrency": "EUR"
      },
@@ -798,6 +766,34 @@
       "name": "EARLY BIRD | GROUP (4 Pax)",
       "price": "17.56",
       "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "REGULAR | Phase 1 (Access all Night long)",
+      "price": "32.40",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "BESTIE | Phase 1  (2 Pax)",
+      "price": "53.60",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "GROUP | Phase 1 (4 Pax)",
+      "price": "21.80",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "VIP | Phase 1",
+      "price": "90.70",
+      "priceCurrency": "EUR"
      }
     ],
     "priceCurrency": "EUR"
@@ -823,5 +819,80 @@
   },
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
+ },
+ "https://rausgegangen.de/events/movie2menu-presents-sex-and-the-city-film-12/": {
+  "fetched": "2026-10-14T18:57:41+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Wenn Du Sex and the City nicht nur sehen, sondern passend dazu essen willst, ist dieses Movie2Menu Format echt ein charmanter Move: Zum Film kommen New York inspirierte Gänge direkt an Deinen Platz. Zwischen Liebe, Herzschmerz und Freundschaft wird das ziemlich stylish 👠",
+   "endDate": "2026-10-23T06:00+0200",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/2AZn6OGRXCygTHJ21txK_169.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10245",
+     "streetAddress": "Revaler Straße 99"
+    },
+    "name": "TABULA RASA@RAW"
+   },
+   "name": "Movie2Menu presents: Sex and the City (Film)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 4,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Plant Based + Mit Alkohol",
+      "price": "158.54",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Plant Based + Ohne Alkohol",
+      "price": "158.54",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Mit Alkohol",
+      "price": "158.54",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Ohne Alkohol",
+      "price": "158.54",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "Movie2Menu",
+     "url": "https://rausgegangen.de/organizations/movie2menu/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Team - Leif Lüdtke & Paul Rost GbR",
+     "url": "https://rausgegangen.de/organizations/p-team-leif-ludtke-paul-rost-gbr/"
+    }
+   ],
+   "startDate": "2026-10-22T18:30+0200"
+  }
  }
 }

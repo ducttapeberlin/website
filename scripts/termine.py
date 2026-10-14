@@ -448,7 +448,7 @@ def to_row(url, ld):
     title = re.sub(r"\s*\([^)]*\)", "", title)
     tag, row = "", {}
     if "brunch" in low:
-        edition = re.search(r"-\s*([^-]*edition)\s*$", name, re.I)
+        edition = re.search(r"([A-Za-zÄÖÜäöüß]+\s+edition)\b", name, re.I)  # z. B. "Christmas Edition", egal wo im Namen
         title = "Fritz-Kola Drag Brunch" if "fritz" in low else "Drag Brunch"
         tag = tidy(edition[1]) if edition else "Drag Brunch"
         row.update({"Free Entry": "ja", "Reservierung": "OpenTable"})

@@ -4,12 +4,13 @@
   "a-berlin-drag-queens-christmas-show": "Weihnachten"
  },
  "ergaenzungen": {
-  "a-berlin-drag-queens-christmas-show": {"Einlass": "18:00"},
-  "drag-brunch-sponsored-by-fritz-kola-winter-edition": {"Gäste": "Harpy @wowharpywow"}
+  "a-berlin-drag-queens-christmas-show": {
+   "Einlass": "18:00"
+  },
+  "drag-brunch-sponsored-by-fritz-kola-winter-edition": {
+   "Gäste": "Harpy @wowharpywow"
+  }
  },
  "ausblenden": [],
- "zusaetzliche_termine": [
-  {"Datum": "13.12.2026", "Beginn": "12:00", "Ende": "15:00", "Format": "Christmas Edition", "Titel": "Fritz-Kola Drag Brunch",
-   "Location": "The Dawn Neukölln", "Free Entry": "ja", "Reservierung": "OpenTable"}
- ]
+ "zusaetzliche_termine": []
 }

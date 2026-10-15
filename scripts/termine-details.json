@@ -89,7 +89,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-10-15T16:00:26+02:00",
+  "fetched": "2026-10-15T22:53:37+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -176,62 +176,6 @@
   },
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/another-drag-show-with-paige-three-and-pitita-0/": {
-  "fetched": "2026-10-15T21:50:27+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "🎉 ANOTHER DRAG SHOW WITH PITITA  AND PAIGE THREE- 22.10.2026  🎟️ TICKETS ON RAUSGEGANGEN – LIMITED SPACEWHERE? THE SOCIAL HUB BERLIN!  EARLY ENTRY: 18:30 ENTRY: 19:00📅 SAVE THE DATE – It’s time to celebrate queer excellence, Berlin-style.💋 This isn’t just any drag show – it’s Bella Troia’s DRAG EXCELLENCE BASH, and she’s bringing an explosive lineup to the stage for a night of performances, party, and pure energy.🌟 FEATURING:⭐️ PITITA ( Winner of Drag Race España)⭐️ PAIGE THREE Rupaul's Drag Race UK Star Get ready, Berlin! The sensational  Pitita and Paige Three – are touching down for one night only. Expect elegance, attitude, and unforgettable performance from these superstars. 🔥👠💄 OPEN STAGE The night kicks off with an open stage segment for rising stars and fresh talent. Want to perform? Stay tuned to Bella’s socials – details dropping soon.🎤 HOSTED BY BELLA TROIA The Latinx Hurricane Monster of Berlin ! 💖 WHY YOU CAN’T MISS THIS: 🔥 A one-night-only birthday drag extravaganza 👑 International star power meets Berlin talent 💅 Open stage, wild energy, and unforgettable performancesWhether you’re performing, partying, or both – come early, stay loud, and leave legendary.",
-   "endDate": "2026-10-23T06:00+0200",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/MPRp4Lb6QTKVOQDZcRod_november-another-drag-show-prasentation.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10179",
-     "streetAddress": "Alexanderstraße 40"
-    },
-    "name": "The Social Hub"
-   },
-   "name": "ANOTHER DRAG SHOW WITH PITITA AND PAIGE THREE",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": null,
-    "lowPrice": null,
-    "offerCount": 3,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regular",
-      "price": "23.92",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Last Minute",
-      "price": "27.10",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "TEMPORARY SALE",
-      "price": "18.50",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "startDate": "2026-10-22T19:00+0200"
-  }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
   "fetched": "2026-10-15T18:58:06+02:00",
@@ -660,7 +604,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-10-15T16:00:26+02:00",
+  "fetched": "2026-10-15T22:53:37+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -905,5 +849,38 @@
   },
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
+ },
+ "https://rausgegangen.de/events/musical-spheres-ant-enoch-ava-joe-caro-schaeffler-0/": {
+  "fetched": "2026-10-15T22:53:37+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "LiveDrei exklusive Live-Performances an einem Abend: In »musical spheres« verwandeln musikalische Acts die Bühne des Planetariumssaals und nehmen euch mit in ein einzigartiges Konzert unter dem Himmelszelt. Aufstrebende Musik-Stars umgeben von 360°-Visuals, die live gesteuert werden und das Publikum in neue galaktische Weiten eintauchen lassen, ermöglichen ein ganz besonderes und effektvolles Erlebnis.Die Konzertreihe »musical spheres« vereint kosmische Live-Performances mit eindrucksvollen Visualisierungen.Folgendes Line-up erwartet euch am 17. November 2026:ANT ENOCHDer in Sydney und Berlin lebende Künstler ANT ENOCH schreibt Hymnen zum Weinen auf der Tanzfläche. Sein melodischer Bedroom Pop verbindet seine Liebe zu melancholischen Dance-Balladen der 1980er Jahre mit einer zeitgenössischen analogen Ästhetik. Seine selbst produzierte Debüt-EP »Big Talk Big Party« aus dem Jahr 2024 entstand aus der Isolation während der Pandemie und vereint klassische japanische Drum Machines, sehr persönliche Texte sowie Klavier, Synthesizer und Violine. Frühe Songwriting-Experimente führten ihn an Musikhochschulen in Sydney und Toronto, wo er in kleinen Clubs spielte. Heute lebt er zwischen Berlin und Bankstown und begeistert mit seinen Live-Shows u.a. in Berlin, München und Sydney sowie auf Festivals.AVA JOEMit ihren jungen 22 Jahren wirkt es zunächst ungewöhnlich, Ava Joe als »alte Seele« zu bezeichnen – doch ihre Leidenschaft für Geschichten und ihre Fähigkeit, persönliche Erfahrungen in romantische Momentaufnahmen zu verwandeln, sprechen dafür. Inspiriert von Kunst, Musik und Film sowie Künstler*innen wie Frank Sinatra, Marilyn Monroe oder Brigitte Bardot, entwickelte sie eine zeitlose musikalische Ästhetik. Ihre Debütsingle »Black Smoke« entführt in die Geschichte einer vergangenen Beziehung, geprägt von toxischer Co-Abhängigkeit. Aufgewachsen in Devon, Irland und London, studierte sie Musikperformance an der Brit School und Gesang an der ACM und etablierte sich seitdem als eindrucksvolle Sängerin und Performerin.Caro SchaefflerCaro Schaeffler versucht mit ihrer Kunst eine Welt zu schaffen, in der man sich verlieren, aber auch wiederfinden kann. Als selbsternannte »hoffnungslose Romantikerin« verwandelt sie flüchtige Augenblicke in intime, zeitlose Kunst. Ihre Musik bewegt sich zwischen Melancholie und jugendlicher Naivität: Chansonartige Balladen treffen auf organische und moderne Pop-Elemente. Ihre persönlichen Songs erzählen davon, in allen Erfahrungen – auch den schmerzhaften – Schönheit zu entdecken und diese mit anderen zu teilen. Auch ihre visuelle Sprache ist geprägt von poetischer Nostalgie, Filmklassikern und Gemälde-Welten. Ihr langfristiges Ziel: Kunst zu schaffen, die bleibt, in einer Welt der immer weiter voranschreitenden Kurzweiligkeit",
+   "endDate": "2026-11-17T22:45+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/HfkXA2pHTqmYUNBQPSZR_spbmusicalspheresheaderallefarbenmar24rz2.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10405",
+     "streetAddress": "Prenzlauer Allee 80"
+    },
+    "name": "Zeiss-Großplanetarium Berlin"
+   },
+   "name": "Musical spheres: ANT ENOCH, AVA JOE & Caro Schaeffler",
+   "offers": {
+    "@type": "Offer",
+    "price": "25.00",
+    "priceCurrency": "EUR",
+    "url": "https://www.planetarium.berlin/veranstaltungen/musical-spheres-im-november",
+    "validFrom": "2026-11-17T21:00+0100"
+   },
+   "startDate": "2026-11-17T21:00+0100"
+  }
  }
 }

@@ -178,7 +178,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-10-15T18:58:06+02:00",
+  "fetched": "2026-10-16T01:45:20+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -186,7 +186,7 @@
    "endDate": "2026-11-29T06:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/xVIEuZV5T3qdzJQ9kL6S_17a02d2d-5e72-44b3-b236-09ed63878189.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/jkL2hXlVRB6TpfOiUqpg_2aac9eb8-68c5-4afa-8eae-ea27f7042b9d.jpeg"
    ],
    "location": {
     "@type": "Place",
@@ -250,39 +250,6 @@
   },
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/das-gegenteil-von-jetzt-kunstlerische-wege-in-eine-andere-ge-51/": {
-  "fetched": "2026-10-16T00:49:17+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Wenn Dich Kunst interessiert, die nicht nur Gegenwart abbildet, sondern nach einem anderen Heute sucht, klingt diese Ausstellung ziemlich stark: Zwölf Künstler:innen arbeiten mit jüdischen Überlieferungen und Denkfiguren von Bloch bis Adorno. Zum 25jährigen Bestehen wird das Museum zum Raum für offene Fragen, Gemeinschaft und Möglichkeiten 👀",
-   "endDate": "2026-11-01T18:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/zmk6xZgbTz2zi2la52k4_yael-bartana-the-birds-die-vogel-videostill-2026.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10969",
-     "streetAddress": "Lindenstraße 9-14"
-    },
-    "name": "Jüdisches Museum Berlin"
-   },
-   "name": "Das Gegenteil von Jetzt. Künstlerische Wege in eine andere Gegenwart",
-   "offers": {
-    "@type": "Offer",
-    "price": 0,
-    "priceCurrency": "EUR",
-    "url": "https://tickets.jmberlin.de/tickets/?museum_id=1&exhibition_id=18",
-    "validFrom": "2026-11-01T10:00+0100"
-   },
-   "startDate": "2026-11-01T10:00+0100"
-  }
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-1/": {
   "fetched": "2026-10-15T21:03:29+02:00",
@@ -882,5 +849,47 @@
   },
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
+ },
+ "https://rausgegangen.de/events/provinz-cry-baby-cry-tour-2027-13/": {
+  "fetched": "2026-10-16T01:45:20+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Vier Leute, ein neuer Songtitel, und sofort ist wieder dieses Provinz Gefühl da, das zwischen Indie und Britpop hängen bleibt. Im Winter 2027 geht die Band mit Cry Baby Cry auf Tour 👀",
+   "endDate": "2027-12-03T23:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/T2uMq2bRMaULDzfM5M5w_provinz-cbc-2027-fb-banner-1920x1005px.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10437",
+     "streetAddress": "Am Falkplatz 1"
+    },
+    "name": "Max-Schmeling-Halle"
+   },
+   "name": "Provinz • \"Cry Baby Cry\" Tour 2027",
+   "offers": {
+    "@type": "Offer",
+    "price": "69.99",
+    "priceCurrency": "EUR",
+    "url": "https://shop.provinzband.com/events/provinz-cry-baby-cry-tour-2027-zusatzshow-max-schmeling-halle",
+    "validFrom": "2027-12-03T18:00+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "LANDSTREICHER BOOKING",
+    "url": "https://rausgegangen.de/organizations/landstreicher-booking-ah-fk3y/"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Provinz"
+   },
+   "startDate": "2027-12-03T18:00+0100"
+  }
  }
 }

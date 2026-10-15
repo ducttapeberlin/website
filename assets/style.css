@@ -151,17 +151,31 @@ section { padding: clamp(56px, 8vw, 104px) 0; border-bottom: 1px solid var(--lin
 .featured-dates .event-doors { display: block; opacity: .55; }
 .featured .btn-primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
 
-/* Thema Weihnachten: Tannengrün, Rot, Gold, leichter Schnee und ein Zuckerstangen-Tape oben */
-.featured.theme-weihnachten { --accent: #E0313F; --accent-ink: #fff; border-color: transparent; padding-top: calc(clamp(28px, 4vw, 52px) + 14px);
-  background:
-    radial-gradient(circle, rgba(255, 255, 255, .5) 0 1.6px, transparent 2.6px) 11px 7px / 97px 89px,
-    radial-gradient(circle, rgba(255, 255, 255, .35) 0 1.2px, transparent 2.2px) 53px 41px / 67px 71px,
-    radial-gradient(circle, rgba(255, 255, 255, .22) 0 1px, transparent 2px) 29px 63px / 43px 53px,
-    radial-gradient(120% 90% at 100% 0%, rgba(242, 193, 78, .22), transparent 55%),
-    linear-gradient(140deg, #13513C 0%, #0B3326 60%, #08261C 100%); }
-.featured.theme-weihnachten::before { content: ""; position: absolute; inset: 0 0 auto; height: 14px; background: repeating-linear-gradient(-45deg, #E0313F 0 14px, #FAFAF7 14px 28px); }
-.featured.theme-weihnachten h3 a::after { color: #F2C14E; }
-.featured.theme-weihnachten .featured-dates li { background: rgba(4, 24, 17, .55); }
+/* Thema Weihnachten: im Look des Show-Banners (Pergament-Creme, Weihnachtsrot, Tannengrün, Gold) mit der Illustration rechts */
+.featured.theme-weihnachten { --accent: #B8232C; --accent-ink: #fff; --xmas-ink: #2B1810; --xmas-green: #1C6B3C;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, .95fr); grid-template-rows: auto auto; align-items: end; row-gap: 22px;
+  border: 0; color: var(--xmas-ink); padding-top: calc(clamp(28px, 4vw, 52px) + 14px);
+  background: radial-gradient(120% 100% at 70% 45%, #FBEFDC 0%, #F7E3C4 55%, #EFCF9E 100%); }
+.featured.theme-weihnachten::before { content: ""; position: absolute; inset: 0 0 auto; height: 14px; background: repeating-linear-gradient(-45deg, #B8232C 0 14px, #FBEFDC 14px 28px, var(--xmas-green) 28px 42px, #FBEFDC 42px 56px); }
+.featured.theme-weihnachten::after { content: ""; grid-column: 2; grid-row: 1 / span 2; align-self: stretch; min-height: 380px; margin: calc(-1 * clamp(28px, 4vw, 52px)) calc(-1 * clamp(28px, 4vw, 52px)) calc(-1 * clamp(28px, 4vw, 52px)) 0;
+  background: url("img/featured-xmas.jpg") center 30% / contain no-repeat;
+  -webkit-mask-image: radial-gradient(closest-side, #000 82%, transparent); mask-image: radial-gradient(closest-side, #000 82%, transparent); }
+.featured.theme-weihnachten .featured-body { grid-column: 1; grid-row: 1; align-self: end; }
+.featured.theme-weihnachten .featured-dates { grid-column: 1; grid-row: 2; align-self: start; }
+.featured.theme-weihnachten h3 a { color: var(--accent); }
+.featured.theme-weihnachten h3 a:hover { color: var(--xmas-green); }
+.featured.theme-weihnachten h3 a::after { color: #B8892E; }
+.featured.theme-weihnachten .featured-body p { color: var(--xmas-ink); font-weight: 600; }
+.featured.theme-weihnachten .featured-dates li { background: rgba(255, 252, 245, .72); border: 1px solid rgba(184, 35, 44, .18); backdrop-filter: none; }
+.featured.theme-weihnachten .featured-dates small { color: #6B4A36; }
+.featured.theme-weihnachten .btn-primary { background: var(--xmas-green); border-color: var(--xmas-green); color: #fff; }
+.featured.theme-weihnachten .btn-primary:hover { background: #155230; border-color: #155230; }
+@media (max-width: 760px) {
+  .featured.theme-weihnachten { grid-template-columns: 1fr; grid-template-rows: auto; row-gap: 16px; }
+  .featured.theme-weihnachten::after { grid-column: 1; grid-row: 1; order: -1; min-height: 0; aspect-ratio: 1 / .9; margin: -8px -12px -6px; }
+  .featured.theme-weihnachten .featured-body { grid-row: 2; }
+  .featured.theme-weihnachten .featured-dates { grid-row: 3; }
+}
 @media (max-width: 720px) {
   /* Handy: Datum links, Tag/Name/Ort rechts daneben, Button kompakt darunter */
   .event { grid-template-columns: 92px 1fr; gap: 6px 16px; align-items: start; padding: 22px 0; }

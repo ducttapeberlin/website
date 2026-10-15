@@ -568,6 +568,8 @@ sup.reg { font-size: .6em; vertical-align: super; line-height: 0; margin-left: 1
 .q-portrait { aspect-ratio: 4 / 5; border-radius: 0; margin-top: calc(35px + clamp(64px, 11vw, 140px) * .04); }
 .q-portrait .member-clip { clip-path: inset(-30% -20% 0 -20%); }
 .q-portrait .member-clip img { filter: none; }
+.q-rot img { transition: opacity .6s ease; }
+.q-rot img:not(.is-on) { opacity: 0; }
 .q-facts, .q-book, .q-text, .q-photos { padding: clamp(56px, 8vw, 104px) 0 0; }
 .q-facts .kv-sheet { max-width: 900px; }
 .q-book, .q-photos { padding-bottom: clamp(56px, 8vw, 104px); }

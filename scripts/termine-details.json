@@ -177,8 +177,41 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/bounce-by-undr-bounce-hard-dance-kinky-playful-0/": {
+  "fetched": "2026-10-15T05:55:49+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Berlin mal nicht schwarz und streng: BOUNCE setzt auf Farbe, Glitzer und eine Crowd, die lachen statt grimmig gucken will. Dazu kommen zwei Floors mit Hard Dance und Euphoric Trance, plus offene Playspaces 🪩",
+   "endDate": "2026-10-18T06:00+0200",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/UzFbssGdSCuJOdyFiyag_1920x1080.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "12099",
+     "streetAddress": "Alt-Tempelhof 17-19"
+    },
+    "name": "Insomnia Club Berlin"
+   },
+   "name": "BOUNCE by UNDR: Bounce / Hard Dance - Kinky & Playful",
+   "offers": {
+    "@type": "Offer",
+    "price": "20.00",
+    "priceCurrency": "EUR",
+    "url": "https://bounce.berlin/",
+    "validFrom": "2026-10-17T22:00+0200"
+   },
+   "startDate": "2026-10-17T22:00+0200"
+  }
+ },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-10-14T23:52:48+02:00",
+  "fetched": "2026-10-15T05:55:49+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -849,73 +882,5 @@
   },
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/movie2menu-presents-chihiros-reise-ins-zauberland-23/": {
-  "fetched": "2026-10-15T04:54:23+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Movie2Menu presents: Chihiros Reise ins Zauberland   Tritt durch das Steintor und begegne Göttern, Hexen und Naturgeistern.Während Chihiro als Sen im Badehaus arbeitet, um ihre Eltern zu retten, servieren wir die passenden Gerichte direkt an deinen Platz. Komm mit uns auf diese Reise und lass dich von einem asiatisch inspirierten Menü überraschen. Jeder Gang ist auf das Geschehen im Film abgestimmt und erweckt die Atmosphäre des Studio-Ghibli-Meisterwerks zum Leben.Movie2Menu ist kein gewöhnliches Dinner.Es ist eine emotionale Reise voller Nostalgie und Magie, bei der Film und Kulinarik miteinander verschmelzen; berührend, meisterhaft und absolut zauberhaft.   Filmbeginn ist immer 30 Minuten nach Einlass. Einlass: 18:30 Uhr - 18:45 Uhr Filmbegin: 19:00 UhrDauer: ca. 3 StundenWir bieten sowohl alkoholische als auch alkoholfreie Begleitung an,  bitte bei der Buchung auswählen.Für Allergien bitten wir vorab um Rücksprache mit dem Veranstalter. Fragen, Anmerkungen oder Vorschläge gerne aninfo@movie2menu.de",
-   "endDate": "2026-10-16T06:00+0200",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/KVTgzB5mSSCsla5GTiVw_cover.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10245",
-     "streetAddress": "Revaler Straße 99"
-    },
-    "name": "TABULA RASA@RAW"
-   },
-   "name": "Movie2Menu presents: Chihiros Reise ins Zauberland",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": null,
-    "lowPrice": null,
-    "offerCount": 4,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Plant Based + Mit Alkohol",
-      "price": "158.54",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Plant Based + Ohne Alkohol",
-      "price": "158.54",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Mit Alkohol",
-      "price": "158.54",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Ohne Alkohol",
-      "price": "158.54",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Movie2Menu",
-    "url": "https://rausgegangen.de/organizations/movie2menu/"
-   },
-   "startDate": "2026-10-15T18:30+0200"
-  }
  }
 }

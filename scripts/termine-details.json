@@ -89,7 +89,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-10-15T01:44:41+02:00",
+  "fetched": "2026-10-15T09:09:43+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -250,6 +250,39 @@
   },
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
+ },
+ "https://rausgegangen.de/events/das-gegenteil-von-jetzt-kunstlerische-wege-in-eine-andere-ge-51/": {
+  "fetched": "2026-10-15T09:09:43+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Wenn Dich Kunst interessiert, die nicht nur Gegenwart abbildet, sondern nach einem anderen Heute sucht, klingt diese Ausstellung ziemlich stark: Zwölf Künstler:innen arbeiten mit jüdischen Überlieferungen und Denkfiguren von Bloch bis Adorno. Zum 25jährigen Bestehen wird das Museum zum Raum für offene Fragen, Gemeinschaft und Möglichkeiten 👀",
+   "endDate": "2026-11-01T18:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/zmk6xZgbTz2zi2la52k4_yael-bartana-the-birds-die-vogel-videostill-2026.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10969",
+     "streetAddress": "Lindenstraße 9-14"
+    },
+    "name": "Jüdisches Museum Berlin"
+   },
+   "name": "Das Gegenteil von Jetzt. Künstlerische Wege in eine andere Gegenwart",
+   "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "EUR",
+    "url": "https://tickets.jmberlin.de/tickets/?museum_id=1&exhibition_id=18",
+    "validFrom": "2026-11-01T10:00+0100"
+   },
+   "startDate": "2026-11-01T10:00+0100"
+  }
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-1/": {
   "fetched": "2026-10-15T07:53:19+02:00",
@@ -849,44 +882,5 @@
   },
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/laughs-drinks-in-an-art-gallery-friday-8pm-mitte-2/": {
-  "fetched": "2026-10-15T07:53:19+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Friday 8:30pm in an Art Gallery 😍 (Mitte)Join us in an underground art gallery in Mitte for an immersive art & comedy experience. Expect a room buzzing with laughs and stories in a thrilling show format. This is a truely one of a kind experience. Perfect for date night, a friend's night out or a solo adventure✨.Expect incredibly funny, intelligent, silly and thought-provoking jokes - perfect for an evening buzzing with laughter in a beautiful and intimate setting. The show will be hosted by globally touring comedian Prateek Jajoo (aka Jazz Comedy), whose comedy specials were featured at the Edinburgh Fringe Festival. On alternative Fridays, expect to see up to 4 more pro comedians during the evening.Over 3000 attendees, and 5 star reviews (on Google Maps) 😃.Show Details:Gallery Opens: 7:30pmShow start: 8:30pmShow Ends: 10:30pmShow Plan:Explore the Art Gallery & Get Drinks (08:00 PM - 08:30 PM)Explore the current exhibitions of Tor218 Artlab. The venue details the artist and the inspirations of the work at the Gallery. Get drinks from the bar located inside the gallery. Artisan cocktails (from 10 euros) are available and prepared by the Gallery owner himself.A thrilling Stand up Comedy experience (08:30 PM - 10:30 PM)Expect a room buzzing with laughs from stand up comedy in a thrilling game show format. The show will be hosted by globally touring comedian Prateek Jajoo (aka Jazz Comedy), whose comedy specials were featured at the Edinburgh Fringe Festival twice. You will see up to 3 more pro comedians during the evening. Expect incredibly funny, intelligent, silly and thought-provoking jokes - perfect for an evening buzzing with laughter in a beautiful and intimate setting!(Optional) Mingle & take away memories (10:30 PM - 11:30 PM)Our show format is designed to make conversations more organic and funny. Get more drinks, mingle with fabulous people who came to the show and comedians. Anything can happen - a new friend, romance or a club night, so stay back. ",
-   "endDate": "2026-10-16T22:00+0200",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/uWpuxuQKuI32ed5JCpgk_2.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10115",
-     "streetAddress": "Torstraße 218"
-    },
-    "name": "Galerie & Bar Tor218 Artklub"
-   },
-   "name": "Comedy in an Art Gallery (English)",
-   "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "3.25",
-    "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/saturday-night-special-comedy-in-an-art-gallery-mitte-1",
-    "validFrom": "2026-09-24T15:56+0200"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "The Comedy Gallery Berlin",
-    "url": "https://rausgegangen.de/organizations/the-comedy-gallery/"
-   },
-   "startDate": "2026-10-16T20:00+0200"
-  }
  }
 }

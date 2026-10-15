@@ -557,12 +557,12 @@ sup.reg { font-size: .6em; vertical-align: super; line-height: 0; margin-left: 1
 
 /* Einzelprofile EMI, Symba, Magda */
 .q-hero { padding: clamp(40px, 6vw, 80px) 0 clamp(32px, 5vw, 64px); border-bottom: 1px solid var(--line); overflow-x: clip; }
-.q-hero .wrap { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr); gap: clamp(32px, 5vw, 72px); align-items: center; }
+.q-hero .wrap { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr); gap: clamp(32px, 5vw, 72px); align-items: start; }
 .q-hero h1 { font-size: clamp(64px, 11vw, 140px); color: var(--yellow); margin: 0 0 20px; }
 .q-hero .lead { margin: 0 0 16px; }
 .q-hero .q-lead2 { font-size: clamp(16px, 1.5vw, 18px); color: #BDBDB6; margin-bottom: 28px; }
 .q-actions { display: flex; flex-wrap: wrap; gap: 12px; }
-.q-portrait { aspect-ratio: 4 / 5; border-radius: 0; }
+.q-portrait { aspect-ratio: 4 / 5; border-radius: 0; margin-top: calc(35px + clamp(64px, 11vw, 140px) * .04); }
 .q-portrait .member-clip { clip-path: inset(-30% -20% 0 -20%); }
 .q-portrait .member-clip img { filter: none; }
 .q-facts, .q-book, .q-text, .q-photos { padding: clamp(48px, 7vw, 88px) 0 0; }

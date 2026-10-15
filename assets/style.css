@@ -180,9 +180,10 @@ section { padding: clamp(56px, 8vw, 104px) 0; border-bottom: 1px solid var(--lin
 @media (max-width: 760px) {
   .featured.theme-weihnachten { grid-template-columns: 1fr; grid-template-rows: auto; row-gap: 16px; }
   .featured.theme-weihnachten { background-position: 7% 7%, 93% 6%, 90% 65%, 6% 33%, 95% 36%, 0 0; }
-  .featured.theme-weihnachten::after { grid-column: 1; grid-row: 1; order: -1; min-height: 0; aspect-ratio: 1 / .72; margin: -4px 0 -6px; }
-  .featured.theme-weihnachten .featured-body { grid-row: 2; }
-  .featured.theme-weihnachten .featured-dates { grid-row: 3; grid-template-columns: 1fr 1fr; gap: 10px; }
+  /* Mobil ohne Queens-Bild, Text und Termine reichen */
+  .featured.theme-weihnachten::after { display: none; }
+  .featured.theme-weihnachten .featured-body { grid-row: 1; }
+  .featured.theme-weihnachten .featured-dates { grid-row: 2; grid-template-columns: 1fr 1fr; gap: 10px; }
   .featured.theme-weihnachten .featured-dates li { flex-direction: column; align-items: stretch; gap: 10px; padding: 14px; }
   .featured.theme-weihnachten .featured-dates .btn { width: 100%; justify-content: center; }
 }
@@ -563,6 +564,7 @@ sup.reg { font-size: .6em; vertical-align: super; line-height: 0; margin-left: 1
 .q-hero { padding: clamp(56px, 8vw, 104px) 0; border-bottom: 1px solid var(--line); overflow-x: clip; }
 .q-hero .wrap { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr); gap: clamp(32px, 5vw, 72px); align-items: start; }
 .q-hero h1 { font-size: clamp(64px, 11vw, 140px); color: var(--yellow); margin: 0 0 20px; }
+.q-hero h1 .q-h1-sub { display: block; font-size: .5em; line-height: 1.05; }
 .q-hero .lead { margin: 0 0 16px; }
 .q-hero .q-lead2 { font-size: clamp(16px, 1.5vw, 18px); color: #BDBDB6; margin-bottom: 28px; }
 .q-actions { display: flex; flex-wrap: wrap; gap: 12px; }

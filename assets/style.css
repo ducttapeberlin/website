@@ -592,3 +592,6 @@ sup.reg { font-size: .6em; vertical-align: super; line-height: 0; margin-left: 1
   .q-book-grid { grid-template-columns: 1fr; }
   .q-grid { grid-template-columns: 1fr 1fr; }
 }
+.kv-ms figure.kv-video { aspect-ratio: 9 / 16; max-width: 260px; }
+.kv-ms figure.kv-video video { width: 100%; height: 100%; object-fit: cover; display: block; }
+@media (max-width: 860px) { .kv-ms figure.kv-video { max-width: 300px; justify-self: start; } }

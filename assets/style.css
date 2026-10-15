@@ -465,3 +465,4 @@ sup.reg { font-size: .6em; vertical-align: super; line-height: 0; margin-left: 1
 .press-box p:last-child { margin: 0; }
 @media (max-width: 860px) { .press .wrap { grid-template-columns: 1fr; gap: 24px; } }
 .gallery, .press { padding-top: clamp(36px, 5vw, 56px); }
+.press-photo { width: 100%; height: auto; border-radius: 10px; margin: 4px 0 16px; }

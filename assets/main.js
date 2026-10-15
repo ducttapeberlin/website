@@ -249,7 +249,7 @@ if (gal) {
     const v = visible();
     cur = (i + v.length) % v.length;
     const a = v[cur], thumb = a.querySelector('img');
-    img.src = a.href; img.alt = thumb.alt; cap.textContent = thumb.alt;
+    img.src = a.href; img.alt = thumb.alt; cap.textContent = a.dataset.caption || thumb.alt;
   };
   items.forEach(a => a.addEventListener('click', e => {
     e.preventDefault();

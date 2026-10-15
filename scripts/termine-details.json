@@ -177,8 +177,41 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/bln-reunion-indoor-festival-0/": {
+  "fetched": "2026-10-15T18:58:06+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "BLN REUNION INDOOR FESTIVAL Sa. 12.12.26 | Spindler & Klatt  LIVE ON STAGE: AKA AKA | K-PAUL | SASCHA BRAEMER | BLONDEE uvm.  3 Floors - 14 Acts - Show - Direkt an der Spree  Nach 4 ausverkauften Veranstaltungen im Strandbad Grünau freuen wir uns auf unsere erste Winter Edition - BLN REUNION INDOOR FESTIVAL am 12.12.26 im Spindler & Klatt - 3 Floors - 14 Acts. Eine Nacht im Rausch.  Direkt an der Spree gelegen präsentiert sich das Spindler & Klatt als eine der schönsten Locations Berlins. Technik auf höchstem Niveau und ein einzigartiges Ambiente bieten einen perfekten Mikrokosmos für ein wundervolles elektronisches Event auf 3 Floors. Für das BLN Reunion Festival nutzen wir die neue Eventhalle des Spindler & Klatt, als perfekte Erweiterung.  Das Line-Up besteht aus jahrelangen Begleitern unserer Festivals und verspricht eine wilde Party!  MUSIC AUF 3 FLOORS:AKA AKA K-PAUL SASCHA BRAEMER BLONDEE OSTEKKE NICO CASCEUR DJOY WAIKIKI MAX LINDEMANN DEFJAM TOM KLANG MAYZE FORCE POKAFACE  Tickets hier: www.bln-reunion.de  i️ Einlass: 21 Uhr | ab 18 Jahren  🎫 Alle Infos & Tickets hier: www.bln-reunion.de  Bitte Tickets im Vorverkauf sichern! Abendkasse nur falls nicht ausverkauft!  📍 Spindler & Klatt, Köpenicker Str. 16-17 -17, 10997 Berlin",
+   "endDate": "2026-12-13T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/UByHSSIrQtq4vum0PE35_bln1920x1080variantec.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10997",
+     "streetAddress": "Köpenicker Straße 16"
+    },
+    "name": "Spindler & Klatt"
+   },
+   "name": "BLN REUNION INDOOR FESTIVAL - AKA AKA, K-Paul, Sascha Braemer, Blondee uvm.",
+   "offers": {
+    "@type": "Offer",
+    "price": "22.90",
+    "priceCurrency": "EUR",
+    "url": "https://open-air-berlin.ticket.io/ZO7IuWhk/",
+    "validFrom": "2026-12-12T21:00+0100"
+   },
+   "startDate": "2026-12-12T21:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-10-15T12:55:59+02:00",
+  "fetched": "2026-10-15T18:58:06+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -849,44 +882,5 @@
   },
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/low-frequencies-bonecrusher-andrew-munn-beatrix-wagner-klang-0/": {
-  "fetched": "2026-10-15T17:56:45+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Beatrix Wagner & Andrew Munn & BONECRUSHER19 Uhr * Kunstquartier Bethanien * 7 EuroIm langen Abend der Bassstimme und -instrumente „Low Frequencies“ spüren Beatrix Wagner mit der Kontrabassflöte, der Bassist Andrew Munn und BONECRUSHER den allertiefsten Schwingungen in Werken von Gerald Eckert, Alessio Rossato, Horațiu Rădulescu, Ellen Arkbro und Matthias Muche nach.  mehr Informationen   ***In ‘Low Frequencies’, a long evening dedicated to the bass voice and bass instruments, Beatrix Wagner on the contrabass flute, bassist Andrew Munn and BONECRUSHER explore the very deepest vibrations in works by Gerald Eckert, Alessio Rossato, Horațiu Rădulescu, Ellen Arkbro and Matthias Muche.  more information  Preisinformation:  7€ + VVK-Gebühren",
-   "endDate": "2026-11-08T21:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/wEdtJFcCRWahNshkjHj2_05-low-frequencies.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10997",
-     "streetAddress": "Mariannenplatz 2"
-    },
-    "name": "Studio 1, Kunstquartier Bethanien"
-   },
-   "name": "Low Frequencies | BONECRUSHER, Andrew Munn, Beatrix Wagner - Klangwerkstatt Berlin 2026",
-   "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "8.02",
-    "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/low-frequencies-klangwerkstatt-berlin-2026",
-    "validFrom": "2026-08-03T15:56+0200"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Klangwerkstatt Berlin",
-    "url": "https://rausgegangen.de/organizations/klangwerkstatt-berlin/"
-   },
-   "startDate": "2026-11-08T19:00+0100"
-  }
  }
 }

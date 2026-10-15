@@ -598,7 +598,7 @@ sup.reg { font-size: .6em; vertical-align: super; line-height: 0; margin-left: 1
 .q-vid, .q-fig { margin: 0; }
 .q-vid video { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; display: block; border-radius: 10px; background: #000; }
 .q-vid figcaption, .q-fig figcaption { margin-top: 8px; font-size: 13px; line-height: 1.4; color: #A5A59E; }
-.q-credit { display: block; color: #7E7E78; }
+.q-credit { display: block; opacity: .55; }
 .q-ph { aspect-ratio: 4 / 5; border: 1px dashed var(--line); border-radius: 10px; display: grid; place-items: center; color: #77776F; font-size: 14px; letter-spacing: .1em; text-transform: uppercase; }
 .q-cta { padding: clamp(56px, 8vw, 104px) 0 clamp(64px, 9vw, 120px); }
 .q-cta-box { background: var(--yellow); color: var(--black); border-radius: 18px; padding: clamp(28px, 5vw, 56px); margin-bottom: 48px; }

@@ -36,4 +36,28 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://ducttape.berlin/termine.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ducttape.berlin/en/dates.html"/>
   </url>
+  <url>
+    <loc>https://ducttape.berlin/galerie.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ducttape.berlin/galerie.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ducttape.berlin/en/gallery.html"/>
+  </url>
+  <url>
+    <loc>https://ducttape.berlin/en/gallery.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ducttape.berlin/galerie.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ducttape.berlin/en/gallery.html"/>
+  </url>
+  <url>
+    <loc>https://ducttape.berlin/presse.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ducttape.berlin/presse.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ducttape.berlin/en/press.html"/>
+  </url>
+  <url>
+    <loc>https://ducttape.berlin/en/press.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ducttape.berlin/presse.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ducttape.berlin/en/press.html"/>
+  </url>
 </urlset>

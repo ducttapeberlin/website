@@ -21,6 +21,10 @@ Key facts:
 - [All dates (English)](https://ducttape.berlin/en/dates.html)
 - [Services (German)](https://ducttape.berlin/leistungen.html): shows and productions, parties and DJ sets, hosting, bingo/quiz/brunch, brand collaborations and content, workshops (drag make-up and wig styling)
 - [Services (English)](https://ducttape.berlin/en/services.html)
+- [Gallery (German)](https://ducttape.berlin/galerie.html): photos from shows, brunch, bingo, parties, collaborations and workshops
+- [Gallery (English)](https://ducttape.berlin/en/gallery.html)
+- [Press (German)](https://ducttape.berlin/presse.html): articles and coverage about DUCT TAPE, press contact
+- [Press (English)](https://ducttape.berlin/en/press.html)
 
 ## Optional
 

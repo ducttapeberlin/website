@@ -213,7 +213,8 @@ section { padding: clamp(56px, 8vw, 104px) 0; border-bottom: 1px solid var(--lin
 .member:hover .member-clip, .member.is-pop .member-clip { clip-path: inset(-45% -30% 0 -30%); }
 .member:hover .member-clip img, .member.is-pop .member-clip img { transform: translateX(-50%) translateY(-6%) scale(1.1); filter: none; }
 .member-photo .ph { font-family: var(--display); font-size: 64px; color: #262626; }
-.member h3 { margin-top: 16px; }
+.member h3 { margin-top: 16px; transition: color .2s ease; }
+.member:hover h3, .member:focus-visible h3, .member.is-pop h3 { color: var(--yellow); }
 .member .handle { color: var(--yellow); font-weight: 600; font-size: 15px; }
 .member p { margin: 6px 0 0; color: #BDBDB7; font-size: 15px; }
 @media (max-width: 820px) { .members { grid-template-columns: 1fr; gap: 40px; } .member-photo { aspect-ratio: 1; } .member:hover .member-clip, .member.is-pop .member-clip { clip-path: inset(-45% 0 0 0); } }

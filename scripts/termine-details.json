@@ -178,7 +178,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-10-15T05:55:49+02:00",
+  "fetched": "2026-10-15T12:55:59+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -850,16 +850,16 @@
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/speed-friending-berlin-by-rausgegangen-0/": {
-  "fetched": "2026-10-15T11:55:25+02:00",
+ "https://rausgegangen.de/events/zehn-platze-ein-apartment-buchdebut-eins-und-alles-lesetour-0/": {
+  "fetched": "2026-10-15T12:55:59+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Speed Dating kennen wir alle, aber was ist mit Speed Friending? Hier lernst du in kurzen Gesprächen ganz entspannt neue Leute kennen, ohne das übliche Smalltalk-Blabla. Egal, ob du noch neue Friends suchst oder einfach Lust hast Menschen kennenzulernen. Das ist der place to be für neue Bekanntschaften. 🫂",
-   "endDate": "2026-11-05T22:30+0100",
+   "description": "„Mit dem Glanz in den Augen auf ewig spielen.\" Lesungen zu meinem philosophischen BuchdebütDu multidimensionales Wesen, du. Du hast eine Version von dir erschaffen, die die Leute lieben und die du dadurch mit liebst. Die, aber doch nicht alles ist. Da geht doch noch mehr? Lassen wir unser Inneres mitentscheiden. Für mich, für dich, für uns.Worum es geht Am 20.11.2026 erscheint mein Buchdebüt » eins und alles «. Es ist eine Einladung, den universellen Geist greifbarer zu machen. Du tauchst in meine laut ausgeschriebenen Impulse ein, zu Themen, die uns wohl alle beschäftigen: Liebe, Verlust, Identität und Selbstfindung. Zwischen Sachtext, Lyrik und Bewusstsein entsteht eine Sprache der Essenz, um dem eigenen Inneren zu begegnen.Eine Lesung zu jeder Jahreszeit Zu jeder Jahreszeit wird es Lesungen geben, ich nehme dich mit an die Orte, an denen ich zu dieser Zeit gerne bin. Den Anfang macht der Winter.Der Winter ist da, um Ruhe zu tanken, zu reflektieren und mehr denn je für sich und die eigenen Bedürfnisse da zu sein. Die Mit-Natur macht es vor: Viele Bäume lassen ihre Blätter los und geben die meiste Kraft in die Wurzeln, um dort zur Ruhe zu kommen. Und ganz ehrlich: Es gibt keine Jahreszeit, in der ich lieber zuhause bin, mich wie ein Kokon in meine Decke einkuschle und Tee trinke. Also dachte ich, ich muss nicht neu erfinden, was sowieso nicht sein soll. Somit lade ich dich in ein Micro-Apartment des Aparthotels ein, in dem ich arbeite. Du bekommst eine Kuscheldecke, wir trinken Tee, ich lese ein bisschen vor und wir tauschen uns aus.Was dich erwartetLesung ausgewählter Impulse aus meinem Buch, bestehend aus 3 AktenKleine Runde von maximal 10 PersonenZeit für AustauschMicro-Apartment mit Tee und DeckeGut zu wissenWann: Sa, 21.11.2026, 18:30 und 20:30 UhrWo: The Circus Living, BerlinPlätze: 10 Tickets: 5-11 €Buch: vor Ort zum Ladenpreis erhältlich, selbstverständlich mit SignaturBitte komm nur mit Ticket, die Lesung ist auf 10 Plätze begrenzt.ἐν τῷ παν · en to pan · eins und alles · one and allMein Buch widme ich mir und somit dir.",
+   "endDate": "2026-11-21T20:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/DgOflF40T8WQ4ZDezaqe_design260820datingspeedfriending16x9.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/eqxoQz4lQfyk78ozXKtl_c-stein-und-rost-a41x-3.png"
    ],
    "location": {
     "@type": "Place",
@@ -867,38 +867,40 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10625",
-     "streetAddress": "Kantstraße 127"
+     "postalCode": "10243",
+     "streetAddress": "Krautstraße 30"
     },
-    "name": "Dufte Berlin"
+    "name": "THE CIRCUS LIVING"
    },
-   "name": "SPEED FRIENDING Berlin by Rausgegangen",
+   "name": "Zehn Plätze. Ein Apartment. » eins und alles «  Buchdebüt Lesung",
    "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "19.90",
-    "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/speed-friending-berlin-by-rausgegangen",
-    "validFrom": "2026-09-28T00:00+0200"
+    "@type": "AggregateOffer",
+    "highPrice": "11.20",
+    "lowPrice": "5.90",
+    "offerCount": 2,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "enjoy",
+      "price": "5.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "support+++",
+      "price": "11.20",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
    },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "Rausgegangen Events",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-events/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Speed Dating by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/speed-dating-by-rausgegangen/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Speed Friending by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/speed-friending-by-rausgegangen/"
-    }
-   ],
-   "startDate": "2026-11-05T19:30+0100"
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Jasmin Nadine Hassane"
+   },
+   "startDate": "2026-11-21T18:30+0100"
   }
  }
 }

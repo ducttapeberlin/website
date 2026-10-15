@@ -507,3 +507,14 @@ sup.reg { font-size: .6em; vertical-align: super; line-height: 0; margin-left: 1
   .tevent.theme-weihnachten + .tevent.theme-weihnachten::after { right: 0; width: 19%; }
   .tevent.theme-weihnachten + .tevent.theme-weihnachten::before { right: 17%; width: 18%; }
 }
+
+/* Sprachumschalter mit Flagge, mobil neben dem Menü */
+.lang-switch { display: inline-flex; align-items: center; gap: 7px; }
+.lang-switch::before { content: ""; width: 18px; height: 12px; border-radius: 2px; flex: none; background: center / cover no-repeat; box-shadow: 0 0 0 1px rgba(250,250,247,.25); }
+.lang-switch[lang="en"]::before { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 30'%3E%3CclipPath id='c'%3E%3Cpath d='M0 0v30h60V0z'/%3E%3C/clipPath%3E%3CclipPath id='t'%3E%3Cpath d='M30 15h30v15zv15H0zH0V0zV0h30z'/%3E%3C/clipPath%3E%3Cg clip-path='url(%23c)'%3E%3Cpath d='M0 0v30h60V0z' fill='%23012169'/%3E%3Cpath d='M0 0l60 30m0-30L0 30' stroke='%23fff' stroke-width='6'/%3E%3Cpath d='M0 0l60 30m0-30L0 30' clip-path='url(%23t)' stroke='%23C8102E' stroke-width='4'/%3E%3Cpath d='M30 0v30M0 15h60' stroke='%23fff' stroke-width='10'/%3E%3Cpath d='M30 0v30M0 15h60' stroke='%23C8102E' stroke-width='6'/%3E%3C/g%3E%3C/svg%3E"); }
+.lang-switch[lang="de"]::before { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 5 3'%3E%3Cpath d='M0 0h5v3H0z'/%3E%3Cpath fill='%23D00' d='M0 1h5v2H0z'/%3E%3Cpath fill='%23FFCE00' d='M0 2h5v1H0z'/%3E%3C/svg%3E"); }
+.lang-mobile { display: none; }
+@media (max-width: 820px) {
+  .nav .lang-switch { display: none; }
+  .site-header .lang-mobile { display: inline-flex; margin-left: auto; margin-right: 18px; padding: 6px 11px; border: 1px solid rgba(250,250,247,.35); border-radius: 999px; font-size: 12px; font-weight: 800; letter-spacing: .1em; line-height: 1; text-decoration: none; color: var(--white); }
+}

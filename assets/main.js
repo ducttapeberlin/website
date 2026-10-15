@@ -3,8 +3,20 @@ const EN = document.documentElement.lang === 'en';
 const t = (de, en) => EN ? en : de;
 
 // Unterseiten immer oben öffnen (der Browser übernimmt sonst teils die Scrollposition der vorigen Seite)
+// Ohne Sprungmarke nach ganz oben, mit Sprungmarke genau zum Abschnitt. Nach dem Laden von Bildern und
+// Schriften wird das wiederholt, damit sich nichts verschiebt, außer man hat inzwischen selbst gescrollt.
 if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
-if (!location.hash) window.scrollTo(0, 0);
+const goStart = () => {
+  const id = decodeURIComponent(location.hash.slice(1));
+  const el = id && document.getElementById(id);
+  if (el) el.scrollIntoView({ behavior: 'instant', block: 'start' });
+  else if (!id) window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+};
+let userScrolled = false;
+['wheel', 'touchstart', 'keydown', 'mousedown'].forEach(e => addEventListener(e, () => { userScrolled = true; }, { once: true, passive: true }));
+goStart();
+addEventListener('DOMContentLoaded', () => { if (!userScrolled) goStart(); });
+addEventListener('load', () => { if (!userScrolled) goStart(); setTimeout(() => { if (!userScrolled) goStart(); }, 300); });
 
 // Mobile-Menü
 const toggle = document.querySelector('.nav-toggle');

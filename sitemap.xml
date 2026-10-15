@@ -60,4 +60,52 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://ducttape.berlin/presse.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ducttape.berlin/en/press.html"/>
   </url>
+  <url>
+    <loc>https://ducttape.berlin/kollektiv.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ducttape.berlin/kollektiv.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ducttape.berlin/en/collective.html"/>
+  </url>
+  <url>
+    <loc>https://ducttape.berlin/en/collective.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ducttape.berlin/kollektiv.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ducttape.berlin/en/collective.html"/>
+  </url>
+  <url>
+    <loc>https://ducttape.berlin/emi.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ducttape.berlin/emi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ducttape.berlin/en/emi.html"/>
+  </url>
+  <url>
+    <loc>https://ducttape.berlin/en/emi.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ducttape.berlin/emi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ducttape.berlin/en/emi.html"/>
+  </url>
+  <url>
+    <loc>https://ducttape.berlin/symba.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ducttape.berlin/symba.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ducttape.berlin/en/symba.html"/>
+  </url>
+  <url>
+    <loc>https://ducttape.berlin/en/symba.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ducttape.berlin/symba.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ducttape.berlin/en/symba.html"/>
+  </url>
+  <url>
+    <loc>https://ducttape.berlin/magda-von-pfeffer.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ducttape.berlin/magda-von-pfeffer.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ducttape.berlin/en/magda-von-pfeffer.html"/>
+  </url>
+  <url>
+    <loc>https://ducttape.berlin/en/magda-von-pfeffer.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ducttape.berlin/magda-von-pfeffer.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ducttape.berlin/en/magda-von-pfeffer.html"/>
+  </url>
 </urlset>

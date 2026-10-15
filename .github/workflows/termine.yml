@@ -36,4 +36,14 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "Termine von rausgegangen aktualisiert"
-          git push
+          # Falls parallel jemand anderes gepusht hat: neu aufsetzen und erneut versuchen
+          for i in 1 2 3; do
+            git push && exit 0
+            if ! git pull --rebase origin main; then
+              git rebase --abort
+              echo "Konflikt mit neueren Änderungen, die nächste stündliche Aktualisierung holt das nach."
+              exit 0
+            fi
+            sleep 5
+          done
+          exit 1

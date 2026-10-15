@@ -630,3 +630,5 @@ sup.reg { font-size: .6em; vertical-align: super; line-height: 0; margin-left: 1
 .kv-ms figure.kv-video:has(figcaption) { aspect-ratio: auto; overflow: visible; background: none; border-radius: 0; }
 .kv-ms figure.kv-video:has(figcaption) video { aspect-ratio: 9 / 16; height: auto; border-radius: 14px; }
 .kv-ms figure.kv-video figcaption { font-size: 13px; color: #CFCFCA; margin-top: 8px; }
+/* Presse: Archivkopie unter dem Award-Link */
+.press-archive { display: block; margin-top: 6px; font-size: 14px; opacity: .75; }

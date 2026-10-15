@@ -153,21 +153,22 @@ section { padding: clamp(56px, 8vw, 104px) 0; border-bottom: 1px solid var(--lin
 
 /* Thema Weihnachten: im Look des Show-Banners (Pergament-Creme, Weihnachtsrot, Tannengrün, Gold) mit der Illustration rechts */
 .featured.theme-weihnachten { --accent: #B8232C; --accent-ink: #fff; --xmas-ink: #2B1810; --xmas-green: #1C6B3C;
-  grid-template-columns: minmax(0, 1.05fr) minmax(0, .95fr); grid-template-rows: auto auto; align-items: end; row-gap: 22px;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 300px); grid-template-rows: auto auto; align-items: center; row-gap: 20px; column-gap: 24px;
   border: 0; color: var(--xmas-ink); padding-top: calc(clamp(28px, 4vw, 52px) + 14px);
   background:
     url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M10 0 L11.2 8.8 L20 10 L11.2 11.2 L10 20 L8.8 11.2 L0 10 L8.8 8.8Z' fill='%23B8232C'/%3E%3C/svg%3E") 54% 18% / 30px no-repeat,
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M10 0 L11.2 8.8 L20 10 L11.2 11.2 L10 20 L8.8 11.2 L0 10 L8.8 8.8Z' fill='%23B8232C'/%3E%3C/svg%3E") 58% 64% / 18px no-repeat,
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M10 0 L11.2 8.8 L20 10 L11.2 11.2 L10 20 L8.8 11.2 L0 10 L8.8 8.8Z' fill='%23B8232C'/%3E%3C/svg%3E") 60% 52% / 18px no-repeat,
     url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M10 0 L11.2 8.8 L20 10 L11.2 11.2 L10 20 L8.8 11.2 L0 10 L8.8 8.8Z' fill='%23B8232C'/%3E%3C/svg%3E") 95% 12% / 22px no-repeat,
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M10 0 L11.2 8.8 L20 10 L11.2 11.2 L10 20 L8.8 11.2 L0 10 L8.8 8.8Z' fill='%23B8232C'/%3E%3C/svg%3E") 97% 58% / 16px no-repeat,
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M10 0 L11.2 8.8 L20 10 L11.2 11.2 L10 20 L8.8 11.2 L0 10 L8.8 8.8Z' fill='%23B8232C'/%3E%3C/svg%3E") 88% 92% / 20px no-repeat,
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M10 0 L11.2 8.8 L20 10 L11.2 11.2 L10 20 L8.8 11.2 L0 10 L8.8 8.8Z' fill='%23B8232C'/%3E%3C/svg%3E") 97% 50% / 16px no-repeat,
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M10 0 L11.2 8.8 L20 10 L11.2 11.2 L10 20 L8.8 11.2 L0 10 L8.8 8.8Z' fill='%23B8232C'/%3E%3C/svg%3E") 66% 10% / 20px no-repeat,
     radial-gradient(120% 100% at 70% 45%, #FBEFDC 0%, #F7E3C4 55%, #EFCF9E 100%); }
 .featured.theme-weihnachten::before { content: ""; position: absolute; inset: 0 0 auto; height: 14px; background: repeating-linear-gradient(-45deg, #B8232C 0 14px, #FBEFDC 14px 28px, var(--xmas-green) 28px 42px, #FBEFDC 42px 56px); }
-.featured.theme-weihnachten::after { content: ""; grid-column: 2; grid-row: 1 / span 2; align-self: stretch; min-height: 440px; margin: -12px 0 calc(-1 * clamp(28px, 4vw, 52px));
+.featured.theme-weihnachten::after { content: ""; grid-column: 2; grid-row: 1; align-self: stretch; min-height: 260px; margin: -10px 0 -8px;
   background: url("img/xmas-gruppe.webp") center / contain no-repeat;
   filter: drop-shadow(0 18px 24px rgba(91, 46, 20, .18)); }
-.featured.theme-weihnachten .featured-body { grid-column: 1; grid-row: 1; align-self: end; }
-.featured.theme-weihnachten .featured-dates { grid-column: 1; grid-row: 2; align-self: start; }
+.featured.theme-weihnachten .featured-body { grid-column: 1; grid-row: 1; align-self: center; }
+.featured.theme-weihnachten h3 { font-size: clamp(34px, 4.4vw, 54px); }
+.featured.theme-weihnachten .featured-dates { grid-column: 1 / -1; grid-row: 2; grid-template-columns: 1fr 1fr; }
 .featured.theme-weihnachten h3 a { color: var(--accent); }
 .featured.theme-weihnachten h3 a:hover { color: var(--xmas-green); }
 .featured.theme-weihnachten h3 a::after { color: #B8892E; }
@@ -179,9 +180,11 @@ section { padding: clamp(56px, 8vw, 104px) 0; border-bottom: 1px solid var(--lin
 @media (max-width: 760px) {
   .featured.theme-weihnachten { grid-template-columns: 1fr; grid-template-rows: auto; row-gap: 16px; }
   .featured.theme-weihnachten { background-position: 10% 8%, 8% 30%, 92% 7%, 94% 28%, 86% 40%, 0 0; }
-  .featured.theme-weihnachten::after { grid-column: 1; grid-row: 1; order: -1; min-height: 0; aspect-ratio: 1 / .95; margin: -4px 0 -6px; }
+  .featured.theme-weihnachten::after { grid-column: 1; grid-row: 1; order: -1; min-height: 0; aspect-ratio: 1 / .72; margin: -4px 0 -6px; }
   .featured.theme-weihnachten .featured-body { grid-row: 2; }
-  .featured.theme-weihnachten .featured-dates { grid-row: 3; }
+  .featured.theme-weihnachten .featured-dates { grid-row: 3; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .featured.theme-weihnachten .featured-dates li { flex-direction: column; align-items: stretch; gap: 10px; padding: 14px; }
+  .featured.theme-weihnachten .featured-dates .btn { width: 100%; justify-content: center; }
 }
 @media (max-width: 720px) {
   /* Handy: Datum links, Tag/Name/Ort rechts daneben, Button kompakt darunter */

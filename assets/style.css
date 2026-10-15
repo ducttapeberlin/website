@@ -456,7 +456,7 @@ sup.reg { font-size: .6em; vertical-align: super; line-height: 0; margin-left: 1
 .press-item:last-child { border-bottom: 0; margin-bottom: 0; }
 .press-meta { margin: 0 0 10px; font-size: 14px; color: #CFCFCA; }
 .press-outlet { font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: var(--yellow); font-size: 13px; }
-.press-item h2 { font-size: clamp(26px, 3.4vw, 38px); line-height: 1.05; margin: 0 0 12px; }
+.press-item h2 { font-size: clamp(26px, 3.4vw, 38px); line-height: 1.2; margin: 0 0 12px; }
 .press-item h2 a { text-decoration: none; }
 .press-item h2 a:hover { color: var(--yellow); }
 .press-teaser { margin: 0 0 12px; color: #E4E4DE; }

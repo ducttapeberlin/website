@@ -567,6 +567,7 @@ sup.reg { font-size: .6em; vertical-align: super; line-height: 0; margin-left: 1
 .q-portrait .member-clip img { filter: none; }
 .q-facts, .q-book, .q-text, .q-photos { padding: clamp(48px, 7vw, 88px) 0 0; }
 .q-facts .kv-sheet { max-width: 900px; }
+.q-book { padding-bottom: clamp(48px, 7vw, 88px); }
 .q-book h2 { font-size: clamp(34px, 5vw, 60px); margin: 0 0 28px; }
 .q-book-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
 .q-book-grid article { background: var(--yellow); color: var(--black); border-radius: 14px; padding: 24px; }

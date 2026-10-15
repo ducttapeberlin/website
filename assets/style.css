@@ -465,7 +465,7 @@ sup.reg { font-size: .6em; vertical-align: super; line-height: 0; margin-left: 1
 .lightbox::backdrop { background: rgba(0,0,0,.8); }
 .lightbox figure { margin: 0; display: flex; flex-direction: column; align-items: center; gap: 12px; max-width: calc(100vw - 140px); }
 .lightbox img { max-width: 100%; max-height: calc(100svh - 110px); width: auto; height: auto; object-fit: contain; border-radius: 6px; }
-.lightbox figcaption { font-size: 14px; color: #CFCFCA; text-align: center; padding: 0 12px; }
+.lightbox figcaption { font-size: 14px; color: #CFCFCA; text-align: center; padding: 0 12px; white-space: pre-line; }
 .lightbox button { position: absolute; background: none; border: 0; color: var(--white); cursor: pointer; font-size: 44px; line-height: 1; padding: 12px 18px; }
 .lightbox button:hover { color: var(--yellow); }
 .lb-close { top: 8px; right: 8px; font-size: 26px !important; }
@@ -593,6 +593,7 @@ sup.reg { font-size: .6em; vertical-align: super; line-height: 0; margin-left: 1
 .q-vid, .q-fig { margin: 0; }
 .q-vid video { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; display: block; border-radius: 10px; background: #000; }
 .q-vid figcaption, .q-fig figcaption { margin-top: 8px; font-size: 13px; line-height: 1.4; color: #A5A59E; }
+.q-credit { display: block; color: #7E7E78; }
 .q-ph { aspect-ratio: 4 / 5; border: 1px dashed var(--line); border-radius: 10px; display: grid; place-items: center; color: #77776F; font-size: 14px; letter-spacing: .1em; text-transform: uppercase; }
 .q-cta { padding: clamp(56px, 8vw, 104px) 0 clamp(64px, 9vw, 120px); }
 .q-cta-box { background: var(--yellow); color: var(--black); border-radius: 18px; padding: clamp(28px, 5vw, 56px); margin-bottom: 48px; }

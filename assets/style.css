@@ -622,3 +622,7 @@ sup.reg { font-size: .6em; vertical-align: super; line-height: 0; margin-left: 1
 .kv-ms figure.kv-video video { width: 100%; height: 100%; object-fit: cover; display: block; }
 @media (max-width: 860px) { .kv-ms figure.kv-video { max-width: 300px; justify-self: start; } }
 .q-sb-title { font-size: clamp(34px, 5vw, 60px); margin: 0 0 24px; }
+/* Galerie: Bilder näher an die Einleitung */
+.page-intro:has(+ .gallery) { padding-bottom: clamp(20px, 2.5vw, 32px); border-bottom: 0; }
+.page-intro:has(+ .gallery) .lead { margin-bottom: 0; }
+.page-intro + .gallery { padding-top: 0; }

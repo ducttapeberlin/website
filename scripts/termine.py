@@ -325,7 +325,7 @@ def render_all(events):
         actions = ([f"      {btn}"] if btn else []) + (
             [f'      <a class="btn btn-ghost" href="{esc(page)}" target="_blank" rel="noopener">{L["event_page"]}</a>'] if page.startswith("http") else [])
         out += [
-            f'  <article class="tevent" data-date="{date.isoformat()}">',
+            f'  <article class="tevent{theme_class(r.get("Featured") or "ja")}" data-date="{date.isoformat()}">',
             f'    <div class="tevent-poster">{media}</div>',
             '    <div class="tevent-body">',
             f'      <p class="tevent-when">{when_line}</p>',

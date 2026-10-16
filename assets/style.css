@@ -645,3 +645,8 @@ sup.reg { font-size: .6em; vertical-align: super; line-height: 0; margin-left: 1
 /* Erste-Show-Video oben und unten etwas beschnitten, damit der Abschnitt kompakter wird */
 .kv-ms figure.kv-video.v-erste-show-2022 { aspect-ratio: 4 / 5; max-width: 300px; }
 .kv-ms figure.kv-video.v-erste-show-2022 video { object-position: 50% 38%; }
+/* Über-uns-Menü: Queens eingerückt unter dem Kollektiv, Galerie/Presse abgesetzt */
+.nav-sub a.nav-queen { border-top: 0; padding-top: 7px; padding-bottom: 7px; padding-left: 30px; font-size: 13px; color: #CFCFCA; }
+.nav-sub a.nav-queen:hover, .nav-sub a.nav-queen[aria-current="page"] { color: var(--yellow); }
+.nav-sub a.nav-sep { border-top: 1px solid #4A484C; margin-top: 8px; }
+@media (max-width: 820px) { .nav-sub a.nav-queen { padding-left: calc(var(--gutter) + 34px); font-size: 12px; } }

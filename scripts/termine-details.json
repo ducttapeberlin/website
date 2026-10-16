@@ -733,6 +733,49 @@
    "startDate": "2026-11-15T12:00+0100"
   }
  },
+ "https://rausgegangen.de/events/erobique-neujahrs-party-2/": {
+  "fetched": "2026-10-16T15:08:00+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Während andere noch über Silvester reden, sitzen Erobique am Klavier und Lucas Kochbeck am Schlagzeug schon am besseren Plan fürs neue Jahr. Seit Jahren ist das eine feste Neujahrstradition, bei der niemand lange stillsteht 🪩",
+   "endDate": "2027-01-02T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/0Dt4UJIyQRqZOpavY5CD_erobique725quer-webanne-backhaus.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "12435",
+     "streetAddress": "Am Flutgraben 2"
+    },
+    "name": "Festsaal Kreuzberg"
+   },
+   "name": "Erobique - Neujahrs Party",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "51.08",
+    "priceCurrency": "EUR",
+    "url": "https://t.rausgegangen.de/tickets/erobique-neujahrs-party-2",
+    "validFrom": "2026-08-06T12:02+0200"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Festsaal Kreuzberg",
+    "url": "https://rausgegangen.de/organizations/festsaal-kreuzberg-ah-e0rn/"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Erobique"
+   },
+   "startDate": "2027-01-01T19:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
   "fetched": "2026-10-16T10:57:41+02:00",
   "ld": {
@@ -849,47 +892,5 @@
   },
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/jonny-mahoro-tour-2026-13/": {
-  "fetched": "2026-10-16T13:53:33+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Jonny Mahoro bringt mit seiner Mischung aus Pop, Indie und RnB Geschichten von Wachstum und Zweifel auf die Bühne. Nach viralen Hits und einer starken EP gibt’s 2026 neue Tracks und Songs voller Gefühl. Hier findest du ehrliche Momente, die nicht nur ins Ohr gehen 😎",
-   "endDate": "2026-11-28T23:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/YZslElpnSzek8JSmRj0g_jonnymahoroveranstaltungsbildheader1920x1080.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10997",
-     "streetAddress": "Cuvrystr. 9"
-    },
-    "name": "Lidolino"
-   },
-   "name": "JONNY MAHORO - TOUR 2026",
-   "offers": {
-    "@type": "Offer",
-    "price": "28.00",
-    "priceCurrency": "EUR",
-    "url": "https://vvk.link/436pqwc",
-    "validFrom": "2026-11-28T20:00+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Eskapaden Booking",
-    "url": "https://rausgegangen.de/organizations/page-for-team-eskapaden-booking/"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Jonny Mahoro"
-   },
-   "startDate": "2026-11-28T20:00+0100"
-  }
  }
 }

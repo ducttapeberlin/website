@@ -850,16 +850,16 @@
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/provinz-cry-baby-cry-tour-2027-13/": {
-  "fetched": "2026-10-16T01:45:20+02:00",
+ "https://rausgegangen.de/events/klangwerkstatt-berlin-festival-fur-neue-musik-2026-0/": {
+  "fetched": "2026-10-16T03:02:21+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Vier Leute, ein neuer Songtitel, und sofort ist wieder dieses Provinz Gefühl da, das zwischen Indie und Britpop hängen bleibt. Im Winter 2027 geht die Band mit Cry Baby Cry auf Tour 👀",
-   "endDate": "2027-12-03T23:00+0100",
+   "description": "Festival für Neue MusikVom 6. bis zum 15. November 2026 präsentiert die 36. Ausgabe der Klangwerkstatt Berlin – Festival für Neue Musik im Kreuzberger Kunstquartier Bethanien unter dem Titel Resonanz 18 Konzerte, Performances, Familienkonzerte, Kinder- und Jugendensembles und Mittagsmusiken mit Imbiss. Alle Veranstaltungen, Tickets und Infos findet ihr über unser Profil, hier im Shop oder über unsere Website!***Festival for Neue MusikFrom 6th to 15th November 2026, the 36th edition of Klangwerkstatt Berlin - Festival for New Music will present 18 concerts, performances, family concerts, children's and youth ensembles and lunchtime music with snacks under the title Resonanz at the Kreuzberg Kunstquartier Bethanien.You will find all our events, tickets and information on our profile, our shop or our website!",
+   "endDate": "2026-11-15T23:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/T2uMq2bRMaULDzfM5M5w_provinz-cbc-2027-fb-banner-1920x1005px.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/DtRov1k8Q0aE8BKUuCaf_rausgegangen-33.jpeg"
    ],
    "location": {
     "@type": "Place",
@@ -867,29 +867,26 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10437",
-     "streetAddress": "Am Falkplatz 1"
+     "postalCode": "10997",
+     "streetAddress": "Mariannenplatz 2"
     },
-    "name": "Max-Schmeling-Halle"
+    "name": "Kunstquartier Bethanien"
    },
-   "name": "Provinz • \"Cry Baby Cry\" Tour 2027",
+   "name": "Klangwerkstatt Berlin Festival für Neue Musik 2026",
    "offers": {
-    "@type": "Offer",
-    "price": "69.99",
-    "priceCurrency": "EUR",
-    "url": "https://shop.provinzband.com/events/provinz-cry-baby-cry-tour-2027-zusatzshow-max-schmeling-halle",
-    "validFrom": "2027-12-03T18:00+0100"
+    "@type": "AggregateOffer",
+    "highPrice": "7.00",
+    "lowPrice": "0.00",
+    "offerCount": 0,
+    "offers": [],
+    "priceCurrency": "EUR"
    },
    "organizer": {
     "@type": "Organization",
-    "name": "LANDSTREICHER BOOKING",
-    "url": "https://rausgegangen.de/organizations/landstreicher-booking-ah-fk3y/"
+    "name": "Klangwerkstatt Berlin",
+    "url": "https://rausgegangen.de/organizations/klangwerkstatt-berlin/"
    },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Provinz"
-   },
-   "startDate": "2027-12-03T18:00+0100"
+   "startDate": "2026-11-06T20:00+0100"
   }
  }
 }

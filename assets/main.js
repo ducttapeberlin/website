@@ -3,8 +3,20 @@ const EN = document.documentElement.lang === 'en';
 const t = (de, en) => EN ? en : de;
 
 // Unterseiten immer oben öffnen (der Browser übernimmt sonst teils die Scrollposition der vorigen Seite)
+// Ohne Sprungmarke nach ganz oben, mit Sprungmarke genau zum Abschnitt. Nach dem Laden von Bildern und
+// Schriften wird das wiederholt, damit sich nichts verschiebt, außer man hat inzwischen selbst gescrollt.
 if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
-if (!location.hash) window.scrollTo(0, 0);
+const goStart = () => {
+  const id = decodeURIComponent(location.hash.slice(1));
+  const el = id && document.getElementById(id);
+  if (el) el.scrollIntoView({ behavior: 'instant', block: 'start' });
+  else if (!id) window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+};
+let userScrolled = false;
+['wheel', 'touchstart', 'keydown', 'mousedown'].forEach(e => addEventListener(e, () => { userScrolled = true; }, { once: true, passive: true }));
+goStart();
+addEventListener('DOMContentLoaded', () => { if (!userScrolled) goStart(); });
+addEventListener('load', () => { if (!userScrolled) goStart(); setTimeout(() => { if (!userScrolled) goStart(); }, 300); });
 
 // Mobile-Menü
 const toggle = document.querySelector('.nav-toggle');
@@ -249,7 +261,7 @@ if (gal) {
     const v = visible();
     cur = (i + v.length) % v.length;
     const a = v[cur], thumb = a.querySelector('img');
-    img.src = a.href; img.alt = thumb.alt; cap.textContent = thumb.alt;
+    img.src = a.href; img.alt = thumb.alt; cap.textContent = a.dataset.caption || thumb.alt;
   };
   items.forEach(a => a.addEventListener('click', e => {
     e.preventDefault();
@@ -273,3 +285,15 @@ if (gal) {
     x0 = null;
   });
 }
+
+// Profil: Porträts im Hero wechseln alle 2 Sekunden
+document.querySelectorAll('.q-rot').forEach(box => {
+  const imgs = [...box.querySelectorAll('img')];
+  if (imgs.length < 2 || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  let i = 0;
+  setInterval(() => {
+    imgs[i].classList.remove('is-on');
+    i = (i + 1) % imgs.length;
+    imgs[i].classList.add('is-on');
+  }, 2000);
+});

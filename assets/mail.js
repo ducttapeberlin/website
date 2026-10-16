@@ -5,8 +5,12 @@ document.querySelectorAll('a[href^="mailto:"]').forEach(a => a.addEventListener(
   const done = () => {
     let t = document.querySelector('.mail-toast');
     if (!t) { t = document.createElement('div'); t.className = 'mail-toast'; t.setAttribute('role', 'status'); document.body.append(t); }
-    t.textContent = document.documentElement.lang === 'en' ? `${addr} copied` : `${addr} kopiert`;
-    t.classList.add('on'); clearTimeout(t._h); t._h = setTimeout(() => t.classList.remove('on'), 2600);
+    const en = document.documentElement.lang === 'en';
+    // In der eingebetteten Vorschau darf der Browser kein Mailprogramm öffnen
+    t.textContent = window.top !== window.self
+      ? (en ? `${addr} copied. Preview only: on ducttape.berlin this opens your mail app.` : `${addr} kopiert. Nur in der Vorschau: Auf ducttape.berlin öffnet sich hier dein Mailprogramm.`)
+      : (en ? `${addr} copied` : `${addr} kopiert`);
+    t.classList.add('on'); clearTimeout(t._h); t._h = setTimeout(() => t.classList.remove("on"), window.top !== window.self ? 6000 : 2600);
   };
   try { navigator.clipboard.writeText(addr).then(done, () => {}); } catch (e) {}
   // In eingebetteten Vorschauen den Link im obersten Fenster öffnen

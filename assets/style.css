@@ -590,8 +590,9 @@ sup.reg { font-size: .6em; vertical-align: super; line-height: 0; margin-left: 1
 .q-cols h3 { font-size: clamp(26px, 3vw, 36px); margin: 0 0 14px; }
 .q-cols p { color: #D8D8D2; margin: 0; }
 .q-grid { display: grid; columns: auto; gap: 12px; grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.q-grid .gal-item { margin: 0; aspect-ratio: 4 / 5; }
-.q-grid .gal-item img { height: 100%; object-fit: cover; }
+/* Kacheln überall gleich groß: Seitenverhältnis direkt am Bild (Safari ignoriert sonst height: 100%) */
+.q-grid .gal-item { margin: 0; }
+.q-grid .gal-item img { width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; display: block; }
 .q-grid:has(> :nth-child(4)) { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .q-grid:has(> :nth-child(5)) { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .q-grid:has(> :nth-child(7)) { grid-template-columns: repeat(4, minmax(0, 1fr)); }

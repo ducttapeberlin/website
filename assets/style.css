@@ -650,3 +650,4 @@ sup.reg { font-size: .6em; vertical-align: super; line-height: 0; margin-left: 1
 .nav-sub a.nav-queen:hover, .nav-sub a.nav-queen[aria-current="page"] { color: var(--yellow); }
 .nav-sub a.nav-sep { border-top: 1px solid #4A484C; margin-top: 8px; }
 @media (max-width: 820px) { .nav-sub a.nav-queen { padding-left: calc(var(--gutter) + 34px); font-size: 12px; } }
+#lb-cap:empty { display: none; }

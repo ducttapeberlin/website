@@ -105,7 +105,9 @@ button.btn { font-family: var(--body); cursor: pointer; }
 }
 .ig-icon { display: none; }
 .hero .hero-actions .btn { gap: 0; }
-@media (max-width: 720px) { .hero-actions .btn-ig .ig-icon { display: block; } }
+/* Instagram-Knopf überall nur mit Logo */
+.hero-actions .btn-ig .ig-label { display: none; }
+.hero-actions .btn-ig .ig-icon { display: block; }
 
 /* Next-up strip */
 .next { background: var(--yellow); color: var(--black); }
@@ -523,7 +525,7 @@ sup.reg { font-size: .6em; vertical-align: super; line-height: 0; margin-left: 1
   .site-header .lang-mobile { display: inline-flex; margin-left: auto; margin-right: 18px; padding: 6px 11px; border: 1px solid rgba(250,250,247,.35); border-radius: 999px; font-size: 12px; font-weight: 800; letter-spacing: .1em; line-height: 1; text-decoration: none; color: var(--white); }
 }
 /* Kollektiv-Seite */
-.kv-facts, .kv-text, .kv-milestones, .kv-members { padding: clamp(48px, 7vw, 96px) 0 0; }
+.kv-facts, .kv-text, .kv-milestones, .kv-members { padding: clamp(48px, 7vw, 96px) 0 clamp(48px, 6vw, 80px); }
 .kv-facts .wrap { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: clamp(32px, 5vw, 72px); align-items: center; }
 .kv-sheet dl { margin: 0; border-top: 1px solid var(--line); }
 .kv-sheet dl > div { display: grid; grid-template-columns: 170px minmax(0, 1fr); gap: 16px; padding: 14px 0; border-bottom: 1px solid var(--line); }
@@ -533,7 +535,8 @@ sup.reg { font-size: .6em; vertical-align: super; line-height: 0; margin-left: 1
 .kv-hero-photo img { width: 100%; height: auto; border-radius: 14px; display: block; }
 .kv-text h2, .kv-milestones h2, .kv-members h2 { font-size: clamp(34px, 5vw, 60px); margin: 0 0 24px; }
 .kv-cols { columns: 2 340px; column-gap: 48px; color: #D8D8D2; }
-.kv-cols p { margin: 0 0 18px; break-inside: avoid; }
+.kv-cols p { margin: 0 0 18px; orphans: 3; widows: 3; }
+.kv-cols p:last-child { margin-bottom: 0; }
 .kv-ms-list { display: grid; gap: clamp(32px, 4vw, 48px); margin-top: 16px; }
 .kv-ms { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: clamp(24px, 5vw, 64px); align-items: center; }
 .kv-ms figure { order: 2; max-width: 420px; width: 100%; justify-self: end; }
@@ -639,3 +642,6 @@ sup.reg { font-size: .6em; vertical-align: super; line-height: 0; margin-left: 1
 .q-hero:has(+ .q-book) { padding-bottom: clamp(36px, 4.5vw, 56px); }
 .q-hero + .q-book { padding-top: clamp(40px, 5vw, 64px); }
 .q-book:has(+ .q-photos) { padding-bottom: clamp(40px, 5vw, 64px); }
+/* Erste-Show-Video oben und unten etwas beschnitten, damit der Abschnitt kompakter wird */
+.kv-ms figure.kv-video.v-erste-show-2022 { aspect-ratio: 4 / 5; max-width: 300px; }
+.kv-ms figure.kv-video.v-erste-show-2022 video { object-position: 50% 38%; }

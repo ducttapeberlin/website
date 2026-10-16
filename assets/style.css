@@ -666,3 +666,11 @@ sup.reg { font-size: .6em; vertical-align: super; line-height: 0; margin-left: 1
 .kv-ms figure.kv-cap img { aspect-ratio: 4 / 3; height: auto; object-fit: cover; border-radius: 14px; }
 .kv-ms figure figcaption, .kv-group figcaption { font-size: 13px; color: #CFCFCA; margin-top: 8px; }
 .kv-text .kv-group { margin: 0; }
+/* Kollektiv: Ton-Knopf auf Videos mit Ton */
+.kv-vwrap { position: relative; }
+.kv-mute { position: absolute; right: 10px; bottom: 10px; width: 38px; height: 38px; border-radius: 50%; border: 0; background: rgba(11,11,11,.72); color: var(--white); display: grid; place-items: center; cursor: pointer; padding: 0; transition: background .2s ease, color .2s ease; }
+.kv-mute svg { width: 20px; height: 20px; }
+.kv-mute .w-on { display: none; }
+.kv-mute[aria-pressed="true"] .w-on { display: inline; }
+.kv-mute[aria-pressed="true"] .w-off { display: none; }
+.kv-mute:hover, .kv-mute:focus-visible, .kv-mute[aria-pressed="true"] { background: var(--yellow); color: #0B0B0B; }

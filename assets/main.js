@@ -297,3 +297,17 @@ document.querySelectorAll('.q-rot').forEach(box => {
     imgs[i].classList.add('is-on');
   }, 2000);
 });
+
+// Kollektiv: Ton bei Videos zuschalten (laufen stumm automatisch)
+document.querySelectorAll('.kv-mute').forEach(btn => {
+  const v = btn.parentElement.querySelector('video');
+  const lab = btn.getAttribute('aria-label');
+  const off = document.documentElement.lang === 'en' ? 'Sound off' : 'Ton aus';
+  btn.addEventListener('click', () => {
+    const on = v.muted;
+    if (on) document.querySelectorAll('.kv-vwrap video').forEach(o => { if (o !== v) { o.muted = true; const b = o.parentElement.querySelector('.kv-mute'); if (b) { b.setAttribute('aria-pressed', 'false'); b.setAttribute('aria-label', lab); } } });
+    v.muted = !on; if (on) { v.currentTime = 0; v.play(); }
+    btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+    btn.setAttribute('aria-label', on ? off : lab);
+  });
+});

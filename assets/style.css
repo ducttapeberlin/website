@@ -534,8 +534,9 @@ sup.reg { font-size: .6em; vertical-align: super; line-height: 0; margin-left: 1
 .kv-hero-photo { margin: 0; }
 .kv-hero-photo img { width: 100%; height: auto; border-radius: 14px; display: block; }
 .kv-text h2, .kv-milestones h2, .kv-members h2 { font-size: clamp(34px, 5vw, 60px); margin: 0 0 24px; }
-.kv-cols { columns: 2 340px; column-gap: 48px; color: #D8D8D2; }
-.kv-cols p { margin: 0 0 18px; orphans: 3; widows: 3; }
+.kv-cols { display: grid; grid-template-columns: 1fr 1fr; column-gap: 48px; row-gap: 18px; align-items: start; color: #D8D8D2; }
+.kv-cols p { margin: 0 0 18px; }
+@media (max-width: 760px) { .kv-cols { grid-template-columns: 1fr; } }
 .kv-cols p:last-child { margin-bottom: 0; }
 .kv-ms-list { display: grid; gap: clamp(32px, 4vw, 48px); margin-top: 16px; }
 .kv-ms { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: clamp(24px, 5vw, 64px); align-items: center; }

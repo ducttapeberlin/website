@@ -178,7 +178,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-10-16T01:45:20+02:00",
+  "fetched": "2026-10-16T07:52:17+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -850,16 +850,16 @@
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/wellness-club-mit-reggae-special-0/": {
-  "fetched": "2026-10-16T06:55:53+02:00",
+ "https://rausgegangen.de/events/speed-friending-berlin-by-rausgegangen-0/": {
+  "fetched": "2026-10-16T07:52:17+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Holodeck: Funky Henning (80s, 90s, Alltime FeelGoodSongs)Irie-Lounge: Reggae Special mit Major Triple (Solid Ground Sound / Dusty Donuts)Physiofloor: Tischtennis!Wir öffnen die Tore zum Wellness Club und heißen euch herzlich willkomen! Besinnen wir uns auf’s Taktgefühl, hören in unsere tanzwilligen Seelen rein und lassen unsere Körper machen! Auf dem Holodeck serviert ‚Funky Henning‘ den passenden Wohlfühlteppich, gewebt aus den feinsten Sound-Maschen der 80er & 90er Jahre, gespickt mit den tanzbarsten Feelgoodsongs aller Zeiten! Wer hier nicht wie auf Wolken über das Parkett gleitet, hat ein Fuss aus Beton.Auf dem Loungefloor bieten wir ein lauschiges Reggae Special mit Major Triple! Das körperliche Fitness Programm auf Spaß-Basis findet ihr beim Wellness Club auf dem Physiofloor. Spielt Tischtennis, rund um die Uhr rund um die Platte.Wer sich selbst ein Geburtstagsgeschenk machen möchte, kommt zu uns und kann sich hier feste feiern: alle im Oktober-Geborenen kommen am 16.10. gratis zu uns rein, in den Wellness Club im Frannz",
-   "endDate": "2026-10-17T06:00+0200",
+   "description": "Speed Dating kennen wir alle, aber was ist mit Speed Friending? Hier lernst du in kurzen Gesprächen ganz entspannt neue Leute kennen, ohne das übliche Smalltalk-Blabla. Egal, ob du noch neue Friends suchst oder einfach Lust hast Menschen kennenzulernen. Das ist der place to be für neue Bekanntschaften. 🫂",
+   "endDate": "2026-11-05T22:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/FRlPvK1WTdCUmIkWRDhz_wellness-club-sep-nov26.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/DgOflF40T8WQ4ZDezaqe_design260820datingspeedfriending16x9.png"
    ],
    "location": {
     "@type": "Place",
@@ -867,20 +867,38 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10435",
-     "streetAddress": "Schönhauser Allee 36"
+     "postalCode": "10625",
+     "streetAddress": "Kantstraße 127"
     },
-    "name": "frannz club berlin"
+    "name": "Dufte Berlin"
    },
-   "name": "Wellness Club mit  Reggae Special",
+   "name": "SPEED FRIENDING Berlin by Rausgegangen",
    "offers": {
     "@type": "Offer",
-    "price": "10.00",
+    "availability": "https://schema.org/InStock",
+    "price": "19.90",
     "priceCurrency": "EUR",
-    "url": "https://shop.copilot.events/frannz/events/a835b018-5bc4-4245-a9ab-9e0a7bc46519",
-    "validFrom": "2026-10-16T22:00+0200"
+    "url": "https://t.rausgegangen.de/tickets/speed-friending-berlin-by-rausgegangen",
+    "validFrom": "2026-09-28T00:00+0200"
    },
-   "startDate": "2026-10-16T22:00+0200"
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "Rausgegangen Events",
+     "url": "https://rausgegangen.de/organizations/rausgegangen-events/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Speed Dating by Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/speed-dating-by-rausgegangen/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Speed Friending by Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/speed-friending-by-rausgegangen/"
+    }
+   ],
+   "startDate": "2026-11-05T19:30+0100"
   }
  }
 }

@@ -656,3 +656,6 @@ sup.reg { font-size: .6em; vertical-align: super; line-height: 0; margin-left: 1
 /* Indien-Video im selben Format wie das Erste-Show-Video */
 .kv-ms figure.kv-video.v-indien-tour-2026 { max-width: 300px; }
 .kv-ms figure.kv-video.v-indien-tour-2026 video { aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 60%; }
+/* Kollektiv: Gruppenfoto unter der Geschichte */
+.kv-group { margin: 28px 0 0; }
+.kv-group img { width: 100%; height: auto; display: block; border-radius: 14px; }

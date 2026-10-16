@@ -662,3 +662,7 @@ sup.reg { font-size: .6em; vertical-align: super; line-height: 0; margin-left: 1
 .kv-ms figure.kv-video.v-hot-stuff-2023 { max-width: 420px; }
 .kv-ms figure.kv-video.v-hot-stuff-2023 video { aspect-ratio: 16 / 9; object-fit: cover; background: #000; }
 @media (max-width: 860px) { .kv-ms figure.kv-video.v-hot-stuff-2023 { max-width: none; justify-self: stretch; } }
+.kv-ms figure.kv-cap { aspect-ratio: auto; overflow: visible; background: none; border-radius: 0; }
+.kv-ms figure.kv-cap img { aspect-ratio: 4 / 3; height: auto; object-fit: cover; border-radius: 14px; }
+.kv-ms figure figcaption, .kv-group figcaption { font-size: 13px; color: #CFCFCA; margin-top: 8px; }
+.kv-text .kv-group { margin: 0; }

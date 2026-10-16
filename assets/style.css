@@ -679,3 +679,11 @@ sup.reg { font-size: .6em; vertical-align: super; line-height: 0; margin-left: 1
 /* Erste Show: auch mit Credit im 4:5-Format (wie Indien-Video) */
 .kv-ms figure.kv-video.v-erste-show-2022 video { aspect-ratio: 4 / 5; height: auto; object-fit: cover; object-position: 50% 38%; }
 @media (max-width: 820px) { .q-portrait:has(.q-pcredit) { margin-bottom: 30px; } }
+
+/* Einheitliche Abschnittsabstände auf allen Seiten (Emanuel, 2026-10-16):
+   jeder Inhaltsabschnitt oben und unten gleich viel Luft wie die Unterseiten-Köpfe */
+:root { --sec-y: clamp(40px, 5vw, 64px); }
+main > section:not(.hero):not(.page-intro):not(.q-photos):not(.gallery) { padding-top: var(--sec-y); padding-bottom: var(--sec-y); }
+main > section.q-photos, main > section.gallery { padding-bottom: var(--sec-y); }
+main > section.q-book:has(+ .q-photos) { padding-bottom: var(--sec-y); }
+main.legal { padding: var(--sec-y) 0; }

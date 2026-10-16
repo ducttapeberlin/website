@@ -687,3 +687,12 @@ main > section:not(.hero):not(.page-intro):not(.q-photos):not(.gallery) { paddin
 main > section.q-photos, main > section.gallery { padding-bottom: var(--sec-y); }
 main > section.q-book:has(+ .q-photos) { padding-bottom: var(--sec-y); }
 main.legal { padding: var(--sec-y) 0; }
+
+/* Kollektiv: Gruppenfoto genau so hoch wie der Textblock daneben, Credit darunter */
+@media (min-width: 1100px) {
+  .kv-cols:has(.kv-group) { align-items: stretch; }
+  .kv-cols > div:has(> .kv-group) { display: flex; }
+  .kv-text .kv-cols .kv-group, .kv-cols .kv-group { position: relative; flex: 1; display: flex; margin: 0; }
+  .kv-cols .kv-group img { flex: 1; height: 0; min-height: 100%; object-fit: cover; object-position: 50% 70%; }
+  .kv-cols .kv-group figcaption { position: absolute; top: 100%; left: 0; }
+}

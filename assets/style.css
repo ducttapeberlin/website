@@ -700,3 +700,21 @@ main.legal { padding: var(--sec-y) 0; }
 @media (min-width: 1100px) {
   .kv-cols .kv-group video { flex: 1 1 0; height: 0; min-height: 0; aspect-ratio: auto; }
 }
+
+/* Booking-Anfrage (anfrage.html / en/enquiry.html) */
+.enq-form { display: grid; grid-template-columns: 1fr 1fr; gap: 18px 24px; max-width: 860px; }
+.enq-field { display: flex; flex-direction: column; gap: 6px; }
+.enq-field > span { font-size: 13px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: #CFCFC8; }
+.enq-field input, .enq-field select, .enq-field textarea { width: 100%; padding: 13px 16px; border-radius: 10px; border: 1px solid var(--line); background: var(--ink); color: var(--white); font: 400 16px/1.4 var(--body); color-scheme: dark; }
+.enq-field textarea { resize: vertical; min-height: 140px; }
+.enq-field input::placeholder, .enq-field textarea::placeholder { color: #77776f; }
+.enq-field input:focus, .enq-field select:focus, .enq-field textarea:focus { outline: none; border-color: var(--yellow); }
+.enq-wide { grid-column: 1 / -1; }
+.enq-check { display: flex; gap: 12px; align-items: flex-start; font-size: 15px; color: #CFCFC8; cursor: pointer; }
+.enq-check input { width: 20px; height: 20px; margin: 2px 0 0; accent-color: var(--yellow); flex: none; }
+.enq-actions { display: flex; flex-wrap: wrap; gap: 14px 24px; align-items: center; }
+.enq-actions .btn { cursor: pointer; font-family: var(--body); }
+.enq-alt { margin: 0; font-size: 15px; color: #CFCFC8; }
+.form-error { max-width: 860px; margin: 0 0 24px; padding: 14px 18px; border-radius: 10px; background: #3a1414; border: 1px solid #7a2a2a; color: var(--white); }
+.hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+@media (max-width: 700px) { .enq-form { grid-template-columns: 1fr; } }

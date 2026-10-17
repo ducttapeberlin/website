@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Booking-Anfrage – DUCT TAPE</title>
+  <meta name="description" content="Drag Queens aus Berlin buchen: Booking-Anfrage an DUCT TAPE für Shows, Drag Bingo, Hosting, DJ-Sets, Workshops und Kooperationen.">
+  <link rel="canonical" href="https://ducttape.berlin/anfrage.html">
+  <link rel="alternate" hreflang="de" href="https://ducttape.berlin/anfrage.html">
+  <link rel="alternate" hreflang="en" href="https://ducttape.berlin/en/enquiry.html">
+  <link rel="alternate" hreflang="x-default" href="https://ducttape.berlin/anfrage.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="DUCT TAPE">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:title" content="Booking-Anfrage – DUCT TAPE">
+  <meta property="og:description" content="Drag Queens aus Berlin buchen: Booking-Anfrage an DUCT TAPE für Shows, Drag Bingo, Hosting, DJ-Sets, Workshops und Kooperationen.">
+  <meta property="og:url" content="https://ducttape.berlin/anfrage.html">
+  <meta property="og:image" content="https://ducttape.berlin/assets/img/share.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#0B0B0B">
+  <link rel="icon" href="favicon.png">
+  <link rel="apple-touch-icon" href="favicon.png">
+  <link rel="stylesheet" href="assets/style.css?v=202610172137">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="index.html"><img src="assets/img/logo-yellow.png" alt="DUCT TAPE"></a>
+    <a class="lang-switch lang-mobile" href="en/enquiry.html" hreflang="en" lang="en">EN</a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menü</button>
+    <nav class="nav" id="nav">
+      <a href="index.html">Home</a>
+      <div class="nav-group">
+        <a href="index.html#shows">Events</a>
+        <div class="nav-sub">
+          <a href="termine.html">Alle Termine</a>
+        </div>
+      </div>
+      <div class="nav-group">
+        <a href="index.html#about">Über uns</a>
+        <div class="nav-sub">
+          <a href="kollektiv.html">Das Kollektiv</a>
+          <a class="nav-queen" href="emi.html">EMI</a>
+          <a class="nav-queen" href="symba.html">Symba</a>
+          <a class="nav-queen" href="magda-von-pfeffer.html">Magda von Pfeffer</a>
+          <a class="nav-sep" href="galerie.html">Galerie</a>
+          <a href="presse.html">Presse</a>
+        </div>
+      </div>
+      <div class="nav-group">
+        <a href="index.html#leistungen">Booking</a>
+        <div class="nav-sub">
+          <a href="leistungen.html">Unsere Leistungen</a>
+          <a href="anfrage.html">Booking anfragen</a>
+        </div>
+      </div>
+      <a href="index.html#newsletter">Newsletter</a>
+      <a class="lang-switch" href="en/enquiry.html" hreflang="en" lang="en">EN</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-intro">
+    <div class="wrap">
+      <p class="kicker">Booking</p>
+      <h1>Anfrage</h1>
+      <p class="lead">Erzähl uns von deinem Event. Je mehr wir wissen, desto schneller kommt ein passendes Angebot. Felder mit * sind Pflicht.</p>
+    </div>
+  </section>
+
+  <section class="enquiry">
+    <div class="wrap">
+      <p class="form-error" id="form-error" role="alert" hidden>Das hat leider nicht geklappt. Bitte prüfe die Pflichtfelder oder schreib uns direkt an booking@ducttape.berlin.</p>
+      <form class="enq-form" id="enq-form" action="https://formular.ducttape.berlin/anfrage.php" method="post" accept-charset="UTF-8">
+        <input type="hidden" name="lang" value="de">
+        <input type="hidden" name="quelle" id="enq-src" value="">
+        <input type="hidden" name="t" id="enq-t" value="">
+        <div class="hp" aria-hidden="true"><label>Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+        <label class="enq-field"><span>Name *</span><input type="text" name="name" required maxlength="120" autocomplete="name"></label>
+        <label class="enq-field"><span>E-Mail *</span><input type="email" name="email" required maxlength="160" autocomplete="email"></label>
+        <label class="enq-field"><span>Telefon</span><input type="tel" name="telefon" maxlength="60" autocomplete="tel"></label>
+        <label class="enq-field"><span>Firma / Organisation</span><input type="text" name="firma" maxlength="160" autocomplete="organization"></label>
+        <label class="enq-field"><span>Was möchtest du buchen? *</span><select name="programm" required><option value="">Bitte wählen</option><option>Show</option><option>Drag Bingo oder Quiz</option><option>Drag Brunch</option><option>Hosting / Moderation</option><option>DJ-Set</option><option>Workshop</option><option>Kooperation / Content</option><option>Etwas anderes</option></select></label>
+        <label class="enq-field"><span>Wen möchtest du buchen?</span><select name="act" id="enq-act"><option value="">Noch offen</option><option value="kollektiv">Das ganze Kollektiv</option><option value="emi">EMI</option><option value="symba">Symba</option><option value="magda">Magda von Pfeffer</option></select></label>
+        <label class="enq-field"><span>Datum</span><input type="date" name="datum"></label>
+        <label class="enq-field"><span>Ort / Location</span><input type="text" name="ort" maxlength="160"></label>
+        <label class="enq-field"><span>Anzahl Gäste</span><input type="number" name="gaeste" min="1" max="100000" inputmode="numeric"></label>
+        <label class="enq-field"><span>Art der Veranstaltung</span><input type="text" name="anlass" maxlength="160" placeholder="z. B. Weihnachtsfeier, Geburtstag, Festival"></label>
+        <label class="enq-field enq-wide"><span>Nachricht</span><textarea name="nachricht" rows="6" maxlength="5000" placeholder="Was schwebt dir vor? Uhrzeit, Ablauf, Budgetrahmen …"></textarea></label>
+        <label class="enq-field"><span>Wie hast du von uns erfahren?</span><select name="gefunden"><option value="">Bitte wählen</option><option>Google</option><option>Instagram</option><option>Empfehlung</option><option>Bei einer Show gesehen</option><option>Presse</option><option>Sonstiges</option></select></label>
+        <label class="enq-check enq-wide"><input type="checkbox" name="einwilligung" value="ja" required><span>Ich bin einverstanden, dass meine Angaben zur Bearbeitung der Anfrage verarbeitet werden. Mehr dazu in der <a href="datenschutz.html#anfrage">Datenschutzerklärung</a>. *</span></label>
+        <div class="enq-wide enq-actions"><button class="btn btn-primary" type="submit">Anfrage senden</button><p class="enq-alt">Lieber per Mail? Schreib an <a class="booking-mail" href="mailto:booking@ducttape.berlin?subject=Booking-Anfrage">booking@ducttape.berlin</a>.</p></div>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap"><div>© 2026 DUCT TAPE<sup class="reg">®</sup> · Berlin</div><div><a href="mailto:info@ducttape.berlin">Kontakt</a><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a></div></div></footer>
+<script src="assets/main.js?v=202610172137"></script>
+<script src="assets/mail.js?v=202610172137"></script>
+  <!-- Cloudflare Web Analytics (cookielose Besucherstatistik) --><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "72f034635f7242c9ba3fdce78654aadc"}'></script>
+</body>
+</html>

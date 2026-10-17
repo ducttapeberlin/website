@@ -743,3 +743,9 @@ main.legal { padding: var(--sec-y) 0; }
   .kv-more-btn::after { content: "↓"; }
   .kv-more.offen .kv-more-btn::after { content: "↑"; }
 }
+/* Anfrage: Bühnenfoto als Hintergrund hinter der Überschrift */
+.page-intro.has-bg { position: relative; isolation: isolate; padding-top: clamp(96px, 14vw, 180px); background: var(--black) center / cover no-repeat; }
+.page-intro.has-bg::before { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, rgba(11,11,11,.85) 0%, rgba(11,11,11,.45) 55%, rgba(11,11,11,.15) 100%), linear-gradient(0deg, rgba(11,11,11,.9) 0%, rgba(11,11,11,0) 45%); }
+.page-intro.has-bg h1, .page-intro.has-bg .lead { text-shadow: 0 2px 12px rgba(0,0,0,.9); }
+.page-intro.intro-anfrage { background-image: url("img/anfrage-hero.jpg"); background-position: 60% 35%; }
+@media (max-width: 760px) { .page-intro.intro-anfrage { background-image: url("img/anfrage-hero-m.jpg"); background-position: 75% 35%; } }

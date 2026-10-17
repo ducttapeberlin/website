@@ -89,7 +89,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-10-17T13:45:41+02:00",
+  "fetched": "2026-10-17T20:50:47+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -176,39 +176,6 @@
   },
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/bln-reunion-indoor-festival-0/": {
-  "fetched": "2026-10-17T19:45:14+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "BLN REUNION INDOOR FESTIVAL Sa. 12.12.26 | Spindler & Klatt  LIVE ON STAGE: AKA AKA | K-PAUL | SASCHA BRAEMER | BLONDEE uvm.  3 Floors - 14 Acts - Show - Direkt an der Spree  Nach 4 ausverkauften Veranstaltungen im Strandbad Grünau freuen wir uns auf unsere erste Winter Edition - BLN REUNION INDOOR FESTIVAL am 12.12.26 im Spindler & Klatt - 3 Floors - 14 Acts. Eine Nacht im Rausch.  Direkt an der Spree gelegen präsentiert sich das Spindler & Klatt als eine der schönsten Locations Berlins. Technik auf höchstem Niveau und ein einzigartiges Ambiente bieten einen perfekten Mikrokosmos für ein wundervolles elektronisches Event auf 3 Floors. Für das BLN Reunion Festival nutzen wir die neue Eventhalle des Spindler & Klatt, als perfekte Erweiterung.  Das Line-Up besteht aus jahrelangen Begleitern unserer Festivals und verspricht eine wilde Party!  MUSIC AUF 3 FLOORS:AKA AKA K-PAUL SASCHA BRAEMER BLONDEE OSTEKKE NICO CASCEUR DJOY WAIKIKI MAX LINDEMANN DEFJAM TOM KLANG MAYZE FORCE POKAFACE  Tickets hier: www.bln-reunion.de  i️ Einlass: 21 Uhr | ab 18 Jahren  🎫 Alle Infos & Tickets hier: www.bln-reunion.de  Bitte Tickets im Vorverkauf sichern! Abendkasse nur falls nicht ausverkauft!  📍 Spindler & Klatt, Köpenicker Str. 16-17 -17, 10997 Berlin",
-   "endDate": "2026-12-13T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/UByHSSIrQtq4vum0PE35_bln1920x1080variantec.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10997",
-     "streetAddress": "Köpenicker Straße 16"
-    },
-    "name": "Spindler & Klatt"
-   },
-   "name": "BLN REUNION INDOOR FESTIVAL - AKA AKA, K-Paul, Sascha Braemer, Blondee uvm.",
-   "offers": {
-    "@type": "Offer",
-    "price": "22.90",
-    "priceCurrency": "EUR",
-    "url": "https://open-air-berlin.ticket.io/ZO7IuWhk/",
-    "validFrom": "2026-12-12T21:00+0100"
-   },
-   "startDate": "2026-12-12T21:00+0100"
-  }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
   "fetched": "2026-10-17T16:46:47+02:00",
@@ -637,7 +604,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-10-17T13:45:41+02:00",
+  "fetched": "2026-10-17T20:50:47+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -767,8 +734,40 @@
    "startDate": "2026-11-15T12:00+0100"
   }
  },
+ "https://rausgegangen.de/events/herbst-bitte-lieb-mich-tourdrama-2027-10/": {
+  "fetched": "2026-10-17T20:50:47+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Popkonzert reicht ihm offenbar nicht, herbst baut seine Songs zu einem richtigen Tourdrama zusammen. Während das zweite Album bitte lieb mich schon am Horizont hängt, wirkt diese Show eher wie ein Kapitel mit Ansage 👀",
+   "endDate": "2027-04-07T06:00+0200",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/gyqSBVZRZyy3BRI8MAow_herbst2026by-andy-rumball03.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "12051",
+     "streetAddress": "Hermannstraße 146"
+    },
+    "name": "Hole44"
+   },
+   "name": "herbst /// bitte lieb mich - tourdrama 2027",
+   "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "EUR",
+    "validFrom": "2027-04-06T19:00+0200"
+   },
+   "startDate": "2027-04-06T19:00+0200"
+  }
+ },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-10-17T13:45:41+02:00",
+  "fetched": "2026-10-17T20:50:47+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",

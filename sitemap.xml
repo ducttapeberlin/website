@@ -108,4 +108,16 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://ducttape.berlin/magda-von-pfeffer.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ducttape.berlin/en/magda-von-pfeffer.html"/>
   </url>
+  <url>
+    <loc>https://ducttape.berlin/anfrage.html</loc>
+    <lastmod>2026-10-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ducttape.berlin/anfrage.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ducttape.berlin/en/enquiry.html"/>
+  </url>
+  <url>
+    <loc>https://ducttape.berlin/en/enquiry.html</loc>
+    <lastmod>2026-10-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ducttape.berlin/anfrage.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ducttape.berlin/en/enquiry.html"/>
+  </url>
 </urlset>

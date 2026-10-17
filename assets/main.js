@@ -311,3 +311,15 @@ document.querySelectorAll('.kv-mute').forEach(btn => {
     btn.setAttribute('aria-label', on ? off : lab);
   });
 });
+
+// Booking-Anfrage: Zeitstempel (Spamschutz), Herkunft (Google-Ads-Messung), Act aus ?act= vorauswählen, Fehlerhinweis
+(() => {
+  const f = document.getElementById('enq-form'); if (!f) return;
+  const q = new URLSearchParams(location.search);
+  document.getElementById('enq-t').value = Math.floor(Date.now() / 1000);
+  const src = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'gclid'].filter(k => q.get(k)).map(k => k + '=' + q.get(k));
+  try { if (document.referrer) src.push('ref=' + new URL(document.referrer).hostname); } catch (e) {}
+  document.getElementById('enq-src').value = src.join('; ').slice(0, 300);
+  const act = document.getElementById('enq-act'); if (q.get('act') && act.querySelector(`option[value="${CSS.escape(q.get('act'))}"]`)) act.value = q.get('act');
+  if (q.get('fehler')) document.getElementById('form-error').hidden = false;
+})();

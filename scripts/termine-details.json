@@ -178,7 +178,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-10-17T03:03:39+02:00",
+  "fetched": "2026-10-17T09:49:16+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -734,6 +734,91 @@
    "startDate": "2026-11-15T12:00+0100"
   }
  },
+ "https://rausgegangen.de/events/geheimkonzert-berlin-23-by-rausgegangen-0/": {
+  "fetched": "2026-10-17T09:49:16+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Na Hallo! Es ist wieder so weit: Ein Abend voller Überraschung - denn wer auf der Bühne steht, bleibt bis zum ersten Ton geheim. Wir hatten schon Blond, Berq, Ennio, Futurebae, Jassin, Anais, Katha Pauer & viele mehr zu Gast – und das schon bevor sie die großen Bühnen der Nation gestürmt haben. Also entdecke die Stars von morgen bei unseren Geheimkonzerten. 🪩",
+   "endDate": "2026-10-26T22:15+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/udcU1rZtRaW4gjPcOu73_gk202516x9photoheadline-29-5.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin"
+    },
+    "name": "Secret location"
+   },
+   "name": "Geheimkonzert Berlin #23 by Rausgegangen",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "29.90",
+    "lowPrice": "24.50",
+    "offerCount": 5,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "LOYALITY TICKET",
+      "price": "21.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "MITGEGANGEN LOYALITY TICKET",
+      "price": "24.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "REGULAR",
+      "price": "26.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "4er FRIENDS BUNDLE für 98€",
+      "price": "24.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "MITGEGANGEN",
+      "price": "29.90",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "Mitgegangen",
+     "url": "https://rausgegangen.de/organizations/mitgegangen/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Rausgegangen Geheimkonzerte",
+     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Rausgegangen Geheimkonzerte Berlin",
+     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte-3/"
+    }
+   ],
+   "startDate": "2026-10-26T19:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
   "fetched": "2026-10-17T06:51:45+02:00",
   "ld": {
@@ -850,39 +935,5 @@
   },
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/inkart-1/": {
-  "fetched": "2026-10-17T09:02:50+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Berlin's subcultures are losing their spaces. One venue after another shuts down, and each one takes a place where something could happen. There's no shortage of talent. What's missing is the stage.INK&ART is an attempt to push back. We're building a labyrinth inside the Black Hall of Mahalla. Inside it: work by more than 40 artists, plus stations for tattooing, piercing and tooth gems. The exhibition stays the same all day — the room doesn't. Light and music shift how you read it, from house in the bright afternoon to techno once it gets dark.Tattooers, photographers, painters, body artists and DJs share the same room. Not in separate zones, but as one thing. Scenes that work in the same city and still barely cross paths.No white cube, no discipline above another.Saturday, 7 November 2026 · 3–10 PM Mahalla Berlin · Black Hall · Wilhelminenhofstr. 76/77DJ Sets · Body Artists · Photography · Tattoo Artists · Art Vernissage    Berlins Subkulturen verlieren ihre Räume. Eine Location nach der anderen macht dicht, und mit jeder verschwindet ein Ort, an dem etwas entstehen konnte. Talent gibt es weiter genug. Was fehlt, ist die Bühne.INK&ART ist der Versuch, dagegen etwas zu setzen. In der Black Hall des Mahalla bauen wir ein Labyrinth. Darin: Arbeiten von über 40 Künstlern und Stationen für Tattoo, Piercing und Tooth Gems. Die Ausstellung bleibt den ganzen Tag dieselbe, der Raum nicht — mit Licht und Musik verschiebt sich die Wahrnehmung, von House am hellen Nachmittag zu Techno am dunklen Abend.Tätowierer, Fotografen, Maler, Body Artists und DJs teilen sich denselben Raum. Nicht in getrennten Bereichen, sondern als eine Sache. Szenen, die in derselben Stadt arbeiten und sich trotzdem kaum begegnen.Kein weißer Raum, keine Disziplin über der anderen.Samstag, 7. November 2026 · 15–22 Uhr Mahalla Berlin · Black Hall · Wilhelminenhofstr. 76/77DJ Sets · Body Artists · Photography · Tattoo Artists · Art Vernissage",
-   "endDate": "2026-11-07T22:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/CT8YbS8WyUPSdXSUELgk_art.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "12459",
-     "streetAddress": "Wilhelminenhofstraße 76"
-    },
-    "name": "MaHalla"
-   },
-   "name": "INK&ART",
-   "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "10.00",
-    "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/inkart",
-    "validFrom": "2026-09-13T21:53+0200"
-   },
-   "startDate": "2026-11-07T15:00+0100"
-  }
  }
 }

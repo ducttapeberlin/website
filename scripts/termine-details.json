@@ -851,16 +851,16 @@
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/just-signed-3/": {
-  "fetched": "2026-10-17T13:45:41+02:00",
+ "https://rausgegangen.de/events/small-sessions-live-belle-mt-anna-pancaldi-1/": {
+  "fetched": "2026-10-17T14:56:52+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Drei Acts, frisch unterschrieben, und noch nichts wirkt geschniegelt. Yasola, Victoria West und PARA zeigen Pop, Rap und Indie lieber mit Ecken und eigener Handschrift als auf Nummer sicher 🌈",
-   "endDate": "2026-11-19T05:00+0100",
+   "description": "Bei småll sessions live hörst du mit Anna Pancaldi und Belle Mt. zwei Londoner Songwriter:innen zwischen Folk, Indie und fein gebautem Pop. Kuratiert mit Blick auf Vielfalt und Neuentdeckungen, dazu aktuelle Meilensteine wie Mean World Syndrome 👀",
+   "endDate": "2026-10-19T22:15+0200",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/PNsu3JEFSvqskyhEJ5cd_26justsigned18-11websitenews1080x1920.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/tLfiFFdIT3uUugbbUyOa_fb-cover-80.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -868,25 +868,41 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10969",
-     "streetAddress": "Ritterstraße 24-27"
+     "postalCode": "10961",
+     "streetAddress": "Nostitzstraße 40"
     },
-    "name": "MODUS Berlin"
+    "name": "Fotostudio & Videostudio Roger Paletti"
    },
-   "name": "Just Signed!",
+   "name": "småll sessions live | Belle Mt. & Anna Pancaldi",
    "offers": {
-    "@type": "Offer",
-    "price": "10.00",
-    "priceCurrency": "EUR",
-    "url": "https://tickets.infield.live/event/just-signed-0qyt3h",
-    "validFrom": "2026-11-18T19:00+0100"
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 2,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "21.80",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Support",
+      "price": "29.22",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
    },
    "organizer": {
     "@type": "Organization",
-    "name": "RBX GmbH",
-    "url": "https://rausgegangen.de/organizations/rbx-gmbh/"
+    "name": "Small Sessions",
+    "url": "https://rausgegangen.de/organizations/small-sessions/"
    },
-   "startDate": "2026-11-18T19:00+0100"
+   "startDate": "2026-10-19T20:00+0200"
   }
  }
 }

@@ -89,7 +89,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-10-17T06:51:45+02:00",
+  "fetched": "2026-10-17T13:45:41+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -176,39 +176,6 @@
   },
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/bounce-by-undr-bounce-hard-dance-kinky-playful-0/": {
-  "fetched": "2026-10-17T12:47:57+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Berlin mal nicht schwarz und streng: BOUNCE setzt auf Farbe, Glitzer und eine Crowd, die lachen statt grimmig gucken will. Dazu kommen zwei Floors mit Hard Dance und Euphoric Trance, plus offene Playspaces 🪩",
-   "endDate": "2026-10-18T06:00+0200",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/UzFbssGdSCuJOdyFiyag_1920x1080.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "12099",
-     "streetAddress": "Alt-Tempelhof 17-19"
-    },
-    "name": "Insomnia Club Berlin"
-   },
-   "name": "BOUNCE by UNDR: Bounce / Hard Dance - Kinky & Playful",
-   "offers": {
-    "@type": "Offer",
-    "price": "20.00",
-    "priceCurrency": "EUR",
-    "url": "https://bounce.berlin/",
-    "validFrom": "2026-10-17T22:00+0200"
-   },
-   "startDate": "2026-10-17T22:00+0200"
-  }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
   "fetched": "2026-10-17T09:49:16+02:00",
@@ -637,7 +604,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-10-17T06:51:45+02:00",
+  "fetched": "2026-10-17T13:45:41+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -768,7 +735,7 @@
   }
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-10-17T06:51:45+02:00",
+  "fetched": "2026-10-17T13:45:41+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -883,5 +850,43 @@
   },
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
+ },
+ "https://rausgegangen.de/events/just-signed-3/": {
+  "fetched": "2026-10-17T13:45:41+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Drei Acts, frisch unterschrieben, und noch nichts wirkt geschniegelt. Yasola, Victoria West und PARA zeigen Pop, Rap und Indie lieber mit Ecken und eigener Handschrift als auf Nummer sicher 🌈",
+   "endDate": "2026-11-19T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/PNsu3JEFSvqskyhEJ5cd_26justsigned18-11websitenews1080x1920.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10969",
+     "streetAddress": "Ritterstraße 24-27"
+    },
+    "name": "MODUS Berlin"
+   },
+   "name": "Just Signed!",
+   "offers": {
+    "@type": "Offer",
+    "price": "10.00",
+    "priceCurrency": "EUR",
+    "url": "https://tickets.infield.live/event/just-signed-0qyt3h",
+    "validFrom": "2026-11-18T19:00+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "RBX GmbH",
+    "url": "https://rausgegangen.de/organizations/rbx-gmbh/"
+   },
+   "startDate": "2026-11-18T19:00+0100"
+  }
  }
 }

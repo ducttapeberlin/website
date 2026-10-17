@@ -741,39 +741,6 @@
    "startDate": "2026-11-15T12:00+0100"
   }
  },
- "https://rausgegangen.de/events/dressed-like-boys-13/": {
-  "fetched": "2026-10-17T23:46:40+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Bei Dressed Like Boys kommt Pop nicht als Pose, sondern aus sehr persönlichen Geschichten über queere Identität. Hinter dem Projekt steckt Jelle Denturck aus Belgien, sonst Stimme von DIRK. 🌈",
-   "endDate": "2027-04-10T23:00+0200",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/D3CFGkCfS0OIxI4TCH11_photo-dressed-like-boyscredit-sieme-hermansweb.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10179",
-     "streetAddress": "Holzmarktstraße 15-18"
-    },
-    "name": "LARK"
-   },
-   "name": "Dressed Like Boys",
-   "offers": {
-    "@type": "Offer",
-    "price": 0,
-    "priceCurrency": "EUR",
-    "url": "https://www.eventim.de/artist/dressed-like-boys/",
-    "validFrom": "2027-04-10T19:00+0200"
-   },
-   "startDate": "2027-04-10T19:00+0200"
-  }
- },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
   "fetched": "2026-10-17T20:50:47+02:00",
   "ld": {
@@ -890,5 +857,47 @@
   },
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
+ },
+ "https://rausgegangen.de/events/joy-oladokun-5/": {
+  "fetched": "2026-10-18T00:43:31+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Zwischen Folk und Pop legt Joy Oladokun gerade die Klänge nach vorn, mit denen sie aufgewachsen ist. Die queere Songwriterin aus Nashville schreibt dabei über Identität, Glauben und mentale Gesundheit 🌈",
+   "endDate": "2027-04-21T23:45+0200",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Oxu1N7CERb2gKwJOydID_jo-ig-fb-banner.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10435",
+     "streetAddress": "Schönhauser Allee 36"
+    },
+    "name": "frannz club berlin"
+   },
+   "name": "Joy Oladokun",
+   "offers": {
+    "@type": "Offer",
+    "price": "27.00",
+    "priceCurrency": "EUR",
+    "url": "https://link.dice.fm/ub1736915e00",
+    "validFrom": "2027-04-21T20:00+0200"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Z|ART Agency",
+    "url": "https://rausgegangen.de/organizations/zart-agency-gmbh/"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Joy Oladokun"
+   },
+   "startDate": "2027-04-21T20:00+0200"
+  }
  }
 }

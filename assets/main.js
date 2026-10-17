@@ -359,3 +359,12 @@ document.querySelectorAll('.kv-mute').forEach(btn => {
   });
   document.addEventListener('click', e => { if (e.target !== inp && !cal.contains(e.target)) cal.hidden = true; });
 })();
+
+// Schwebender Booking-Button: immer sichtbar, verschwindet, sobald der Booking-Button am Seitenende im Bild ist
+(() => {
+  document.querySelectorAll('.float-book').forEach(btn => {
+    const ziel = document.getElementById(btn.dataset.hideAt);
+    if (!ziel || !('IntersectionObserver' in window)) return;
+    new IntersectionObserver(([e]) => btn.classList.toggle('weg', e.isIntersecting)).observe(ziel);
+  });
+})();

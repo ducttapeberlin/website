@@ -732,3 +732,5 @@ main.legal { padding: var(--sec-y) 0; }
 .enq-cal-grid button.an { background: var(--yellow); color: var(--ink); }
 .enq-cal-grid button:disabled { color: #44443f; cursor: default; }
 .q-cta-solo { margin-bottom: 0; }
+.float-book { position: fixed; right: max(16px, env(safe-area-inset-right)); bottom: max(16px, env(safe-area-inset-bottom)); z-index: 40; box-shadow: 0 10px 28px rgba(0,0,0,.5); transition: opacity .25s, transform .25s; }
+.float-book.weg { opacity: 0; transform: translateY(12px); pointer-events: none; }

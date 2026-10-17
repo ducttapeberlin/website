@@ -177,6 +177,39 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/bln-reunion-indoor-festival-0/": {
+  "fetched": "2026-10-17T19:45:14+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "BLN REUNION INDOOR FESTIVAL Sa. 12.12.26 | Spindler & Klatt  LIVE ON STAGE: AKA AKA | K-PAUL | SASCHA BRAEMER | BLONDEE uvm.  3 Floors - 14 Acts - Show - Direkt an der Spree  Nach 4 ausverkauften Veranstaltungen im Strandbad Grünau freuen wir uns auf unsere erste Winter Edition - BLN REUNION INDOOR FESTIVAL am 12.12.26 im Spindler & Klatt - 3 Floors - 14 Acts. Eine Nacht im Rausch.  Direkt an der Spree gelegen präsentiert sich das Spindler & Klatt als eine der schönsten Locations Berlins. Technik auf höchstem Niveau und ein einzigartiges Ambiente bieten einen perfekten Mikrokosmos für ein wundervolles elektronisches Event auf 3 Floors. Für das BLN Reunion Festival nutzen wir die neue Eventhalle des Spindler & Klatt, als perfekte Erweiterung.  Das Line-Up besteht aus jahrelangen Begleitern unserer Festivals und verspricht eine wilde Party!  MUSIC AUF 3 FLOORS:AKA AKA K-PAUL SASCHA BRAEMER BLONDEE OSTEKKE NICO CASCEUR DJOY WAIKIKI MAX LINDEMANN DEFJAM TOM KLANG MAYZE FORCE POKAFACE  Tickets hier: www.bln-reunion.de  i️ Einlass: 21 Uhr | ab 18 Jahren  🎫 Alle Infos & Tickets hier: www.bln-reunion.de  Bitte Tickets im Vorverkauf sichern! Abendkasse nur falls nicht ausverkauft!  📍 Spindler & Klatt, Köpenicker Str. 16-17 -17, 10997 Berlin",
+   "endDate": "2026-12-13T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/UByHSSIrQtq4vum0PE35_bln1920x1080variantec.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10997",
+     "streetAddress": "Köpenicker Straße 16"
+    },
+    "name": "Spindler & Klatt"
+   },
+   "name": "BLN REUNION INDOOR FESTIVAL - AKA AKA, K-Paul, Sascha Braemer, Blondee uvm.",
+   "offers": {
+    "@type": "Offer",
+    "price": "22.90",
+    "priceCurrency": "EUR",
+    "url": "https://open-air-berlin.ticket.io/ZO7IuWhk/",
+    "validFrom": "2026-12-12T21:00+0100"
+   },
+   "startDate": "2026-12-12T21:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
   "fetched": "2026-10-17T16:46:47+02:00",
   "ld": {
@@ -850,97 +883,5 @@
   },
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/love-at-first-slide-berlin-power-point-dating-by-rausgegange-13/": {
-  "fetched": "2026-10-17T18:49:06+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Wir bringen mit LOVE AT FIRST SLIDE Dating auf die Bühne: Freund:innen stellen in kurzen Power Point Präsentationen ihre Lieblingssingle vor – charmant, humorvoll und ganz ohne Swipe. Nach den witzigen Pitches kannst du bei Speed-Dating und Barabend neue Begegnungen entdecken. 💘🎤💫",
-   "endDate": "2026-11-11T23:30+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/G4DW5S6EQHOrXfM562GP_lafsbannerappstraight-2-5.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10625",
-     "streetAddress": "Kantstraße 127"
-    },
-    "name": "Dufte Berlin"
-   },
-   "name": "LOVE AT FIRST SLIDE Berlin | Power Point Dating by Rausgegangen 💖",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "19.50",
-    "lowPrice": "10.00",
-    "offerCount": 5,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Presenterticket",
-      "price": "10.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Publikum Ticket | Ich bin eine hetero Frau",
-      "price": "19.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Publikum Ticket | Ich bin ein hetero Mann",
-      "price": "19.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Publikum Ticket | Ich bin queer",
-      "price": "19.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Mitgegangen",
-      "price": "3.80",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "LOVE AT FIRST SLIDE BERLIN by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/love-at-first-slide-berlin-by-rausgegangen/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Love at first Slide by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/page-for-team-love-at-first-slide-by-rausgegangen/"
-    },
-    {
-     "@type": "Organization",
-     "name": "LOVE AT FIRST SLIDE by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/love-at-first-slide-by-rausgegangen/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Team Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/team-rausgegangen/"
-    }
-   ],
-   "startDate": "2026-11-11T19:00+0100"
-  }
  }
 }

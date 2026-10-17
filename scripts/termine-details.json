@@ -89,7 +89,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-10-17T00:51:06+02:00",
+  "fetched": "2026-10-17T06:51:45+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -604,7 +604,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-10-17T00:51:06+02:00",
+  "fetched": "2026-10-17T06:51:45+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -627,11 +627,12 @@
    },
    "name": "DRAG BRUNCH - Christmas Edition // sponsored by Fritz-Kola",
    "offers": {
-    "@type": "Offer",
-    "price": "0.00",
-    "priceCurrency": "EUR",
-    "url": "https://www.opentable.de/booking/restref/availability?lang=de-DE&restRef=514161&dateTime=2026-12-13T12%3A00&partySize=2&correlationId=98cd1fa9-d19a-4a55-9fbd-debb83d3ce3c",
-    "validFrom": "2026-12-13T12:00+0100"
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 0,
+    "offers": [],
+    "priceCurrency": "EUR"
    },
    "organizer": [
     {
@@ -734,7 +735,7 @@
   }
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-10-17T00:51:06+02:00",
+  "fetched": "2026-10-17T06:51:45+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -850,16 +851,16 @@
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/speed-friending-berlin-by-rausgegangen-0/": {
-  "fetched": "2026-10-17T05:53:24+02:00",
+ "https://rausgegangen.de/events/inkart-1/": {
+  "fetched": "2026-10-17T06:51:45+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Speed Dating kennen wir alle, aber was ist mit Speed Friending? Hier lernst du in kurzen Gesprächen ganz entspannt neue Leute kennen, ohne das übliche Smalltalk-Blabla. Egal, ob du noch neue Friends suchst oder einfach Lust hast Menschen kennenzulernen. Das ist der place to be für neue Bekanntschaften. 🫂",
-   "endDate": "2026-11-05T22:30+0100",
+   "description": "Berlin's subcultures are losing their spaces. One venue after another shuts down, and each one takes a place where something could happen. There's no shortage of talent. What's missing is the stage.INK&ART is an attempt to push back. We're building a labyrinth inside the Black Hall of Mahalla. Inside it: work by more than 40 artists, plus stations for tattooing, piercing and tooth gems. The exhibition stays the same all day — the room doesn't. Light and music shift how you read it, from house in the bright afternoon to techno once it gets dark.Tattooers, photographers, painters, body artists and DJs share the same room. Not in separate zones, but as one thing. Scenes that work in the same city and still barely cross paths.No white cube, no discipline above another.Saturday, 7 November 2026 · 3–10 PM Mahalla Berlin · Black Hall · Wilhelminenhofstr. 76/77DJ Sets · Body Artists · Photography · Tattoo Artists · Art Vernissage    Berlins Subkulturen verlieren ihre Räume. Eine Location nach der anderen macht dicht, und mit jeder verschwindet ein Ort, an dem etwas entstehen konnte. Talent gibt es weiter genug. Was fehlt, ist die Bühne.INK&ART ist der Versuch, dagegen etwas zu setzen. In der Black Hall des Mahalla bauen wir ein Labyrinth. Darin: Arbeiten von über 40 Künstlern und Stationen für Tattoo, Piercing und Tooth Gems. Die Ausstellung bleibt den ganzen Tag dieselbe, der Raum nicht — mit Licht und Musik verschiebt sich die Wahrnehmung, von House am hellen Nachmittag zu Techno am dunklen Abend.Tätowierer, Fotografen, Maler, Body Artists und DJs teilen sich denselben Raum. Nicht in getrennten Bereichen, sondern als eine Sache. Szenen, die in derselben Stadt arbeiten und sich trotzdem kaum begegnen.Kein weißer Raum, keine Disziplin über der anderen.Samstag, 7. November 2026 · 15–22 Uhr Mahalla Berlin · Black Hall · Wilhelminenhofstr. 76/77DJ Sets · Body Artists · Photography · Tattoo Artists · Art Vernissage",
+   "endDate": "2026-11-07T22:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/DgOflF40T8WQ4ZDezaqe_design260820datingspeedfriending16x9.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/CT8YbS8WyUPSdXSUELgk_art.png"
    ],
    "location": {
     "@type": "Place",
@@ -867,38 +868,21 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10625",
-     "streetAddress": "Kantstraße 127"
+     "postalCode": "12459",
+     "streetAddress": "Wilhelminenhofstraße 76"
     },
-    "name": "Dufte Berlin"
+    "name": "MaHalla"
    },
-   "name": "SPEED FRIENDING Berlin by Rausgegangen",
+   "name": "INK&ART",
    "offers": {
     "@type": "Offer",
     "availability": "https://schema.org/InStock",
-    "price": "19.90",
+    "price": "10.00",
     "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/speed-friending-berlin-by-rausgegangen",
-    "validFrom": "2026-09-28T00:00+0200"
+    "url": "https://t.rausgegangen.de/tickets/inkart",
+    "validFrom": "2026-09-13T21:53+0200"
    },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "Rausgegangen Events",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-events/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Speed Dating by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/speed-dating-by-rausgegangen/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Speed Friending by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/speed-friending-by-rausgegangen/"
-    }
-   ],
-   "startDate": "2026-11-05T19:30+0100"
+   "startDate": "2026-11-07T15:00+0100"
   }
  }
 }

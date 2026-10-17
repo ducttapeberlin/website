@@ -1,0 +1,18 @@
+name: Formular-Test
+# Am 1. jedes Monats eine Testanfrage an das Booking-Formular (IONOS) schicken.
+# Das Skript schickt dann "Formular-Test <Monat>: alles ok" an booking@ducttape.berlin.
+# Bleibt die Mail aus oder schlägt dieser Lauf fehl, funktioniert das Formular nicht.
+on:
+  schedule:
+    - cron: '0 8 1 * *'
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Testanfrage senden
+        run: |
+          code=$(curl -sS -o antwort.txt -w '%{http_code}' --max-time 30 -X POST -d systemtest=1 https://formular.ducttape.berlin/anfrage.php)
+          echo "HTTP $code: $(cat antwort.txt)"
+          [ "$code" = "200" ] && grep -q '^ok' antwort.txt

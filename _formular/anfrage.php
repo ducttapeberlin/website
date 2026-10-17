@@ -23,6 +23,23 @@ function zeile($v) { return trim(preg_replace('/[\r\n\t]+/', ' ', $v)); }
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') weiter($form);
 
+// Monatlicher Systemtest (GitHub Action am 1. jedes Monats): schickt eine kurze Test-Mail an booking@,
+// damit ein stiller Ausfall auffällt. Nur am 1. erlaubt und höchstens einmal pro Monat.
+if (($_POST['systemtest'] ?? '') === '1') {
+  header('Content-Type: text/plain; charset=UTF-8');
+  if (date('j') !== '1') { http_response_code(403); exit('nur am 1. des Monats'); }
+  $sperre = __DIR__ . '/.systemtest';
+  if (@file_get_contents($sperre) === date('Y-m')) exit('ok (diesen Monat schon gesendet)');
+  $monat = ['', 'Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'][(int)date('n')] . ' ' . date('Y');
+  $ok = mail(EMPFAENGER, mb_encode_mimeheader('Formular-Test ' . $monat . ': alles ok', 'UTF-8'),
+    "Das Booking-Formular auf ducttape.berlin funktioniert.\n\nDiese Mail kommt automatisch am 1. jedes Monats. Bleibt sie aus, bitte das Formular prüfen.\n",
+    implode("\r\n", ['From: ' . mb_encode_mimeheader('DUCT TAPE Website', 'UTF-8') . ' <' . ABSENDER . '>', 'MIME-Version: 1.0', 'Content-Type: text/plain; charset=UTF-8', 'Content-Transfer-Encoding: 8bit']),
+    '-f' . ABSENDER);
+  if (!$ok) { http_response_code(500); exit('fehler: Mail nicht versendet'); }
+  @file_put_contents($sperre, date('Y-m'));
+  exit('ok');
+}
+
 // Nur Anfragen von der eigenen Website annehmen
 $origin = $_SERVER['HTTP_ORIGIN'] ?? '';
 if ($origin !== '' && !in_array($origin, [SITE, 'https://www.ducttape.berlin'], true)) weiter($form . '?fehler=1');
@@ -121,4 +138,15 @@ $header  = implode("\r\n", [
 ]);
 
 $ok = mail(EMPFAENGER, mb_encode_mimeheader($betreff, 'UTF-8'), $inhalt, $header, '-f' . ABSENDER);
-weiter($ok ? $danke : $form . '?fehler=1');
+// Sicherungskopie: jede Anfrage zusätzlich als Textdatei im Ordner /anfragen auf dem Webspace
+// (liegt außerhalb von /formular und ist damit nicht über das Internet erreichbar), damit bei
+// Problemen mit dem Mailversand nichts verloren geht. Kopien werden nach 90 Tagen gelöscht.
+$ablage = dirname(__DIR__) . '/anfragen';
+if (!is_dir($ablage)) @mkdir($ablage, 0700);
+@file_put_contents($ablage . '/.htaccess', "Require all denied\n");
+foreach (glob($ablage . '/*.txt') ?: [] as $alt) if (filemtime($alt) < time() - 90 * 86400) @unlink($alt);
+$datei = $ablage . '/' . date('Y-m-d_H-i-s') . '_' . bin2hex(random_bytes(2)) . '_' . preg_replace('/[^a-z0-9]+/', '-', strtolower(iconv('UTF-8', 'ASCII//TRANSLIT', $name) ?: 'anfrage')) . '.txt';
+$gesichert = @file_put_contents($datei, ($ok ? '' : "!!! MAIL NICHT VERSENDET !!!\n\n") . $text, LOCK_EX) !== false;
+
+// Auch wenn die Mail scheitert, ist die Anfrage gesichert: dann trotzdem Danke-Seite
+weiter(($ok || $gesichert) ? $danke : $form . '?fehler=1');

@@ -178,7 +178,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-10-17T16:46:47+02:00",
+  "fetched": "2026-10-17T22:47:25+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -203,9 +203,16 @@
    "offers": {
     "@type": "AggregateOffer",
     "highPrice": "15.44",
-    "lowPrice": "10.14",
-    "offerCount": 3,
+    "lowPrice": "5.00",
+    "offerCount": 4,
     "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Opening Drop",
+      "price": "5.00",
+      "priceCurrency": "EUR"
+     },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
@@ -734,91 +741,6 @@
    "startDate": "2026-11-15T12:00+0100"
   }
  },
- "https://rausgegangen.de/events/geheimkonzert-berlin-23-by-rausgegangen-0/": {
-  "fetched": "2026-10-17T21:43:18+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Na Hallo! Es ist wieder so weit: Ein Abend voller Überraschung - denn wer auf der Bühne steht, bleibt bis zum ersten Ton geheim. Wir hatten schon Blond, Berq, Ennio, Futurebae, Jassin, Anais, Katha Pauer & viele mehr zu Gast – und das schon bevor sie die großen Bühnen der Nation gestürmt haben. Also entdecke die Stars von morgen bei unseren Geheimkonzerten. 🪩",
-   "endDate": "2026-10-26T22:15+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/udcU1rZtRaW4gjPcOu73_gk202516x9photoheadline-29-5.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin"
-    },
-    "name": "Secret location"
-   },
-   "name": "Geheimkonzert Berlin #23 by Rausgegangen",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "29.90",
-    "lowPrice": "24.50",
-    "offerCount": 5,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "LOYALITY TICKET",
-      "price": "21.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "MITGEGANGEN LOYALITY TICKET",
-      "price": "24.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "REGULAR",
-      "price": "26.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "4er FRIENDS BUNDLE für 98€",
-      "price": "24.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "MITGEGANGEN",
-      "price": "29.90",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "Mitgegangen",
-     "url": "https://rausgegangen.de/organizations/mitgegangen/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Rausgegangen Geheimkonzerte",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Rausgegangen Geheimkonzerte Berlin",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte-3/"
-    }
-   ],
-   "startDate": "2026-10-26T19:00+0100"
-  }
- },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
   "fetched": "2026-10-17T20:50:47+02:00",
   "ld": {
@@ -935,5 +857,59 @@
   },
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
+ },
+ "https://rausgegangen.de/events/small-sessions-live-belle-mt-anna-pancaldi-1/": {
+  "fetched": "2026-10-17T22:47:25+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Bei småll sessions live hörst du mit Anna Pancaldi und Belle Mt. zwei Londoner Songwriter:innen zwischen Folk, Indie und fein gebautem Pop. Kuratiert mit Blick auf Vielfalt und Neuentdeckungen, dazu aktuelle Meilensteine wie Mean World Syndrome 👀",
+   "endDate": "2026-10-19T22:15+0200",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/tLfiFFdIT3uUugbbUyOa_fb-cover-80.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10961",
+     "streetAddress": "Nostitzstraße 40"
+    },
+    "name": "Fotostudio & Videostudio Roger Paletti"
+   },
+   "name": "småll sessions live | Belle Mt. & Anna Pancaldi",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 2,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "21.80",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Support",
+      "price": "29.22",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Small Sessions",
+    "url": "https://rausgegangen.de/organizations/small-sessions/"
+   },
+   "startDate": "2026-10-19T20:00+0200"
+  }
  }
 }

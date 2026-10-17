@@ -368,3 +368,20 @@ document.querySelectorAll('.kv-mute').forEach(btn => {
     new IntersectionObserver(([e]) => btn.classList.toggle('weg', e.isIntersecting)).observe(ziel);
   });
 })();
+
+// Kollektiv mobil: lange Textblöcke gekürzt, mit „Mehr lesen“ aufklappbar
+(() => {
+  const en = document.documentElement.lang === 'en';
+  document.querySelectorAll('.kv-more').forEach(box => {
+    const b = document.createElement('button');
+    b.type = 'button'; b.className = 'kv-more-btn'; b.setAttribute('aria-expanded', 'false');
+    b.textContent = en ? 'Read more' : 'Mehr lesen';
+    b.addEventListener('click', () => {
+      const auf = box.classList.toggle('offen');
+      b.setAttribute('aria-expanded', auf ? 'true' : 'false');
+      b.textContent = auf ? (en ? 'Show less' : 'Weniger anzeigen') : (en ? 'Read more' : 'Mehr lesen');
+      if (!auf) box.scrollIntoView({ block: 'nearest' });
+    });
+    box.append(b);
+  });
+})();

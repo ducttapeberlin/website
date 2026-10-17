@@ -645,8 +645,8 @@ sup.reg { font-size: .6em; vertical-align: super; line-height: 0; margin-left: 1
 .q-hero + .q-book { padding-top: clamp(40px, 5vw, 64px); }
 .q-book:has(+ .q-photos) { padding-bottom: clamp(40px, 5vw, 64px); }
 /* Erste-Show-Video oben und unten etwas beschnitten, damit der Abschnitt kompakter wird */
-.kv-ms figure.kv-video.v-erste-show-2022 { aspect-ratio: 4 / 5; max-width: 300px; }
-.kv-ms figure.kv-video.v-erste-show-2022 video { object-position: 50% 38%; }
+.kv-ms figure.kv-video.v-erste-show-2022 { max-width: 300px; }
+.kv-ms figure.kv-video.v-erste-show-2022 video { aspect-ratio: 4 / 5; height: auto; object-fit: cover; object-position: 50% 38%; }
 /* Über-uns-Menü: Queens eingerückt unter dem Kollektiv, Galerie/Presse abgesetzt */
 .nav-sub a.nav-queen { border-top: 0; padding-top: 7px; padding-bottom: 7px; padding-left: 30px; font-size: 13px; color: #CFCFCA; }
 .nav-sub a.nav-queen:hover, .nav-sub a.nav-queen[aria-current="page"] { color: var(--yellow); }
@@ -655,7 +655,7 @@ sup.reg { font-size: .6em; vertical-align: super; line-height: 0; margin-left: 1
 #lb-cap:empty { display: none; }
 /* Indien-Video im selben Format wie das Erste-Show-Video */
 .kv-ms figure.kv-video.v-indien-tour-2026 { max-width: 300px; }
-.kv-ms figure.kv-video.v-indien-tour-2026 video { aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 60%; }
+.kv-ms figure.kv-video.v-indien-tour-2026 video { aspect-ratio: 4 / 5; height: auto; object-fit: cover; object-position: 50% 60%; }
 /* Kollektiv: Gruppenfoto unter der Geschichte */
 .kv-group { margin: 28px 0 0; }
 .kv-group img { width: 100%; height: auto; display: block; border-radius: 14px; }

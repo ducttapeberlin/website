@@ -323,3 +323,39 @@ document.querySelectorAll('.kv-mute').forEach(btn => {
   const act = document.getElementById('enq-act'); if (q.get('act') && act.querySelector(`option[value="${CSS.escape(q.get('act'))}"]`)) act.value = q.get('act');
   if (q.get('fehler')) document.getElementById('form-error').hidden = false;
 })();
+
+// Booking-Anfrage: großer Kalender zum Datumsfeld (Eintippen geht weiterhin)
+(() => {
+  const inp = document.getElementById('enq-date'); if (!inp) return;
+  const en = document.documentElement.lang === 'en';
+  const monate = en ? ['January','February','March','April','May','June','July','August','September','October','November','December']
+                    : ['Januar','Februar','März','April','Mai','Juni','Juli','August','September','Oktober','November','Dezember'];
+  const tage = en ? ['Mo','Tu','We','Th','Fr','Sa','Su'] : ['Mo','Di','Mi','Do','Fr','Sa','So'];
+  const p2 = n => String(n).padStart(2, '0');
+  const heute = new Date(); heute.setHours(0, 0, 0, 0);
+  const cal = document.createElement('div'); cal.className = 'enq-cal'; cal.hidden = true;
+  inp.parentNode.style.position = 'relative'; inp.after(cal);
+  let ansicht = new Date(heute.getFullYear(), heute.getMonth(), 1);
+  const gewaehlt = () => { const m = inp.value.match(/^(\d{1,2})\.(\d{1,2})\.(\d{4})$/); return m ? new Date(+m[3], m[2] - 1, +m[1]) : null; };
+  const zeichne = () => {
+    const j = ansicht.getFullYear(), mo = ansicht.getMonth(), sel = gewaehlt();
+    const start = (new Date(j, mo, 1).getDay() + 6) % 7, anzahl = new Date(j, mo + 1, 0).getDate();
+    let h = `<div class="enq-cal-kopf"><button type="button" data-n="-1" aria-label="${en ? 'Previous month' : 'Voriger Monat'}">‹</button><strong>${monate[mo]} ${j}</strong><button type="button" data-n="1" aria-label="${en ? 'Next month' : 'Nächster Monat'}">›</button></div><div class="enq-cal-grid">`;
+    h += tage.map(t => `<span class="enq-cal-wt">${t}</span>`).join('') + '<span></span>'.repeat(start);
+    for (let d = 1; d <= anzahl; d++) {
+      const dt = new Date(j, mo, d), cls = [dt.getTime() === heute.getTime() ? 'heute' : '', sel && dt.getTime() === sel.getTime() ? 'an' : ''].join(' ');
+      h += `<button type="button" class="${cls}" data-d="${d}"${dt < heute ? ' disabled' : ''}>${d}</button>`;
+    }
+    cal.innerHTML = h + '</div>';
+  };
+  const auf = () => { const s = gewaehlt(); if (s) ansicht = new Date(s.getFullYear(), s.getMonth(), 1); zeichne(); cal.hidden = false; };
+  inp.addEventListener('focus', auf); inp.addEventListener('click', auf);
+  inp.addEventListener('keydown', e => { if (e.key === 'Escape' || e.key === 'Tab') cal.hidden = true; });
+  cal.addEventListener('mousedown', e => e.preventDefault());
+  cal.addEventListener('click', e => {
+    const b = e.target.closest('button'); if (!b) return;
+    if (b.dataset.n) { ansicht.setMonth(ansicht.getMonth() + +b.dataset.n); zeichne(); return; }
+    inp.value = `${p2(b.dataset.d)}.${p2(ansicht.getMonth() + 1)}.${ansicht.getFullYear()}`; cal.hidden = true;
+  });
+  document.addEventListener('click', e => { if (e.target !== inp && !cal.contains(e.target)) cal.hidden = true; });
+})();

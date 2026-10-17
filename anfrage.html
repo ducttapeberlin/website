@@ -22,7 +22,7 @@
   <meta name="theme-color" content="#0B0B0B">
   <link rel="icon" href="favicon.png">
   <link rel="apple-touch-icon" href="favicon.png">
-  <link rel="stylesheet" href="assets/style.css?v=202610172137">
+  <link rel="stylesheet" href="assets/style.css?v=202610172201">
 </head>
 <body>
 
@@ -86,9 +86,9 @@
         <label class="enq-field"><span>Firma / Organisation</span><input type="text" name="firma" maxlength="160" autocomplete="organization"></label>
         <label class="enq-field"><span>Was möchtest du buchen? *</span><select name="programm" required><option value="">Bitte wählen</option><option>Show</option><option>Drag Bingo oder Quiz</option><option>Drag Brunch</option><option>Hosting / Moderation</option><option>DJ-Set</option><option>Workshop</option><option>Kooperation / Content</option><option>Etwas anderes</option></select></label>
         <label class="enq-field"><span>Wen möchtest du buchen?</span><select name="act" id="enq-act"><option value="">Noch offen</option><option value="kollektiv">Das ganze Kollektiv</option><option value="emi">EMI</option><option value="symba">Symba</option><option value="magda">Magda von Pfeffer</option></select></label>
-        <label class="enq-field"><span>Datum</span><input type="date" name="datum"></label>
+        <label class="enq-field"><span>Datum</span><input type="text" name="datum" id="enq-date" autocomplete="off" placeholder="TT.MM.JJJJ"></label>
         <label class="enq-field"><span>Ort / Location</span><input type="text" name="ort" maxlength="160"></label>
-        <label class="enq-field"><span>Anzahl Gäste</span><input type="number" name="gaeste" min="1" max="100000" inputmode="numeric"></label>
+        <label class="enq-field"><span>Anzahl Gäste</span><input type="text" name="gaeste" maxlength="40"></label>
         <label class="enq-field"><span>Art der Veranstaltung</span><input type="text" name="anlass" maxlength="160" placeholder="z. B. Weihnachtsfeier, Geburtstag, Festival"></label>
         <label class="enq-field enq-wide"><span>Nachricht</span><textarea name="nachricht" rows="6" maxlength="5000" placeholder="Was schwebt dir vor? Uhrzeit, Ablauf, Budgetrahmen …"></textarea></label>
         <label class="enq-field"><span>Wie hast du von uns erfahren?</span><select name="gefunden"><option value="">Bitte wählen</option><option>Google</option><option>Instagram</option><option>Empfehlung</option><option>Bei einer Show gesehen</option><option>Presse</option><option>Sonstiges</option></select></label>
@@ -100,8 +100,8 @@
 </main>
 
 <footer><div class="wrap"><div>© 2026 DUCT TAPE<sup class="reg">®</sup> · Berlin</div><div><a href="mailto:info@ducttape.berlin">Kontakt</a><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a></div></div></footer>
-<script src="assets/main.js?v=202610172137"></script>
-<script src="assets/mail.js?v=202610172137"></script>
+<script src="assets/main.js?v=202610172201"></script>
+<script src="assets/mail.js?v=202610172201"></script>
   <!-- Cloudflare Web Analytics (cookielose Besucherstatistik) --><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "72f034635f7242c9ba3fdce78654aadc"}'></script>
 </body>
 </html>

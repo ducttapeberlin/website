@@ -41,7 +41,7 @@ if ($name === '' || $programm === '' || !filter_var($email, FILTER_VALIDATE_EMAI
 
 $acts = ['' => 'Noch offen', 'kollektiv' => 'Das ganze Kollektiv', 'emi' => 'EMI', 'symba' => 'Symba', 'magda' => 'Magda von Pfeffer'];
 $act  = $acts[feld('act', 20)] ?? 'Noch offen';
-$datum = feld('datum', 20);
+$datum = feld('datum', 60);
 if (preg_match('/^(\d{4})-(\d{2})-(\d{2})$/', $datum, $m)) $datum = "$m[3].$m[2].$m[1]";
 
 $telefon = zeile(feld('telefon', 60));
@@ -51,7 +51,7 @@ $abschnitte = [
     'Act'            => $act,
     'Datum'          => zeile($datum),
     'Ort / Location' => zeile(feld('ort', 160)),
-    'Gäste'          => zeile(feld('gaeste', 10)),
+    'Gäste'          => zeile(feld('gaeste', 40)),
     'Anlass'         => zeile(feld('anlass', 160)),
   ],
   'Kontakt' => [

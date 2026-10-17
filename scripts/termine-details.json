@@ -734,6 +734,62 @@
    "startDate": "2026-11-15T12:00+0100"
   }
  },
+ "https://rausgegangen.de/events/fritzsessions-26/": {
+  "fetched": "2026-10-17T07:49:34+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Zwischen Hyperpop, Pop und Rap steht kein sauberer Strich, eher fünf Leute, die ihr eigenes Ding mitbringen. Bei den FritzSessions treffen unter anderem Amélia, Dueja und Katlix aufeinander, also ein Abend für offene Ohren 👀",
+   "endDate": "2026-11-10T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/8Y9wBoTBRr29567OaXR9_16x9fritzsessions051026-5-artists.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10997",
+     "streetAddress": "Schlesische Strasse 2"
+    },
+    "name": "Bi Nuu"
+   },
+   "name": "FritzSessions mit Amélia, Tara Emely, Dueja & Katlix",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "14.00",
+    "priceCurrency": "EUR",
+    "url": "https://t.rausgegangen.de/tickets/fritzsessions-20",
+    "validFrom": "2026-10-04T15:05+0200"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "FritzSessions",
+     "url": "https://rausgegangen.de/organizations/page-for-team-fritzsessions/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Fritz vom rbb",
+     "url": "https://rausgegangen.de/organizations/fritz-vom-rbb/"
+    }
+   ],
+   "performer": [
+    {
+     "@type": "PerformingGroup",
+     "name": "DUEJA"
+    },
+    {
+     "@type": "PerformingGroup",
+     "name": "KATLIX"
+    }
+   ],
+   "startDate": "2026-11-09T19:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
   "fetched": "2026-10-17T06:51:45+02:00",
   "ld": {
@@ -850,39 +906,5 @@
   },
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/inkart-1/": {
-  "fetched": "2026-10-17T06:51:45+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Berlin's subcultures are losing their spaces. One venue after another shuts down, and each one takes a place where something could happen. There's no shortage of talent. What's missing is the stage.INK&ART is an attempt to push back. We're building a labyrinth inside the Black Hall of Mahalla. Inside it: work by more than 40 artists, plus stations for tattooing, piercing and tooth gems. The exhibition stays the same all day — the room doesn't. Light and music shift how you read it, from house in the bright afternoon to techno once it gets dark.Tattooers, photographers, painters, body artists and DJs share the same room. Not in separate zones, but as one thing. Scenes that work in the same city and still barely cross paths.No white cube, no discipline above another.Saturday, 7 November 2026 · 3–10 PM Mahalla Berlin · Black Hall · Wilhelminenhofstr. 76/77DJ Sets · Body Artists · Photography · Tattoo Artists · Art Vernissage    Berlins Subkulturen verlieren ihre Räume. Eine Location nach der anderen macht dicht, und mit jeder verschwindet ein Ort, an dem etwas entstehen konnte. Talent gibt es weiter genug. Was fehlt, ist die Bühne.INK&ART ist der Versuch, dagegen etwas zu setzen. In der Black Hall des Mahalla bauen wir ein Labyrinth. Darin: Arbeiten von über 40 Künstlern und Stationen für Tattoo, Piercing und Tooth Gems. Die Ausstellung bleibt den ganzen Tag dieselbe, der Raum nicht — mit Licht und Musik verschiebt sich die Wahrnehmung, von House am hellen Nachmittag zu Techno am dunklen Abend.Tätowierer, Fotografen, Maler, Body Artists und DJs teilen sich denselben Raum. Nicht in getrennten Bereichen, sondern als eine Sache. Szenen, die in derselben Stadt arbeiten und sich trotzdem kaum begegnen.Kein weißer Raum, keine Disziplin über der anderen.Samstag, 7. November 2026 · 15–22 Uhr Mahalla Berlin · Black Hall · Wilhelminenhofstr. 76/77DJ Sets · Body Artists · Photography · Tattoo Artists · Art Vernissage",
-   "endDate": "2026-11-07T22:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/CT8YbS8WyUPSdXSUELgk_art.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "12459",
-     "streetAddress": "Wilhelminenhofstraße 76"
-    },
-    "name": "MaHalla"
-   },
-   "name": "INK&ART",
-   "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "10.00",
-    "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/inkart",
-    "validFrom": "2026-09-13T21:53+0200"
-   },
-   "startDate": "2026-11-07T15:00+0100"
-  }
  }
 }

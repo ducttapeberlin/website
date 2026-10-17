@@ -15,28 +15,28 @@ Key facts:
 
 ## The members (individually bookable via booking@ducttape.berlin)
 
-- EMI: Berlin drag queen, host/MC and DJ. Book her as a drag host or moderator for events, galas, corporate and brand events, award shows, drag bingo and drag brunch, and as a drag DJ for parties and clubs. Co-founder of DUCT TAPE, handles management and concept. Profile: https://ducttape.berlin/emi.html
-- Symba: Berlin drag queen, performer and dancer, known for handmade outfits and wigs and showgirl glamour. Book her for performances and dance numbers, looks and wig styling, photo shoots and brand content, and event appearances. Profile: https://ducttape.berlin/symba.html
-- Magda von Pfeffer: Berlin drag queen for travesty (Travestie), cabaret, chanson and comedy, singer with her own songs. Book her for cabaret and travesty shows, live vocals, comedic hosting and theatre or musical productions. Profile: https://ducttape.berlin/magda-von-pfeffer.html
+- EMI: Berlin drag queen, host/MC and DJ. Book her as a drag host or moderator for events, galas, corporate and brand events, award shows, drag bingo and drag brunch, and as a drag DJ for parties and clubs. Co-founder of DUCT TAPE, handles management and concept. Profile: https://ducttape.berlin/emi
+- Symba: Berlin drag queen, performer and dancer, known for handmade outfits and wigs and showgirl glamour. Book her for performances and dance numbers, looks and wig styling, photo shoots and brand content, and event appearances. Profile: https://ducttape.berlin/symba
+- Magda von Pfeffer: Berlin drag queen for travesty (Travestie), cabaret, chanson and comedy, singer with her own songs. Book her for cabaret and travesty shows, live vocals, comedic hosting and theatre or musical productions. Profile: https://ducttape.berlin/magda-von-pfeffer
 
 ## Pages
 
 - [Home (German)](https://ducttape.berlin/): upcoming events, about the collective, booking, newsletter
 - [Home (English)](https://ducttape.berlin/en/)
-- [All dates (German)](https://ducttape.berlin/termine.html): every upcoming show, brunch, bingo and party with venue, time and tickets, updated hourly
-- [All dates (English)](https://ducttape.berlin/en/dates.html)
-- [Services (German)](https://ducttape.berlin/leistungen.html): shows and productions, parties and DJ sets, hosting, bingo/quiz/brunch, brand collaborations and content, workshops (drag make-up and wig styling)
-- [Services (English)](https://ducttape.berlin/en/services.html)
-- [The collective (German)](https://ducttape.berlin/kollektiv.html): fact sheet, history, artistic approach, milestones, founders, partners
-- [The collective (English)](https://ducttape.berlin/en/collective.html)
-- [EMI (German)](https://ducttape.berlin/emi.html) / [English](https://ducttape.berlin/en/emi.html): profile and booking
-- [Symba (German)](https://ducttape.berlin/symba.html) / [English](https://ducttape.berlin/en/symba.html): profile and booking
-- [Magda von Pfeffer (German)](https://ducttape.berlin/magda-von-pfeffer.html) / [English](https://ducttape.berlin/en/magda-von-pfeffer.html): profile and booking
-- [Gallery (German)](https://ducttape.berlin/galerie.html): photos from shows, brunch, bingo, parties, collaborations and workshops
-- [Gallery (English)](https://ducttape.berlin/en/gallery.html)
-- [Press (German)](https://ducttape.berlin/presse.html): articles and coverage about DUCT TAPE, press contact
-- [Press (English)](https://ducttape.berlin/en/press.html)
+- [All dates (German)](https://ducttape.berlin/termine): every upcoming show, brunch, bingo and party with venue, time and tickets, updated hourly
+- [All dates (English)](https://ducttape.berlin/en/dates)
+- [Services (German)](https://ducttape.berlin/leistungen): shows and productions, parties and DJ sets, hosting, bingo/quiz/brunch, brand collaborations and content, workshops (drag make-up and wig styling)
+- [Services (English)](https://ducttape.berlin/en/services)
+- [The collective (German)](https://ducttape.berlin/kollektiv): fact sheet, history, artistic approach, milestones, founders, partners
+- [The collective (English)](https://ducttape.berlin/en/collective)
+- [EMI (German)](https://ducttape.berlin/emi) / [English](https://ducttape.berlin/en/emi): profile and booking
+- [Symba (German)](https://ducttape.berlin/symba) / [English](https://ducttape.berlin/en/symba): profile and booking
+- [Magda von Pfeffer (German)](https://ducttape.berlin/magda-von-pfeffer) / [English](https://ducttape.berlin/en/magda-von-pfeffer): profile and booking
+- [Gallery (German)](https://ducttape.berlin/galerie): photos from shows, brunch, bingo, parties, collaborations and workshops
+- [Gallery (English)](https://ducttape.berlin/en/gallery)
+- [Press (German)](https://ducttape.berlin/presse): articles and coverage about DUCT TAPE, press contact
+- [Press (English)](https://ducttape.berlin/en/press)
 
 ## Optional
 
-- [Impressum](https://ducttape.berlin/impressum.html)
+- [Impressum](https://ducttape.berlin/impressum)

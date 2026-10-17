@@ -49,7 +49,7 @@ if (list && upcoming.length) {
   actions.className = 'events-actions';
   const all = document.createElement('a');
   all.className = 'btn btn-ghost events-more';
-  all.href = t('termine.html', 'dates.html');
+  all.href = t('termine', 'dates');
   all.textContent = t('Alle Termine anzeigen', 'See all dates');
   if (upcoming.length > SHOW) {
     upcoming.slice(SHOW).forEach(ev => ev.classList.add('is-more'));

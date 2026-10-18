@@ -178,7 +178,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-10-18T18:50:01+02:00",
+  "fetched": "2026-10-19T01:42:37+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -857,58 +857,5 @@
   },
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/nele-mathew-stand-up-comedy-solo-ist-das-so-ublich-0/": {
-  "fetched": "2026-10-19T00:45:36+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Solo Show: Ist das so üblich?​In ihrer ersten Solo-Show nimmt die Stand-up-Komikerin Nele Mathew das Publikum mit auf eine Reise – und zeigt, wie absurd und lehrreich die Welt erscheint, wenn man sie durch ihren Filter betrachtet. Mit trockenem Humor, messerscharfen Beobachtungen und viel Liebe zum Detail setzt sie kosmopolitische Erfahrungen in Szene und gibt dabei unerwartete Tipps, wie man dem alltäglichen Wahnsinn gelassen begegnet.Ob beim Versuch, die kulturellen Unterschiede in der Wahrnehmung von Körpergrößen zu begreifen oder bei der Erkundung von Lebensmitteln aus aller Welt – jede Pointe bringt die Zuschauer dazu, ihr eigenes Leben aus einer neuen Perspektive zu betrachten. Die Show verbindet trockenen Humor mit lebenspraktischen Ratschlägen für alle, die schon immer wissen wollten, wie man mit Ironie durch den Alltag navigiert.Das Publikum erwartet einen Abend mit viel Raum für Lachen – und vielleicht der Erkenntnis, dass globale Erfahrung manchmal am besten mit einem Augenzwinkern verstanden werden kann.",
-   "endDate": "2026-10-29T22:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/GRT51mvEQDmiWajkyUkX_ist-das-so-ublich-banner-nele-mathew.jpeg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10243",
-     "streetAddress": "Palisadenstraße 48"
-    },
-    "name": "Die Göre - Original Berliner Comedy- und Showclub"
-   },
-   "name": "Nele Mathew: Stand-up Comedy Solo - Ist das so üblich?",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "18.00",
-    "lowPrice": "14.00",
-    "offerCount": 2,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "18.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Studierende",
-      "price": "14.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Nele Mathew"
-   },
-   "startDate": "2026-10-29T19:30+0100"
-  }
  }
 }

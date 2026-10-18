@@ -858,37 +858,57 @@
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/restaurantweek-berlin-drei-gange-menus-zum-festivalpreis-281-0/": {
-  "fetched": "2026-10-18T11:49:40+02:00",
+ "https://rausgegangen.de/events/zehn-platze-ein-apartment-buchdebut-eins-und-alles-lesetour-0/": {
+  "fetched": "2026-10-18T13:45:47+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Dieses kurze Zögern vor einer Restaurantreservierung kennen leider alle. Die RestaurantWeek nimmt genau das raus, mit eigens zusammengestellten Drei Gängen zum festen Preis in teilnehmenden Restaurants 🙂",
-   "endDate": "2026-11-22T00:00+0100",
+   "description": "„Mit dem Glanz in den Augen auf ewig spielen.\" Lesungen zu meinem philosophischen BuchdebütDu multidimensionales Wesen, du. Du hast eine Version von dir erschaffen, die die Leute lieben und die du dadurch mit liebst. Die, aber doch nicht alles ist. Da geht doch noch mehr? Lassen wir unser Inneres mitentscheiden. Für mich, für dich, für uns.Worum es geht Am 20.11.2026 erscheint mein Buchdebüt » eins und alles «. Es ist eine Einladung, den universellen Geist greifbarer zu machen. Du tauchst in meine laut ausgeschriebenen Impulse ein, zu Themen, die uns wohl alle beschäftigen: Liebe, Verlust, Identität und Selbstfindung. Zwischen Sachtext, Lyrik und Bewusstsein entsteht eine Sprache der Essenz, um dem eigenen Inneren zu begegnen.Eine Lesung zu jeder Jahreszeit Zu jeder Jahreszeit wird es Lesungen geben, ich nehme dich mit an die Orte, an denen ich zu dieser Zeit gerne bin. Den Anfang macht der Winter.Der Winter ist da, um Ruhe zu tanken, zu reflektieren und mehr denn je für sich und die eigenen Bedürfnisse da zu sein. Die Mit-Natur macht es vor: Viele Bäume lassen ihre Blätter los und geben die meiste Kraft in die Wurzeln, um dort zur Ruhe zu kommen. Und ganz ehrlich: Es gibt keine Jahreszeit, in der ich lieber zuhause bin, mich wie ein Kokon in meine Decke einkuschle und Tee trinke. Also dachte ich, ich muss nicht neu erfinden, was sowieso nicht sein soll. Somit lade ich dich in ein Micro-Apartment des Aparthotels ein, in dem ich arbeite. Du bekommst eine Kuscheldecke, wir trinken Tee, ich lese ein bisschen vor und wir tauschen uns aus.Was dich erwartetLesung ausgewählter Impulse aus meinem Buch, bestehend aus 3 AktenKleine Runde von maximal 10 PersonenZeit für AustauschMicro-Apartment mit Tee und DeckeGut zu wissenWann: Sa, 21.11.2026, 18:30 und 20:30 UhrWo: The Circus Living, BerlinPlätze: 10 Tickets: 5-11 €Buch: vor Ort zum Ladenpreis erhältlich, selbstverständlich mit SignaturBitte komm nur mit Ticket, die Lesung ist auf 10 Plätze begrenzt.ἐν τῷ παν · en to pan · eins und alles · one and allMein Buch widme ich mir und somit dir.",
+   "endDate": "2026-11-21T20:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/jjEJICYUTVKs7SN4XuSA_rw-logo-without-trademark-navy.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/eqxoQz4lQfyk78ozXKtl_c-stein-und-rost-a41x-3.png"
    ],
    "location": {
     "@type": "Place",
     "address": {
      "@type": "PostalAddress",
      "addressCountry": "DE",
-     "addressLocality": null,
-     "postalCode": null,
-     "streetAddress": null
+     "addressLocality": "Berlin",
+     "postalCode": "10243",
+     "streetAddress": "Krautstraße 30"
     },
-    "name": "Berlin"
+    "name": "THE CIRCUS LIVING"
    },
-   "name": "RestaurantWeek Berlin: Drei-Gänge-Menüs zum Festivalpreis, 28.10.–22.11.",
+   "name": "Zehn Plätze. Ein Apartment. » eins und alles «  Buchdebüt Lesung",
    "offers": {
-    "@type": "Offer",
-    "price": "29.00",
-    "priceCurrency": "EUR",
-    "url": "https://restaurant-week.de/restaurantweek?utm_type=partner&utm_medium=email&utm_campaign=RWD26A&utm_content=Rausgegangen",
-    "validFrom": "2026-10-28T00:00+0100"
+    "@type": "AggregateOffer",
+    "highPrice": "11.20",
+    "lowPrice": "5.90",
+    "offerCount": 2,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "enjoy",
+      "price": "5.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "support+++",
+      "price": "11.20",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
    },
-   "startDate": "2026-10-28T00:00+0100"
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Jasmin Nadine Hassane"
+   },
+   "startDate": "2026-11-21T18:30+0100"
   }
  }
 }

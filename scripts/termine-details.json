@@ -1,6 +1,6 @@
 {
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
-  "fetched": "2026-10-18T01:40:27+02:00",
+  "fetched": "2026-10-18T07:49:06+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -177,39 +177,6 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/bln-reunion-indoor-festival-0/": {
-  "fetched": "2026-10-18T06:52:29+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "BLN REUNION INDOOR FESTIVAL Sa. 12.12.26 | Spindler & Klatt  LIVE ON STAGE: AKA AKA | K-PAUL | SASCHA BRAEMER | BLONDEE uvm.  3 Floors - 14 Acts - Show - Direkt an der Spree  Nach 4 ausverkauften Veranstaltungen im Strandbad Grünau freuen wir uns auf unsere erste Winter Edition - BLN REUNION INDOOR FESTIVAL am 12.12.26 im Spindler & Klatt - 3 Floors - 14 Acts. Eine Nacht im Rausch.  Direkt an der Spree gelegen präsentiert sich das Spindler & Klatt als eine der schönsten Locations Berlins. Technik auf höchstem Niveau und ein einzigartiges Ambiente bieten einen perfekten Mikrokosmos für ein wundervolles elektronisches Event auf 3 Floors. Für das BLN Reunion Festival nutzen wir die neue Eventhalle des Spindler & Klatt, als perfekte Erweiterung.  Das Line-Up besteht aus jahrelangen Begleitern unserer Festivals und verspricht eine wilde Party!  MUSIC AUF 3 FLOORS:AKA AKA K-PAUL SASCHA BRAEMER BLONDEE OSTEKKE NICO CASCEUR DJOY WAIKIKI MAX LINDEMANN DEFJAM TOM KLANG MAYZE FORCE POKAFACE  Tickets hier: www.bln-reunion.de  i️ Einlass: 21 Uhr | ab 18 Jahren  🎫 Alle Infos & Tickets hier: www.bln-reunion.de  Bitte Tickets im Vorverkauf sichern! Abendkasse nur falls nicht ausverkauft!  📍 Spindler & Klatt, Köpenicker Str. 16-17 -17, 10997 Berlin",
-   "endDate": "2026-12-13T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/UByHSSIrQtq4vum0PE35_bln1920x1080variantec.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10997",
-     "streetAddress": "Köpenicker Straße 16"
-    },
-    "name": "Spindler & Klatt"
-   },
-   "name": "BLN REUNION INDOOR FESTIVAL - AKA AKA, K-Paul, Sascha Braemer, Blondee uvm.",
-   "offers": {
-    "@type": "Offer",
-    "price": "22.90",
-    "priceCurrency": "EUR",
-    "url": "https://open-air-berlin.ticket.io/ZO7IuWhk/",
-    "validFrom": "2026-12-12T21:00+0100"
-   },
-   "startDate": "2026-12-12T21:00+0100"
-  }
- },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
   "fetched": "2026-10-18T04:51:16+02:00",
   "ld": {
@@ -292,7 +259,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-1/": {
-  "fetched": "2026-10-18T01:40:27+02:00",
+  "fetched": "2026-10-18T07:49:06+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -336,7 +303,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
-  "fetched": "2026-10-18T01:40:27+02:00",
+  "fetched": "2026-10-18T07:49:06+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -380,7 +347,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
-  "fetched": "2026-10-18T01:40:27+02:00",
+  "fetched": "2026-10-18T07:49:06+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -424,7 +391,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-20/": {
-  "fetched": "2026-10-18T01:40:27+02:00",
+  "fetched": "2026-10-18T07:49:06+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -468,7 +435,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-21/": {
-  "fetched": "2026-10-18T01:40:27+02:00",
+  "fetched": "2026-10-18T07:49:06+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -512,7 +479,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-22/": {
-  "fetched": "2026-10-18T01:40:27+02:00",
+  "fetched": "2026-10-18T07:49:06+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -556,7 +523,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
-  "fetched": "2026-10-18T01:40:27+02:00",
+  "fetched": "2026-10-18T07:49:06+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -600,7 +567,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
-  "fetched": "2026-10-18T01:40:27+02:00",
+  "fetched": "2026-10-18T07:49:06+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -694,7 +661,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-brunch-sponsored-by-fritz-kola-halloween-edition-0/": {
-  "fetched": "2026-10-18T01:40:27+02:00",
+  "fetched": "2026-10-18T07:49:06+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -733,7 +700,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-brunch-sponsored-by-fritz-kola-winter-edition-0/": {
-  "fetched": "2026-10-18T01:40:27+02:00",
+  "fetched": "2026-10-18T07:49:06+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -890,5 +857,43 @@
   },
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
+ },
+ "https://rausgegangen.de/events/keo-3/": {
+  "fetched": "2026-10-18T07:49:06+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Früher standen Finn und Conor Keogh noch in britischen Pubs auf der Bühne, jetzt klingt Keo nach deutlich lauteren Gitarren und offener Kante. Viel Alternative Rock, aber ohne Schutzschild 👀",
+   "endDate": "2027-04-11T06:00+0200",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Jg1vNdRjIbgCaKFsFpQK_press-photo-keobehappydigiv1judeharrison-39-klein.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "12051",
+     "streetAddress": "Hermannstraße 146"
+    },
+    "name": "HOLE"
+   },
+   "name": "Keo",
+   "offers": {
+    "@type": "Offer",
+    "price": "29.30",
+    "priceCurrency": "EUR",
+    "url": "https://www.eventim.de/noapp/event/keo-hole-44-22217130/?affiliate=SZ3&utm_campaign=SzeneTickets+GmbH&utm_source=SZ3&utm_medium=dp",
+    "validFrom": "2027-04-10T20:00+0200"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Trinity Music",
+    "url": "https://rausgegangen.de/organizations/trinity-music-ah-4tam/"
+   },
+   "startDate": "2027-04-10T20:00+0200"
+  }
  }
 }

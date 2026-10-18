@@ -177,16 +177,16 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/anna-erhard-1000-sheep-tour-2027-5/": {
-  "fetched": "2026-10-18T19:44:59+02:00",
+ "https://rausgegangen.de/events/bodies-baddies-community-edition-0/": {
+  "fetched": "2026-10-18T20:51:56+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Alltagsbeobachtungen, Reisen, Zufallsbegegnungen, daraus baut Anna Erhard ihre Songs. Mit der Single 1000 Sheep schlägt die in Berlin lebende Schweizer Musikerin das nächste Kapitel auf 👀",
-   "endDate": "2027-03-20T05:00+0100",
+   "description": "Bodies & Baddies setzt auf eine queere Community Edition mit viel Energie und einem klar offenen Anspruch für Queers, Girls, Gays, Theys, Lovers und Allies. Mit DJ Sets von Christopher King und Ocean plus Performances von Corazón Angel und Calysta Sun wird das eine dichte Nacht auf einem Floor, bei der Du tanzen, flirten und einfach mit Deiner Crew aufgehen kannst 🌈",
+   "endDate": "2026-10-25T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/BFIujDZqRCuWHmLjNatZ_anna-erhard-hp-1270x700-px.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/WD7uXNJgRTCPq06DrnRN_rausgegangenbnball.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -194,29 +194,73 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10245",
-     "streetAddress": "Revaler Strasse 99"
+     "postalCode": "10777",
+     "streetAddress": "Nollendorfplatz 5"
     },
-    "name": "Badehaus Berlin"
+    "name": "Metropol"
    },
-   "name": "Anna Erhard | 1000 Sheep Tour 2027",
+   "name": "BODIES & BADDIES // The Pop House Party in Berlin",
    "offers": {
-    "@type": "Offer",
-    "price": "24.90",
-    "priceCurrency": "EUR",
-    "url": "https://www.eventim.de/noapp/event/anna-erhard-1000-sheep-tour-2027-badehaus-raw-gelaende-eingang-simon-dach-str--22176999/?affiliate=KSG&utm_campaign=Schoneberg&utm_source=KSG&utm_medium=dp",
-    "validFrom": "2027-03-19T19:00+0100"
+    "@type": "AggregateOffer",
+    "highPrice": "21.80",
+    "lowPrice": "11.20",
+    "offerCount": 6,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Early Bird",
+      "price": "11.20",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Group Tickets First Wave",
+      "price": "14.38",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "First Wave",
+      "price": "16.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Group Tickets Second Wave",
+      "price": "17.56",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Second Wave",
+      "price": "19.68",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Last Wave",
+      "price": "21.80",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
    },
    "organizer": {
     "@type": "Organization",
-    "name": "Konzertbüro Schoneberg",
-    "url": "https://rausgegangen.de/organizations/schoneberg-konzerte/"
+    "name": "Ocean Eyes",
+    "url": "https://rausgegangen.de/organizations/ocean-eyes/"
    },
    "performer": {
     "@type": "PerformingGroup",
-    "name": "Anna Erhard"
+    "name": "Ocean"
    },
-   "startDate": "2027-03-19T19:00+0100"
+   "startDate": "2026-10-24T23:00+0200"
   }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {

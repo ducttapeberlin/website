@@ -89,7 +89,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-10-18T03:04:06+02:00",
+  "fetched": "2026-10-18T09:49:14+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -176,92 +176,6 @@
   },
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/bodies-baddies-community-edition-0/": {
-  "fetched": "2026-10-18T09:02:07+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Bodies & Baddies setzt auf eine queere Community Edition mit viel Energie und einem klar offenen Anspruch für Queers, Girls, Gays, Theys, Lovers und Allies. Mit DJ Sets von Christopher King und Ocean plus Performances von Corazón Angel und Calysta Sun wird das eine dichte Nacht auf einem Floor, bei der Du tanzen, flirten und einfach mit Deiner Crew aufgehen kannst 🌈",
-   "endDate": "2026-10-25T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/WD7uXNJgRTCPq06DrnRN_rausgegangenbnball.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10777",
-     "streetAddress": "Nollendorfplatz 5"
-    },
-    "name": "Metropol"
-   },
-   "name": "BODIES & BADDIES // The Pop House Party in Berlin",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "21.80",
-    "lowPrice": "11.20",
-    "offerCount": 6,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Early Bird",
-      "price": "11.20",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Group Tickets First Wave",
-      "price": "14.38",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "First Wave",
-      "price": "16.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Group Tickets Second Wave",
-      "price": "17.56",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Second Wave",
-      "price": "19.68",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Last Wave",
-      "price": "21.80",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Ocean Eyes",
-    "url": "https://rausgegangen.de/organizations/ocean-eyes/"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Ocean"
-   },
-   "startDate": "2026-10-24T23:00+0200"
-  }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
   "fetched": "2026-10-18T04:51:16+02:00",
@@ -697,7 +611,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-10-18T03:04:06+02:00",
+  "fetched": "2026-10-18T09:49:14+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -828,7 +742,7 @@
   }
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-10-18T03:04:06+02:00",
+  "fetched": "2026-10-18T09:49:14+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -943,5 +857,38 @@
   },
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
+ },
+ "https://rausgegangen.de/events/rockfrannz-5/": {
+  "fetched": "2026-10-18T09:49:14+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Mainfloor: Classic Rock & Beyond mit DJ Mig & DJ StanLoungefloor: Pop Non-Stop mit Danny D.Salon: Lautstark mit DJ SpyDer Rock in all' seinen Facetten ist zurück im Frannz! Stan & Mig, unser Double-Trouble DJ Duo der Herzen, rockt mit euch auf dem Mainfloor durch die Nacht! Classic Rock & Beyond von Benson Boone über Foo Fighters bis QOTSA... alles was das Rockerherz rhythmisch flimmern & den Tanzboden beben lässt. Der \"Lautstark\"-Salon nimmt sich der härteren Gangart an und lässt Gitarren Wände flirren & Doublebass Infernos wahr werden. Rock spielt klar die Hauptrolle auf dem Mainfloor und im Salon, aber auch 'nen Oskar an den besten Nebendarsteller in der Lounge wollen wir uns verdienen: dort bieten wir Pop- Non Stop zur Abwechslung!",
+   "endDate": "2026-10-24T06:00+0200",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/lBxNQ5NYQXSRTnFm1SFp_rock-at-oktober.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10435",
+     "streetAddress": "Schönhauser Allee 36"
+    },
+    "name": "frannz club berlin"
+   },
+   "name": "Rock@Frannz",
+   "offers": {
+    "@type": "Offer",
+    "price": "10.00",
+    "priceCurrency": "EUR",
+    "url": "https://shop.copilot.events/frannz/events/5b806e92-d70a-40a0-a98a-6f604ffdd282",
+    "validFrom": "2026-10-23T21:00+0200"
+   },
+   "startDate": "2026-10-23T21:00+0200"
+  }
  }
 }

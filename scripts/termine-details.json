@@ -177,6 +177,39 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/bln-reunion-indoor-festival-0/": {
+  "fetched": "2026-10-18T06:52:29+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "BLN REUNION INDOOR FESTIVAL Sa. 12.12.26 | Spindler & Klatt  LIVE ON STAGE: AKA AKA | K-PAUL | SASCHA BRAEMER | BLONDEE uvm.  3 Floors - 14 Acts - Show - Direkt an der Spree  Nach 4 ausverkauften Veranstaltungen im Strandbad Grünau freuen wir uns auf unsere erste Winter Edition - BLN REUNION INDOOR FESTIVAL am 12.12.26 im Spindler & Klatt - 3 Floors - 14 Acts. Eine Nacht im Rausch.  Direkt an der Spree gelegen präsentiert sich das Spindler & Klatt als eine der schönsten Locations Berlins. Technik auf höchstem Niveau und ein einzigartiges Ambiente bieten einen perfekten Mikrokosmos für ein wundervolles elektronisches Event auf 3 Floors. Für das BLN Reunion Festival nutzen wir die neue Eventhalle des Spindler & Klatt, als perfekte Erweiterung.  Das Line-Up besteht aus jahrelangen Begleitern unserer Festivals und verspricht eine wilde Party!  MUSIC AUF 3 FLOORS:AKA AKA K-PAUL SASCHA BRAEMER BLONDEE OSTEKKE NICO CASCEUR DJOY WAIKIKI MAX LINDEMANN DEFJAM TOM KLANG MAYZE FORCE POKAFACE  Tickets hier: www.bln-reunion.de  i️ Einlass: 21 Uhr | ab 18 Jahren  🎫 Alle Infos & Tickets hier: www.bln-reunion.de  Bitte Tickets im Vorverkauf sichern! Abendkasse nur falls nicht ausverkauft!  📍 Spindler & Klatt, Köpenicker Str. 16-17 -17, 10997 Berlin",
+   "endDate": "2026-12-13T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/UByHSSIrQtq4vum0PE35_bln1920x1080variantec.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10997",
+     "streetAddress": "Köpenicker Straße 16"
+    },
+    "name": "Spindler & Klatt"
+   },
+   "name": "BLN REUNION INDOOR FESTIVAL - AKA AKA, K-Paul, Sascha Braemer, Blondee uvm.",
+   "offers": {
+    "@type": "Offer",
+    "price": "22.90",
+    "priceCurrency": "EUR",
+    "url": "https://open-air-berlin.ticket.io/ZO7IuWhk/",
+    "validFrom": "2026-12-12T21:00+0100"
+   },
+   "startDate": "2026-12-12T21:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
   "fetched": "2026-10-18T04:51:16+02:00",
   "ld": {
@@ -739,55 +772,6 @@
     "name": "Harpy Fatale"
    },
    "startDate": "2026-11-15T12:00+0100"
-  }
- },
- "https://rausgegangen.de/events/halloween-bingo-carnivoren-edition-0/": {
-  "fetched": "2026-10-18T05:53:24+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Bingo mit fleischfressenden Pflanzen ist schon als Satz ein kleiner Halloweenfiebertraum. Bei Plant Bingo gehst Du auf jeden Fall mit einer Carnivorin nach Hause, und nach den Runden geht der Abend direkt in eine Party mit Depeche Mode und The Cure über 👀",
-   "endDate": "2026-10-30T22:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/gtekNWokTTaRYoxqcu0u_54asset-3.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10435",
-     "streetAddress": "Schönhauser Allee 36"
-    },
-    "name": "frannz club berlin"
-   },
-   "name": "Plant Bingo Berlin Halloween-Edition Carnivoren",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "25.00",
-    "lowPrice": "20.00",
-    "offerCount": 2,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Early Bird",
-      "price": "20.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "25.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "startDate": "2026-10-30T19:00+0100"
   }
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {

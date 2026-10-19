@@ -177,8 +177,40 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/berlin-premiere-von-identitti-0/": {
+  "fetched": "2026-10-19T21:04:50+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Eine Dozentin, die sich als Deutsche statt als Inderin entpuppt, und plötzlich steht alles auf dem Spiel, was Nivedita über Zugehörigkeit glaubt. Zur Berlin Premiere kommen Regisseurin Randa Chahoud und die drei Hauptdarsteller:innen 👀",
+   "endDate": "2026-11-11T23:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/UpkPFnCOQwa1jeFARHMh_design-ohne-titel-3.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10407",
+     "streetAddress": "Bötzowstraße 1-5"
+    },
+    "name": "Filmtheater am Friedrichshain"
+   },
+   "name": "Berlin-Premiere von IDENTITTI",
+   "offers": {
+    "@type": "Offer",
+    "price": "14.00",
+    "priceCurrency": "EUR",
+    "validFrom": "2026-11-11T20:00+0100"
+   },
+   "startDate": "2026-11-11T20:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-10-19T13:57:57+02:00",
+  "fetched": "2026-10-19T21:04:50+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -186,7 +218,7 @@
    "endDate": "2026-11-29T06:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/jkL2hXlVRB6TpfOiUqpg_2aac9eb8-68c5-4afa-8eae-ea27f7042b9d.jpeg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/yyizeY8Taud3Pn9tEp14_7fa16b50-b981-4b8c-99ba-6940d6f0ac8c.png"
    ],
    "location": {
     "@type": "Place",
@@ -739,60 +771,6 @@
     "name": "Harpy Fatale"
    },
    "startDate": "2026-11-15T12:00+0100"
-  }
- },
- "https://rausgegangen.de/events/gay-panic-alter-ego-0/": {
-  "fetched": "2026-10-19T19:51:55+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Zwischen Drag und Whacking geht es bei GAY PANIC diesmal ums Alter Ego, also um die Seite von Dir, die sonst eher unter dem Bett wohnt. Dahinter steckt eine queere Partyreihe, die vor allem FLINTA und queer Artists Platz macht und auf Awareness achtet 🌈",
-   "endDate": "2026-10-26T02:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/DTtkItOzTi4xeMDmEW5l_bannerrausgegangenbanner-copy.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10245",
-     "streetAddress": "Revaler Str. 99"
-    },
-    "name": "Crack Bellmer"
-   },
-   "name": "GAY PANIC: Alter Ego",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "15.00",
-    "lowPrice": "10.00",
-    "offerCount": 2,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Pre Sale",
-      "price": "12.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Soli",
-      "price": "5.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "GAY PANIC",
-    "url": "https://rausgegangen.de/organizations/gay-panic/"
-   },
-   "startDate": "2026-10-25T19:00+0100"
   }
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {

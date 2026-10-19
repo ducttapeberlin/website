@@ -178,7 +178,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-10-19T07:54:24+02:00",
+  "fetched": "2026-10-19T13:57:57+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -858,37 +858,37 @@
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/restaurantweek-berlin-drei-gange-menus-zum-festivalpreis-281-0/": {
-  "fetched": "2026-10-19T12:54:25+02:00",
+ "https://rausgegangen.de/events/ocean-bound-1/": {
+  "fetched": "2026-10-19T13:57:57+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Dieses kurze Zögern vor einer Restaurantreservierung kennen leider alle. Die RestaurantWeek nimmt genau das raus, mit eigens zusammengestellten Drei Gängen zum festen Preis in teilnehmenden Restaurants 🙂",
-   "endDate": "2026-11-22T00:00+0100",
+   "description": "Küstenlinien verändern sich bis zur Unkenntlichkeit; vertraute Landschaften verschwinden. Vor dem Hintergrund des Klimawandels und des Verlusts von Umgebungen, mit denen wir verbunden sind und die uns zusammenhalten, widmet sich der rumänische Choreograf Sergiu Matis in seiner neuen Arbeit „Ocean Bound“ der Frage, wie bewegte Bilder auf bewegte Körper wirken.Eigens für das Projekt entstandenes Videomaterial richtet den Blick auf Lebensräume an der Schnittstelle von Land und Meer, menschlicher Besiedlung und Wald – Orte, an denen steigende Wasserstände durch die Abholzung von Mangrovenwäldern, Küstenerosion und Veränderungen der Gezeiten das Leben zunehmend prägen. Publikum und Performer*innen bewegen sich zwischen unterschiedlichen Videoprojektionen frei auf der Bühne und erzeugen eine Choreografie, in der Körper und Bilder innerhalb einer gemeinsamen, vom Ozean geprägten Umgebung miteinander verwoben werden.„Ocean Bound“ schafft Raum für das tiefe Gefühl von Verlust und für Formen des Trauerns, für die uns Sprache und Rituale fehlen. Die Körper der Performer*innen werden von den komplexen Emotionen ökologischer Trauer bewegt. So entsteht eine Choreografie an der Grenze zwischen Digitalem und Analogem, zwischen Dokumentation und Fiktion – und gibt Raum, um das Gewicht des Verlusts zu tragen, zu trauern und aus den Fragmenten eine bewegende, hoffnungsvolle und poetische Sprache zu entwickeln.",
+   "endDate": "2026-10-30T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/jjEJICYUTVKs7SN4XuSA_rw-logo-without-trademark-navy.png"
+    "https://rausgegangen.s3.amazonaws.com/vo178knl9swb.png"
    ],
    "location": {
     "@type": "Place",
     "address": {
      "@type": "PostalAddress",
      "addressCountry": "DE",
-     "addressLocality": null,
-     "postalCode": null,
-     "streetAddress": null
+     "addressLocality": "Berlin",
+     "postalCode": "10243",
+     "streetAddress": "Holzmarktstr. 33"
     },
-    "name": "Berlin"
+    "name": "Radialsystem"
    },
-   "name": "RestaurantWeek Berlin: Drei-Gänge-Menüs zum Festivalpreis, 28.10.–22.11.",
+   "name": "Ocean Bound",
    "offers": {
     "@type": "Offer",
-    "price": "29.00",
+    "price": 0,
     "priceCurrency": "EUR",
-    "url": "https://restaurant-week.de/restaurantweek?utm_type=partner&utm_medium=email&utm_campaign=RWD26A&utm_content=Rausgegangen",
-    "validFrom": "2026-10-28T00:00+0100"
+    "url": "https://pretix.eu/radialsystem/snxxl/",
+    "validFrom": "2026-10-29T20:00+0100"
    },
-   "startDate": "2026-10-28T00:00+0100"
+   "startDate": "2026-10-29T20:00+0100"
   }
  }
 }

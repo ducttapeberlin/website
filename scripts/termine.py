@@ -280,6 +280,30 @@ def add_breaks(s):
     return re.sub(r"(?<=[a-zäöüß])(?=[" + EMOJI + "] [A-ZÄÖÜ])", "\n\n", s)
 
 
+CREW = {"EMI", "Symba", "Magda von Pfeffer"}
+PARTICLES = {"von", "van", "de", "la", "le", "del", "da"}
+
+
+def performers(desc):
+    """Auftretende aus der Beschreibung ("Durch den Brunch führen euch: 👑 EMI 👑 Harpy Freut euch …").
+    Ein Name endet vor dem nächsten 👑, einem Emoji oder dem nächsten Satz (großes Wort, dann kleines Wort).
+    Steht das ganze Kollektiv drin, bleibt die Zeile leer (dann tritt einfach DUCT TAPE auf)."""
+    names = []
+    for seg in (desc or "").split("👑")[1:]:
+        words, out = seg.split(), []
+        for i, w in enumerate(words):
+            nxt = words[i + 1] if i + 1 < len(words) else ""
+            if re.search("[" + EMOJI + "]", w) or not (w[:1].isupper() or (w in PARTICLES and nxt[:1].isupper())):
+                break
+            if out and w[:1].isupper() and nxt[:1].islower() and nxt not in PARTICLES:
+                break
+            out.append(w)
+        name = " ".join(out).strip(" .,:;!")
+        if name and name not in names:
+            names.append(name)
+    return "" if CREW <= set(names) else ", ".join(names)
+
+
 def drive_direct(url):
     """Google-Drive-Freigabelink -> direkter Download-Link."""
     m = re.search(r"drive\.google\.com/(?:file/d/|open\?id=|uc\?(?:export=\w+&)?id=)([A-Za-z0-9_-]+)", url)
@@ -493,6 +517,7 @@ def to_row(url, ld):
         "Datum": f"{start:%d.%m.%Y}", "Beginn": f"{start:%H:%M}", "Ende": f"{end:%H:%M}" if end and end.date() == start.date() else "",
         "Format": tag, "Titel": tidy(title), "Location": tidy(re.sub(r"\s*\([^)]*\)", "", (ld.get("location") or {}).get("name", ""))),
         "Eventseite": url, "Tickets": tickets, "Beschreibung": clean_text(ld.get("description") or ""),
+        "Gäste": performers(clean_text(ld.get("description") or "")),
         "Poster": img if isinstance(img, str) else "",
         "_location": ld.get("location") if isinstance(ld.get("location"), dict) else None,
         "_price": offers.get("lowPrice") or offers.get("price") if isinstance(offers, dict) else None,

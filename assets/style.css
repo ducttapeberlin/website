@@ -794,3 +794,8 @@ a.event-tag { text-decoration: none; } a.event-tag:hover { opacity: .85; }
 .nav-sub a.nav-featured:hover { color: var(--black); background: #fff04d; }
 .nav-sub a.nav-featured + a { border-top: 0; }
 @media (max-width: 820px) { .nav-sub a.nav-featured { margin: 4px var(--gutter) 8px calc(var(--gutter) + 18px); color: var(--black); font-size: 14px; } }
+.cta-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+.btn-outline-dark { background: transparent; color: var(--black); border-color: var(--black); }
+.btn-outline-dark:hover { background: var(--black); color: var(--yellow); }
+.press-box a.btn { color: var(--black); text-decoration: none; margin-top: 4px; }
+.press-box a.btn:hover { color: var(--black); }

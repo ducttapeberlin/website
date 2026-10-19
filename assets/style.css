@@ -816,3 +816,7 @@ a.event-tag { text-decoration: none; } a.event-tag:hover { opacity: .85; }
   .nav-group.is-open .nav-sub { display: block; }
   .nav-sub a { padding-top: 12px; padding-bottom: 12px; }
 }
+
+/* Download-Symbol am Press Kit */
+.dl-ico { width: 1.05em; height: 1.05em; vertical-align: -.17em; margin-right: .35em; flex: none; }
+.btn .dl-ico { margin-right: 0; width: 18px; height: 18px; vertical-align: 0; }

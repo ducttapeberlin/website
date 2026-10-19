@@ -1,6 +1,6 @@
 {
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
-  "fetched": "2026-10-19T03:52:47+02:00",
+  "fetched": "2026-10-19T10:07:16+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -177,6 +177,48 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/anna-erhard-1000-sheep-tour-2027-5/": {
+  "fetched": "2026-10-19T10:07:16+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Alltagsbeobachtungen, Reisen, Zufallsbegegnungen, daraus baut Anna Erhard ihre Songs. Mit der Single 1000 Sheep schlägt die in Berlin lebende Schweizer Musikerin das nächste Kapitel auf 👀",
+   "endDate": "2027-03-20T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/BFIujDZqRCuWHmLjNatZ_anna-erhard-hp-1270x700-px.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10245",
+     "streetAddress": "Revaler Strasse 99"
+    },
+    "name": "Badehaus Berlin"
+   },
+   "name": "Anna Erhard | 1000 Sheep Tour 2027",
+   "offers": {
+    "@type": "Offer",
+    "price": "24.90",
+    "priceCurrency": "EUR",
+    "url": "https://www.eventim.de/noapp/event/anna-erhard-1000-sheep-tour-2027-badehaus-raw-gelaende-eingang-simon-dach-str--22176999/?affiliate=KSG&utm_campaign=Schoneberg&utm_source=KSG&utm_medium=dp",
+    "validFrom": "2027-03-19T19:00+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Konzertbüro Schoneberg",
+    "url": "https://rausgegangen.de/organizations/schoneberg-konzerte/"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Anna Erhard"
+   },
+   "startDate": "2027-03-19T19:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
   "fetched": "2026-10-19T07:54:24+02:00",
   "ld": {
@@ -259,7 +301,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-1/": {
-  "fetched": "2026-10-19T03:52:47+02:00",
+  "fetched": "2026-10-19T10:07:16+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -303,7 +345,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
-  "fetched": "2026-10-19T03:52:47+02:00",
+  "fetched": "2026-10-19T10:07:16+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -347,7 +389,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
-  "fetched": "2026-10-19T03:52:47+02:00",
+  "fetched": "2026-10-19T10:07:16+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -391,7 +433,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-20/": {
-  "fetched": "2026-10-19T03:52:47+02:00",
+  "fetched": "2026-10-19T10:07:16+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -435,7 +477,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-21/": {
-  "fetched": "2026-10-19T03:52:47+02:00",
+  "fetched": "2026-10-19T10:07:16+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -479,7 +521,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-22/": {
-  "fetched": "2026-10-19T03:52:47+02:00",
+  "fetched": "2026-10-19T10:07:16+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -523,7 +565,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
-  "fetched": "2026-10-19T03:52:47+02:00",
+  "fetched": "2026-10-19T10:07:16+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -567,7 +609,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
-  "fetched": "2026-10-19T03:52:47+02:00",
+  "fetched": "2026-10-19T10:07:16+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -661,7 +703,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-brunch-sponsored-by-fritz-kola-halloween-edition-0/": {
-  "fetched": "2026-10-19T03:52:47+02:00",
+  "fetched": "2026-10-19T10:07:16+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -700,7 +742,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-brunch-sponsored-by-fritz-kola-winter-edition-0/": {
-  "fetched": "2026-10-19T03:52:47+02:00",
+  "fetched": "2026-10-19T10:07:16+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",

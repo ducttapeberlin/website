@@ -172,6 +172,9 @@ def tag_html(row, cls="event-tag"):
     tag = (row.get("Format") or "").strip()
     if not tag:
         return ""
+    for motto in ("halloween", "winter", "christmas"):  # Brunch-Ausgaben bekommen ihr eigenes Etikett-Design
+        if motto in tag.lower():
+            cls += f" tag-{motto}"
     for slug, match in FORMAT_PAGES.items():
         if match(row) and (ROOT / f"{slug}.html").exists():
             return f'<a class="{cls}" href="{slug}">{esc(tag)}</a>'

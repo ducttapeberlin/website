@@ -766,3 +766,13 @@ main.legal { padding: var(--sec-y) 0; }
 .fmt-q a, .fmt-page .kv-sheet a { color: var(--yellow); }
 a.event-tag { text-decoration: none; } a.event-tag:hover { opacity: .85; }
 .offer-inline { color: inherit; text-decoration: underline; text-decoration-color: var(--yellow); text-underline-offset: 3px; }
+/* Drag Brunch: Titelbild (vorläufig, Emanuel sucht ein besseres) */
+.page-intro.intro-drag-brunch { background-image: url("img/brunch-hero.jpg"); background-position: 50% 30%; }
+/* Brunch-Etiketten im Motto der jeweiligen Ausgabe, gleiche Größe wie alle Etiketten */
+.event-tag.tag-halloween { background: #F07F13; color: #160A00; }
+.event-tag.tag-winter { background: #D8ECFF; color: #0A3561; }
+.event-tag.tag-christmas { background: #B3122C; color: #fff; box-shadow: inset 0 -3px 0 #1F7A3A; }
+.event-tag.tag-halloween::before, .event-tag.tag-winter::before, .event-tag.tag-christmas::before { display: inline-block; margin-right: 5px; font-size: 1em; line-height: 1; letter-spacing: 0; }
+.event-tag.tag-halloween::before { content: "🦇"; }
+.event-tag.tag-winter::before { content: "❄️"; }
+.event-tag.tag-christmas::before { content: "🎄"; }

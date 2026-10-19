@@ -1,6 +1,6 @@
 {
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
-  "fetched": "2026-10-19T10:07:16+02:00",
+  "fetched": "2026-10-19T17:00:01+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -177,6 +177,62 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/another-drag-show-with-paige-three-and-pitita-0/": {
+  "fetched": "2026-10-19T17:00:01+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "🎉 ANOTHER DRAG SHOW WITH PITITA  AND PAIGE THREE- 22.10.2026  🎟️ TICKETS ON RAUSGEGANGEN – LIMITED SPACEWHERE? THE SOCIAL HUB BERLIN!  EARLY ENTRY: 18:30 ENTRY: 19:00📅 SAVE THE DATE – It’s time to celebrate queer excellence, Berlin-style.💋 This isn’t just any drag show – it’s Bella Troia’s DRAG EXCELLENCE BASH, and she’s bringing an explosive lineup to the stage for a night of performances, party, and pure energy.🌟 FEATURING:⭐️ PITITA ( Winner of Drag Race España)⭐️ PAIGE THREE Rupaul's Drag Race UK Star Get ready, Berlin! The sensational  Pitita and Paige Three – are touching down for one night only. Expect elegance, attitude, and unforgettable performance from these superstars. 🔥👠💄 OPEN STAGE The night kicks off with an open stage segment for rising stars and fresh talent. Want to perform? Stay tuned to Bella’s socials – details dropping soon.🎤 HOSTED BY BELLA TROIA The Latinx Hurricane Monster of Berlin ! 💖 WHY YOU CAN’T MISS THIS: 🔥 A one-night-only birthday drag extravaganza 👑 International star power meets Berlin talent 💅 Open stage, wild energy, and unforgettable performancesWhether you’re performing, partying, or both – come early, stay loud, and leave legendary.",
+   "endDate": "2026-10-23T06:00+0200",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/MPRp4Lb6QTKVOQDZcRod_november-another-drag-show-prasentation.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10179",
+     "streetAddress": "Alexanderstraße 40"
+    },
+    "name": "The Social Hub"
+   },
+   "name": "ANOTHER DRAG SHOW WITH PITITA AND PAIGE THREE",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 3,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regular",
+      "price": "23.92",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Last Minute",
+      "price": "27.10",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "TEMPORARY SALE",
+      "price": "18.50",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "startDate": "2026-10-22T19:00+0200"
+  }
+ },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
   "fetched": "2026-10-19T13:57:57+02:00",
   "ld": {
@@ -259,7 +315,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-1/": {
-  "fetched": "2026-10-19T10:07:16+02:00",
+  "fetched": "2026-10-19T17:00:01+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -303,7 +359,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
-  "fetched": "2026-10-19T10:07:16+02:00",
+  "fetched": "2026-10-19T17:00:01+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -347,7 +403,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
-  "fetched": "2026-10-19T10:07:16+02:00",
+  "fetched": "2026-10-19T17:00:01+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -391,7 +447,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-20/": {
-  "fetched": "2026-10-19T10:07:16+02:00",
+  "fetched": "2026-10-19T17:00:01+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -435,7 +491,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-21/": {
-  "fetched": "2026-10-19T10:07:16+02:00",
+  "fetched": "2026-10-19T17:00:01+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -479,7 +535,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-22/": {
-  "fetched": "2026-10-19T10:07:16+02:00",
+  "fetched": "2026-10-19T17:00:01+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -523,7 +579,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
-  "fetched": "2026-10-19T10:07:16+02:00",
+  "fetched": "2026-10-19T17:00:01+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -567,7 +623,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
-  "fetched": "2026-10-19T10:07:16+02:00",
+  "fetched": "2026-10-19T17:00:01+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -661,7 +717,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-brunch-sponsored-by-fritz-kola-halloween-edition-0/": {
-  "fetched": "2026-10-19T10:07:16+02:00",
+  "fetched": "2026-10-19T17:00:01+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -700,7 +756,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-brunch-sponsored-by-fritz-kola-winter-edition-0/": {
-  "fetched": "2026-10-19T10:07:16+02:00",
+  "fetched": "2026-10-19T17:00:01+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -857,47 +913,5 @@
   },
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/joy-oladokun-5/": {
-  "fetched": "2026-10-19T16:04:31+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Zwischen Folk und Pop legt Joy Oladokun gerade die Klänge nach vorn, mit denen sie aufgewachsen ist. Die queere Songwriterin aus Nashville schreibt dabei über Identität, Glauben und mentale Gesundheit 🌈",
-   "endDate": "2027-04-21T23:45+0200",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Oxu1N7CERb2gKwJOydID_jo-ig-fb-banner.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10435",
-     "streetAddress": "Schönhauser Allee 36"
-    },
-    "name": "frannz club berlin"
-   },
-   "name": "Joy Oladokun",
-   "offers": {
-    "@type": "Offer",
-    "price": "27.00",
-    "priceCurrency": "EUR",
-    "url": "https://link.dice.fm/ub1736915e00",
-    "validFrom": "2027-04-21T20:00+0200"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Z|ART Agency",
-    "url": "https://rausgegangen.de/organizations/zart-agency-gmbh/"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Joy Oladokun"
-   },
-   "startDate": "2027-04-21T20:00+0200"
-  }
  }
 }

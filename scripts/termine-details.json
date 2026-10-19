@@ -741,6 +741,62 @@
    "startDate": "2026-11-15T12:00+0100"
   }
  },
+ "https://rausgegangen.de/events/fritzsessions-26/": {
+  "fetched": "2026-10-19T03:05:48+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Zwischen Hyperpop, Pop und Rap steht kein sauberer Strich, eher fünf Leute, die ihr eigenes Ding mitbringen. Bei den FritzSessions treffen unter anderem Amélia, Dueja und Katlix aufeinander, also ein Abend für offene Ohren 👀",
+   "endDate": "2026-11-10T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/8Y9wBoTBRr29567OaXR9_16x9fritzsessions051026-5-artists.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10997",
+     "streetAddress": "Schlesische Strasse 2"
+    },
+    "name": "Bi Nuu"
+   },
+   "name": "FritzSessions mit Amélia, Tara Emely, Dueja & Katlix",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "14.00",
+    "priceCurrency": "EUR",
+    "url": "https://t.rausgegangen.de/tickets/fritzsessions-20",
+    "validFrom": "2026-10-04T15:05+0200"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "FritzSessions",
+     "url": "https://rausgegangen.de/organizations/page-for-team-fritzsessions/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Fritz vom rbb",
+     "url": "https://rausgegangen.de/organizations/fritz-vom-rbb/"
+    }
+   ],
+   "performer": [
+    {
+     "@type": "PerformingGroup",
+     "name": "DUEJA"
+    },
+    {
+     "@type": "PerformingGroup",
+     "name": "KATLIX"
+    }
+   ],
+   "startDate": "2026-11-09T19:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
   "fetched": "2026-10-18T23:47:16+02:00",
   "ld": {

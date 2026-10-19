@@ -43,8 +43,8 @@ if (list && !upcoming.length && !document.querySelector('.featured') && !list.qu
 }
 // Lange Liste kürzen: neben dem Featured-Event erst 4 Termine, "Weitere Termine" zeigt 4 mehr,
 // danach führt "Alle Termine anzeigen" auf die Termine-Seite mit Postern und Beschreibungen
-const SHOW = 4;
 const fmtPage = !!list?.closest('.fmt-dates');
+const SHOW = fmtPage ? 3 : 4;
 if (list && upcoming.length) {
   const actions = document.createElement('div');
   actions.className = 'events-actions';

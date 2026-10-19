@@ -767,7 +767,14 @@ main.legal { padding: var(--sec-y) 0; }
 a.event-tag { text-decoration: none; } a.event-tag:hover { opacity: .85; }
 .offer-inline { color: inherit; text-decoration: underline; text-decoration-color: var(--yellow); text-underline-offset: 3px; }
 /* Drag Brunch: Titelbild (vorläufig, Emanuel sucht ein besseres) */
-.page-intro.intro-drag-brunch { background-image: url("img/brunch-hero.jpg"); background-position: 50% 30%; }
+.page-intro.intro-drag-brunch { overflow: hidden; }
+/* Wie die Startseite: Foto nur rechts, nach links ins Schwarze ausgeblendet */
+.page-intro.intro-drag-brunch::after { content: ""; position: absolute; top: 0; right: 0; bottom: 0; width: 60%; z-index: -2; background: url("img/brunch-hero.jpg") center 30% / cover no-repeat; opacity: .85; }
+.page-intro.intro-drag-brunch::before { background: linear-gradient(90deg, rgba(11,11,11,1) 0%, rgba(11,11,11,1) 40%, rgba(11,11,11,.55) 58%, rgba(11,11,11,0) 85%), linear-gradient(0deg, rgba(11,11,11,1) 0%, rgba(11,11,11,0) 35%); }
+@media (max-width: 760px) {
+  .page-intro.intro-drag-brunch::after { width: 100%; }
+  .page-intro.intro-drag-brunch::before { background: linear-gradient(0deg, rgba(11,11,11,1) 0%, rgba(11,11,11,.75) 50%, rgba(11,11,11,.2) 100%); }
+}
 /* Brunch-Etiketten im Motto der jeweiligen Ausgabe, gleiche Größe wie alle Etiketten */
 .event-tag.tag-halloween { background: #F07F13; color: #160A00; }
 .event-tag.tag-winter { background: #D8ECFF; color: #0A3561; }

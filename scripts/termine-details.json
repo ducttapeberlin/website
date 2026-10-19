@@ -89,7 +89,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-10-19T05:59:09+02:00",
+  "fetched": "2026-10-19T12:54:25+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -611,7 +611,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-10-19T05:59:09+02:00",
+  "fetched": "2026-10-19T12:54:25+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -741,57 +741,8 @@
    "startDate": "2026-11-15T12:00+0100"
   }
  },
- "https://rausgegangen.de/events/halloween-bingo-carnivoren-edition-0/": {
-  "fetched": "2026-10-19T11:59:05+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Bingo mit fleischfressenden Pflanzen ist schon als Satz ein kleiner Halloweenfiebertraum. Bei Plant Bingo gehst Du auf jeden Fall mit einer Carnivorin nach Hause, und nach den Runden geht der Abend direkt in eine Party mit Depeche Mode und The Cure über 👀",
-   "endDate": "2026-10-30T22:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/gtekNWokTTaRYoxqcu0u_54asset-3.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10435",
-     "streetAddress": "Schönhauser Allee 36"
-    },
-    "name": "frannz club berlin"
-   },
-   "name": "Plant Bingo Berlin Halloween-Edition Carnivoren",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "25.00",
-    "lowPrice": "20.00",
-    "offerCount": 2,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Early Bird",
-      "price": "20.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "25.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "startDate": "2026-10-30T19:00+0100"
-  }
- },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-10-19T05:59:09+02:00",
+  "fetched": "2026-10-19T12:54:25+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -906,5 +857,38 @@
   },
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
+ },
+ "https://rausgegangen.de/events/restaurantweek-berlin-drei-gange-menus-zum-festivalpreis-281-0/": {
+  "fetched": "2026-10-19T12:54:25+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Dieses kurze Zögern vor einer Restaurantreservierung kennen leider alle. Die RestaurantWeek nimmt genau das raus, mit eigens zusammengestellten Drei Gängen zum festen Preis in teilnehmenden Restaurants 🙂",
+   "endDate": "2026-11-22T00:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/jjEJICYUTVKs7SN4XuSA_rw-logo-without-trademark-navy.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": null,
+     "postalCode": null,
+     "streetAddress": null
+    },
+    "name": "Berlin"
+   },
+   "name": "RestaurantWeek Berlin: Drei-Gänge-Menüs zum Festivalpreis, 28.10.–22.11.",
+   "offers": {
+    "@type": "Offer",
+    "price": "29.00",
+    "priceCurrency": "EUR",
+    "url": "https://restaurant-week.de/restaurantweek?utm_type=partner&utm_medium=email&utm_campaign=RWD26A&utm_content=Rausgegangen",
+    "validFrom": "2026-10-28T00:00+0100"
+   },
+   "startDate": "2026-10-28T00:00+0100"
+  }
  }
 }

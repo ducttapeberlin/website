@@ -802,3 +802,17 @@ a.event-tag { text-decoration: none; } a.event-tag:hover { opacity: .85; }
 .btn-outline-dark:hover { background: var(--black); color: var(--yellow); }
 .press-box a.btn { color: var(--black); text-decoration: none; margin-top: 4px; }
 .press-box a.btn:hover { color: var(--black); }
+
+/* Mobil-Menü als Akkordeon (Emanuel, 2026-10-19): Unterpunkte erst nach Antippen,
+   Menü scrollt selbst, Seite dahinter bleibt stehen */
+@media (max-width: 820px) {
+  .nav { max-height: calc(100dvh - 64px); overflow-y: auto; overscroll-behavior: contain; }
+  html.nav-locked, html.nav-locked body { overflow: hidden; }
+  .nav-group > a { position: relative; padding-right: calc(var(--gutter) + 28px); }
+  .nav-group > a::after { content: ""; position: absolute; right: var(--gutter); top: 50%; width: 9px; height: 9px; margin-top: -7px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(45deg); transition: transform .2s ease, margin .2s ease; }
+  .nav-group.is-open > a { color: var(--yellow); }
+  .nav-group.is-open > a::after { transform: rotate(-135deg); margin-top: -2px; }
+  .nav-group .nav-sub { display: none; padding-bottom: 8px; }
+  .nav-group.is-open .nav-sub { display: block; }
+  .nav-sub a { padding-top: 12px; padding-bottom: 12px; }
+}

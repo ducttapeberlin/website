@@ -22,11 +22,29 @@ addEventListener('load', () => { if (!userScrolled) goStart(); setTimeout(() => 
 const toggle = document.querySelector('.nav-toggle');
 const nav = document.getElementById('nav');
 if (toggle && nav) {
-  toggle.addEventListener('click', () => {
-    const open = nav.classList.toggle('open');
+  const mobile = matchMedia('(max-width: 820px)');
+  const groups = [...nav.querySelectorAll('.nav-group')];
+  const setOpen = open => {
+    nav.classList.toggle('open', open);
     toggle.setAttribute('aria-expanded', open);
+    document.documentElement.classList.toggle('nav-locked', open);
+    if (!open) groups.forEach(g => { g.classList.remove('is-open'); g.firstElementChild.setAttribute('aria-expanded', 'false'); });
+  };
+  toggle.addEventListener('click', () => setOpen(!nav.classList.contains('open')));
+  // Mobil: Hauptpunkte klappen ihre Unterpunkte auf (immer nur einer offen)
+  groups.forEach(g => {
+    const head = g.firstElementChild;
+    head.setAttribute('aria-expanded', 'false');
+    head.addEventListener('click', e => {
+      if (!mobile.matches) return;
+      e.preventDefault();
+      e.stopPropagation();
+      const open = !g.classList.contains('is-open');
+      groups.forEach(o => { o.classList.toggle('is-open', o === g && open); o.firstElementChild.setAttribute('aria-expanded', o === g && open); });
+    });
   });
-  nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => nav.classList.remove('open')));
+  nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => { if (!a.matches('.nav-group > a') || !mobile.matches) setOpen(false); }));
+  mobile.addEventListener('change', () => setOpen(false));
 }
 
 // Vergangene Termine ausblenden (auch Tage in Highlight-Karten), nächsten Termin oben anzeigen

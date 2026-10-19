@@ -44,6 +44,7 @@ if (list && !upcoming.length && !document.querySelector('.featured') && !list.qu
 // Lange Liste kürzen: neben dem Featured-Event erst 4 Termine, "Weitere Termine" zeigt 4 mehr,
 // danach führt "Alle Termine anzeigen" auf die Termine-Seite mit Postern und Beschreibungen
 const SHOW = 4;
+const fmtPage = !!list?.closest('.fmt-dates');
 if (list && upcoming.length) {
   const actions = document.createElement('div');
   actions.className = 'events-actions';
@@ -58,14 +59,15 @@ if (list && upcoming.length) {
     more.className = 'btn btn-ghost events-more';
     more.textContent = t('Weitere Termine anzeigen', 'Show more dates');
     more.addEventListener('click', () => {
-      upcoming.filter(ev => ev.classList.contains('is-more')).slice(0, SHOW).forEach(ev => ev.classList.remove('is-more'));
-      more.replaceWith(all);
+      // Format-Seiten (Drag Brunch usw.): alle eigenen Termine zeigen, kein Link auf alle Termine
+      upcoming.filter(ev => ev.classList.contains('is-more')).slice(0, fmtPage ? undefined : SHOW).forEach(ev => ev.classList.remove('is-more'));
+      fmtPage ? more.remove() : more.replaceWith(all);
     });
     actions.append(more);
-  } else {
+  } else if (!fmtPage) {
     actions.append(all);
   }
-  list.after(actions);
+  if (actions.children.length) list.after(actions);
 }
 // Menü "Events": erster Unterpunkt ist die Featured Show, falls es eine gibt
 const feat = document.querySelector('.featured');

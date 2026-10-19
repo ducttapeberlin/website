@@ -648,10 +648,10 @@ sup.reg { font-size: .6em; vertical-align: super; line-height: 0; margin-left: 1
 .kv-ms figure.kv-video.v-erste-show-2022 { max-width: 300px; }
 .kv-ms figure.kv-video.v-erste-show-2022 video { aspect-ratio: 4 / 5; height: auto; object-fit: cover; object-position: 50% 38%; }
 /* Über-uns-Menü: Queens eingerückt unter dem Kollektiv, Galerie/Presse abgesetzt */
-.nav-sub a.nav-queen { border-top: 0; padding-top: 7px; padding-bottom: 7px; padding-left: 30px; font-size: 13px; color: #CFCFCA; }
-.nav-sub a.nav-queen:hover, .nav-sub a.nav-queen[aria-current="page"] { color: var(--yellow); }
+.nav-sub a.nav-queen, .nav-sub a.nav-child { border-top: 0; padding-top: 7px; padding-bottom: 7px; padding-left: 30px; font-size: 13px; color: #CFCFCA; }
+.nav-sub a.nav-queen:hover, .nav-sub a.nav-queen[aria-current="page"], .nav-sub a.nav-child:hover, .nav-sub a.nav-child[aria-current="page"] { color: var(--yellow); }
 .nav-sub a.nav-sep { border-top: 1px solid #4A484C; margin-top: 8px; }
-@media (max-width: 820px) { .nav-sub a.nav-queen { padding-left: calc(var(--gutter) + 34px); font-size: 12px; } }
+@media (max-width: 820px) { .nav-sub a.nav-queen, .nav-sub a.nav-child { padding-left: calc(var(--gutter) + 34px); font-size: 12px; } }
 #lb-cap:empty { display: none; }
 /* Indien-Video im selben Format wie das Erste-Show-Video */
 .kv-ms figure.kv-video.v-indien-tour-2026 { max-width: 300px; }
@@ -749,3 +749,48 @@ main.legal { padding: var(--sec-y) 0; }
 .page-intro.has-bg h1, .page-intro.has-bg .lead { text-shadow: 0 2px 12px rgba(0,0,0,.9); }
 .page-intro.intro-anfrage { background-image: url("img/anfrage-hero.jpg"); background-position: 60% 35%; }
 @media (max-width: 760px) { .page-intro.intro-anfrage { background-image: url("img/anfrage-hero-m.jpg"); background-position: 75% 35%; } }
+/* Format-Seiten (Drag Brunch, Drag Bingo, Drag Shows) */
+.fmt-dates h2, .fmt-faq h2, .fmt-page .q-facts h2 { font-size: clamp(34px, 5vw, 60px); margin: 0 0 24px; }
+.fmt-note { margin: -8px 0 28px; color: var(--grey); font-size: 15px; }
+.fmt-photos { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(8px, 1.5vw, 16px); margin-top: clamp(24px, 4vw, 40px); }
+.fmt-photos figure { margin: 0; }
+.fmt-photos img { width: 100%; height: auto; aspect-ratio: 2 / 3; object-fit: cover; display: block; border-radius: 6px; background: #161616; }
+.fmt-credit { margin-top: 8px; font-size: 13px; }
+.fmt-faq-list { max-width: 900px; border-top: 1px solid var(--line); }
+.fmt-q { border-bottom: 1px solid var(--line); }
+.fmt-q summary { cursor: pointer; list-style: none; display: flex; justify-content: space-between; gap: 16px; padding: 18px 0; font-weight: 800; font-size: 18px; }
+.fmt-q summary::-webkit-details-marker { display: none; }
+.fmt-q summary::after { content: "+"; color: var(--yellow); font-size: 24px; line-height: 1; }
+.fmt-q[open] summary::after { content: "–"; }
+.fmt-q p { margin: 0 0 20px; color: #D8D8D2; max-width: 760px; }
+.fmt-q a, .fmt-page .kv-sheet a { color: var(--yellow); }
+a.event-tag { text-decoration: none; } a.event-tag:hover { opacity: .85; }
+.offer-inline { color: inherit; text-decoration: underline; text-decoration-color: var(--yellow); text-underline-offset: 3px; }
+/* Drag Brunch: Titelbild (vorläufig, Emanuel sucht ein besseres) */
+.page-intro.intro-fmt { overflow: hidden; }
+/* Wie die Startseite: Foto nur rechts, nach links ins Schwarze ausgeblendet */
+.page-intro.intro-fmt::after { content: ""; position: absolute; top: 0; right: 0; bottom: 0; width: 60%; z-index: -2; background: center 30% / cover no-repeat; opacity: .85; }
+.page-intro.intro-drag-brunch::after { background-image: url("img/brunch-hero.jpg"); }
+.page-intro.intro-drag-shows::after { background-image: url("img/leistungen/show-csd.jpg"); background-position: center 35%; }
+.page-intro.intro-fmt::before { background: linear-gradient(90deg, rgba(11,11,11,1) 0%, rgba(11,11,11,1) 40%, rgba(11,11,11,.55) 58%, rgba(11,11,11,0) 85%), linear-gradient(0deg, rgba(11,11,11,1) 0%, rgba(11,11,11,0) 35%); }
+@media (max-width: 760px) {
+  .page-intro.intro-fmt::after { width: 100%; }
+  .page-intro.intro-fmt::before { background: linear-gradient(0deg, rgba(11,11,11,1) 0%, rgba(11,11,11,.75) 50%, rgba(11,11,11,.2) 100%); }
+}
+/* Brunch-Etiketten im Motto der jeweiligen Ausgabe, gleiche Größe wie alle Etiketten */
+.event-tag.tag-halloween { background: #F07F13; color: #160A00; }
+.event-tag.tag-winter { background: #D8ECFF; color: #0A3561; }
+.event-tag.tag-christmas { background: #B3122C; color: #fff; box-shadow: inset 0 -3px 0 #1F7A3A; }
+.event-tag.tag-halloween::before, .event-tag.tag-winter::before, .event-tag.tag-christmas::before { display: inline-block; margin-right: 5px; font-size: 1em; line-height: 1; letter-spacing: 0; }
+.event-tag.tag-halloween::before { content: "🦇"; }
+.event-tag.tag-winter::before { content: "❄️"; }
+.event-tag.tag-christmas::before { content: "🎄"; }
+.intro-credit { position: absolute; right: 16px; bottom: 10px; margin: 0; font-size: 12px; color: rgba(255,255,255,.7); text-shadow: 0 1px 4px rgba(0,0,0,.9); }
+.fmt-dates .events:not(:has(.is-more)) .event:last-child { border-bottom: 0; }
+.fmt-page .kv-text p a { color: var(--yellow); }
+/* Menü: hervorgehobenes Event oben im Events-Menü, deutlich als Highlight erkennbar */
+.nav-sub a.nav-featured { margin: 6px 8px 8px; padding: 10px 12px 11px; border: 0; border-radius: 10px; background: var(--yellow); color: var(--black); font-weight: 800; white-space: normal; min-width: 230px; max-width: 280px; line-height: 1.25; }
+.nav-sub a.nav-featured::before { content: "★ Highlight"; display: block; margin-bottom: 3px; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; opacity: .7; }
+.nav-sub a.nav-featured:hover { color: var(--black); background: #fff04d; }
+.nav-sub a.nav-featured + a { border-top: 0; }
+@media (max-width: 820px) { .nav-sub a.nav-featured { margin: 4px var(--gutter) 8px calc(var(--gutter) + 18px); color: var(--black); font-size: 14px; } }

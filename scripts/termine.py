@@ -1,6 +1,6 @@
 """Holt alle DUCT TAPE Events von rausgegangen und schreibt sie in index.html (zwischen EVENTS:START und EVENTS:END)
 und mit Poster und Beschreibung in termine.html (zwischen ALL:START und ALL:END), dasselbe auf Englisch in
-en/index.html und en/dates.html. Die Eventbeschreibungen bleiben, wie sie auf rausgegangen stehen.
+en/index.html und en/dates.html. Die Format-Seiten (drag-brunch.html usw.) bekommen ihre eigenen Termine (FMT:START/END). Die Eventbeschreibungen bleiben, wie sie auf rausgegangen stehen.
 
 Läuft stündlich über .github/workflows/termine.yml. Quelle ist die Organizer-Seite (gerendertes HTML in
 $RAUSGEGANGEN_HTML) und die Eventseiten dahinter (JSON-LD). Was rausgegangen nicht hergibt (Featured, Einlass,
@@ -37,6 +37,13 @@ START, END = "<!-- EVENTS:START -->", "<!-- EVENTS:END -->"
 F_START, F_END = "<!-- FEATURED:START -->", "<!-- FEATURED:END -->"
 A_START, A_END = "<!-- ALL:START -->", "<!-- ALL:END -->"
 LD_START, LD_END = "<!-- LD:START -->", "<!-- LD:END -->"
+FMT_START, FMT_END = "<!-- FMT:START -->", "<!-- FMT:END -->"
+# Format-Seiten (drag-brunch.html usw., EN unter en/): dort stehen nur die Termine des jeweiligen Formats
+FORMAT_PAGES = {
+    "drag-bingo": lambda r: (r.get("Format") or "").strip() == "Drag Bingo",
+    "drag-brunch": lambda r: "brunch" in (r.get("Titel") or "").lower(),
+    "drag-shows": lambda r: (r.get("Format") or "").strip() == "Show",
+}
 SITE = "https://ducttape.berlin/"
 INDENT, F_INDENT = "        ", "      "
 MONTH_NAMES = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober",
@@ -47,13 +54,13 @@ MONTHS = {"jan": 1, "feb": 2, "mär": 3, "mar": 3, "apr": 4, "mai": 5, "may": 5,
 OPENTABLE = "https://www.opentable.de/booking/restref/availability?lang={lang}&restRef=514161&dateTime={date}T{time}&partySize=2"
 
 # Texte je Sprache; L ist die gerade erzeugte Sprache (main() schaltet um)
-DE = {"weekdays": WEEKDAYS, "wd_short": 2, "months": MONTH_NAMES, "guest": "Special Guest", "guests": "Special Guests",
+DE = {"weekdays": WEEKDAYS, "wd_short": 2, "months": MONTH_NAMES,
       "with": "mit", "and": "und", "doors": "Einlass", "table": "Tisch reservieren", "event_page": "Eventseite",
       "more": "Weiterlesen", "empty": "Neue Termine folgen in Kürze.", "opentable": "de-DE", "prefix": ""}
 EN = {"weekdays": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], "wd_short": 3,
       "months": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October",
                  "November", "December"],
-      "guest": "Special Guest", "guests": "Special Guests", "with": "with", "and": "and", "doors": "Doors",
+      "with": "with", "and": "and", "doors": "Doors",
       "table": "Book a table", "event_page": "Event page", "more": "Read more", "empty": "New dates coming soon.",
       "opentable": "en-GB", "prefix": "../"}
 L = DE
@@ -85,7 +92,7 @@ def hour(t):
 
 
 def guests(s):
-    """'Harpy @wowharpywow, Symba @symba4ever' -> Untertitel-Teil mit Instagram-Links."""
+    """'Harpy @wowharpywow, Symba @symba4ever' -> 'mit Harpy & Symba' (nur Namen, ohne Links)."""
     out = []
     for part in re.split(r"[,;\n]", s or ""):
         part = part.strip()
@@ -93,13 +100,13 @@ def guests(s):
             continue
         handle = re.search(r"@([A-Za-z0-9_.]+)", part)
         name = re.sub(r"\s*@[A-Za-z0-9_.]+\s*", " ", part).strip() or (handle[1] if handle else part)
-        out.append(link(f"https://www.instagram.com/{handle[1]}/", name) if handle else esc(name))
+        out.append(esc(name))
     if not out:
         return ""
     if len(out) == 1:
-        return f"{L['guest']} {out[0]}"
+        return f"{L['with']} {out[0]}"
     if len(out) == 2:
-        return f"{L['guests']} {out[0]} &amp; {out[1]}"
+        return f"{L['with']} {out[0]} &amp; {out[1]}"
     return f"{L['with']} {', '.join(out[:-1])} {L['and']} {out[-1]}"
 
 
@@ -160,6 +167,20 @@ def button(row):
     return None
 
 
+def tag_html(row, cls="event-tag"):
+    """Format-Etikett; verlinkt auf die Format-Seite (z. B. drag-brunch), wenn es sie gibt."""
+    tag = (row.get("Format") or "").strip()
+    if not tag:
+        return ""
+    for motto in ("halloween", "winter", "christmas"):  # Brunch-Ausgaben bekommen ihr eigenes Etikett-Design
+        if motto in tag.lower():
+            cls += f" tag-{motto}"
+    for slug, match in FORMAT_PAGES.items():
+        if match(row) and (ROOT / f"{slug}.html").exists():
+            return f'<a class="{cls}" href="{slug}">{esc(tag)}</a>'
+    return f'<span class="{cls}">{esc(tag)}</span>'
+
+
 def render(row):
     date, _, time, doors = when(row)
     meta = [f"<span>{L['weekdays'][date.weekday()]}</span>"]
@@ -172,7 +193,7 @@ def render(row):
         f'<li class="event" data-date="{date.isoformat()}">',
         f'  <div class="event-date">{date:%d.%m.}<small>{"".join(meta)}</small></div>',
         "  <div>",
-        *([f'    <span class="event-tag">{esc(tag)}</span>'] if tag else []),
+        *([f"    {tag_html(row)}"] if tag else []),
         f"    <h3>{title_html(row)}</h3>",
         *([f"    <p>{sub}</p>"] if sub else []),
         "  </div>",
@@ -199,7 +220,7 @@ def render_featured(rows):
     lines = [
         f'<article class="featured{theme_class(first.get("Featured", ""))}">',
         '  <div class="featured-body">',
-        *([f'    <span class="event-tag">{esc(tag)}</span>'] if tag else []),
+        *([f"    {tag_html(first)}"] if tag else []),
         f"    <h3>{title_html(first)}</h3>",
         *([f"    <p>{sub}</p>"] if sub else []),
         "  </div>",
@@ -257,6 +278,30 @@ def add_breaks(s):
     s = re.sub(r"([.!?…])(?=[A-ZÄÖÜ" + EMOJI + "])", "\\1\n\n", s)
     s = re.sub(r"([" + EMOJI + "]\ufe0f?)(?=[A-ZÄÖÜ])", "\\1\n\n", s)
     return re.sub(r"(?<=[a-zäöüß])(?=[" + EMOJI + "] [A-ZÄÖÜ])", "\n\n", s)
+
+
+CREW = {"EMI", "Symba", "Magda von Pfeffer"}
+PARTICLES = {"von", "van", "de", "la", "le", "del", "da"}
+
+
+def performers(desc):
+    """Auftretende aus der Beschreibung ("Durch den Brunch führen euch: 👑 EMI 👑 Harpy Freut euch …").
+    Ein Name endet vor dem nächsten 👑, einem Emoji oder dem nächsten Satz (großes Wort, dann kleines Wort).
+    Steht das ganze Kollektiv drin, bleibt die Zeile leer (dann tritt einfach DUCT TAPE auf)."""
+    names = []
+    for seg in (desc or "").split("👑")[1:]:
+        words, out = seg.split(), []
+        for i, w in enumerate(words):
+            nxt = words[i + 1] if i + 1 < len(words) else ""
+            if re.search("[" + EMOJI + "]", w) or not (w[:1].isupper() or (w in PARTICLES and nxt[:1].isupper())):
+                break
+            if out and w[:1].isupper() and nxt[:1].islower() and nxt not in PARTICLES:
+                break
+            out.append(w)
+        name = " ".join(out).strip(" .,:;!")
+        if name and name not in names:
+            names.append(name)
+    return "" if CREW <= set(names) else ", ".join(names)
 
 
 def drive_direct(url):
@@ -329,7 +374,7 @@ def render_all(events):
             f'    <div class="tevent-poster">{media}</div>',
             '    <div class="tevent-body">',
             f'      <p class="tevent-when">{when_line}</p>',
-            *([f'      <span class="event-tag">{esc(tag)}</span>'] if tag else []),
+            *([f"      {tag_html(r)}"] if tag else []),
             f"      <h3>{esc(title)}</h3>",
             *([f'      <p class="tevent-sub">{sub}</p>'] if sub else []),
             *([f'      <div class="tevent-desc">', *["  " + p for p in paras], "      </div>"] if paras else []),
@@ -472,6 +517,7 @@ def to_row(url, ld):
         "Datum": f"{start:%d.%m.%Y}", "Beginn": f"{start:%H:%M}", "Ende": f"{end:%H:%M}" if end and end.date() == start.date() else "",
         "Format": tag, "Titel": tidy(title), "Location": tidy(re.sub(r"\s*\([^)]*\)", "", (ld.get("location") or {}).get("name", ""))),
         "Eventseite": url, "Tickets": tickets, "Beschreibung": clean_text(ld.get("description") or ""),
+        "Gäste": performers(clean_text(ld.get("description") or "")),
         "Poster": img if isinstance(img, str) else "",
         "_location": ld.get("location") if isinstance(ld.get("location"), dict) else None,
         "_price": offers.get("lowPrice") or offers.get("price") if isinstance(offers, dict) else None,
@@ -553,6 +599,21 @@ def main():
         if all_new != all_src:
             termine.write_text(all_new, encoding="utf-8")
         changed = changed or new != src or all_new != all_src
+
+        # Format-Seiten
+        for slug, match in FORMAT_PAGES.items():
+            page = (ROOT / f"{slug}.html") if L is DE else (ROOT / "en" / f"{slug}.html")
+            if not page.exists():
+                continue
+            own = [e for e in events if match(e[2])]
+            f_src = page.read_text(encoding="utf-8")
+            f_body = "\n".join(render(r) for *_, r in own) or (INDENT + f'<li class="events-empty">{L["empty"]}</li>')
+            f_new = replace_between(f_src, FMT_START, FMT_END, f_body, INDENT)
+            if LD_START in f_new:
+                f_new = replace_between(f_new, LD_START, LD_END, events_ld(own), "  ")
+            if f_new != f_src:
+                page.write_text(f_new, encoding="utf-8")
+                changed = True
         used |= set(re.findall(r"assets/img/termine/([\w.]+)", all_new))
     L = DE
     cache = {k: v for k, v in cache.items() if k in urls}

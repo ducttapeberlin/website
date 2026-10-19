@@ -178,7 +178,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-10-19T01:42:37+02:00",
+  "fetched": "2026-10-19T07:54:24+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -858,16 +858,16 @@
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/jonny-mahoro-tour-2026-13/": {
-  "fetched": "2026-10-19T06:58:12+02:00",
+ "https://rausgegangen.de/events/photo-exhibition-falling-into-the-present-0/": {
+  "fetched": "2026-10-19T07:54:24+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Jonny Mahoro bringt mit seiner Mischung aus Pop, Indie und RnB Geschichten von Wachstum und Zweifel auf die Bühne. Nach viralen Hits und einer starken EP gibt’s 2026 neue Tracks und Songs voller Gefühl. Hier findest du ehrliche Momente, die nicht nur ins Ohr gehen 😎",
-   "endDate": "2026-11-28T23:00+0100",
+   "description": "Fallen ins Jetzt / Falling into the Present — Fotoausstellung + Abend mit Musik, Salsa & mehrEin Nachmittag mit echter Mischung: Fotografie, Meditation, ein Gespräch über die Zeit, Live-Musik und eine Salsa-Band — alles an einem Ort.Fallen ins Jetzt  / Falling into the Present ist mein erstes eigenes Projekt, das ich nach Jahren der Arbeit endlich zeige — entstanden in einem kleinen Heimstudio, unterstützt von meinem Kurs an der Ostkreuzschule für Fotografie.Programm: 17:00 — Meditation (kleine Gruppe) 18:00 — Tertulia über die Zeit 19:00 — Cheers & Opening 20:00 — Live-Musik mit @joelle.officialmusic 21:00 — Salsa mit @borondo.clubUm den Abend möglich zu machen, läuft parallel eine Crowdfunding-Kampagne — ein Teil der Spenden geht außerdem direkt an die Erdbebenhilfe für Chocó, Kolumbien. Mehr dazu auf meiner Website.📍 B23, Berlin 📅 24.10., ab 17:00 Uhr",
+   "endDate": "2026-10-24T22:00+0200",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/YZslElpnSzek8JSmRj0g_jonnymahoroveranstaltungsbildheader1920x1080.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/TVdJ9uZPT6ml5JBFzi6A_af266a6f-de47-47bb-a5ba-8e2417015afb.jpeg"
    ],
    "location": {
     "@type": "Place",
@@ -875,29 +875,24 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10997",
-     "streetAddress": "Cuvrystr. 9"
+     "postalCode": "10405",
+     "streetAddress": "Greifswalder Straße 23"
     },
-    "name": "Lidolino"
+    "name": "b23 Space"
    },
-   "name": "JONNY MAHORO - TOUR 2026",
+   "name": "Photo exhibition: “Falling into the Present”",
    "offers": {
     "@type": "Offer",
-    "price": "28.00",
+    "price": "0.00",
     "priceCurrency": "EUR",
-    "url": "https://vvk.link/436pqwc",
-    "validFrom": "2026-11-28T20:00+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Eskapaden Booking",
-    "url": "https://rausgegangen.de/organizations/page-for-team-eskapaden-booking/"
+    "url": "https://www.startnext.com/en/falling-into-the-present-oct24",
+    "validFrom": "2026-10-24T17:00+0200"
    },
    "performer": {
     "@type": "PerformingGroup",
-    "name": "Jonny Mahoro"
+    "name": "Borondo Club"
    },
-   "startDate": "2026-11-28T20:00+0100"
+   "startDate": "2026-10-24T17:00+0200"
   }
  }
 }

@@ -258,14 +258,14 @@ if (gal) {
   const img = document.getElementById('lb-img');
   const cap = document.getElementById('lb-cap');
   let cur = 0;
-  const visible = () => items.filter(a => !a.hidden);
+  const visible = () => items.filter(a => !a.hidden && a.tagName === 'A');
   const show = i => {
     const v = visible();
     cur = (i + v.length) % v.length;
     const a = v[cur], thumb = a.querySelector('img');
     img.src = a.href; img.alt = thumb.alt; cap.textContent = 'caption' in a.dataset ? a.dataset.caption : thumb.alt;
   };
-  items.forEach(a => a.addEventListener('click', e => {
+  items.filter(a => a.tagName === 'A').forEach(a => a.addEventListener('click', e => {
     e.preventDefault();
     show(visible().indexOf(a));
     lb.showModal();
@@ -278,6 +278,14 @@ if (gal) {
     if (e.key === 'ArrowLeft') show(cur - 1);
     if (e.key === 'ArrowRight') show(cur + 1);
   });
+  // Videos in der Galerie laufen nur, solange sie zu sehen sind
+  const vids = gal.querySelectorAll('.gal-vid video');
+  if (vids.length && 'IntersectionObserver' in window && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) e.target.play().catch(() => {}); else e.target.pause();
+    }), { threshold: .4 });
+    vids.forEach(v => io.observe(v));
+  }
   let x0 = null;
   lb.addEventListener('touchstart', e => { x0 = e.touches[0].clientX; }, { passive: true });
   lb.addEventListener('touchend', e => {

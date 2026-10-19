@@ -460,6 +460,9 @@ sup.reg { font-size: .6em; vertical-align: super; line-height: 0; margin-left: 1
 .gal-item img { width: 100%; height: auto; transition: transform .35s ease, opacity .2s; }
 .gal-item:hover img { transform: scale(1.03); }
 .gal-item[hidden] { display: none; }
+/* Galerie: Videos zwischen den Fotos */
+.gal-vid video { width: 100%; height: auto; display: block; background: #000; }
+.gal-credit { display: block; padding: 7px 10px 8px; font-size: 12px; line-height: 1.3; color: #A5A59E; }
 .gal-note { margin: 28px 0 0; color: #CFCFCA; font-size: 15px; }
 .gal-note a, .press-box a { color: var(--yellow); }
 @media (max-width: 560px) { .gal-grid { columns: 2; column-gap: 8px; } .gal-item { margin-bottom: 8px; border-radius: 8px; } .gal-tab { font-size: 13px; padding: 9px 13px; } }

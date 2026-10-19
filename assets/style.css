@@ -753,8 +753,8 @@ main.legal { padding: var(--sec-y) 0; }
 .fmt-dates h2, .fmt-faq h2, .fmt-page .q-facts h2 { font-size: clamp(34px, 5vw, 60px); margin: 0 0 24px; }
 .fmt-note { margin: -8px 0 28px; color: var(--grey); font-size: 15px; }
 .fmt-photos { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(8px, 1.5vw, 16px); margin-top: clamp(24px, 4vw, 40px); }
-.fmt-photos figure { margin: 0; aspect-ratio: 2 / 3; overflow: hidden; border-radius: 6px; background: #161616; }
-.fmt-photos img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.fmt-photos figure { margin: 0; }
+.fmt-photos img { width: 100%; height: auto; aspect-ratio: 2 / 3; object-fit: cover; display: block; border-radius: 6px; background: #161616; }
 .fmt-credit { margin-top: 8px; font-size: 13px; }
 .fmt-faq-list { max-width: 900px; border-top: 1px solid var(--line); }
 .fmt-q { border-bottom: 1px solid var(--line); }

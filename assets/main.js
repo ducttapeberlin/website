@@ -323,6 +323,9 @@ document.querySelectorAll('.kv-mute').forEach(btn => {
   try { if (document.referrer) src.push('ref=' + new URL(document.referrer).hostname); } catch (e) {}
   document.getElementById('enq-src').value = src.join('; ').slice(0, 300);
   const act = document.getElementById('enq-act'); if (q.get('act') && act.querySelector(`option[value="${CSS.escape(q.get('act'))}"]`)) act.value = q.get('act');
+  // Format aus ?programm= vorauswählen (Reihenfolge der Optionen ist in DE und EN gleich)
+  const prog = { show: 1, bingo: 2, brunch: 3 }[q.get('programm')];
+  if (prog) f.querySelector('select[name="programm"]').selectedIndex = prog;
   if (q.get('fehler')) document.getElementById('form-error').hidden = false;
 })();
 

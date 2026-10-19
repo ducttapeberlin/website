@@ -33,20 +33,21 @@ p { font-size: 25px; line-height: 1.55; color: var(--soft); margin: 0 0 22px; }
 .cover .credit { right: 40px; bottom: 30px; }
 
 /* 2 Über */
-.about { display: grid; grid-template-columns: 1.25fr .75fr; gap: 110px; align-items: start; }
-.about h2 { margin-bottom: 48px; }
-.facts { border-top: 2px solid var(--yellow); padding-top: 34px; margin-top: 12px; }
-.facts dl { margin: 0; }
-.facts div { display: grid; grid-template-columns: 110px 1fr; gap: 24px; padding: 18px 0; border-bottom: 1px solid var(--line); }
-.facts dt { font-family: "Anton", sans-serif; font-size: 40px; color: var(--yellow); line-height: 1; }
-.facts dd { margin: 0; font-size: 22px; line-height: 1.4; color: var(--white); }
+.about { display: grid; grid-template-columns: 1fr 760px; gap: 90px; align-items: start; }
+.about h2 { margin-bottom: 40px; }
+.about p { font-size: 23px; line-height: 1.5; margin-bottom: 20px; }
+.apics { display: grid; grid-template-columns: 300px 1fr; grid-template-rows: 380px 380px; gap: 20px; margin-top: 8px; }
+.apics img { width: 100%; height: 100%; object-fit: cover; border-radius: 18px; }
+.apics .a1 { grid-row: 1 / 3; }
+.apics .a3 { object-position: 50% 30%; }
+.apics .acred { grid-column: 1 / 3; font-size: 15px; color: var(--grey); margin: 0; }
 
 /* 3 Queens */
 .queens { padding-top: 90px; }
 .queens h2 { margin-bottom: 34px; }
 .qgrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 48px; }
 .q { background: var(--ink); border-radius: 22px; height: 700px; position: relative; overflow: hidden; }
-.q img { position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); height: 470px; width: auto; max-width: 92%; object-fit: contain; object-position: bottom; }
+.q img { position: absolute; bottom: 0; left: 0; width: 100%; height: 440px; object-fit: cover; }
 .q .t { z-index: 1; position: absolute; top: 0; left: 0; right: 0; padding: 36px 38px 0; }
 .q h3 { color: var(--yellow); font-size: 54px; margin-bottom: 12px; }
 .q p { font-size: 20px; line-height: 1.45; margin: 0; color: var(--soft); }
@@ -95,18 +96,15 @@ p { font-size: 25px; line-height: 1.55; color: var(--soft); margin: 0 0 22px; }
     <div>
       <p class="kicker">Über DUCT TAPE</p>
       <h2>Drag als<br>Gesamtkunstwerk</h2>
-      <p>Das Berliner Drag-Kollektiv DUCT TAPE wurde 2022 von EMI, Symba und Magda von Pfeffer gegründet. Es verbindet Drag mit Theater, Comedy, Tanz, Musik und Performancekunst und versteht seine Shows als Gesamtkunstwerke mit eigener Dramaturgie, eigener Bildsprache und einem klaren Qualitätsanspruch.</p>
-      <p>DUCT TAPE produziert die größte Drag Show Berlins und arbeitet mit Drag- und Performance-Künstler*innen aus Berlin, ganz Deutschland und international. Neben großen Theaterproduktionen stehen regelmäßige Formate wie die Drag Bingo Nights und der Drag Brunch gemeinsam mit fritz-kola.</p>
+      <p>DUCT TAPE ist ein Berliner Drag-Kollektiv, 2022 gegründet von EMI, Symba und Magda von Pfeffer. Die erste gemeinsame Show im Salöön am Holzmarkt war auf Anhieb ausverkauft. Seitdem feiert das Kollektiv jedes Jahr Ende September mit einer großen Birthday Show, und aus einem spontanen Projekt ist eine etablierte Marke für große Drag- und Performanceformate in Berlin geworden.</p>
+      <p>DUCT TAPE verbindet Drag mit Theater, Comedy, Tanz, Musik, Fashion und Performancekunst und legt sich bewusst auf keine einzelne Drag-Richtung fest. Jede Produktion ist eine eigene Welt mit Dramaturgie, Bildsprache und klarem Qualitätsanspruch, vom selbst geschriebenen Weihnachtsmusical HOLY GLORY bis zur Mainstage des Berliner CSD vor rund 30.000 Menschen.</p>
+      <p>Rund um das Kollektiv ist die DUCT TAPE Family gewachsen: Drag Queens, Performer*innen, Tänzer*innen und Sänger*innen aus Berlin, Deutschland und der internationalen Szene, darunter Aquaria, Derrick Barry und Jimbo the Drag Clown.</p>
     </div>
-    <div class="facts">
-      <p class="kicker">Meilensteine</p>
-      <dl>
-        <div><dt>2022</dt><dd>Gründung und erste, ausverkaufte Show im Salöön am Holzmarkt. Premiere des selbst geschriebenen Weihnachtsmusicals HOLY GLORY.</dd></div>
-        <div><dt>2023</dt><dd>YouTube-Serie HOT STUFF in Zusammenarbeit mit eBay.</dd></div>
-        <div><dt>2024</dt><dd>REMIX Popculture Icon Award für kulturelles Engagement.</dd></div>
-        <div><dt>2025</dt><dd>Mainstage des Berliner CSD mit 25 Artists vor rund 30.000 Menschen.</dd></div>
-        <div><dt>2026</dt><dd>Indien-Tour mit Gaysi Family und dem Goethe-Institut durch Mumbai, New Delhi und Kolkata.</dd></div>
-      </dl>
+    <div class="apics">
+      <img class="a1" src="img/about-buehne.jpg" alt="">
+      <img class="a2" src="img/about-geburtstag.jpg" alt="">
+      <img class="a3" src="img/about-csd.jpg" alt="">
+      <p class="acred">© Peter Ryku · Mango K. Fotografie/Taron Kolywanow · Brigitte Dummer</p>
     </div>
   </div>
   <div class="foot"><span>DUCT TAPE · Press Kit</span><b>ducttape.berlin</b></div>
@@ -166,7 +164,7 @@ p { font-size: 25px; line-height: 1.55; color: var(--soft); margin: 0 0 22px; }
     <div><span>Website</span><a href="https://ducttape.berlin">ducttape.berlin</a></div>
     <div><span>Instagram</span><a href="https://www.instagram.com/ducttapeberlin/">@ducttapeberlin</a></div>
   </div>
-  <p class="credits">Fotos: © Anytime Studios, Peter Ryku, Florian Wiecher, Mango K. Fotografie/Taron Kolywanow, Lieferando, Gaysi Family. DUCT TAPE® ist eine eingetragene Marke.</p>
+  <p class="credits">Fotos: © Anytime Studios, Peter Ryku, Brigitte Dummer, Florian Wiecher, Mango K. Fotografie/Taron Kolywanow, Lieferando, Gaysi Family. DUCT TAPE® ist eine eingetragene Marke.</p>
   <img class="logo" src="../assets/img/logo-black.png" alt="DUCT TAPE">
 </section>
 

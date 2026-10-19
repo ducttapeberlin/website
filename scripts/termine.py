@@ -54,13 +54,13 @@ MONTHS = {"jan": 1, "feb": 2, "mär": 3, "mar": 3, "apr": 4, "mai": 5, "may": 5,
 OPENTABLE = "https://www.opentable.de/booking/restref/availability?lang={lang}&restRef=514161&dateTime={date}T{time}&partySize=2"
 
 # Texte je Sprache; L ist die gerade erzeugte Sprache (main() schaltet um)
-DE = {"weekdays": WEEKDAYS, "wd_short": 2, "months": MONTH_NAMES, "guest": "Special Guest", "guests": "Special Guests",
+DE = {"weekdays": WEEKDAYS, "wd_short": 2, "months": MONTH_NAMES,
       "with": "mit", "and": "und", "doors": "Einlass", "table": "Tisch reservieren", "event_page": "Eventseite",
       "more": "Weiterlesen", "empty": "Neue Termine folgen in Kürze.", "opentable": "de-DE", "prefix": ""}
 EN = {"weekdays": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], "wd_short": 3,
       "months": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October",
                  "November", "December"],
-      "guest": "Special Guest", "guests": "Special Guests", "with": "with", "and": "and", "doors": "Doors",
+      "with": "with", "and": "and", "doors": "Doors",
       "table": "Book a table", "event_page": "Event page", "more": "Read more", "empty": "New dates coming soon.",
       "opentable": "en-GB", "prefix": "../"}
 L = DE
@@ -92,7 +92,7 @@ def hour(t):
 
 
 def guests(s):
-    """'Harpy @wowharpywow, Symba @symba4ever' -> Untertitel-Teil mit Instagram-Links."""
+    """'Harpy @wowharpywow, Symba @symba4ever' -> 'mit Harpy & Symba' (nur Namen, ohne Links)."""
     out = []
     for part in re.split(r"[,;\n]", s or ""):
         part = part.strip()
@@ -100,13 +100,13 @@ def guests(s):
             continue
         handle = re.search(r"@([A-Za-z0-9_.]+)", part)
         name = re.sub(r"\s*@[A-Za-z0-9_.]+\s*", " ", part).strip() or (handle[1] if handle else part)
-        out.append(link(f"https://www.instagram.com/{handle[1]}/", name) if handle else esc(name))
+        out.append(esc(name))
     if not out:
         return ""
     if len(out) == 1:
-        return f"{L['guest']} {out[0]}"
+        return f"{L['with']} {out[0]}"
     if len(out) == 2:
-        return f"{L['guests']} {out[0]} &amp; {out[1]}"
+        return f"{L['with']} {out[0]} &amp; {out[1]}"
     return f"{L['with']} {', '.join(out[:-1])} {L['and']} {out[-1]}"
 
 

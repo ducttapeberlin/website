@@ -287,7 +287,7 @@ PARTICLES = {"von", "van", "de", "la", "le", "del", "da"}
 def performers(desc):
     """Auftretende aus der Beschreibung ("Durch den Brunch führen euch: 👑 EMI 👑 Harpy Freut euch …").
     Ein Name endet vor dem nächsten 👑, einem Emoji oder dem nächsten Satz (großes Wort, dann kleines Wort).
-    Steht das ganze Kollektiv drin, bleibt die Zeile leer (dann tritt einfach DUCT TAPE auf)."""
+    Steht das ganze Kollektiv drin, heißt es einfach "mit DUCT TAPE"."""
     names = []
     for seg in (desc or "").split("👑")[1:]:
         words, out = seg.split(), []
@@ -301,7 +301,7 @@ def performers(desc):
         name = " ".join(out).strip(" .,:;!")
         if name and name not in names:
             names.append(name)
-    return "" if CREW <= set(names) else ", ".join(names)
+    return "DUCT TAPE" if CREW <= set(names) else ", ".join(names)
 
 
 def drive_direct(url):

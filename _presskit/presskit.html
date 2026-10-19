@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>DUCT TAPE – Press Kit</title>
+<style>
+@font-face { font-family: "Anton"; src: url("../assets/fonts/anton-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; src: url("../assets/fonts/inter-latin-400-normal.woff2") format("woff2"); font-weight: 400; }
+@font-face { font-family: "Inter"; src: url("../assets/fonts/inter-latin-600-normal.woff2") format("woff2"); font-weight: 600; }
+@font-face { font-family: "Inter"; src: url("../assets/fonts/inter-latin-800-normal.woff2") format("woff2"); font-weight: 800; }
+:root { --yellow: #EFCA00; --black: #0B0B0B; --ink: #161616; --line: #302E31; --white: #FAFAF7; --soft: #D8D8D2; --grey: #8A8A8A; }
+@page { size: 1920px 1080px; margin: 0; }
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--black); color: var(--white); font-family: "Inter", sans-serif; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+.slide { width: 1920px; height: 1080px; position: relative; overflow: hidden; page-break-after: always; break-after: page; padding: 110px 120px; background: var(--black); }
+.slide:last-child { page-break-after: auto; break-after: auto; }
+h1, h2, h3 { font-family: "Anton", Impact, sans-serif; font-weight: 400; text-transform: uppercase; line-height: .92; margin: 0; letter-spacing: .01em; }
+h2 { font-size: 120px; }
+h3 { font-size: 46px; }
+.kicker { font-weight: 800; font-size: 20px; letter-spacing: .2em; text-transform: uppercase; color: var(--yellow); margin: 0 0 22px; }
+p { font-size: 25px; line-height: 1.55; color: var(--soft); margin: 0 0 22px; }
+.credit { position: absolute; font-size: 15px; color: rgba(250,250,247,.55); }
+.foot { position: absolute; left: 120px; right: 120px; bottom: 56px; display: flex; justify-content: space-between; font-size: 17px; letter-spacing: .14em; text-transform: uppercase; font-weight: 800; color: var(--grey); }
+.foot b { color: var(--yellow); font-weight: 800; }
+
+/* 1 Titel */
+.cover { padding: 0; }
+.cover .photo { position: absolute; top: 0; right: 0; bottom: 0; width: 62%; background: url("img/hero.jpg") center 18% / cover; }
+.cover .photo::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, var(--black) 0%, rgba(11,11,11,.55) 30%, rgba(11,11,11,0) 70%), linear-gradient(0deg, rgba(11,11,11,.9) 0%, rgba(11,11,11,0) 35%); }
+.cover .in { position: absolute; left: 120px; bottom: 150px; width: 900px; }
+.cover img.logo { width: 560px; margin-bottom: 64px; }
+.cover h1 { font-size: 150px; color: var(--yellow); }
+.cover .sub { font-size: 30px; color: var(--soft); margin: 26px 0 0; max-width: 760px; }
+.cover .credit { right: 40px; bottom: 30px; }
+
+/* 2 Über */
+.about { display: grid; grid-template-columns: 1.25fr .75fr; gap: 110px; align-items: start; }
+.about h2 { margin-bottom: 48px; }
+.facts { border-top: 2px solid var(--yellow); padding-top: 34px; margin-top: 12px; }
+.facts dl { margin: 0; }
+.facts div { display: grid; grid-template-columns: 110px 1fr; gap: 24px; padding: 18px 0; border-bottom: 1px solid var(--line); }
+.facts dt { font-family: "Anton", sans-serif; font-size: 40px; color: var(--yellow); line-height: 1; }
+.facts dd { margin: 0; font-size: 22px; line-height: 1.4; color: var(--white); }
+
+/* 3 Queens */
+.queens { padding-top: 90px; }
+.queens h2 { margin-bottom: 34px; }
+.qgrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 48px; }
+.q { background: var(--ink); border-radius: 22px; height: 700px; position: relative; overflow: hidden; }
+.q img { position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); height: 470px; width: auto; max-width: 92%; object-fit: contain; object-position: bottom; }
+.q .t { z-index: 1; position: absolute; top: 0; left: 0; right: 0; padding: 36px 38px 0; }
+.q h3 { color: var(--yellow); font-size: 54px; margin-bottom: 12px; }
+.q p { font-size: 20px; line-height: 1.45; margin: 0; color: var(--soft); }
+.q::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 90px; background: linear-gradient(0deg, var(--ink), rgba(22,22,22,0)); }
+
+/* 4 Leistungen */
+.svc h2 { margin-bottom: 44px; }
+.sgrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
+.s { position: relative; height: 300px; border-radius: 18px; overflow: hidden; background: var(--ink); }
+.s img { width: 100%; height: 100%; object-fit: cover; }
+.s::after { content: ""; position: absolute; inset: 0; background: linear-gradient(0deg, rgba(11,11,11,.95) 0%, rgba(11,11,11,.35) 55%, rgba(11,11,11,0) 100%); }
+.s .t { position: absolute; left: 28px; right: 28px; bottom: 24px; z-index: 1; }
+.s h3 { font-size: 38px; margin-bottom: 8px; }
+.s p { font-size: 18px; line-height: 1.4; margin: 0; color: var(--soft); }
+
+/* 5 Referenzen */
+.refs h2 { margin-bottom: 30px; }
+.refs .lead { max-width: 1300px; margin-bottom: 64px; }
+.logos { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(6, 200px); gap: 36px 56px; }
+.logos li { aspect-ratio: 1; border-radius: 50%; background: var(--white); display: grid; place-items: center; }
+.logos img { max-width: 62%; max-height: 50%; object-fit: contain; }
+
+/* 6 Kontakt */
+.contact { background: var(--yellow); color: var(--black); }
+.contact h2 { font-size: 170px; color: var(--black); margin-bottom: 40px; }
+.contact p { color: var(--black); font-size: 30px; max-width: 1100px; }
+.clist { margin-top: 60px; display: grid; grid-template-columns: repeat(3, auto); gap: 70px; justify-content: start; }
+.clist div span { display: block; font-weight: 800; font-size: 18px; letter-spacing: .18em; text-transform: uppercase; margin-bottom: 10px; opacity: .7; }
+.clist a { font-family: "Anton", sans-serif; font-size: 52px; color: var(--black); text-decoration: none; text-transform: uppercase; }
+.contact img.logo { position: absolute; right: 120px; bottom: 100px; width: 300px; }
+.contact .foot { color: rgba(11,11,11,.6); }
+.contact .credits { position: absolute; left: 120px; bottom: 100px; font-size: 15px; color: rgba(11,11,11,.6); max-width: 1300px; line-height: 1.5; margin: 0; }
+</style>
+</head>
+<body>
+
+<section class="slide cover">
+  <div class="photo"></div>
+  <div class="in">
+    <img class="logo" src="../assets/img/logo-yellow.png" alt="DUCT TAPE">
+    <h1>Press Kit</h1>
+    <p class="sub">Das Berliner Drag-Kollektiv von EMI, Symba und Magda von Pfeffer.</p>
+  </div>
+</section>
+
+<section class="slide">
+  <div class="about">
+    <div>
+      <p class="kicker">Über DUCT TAPE</p>
+      <h2>Drag als<br>Gesamtkunstwerk</h2>
+      <p>Das Berliner Drag-Kollektiv DUCT TAPE wurde 2022 von EMI, Symba und Magda von Pfeffer gegründet. Es verbindet Drag mit Theater, Comedy, Tanz, Musik und Performancekunst und versteht seine Shows als Gesamtkunstwerke mit eigener Dramaturgie, eigener Bildsprache und einem klaren Qualitätsanspruch.</p>
+      <p>DUCT TAPE produziert die größte Drag Show Berlins und arbeitet mit Drag- und Performance-Künstler*innen aus Berlin, ganz Deutschland und international. Neben großen Theaterproduktionen stehen regelmäßige Formate wie die Drag Bingo Nights und der Drag Brunch gemeinsam mit fritz-kola.</p>
+    </div>
+    <div class="facts">
+      <p class="kicker">Meilensteine</p>
+      <dl>
+        <div><dt>2022</dt><dd>Gründung und erste, ausverkaufte Show im Salöön am Holzmarkt. Premiere des selbst geschriebenen Weihnachtsmusicals HOLY GLORY.</dd></div>
+        <div><dt>2023</dt><dd>YouTube-Serie HOT STUFF in Zusammenarbeit mit eBay.</dd></div>
+        <div><dt>2024</dt><dd>REMIX Popculture Icon Award für kulturelles Engagement.</dd></div>
+        <div><dt>2025</dt><dd>Mainstage des Berliner CSD mit 25 Artists vor rund 30.000 Menschen.</dd></div>
+        <div><dt>2026</dt><dd>Indien-Tour mit Gaysi Family und dem Goethe-Institut durch Mumbai, New Delhi und Kolkata.</dd></div>
+      </dl>
+    </div>
+  </div>
+  <div class="foot"><span>DUCT TAPE · Press Kit</span><b>ducttape.berlin</b></div>
+</section>
+
+<section class="slide queens">
+  <p class="kicker">Das Kollektiv</p>
+  <h2>Die Queens</h2>
+  <div class="qgrid">
+    <div class="q"><div class="t"><h3>EMI</h3><p>Drag Queen, Moderatorin und DJ. Verbindet bissige Host-Energie mit Theater und glamouröse Showgirl-Looks mit Lack und Leder.</p></div><img src="img/emi.jpg" alt="EMI"></div>
+    <div class="q"><div class="t"><h3>Symba</h3><p>Drag Queen, Performerin und Tänzerin. Polished, glamourös und auf Perfektion ausgerichtet, Kostüme und Perücken oft in eigener Handarbeit.</p></div><img src="img/symba-2026.jpg" alt="Symba"></div>
+    <div class="q"><div class="t"><h3>Magda von Pfeffer</h3><p>Drag Queen, Sängerin, Comedian und Host. Verbindet alte Travestie, deutsches Cabaret und Chanson mit zeitgenössischer Drag.</p></div><img src="img/magda-2026.jpg" alt="Magda von Pfeffer"></div>
+  </div>
+  <div class="foot"><span>DUCT TAPE · Press Kit</span><b>ducttape.berlin</b></div>
+</section>
+
+<section class="slide svc">
+  <p class="kicker">Leistungen</p>
+  <h2>Was DUCT TAPE macht</h2>
+  <div class="sgrid">
+    <div class="s"><img src="img/shows-buehne.jpg" alt=""><div class="t"><h3>Shows &amp; Produktionen</h3><p>Abendfüllende Shows und Show-Acts für Galas, Firmenevents und Festivals.</p></div></div>
+    <div class="s"><img src="img/partys-stage.jpg" alt="" style="object-position:50% 30%"><div class="t"><h3>Partys &amp; DJ-Sets</h3><p>Eigene Partyreihen, DJ-Sets und Show-Acts auf Partys.</p></div></div>
+    <div class="s"><img src="img/hosting-federn.jpg" alt="" style="object-position:50% 30%"><div class="t"><h3>Hosting</h3><p>Moderation für Events, Award-Shows, Markenevents und Bühnenprogramme.</p></div></div>
+    <div class="s"><img src="img/brunch-tif.jpg" alt="" style="object-position:50% 25%"><div class="t"><h3>Bingo, Quiz &amp; Brunch</h3><p>Drag Bingo mit Show-Einlagen, Drag Brunch mit mehreren Showblöcken.</p></div></div>
+    <div class="s"><img src="img/koop-lieferando.jpg" alt="" style="object-position:50% 40%"><div class="t"><h3>Kooperationen &amp; Content</h3><p>Kampagnen, Fotoshootings und Social-Media-Content für Marken.</p></div></div>
+    <div class="s"><img src="img/workshop-tisch.jpg" alt="" style="object-position:50% 40%"><div class="t"><h3>Workshops</h3><p>Drag-Make-up und Perücken-Styling für Teams und Gruppen.</p></div></div>
+  </div>
+  <div class="foot"><span>DUCT TAPE · Press Kit</span><b>ducttape.berlin</b></div>
+</section>
+
+<section class="slide refs">
+  <p class="kicker">Referenzen</p>
+  <h2>Partner &amp; Marken</h2>
+  <p class="lead">Zu den Partnern, Marken und Institutionen, mit denen DUCT TAPE zusammengearbeitet hat, gehören unter anderem eBay, About You, Zalando, Lieferando, Lollapalooza, Tinder, Gaysi Family, Goethe-Institut New Delhi, Theater im Delphi, CSD Berlin, Ritter Butzke und SCHWUZ.</p>
+  <ul class="logos">
+    <li><img src="../assets/img/partner/youtube.png" alt="YouTube"></li>
+    <li><img src="../assets/img/partner/lieferando.png" alt="Lieferando"></li>
+    <li><img src="../assets/img/partner/lollapalooza.png" alt="Lollapalooza"></li>
+    <li><img src="../assets/img/partner/csd.png" alt="Berliner CSD"></li>
+    <li><img src="../assets/img/partner/ebay.png" alt="eBay"></li>
+    <li><img src="../assets/img/partner/fritz-kola.png" alt="fritz-kola"></li>
+    <li><img src="../assets/img/partner/tinder.png" alt="Tinder"></li>
+    <li><img src="../assets/img/partner/no-cosmetics.png" alt="No Cosmetics"></li>
+    <li><img src="../assets/img/partner/elf.png" alt="e.l.f. Cosmetics"></li>
+    <li><img src="../assets/img/partner/aperol.png" alt="Aperol"></li>
+    <li><img src="../assets/img/partner/piabo.png" alt="PIABO"></li>
+    <li><img src="../assets/img/partner/jung-von-matt.png" alt="Jung von Matt"></li>
+  </ul>
+  <div class="foot"><span>DUCT TAPE · Press Kit</span><b>ducttape.berlin</b></div>
+</section>
+
+<section class="slide contact">
+  <p class="kicker" style="color:var(--black)">Kontakt</p>
+  <h2>Let's talk</h2>
+  <p>Für Booking-Anfragen, Kooperationen und Presse. Fotos und Logos in hoher Auflösung gibt es auf Anfrage.</p>
+  <div class="clist">
+    <div><span>E-Mail</span><a href="mailto:info@ducttape.berlin">info@ducttape.berlin</a></div>
+    <div><span>Website</span><a href="https://ducttape.berlin">ducttape.berlin</a></div>
+    <div><span>Instagram</span><a href="https://www.instagram.com/ducttapeberlin/">@ducttapeberlin</a></div>
+  </div>
+  <p class="credits">Fotos: © Anytime Studios, Peter Ryku, Florian Wiecher, Mango K. Fotografie/Taron Kolywanow, Lieferando, Gaysi Family. DUCT TAPE® ist eine eingetragene Marke.</p>
+  <img class="logo" src="../assets/img/logo-black.png" alt="DUCT TAPE">
+</section>
+
+</body>
+</html>

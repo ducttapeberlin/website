@@ -749,3 +749,20 @@ main.legal { padding: var(--sec-y) 0; }
 .page-intro.has-bg h1, .page-intro.has-bg .lead { text-shadow: 0 2px 12px rgba(0,0,0,.9); }
 .page-intro.intro-anfrage { background-image: url("img/anfrage-hero.jpg"); background-position: 60% 35%; }
 @media (max-width: 760px) { .page-intro.intro-anfrage { background-image: url("img/anfrage-hero-m.jpg"); background-position: 75% 35%; } }
+/* Format-Seiten (Drag Brunch, Drag Bingo, Drag Shows) */
+.fmt-dates h2, .fmt-faq h2, .fmt-page .q-facts h2 { font-size: clamp(34px, 5vw, 60px); margin: 0 0 24px; }
+.fmt-note { margin: -8px 0 28px; color: var(--grey); font-size: 15px; }
+.fmt-photos { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(8px, 1.5vw, 16px); margin-top: clamp(24px, 4vw, 40px); }
+.fmt-photos figure { margin: 0; aspect-ratio: 2 / 3; overflow: hidden; border-radius: 6px; background: #161616; }
+.fmt-photos img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.fmt-credit { margin-top: 8px; font-size: 13px; }
+.fmt-faq-list { max-width: 900px; border-top: 1px solid var(--line); }
+.fmt-q { border-bottom: 1px solid var(--line); }
+.fmt-q summary { cursor: pointer; list-style: none; display: flex; justify-content: space-between; gap: 16px; padding: 18px 0; font-weight: 800; font-size: 18px; }
+.fmt-q summary::-webkit-details-marker { display: none; }
+.fmt-q summary::after { content: "+"; color: var(--yellow); font-size: 24px; line-height: 1; }
+.fmt-q[open] summary::after { content: "–"; }
+.fmt-q p { margin: 0 0 20px; color: #D8D8D2; max-width: 760px; }
+.fmt-q a, .fmt-page .kv-sheet a { color: var(--yellow); }
+a.event-tag { text-decoration: none; } a.event-tag:hover { opacity: .85; }
+.offer-inline { color: inherit; text-decoration: underline; text-decoration-color: var(--yellow); text-underline-offset: 3px; }

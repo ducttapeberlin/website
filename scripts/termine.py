@@ -1,6 +1,6 @@
 """Holt alle DUCT TAPE Events von rausgegangen und schreibt sie in index.html (zwischen EVENTS:START und EVENTS:END)
 und mit Poster und Beschreibung in termine.html (zwischen ALL:START und ALL:END), dasselbe auf Englisch in
-en/index.html und en/dates.html. Die Eventbeschreibungen bleiben, wie sie auf rausgegangen stehen.
+en/index.html und en/dates.html. Die Format-Seiten (drag-brunch.html usw.) bekommen ihre eigenen Termine (FMT:START/END). Die Eventbeschreibungen bleiben, wie sie auf rausgegangen stehen.
 
 Läuft stündlich über .github/workflows/termine.yml. Quelle ist die Organizer-Seite (gerendertes HTML in
 $RAUSGEGANGEN_HTML) und die Eventseiten dahinter (JSON-LD). Was rausgegangen nicht hergibt (Featured, Einlass,
@@ -37,6 +37,13 @@ START, END = "<!-- EVENTS:START -->", "<!-- EVENTS:END -->"
 F_START, F_END = "<!-- FEATURED:START -->", "<!-- FEATURED:END -->"
 A_START, A_END = "<!-- ALL:START -->", "<!-- ALL:END -->"
 LD_START, LD_END = "<!-- LD:START -->", "<!-- LD:END -->"
+FMT_START, FMT_END = "<!-- FMT:START -->", "<!-- FMT:END -->"
+# Format-Seiten (drag-brunch.html usw., EN unter en/): dort stehen nur die Termine des jeweiligen Formats
+FORMAT_PAGES = {
+    "drag-bingo": lambda r: (r.get("Format") or "").strip() == "Drag Bingo",
+    "drag-brunch": lambda r: "brunch" in (r.get("Titel") or "").lower(),
+    "drag-shows": lambda r: (r.get("Format") or "").strip() == "Show",
+}
 SITE = "https://ducttape.berlin/"
 INDENT, F_INDENT = "        ", "      "
 MONTH_NAMES = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober",
@@ -160,6 +167,17 @@ def button(row):
     return None
 
 
+def tag_html(row, cls="event-tag"):
+    """Format-Etikett; verlinkt auf die Format-Seite (z. B. drag-brunch), wenn es sie gibt."""
+    tag = (row.get("Format") or "").strip()
+    if not tag:
+        return ""
+    for slug, match in FORMAT_PAGES.items():
+        if match(row) and (ROOT / f"{slug}.html").exists():
+            return f'<a class="{cls}" href="{slug}">{esc(tag)}</a>'
+    return f'<span class="{cls}">{esc(tag)}</span>'
+
+
 def render(row):
     date, _, time, doors = when(row)
     meta = [f"<span>{L['weekdays'][date.weekday()]}</span>"]
@@ -172,7 +190,7 @@ def render(row):
         f'<li class="event" data-date="{date.isoformat()}">',
         f'  <div class="event-date">{date:%d.%m.}<small>{"".join(meta)}</small></div>',
         "  <div>",
-        *([f'    <span class="event-tag">{esc(tag)}</span>'] if tag else []),
+        *([f"    {tag_html(row)}"] if tag else []),
         f"    <h3>{title_html(row)}</h3>",
         *([f"    <p>{sub}</p>"] if sub else []),
         "  </div>",
@@ -199,7 +217,7 @@ def render_featured(rows):
     lines = [
         f'<article class="featured{theme_class(first.get("Featured", ""))}">',
         '  <div class="featured-body">',
-        *([f'    <span class="event-tag">{esc(tag)}</span>'] if tag else []),
+        *([f"    {tag_html(first)}"] if tag else []),
         f"    <h3>{title_html(first)}</h3>",
         *([f"    <p>{sub}</p>"] if sub else []),
         "  </div>",
@@ -329,7 +347,7 @@ def render_all(events):
             f'    <div class="tevent-poster">{media}</div>',
             '    <div class="tevent-body">',
             f'      <p class="tevent-when">{when_line}</p>',
-            *([f'      <span class="event-tag">{esc(tag)}</span>'] if tag else []),
+            *([f"      {tag_html(r)}"] if tag else []),
             f"      <h3>{esc(title)}</h3>",
             *([f'      <p class="tevent-sub">{sub}</p>'] if sub else []),
             *([f'      <div class="tevent-desc">', *["  " + p for p in paras], "      </div>"] if paras else []),
@@ -553,6 +571,21 @@ def main():
         if all_new != all_src:
             termine.write_text(all_new, encoding="utf-8")
         changed = changed or new != src or all_new != all_src
+
+        # Format-Seiten
+        for slug, match in FORMAT_PAGES.items():
+            page = (ROOT / f"{slug}.html") if L is DE else (ROOT / "en" / f"{slug}.html")
+            if not page.exists():
+                continue
+            own = [e for e in events if match(e[2])]
+            f_src = page.read_text(encoding="utf-8")
+            f_body = "\n".join(render(r) for *_, r in own) or (INDENT + f'<li class="events-empty">{L["empty"]}</li>')
+            f_new = replace_between(f_src, FMT_START, FMT_END, f_body, INDENT)
+            if LD_START in f_new:
+                f_new = replace_between(f_new, LD_START, LD_END, events_ld(own), "  ")
+            if f_new != f_src:
+                page.write_text(f_new, encoding="utf-8")
+                changed = True
         used |= set(re.findall(r"assets/img/termine/([\w.]+)", all_new))
     L = DE
     cache = {k: v for k, v in cache.items() if k in urls}

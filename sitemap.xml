@@ -120,4 +120,16 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://ducttape.berlin/anfrage"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ducttape.berlin/en/enquiry"/>
   </url>
+  <url>
+    <loc>https://ducttape.berlin/drag-brunch</loc>
+    <lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ducttape.berlin/drag-brunch"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ducttape.berlin/en/drag-brunch"/>
+  </url>
+  <url>
+    <loc>https://ducttape.berlin/en/drag-brunch</loc>
+    <lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ducttape.berlin/drag-brunch"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ducttape.berlin/en/drag-brunch"/>
+  </url>
 </urlset>

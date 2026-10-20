@@ -31,7 +31,7 @@ jobs:
         run: python3 scripts/termine.py
       - name: Änderungen speichern
         run: |
-          git add -A index.html termine.html en/index.html en/dates.html scripts/termine-details.json assets/img/termine
+          git add -A index.html termine.html en/index.html en/dates.html drag-bingo.html drag-brunch.html drag-shows.html en/drag-bingo.html en/drag-brunch.html en/drag-shows.html scripts/termine-details.json assets/img/termine
           if git diff --cached --quiet; then echo "Keine Änderungen"; exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

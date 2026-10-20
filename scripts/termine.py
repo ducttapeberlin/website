@@ -413,13 +413,14 @@ def events_ld(events):
             ev["image"] = SITE + poster
         if page.startswith("http"):
             ev["url"] = page
-        if free or tickets:
+        # Google verlangt bei Angeboten Preis und Verkaufsstart. Ohne bekannten Preis lieber gar kein Angebot.
+        price = 0 if free else r.get("_price")
+        if (free or tickets) and price is not None:
             offer = {"@type": "Offer", "priceCurrency": "EUR", "availability": "https://schema.org/InStock",
-                     "url": tickets if tickets.startswith("http") else page or SITE}
-            if free:
-                offer["price"] = 0
-            elif r.get("_price"):
-                offer["price"] = r["_price"]
+                     "url": tickets if tickets.startswith("http") else page or SITE, "price": price}
+            valid = r.get("_validFrom") or r.get("_seen")
+            if valid:
+                offer["validFrom"] = valid
             ev["offers"] = offer
         items.append(ev)
     data = {"@context": "https://schema.org", "@graph": items}
@@ -446,6 +447,22 @@ def slug_of(url):
 def series(slug):
     """'a-berlin-drag-queens-christmas-show-1' -> 'a-berlin-drag-queens-christmas-show' (Termine einer Reihe)."""
     return re.sub(r"-\d+$", "", slug)
+
+
+def offer_price(offers):
+    """Günstigster Preis aus dem rausgegangen-Angebot (bei AggregateOffer ohne lowPrice aus den einzelnen Tickets)."""
+    if not isinstance(offers, dict):
+        return None
+    price = offers.get("lowPrice") or offers.get("price")
+    if price in (None, "") and isinstance(offers.get("offers"), list):
+        prices = []
+        for o in offers["offers"]:
+            try:
+                prices.append(float(o.get("price")))
+            except (TypeError, ValueError, AttributeError):
+                pass
+        price = f"{min(prices):.2f}" if prices else None
+    return price
 
 
 def event_ld(url, cache, now):
@@ -520,7 +537,8 @@ def to_row(url, ld):
         "Gäste": performers(clean_text(ld.get("description") or "")),
         "Poster": img if isinstance(img, str) else "",
         "_location": ld.get("location") if isinstance(ld.get("location"), dict) else None,
-        "_price": offers.get("lowPrice") or offers.get("price") if isinstance(offers, dict) else None,
+        "_price": offer_price(offers),
+        "_validFrom": offers.get("validFrom") if isinstance(offers, dict) else None,
     })
     return row
 
@@ -557,6 +575,8 @@ def main():
         if not ld or not any("duct-tape" in (o or {}).get("url", "") for o in organizers):
             continue  # Werbung oder fremdes Event auf der Organizer-Seite
         row = to_row(url, ld)
+        # Verkaufsstart für Google: rausgegangen nennt ihn nicht immer, dann gilt der Tag, an dem das Event zuerst auftauchte
+        row["_seen"] = cache.setdefault(url, {}).setdefault("seen", now.isoformat(timespec="seconds"))
         if ticket_slug(row["Tickets"]) and not ticket_exists(ticket_slug(row["Tickets"]), cache[url]):
             row["Tickets"] = ""
         for key in (series(slug), slug):  # Ergänzungen aus der Config, für die ganze Reihe oder einen Termin

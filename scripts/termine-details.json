@@ -85,6 +85,7 @@
    ],
    "startDate": "2026-12-04T19:00+0100"
   },
+  "seen": "2026-10-20T15:24:41+02:00",
   "tickets": "a-berlin-drag-queens-christmas-show",
   "tickets_ok": true
  },
@@ -174,6 +175,7 @@
    ],
    "startDate": "2026-12-05T19:00+0100"
   },
+  "seen": "2026-10-20T15:24:41+02:00",
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
@@ -255,6 +257,7 @@
    },
    "startDate": "2026-11-28T23:30+0100"
   },
+  "seen": "2026-10-20T15:24:41+02:00",
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
  },
@@ -300,7 +303,8 @@
     }
    ],
    "startDate": "2026-10-22T19:00+0200"
-  }
+  },
+  "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
   "fetched": "2026-10-20T12:54:09+02:00",
@@ -344,7 +348,8 @@
     }
    ],
    "startDate": "2026-11-19T19:00+0100"
-  }
+  },
+  "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
   "fetched": "2026-10-20T12:54:09+02:00",
@@ -388,7 +393,8 @@
     }
    ],
    "startDate": "2026-12-10T19:00+0100"
-  }
+  },
+  "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-20/": {
   "fetched": "2026-10-20T12:54:09+02:00",
@@ -432,7 +438,8 @@
     }
    ],
    "startDate": "2026-10-21T20:00+0200"
-  }
+  },
+  "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-21/": {
   "fetched": "2026-10-20T12:54:09+02:00",
@@ -476,7 +483,8 @@
     }
    ],
    "startDate": "2026-11-04T20:00+0100"
-  }
+  },
+  "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-22/": {
   "fetched": "2026-10-20T12:54:09+02:00",
@@ -520,7 +528,8 @@
     }
    ],
    "startDate": "2026-11-18T20:00+0100"
-  }
+  },
+  "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
   "fetched": "2026-10-20T12:54:09+02:00",
@@ -564,7 +573,8 @@
     }
    ],
    "startDate": "2026-12-02T20:00+0100"
-  }
+  },
+  "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
   "fetched": "2026-10-20T12:54:09+02:00",
@@ -608,7 +618,8 @@
     }
    ],
    "startDate": "2026-12-16T20:00+0100"
-  }
+  },
+  "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
   "fetched": "2026-10-20T13:54:45+02:00",
@@ -658,7 +669,8 @@
     "name": "Amy Strong"
    },
    "startDate": "2026-12-13T12:00+0100"
-  }
+  },
+  "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-brunch-sponsored-by-fritz-kola-halloween-edition-0/": {
   "fetched": "2026-10-20T12:54:09+02:00",
@@ -697,7 +709,8 @@
     "url": "https://rausgegangen.de/organizations/duct-tape/"
    },
    "startDate": "2026-10-31T12:00+0100"
-  }
+  },
+  "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-brunch-sponsored-by-fritz-kola-winter-edition-0/": {
   "fetched": "2026-10-20T12:54:09+02:00",
@@ -739,7 +752,8 @@
     "name": "Harpy Fatale"
    },
    "startDate": "2026-11-15T12:00+0100"
-  }
+  },
+  "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/geheimkonzert-berlin-23-by-rausgegangen-0/": {
   "fetched": "2026-10-20T15:08:56+02:00",
@@ -940,6 +954,7 @@
    ],
    "startDate": "2027-07-24T21:00+0200"
   },
+  "seen": "2026-10-20T15:24:41+02:00",
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
  }

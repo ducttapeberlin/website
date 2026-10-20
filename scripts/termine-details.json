@@ -1,6 +1,6 @@
 {
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
-  "fetched": "2026-10-20T05:56:14+02:00",
+  "fetched": "2026-10-20T12:54:09+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -259,7 +259,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-1/": {
-  "fetched": "2026-10-20T05:56:14+02:00",
+  "fetched": "2026-10-20T12:54:09+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -303,7 +303,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
-  "fetched": "2026-10-20T05:56:14+02:00",
+  "fetched": "2026-10-20T12:54:09+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -347,7 +347,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
-  "fetched": "2026-10-20T05:56:14+02:00",
+  "fetched": "2026-10-20T12:54:09+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -391,7 +391,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-20/": {
-  "fetched": "2026-10-20T05:56:14+02:00",
+  "fetched": "2026-10-20T12:54:09+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -435,7 +435,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-21/": {
-  "fetched": "2026-10-20T05:56:14+02:00",
+  "fetched": "2026-10-20T12:54:09+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -479,7 +479,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-22/": {
-  "fetched": "2026-10-20T05:56:14+02:00",
+  "fetched": "2026-10-20T12:54:09+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -523,7 +523,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
-  "fetched": "2026-10-20T05:56:14+02:00",
+  "fetched": "2026-10-20T12:54:09+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -567,7 +567,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
-  "fetched": "2026-10-20T05:56:14+02:00",
+  "fetched": "2026-10-20T12:54:09+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -661,7 +661,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-brunch-sponsored-by-fritz-kola-halloween-edition-0/": {
-  "fetched": "2026-10-20T05:56:14+02:00",
+  "fetched": "2026-10-20T12:54:09+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -700,7 +700,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-brunch-sponsored-by-fritz-kola-winter-edition-0/": {
-  "fetched": "2026-10-20T05:56:14+02:00",
+  "fetched": "2026-10-20T12:54:09+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -858,46 +858,37 @@
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/provinz-cry-baby-cry-tour-2027-13/": {
-  "fetched": "2026-10-20T11:54:54+02:00",
+ "https://rausgegangen.de/events/restaurantweek-berlin-drei-gange-menus-zum-festivalpreis-281-0/": {
+  "fetched": "2026-10-20T12:54:09+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Vier Leute, ein neuer Songtitel, und sofort ist wieder dieses Provinz Gefühl da, das zwischen Indie und Britpop hängen bleibt. Im Winter 2027 geht die Band mit Cry Baby Cry auf Tour 👀",
-   "endDate": "2027-12-03T23:00+0100",
+   "description": "Dieses kurze Zögern vor einer Restaurantreservierung kennen leider alle. Die RestaurantWeek nimmt genau das raus, mit eigens zusammengestellten Drei Gängen zum festen Preis in teilnehmenden Restaurants 🙂",
+   "endDate": "2026-11-22T00:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/T2uMq2bRMaULDzfM5M5w_provinz-cbc-2027-fb-banner-1920x1005px.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/jjEJICYUTVKs7SN4XuSA_rw-logo-without-trademark-navy.png"
    ],
    "location": {
     "@type": "Place",
     "address": {
      "@type": "PostalAddress",
      "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10437",
-     "streetAddress": "Am Falkplatz 1"
+     "addressLocality": null,
+     "postalCode": null,
+     "streetAddress": null
     },
-    "name": "Max-Schmeling-Halle"
+    "name": "Berlin"
    },
-   "name": "Provinz • \"Cry Baby Cry\" Tour 2027",
+   "name": "RestaurantWeek Berlin: Drei-Gänge-Menüs zum Festivalpreis, 28.10.–22.11.",
    "offers": {
     "@type": "Offer",
-    "price": "69.99",
+    "price": "29.00",
     "priceCurrency": "EUR",
-    "url": "https://shop.provinzband.com/events/provinz-cry-baby-cry-tour-2027-zusatzshow-max-schmeling-halle",
-    "validFrom": "2027-12-03T18:00+0100"
+    "url": "https://restaurant-week.de/restaurantweek?utm_type=partner&utm_medium=email&utm_campaign=RWD26A&utm_content=Rausgegangen",
+    "validFrom": "2026-10-28T00:00+0100"
    },
-   "organizer": {
-    "@type": "Organization",
-    "name": "LANDSTREICHER BOOKING",
-    "url": "https://rausgegangen.de/organizations/landstreicher-booking-ah-fk3y/"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Provinz"
-   },
-   "startDate": "2027-12-03T18:00+0100"
+   "startDate": "2026-10-28T00:00+0100"
   }
  }
 }

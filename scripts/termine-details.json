@@ -757,6 +757,79 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
+ "https://rausgegangen.de/events/geheimkonzert-berlin-24-by-rausgegangen-0/": {
+  "fetched": "2026-10-20T19:51:49+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Na Hallo! Es ist wieder so weit: Ein Abend voller Überraschung - denn wer auf der Bühne steht, bleibt bis zum ersten Ton geheim. Wir hatten schon Blond, Berq, Ennio, Futurebae, Jassin, Anais, Katha Pauer & viele mehr zu Gast – und das schon bevor sie die großen Bühnen der Nation gestürmt haben. Also entdecke die Stars von Morgen bei unseren Geheimkonzerten. 🪩",
+   "endDate": "2026-12-09T22:15+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/mO31iODjTCuFLVfQ493H_gk202516x9photoheadline-32-1.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin"
+    },
+    "name": "Secret location"
+   },
+   "name": "Geheimkonzert Berlin #24 by Rausgegangen",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "29.90",
+    "lowPrice": "24.50",
+    "offerCount": 4,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "EARLY BIRD",
+      "price": "21.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "REGULAR",
+      "price": "26.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "4er FRIENDS BUNDLE für 98€",
+      "price": "24.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Mitgegangen",
+      "price": "3.80",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "Rausgegangen Geheimkonzerte",
+     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Rausgegangen Geheimkonzerte Berlin",
+     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte-3/"
+    }
+   ],
+   "startDate": "2026-12-09T20:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
   "fetched": "2026-10-20T13:54:45+02:00",
   "ld": {
@@ -874,129 +947,5 @@
   "seen": "2026-10-20T15:24:41+02:00",
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/poetry-slam-grand-prix-halbfinale-2-1/": {
-  "fetched": "2026-10-20T18:55:53+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "📅 23.–24. Oktober 2026 🎭 Halbfinals: Pfefferberg Theater (23.10.) 👑 Finale: Renaissance Theater Berlin (24.10.)   Das ist die Meisterschaft der Meisterschaften. Beim Grand Prix Poetry Slam: Deutschland stehen die jeweiligen Landesmeister:innen aller Bundesländer auf der Bühne – alle haben sich bereits in ihrem Bundeslands durchgesetzt. Jetzt treffen sie in Berlin aufeinander, für das endgültige Wort-Battle des Bundes um den Grand Prix.   Kein Punkterichter-Gremium, keine Jury: Ihr stimmt live per digitalem Voting ab, wer Germany’s Finest Poetry Slammer 2026 wird. Die Texte? Ein Panorama der deutschen Slamkultur: Berliner Schnauze bis Hamburger Schnack, bayerischer Schmäh bis sächsische Schlagfertigkeit – einmal quer durch Kulturen, Milieus und Mentalitäten.    🎤 Lineup 2026 – die Landesmeister:nnen   Kirsten Fuchs, Landesmeisterin Berlin-Brandenburg Stefan Brosch, Landesmeister Sachsen-Anhalt Matti Linke, Landesmeister Niedersachsen/Bremen Luise Wolff, Landesmeisterin NRW Marc Bobzin, Landesmeister Sachsen Tim Kuppler, Landesmeister Hessen Felix Treder, Stadtmeister Hamburg Tim Jürgensen, Landesmeister Schleswig-Holstein Dana Galkina, Landesmeisterin Thüringen Julius Althoetmar, Landesmeister Bayern Anne Kalkbrenner, Landesmeisterin Mecklenburg-Vorpommern Don Esteban, Landesmeister Rheinland-Pfalz Madeleine Schach, Landesmeisterin Saarland Marvin Suckutt, Landesmeister Baden-Württemberg   Zwei Abende. Zwei ikonische Berliner Bühnen. 14 Landesmeister:innen. Und am Ende steht ein Meister der Meister.   👉 Tickets & Infos: kiezpoeten.com/grandprix",
-   "endDate": "2026-10-23T23:00+0200",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/oC3EZeVFTFqnvuQqgVwV_vabildgrandprix.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10119",
-     "streetAddress": "Schönhauser Allee 176"
-    },
-    "name": "Pfefferberg Theater"
-   },
-   "name": "Poetry Slam Grand Prix Deutschland (Halbfinale 2)",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "24.50",
-    "lowPrice": "16.90",
-    "offerCount": 12,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "PK1 Regulär",
-      "price": "26.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "PK1 Ermäßigt",
-      "price": "24.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "PK2 Regulär",
-      "price": "24.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "PK2 Ermäßigt",
-      "price": "20.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "PK3 Regulär",
-      "price": "20.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "PK3 Ermäßigt",
-      "price": "15.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "PK4 Regulär",
-      "price": "15.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "PK4 Ermäßigt",
-      "price": "12.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Paarplatz (2 Personen)",
-      "price": "40.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Zweiter Paarplatz",
-      "price": "0.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Schwerbehindertenausweis B-Ticket",
-      "price": "15.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Begleiterticket Schwerbehinderte",
-      "price": "0.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Kiezpoeten",
-    "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
-   },
-   "startDate": "2026-10-23T21:30+0200"
-  }
  }
 }

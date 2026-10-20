@@ -90,7 +90,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-10-20T13:54:45+02:00",
+  "fetched": "2026-10-20T21:03:33+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -624,7 +624,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-10-20T13:54:45+02:00",
+  "fetched": "2026-10-20T21:03:33+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -757,81 +757,41 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
- "https://rausgegangen.de/events/geheimkonzert-berlin-24-by-rausgegangen-0/": {
-  "fetched": "2026-10-20T19:51:49+02:00",
+ "https://rausgegangen.de/events/dressed-like-boys-13/": {
+  "fetched": "2026-10-20T21:03:33+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Na Hallo! Es ist wieder so weit: Ein Abend voller Überraschung - denn wer auf der Bühne steht, bleibt bis zum ersten Ton geheim. Wir hatten schon Blond, Berq, Ennio, Futurebae, Jassin, Anais, Katha Pauer & viele mehr zu Gast – und das schon bevor sie die großen Bühnen der Nation gestürmt haben. Also entdecke die Stars von Morgen bei unseren Geheimkonzerten. 🪩",
-   "endDate": "2026-12-09T22:15+0100",
+   "description": "Bei Dressed Like Boys kommt Pop nicht als Pose, sondern aus sehr persönlichen Geschichten über queere Identität. Hinter dem Projekt steckt Jelle Denturck aus Belgien, sonst Stimme von DIRK. 🌈",
+   "endDate": "2027-04-10T23:00+0200",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/mO31iODjTCuFLVfQ493H_gk202516x9photoheadline-32-1.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/D3CFGkCfS0OIxI4TCH11_photo-dressed-like-boyscredit-sieme-hermansweb.jpg"
    ],
    "location": {
     "@type": "Place",
     "address": {
      "@type": "PostalAddress",
      "addressCountry": "DE",
-     "addressLocality": "Berlin"
+     "addressLocality": "Berlin",
+     "postalCode": "10179",
+     "streetAddress": "Holzmarktstraße 15-18"
     },
-    "name": "Secret location"
+    "name": "LARK"
    },
-   "name": "Geheimkonzert Berlin #24 by Rausgegangen",
+   "name": "Dressed Like Boys",
    "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "29.90",
-    "lowPrice": "24.50",
-    "offerCount": 4,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "EARLY BIRD",
-      "price": "21.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "REGULAR",
-      "price": "26.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "4er FRIENDS BUNDLE für 98€",
-      "price": "24.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Mitgegangen",
-      "price": "3.80",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "EUR",
+    "url": "https://www.eventim.de/artist/dressed-like-boys/",
+    "validFrom": "2027-04-10T19:00+0200"
    },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "Rausgegangen Geheimkonzerte",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Rausgegangen Geheimkonzerte Berlin",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte-3/"
-    }
-   ],
-   "startDate": "2026-12-09T20:00+0100"
+   "startDate": "2027-04-10T19:00+0200"
   }
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-10-20T13:54:45+02:00",
+  "fetched": "2026-10-20T21:03:33+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",

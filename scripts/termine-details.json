@@ -1,4 +1,38 @@
 {
+ "https://rausgegangen.de/events/1st-dental-jewelry-expo-berlin-0/": {
+  "fetched": "2026-10-20T13:54:45+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Win Grillz - Berlins erste Grillz & Tooth Gem ExpoAm 24.10. trifft sich Berlins Zahnschmuck-Szene zum ersten Mal an einem Ort. Jeder Gast bekommt eine prall gefüllte Goodie Bag von unseren Hauptsponsoren und einen Welcome Drink direkt zu Beginn. Mit jedem Vorverkaufsticket hast du außerdem die Chance auf ein ganzes Set Chrom-Grillz in deinem eigenen Design. Artists machen Grillz, Tooth Gems und Bleaching live vor Ort, dazu gibt es Tattoos, Fashion und eine Bedazzling Station für dein Handy oder alles, was du bekleben willst. Und um 21 Uhr spielt Goldie 333 live für euch. Also schnapp dir dein Ticket und sei dabei bei der ersten Grillz & Tooth Gem Expo Berlins.Nur 150 Tickets.Line-up: Goldie 333 · Chopper Couture · Dimapeletsky · Bladezz · Grillz by Espino · Toothcandy · Gems by JIJI · Sassy Beauty · Stick and Smoke · Anh Inks · Adrenalina📍 Bunker West, Hohenzollerndamm 120 🗓 Sa, 24.10., 14 bis 24 Uhr 🎟 Ticketlink: https://choppercouture.ch/event Auch unter 18 willkommen.EnglishOn Oct 24, Berlin’s dental jewelry scene comes together in one place for the first time. Every guest gets a goodie bag packed by our sponsors and a welcome drink right at the start. Plus, every presale ticket gives you the chance to win a full set of chrome grillz in your own design. Artists make grillz and tooth gems live on site, and there’s tattoos, fashion and a bedazzling station for your phone or anything else you want to bling up. At 9 pm, Goldie 333 plays live for you. So grab your ticket and be part of Berlin’s first Grillz & Tooth Gem Expo.Only 150 tickets.Line-up: Goldie 333 · Chopper Couture · Dimapeletsky · Bladezz · Grillz by Espino · Toothcandy · Gems by JIJI · Sassy Beauty · Stick and Smoke · Anh Inks · Adrenalina📍 Bunker West, Hohenzollerndamm 120 🗓 Sat, Oct 24, 2 pm to midnight 🎟 Tickets: https://choppercouture.ch/event Under 18s welcome.",
+   "endDate": "2026-10-25T00:00+0200",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/egcAbsLYQCe0ebUyGTVo_rausgegangentitelbild16x9.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "14199",
+     "streetAddress": "Hohenzollerndamm 120"
+    },
+    "name": "Bunker West"
+   },
+   "name": "Win Grillz - Berlins erste Grillz & Tooth Gem Expo",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "9.50",
+    "priceCurrency": "EUR",
+    "url": "https://t.rausgegangen.de/tickets/1st-dental-jewelry-expo-berlin",
+    "validFrom": "2026-10-16T09:30+0200"
+   },
+   "startDate": "2026-10-24T14:00+0200"
+  }
+ },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
   "fetched": "2026-10-20T12:54:09+02:00",
   "ld": {
@@ -89,7 +123,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-10-20T07:54:00+02:00",
+  "fetched": "2026-10-20T13:54:45+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -611,7 +645,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-10-20T07:54:00+02:00",
+  "fetched": "2026-10-20T13:54:45+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -742,7 +776,7 @@
   }
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-10-20T07:54:00+02:00",
+  "fetched": "2026-10-20T13:54:45+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -857,38 +891,5 @@
   },
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/restaurantweek-berlin-drei-gange-menus-zum-festivalpreis-281-0/": {
-  "fetched": "2026-10-20T12:54:09+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Dieses kurze Zögern vor einer Restaurantreservierung kennen leider alle. Die RestaurantWeek nimmt genau das raus, mit eigens zusammengestellten Drei Gängen zum festen Preis in teilnehmenden Restaurants 🙂",
-   "endDate": "2026-11-22T00:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/jjEJICYUTVKs7SN4XuSA_rw-logo-without-trademark-navy.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": null,
-     "postalCode": null,
-     "streetAddress": null
-    },
-    "name": "Berlin"
-   },
-   "name": "RestaurantWeek Berlin: Drei-Gänge-Menüs zum Festivalpreis, 28.10.–22.11.",
-   "offers": {
-    "@type": "Offer",
-    "price": "29.00",
-    "priceCurrency": "EUR",
-    "url": "https://restaurant-week.de/restaurantweek?utm_type=partner&utm_medium=email&utm_campaign=RWD26A&utm_content=Rausgegangen",
-    "validFrom": "2026-10-28T00:00+0100"
-   },
-   "startDate": "2026-10-28T00:00+0100"
-  }
  }
 }

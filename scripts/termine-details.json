@@ -1,6 +1,40 @@
 {
+ "https://rausgegangen.de/events/1st-dental-jewelry-expo-berlin-0/": {
+  "fetched": "2026-10-21T01:47:11+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Win Grillz - Berlins erste Grillz & Tooth Gem ExpoAm 24.10. trifft sich Berlins Zahnschmuck-Szene zum ersten Mal an einem Ort. Jeder Gast bekommt eine prall gefüllte Goodie Bag von unseren Hauptsponsoren und einen Welcome Drink direkt zu Beginn. Mit jedem Vorverkaufsticket hast du außerdem die Chance auf ein ganzes Set Chrom-Grillz in deinem eigenen Design. Artists machen Grillz, Tooth Gems und Bleaching live vor Ort, dazu gibt es Tattoos, Fashion und eine Bedazzling Station für dein Handy oder alles, was du bekleben willst. Und um 21 Uhr spielt Goldie 333 live für euch. Also schnapp dir dein Ticket und sei dabei bei der ersten Grillz & Tooth Gem Expo Berlins.Nur 150 Tickets.Line-up: Goldie 333 · Chopper Couture · Dimapeletsky · Bladezz · Grillz by Espino · Toothcandy · Gems by JIJI · Sassy Beauty · Stick and Smoke · Anh Inks · Adrenalina📍 Bunker West, Hohenzollerndamm 120 🗓 Sa, 24.10., 14 bis 24 Uhr 🎟 Ticketlink: https://choppercouture.ch/event Auch unter 18 willkommen.EnglishOn Oct 24, Berlin’s dental jewelry scene comes together in one place for the first time. Every guest gets a goodie bag packed by our sponsors and a welcome drink right at the start. Plus, every presale ticket gives you the chance to win a full set of chrome grillz in your own design. Artists make grillz and tooth gems live on site, and there’s tattoos, fashion and a bedazzling station for your phone or anything else you want to bling up. At 9 pm, Goldie 333 plays live for you. So grab your ticket and be part of Berlin’s first Grillz & Tooth Gem Expo.Only 150 tickets.Line-up: Goldie 333 · Chopper Couture · Dimapeletsky · Bladezz · Grillz by Espino · Toothcandy · Gems by JIJI · Sassy Beauty · Stick and Smoke · Anh Inks · Adrenalina📍 Bunker West, Hohenzollerndamm 120 🗓 Sat, Oct 24, 2 pm to midnight 🎟 Tickets: https://choppercouture.ch/event Under 18s welcome.",
+   "endDate": "2026-10-25T00:00+0200",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/egcAbsLYQCe0ebUyGTVo_rausgegangentitelbild16x9.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "14199",
+     "streetAddress": "Hohenzollerndamm 120"
+    },
+    "name": "Bunker West"
+   },
+   "name": "Win Grillz - Berlins erste Grillz & Tooth Gem Expo",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "9.50",
+    "priceCurrency": "EUR",
+    "url": "https://t.rausgegangen.de/tickets/1st-dental-jewelry-expo-berlin",
+    "validFrom": "2026-10-16T09:30+0200"
+   },
+   "startDate": "2026-10-24T14:00+0200"
+  }
+ },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
-  "fetched": "2026-10-20T18:55:53+02:00",
+  "fetched": "2026-10-21T01:47:11+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -262,7 +296,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-1/": {
-  "fetched": "2026-10-20T18:55:53+02:00",
+  "fetched": "2026-10-21T01:47:11+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -307,7 +341,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
-  "fetched": "2026-10-20T18:55:53+02:00",
+  "fetched": "2026-10-21T01:47:11+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -352,7 +386,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
-  "fetched": "2026-10-20T18:55:53+02:00",
+  "fetched": "2026-10-21T01:47:11+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -399,7 +433,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-20/": {
-  "fetched": "2026-10-20T18:55:53+02:00",
+  "fetched": "2026-10-21T01:47:11+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -444,7 +478,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-21/": {
-  "fetched": "2026-10-20T18:55:53+02:00",
+  "fetched": "2026-10-21T01:47:11+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -489,7 +523,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-22/": {
-  "fetched": "2026-10-20T18:55:53+02:00",
+  "fetched": "2026-10-21T01:47:11+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -534,7 +568,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
-  "fetched": "2026-10-20T18:55:53+02:00",
+  "fetched": "2026-10-21T01:47:11+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -579,7 +613,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
-  "fetched": "2026-10-20T18:55:53+02:00",
+  "fetched": "2026-10-21T01:47:11+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -675,7 +709,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-brunch-sponsored-by-fritz-kola-halloween-edition-0/": {
-  "fetched": "2026-10-20T18:55:53+02:00",
+  "fetched": "2026-10-21T01:47:11+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -715,7 +749,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-brunch-sponsored-by-fritz-kola-winter-edition-0/": {
-  "fetched": "2026-10-20T18:55:53+02:00",
+  "fetched": "2026-10-21T01:47:11+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -756,39 +790,6 @@
    "startDate": "2026-11-15T12:00+0100"
   },
   "seen": "2026-10-20T15:24:41+02:00"
- },
- "https://rausgegangen.de/events/florence-road-4/": {
-  "fetched": "2026-10-21T00:51:39+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Vier Freundinnen aus Wicklow machen Songs, in denen Gitarren auch mal schaben und gleich danach alles offen daliegt. Erst kamen die Clips im Fish Eye Look, jetzt steht Florence Road wieder auf Deutschlandtour 👀",
-   "endDate": "2027-05-04T23:00+0200",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/P5gbWKQXSL4xQ42hqqg8_photo-florence-roadcredit-kate-cummings-kopie.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "12043",
-     "streetAddress": "Karl-Marx-Straße 141"
-    },
-    "name": "Heimathafen Neukölln"
-   },
-   "name": "Florence Road",
-   "offers": {
-    "@type": "Offer",
-    "price": "29.00",
-    "priceCurrency": "EUR",
-    "url": "https://www.eventim.de/noapp/event/florence-road-heimathafen-neukoelln-22156758/?affiliate=SZ3&utm_campaign=SzeneTickets+GmbH&utm_source=SZ3&utm_medium=dp",
-    "validFrom": "2027-05-04T20:00+0200"
-   },
-   "startDate": "2027-05-04T20:00+0200"
-  }
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
   "fetched": "2026-10-20T21:03:33+02:00",

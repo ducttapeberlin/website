@@ -31,6 +31,10 @@ if (toggle && nav) {
     if (!open) groups.forEach(g => { g.classList.remove('is-open'); g.firstElementChild.setAttribute('aria-expanded', 'false'); });
   };
   toggle.addEventListener('click', () => setOpen(!nav.classList.contains('open')));
+  // Seite hinter dem offenen Menü festhalten, ohne overflow:hidden (Safari verliert sonst den Sticky-Header)
+  const hold = e => { if (nav.classList.contains('open') && !nav.contains(e.target)) e.preventDefault(); };
+  addEventListener('touchmove', hold, { passive: false });
+  addEventListener('wheel', hold, { passive: false });
   // Mobil: Hauptpunkte klappen ihre Unterpunkte auf (immer nur einer offen)
   groups.forEach(g => {
     const head = g.firstElementChild;
@@ -447,3 +451,6 @@ document.querySelectorAll('.kv-mute').forEach(btn => {
     box.append(b);
   });
 })();
+
+// Startseite mobil: „Drag als Bühnenkunst“ aufklappen
+document.querySelectorAll('.about-more-btn').forEach(b => b.addEventListener('click', () => b.closest('.about').classList.remove('is-collapsed')));

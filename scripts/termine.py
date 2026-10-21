@@ -204,7 +204,8 @@ def tag_html(row, cls="event-tag"):
 
 def render(row):
     date, _, time, doors = when(row)
-    meta = [f"<span>{L['weekdays'][date.weekday()]}</span>"]
+    wd = L['weekdays'][date.weekday()]
+    meta = [f'<span><span class="wd-l">{wd}</span><span class="wd-s">{wd[:L["wd_short"]]}</span></span>']
     meta += [f"<span>{time}</span>"] if time else []
     meta += [f'<span class="event-doors">{doors}</span>'] if doors else []
     tag = (row.get("Format") or "").strip()

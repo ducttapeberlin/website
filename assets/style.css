@@ -811,7 +811,7 @@ a.event-tag { text-decoration: none; } a.event-tag:hover { opacity: .85; }
    Menü scrollt selbst, Seite dahinter bleibt stehen */
 @media (max-width: 820px) {
   .nav { max-height: calc(100dvh - 64px); overflow-y: auto; overscroll-behavior: contain; }
-  html.nav-locked, html.nav-locked body { overflow: hidden; }
+  /* kein overflow:hidden mehr: das hat in Safari den Sticky-Header (und das Menü) nach oben aus dem Bild geschoben */
   .nav-group > a { position: relative; padding-right: calc(var(--gutter) + 28px); }
   .nav-group > a::after { content: ""; position: absolute; right: var(--gutter); top: 50%; width: 9px; height: 9px; margin-top: -7px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(45deg); transition: transform .2s ease, margin .2s ease; }
   .nav-group.is-open > a { color: var(--yellow); }
@@ -1012,3 +1012,39 @@ footer, .small, .gal-credit, .q-credit, .q-pcredit, .q-vid figcaption, .q-fig fi
 /* Schwebender Buchen-Knopf bleibt fixiert (die Tape-Regel für .btn setzt sonst position: relative) */
 .btn.float-book { position: fixed; }
 .tape-ticker .band { z-index: 2; } .tape-ticker .band.two { z-index: 1; }
+
+/* Mobil-Feinschliff (Emanuel, 2026-10-21) */
+.event-date small .wd-l, .event-date small .wd-s { display: inline; }
+.event-date small .wd-s { display: none; }
+.about-more { display: none; }
+.about-more-btn { display: none; }
+@media (max-width: 720px) {
+  /* Laufband: nur das gelbe Band, gerade */
+  .next.tape-ticker { height: auto; overflow: hidden; }
+  .tape-ticker .band { position: relative; top: 0; left: 0; right: 0; transform: none; }
+  .tape-ticker .band.two { display: none; }
+  /* Wochentage abgekürzt */
+  .event-date small .wd-l { display: none; }
+  .event-date small .wd-s { display: inline; }
+  /* Highlight-Karte: Termine passen in die Breite */
+  .featured.theme-weihnachten .featured-dates { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+  .featured.theme-weihnachten .featured-dates li { min-width: 0; }
+  .featured.theme-weihnachten .featured-dates .btn { padding: 14px 8px; }
+  /* Drag als Bühnenkunst: zweiter Absatz aufklappbar */
+  .about.is-collapsed > p:not(.lead), .about.is-collapsed > .btn { display: none; }
+  .about-more-btn { display: inline-block; background: none; border: 0; padding: 0; margin-top: 4px; color: var(--yellow); font: 800 var(--fs-text) var(--body); cursor: pointer; }
+  .about:not(.is-collapsed) .about-more-btn { display: none; }
+  /* Booking-Kachel: Knöpfe untereinander, volle Breite */
+  .service-wide .hero-actions { grid-template-columns: 1fr; gap: 12px; margin: 0; padding: 0; background: none; }
+  .service-wide .hero-actions .btn { padding: 16px 12px; font-size: 13px; }
+  /* Kollektiv-Netzwerk: Buchen oben, Presse und Galerie in einer Reihe */
+  .kv-cta:has(#book-end) { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .kv-cta #book-end { grid-column: 1 / -1; justify-content: center; }
+  .kv-cta:has(#book-end) .btn { justify-content: center; text-align: center; }
+  /* Leistungen: Knöpfe im gelben Kasten kompakter */
+  .cta-actions { display: grid; grid-template-columns: 1fr; gap: 12px; }
+  .cta-actions .btn { justify-content: center; padding: 14px 12px; font-size: 13px; white-space: nowrap; }
+  /* Mehrzeilige Überschriften brauchen Luft */
+  h1, h2 { line-height: 1.08; }
+  .featured-dates small { letter-spacing: .04em; }
+}

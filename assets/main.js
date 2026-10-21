@@ -210,6 +210,18 @@ if (dlg) {
     body.appendChild(s);
     dlg.showModal();
   }));
+  // Neuer Schritt im Ticketshop (iframe lädt neu oder ändert die Höhe): nach oben scrollen, sonst ist der Anfang abgeschnitten
+  const toTop = () => { body.scrollTop = 0; };
+  const sizes = new ResizeObserver(entries => entries.forEach(e => {
+    const h = Math.round(e.contentRect.height), last = e.target._h;
+    e.target._h = h;
+    if (last && (h < last - 40 || h > last + 200)) toTop();
+  }));
+  new MutationObserver(() => body.querySelectorAll('iframe:not([data-watched])').forEach(f => {
+    f.dataset.watched = '';
+    f.addEventListener('load', toTop);
+    sizes.observe(f);
+  })).observe(body, { childList: true, subtree: true });
   dlg.querySelector('.tickets-close').addEventListener('click', () => dlg.close());
   dlg.addEventListener('click', e => { if (e.target === dlg) dlg.close(); });
   dlg.addEventListener('close', () => { body.innerHTML = ''; });

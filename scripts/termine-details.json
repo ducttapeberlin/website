@@ -90,7 +90,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-10-21T09:11:39+02:00",
+  "fetched": "2026-10-21T15:59:53+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -178,39 +178,6 @@
   "seen": "2026-10-20T15:24:41+02:00",
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/bln-reunion-indoor-festival-0/": {
-  "fetched": "2026-10-21T15:11:12+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "BLN REUNION INDOOR FESTIVAL Sa. 12.12.26 | Spindler & Klatt  LIVE ON STAGE: AKA AKA | K-PAUL | SASCHA BRAEMER | BLONDEE uvm.  3 Floors - 14 Acts - Show - Direkt an der Spree  Nach 4 ausverkauften Veranstaltungen im Strandbad Grünau freuen wir uns auf unsere erste Winter Edition - BLN REUNION INDOOR FESTIVAL am 12.12.26 im Spindler & Klatt - 3 Floors - 14 Acts. Eine Nacht im Rausch.  Direkt an der Spree gelegen präsentiert sich das Spindler & Klatt als eine der schönsten Locations Berlins. Technik auf höchstem Niveau und ein einzigartiges Ambiente bieten einen perfekten Mikrokosmos für ein wundervolles elektronisches Event auf 3 Floors. Für das BLN Reunion Festival nutzen wir die neue Eventhalle des Spindler & Klatt, als perfekte Erweiterung.  Das Line-Up besteht aus jahrelangen Begleitern unserer Festivals und verspricht eine wilde Party!  MUSIC AUF 3 FLOORS:AKA AKA K-PAUL SASCHA BRAEMER BLONDEE OSTEKKE NICO CASCEUR DJOY WAIKIKI MAX LINDEMANN DEFJAM TOM KLANG MAYZE FORCE POKAFACE  Tickets hier: www.bln-reunion.de  i️ Einlass: 21 Uhr | ab 18 Jahren  🎫 Alle Infos & Tickets hier: www.bln-reunion.de  Bitte Tickets im Vorverkauf sichern! Abendkasse nur falls nicht ausverkauft!  📍 Spindler & Klatt, Köpenicker Str. 16-17 -17, 10997 Berlin",
-   "endDate": "2026-12-13T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/UByHSSIrQtq4vum0PE35_bln1920x1080variantec.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10997",
-     "streetAddress": "Köpenicker Straße 16"
-    },
-    "name": "Spindler & Klatt"
-   },
-   "name": "BLN REUNION INDOOR FESTIVAL - AKA AKA, K-Paul, Sascha Braemer, Blondee uvm.",
-   "offers": {
-    "@type": "Offer",
-    "price": "22.90",
-    "priceCurrency": "EUR",
-    "url": "https://open-air-berlin.ticket.io/ZO7IuWhk/",
-    "validFrom": "2026-12-12T21:00+0100"
-   },
-   "startDate": "2026-12-12T21:00+0100"
-  }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
   "fetched": "2026-10-21T10:59:33+02:00",
@@ -657,7 +624,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-10-21T09:11:39+02:00",
+  "fetched": "2026-10-21T15:59:53+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -791,7 +758,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-10-21T09:11:39+02:00",
+  "fetched": "2026-10-21T15:59:53+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -907,5 +874,37 @@
   "seen": "2026-10-20T15:24:41+02:00",
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
+ },
+ "https://rausgegangen.de/events/mitte-bitte-lieb-lustig-comedy-open-mic-1/": {
+  "fetched": "2026-10-21T15:59:53+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "🎤 Ein Abend mit frischer Stand-up Comedy mitten in Berlin-Mitte: Bei MITTE BITTE! testen ausgewählte Comedians der Berliner Szene ihre neuesten Ideen, feilen an Jokes und präsentieren Material, das man so oft nur ein einziges Mal erlebt.Jeden Monat erwartet euch ein wechselndes Line-up in der besonderen Atmosphäre der Z-Bar. Gastgeber des Abends ist Comedian Rüdiger Rudolph.📍 Berlin Mitte / Bergstraße Ecke Torstraße  🗓 Jeden 4. Montag im Monat  🕗 Einlass 19:30 | Start 20:00  Host: @ruedigerrudolph🎟 Eintritt frei  💸 Spende willkommen    Eintritt ab 18 Jahren 🎟 Kostenlose Tickets: https://www.eventbrite.de/e/mitte-bitte-comedy-open-mic-tickets-1991102227361  ",
+   "endDate": "2026-11-30T22:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/nsx3WINWRJagbaBtMViY_harmonischer-filter-fur-layout-1920-x-1080-px-1200-x-675-px3.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10115",
+     "streetAddress": "Bergstraße 2"
+    },
+    "name": "Z-Bar"
+   },
+   "name": "MITTE BITTE! - lieb & lustig - Comedy Open Mic",
+   "offers": {
+    "@type": "Offer",
+    "price": "0.00",
+    "priceCurrency": "EUR",
+    "validFrom": "2026-11-30T20:00+0100"
+   },
+   "startDate": "2026-11-30T20:00+0100"
+  }
  }
 }

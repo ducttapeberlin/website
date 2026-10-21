@@ -180,15 +180,15 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-10-21T17:58:44+02:00",
+  "fetched": "2026-10-22T00:52:47+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "COSMOPOLITAN is back. 💖🪩 A night of queer disco, big melodies and late-night house. 🎶✨ See you on the dancefloor. 💃🏽🕺🏻🎧 Line-up: EMI · Fixie Fate · TBA 🎭 Show: Duct Tape · TBA 📍 Location: Privatclub, Skalitzer Straße 85–86, 10997 Berlin 🗓️ 28 November · Doors 11 PM 🕚",
+   "description": "COSMOPOLITAN is back. 💖🪩 A night of queer disco, big melodies and late-night house. 🎶✨ See you on the dancefloor. 💃🏽🕺🏻🎧 Line-up: EMI · Fixie Fate · TBA 🎭 Show: Duct Tape · Vyla Virus 📍 Location: Privatclub, Skalitzer Straße 85–86, 10997 Berlin 🗓️ 28 November · Doors 11 PM 🕚",
    "endDate": "2026-11-29T06:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/yyizeY8Taud3Pn9tEp14_7fa16b50-b981-4b8c-99ba-6940d6f0ac8c.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/kt44adH6SMiHGgALAMqB_img8352.jpeg"
    ],
    "location": {
     "@type": "Place",
@@ -395,51 +395,6 @@
     }
    ],
    "startDate": "2026-12-10T19:00+0100"
-  },
-  "seen": "2026-10-20T15:24:41+02:00"
- },
- "https://rausgegangen.de/events/drag-bingo-night-torte-bar-20/": {
-  "fetched": "2026-10-21T21:04:55+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Alle zwei Wochen wird Bingo durch wechselnde Drag-Hosts aus dem DUCT TAPE Universum mit viel Charme, Humor und spannenden Performances aufgemischt. Drei Runden, coole Gewinne und jede Menge Überraschungen garantieren einen Abend, der mehr als nur Glücksspiel ist 🎟️",
-   "endDate": "2026-10-21T22:00+0200",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/dsOpfIJYSWKxCWfqUnU1_28be860b-ff2c-43a3-a934-bdea454b9030.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "12055",
-     "streetAddress": "Brusendorfer Straße 12"
-    },
-    "name": "TORTE BAR"
-   },
-   "name": "Drag Bingo Night @ Torte Bar by DUCT TAPE",
-   "offers": {
-    "@type": "Offer",
-    "price": 0,
-    "priceCurrency": "EUR",
-    "validFrom": "2026-10-21T20:00+0200"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "CURA Berlin",
-     "url": "https://rausgegangen.de/organizations/cura-berlin/"
-    },
-    {
-     "@type": "Organization",
-     "name": "DUCT TAPE",
-     "url": "https://rausgegangen.de/organizations/duct-tape/"
-    }
-   ],
-   "startDate": "2026-10-21T20:00+0200"
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
@@ -757,6 +712,60 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
+ "https://rausgegangen.de/events/gay-panic-alter-ego-0/": {
+  "fetched": "2026-10-22T00:52:47+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Zwischen Drag und Whacking geht es bei GAY PANIC diesmal ums Alter Ego, also um die Seite von Dir, die sonst eher unter dem Bett wohnt. Dahinter steckt eine queere Partyreihe, die vor allem FLINTA und queer Artists Platz macht und auf Awareness achtet 🌈",
+   "endDate": "2026-10-26T02:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/DTtkItOzTi4xeMDmEW5l_bannerrausgegangenbanner-copy.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10245",
+     "streetAddress": "Revaler Str. 99"
+    },
+    "name": "Crack Bellmer"
+   },
+   "name": "GAY PANIC: Alter Ego",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "15.00",
+    "lowPrice": "10.00",
+    "offerCount": 2,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Pre Sale",
+      "price": "12.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Soli",
+      "price": "5.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "GAY PANIC",
+    "url": "https://rausgegangen.de/organizations/gay-panic/"
+   },
+   "startDate": "2026-10-25T19:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
   "fetched": "2026-10-21T22:54:48+02:00",
   "ld": {
@@ -874,43 +883,5 @@
   "seen": "2026-10-20T15:24:41+02:00",
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/keo-3/": {
-  "fetched": "2026-10-21T23:56:04+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Früher standen Finn und Conor Keogh noch in britischen Pubs auf der Bühne, jetzt klingt Keo nach deutlich lauteren Gitarren und offener Kante. Viel Alternative Rock, aber ohne Schutzschild 👀",
-   "endDate": "2027-04-11T06:00+0200",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Jg1vNdRjIbgCaKFsFpQK_press-photo-keobehappydigiv1judeharrison-39-klein.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "12051",
-     "streetAddress": "Hermannstraße 146"
-    },
-    "name": "HOLE"
-   },
-   "name": "Keo",
-   "offers": {
-    "@type": "Offer",
-    "price": "29.30",
-    "priceCurrency": "EUR",
-    "url": "https://www.eventim.de/noapp/event/keo-hole-44-22217130/?affiliate=SZ3&utm_campaign=SzeneTickets+GmbH&utm_source=SZ3&utm_medium=dp",
-    "validFrom": "2027-04-10T20:00+0200"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Trinity Music",
-    "url": "https://rausgegangen.de/organizations/trinity-music-ah-4tam/"
-   },
-   "startDate": "2027-04-10T20:00+0200"
-  }
  }
 }

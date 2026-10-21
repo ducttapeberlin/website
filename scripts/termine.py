@@ -177,8 +177,6 @@ def button(row):
     slug = ticket_slug(row.get("Tickets"))
     booking = (row.get("Reservierung") or "").strip()
     page = (row.get("Eventseite") or "").strip()
-    if slug and page.startswith(SITE):  # eigene Eventseite: dort ist der Ticketshop, Tag schon ausgewählt
-        return f'<a class="btn btn-primary" href="{esc(href(page))}?tag={date.isoformat()}">Tickets</a>'
     if slug:
         label = f"{(row.get('Titel') or '').strip()} · {L['weekdays'][date.weekday()]} {date:%d.%m.}"
         return f'<button class="btn btn-primary" type="button" data-tickets="{esc(slug)}" data-label="{esc(label)}">Tickets</button>'

@@ -830,8 +830,7 @@ a.event-tag { text-decoration: none; } a.event-tag:hover { opacity: .85; }
 .xs-poster { margin: 0; }
 .xs-poster img { width: 100%; height: auto; border-radius: 14px; }
 .xs-poster figcaption { margin-top: 8px; font-size: 13px; color: var(--grey); }
-.xs-title { font-size: clamp(36px, 5vw, 64px); margin: 18px 0 28px; }
-.xs-title span { color: var(--yellow); }
+.xs-title { font-size: clamp(26px, 3.6vw, 46px); margin: 18px 0 28px; }
 .xs-page h2 { font-size: clamp(28px, 3.4vw, 40px); margin: 0 0 16px; }
 .xs-desc p { margin: 0 0 14px; color: #D8D8D2; }
 .xs-desc strong { color: var(--white); }

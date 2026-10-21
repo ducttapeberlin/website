@@ -979,7 +979,8 @@ footer, .small, .gal-credit, .q-credit, .q-pcredit, .q-vid figcaption, .q-fig fi
 .tape-ticker .band { position: absolute; left: -5%; right: -5%; top: 22px; display: block; overflow: hidden; padding: 12px 0; background: var(--yellow); color: var(--black); transform: rotate(-2.5deg); text-decoration: none; }
 .tape-ticker .band.two { top: 62px; background: #1d1c1e; color: var(--yellow); transform: rotate(1.8deg); }
 .tape-ticker .track { display: flex; gap: 36px; width: max-content; animation: tape-run 40s linear infinite; font: 400 22px/1 var(--display); text-transform: uppercase; white-space: nowrap; }
-.tape-ticker .band.two .track { animation-direction: reverse; animation-duration: 50s; }
+.tape-ticker .band.two .track { animation-name: tape-run-back; animation-duration: 50s; }
+@keyframes tape-run-back { from { transform: translateX(-50%); } to { transform: translateX(0); } }
 .tape-ticker .track span::after { content: "✦"; margin-left: 36px; }
 .tape-ticker .band:hover .track { animation-play-state: paused; }
 @keyframes tape-run { to { transform: translateX(-50%); } }

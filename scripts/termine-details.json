@@ -179,16 +179,16 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/berlin-premiere-von-identitti-0/": {
-  "fetched": "2026-10-21T21:04:55+02:00",
+ "https://rausgegangen.de/events/another-drag-show-with-paige-three-and-pitita-0/": {
+  "fetched": "2026-10-21T21:53:04+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Eine Dozentin, die sich als Deutsche statt als Inderin entpuppt, und plötzlich steht alles auf dem Spiel, was Nivedita über Zugehörigkeit glaubt. Zur Berlin Premiere kommen Regisseurin Randa Chahoud und die drei Hauptdarsteller:innen 👀",
-   "endDate": "2026-11-11T23:00+0100",
+   "description": "🎉 ANOTHER DRAG SHOW WITH PITITA  AND PAIGE THREE- 22.10.2026  🎟️ TICKETS ON RAUSGEGANGEN – LIMITED SPACEWHERE? THE SOCIAL HUB BERLIN! ENTRY: 19:00📅 SAVE THE DATE – It’s time to celebrate queer excellence, Berlin-style.💋 This isn’t just any drag show – it’s Bella Troia’s DRAG EXCELLENCE BASH, and she’s bringing an explosive lineup to the stage for a night of performances, party, and pure energy.🌟 FEATURING:⭐️ PITITA ( Winner of Drag Race España)⭐️ PAIGE THREE Rupaul's Drag Race UK Star⭐️ MARIE CONNA  Germany's Top Chilean Spicy 🌶️ ⭐️ ILE POIKELA ACROBATICS STAR Recently seen in Berlin Burlesque Festival Get ready, Berlin! The sensational  Pitita and Paige Three – are touching down for one night only. Expect elegance, attitude, and unforgettable performance from these superstars. 🔥👠💄 OPEN STAGE The night kicks off with an open stage segment for rising stars and fresh talent. Our cast? KUM KWEEN, JESSICARA AND MARLY ROUGE.🎤 HOSTED BY BELLA TROIA The Latinx Hurricane Monster of Berlin ! 💖 WHY YOU CAN’T MISS THIS: 🔥 A one-night-only birthday drag extravaganza 👑 International star power meets Berlin talent 💅 Open stage, wild energy, and unforgettable performancesWhether you’re performing, partying, or both – come early, stay loud, and leave legendary.",
+   "endDate": "2026-10-23T06:00+0200",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/UpkPFnCOQwa1jeFARHMh_design-ohne-titel-3.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/MPRp4Lb6QTKVOQDZcRod_november-another-drag-show-prasentation.png"
    ],
    "location": {
     "@type": "Place",
@@ -196,19 +196,43 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10407",
-     "streetAddress": "Bötzowstraße 1-5"
+     "postalCode": "10179",
+     "streetAddress": "Alexanderstraße 40"
     },
-    "name": "Filmtheater am Friedrichshain"
+    "name": "The Social Hub"
    },
-   "name": "Berlin-Premiere von IDENTITTI",
+   "name": "ANOTHER DRAG SHOW WITH PITITA AND PAIGE THREE",
    "offers": {
-    "@type": "Offer",
-    "price": "14.00",
-    "priceCurrency": "EUR",
-    "validFrom": "2026-11-11T20:00+0100"
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 3,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regular",
+      "price": "23.92",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Last Minute",
+      "price": "27.10",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "TEMPORARY SALE",
+      "price": "18.50",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
    },
-   "startDate": "2026-11-11T20:00+0100"
+   "startDate": "2026-10-22T19:00+0200"
   }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {

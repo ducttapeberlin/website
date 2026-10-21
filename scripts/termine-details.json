@@ -875,16 +875,16 @@
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/kukuriku-5/": {
-  "fetched": "2026-10-21T17:58:44+02:00",
+ "https://rausgegangen.de/events/ocean-bound-1/": {
+  "fetched": "2026-10-21T18:56:44+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Ein Holocaust-Überlebender kehrt nach vielen Jahren nach Deutschland zurück. Er trifft auf Menschen, die weitergelebt haben, als wäre nichts geschehen. Das Kind, das er damals unter Zwang zeugen musste und nach dem er sucht, hat unterdessen, ohne seine Herkunft zu kennen, den umgekehrten Weg nach Israel angetreten. Ein generationenübergreifendes Geflecht aus Schuld und Vergebung, Nähe und Gewalt.Das einzige Theaterstück des 2013 verstorbenen Schriftstellers Yoram Kaniuk wurde erst vor Kurzem im Nachlass entdeckt und feierte 2025 am TD Berlin seine Welturaufführung. Aus Kerem Hillels Regiekonzept, in dem alle Figuren Masken tragen, und der Musik von Meittam Govreen entsteht ein eindringliches Kammerspiel. Konkrete Dialoge treffen auf poetische Momente der Begegnung und schaffen in einem sich stetig zuspitzenden Bühnenbild einen atmosphärischen Raum der Aushandlung. Erinnerungen an die Verbrechen der NS-Zeit treten in Dialog mit dem Wunsch nach Erneuerung, zwischen Menschen, Kulturen und verhärteten nationalen Beziehungen.„Was erinnern Sie nicht, wenn Sie sich erinnern?“ verbindet als bohrende Frage im Stück das Jetzt mit dem Damals. Geht es um richtig oder falsch – oder mehr darum, wie wir mit der Vergangenheit umgehen: sie verdrängen, festhalten? Oder können wir die Vergangenheit neu erzählen, bis wir uns endlich darin wiederfinden?",
-   "endDate": "2026-10-23T06:00+0200",
+   "description": "Küstenlinien verändern sich bis zur Unkenntlichkeit; vertraute Landschaften verschwinden. Vor dem Hintergrund des Klimawandels und des Verlusts von Umgebungen, mit denen wir verbunden sind und die uns zusammenhalten, widmet sich der rumänische Choreograf Sergiu Matis in seiner neuen Arbeit „Ocean Bound“ der Frage, wie bewegte Bilder auf bewegte Körper wirken.Eigens für das Projekt entstandenes Videomaterial richtet den Blick auf Lebensräume an der Schnittstelle von Land und Meer, menschlicher Besiedlung und Wald – Orte, an denen steigende Wasserstände durch die Abholzung von Mangrovenwäldern, Küstenerosion und Veränderungen der Gezeiten das Leben zunehmend prägen. Publikum und Performer*innen bewegen sich zwischen unterschiedlichen Videoprojektionen frei auf der Bühne und erzeugen eine Choreografie, in der Körper und Bilder innerhalb einer gemeinsamen, vom Ozean geprägten Umgebung miteinander verwoben werden.„Ocean Bound“ schafft Raum für das tiefe Gefühl von Verlust und für Formen des Trauerns, für die uns Sprache und Rituale fehlen. Die Körper der Performer*innen werden von den komplexen Emotionen ökologischer Trauer bewegt. So entsteht eine Choreografie an der Grenze zwischen Digitalem und Analogem, zwischen Dokumentation und Fiktion – und gibt Raum, um das Gewicht des Verlusts zu tragen, zu trauern und aus den Fragmenten eine bewegende, hoffnungsvolle und poetische Sprache zu entwickeln.",
+   "endDate": "2026-10-30T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://rausgegangen.s3.amazonaws.com/ecx7cdviq660.jpg"
+    "https://rausgegangen.s3.amazonaws.com/vo178knl9swb.png"
    ],
    "location": {
     "@type": "Place",
@@ -892,20 +892,20 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10179",
-     "streetAddress": "Klosterstraße 44"
+     "postalCode": "10243",
+     "streetAddress": "Holzmarktstr. 33"
     },
-    "name": "TD Berlin"
+    "name": "Radialsystem"
    },
-   "name": "KUKURÍKU",
+   "name": "Ocean Bound",
    "offers": {
     "@type": "Offer",
-    "price": "10.00",
+    "price": "12.00",
     "priceCurrency": "EUR",
-    "url": "https://tdberlin.reservix.de/p/reservix/group/546744",
-    "validFrom": "2026-10-22T20:00+0200"
+    "url": "https://pretix.eu/radialsystem/snxxl/",
+    "validFrom": "2026-10-29T20:00+0100"
    },
-   "startDate": "2026-10-22T20:00+0200"
+   "startDate": "2026-10-29T20:00+0100"
   }
  }
 }

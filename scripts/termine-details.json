@@ -875,57 +875,37 @@
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/lina-bo-asphalt-und-sterne-tour-2026-20/": {
-  "fetched": "2026-10-21T05:57:02+02:00",
+ "https://rausgegangen.de/events/restaurantweek-berlin-drei-gange-menus-zum-festivalpreis-281-0/": {
+  "fetched": "2026-10-21T06:55:40+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Zwischen Straße und Club klingen Lina Bó nach Unterwegssein, nach Begegnungen und diesem Leben zwischen Kulturen. Hinter dem Duo stehen Celina von Wrochem und Luca Bo Hansen 💃",
-   "endDate": "2026-11-27T05:00+0100",
+   "description": "Dieses kurze Zögern vor einer Restaurantreservierung kennen leider alle. Die RestaurantWeek nimmt genau das raus, mit eigens zusammengestellten Drei Gängen zum festen Preis in teilnehmenden Restaurants 🙂",
+   "endDate": "2026-11-22T00:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/PPDKVpxqQ2cU0aMswuwf_lina-bo-tour-2026-bild-1-small-by-malte-paulsen.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/jjEJICYUTVKs7SN4XuSA_rw-logo-without-trademark-navy.png"
    ],
    "location": {
     "@type": "Place",
     "address": {
      "@type": "PostalAddress",
      "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10435",
-     "streetAddress": "Knaackstraße 97"
+     "addressLocality": null,
+     "postalCode": null,
+     "streetAddress": null
     },
-    "name": "Maschinenhaus"
+    "name": "Berlin"
    },
-   "name": "Lina Bó - Asphalt und Sterne Tour 2026",
+   "name": "RestaurantWeek Berlin: Drei-Gänge-Menüs zum Festivalpreis, 28.10.–22.11.",
    "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": null,
-    "lowPrice": null,
-    "offerCount": 2,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "28.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Begleitperson",
-      "price": "0.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
+    "@type": "Offer",
+    "price": "29.00",
+    "priceCurrency": "EUR",
+    "url": "https://restaurant-week.de/restaurantweek?utm_type=partner&utm_medium=email&utm_campaign=RWD26A&utm_content=Rausgegangen",
+    "validFrom": "2026-10-28T00:00+0100"
    },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Lina Bó"
-   },
-   "startDate": "2026-11-26T20:00+0100"
+   "startDate": "2026-10-28T00:00+0100"
   }
  }
 }

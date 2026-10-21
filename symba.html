@@ -22,7 +22,7 @@
   <meta name="theme-color" content="#0B0B0B">
   <link rel="icon" href="favicon.png">
   <link rel="apple-touch-icon" href="favicon.png">
-  <link rel="stylesheet" href="assets/style.css?v=202610211443">
+  <link rel="stylesheet" href="assets/style.css?v=202610211451">
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "@id": "https://ducttape.berlin/symba#person", "name": "Symba", "alternateName": ["Symba Drag Queen", "Symba DUCT TAPE"], "url": "https://ducttape.berlin/symba", "image": "https://ducttape.berlin/assets/img/symba-weiss.webp?v=2", "jobTitle": ["Drag Queen", "Performerin", "Tänzerin"], "description": "Symba ist Drag Queen, Performerin und Tänzerin aus Berlin, bekannt für selbst gemachte Outfits, Perücken und Showgirl-Glamour. Buchbar für Performances, Shows, Shootings und Events.", "knowsAbout": ["Drag", "Performance", "Tanz", "Perücken", "Perücken-Styling", "Kostümbau", "Drag-Make-up", "Social Media"], "homeLocation": {"@type": "Place", "name": "Berlin"}, "email": "booking@ducttape.berlin", "sameAs": ["https://www.instagram.com/symba4ever/"], "memberOf": {"@type": "PerformingGroup", "@id": "https://ducttape.berlin/#ducttape", "name": "DUCT TAPE", "url": "https://ducttape.berlin/"}, "makesOffer": [{"@type": "Offer", "areaServed": "Berlin", "itemOffered": {"@type": "Service", "name": "Performances und Tanz", "description": "Show- und Tanznummern für Bühnen, Galas, Partys und Events, glamourös, sexy und mit großer Präsenz."}}, {"@type": "Offer", "areaServed": "Berlin", "itemOffered": {"@type": "Service", "name": "Looks, Perücken und Outfits", "description": "Selbst gemachte Kostüme und Perücken, Perücken-Styling und Workshops rund um den Drag-Look."}}, {"@type": "Offer", "areaServed": "Berlin", "itemOffered": {"@type": "Service", "name": "Shootings und Content", "description": "Kampagnen, Fotoshootings und Social-Media-Content für Marken."}}, {"@type": "Offer", "areaServed": "Berlin", "itemOffered": {"@type": "Service", "name": "Auftritte bei Events", "description": "Walking Acts und Showmomente, die den Blick auf sich ziehen."}}]}</script>
 </head>
 <body>
@@ -76,7 +76,7 @@
         <p class="lead">Symba ist Drag Queen, Performerin und Tänzerin. Ihr Drag ist sehr polished und von amerikanischem Drag inspiriert. Auf der Bühne ist sie eine Erscheinung: glamourös, sexy, selbstbewusst und immer auf Perfektion ausgerichtet.</p>
         <p class="lead q-lead2">Wenn Symba die Bühne betritt, zieht sie alle Blicke auf sich: Ihre Nummern schwanken zwischen High Energy und großem Drama, getragen von Haltung, Bewegung und Ausdruck. Vieles von dem, was man dabei sieht, hat sie selbst gemacht. Ihre Outfits und Perücken entstehen oft in eigener Handarbeit, und bis zum Auftritt ist jedes Detail durchdacht, vom Make-up bis zur Körperhaltung.</p>
         <div class="q-actions">
-          <a class="btn btn-primary" href="anfrage?act=symba">Symba buchen</a>
+          <a id="book-top" class="btn btn-primary" href="anfrage?act=symba">Symba buchen</a>
           <a class="btn btn-ghost" href="https://www.instagram.com/symba4ever/" target="_blank" rel="noopener">@symba4ever</a>
         </div>
       </div>
@@ -115,12 +115,14 @@
       <div class="q-cta-box">
         <h2>Symba für dein Event</h2>
         <p>Anfragen mit Datum, Ort und Art der Veranstaltung gehen direkt an booking@ducttape.berlin.</p>
-        <a class="btn btn-dark" href="anfrage?act=symba">Symba buchen</a>
+        <a id="book-end" class="btn btn-dark" href="anfrage?act=symba">Symba buchen</a>
       </div>
       <p class="kicker q-more">Mehr von DUCT TAPE</p>
       <div class="kv-cta"><a class="btn btn-ghost" href="emi">EMI</a><a class="btn btn-ghost" href="magda-von-pfeffer">Magda von Pfeffer</a><a class="btn btn-ghost" href="kollektiv">Das Kollektiv</a></div>
     </div>
   </section>
+
+  <a class="btn btn-primary float-book" href="anfrage?act=symba" data-hide-at="book-top book-end">Symba buchen</a>
 
   <dialog class="lightbox" id="lightbox" aria-label="Bild">
     <button class="lb-close" type="button" aria-label="Schließen">✕</button>

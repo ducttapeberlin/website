@@ -1008,3 +1008,5 @@ footer, .small, .gal-credit, .q-credit, .q-pcredit, .q-vid figcaption, .q-fig fi
 .event-day { padding: 0; color: inherit; }
 .event-day::before { display: none; }
 .event-date small { margin-top: 6px; }
+/* Schwebender Buchen-Knopf bleibt fixiert (die Tape-Regel für .btn setzt sonst position: relative) */
+.btn.float-book { position: fixed; }

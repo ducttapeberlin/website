@@ -22,7 +22,7 @@
   <meta name="theme-color" content="#0B0B0B">
   <link rel="icon" href="../favicon.png">
   <link rel="apple-touch-icon" href="../favicon.png">
-  <link rel="stylesheet" href="../assets/style.css?v=202610211443">
+  <link rel="stylesheet" href="../assets/style.css?v=202610211451">
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "@id": "https://ducttape.berlin/en/emi#person", "name": "EMI", "alternateName": ["EMI Drag Queen", "EMI DUCT TAPE"], "url": "https://ducttape.berlin/en/emi", "image": "https://ducttape.berlin/assets/img/emi.webp", "jobTitle": ["Drag queen", "Host", "DJ"], "description": "EMI is a drag queen, host and DJ from Berlin and part of the drag collective DUCT TAPE. Available to book as a drag host for events, shows, drag bingo and drag brunch, and as a drag DJ.", "knowsAbout": ["Drag", "Moderation", "Hosting", "DJ", "Event-Moderation", "Drag Bingo", "Drag Brunch", "Showproduktion"], "homeLocation": {"@type": "Place", "name": "Berlin"}, "email": "booking@ducttape.berlin", "sameAs": ["https://www.instagram.com/whatis.emi/"], "memberOf": {"@type": "PerformingGroup", "@id": "https://ducttape.berlin/#ducttape", "name": "DUCT TAPE", "url": "https://ducttape.berlin/"}, "makesOffer": [{"@type": "Offer", "areaServed": "Berlin", "itemOffered": {"@type": "Service", "name": "Hosting and MC", "description": "Events, galas, corporate parties, brand events, award shows and stage programmes, with quick wit and a firm hand on the evening."}}, {"@type": "Offer", "areaServed": "Berlin", "itemOffered": {"@type": "Service", "name": "Drag DJ sets", "description": "DJ sets for parties, clubs and events, performed in full drag."}}, {"@type": "Offer", "areaServed": "Berlin", "itemOffered": {"@type": "Service", "name": "Shoots and content", "description": "Campaigns, photo shoots and social media content for brands."}}, {"@type": "Offer", "areaServed": "Berlin", "itemOffered": {"@type": "Service", "name": "Concept and creative direction", "description": "Developing and producing drag formats, shows and events."}}]}</script>
 </head>
 <body>
@@ -76,7 +76,7 @@
         <p class="lead">EMI is a drag queen, host and DJ from Berlin. On stage she combines sharp host energy with theatre. Her drag aesthetic draws on striking, glittering showgirl looks as well as latex and leather.</p>
         <p class="lead q-lead2">EMI's stage work is clearly shaped by theatre: she has a precise sense of timing, responds to her audience with assurance and combines hosting with improvisation. In her own numbers she builds narratives between glamour, theatre and showgirl aesthetics. Behind the scenes she is responsible for concepts, scripts and the coordination of productions.</p>
         <div class="q-actions">
-          <a class="btn btn-primary" href="enquiry?act=emi">Book EMI</a>
+          <a id="book-top" class="btn btn-primary" href="enquiry?act=emi">Book EMI</a>
           <a class="btn btn-ghost" href="https://www.instagram.com/whatis.emi/" target="_blank" rel="noopener">@whatis.emi</a>
         </div>
       </div>
@@ -118,12 +118,14 @@
       <div class="q-cta-box">
         <h2>EMI for your event</h2>
         <p>Send requests with date, venue and type of event directly to booking@ducttape.berlin.</p>
-        <a class="btn btn-dark" href="enquiry?act=emi">Book EMI</a>
+        <a id="book-end" class="btn btn-dark" href="enquiry?act=emi">Book EMI</a>
       </div>
       <p class="kicker q-more">More from DUCT TAPE</p>
       <div class="kv-cta"><a class="btn btn-ghost" href="symba">Symba</a><a class="btn btn-ghost" href="magda-von-pfeffer">Magda von Pfeffer</a><a class="btn btn-ghost" href="collective">The collective</a></div>
     </div>
   </section>
+
+  <a class="btn btn-primary float-book" href="enquiry?act=emi" data-hide-at="book-top book-end">Book EMI</a>
 
   <dialog class="lightbox" id="lightbox" aria-label="Bild">
     <button class="lb-close" type="button" aria-label="Schließen">✕</button>

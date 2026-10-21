@@ -985,3 +985,7 @@ footer, .small, .gal-credit, .q-credit, .q-pcredit, .q-vid figcaption, .q-fig fi
 @keyframes tape-run { to { transform: translateX(-50%); } }
 @media (max-width: 700px) { .next.tape-ticker { height: 108px; } .tape-ticker .band { top: 18px; padding: 10px 0; } .tape-ticker .band.two { top: 52px; } .tape-ticker .track { font-size: 18px; } }
 @media (prefers-reduced-motion: reduce) { .tape-ticker .track { animation: none; } }
+/* Highlight-Karte: Tape in Weihnachtsgrün statt Gelb, eckig statt abgerundet (Emanuel 2026-10-21) */
+.featured.theme-weihnachten .btn-primary { --tape-c: var(--xmas-green); color: #fff; }
+.featured.theme-weihnachten .btn-primary:hover { --tape-c: #155230; }
+.featured, .featured-dates li { border-radius: 0; }

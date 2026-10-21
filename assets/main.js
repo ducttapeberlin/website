@@ -210,6 +210,20 @@ if (dlg) {
     body.appendChild(s);
     dlg.showModal();
   }));
+  // Shop-iframe immer auf volle Fensterhöhe ziehen (der Shop setzt sonst seine eigene Höhe, dann liegen die Zahlungsarten mitten im Inhalt)
+  const stretch = f => {
+    const h = body.clientHeight + 'px';
+    if (f.style.getPropertyValue('height') !== h) f.style.setProperty('height', h, 'important');
+    for (let el = f.parentElement; el && el !== body; el = el.parentElement) el.style.setProperty('height', h, 'important');
+  };
+  new MutationObserver(() => body.querySelectorAll('iframe').forEach(f => {
+    stretch(f);
+    if (!f.dataset.stretched) {
+      f.dataset.stretched = '';
+      new MutationObserver(() => stretch(f)).observe(f, { attributes: true, attributeFilter: ['style', 'height'] });
+    }
+  })).observe(body, { childList: true, subtree: true });
+  window.addEventListener('resize', () => body.querySelectorAll('iframe').forEach(stretch));
   dlg.querySelector('.tickets-close').addEventListener('click', () => dlg.close());
   dlg.addEventListener('click', e => { if (e.target === dlg) dlg.close(); });
   dlg.addEventListener('close', () => { body.innerHTML = ''; });

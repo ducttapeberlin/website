@@ -75,13 +75,23 @@ def own_page(url):
     return SITE + "en/" + url[len(SITE):] if url.startswith(SITE) and L is EN and not url.startswith(SITE + "en/") else url
 
 
+def href(url):
+    """Links auf eigene Seiten relativ, damit sie auch in der Vorschau funktionieren."""
+    url = own_page(url)
+    if url.startswith(SITE):
+        url = url[len(SITE):]
+        if L is EN and url.startswith("en/"):
+            url = url[3:]
+        return url or "./"
+    return url
+
+
 def new_tab(url):
     return "" if url.startswith(SITE) else ' target="_blank" rel="noopener"'
 
 
 def link(url, text):
-    url = own_page(url)
-    return f'<a href="{esc(url)}"{new_tab(url)}>{esc(text)}</a>'
+    return f'<a href="{esc(href(url))}"{new_tab(url)}>{esc(text)}</a>'
 
 
 def parse_date(s):
@@ -378,7 +388,7 @@ def render_all(events):
         if len(paras) > 3:  # lange Texte: Rest hinter "Weiterlesen"
             paras = paras[:2] + ["      <details>", f"        <summary>{L['more']}</summary>", *["  " + p for p in paras[2:]], "      </details>"]
         actions = ([f"      {btn}"] if btn else []) + (
-            [f'      <a class="btn btn-ghost" href="{esc(own_page(page))}"{new_tab(page)}>{L["event_page"]}</a>'] if page.startswith("http") else [])
+            [f'      <a class="btn btn-ghost" href="{esc(href(page))}"{new_tab(page)}>{L["event_page"]}</a>'] if page.startswith("http") else [])
         out += [
             f'  <article class="tevent{theme_class(r.get("Featured") or "ja")}" data-date="{date.isoformat()}">',
             f'    <div class="tevent-poster">{media}</div>',

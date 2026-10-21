@@ -867,3 +867,5 @@ a.event-tag { text-decoration: none; } a.event-tag:hover { opacity: .85; }
   .xs-side { grid-row: 3; }
 }
 
+/* Kollektiv-Video (Hochformat in fast quadratischem Rahmen): Ausschnitt höher, damit Köpfe nicht abgeschnitten werden */
+.kv-gvid video { object-position: 50% 28%; }

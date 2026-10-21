@@ -181,12 +181,26 @@ if (touch) {
 
 // Tickets: rausgegangen-Shop erst beim Klick laden (Datenschutz) und im Overlay anzeigen
 // Eventseite: Terminauswahl steuert Datum und Ticket-Button; ?tag=JJJJ-MM-TT wählt den Tag vor
+// Ticket-Buttons werden echte Links auf den rausgegangen-Shop in einem neuen Tab (eingebettet war der Zahlungsschritt nicht sauber darstellbar; window.open blockiert Safari teils)
+const shopUrl = slug => `https://t.rausgegangen.de/tickets/${slug}`;
+document.querySelectorAll('button[data-tickets]').forEach(btn => {
+  const a = document.createElement('a');
+  a.className = btn.className;
+  Object.assign(a.dataset, btn.dataset);
+  a.innerHTML = btn.innerHTML;
+  a.href = shopUrl(btn.dataset.tickets);
+  a.target = '_blank';
+  a.rel = 'noopener';
+  btn.replaceWith(a);
+});
+
 document.querySelectorAll('.xs-card').forEach(card => {
   const buy = card.querySelector('.xs-buy');
   const pick = b => {
     card.querySelectorAll('.xs-date').forEach(x => { x.classList.toggle('is-active', x === b); x.setAttribute('aria-pressed', x === b); });
     card.querySelector('.xs-day').textContent = b.dataset.day;
     buy.dataset.tickets = b.dataset.slug;
+    buy.href = shopUrl(b.dataset.slug);
     buy.dataset.label = b.dataset.label;
   };
   card.querySelectorAll('.xs-date').forEach(b => b.addEventListener('click', () => pick(b)));
@@ -195,10 +209,6 @@ document.querySelectorAll('.xs-card').forEach(card => {
   if (pre) pick(pre);
 });
 
-// Ticket-Buttons öffnen den rausgegangen-Shop direkt in einem neuen Tab (eingebettet war der Zahlungsschritt nicht sauber darstellbar)
-document.querySelectorAll('[data-tickets]').forEach(btn => btn.addEventListener('click', () => {
-  window.open(`https://t.rausgegangen.de/tickets/${btn.dataset.tickets}`, '_blank', 'noopener');
-}));
 
 const year = document.getElementById('year');
 if (year) year.textContent = new Date().getFullYear();

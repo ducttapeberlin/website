@@ -195,39 +195,10 @@ document.querySelectorAll('.xs-card').forEach(card => {
   if (pre) pick(pre);
 });
 
-const dlg = document.getElementById('tickets');
-if (dlg) {
-  const body = document.getElementById('tickets-body');
-  document.querySelectorAll('[data-tickets]').forEach(btn => btn.addEventListener('click', () => {
-    const slug = btn.dataset.tickets;
-    document.getElementById('tickets-title').textContent = btn.dataset.label ?? 'Tickets';
-    document.getElementById('tickets-fallback').href = `https://t.rausgegangen.de/tickets/${slug}`;
-    body.innerHTML = `<p class="tickets-loading">${t('Ticketshop lädt …', 'Loading ticket shop …')}</p>`;
-    const s = document.createElement('script');
-    s.src = `https://t.rausgegangen.de/tickets/${slug}/external-loader.js`;
-    s.id = 'purchase-widget-loader';
-    s.dataset.layout = 'fullwidth';
-    body.appendChild(s);
-    dlg.showModal();
-  }));
-  // Shop-iframe immer auf volle Fensterhöhe ziehen (der Shop setzt sonst seine eigene Höhe, dann liegen die Zahlungsarten mitten im Inhalt)
-  const stretch = f => {
-    const h = body.clientHeight + 'px';
-    if (f.style.getPropertyValue('height') !== h) f.style.setProperty('height', h, 'important');
-    for (let el = f.parentElement; el && el !== body; el = el.parentElement) el.style.setProperty('height', h, 'important');
-  };
-  new MutationObserver(() => body.querySelectorAll('iframe').forEach(f => {
-    stretch(f);
-    if (!f.dataset.stretched) {
-      f.dataset.stretched = '';
-      new MutationObserver(() => stretch(f)).observe(f, { attributes: true, attributeFilter: ['style', 'height'] });
-    }
-  })).observe(body, { childList: true, subtree: true });
-  window.addEventListener('resize', () => body.querySelectorAll('iframe').forEach(stretch));
-  dlg.querySelector('.tickets-close').addEventListener('click', () => dlg.close());
-  dlg.addEventListener('click', e => { if (e.target === dlg) dlg.close(); });
-  dlg.addEventListener('close', () => { body.innerHTML = ''; });
-}
+// Ticket-Buttons öffnen den rausgegangen-Shop direkt in einem neuen Tab (eingebettet war der Zahlungsschritt nicht sauber darstellbar)
+document.querySelectorAll('[data-tickets]').forEach(btn => btn.addEventListener('click', () => {
+  window.open(`https://t.rausgegangen.de/tickets/${btn.dataset.tickets}`, '_blank', 'noopener');
+}));
 
 const year = document.getElementById('year');
 if (year) year.textContent = new Date().getFullYear();

@@ -124,6 +124,8 @@ if (strip) {
     strip.innerHTML = `<a class="band" href="${strip.querySelector('a')?.getAttribute('href') ?? 'termine'}" aria-label="${t('Alle Termine', 'All dates')}"><div class="track">${track(items)}</div></a>`
       + `<div class="band two" aria-hidden="true"><div class="track">${track(claims)}</div></div>`;
     strip.hidden = false;
+    // Gleichmäßiges, ruhiges Tempo in Pixeln pro Sekunde, egal wie lang der Text ist
+    strip.querySelectorAll('.track').forEach((tr, i) => { tr.style.animationDuration = `${Math.round(tr.scrollWidth / 2 / (i ? 55 : 45))}s`; });
   }
 }
 

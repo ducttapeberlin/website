@@ -867,3 +867,71 @@ a.event-tag { text-decoration: none; } a.event-tag:hover { opacity: .85; }
   .xs-side { grid-row: 3; }
 }
 
+
+/* ============================================================
+   Typografie: genau 6 Formate (Emanuel, 21.10.2026)
+   1 Titel · 2 Überschrift · 3 Kartentitel (Anton)
+   4 Intro · 5 Text · 6 Label (Inter; Kleingedrucktes = Label ohne Versalien)
+   Steht bewusst am Ende und mit !important bei Größe/Schnitt, damit
+   ältere Einzelregeln oben keine Zwischengrößen mehr erzeugen.
+   ============================================================ */
+:root {
+  --fs-title: clamp(52px, 8.4vw, 108px);
+  --fs-h2: clamp(34px, 4.6vw, 56px);
+  --fs-h3: clamp(24px, 2.3vw, 28px);
+  --fs-intro: clamp(18px, 1.7vw, 20px);
+  --fs-text: 17px;
+  --fs-label: 13px;
+}
+
+/* 1 · Titel */
+h1, h2, .page-intro h1, .q-hero h1, .legal h1 { font-size: var(--fs-title) !important; }
+.q-hero h1 .q-h1-sub { font-size: .5em !important; }
+
+/* 2 · Überschrift */
+.about h2:not(.about-title), .kv-text h2, .kv-milestones h2, .kv-members h2, .q-book h2, .q-photos h2,
+.q-cta-box h2, .q-sb-title, .fmt-dates h2, .fmt-faq h2, .fmt-page .q-facts h2, .all-events .month h2,
+.split-title, .newsletter .split-title, .featured h3, .featured.theme-weihnachten h3, .kv-year,
+.tevent-noposter span, .member-photo .ph { font-size: var(--fs-h2) !important; }
+.mail { font-size: min(var(--fs-h2), 9cqi) !important; }
+
+/* 3 · Kartentitel */
+h3, .event h3, .tevent h3, .offer h2, .press-item h2, .kv-ms h3, .q-book-grid h3, .q-cols h3, .xs-page h2,
+.reels-label, .reel .reels-label, .q-video span:not(.q-play), .tickets-head strong, .event-date,
+.featured-dates strong, .next strong, .steps li::before, .legal h2 {
+  font-size: var(--fs-h3) !important; font-family: var(--display); font-weight: 400 !important; text-transform: uppercase; letter-spacing: .01em; line-height: 1.05;
+}
+.press-item h2 { line-height: 1.1; }
+
+/* 4 · Intro */
+.lead, .q-hero .q-lead2 { font-size: var(--fs-intro) !important; font-weight: 400; }
+
+/* 5 · Text (fett im selben Format) */
+body, .member p, .service p, .offer li, .steps span, .steps strong, .tevent-desc p, .reels-desc, .gal-note, .fmt-note,
+.enq-check, .enq-alt, .enq-field input, .enq-field select, .enq-field textarea, .member .handle, .kv-member .handle,
+.member-more, .press-link, .tevent-less, .xs-venue-name, .fmt-q summary, .nl-msg, .nl-form input, .q-book-grid p,
+.service-wide .service-body > p:not(.kicker), .service-wide .service-body > p.service-list, .service-wide .service-body p.booking-note,
+.mail-toast, .reels-more, .reel a, .featured-body p, .enq-cal-kopf strong, .enq-cal-grid button, .xs-cast-head, .xs-desc p {
+  font-size: var(--fs-text) !important;
+}
+.fmt-q summary, .steps strong, .xs-venue-name, .enq-cal-kopf strong, .nl-msg { font-weight: 800 !important; }
+
+/* 6 · Label: fett, Versalien, gesperrt */
+.kicker, .service .kicker, .btn, .nav a, .nav-toggle, .next a, .event-date small, .event-tag, .featured-dates small, .tevent-when,
+.press-outlet, .kv-sheet dt, .kv-role, .enq-field > span, .xs-cast-head span, .nav .lang-switch, .site-header .lang-mobile,
+.gal-tab, .xs-date, .kv-more-btn, .q-video small, .enq-cal-wt, .event-doors, .nav-sub a, .nav-sub a.nav-queen, .nav-sub a.nav-child,
+.nav-sub a.nav-featured, .nav-sub a.nav-featured::before, .kv-ms.kv-ms figure.kv-ph, .q-ph {
+  font-size: var(--fs-label) !important; font-weight: 800 !important; letter-spacing: .12em !important; text-transform: uppercase;
+}
+.btn { letter-spacing: .1em !important; }
+
+/* 6 · Kleingedrucktes: Label-Größe ohne Versalien */
+footer, .small, .gal-credit, .q-credit, .q-pcredit, .q-vid figcaption, .q-fig figcaption, .kv-ms figure figcaption, .kv-group figcaption,
+.kv-ms figure.kv-video figcaption, .tickets-foot, .intro-credit, .fmt-credit, .xs-poster figcaption, .press-meta, .lightbox figcaption {
+  font-size: var(--fs-label) !important; font-weight: 400 !important; letter-spacing: 0 !important; text-transform: none;
+}
+/* Christmas-Seite: Titel in Überschrift-Größe, aber höchstens so groß, dass er in eine Zeile passt */
+.xs-title { font-size: min(var(--fs-h2), calc((min(100vw, var(--max)) - 2 * var(--gutter) - 360px - clamp(24px, 3vw, 40px)) / 16.4)) !important; }
+@media (max-width: 900px) { .xs-title { font-size: min(var(--fs-h2), calc((100vw - 2 * var(--gutter)) / 16.4)) !important; } }
+/* Text kennt nur normal und fett: Zwischenstärken auf fett */
+.member .handle, .kv-member .handle, .featured.theme-weihnachten .featured-body p, .member-more, .press-link, .tevent-less, .reels-more, .reel a, .booking-mail { font-weight: 800 !important; }

@@ -90,7 +90,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-10-21T15:59:53+02:00",
+  "fetched": "2026-10-21T22:54:48+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -178,62 +178,6 @@
   "seen": "2026-10-20T15:24:41+02:00",
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/another-drag-show-with-paige-three-and-pitita-0/": {
-  "fetched": "2026-10-21T21:53:04+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "🎉 ANOTHER DRAG SHOW WITH PITITA  AND PAIGE THREE- 22.10.2026  🎟️ TICKETS ON RAUSGEGANGEN – LIMITED SPACEWHERE? THE SOCIAL HUB BERLIN! ENTRY: 19:00📅 SAVE THE DATE – It’s time to celebrate queer excellence, Berlin-style.💋 This isn’t just any drag show – it’s Bella Troia’s DRAG EXCELLENCE BASH, and she’s bringing an explosive lineup to the stage for a night of performances, party, and pure energy.🌟 FEATURING:⭐️ PITITA ( Winner of Drag Race España)⭐️ PAIGE THREE Rupaul's Drag Race UK Star⭐️ MARIE CONNA  Germany's Top Chilean Spicy 🌶️ ⭐️ ILE POIKELA ACROBATICS STAR Recently seen in Berlin Burlesque Festival Get ready, Berlin! The sensational  Pitita and Paige Three – are touching down for one night only. Expect elegance, attitude, and unforgettable performance from these superstars. 🔥👠💄 OPEN STAGE The night kicks off with an open stage segment for rising stars and fresh talent. Our cast? KUM KWEEN, JESSICARA AND MARLY ROUGE.🎤 HOSTED BY BELLA TROIA The Latinx Hurricane Monster of Berlin ! 💖 WHY YOU CAN’T MISS THIS: 🔥 A one-night-only birthday drag extravaganza 👑 International star power meets Berlin talent 💅 Open stage, wild energy, and unforgettable performancesWhether you’re performing, partying, or both – come early, stay loud, and leave legendary.",
-   "endDate": "2026-10-23T06:00+0200",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/MPRp4Lb6QTKVOQDZcRod_november-another-drag-show-prasentation.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10179",
-     "streetAddress": "Alexanderstraße 40"
-    },
-    "name": "The Social Hub"
-   },
-   "name": "ANOTHER DRAG SHOW WITH PITITA AND PAIGE THREE",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": null,
-    "lowPrice": null,
-    "offerCount": 3,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regular",
-      "price": "23.92",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Last Minute",
-      "price": "27.10",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "TEMPORARY SALE",
-      "price": "18.50",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "startDate": "2026-10-22T19:00+0200"
-  }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
   "fetched": "2026-10-21T17:58:44+02:00",
@@ -680,7 +624,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-10-21T15:59:53+02:00",
+  "fetched": "2026-10-21T22:54:48+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -814,7 +758,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-10-21T15:59:53+02:00",
+  "fetched": "2026-10-21T22:54:48+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -930,5 +874,58 @@
   "seen": "2026-10-20T15:24:41+02:00",
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
+ },
+ "https://rausgegangen.de/events/lina-bo-asphalt-und-sterne-tour-2026-20/": {
+  "fetched": "2026-10-21T22:54:48+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Zwischen Straße und Club klingen Lina Bó nach Unterwegssein, nach Begegnungen und diesem Leben zwischen Kulturen. Hinter dem Duo stehen Celina von Wrochem und Luca Bo Hansen 💃",
+   "endDate": "2026-11-27T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/PPDKVpxqQ2cU0aMswuwf_lina-bo-tour-2026-bild-1-small-by-malte-paulsen.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10435",
+     "streetAddress": "Knaackstraße 97"
+    },
+    "name": "Maschinenhaus"
+   },
+   "name": "Lina Bó - Asphalt und Sterne Tour 2026",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 2,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "28.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Begleitperson",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Lina Bó"
+   },
+   "startDate": "2026-11-26T20:00+0100"
+  }
  }
 }

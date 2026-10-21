@@ -70,8 +70,18 @@ def esc(s):
     return html.escape(s, quote=True)
 
 
+def own_page(url):
+    """Eigene Eventseite auf ducttape.berlin: auf den englischen Seiten die englische Fassung."""
+    return SITE + "en/" + url[len(SITE):] if url.startswith(SITE) and L is EN and not url.startswith(SITE + "en/") else url
+
+
+def new_tab(url):
+    return "" if url.startswith(SITE) else ' target="_blank" rel="noopener"'
+
+
 def link(url, text):
-    return f'<a href="{esc(url)}" target="_blank" rel="noopener">{esc(text)}</a>'
+    url = own_page(url)
+    return f'<a href="{esc(url)}"{new_tab(url)}>{esc(text)}</a>'
 
 
 def parse_date(s):
@@ -368,7 +378,7 @@ def render_all(events):
         if len(paras) > 3:  # lange Texte: Rest hinter "Weiterlesen"
             paras = paras[:2] + ["      <details>", f"        <summary>{L['more']}</summary>", *["  " + p for p in paras[2:]], "      </details>"]
         actions = ([f"      {btn}"] if btn else []) + (
-            [f'      <a class="btn btn-ghost" href="{esc(page)}" target="_blank" rel="noopener">{L["event_page"]}</a>'] if page.startswith("http") else [])
+            [f'      <a class="btn btn-ghost" href="{esc(own_page(page))}"{new_tab(page)}>{L["event_page"]}</a>'] if page.startswith("http") else [])
         out += [
             f'  <article class="tevent{theme_class(r.get("Featured") or "ja")}" data-date="{date.isoformat()}">',
             f'    <div class="tevent-poster">{media}</div>',
@@ -412,7 +422,7 @@ def events_ld(events):
         if poster:
             ev["image"] = SITE + poster
         if page.startswith("http"):
-            ev["url"] = page
+            ev["url"] = own_page(page)
         # Google verlangt bei Angeboten Preis und Verkaufsstart. Ohne bekannten Preis lieber gar kein Angebot.
         price = 0 if free else r.get("_price")
         if (free or tickets) and price is not None:

@@ -95,7 +95,7 @@ if (feat && featLink) {
   featLink.textContent = feat.querySelector('h3')?.textContent.trim() ?? 'Featured Show';
   // direkt auf die Eventseite, falls verlinkt; sonst zur Karte auf dieser Seite
   const page = feat.querySelector('h3 a[href^="http"]');
-  if (page) { featLink.href = page.href; featLink.target = '_blank'; featLink.rel = 'noopener'; }
+  if (page) { featLink.href = page.href; if (page.target) { featLink.target = '_blank'; featLink.rel = 'noopener'; } }
   featLink.hidden = false;
 }
 

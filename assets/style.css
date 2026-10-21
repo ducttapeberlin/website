@@ -989,3 +989,17 @@ footer, .small, .gal-credit, .q-credit, .q-pcredit, .q-vid figcaption, .q-fig fi
 .featured.theme-weihnachten .btn-primary { --tape-c: var(--xmas-green); color: #fff; }
 .featured.theme-weihnachten .btn-primary:hover { --tape-c: #155230; }
 .featured, .featured-dates li { border-radius: 0; }
+/* Umrandete Buttons innen schwarz unterlegt, damit sie auch auf Fotos lesbar sind (Emanuel 2026-10-21) */
+.btn-ghost::after, .xs-buy::after { content: ""; position: absolute; inset: 2.5px 3px; z-index: -2; background: var(--black);
+  -webkit-mask: var(--tape-strip) center / 100% 100% no-repeat; mask: var(--tape-strip) center / 100% 100% no-repeat; }
+/* Newsletter-Feld mit schwarzem Tape-Rand statt Pille */
+.tape-field { flex: 1 1 220px; min-width: 0; position: relative; isolation: isolate; display: flex; }
+.tape-field::before { content: ""; position: absolute; inset: 0; z-index: -1; background: var(--black);
+  -webkit-mask: var(--tape-strip) center / 100% 100% no-repeat, var(--tape-strip) center / calc(100% - 6px) calc(100% - 5px) no-repeat;
+  -webkit-mask-composite: xor; mask-composite: exclude; }
+.tape-field input, .nl-form .tape-field input { flex: 1; min-width: 0; border: 0; border-radius: 0; background: transparent; padding: 16px 26px; }
+.tape-field input:focus { outline: none; }
+.tape-field:focus-within::before { -webkit-mask: var(--tape-strip) center / 100% 100% no-repeat, var(--tape-strip) center / calc(100% - 8px) calc(100% - 7px) no-repeat; -webkit-mask-composite: xor; mask-composite: exclude; }
+/* Eckig statt abgerundet: Booking-Kasten */
+.q-cta-box { border-radius: 0; }
+.nl-form .btn { --tape-c: var(--black); color: var(--yellow); }

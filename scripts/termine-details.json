@@ -180,7 +180,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-10-21T04:54:57+02:00",
+  "fetched": "2026-10-21T10:59:33+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -756,6 +756,55 @@
    "startDate": "2026-11-15T12:00+0100"
   },
   "seen": "2026-10-20T15:24:41+02:00"
+ },
+ "https://rausgegangen.de/events/halloween-bingo-carnivoren-edition-0/": {
+  "fetched": "2026-10-21T10:59:33+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Bingo mit fleischfressenden Pflanzen ist schon als Satz ein kleiner Halloweenfiebertraum. Bei Plant Bingo gehst Du auf jeden Fall mit einer Carnivorin nach Hause, und nach den Runden geht der Abend direkt in eine Party mit Depeche Mode und The Cure über 👀",
+   "endDate": "2026-10-30T22:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/CFYIhEBTQrKit3Mw3HaF_54asset-5.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10435",
+     "streetAddress": "Schönhauser Allee 36"
+    },
+    "name": "frannz club berlin"
+   },
+   "name": "Plant Bingo Berlin Halloween-Edition Carnivoren",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "25.00",
+    "lowPrice": "20.00",
+    "offerCount": 2,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Early Bird",
+      "price": "20.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "25.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "startDate": "2026-10-30T19:00+0100"
+  }
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
   "fetched": "2026-10-21T09:11:39+02:00",

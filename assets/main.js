@@ -180,6 +180,17 @@ if (touch) {
 }
 
 // Tickets: rausgegangen-Shop erst beim Klick laden (Datenschutz) und im Overlay anzeigen
+// Eventseite: Terminauswahl steuert Datum und Ticket-Button
+document.querySelectorAll('.xs-card').forEach(card => {
+  const buy = card.querySelector('.xs-buy');
+  card.querySelectorAll('.xs-date').forEach(b => b.addEventListener('click', () => {
+    card.querySelectorAll('.xs-date').forEach(x => { x.classList.toggle('is-active', x === b); x.setAttribute('aria-pressed', x === b); });
+    card.querySelector('.xs-day').textContent = b.dataset.day;
+    buy.dataset.tickets = b.dataset.slug;
+    buy.dataset.label = b.dataset.label;
+  }));
+});
+
 const dlg = document.getElementById('tickets');
 if (dlg) {
   const body = document.getElementById('tickets-body');

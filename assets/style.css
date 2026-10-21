@@ -854,7 +854,8 @@ a.event-tag { text-decoration: none; } a.event-tag:hover { opacity: .85; }
 .xs-facts li:first-child { border-top: 0; padding-top: 0; }
 .xs-facts svg { flex: none; width: 22px; height: 22px; color: var(--yellow); margin-top: 1px; }
 .xs-facts a { color: var(--yellow); text-decoration: none; font-weight: 600; }
-.xs-buy { width: 100%; justify-content: center; }
+.xs-buy { width: 100%; justify-content: center; background: transparent; color: var(--yellow); cursor: pointer; }
+.xs-buy:hover, .xs-buy:focus-visible { background: var(--yellow); color: var(--black); }
 @media (max-width: 900px) {
   .xs-layout { grid-template-columns: 1fr; }
   .xs-side { position: static; grid-row: 1; }

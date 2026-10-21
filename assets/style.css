@@ -25,6 +25,8 @@ a { color: inherit; }
 .wrap { max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter); }
 
 h1, h2, h3 { font-family: var(--display); font-weight: 400; text-transform: uppercase; line-height: .95; letter-spacing: .01em; margin: 0; }
+/* Anton hat links etwas Vorlauf: große Überschriften optisch bündig mit dem Fließtext */
+h1, h2 { translate: -0.03em 0; }
 h2 { font-size: clamp(44px, 8vw, 96px); }
 h3 { font-size: clamp(26px, 3.2vw, 34px); }
 .kicker { font-weight: 800; font-size: 13px; letter-spacing: .18em; text-transform: uppercase; color: var(--yellow); margin: 0 0 14px; }

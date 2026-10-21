@@ -94,7 +94,7 @@ if (feat && featLink) {
   feat.id = 'featured';
   featLink.textContent = feat.querySelector('h3')?.textContent.trim() ?? 'Featured Show';
   // direkt auf die Eventseite, falls verlinkt; sonst zur Karte auf dieser Seite
-  const page = feat.querySelector('h3 a[href^="http"]');
+  const page = feat.querySelector('h3 a[href]');
   if (page) { featLink.href = page.href; if (page.target) { featLink.target = '_blank'; featLink.rel = 'noopener'; } }
   featLink.hidden = false;
 }
@@ -180,15 +180,19 @@ if (touch) {
 }
 
 // Tickets: rausgegangen-Shop erst beim Klick laden (Datenschutz) und im Overlay anzeigen
-// Eventseite: Terminauswahl steuert Datum und Ticket-Button
+// Eventseite: Terminauswahl steuert Datum und Ticket-Button; ?tag=JJJJ-MM-TT wählt den Tag vor
 document.querySelectorAll('.xs-card').forEach(card => {
   const buy = card.querySelector('.xs-buy');
-  card.querySelectorAll('.xs-date').forEach(b => b.addEventListener('click', () => {
+  const pick = b => {
     card.querySelectorAll('.xs-date').forEach(x => { x.classList.toggle('is-active', x === b); x.setAttribute('aria-pressed', x === b); });
     card.querySelector('.xs-day').textContent = b.dataset.day;
     buy.dataset.tickets = b.dataset.slug;
     buy.dataset.label = b.dataset.label;
-  }));
+  };
+  card.querySelectorAll('.xs-date').forEach(b => b.addEventListener('click', () => pick(b)));
+  const tag = new URLSearchParams(location.search).get('tag');
+  const pre = tag && card.querySelector(`.xs-date[data-date="${CSS.escape(tag)}"]`);
+  if (pre) pick(pre);
 });
 
 const dlg = document.getElementById('tickets');

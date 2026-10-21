@@ -212,7 +212,7 @@ def render(row):
     btn = button(row)
     lines = [
         f'<li class="event" data-date="{date.isoformat()}">',
-        f'  <div class="event-date">{date:%d.%m.}<small>{"".join(meta)}</small></div>',
+        f'  <div class="event-date"><span class="event-day">{date:%d.%m.}</span><small>{"".join(meta)}</small></div>',
         "  <div>",
         *([f"    {tag_html(row)}"] if tag else []),
         f"    <h3>{title_html(row)}</h3>",

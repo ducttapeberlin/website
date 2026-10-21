@@ -99,18 +99,32 @@ if (feat && featLink) {
   featLink.hidden = false;
 }
 
-const first = [...document.querySelectorAll('.event[data-date], .featured-dates li[data-date]')]
-  .sort((a, b) => a.dataset.date.localeCompare(b.dataset.date))[0];
+// Laufband aus Tape (statt Next-Leiste): die nächsten Termine auf einem gelben, Claims auf einem schwarzen Streifen
 const strip = document.getElementById('next-up');
-if (first && strip) {
-  const box = first.closest('.featured') ?? first;
-  const tag = box.querySelector('.event-tag')?.textContent ?? '';
-  const title = box.querySelector('h3')?.textContent ?? '';
-  const label = !tag || title.toLowerCase().includes(tag.toLowerCase()) ? title : `${tag} – ${title}`;
-  const d = first.dataset.date;
-  document.getElementById('next-title').textContent = `Next: ${label}`;
-  document.getElementById('next-when').textContent = `${d.slice(8, 10)}.${d.slice(5, 7)}.`;
-  strip.hidden = false;
+if (strip) {
+  const seen = new Set();
+  const items = [...document.querySelectorAll('.event[data-date], .featured-dates li[data-date]')]
+    .sort((a, b) => a.dataset.date.localeCompare(b.dataset.date))
+    .map(el => {
+      const box = el.closest('.featured') ?? el;
+      const tag = box.querySelector('.event-tag')?.textContent ?? '';
+      const title = box.querySelector('h3')?.textContent.trim() ?? '';
+      const label = !tag || title.toLowerCase().includes(tag.toLowerCase()) ? title : `${tag} – ${title}`;
+      const d = el.dataset.date;
+      return `${label} · ${d.slice(8, 10)}.${d.slice(5, 7)}.`;
+    })
+    .filter(t => !seen.has(t) && seen.add(t))
+    .slice(0, 6);
+  if (items.length) {
+    const esc = x => x.replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+    // Inhalt so oft wiederholen, dass eine Hälfte breiter als jeder Bildschirm ist, dann läuft es nahtlos
+    const track = list => { const half = []; while (half.length < 12) half.push(...list); return [...half, ...half].map(t => `<span>${esc(t)}</span>`).join(''); };
+    const claims = ['DUCT TAPE', 'Berlin Drag Collective', 'Shows · Bingo · Brunch'];
+    strip.className = 'next tape-ticker';
+    strip.innerHTML = `<a class="band" href="${strip.querySelector('a')?.getAttribute('href') ?? 'termine'}" aria-label="${t('Alle Termine', 'All dates')}"><div class="track">${track(items)}</div></a>`
+      + `<div class="band two" aria-hidden="true"><div class="track">${track(claims)}</div></div>`;
+    strip.hidden = false;
+  }
 }
 
 // Leistungs-Kacheln: Bilder aus data-images laden, beim Hover (Handy: wenn sichtbar) als Slideshow abspielen

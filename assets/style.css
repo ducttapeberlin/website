@@ -939,3 +939,49 @@ footer, .small, .gal-credit, .q-credit, .q-pcredit, .q-vid figcaption, .q-fig fi
 .member .handle, .kv-member .handle, .featured.theme-weihnachten .featured-body p, .member-more, .press-link, .tevent-less, .reels-more, .reel a, .booking-mail { font-weight: 800 !important; }
 /* Kollektiv-Video (Hochformat in fast quadratischem Rahmen): Ausschnitt höher, damit Köpfe nicht abgeschnitten werden */
 .kv-gvid video { object-position: 50% 28%; }
+
+/* ===== Tape-Design (Emanuel 2026-10-21): Formen aus echten Tapes, immer flach in Gelb oder Schwarz ===== */
+:root { --tape-strip: url(img/tape/t6.png); --tape-piece: url(img/tape/t1.png); --tape-narrow: url(img/tape/t4.png); }
+
+/* Buttons: Tape-Form statt Pille. Gefüllt = Tape-Stück, umrandet = Tape-Rand, der sich beim Hover füllt */
+.btn, .btn:hover, .btn:focus-visible { background: none !important; border-color: transparent !important; border-radius: 0 !important; }
+.btn { --tape-c: var(--yellow); position: relative; isolation: isolate; padding: 16px 30px; }
+.btn::before { content: ""; position: absolute; inset: 0; z-index: -1; background: var(--tape-c);
+  -webkit-mask: var(--tape-strip) center / 100% 100% no-repeat; mask: var(--tape-strip) center / 100% 100% no-repeat; }
+.btn-ghost, .xs-buy, .btn-outline-dark { color: var(--tape-c); }
+.btn-ghost::before, .xs-buy::before, .btn-outline-dark::before {
+  -webkit-mask: var(--tape-strip) center / 100% 100% no-repeat, var(--tape-strip) center / calc(100% - 6px) calc(100% - 5px) no-repeat;
+  -webkit-mask-composite: xor; mask-composite: exclude; }
+.btn-ghost:hover::before, .btn-ghost:focus-visible::before, .xs-buy:hover::before, .xs-buy:focus-visible::before,
+.btn-outline-dark:hover::before, .btn-outline-dark:focus-visible::before {
+  -webkit-mask: var(--tape-strip) center / 100% 100% no-repeat; mask: var(--tape-strip) center / 100% 100% no-repeat; }
+.btn-ghost:hover, .btn-ghost:focus-visible, .xs-buy:hover, .xs-buy:focus-visible { color: var(--black); }
+.btn-dark, .btn-outline-dark { --tape-c: var(--black); }
+.btn-dark { color: var(--yellow); }
+.btn-outline-dark:hover, .btn-outline-dark:focus-visible { color: var(--yellow); }
+.hero-actions .btn-ig { padding: 14px 18px; }
+
+/* Datum in den Terminlisten auf einem Tape-Stück */
+.event-day { position: relative; isolation: isolate; display: inline-block; padding: 10px 12px 6px; color: var(--black); }
+.event-day::before { content: ""; position: absolute; inset: 0; z-index: -1; background: var(--yellow); transform: rotate(-3deg);
+  -webkit-mask: var(--tape-piece) center / 100% 100% no-repeat; mask: var(--tape-piece) center / 100% 100% no-repeat; }
+.event-date small { margin-top: 10px; }
+
+/* Vereinzelt ein Tape am Foto: klein, auf dem Bildrand, leicht durchscheinend */
+.tape-corner, .tape-edge { position: relative; }
+.tape-corner::before, .tape-edge::before { content: ""; position: absolute; z-index: 2; background: var(--yellow); opacity: .8; pointer-events: none;
+  -webkit-mask: var(--m) center / 100% 100% no-repeat; mask: var(--m) center / 100% 100% no-repeat; }
+.tape-corner::before { --m: var(--tape-narrow); width: 20px; height: 56px; top: -22px; right: -6px; transform: rotate(45deg); }
+.tape-edge::before { --m: var(--tape-strip); width: 72px; height: 22px; top: -12px; left: 50%; margin-left: -36px; transform: rotate(-3deg); }
+
+/* Laufband aus Tape statt Next-Leiste */
+.next.tape-ticker { background: none; position: relative; height: 128px; overflow: hidden; }
+.tape-ticker .band { position: absolute; left: -5%; right: -5%; top: 22px; display: block; overflow: hidden; padding: 12px 0; background: var(--yellow); color: var(--black); transform: rotate(-2.5deg); text-decoration: none; }
+.tape-ticker .band.two { top: 62px; background: #1d1c1e; color: var(--yellow); transform: rotate(1.8deg); }
+.tape-ticker .track { display: flex; gap: 36px; width: max-content; animation: tape-run 40s linear infinite; font: 400 22px/1 var(--display); text-transform: uppercase; white-space: nowrap; }
+.tape-ticker .band.two .track { animation-direction: reverse; animation-duration: 50s; }
+.tape-ticker .track span::after { content: "✦"; margin-left: 36px; }
+.tape-ticker .band:hover .track { animation-play-state: paused; }
+@keyframes tape-run { to { transform: translateX(-50%); } }
+@media (max-width: 700px) { .next.tape-ticker { height: 108px; } .tape-ticker .band { top: 18px; padding: 10px 0; } .tape-ticker .band.two { top: 52px; } .tape-ticker .track { font-size: 18px; } }
+@media (prefers-reduced-motion: reduce) { .tape-ticker .track { animation: none; } }

@@ -179,6 +179,44 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/alte-seilschaften-das-bundesvertriebenenministerium-zwischen-0/": {
+  "fetched": "2026-10-21T03:55:11+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Das Vertriebenenministerium (1949–1969) war die oberste Bundesbehörde für die Belange der rund 8 Millionen Heimatvertriebenen und Flüchtlinge in der Bundesrepublik. Nicht nur an seiner Spitze standen dabei denkbar gegensätzliche Persönlichkeiten: Der erste Minister war Widerstandskämpfer, sein Nachfolger hingegen tief in das NS-System verstrickt.Welche Rolle spielten alte Seilschaften, Parteibücher und persönliche Netzwerke für die Arbeit, den Aufstieg und Einfluss im Vertriebenenministerium? Unterscheidet es sich dabei von anderen Bundesministerien? Die neue Kollektivbiografie Kommunikation und Konsensfindung (hier kostenfrei erhältlich) geht solchen Fragen erstmals systematisch nach.Diskutieren Sie mit!",
+   "endDate": "2026-11-05T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/qjZcr5pTqCRNc4LtzcJj_bundesarchiv-b-145-bild-f000016-0641-fotograf-oang.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10963",
+     "streetAddress": "Stresemannstraße 90"
+    },
+    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
+   },
+   "name": "Alte Seilschaften? Das Bundesvertriebenenministerium zwischen NS-Diktatur und Demokratie",
+   "offers": {
+    "@type": "Offer",
+    "price": "0.00",
+    "priceCurrency": "EUR",
+    "url": "https://buchungen.flucht-vertreibung-versoehnung.de/de/tickets/108",
+    "validFrom": "2026-11-05T00:00+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung",
+    "url": "https://rausgegangen.de/organizations/dokumentationszentrum-flucht-vertreibung-versohnung/"
+   },
+   "startDate": "2026-11-05T00:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
   "fetched": "2026-10-20T22:54:31+02:00",
   "ld": {
@@ -756,62 +794,6 @@
    "startDate": "2026-11-15T12:00+0100"
   },
   "seen": "2026-10-20T15:24:41+02:00"
- },
- "https://rausgegangen.de/events/fritzsessions-26/": {
-  "fetched": "2026-10-21T03:07:19+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Zwischen Hyperpop, Pop und Rap steht kein sauberer Strich, eher fünf Leute, die ihr eigenes Ding mitbringen. Bei den FritzSessions treffen unter anderem Amélia, Dueja und Katlix aufeinander, also ein Abend für offene Ohren 👀",
-   "endDate": "2026-11-10T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/8Y9wBoTBRr29567OaXR9_16x9fritzsessions051026-5-artists.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10997",
-     "streetAddress": "Schlesische Strasse 2"
-    },
-    "name": "Bi Nuu"
-   },
-   "name": "FritzSessions mit Amélia, Tara Emely, Dueja & Katlix",
-   "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "14.00",
-    "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/fritzsessions-20",
-    "validFrom": "2026-10-04T15:05+0200"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "FritzSessions",
-     "url": "https://rausgegangen.de/organizations/page-for-team-fritzsessions/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Fritz vom rbb",
-     "url": "https://rausgegangen.de/organizations/fritz-vom-rbb/"
-    }
-   ],
-   "performer": [
-    {
-     "@type": "PerformingGroup",
-     "name": "DUEJA"
-    },
-    {
-     "@type": "PerformingGroup",
-     "name": "KATLIX"
-    }
-   ],
-   "startDate": "2026-11-09T19:00+0100"
-  }
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
   "fetched": "2026-10-21T03:07:19+02:00",

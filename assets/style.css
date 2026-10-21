@@ -935,3 +935,5 @@ footer, .small, .gal-credit, .q-credit, .q-pcredit, .q-vid figcaption, .q-fig fi
 @media (max-width: 900px) { .xs-title { font-size: min(var(--fs-h2), calc((100vw - 2 * var(--gutter)) / 16.4)) !important; } }
 /* Text kennt nur normal und fett: Zwischenstärken auf fett */
 .member .handle, .kv-member .handle, .featured.theme-weihnachten .featured-body p, .member-more, .press-link, .tevent-less, .reels-more, .reel a, .booking-mail { font-weight: 800 !important; }
+/* Kollektiv-Video (Hochformat in fast quadratischem Rahmen): Ausschnitt höher, damit Köpfe nicht abgeschnitten werden */
+.kv-gvid video { object-position: 50% 28%; }

@@ -822,3 +822,48 @@ a.event-tag { text-decoration: none; } a.event-tag:hover { opacity: .85; }
 /* Download-Symbol am Press Kit */
 .dl-ico { width: 1.05em; height: 1.05em; vertical-align: -.17em; margin-right: .35em; flex: none; }
 .btn .dl-ico { margin-right: 0; width: 18px; height: 18px; vertical-align: 0; }
+
+/* Eigene Eventseite: Christmas Show 2026 (christmas-show.html), Aufbau wie die Eventseite auf rausgegangen */
+.xs-page { padding: clamp(24px, 4vw, 48px) 0 var(--sec-y); }
+.xs-page section { border-bottom: 0; }
+.xs-page section:not(.xs-box) { padding: 0; }
+.xs-layout { display: grid; grid-template-columns: minmax(0, 1fr) 360px; gap: clamp(24px, 3vw, 40px); align-items: start; }
+.xs-box { background: var(--ink); border: 1px solid var(--line); border-radius: 14px; padding: clamp(20px, 2.4vw, 28px); }
+.xs-poster { margin: 0; }
+.xs-poster img { width: 100%; height: auto; border-radius: 14px; }
+.xs-poster figcaption { margin-top: 8px; font-size: 13px; color: var(--grey); }
+.xs-title { font-size: calc((min(100vw, var(--max)) - 2 * var(--gutter) - 360px - clamp(24px, 3vw, 40px)) / 16.4); white-space: nowrap; margin: 18px 0 28px; }
+.xs-page h2 { font-size: 24px; margin: 0 0 14px; }
+.xs-desc p { margin: 0 0 14px; color: #D8D8D2; }
+.xs-desc strong { color: var(--white); }
+.xs-cast { margin: 22px 0 0; }
+.xs-cast-head { font-weight: 700; color: var(--white) !important; margin-bottom: 4px !important; }
+.xs-cast-head span { display: inline-block; margin-right: 8px; padding: 2px 10px; border-radius: 999px; background: var(--yellow); color: var(--black); font-size: 13px; letter-spacing: .1em; text-transform: uppercase; font-weight: 800; }
+.xs-presented { margin-top: 22px !important; font-style: italic; }
+.xs-ort { margin-top: clamp(32px, 4vw, 48px); }
+.xs-venue p { margin: 0 0 4px; color: #D8D8D2; }
+.xs-venue-kind { font-size: 13px; color: var(--grey) !important; }
+.xs-venue-name { font-size: 20px; font-weight: 700; color: var(--yellow) !important; }
+.xs-venue .btn { margin-top: 16px; }
+.xs-more { margin: 28px 0 0; }
+.xs-more a { color: var(--yellow); }
+.xs-side { position: sticky; top: 92px; }
+.xs-dates { display: flex; gap: 8px; margin-bottom: 18px; }
+.xs-date { flex: 1; padding: 9px 10px; border-radius: 10px; border: 1px solid var(--line); background: transparent; color: var(--white); font: 700 15px var(--body); cursor: pointer; }
+.xs-date.is-active { background: var(--yellow); border-color: var(--yellow); color: var(--black); }
+.xs-facts { list-style: none; margin: 0 0 20px; padding: 0; }
+.xs-facts li { display: flex; gap: 12px; padding: 12px 0; border-top: 1px solid var(--line); line-height: 1.5; }
+.xs-facts li:first-child { border-top: 0; padding-top: 0; }
+.xs-facts svg { flex: none; width: 22px; height: 22px; color: var(--yellow); margin-top: 1px; }
+.xs-facts a { color: var(--yellow); text-decoration: none; font-weight: 600; }
+.xs-buy { width: 100%; justify-content: center; background: transparent; color: var(--yellow); cursor: pointer; }
+.xs-buy:hover, .xs-buy:focus-visible { background: var(--yellow); color: var(--black); }
+@media (max-width: 900px) {
+  .xs-layout { grid-template-columns: 1fr; }
+  .xs-side { position: static; grid-row: 1; }
+  .xs-main { display: contents; }
+  .xs-poster { grid-row: 1; }
+  .xs-title { grid-row: 2; margin-bottom: 4px; font-size: calc((100vw - 2 * var(--gutter)) / 16.4); }
+  .xs-side { grid-row: 3; }
+}
+

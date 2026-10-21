@@ -70,8 +70,28 @@ def esc(s):
     return html.escape(s, quote=True)
 
 
+def own_page(url):
+    """Eigene Eventseite auf ducttape.berlin: auf den englischen Seiten die englische Fassung."""
+    return SITE + "en/" + url[len(SITE):] if url.startswith(SITE) and L is EN and not url.startswith(SITE + "en/") else url
+
+
+def href(url):
+    """Links auf eigene Seiten relativ, damit sie auch in der Vorschau funktionieren."""
+    url = own_page(url)
+    if url.startswith(SITE):
+        url = url[len(SITE):]
+        if L is EN and url.startswith("en/"):
+            url = url[3:]
+        return url or "./"
+    return url
+
+
+def new_tab(url):
+    return "" if url.startswith(SITE) else ' target="_blank" rel="noopener"'
+
+
 def link(url, text):
-    return f'<a href="{esc(url)}" target="_blank" rel="noopener">{esc(text)}</a>'
+    return f'<a href="{esc(href(url))}"{new_tab(url)}>{esc(text)}</a>'
 
 
 def parse_date(s):
@@ -156,6 +176,9 @@ def button(row):
     date, begin, *_ = when(row)
     slug = ticket_slug(row.get("Tickets"))
     booking = (row.get("Reservierung") or "").strip()
+    page = (row.get("Eventseite") or "").strip()
+    if slug and page.startswith(SITE):  # eigene Eventseite: dort ist der Ticketshop, Tag schon ausgewählt
+        return f'<a class="btn btn-primary" href="{esc(href(page))}?tag={date.isoformat()}">Tickets</a>'
     if slug:
         label = f"{(row.get('Titel') or '').strip()} · {L['weekdays'][date.weekday()]} {date:%d.%m.}"
         return f'<button class="btn btn-primary" type="button" data-tickets="{esc(slug)}" data-label="{esc(label)}">Tickets</button>'
@@ -368,7 +391,7 @@ def render_all(events):
         if len(paras) > 3:  # lange Texte: Rest hinter "Weiterlesen"
             paras = paras[:2] + ["      <details>", f"        <summary>{L['more']}</summary>", *["  " + p for p in paras[2:]], "      </details>"]
         actions = ([f"      {btn}"] if btn else []) + (
-            [f'      <a class="btn btn-ghost" href="{esc(page)}" target="_blank" rel="noopener">{L["event_page"]}</a>'] if page.startswith("http") else [])
+            [f'      <a class="btn btn-ghost" href="{esc(href(page))}"{new_tab(page)}>{L["event_page"]}</a>'] if page.startswith("http") else [])
         out += [
             f'  <article class="tevent{theme_class(r.get("Featured") or "ja")}" data-date="{date.isoformat()}">',
             f'    <div class="tevent-poster">{media}</div>',
@@ -412,7 +435,7 @@ def events_ld(events):
         if poster:
             ev["image"] = SITE + poster
         if page.startswith("http"):
-            ev["url"] = page
+            ev["url"] = own_page(page)
         # Google verlangt bei Angeboten Preis und Verkaufsstart. Ohne bekannten Preis lieber gar kein Angebot.
         price = 0 if free else r.get("_price")
         if (free or tickets) and price is not None:

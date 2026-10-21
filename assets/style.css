@@ -1015,7 +1015,7 @@ footer, .small, .gal-credit, .q-credit, .q-pcredit, .q-vid figcaption, .q-fig fi
 
 /* Mobil-Feinschliff (Emanuel, 2026-10-21) */
 .event-date small .wd-l, .event-date small .wd-s { display: inline; }
-.event-date small .wd-s { display: none; }
+.wd-s, .event-date small .wd-s { display: none; }
 .about-more { display: none; }
 .about-more-btn { display: none; }
 @media (max-width: 720px) {
@@ -1024,8 +1024,8 @@ footer, .small, .gal-credit, .q-credit, .q-pcredit, .q-vid figcaption, .q-fig fi
   .tape-ticker .band { position: relative; top: 0; left: 0; right: 0; transform: none; }
   .tape-ticker .band.two { display: none; }
   /* Wochentage abgekürzt */
-  .event-date small .wd-l { display: none; }
-  .event-date small .wd-s { display: inline; }
+  .wd-l, .event-date small .wd-l { display: none; }
+  .wd-s, .event-date small .wd-s { display: inline; }
   /* Highlight-Karte: Termine passen in die Breite */
   .featured.theme-weihnachten .featured-dates { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
   .featured.theme-weihnachten .featured-dates li { min-width: 0; }

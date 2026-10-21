@@ -381,8 +381,10 @@ def render_all(events):
         sub = subtitle(r)
         btn = button(r)
         page = (r.get("Eventseite") or "").strip()
-        day = (f"{L['weekdays'][date.weekday()]}, {date.day} {L['months'][date.month - 1]} {date.year}" if L is EN
-               else f"{WEEKDAYS[date.weekday()]}, {date:%d.%m.%Y}")
+        wd = L['weekdays'][date.weekday()]
+        wd = f'<span class="wd-l">{wd}</span><span class="wd-s">{wd[:L["wd_short"]]}</span>'
+        day = (f"{wd}, {date.day} {L['months'][date.month - 1]} {date.year}" if L is EN
+               else f"{wd}, {date:%d.%m.%Y}")
         when_line = " · ".join(x for x in [day, time, doors] if x)
         media = (f'<img src="{L["prefix"]}{poster}" alt="Poster: {esc(title)}" loading="lazy">' if poster else
                  f'<div class="tevent-noposter"><span>{date:%d.%m.}</span></div>')

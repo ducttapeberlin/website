@@ -875,16 +875,16 @@
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/mitte-bitte-lieb-lustig-comedy-open-mic-1/": {
-  "fetched": "2026-10-21T15:59:53+02:00",
+ "https://rausgegangen.de/events/posts-reels-stories-fluchterfahrungen-aus-jugoslawien-im-net-0/": {
+  "fetched": "2026-10-21T16:56:06+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "🎤 Ein Abend mit frischer Stand-up Comedy mitten in Berlin-Mitte: Bei MITTE BITTE! testen ausgewählte Comedians der Berliner Szene ihre neuesten Ideen, feilen an Jokes und präsentieren Material, das man so oft nur ein einziges Mal erlebt.Jeden Monat erwartet euch ein wechselndes Line-up in der besonderen Atmosphäre der Z-Bar. Gastgeber des Abends ist Comedian Rüdiger Rudolph.📍 Berlin Mitte / Bergstraße Ecke Torstraße  🗓 Jeden 4. Montag im Monat  🕗 Einlass 19:30 | Start 20:00  Host: @ruedigerrudolph🎟 Eintritt frei  💸 Spende willkommen    Eintritt ab 18 Jahren 🎟 Kostenlose Tickets: https://www.eventbrite.de/e/mitte-bitte-comedy-open-mic-tickets-1991102227361  ",
-   "endDate": "2026-11-30T22:00+0100",
+   "description": "TikTok, Instagram, Podcasts & Co. eröffnen neue Räume für Stimmen, die in klassischen Medien oft wenig Gehör finden. Menschen mit jugoslawischer Fluchtgeschichte teilen Erinnerungen, erklären den Krieg, Flucht und Vertreibung und sprechen über Folgen, die über Generationen weiterwirken. Doch wo Chancen für Sichtbarkeit und Austausch entstehen, verbreiten sich auch Desinformation und nationalistische Narrative. Wann werden soziale Medien zu einem Ort der Solidarität und wo beginnt die Gefahr?PROGRAMM Begrüßung Dr. Roland Borchers, Direktor, Dokumentationszentrum Flucht, Vertreibung, Versöhnung, BerlinGesprächFata Hasanović, InfluencerinKrsto Lazarević, Journalist und Podcaster „Neues vom Ballaballa-Balkan“Dr. Eva Tamara Asboth, Postdoc, Österreichische Akademie der Wissenschaften, WienModeration: Simone Gaul, Journalistin und Podcasterin „Die Zeit“ Im Anschluss laden wir Sie zu einem kleinen Empfang ein.   WEITERE HINWEISEEinlass: 18.00 UhrSprache: DeutschEINTRITT FREI Die Veranstaltung wird aufgezeichnet und auf unserem YouTube-Kanal Flucht, Vertreibung, Versöhnung veröffentlicht.Eine Veranstaltung im Rahmen der Veranstaltungsreihe \"Zerfallen. Geflohen. Angekommen? Erfahrungen aus Bosnien und Herzegowina\"Eine Veranstaltung von: Dokumentationszentrum Flucht, Vertreibung, Versöhnung · Bundeszentrale für politische Bildung",
+   "endDate": "2026-11-11T20:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/nsx3WINWRJagbaBtMViY_harmonischer-filter-fur-layout-1920-x-1080-px-1200-x-675-px3.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/tRzV17PhR0y1Q7XSYcZf_2025-sfvvdokuzentrumsrebrenicaveranstaltungsfotosgrafikladenfoto-nihad-nino-pusija.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -892,19 +892,25 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10115",
-     "streetAddress": "Bergstraße 2"
+     "postalCode": "10963",
+     "streetAddress": "Stresemannstraße 90"
     },
-    "name": "Z-Bar"
+    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
    },
-   "name": "MITTE BITTE! - lieb & lustig - Comedy Open Mic",
+   "name": "Posts, Reels, Stories – Fluchterfahrungen aus Jugoslawien im Netz",
    "offers": {
     "@type": "Offer",
     "price": "0.00",
     "priceCurrency": "EUR",
-    "validFrom": "2026-11-30T20:00+0100"
+    "url": "https://buchungen.flucht-vertreibung-versoehnung.de/de/tickets/109",
+    "validFrom": "2026-11-11T18:30+0100"
    },
-   "startDate": "2026-11-30T20:00+0100"
+   "organizer": {
+    "@type": "Organization",
+    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung",
+    "url": "https://rausgegangen.de/organizations/dokumentationszentrum-flucht-vertreibung-versohnung/"
+   },
+   "startDate": "2026-11-11T18:30+0100"
   }
  }
 }

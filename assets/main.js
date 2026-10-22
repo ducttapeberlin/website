@@ -130,6 +130,13 @@ if (strip) {
     strip.hidden = false;
     // Gleichmäßiges, ruhiges Tempo in Pixeln pro Sekunde, egal wie lang der Text ist
     strip.querySelectorAll('.track').forEach((tr, i) => { tr.style.animationDuration = `${Math.round(tr.scrollWidth / 2 / (i ? 55 : 45))}s`; });
+    // Beim Drüberfahren anhalten, per Web Animations statt CSS-Hover (Safari setzt das Band sonst zurück)
+    const anims = () => [...strip.querySelectorAll('.track')].flatMap(tr => tr.getAnimations ? tr.getAnimations() : []);
+    if (strip.querySelector('.track').getAnimations) {
+      strip.classList.add('js-pause');
+      strip.addEventListener('mouseenter', () => anims().forEach(a => a.pause()));
+      strip.addEventListener('mouseleave', () => anims().forEach(a => a.play()));
+    }
   }
 }
 
@@ -454,3 +461,16 @@ document.querySelectorAll('.kv-mute').forEach(btn => {
 
 // Startseite mobil: „Drag als Bühnenkunst“ aufklappen
 document.querySelectorAll('.about-more-btn').forEach(b => b.addEventListener('click', () => b.closest('.about').classList.remove('is-collapsed')));
+
+// Profil-Videos: eigener Play-Knopf in Gelb/Schwarz statt Browser-Standard, danach normale Steuerung
+document.querySelectorAll('.q-vid video[controls]').forEach(v => {
+  v.controls = false;
+  const b = document.createElement('button');
+  b.type = 'button'; b.className = 'vid-play';
+  b.setAttribute('aria-label', (document.documentElement.lang === 'en' ? 'Play video: ' : 'Video abspielen: ') + (v.getAttribute('aria-label') || ''));
+  const w = document.createElement('div'); w.className = 'vid-wrap';
+  v.before(w); w.append(v, b);
+  const start = () => { b.hidden = true; v.controls = true; v.play().catch(() => {}); };
+  b.addEventListener('click', start);
+  v.addEventListener('play', () => { b.hidden = true; v.controls = true; });
+});

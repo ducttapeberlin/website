@@ -1077,3 +1077,9 @@ section, .page-intro, .q-hero, .events, .event, .events-empty, .tevent, .press-i
 .vid-play::after { content: ""; position: absolute; left: 29px; top: 23px; border-style: solid; border-width: 13px 0 13px 21px; border-color: transparent transparent transparent #0B0B0B; }
 .vid-play:hover { background: #0B0B0B; } .vid-play:hover::after { border-left-color: var(--yellow); }
 .vid-play[hidden] { display: none; }
+
+/* Gefüllte Knöpfe: Tape kippt beim Drüberfahren leicht (Emanuel, 2026-10-22) */
+.btn-primary::before, .btn-dark::before { transition: transform .2s ease; }
+.btn-primary:hover::before, .btn-primary:focus-visible::before,
+.btn-dark:hover::before, .btn-dark:focus-visible::before { transform: rotate(-2deg) scale(1.03); }
+@media (prefers-reduced-motion: reduce) { .btn-primary::before, .btn-dark::before { transition: none; } }

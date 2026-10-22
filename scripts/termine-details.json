@@ -830,16 +830,16 @@
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/vinyl-night-mit-dieta-berliner-2/": {
-  "fetched": "2026-10-22T09:13:45+02:00",
+ "https://rausgegangen.de/events/movie2menu-presents-sex-and-the-city-film-12/": {
+  "fetched": "2026-10-22T10:03:23+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Vinyl Night mit Dieta Berliner – Deep House, Disco & DrinksVinyl knistert, Drinks sind kalt, der Groove setzt ein 🖤✨🎚️🎛️🎧Freut euch auf einen Sound, der sich nicht hetzen lässt: Deep House, Disco und Nu-Disco, gespielt exklusiv auf Vinyl. Warm, analog, mit diesem unverkennbaren Old-School-Feeling, das sofort die richtige Stimmung bringt – zwischen Bar, Dancefloor und spätem Feierabenddrink oder Pre-Clubbing. 🎧 Dieta Berliner ist Teil von Pakalolo Soundlab und bekannt für Sets, die nicht nur laufen, sondern sich entwickeln. Perfekt also für einen Abend, der irgendwo zwischen entspanntem Ankommen und ungeplant langem Bleiben liegt.🪩🖤✨  Wo?Bar Sprewa @ Me and All Hotel Berlin East SideAn der Schillingbrücke 2, 10243 Berlin",
-   "endDate": "2026-10-31T01:00+0100",
+   "description": "Wenn Du Sex and the City nicht nur sehen, sondern passend dazu essen willst, ist dieses Movie2Menu Format echt ein charmanter Move: Zum Film kommen New York inspirierte Gänge direkt an Deinen Platz. Zwischen Liebe, Herzschmerz und Freundschaft wird das ziemlich stylish 👠",
+   "endDate": "2026-10-23T06:00+0200",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/f54hsgeQoOR4eIPSnp7N_meandall30mai103.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/2AZn6OGRXCygTHJ21txK_169.png"
    ],
    "location": {
     "@type": "Place",
@@ -847,19 +847,62 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10243",
-     "streetAddress": "An der Schillingbrücke 2"
+     "postalCode": "10245",
+     "streetAddress": "Revaler Straße 99"
     },
-    "name": "Bar Sprewa"
+    "name": "TABULA RASA@RAW"
    },
-   "name": "Vinyl Night with DJ Dieta Berliner",
+   "name": "Movie2Menu presents: Sex and the City (Film)",
    "offers": {
-    "@type": "Offer",
-    "price": "0.00",
-    "priceCurrency": "EUR",
-    "validFrom": "2026-10-30T21:00+0100"
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 4,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Plant Based + Mit Alkohol",
+      "price": "158.54",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Plant Based + Ohne Alkohol",
+      "price": "158.54",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Mit Alkohol",
+      "price": "158.54",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Ohne Alkohol",
+      "price": "158.54",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
    },
-   "startDate": "2026-10-30T21:00+0100"
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "Movie2Menu",
+     "url": "https://rausgegangen.de/organizations/movie2menu/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Team - Leif Lüdtke & Paul Rost GbR",
+     "url": "https://rausgegangen.de/organizations/p-team-leif-ludtke-paul-rost-gbr/"
+    }
+   ],
+   "startDate": "2026-10-22T18:30+0200"
   }
  }
 }

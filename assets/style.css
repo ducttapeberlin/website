@@ -1083,3 +1083,19 @@ section, .page-intro, .q-hero, .events, .event, .events-empty, .tevent, .press-i
 .btn-primary:hover::before, .btn-primary:focus-visible::before,
 .btn-dark:hover::before, .btn-dark:focus-visible::before { transform: rotate(-2deg) scale(1.03); }
 @media (prefers-reduced-motion: reduce) { .btn-primary::before, .btn-dark::before { transition: none; } }
+
+/* Terminliste mobil ruhiger: eine Spalte, Kategorie als Text, Reservieren als Link (Emanuel, 2026-10-22) */
+@media (max-width: 720px) {
+  .events .event { grid-template-columns: 1fr; gap: 0; padding: 0 0 40px; }
+  .events .event-date { display: flex; align-items: baseline; gap: 10px; font-size: 26px !important; margin-bottom: 6px; }
+  .events .event-date small { display: inline; margin: 0 !important; font-size: 12px; letter-spacing: .08em; color: var(--grey); }
+  .events .event-date small > span { display: inline; }
+  .events .event-date small > span + span::before { content: " · "; }
+  .events .event-tag { background: none !important; box-shadow: none !important; padding: 0; margin: 0 0 4px; font-size: 11px; letter-spacing: .14em; color: var(--yellow); }
+  .events .event-tag.tag-halloween { color: #F5924A; } .events .event-tag.tag-winter { color: #A9D2FF; } .events .event-tag.tag-christmas { color: #F0566E; }
+  .events .event h3 { font-size: 22px !important; }
+  .events .event p { font-size: 15px; margin-top: 4px; }
+  .events .event > .btn { grid-column: 1; margin-top: 10px; padding: 0 !important; font-size: 13px; letter-spacing: .06em; color: var(--yellow); }
+  .events .event > .btn::before { display: none; }
+  .events .event > .btn::after { content: ""; display: inline-block; width: .8em; height: .8em; margin-left: .1em; background: currentColor; -webkit-mask: var(--ico-arrow) center / contain no-repeat; mask: var(--ico-arrow) center / contain no-repeat; transform: rotate(-45deg); position: static; inset: auto; vertical-align: -.05em; }
+}

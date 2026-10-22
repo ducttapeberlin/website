@@ -1105,3 +1105,8 @@ section, .page-intro, .q-hero, .events, .event, .events-empty, .tevent, .press-i
 .bingo-ms p { color: #D8D8D2; margin: 0; max-width: 60ch; }
 .kv-ms figure.kv-video.v-elf-bingo { max-width: 300px; }
 .kv-ms figure.kv-video.v-elf-bingo video { aspect-ratio: 4 / 5; height: auto; object-fit: cover; object-position: 50% 45%; }
+
+/* Sprachumschalter ohne Umrandung (Emanuel, 2026-10-22) */
+.nav .lang-switch, .site-header .lang-mobile { border: 0 !important; padding-left: 0; padding-right: 0; }
+.nav .lang-switch:hover, .site-header .lang-mobile:hover { color: var(--yellow); }
+@media (max-width: 820px) { .nav .lang-switch { padding: 16px var(--gutter); } }

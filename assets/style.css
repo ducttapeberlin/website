@@ -1099,3 +1099,9 @@ section, .page-intro, .q-hero, .events, .event, .events-empty, .tevent, .press-i
   .events .event > .btn::before { display: none; }
   .events .event > .btn::after { content: ""; display: inline-block; width: .8em; height: .8em; margin-left: .1em; background: currentColor; -webkit-mask: var(--ico-arrow) center / contain no-repeat; mask: var(--ico-arrow) center / contain no-repeat; transform: rotate(-45deg); position: static; inset: auto; vertical-align: -.05em; }
 }
+
+/* Drag Bingo: Video neben dem Ablauf (Emanuel, 2026-10-22) */
+.kv-bvid { margin: 0; max-width: 340px; justify-self: start; }
+.kv-bvid video { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 45%; display: block; background: #000; }
+.kv-bvid figcaption { margin-top: 8px; font-size: 13px; color: #CFCFCA; }
+@media (max-width: 760px) { .kv-bvid { justify-self: start; max-width: 300px; } }

@@ -863,16 +863,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/photo-exhibition-falling-into-the-present-0/": {
-  "fetched": "2026-10-23T00:52:15+02:00",
+ "https://rausgegangen.de/events/love-at-first-slide-berlin-power-point-dating-by-rausgegange-13/": {
+  "fetched": "2026-10-23T01:48:25+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Fallen ins Jetzt / Falling into the Present — Fotoausstellung + Abend mit Musik, Salsa & mehrEin Nachmittag mit echter Mischung: Fotografie, Meditation, ein Gespräch über die Zeit, Live-Musik und eine Salsa-Band — alles an einem Ort.Fallen ins Jetzt  / Falling into the Present ist mein erstes eigenes Projekt, das ich nach Jahren der Arbeit endlich zeige — entstanden in einem kleinen Heimstudio, unterstützt von meinem Kurs an der Ostkreuzschule für Fotografie.Programm: 17:00 — Meditation (kleine Gruppe) 18:00 — Tertulia über die Zeit 19:00 — Cheers & Opening 20:00 — Live-Musik mit @joelle.officialmusic 21:00 — Salsa mit @borondo.clubUm den Abend möglich zu machen, läuft parallel eine Crowdfunding-Kampagne — ein Teil der Spenden geht außerdem direkt an die Erdbebenhilfe für Chocó, Kolumbien. Mehr dazu auf meiner Website.📍 B23, Berlin 📅 24.10., ab 17:00 Uhr",
-   "endDate": "2026-10-24T22:00+0200",
+   "description": "Wir bringen mit LOVE AT FIRST SLIDE Dating auf die Bühne: Freund:innen stellen in kurzen Power Point Präsentationen ihre Lieblingssingle vor – charmant, humorvoll und ganz ohne Swipe. Nach den witzigen Pitches kannst du bei Speed-Dating und Barabend neue Begegnungen entdecken. 💘🎤💫",
+   "endDate": "2026-11-11T23:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/6lajvBv2Rfid0htv0VhV_ea131749-6216-40b9-bbd3-0b0d8b46fa6d.jpeg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/G4DW5S6EQHOrXfM562GP_lafsbannerappstraight-2-5.png"
    ],
    "location": {
     "@type": "Place",
@@ -880,24 +880,79 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10405",
-     "streetAddress": "Greifswalder Straße 23"
+     "postalCode": "10625",
+     "streetAddress": "Kantstraße 127"
     },
-    "name": "b23 Space"
+    "name": "Dufte Berlin"
    },
-   "name": "Photo exhibition: “Falling into the Present”",
+   "name": "LOVE AT FIRST SLIDE Berlin | Power Point Dating by Rausgegangen 💖",
    "offers": {
-    "@type": "Offer",
-    "price": "0.00",
-    "priceCurrency": "EUR",
-    "url": "https://www.startnext.com/en/falling-into-the-present-oct24",
-    "validFrom": "2026-10-24T17:00+0200"
+    "@type": "AggregateOffer",
+    "highPrice": "19.50",
+    "lowPrice": "10.00",
+    "offerCount": 5,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Presenterticket",
+      "price": "10.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Publikum Ticket | Ich bin eine hetero Frau",
+      "price": "19.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Publikum Ticket | Ich bin ein hetero Mann",
+      "price": "19.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Publikum Ticket | Ich bin queer",
+      "price": "19.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Mitgegangen",
+      "price": "3.80",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
    },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Borondo Club"
-   },
-   "startDate": "2026-10-24T17:00+0200"
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "LOVE AT FIRST SLIDE BERLIN by Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/love-at-first-slide-berlin-by-rausgegangen/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Love at first Slide by Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/page-for-team-love-at-first-slide-by-rausgegangen/"
+    },
+    {
+     "@type": "Organization",
+     "name": "LOVE AT FIRST SLIDE by Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/love-at-first-slide-by-rausgegangen/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Team Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/team-rausgegangen/"
+    }
+   ],
+   "startDate": "2026-11-11T19:00+0100"
   }
  }
 }

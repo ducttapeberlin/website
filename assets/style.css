@@ -34,7 +34,7 @@ h3 { font-size: clamp(26px, 3.2vw, 34px); }
 
 /* Buttons */
 .btn { display: inline-flex; align-items: center; gap: 10px; padding: 14px 24px; border-radius: 0; font-weight: 800; font-size: 15px; letter-spacing: .04em; text-transform: uppercase; text-decoration: none; border: 2px solid var(--yellow); transition: transform .15s ease, background .15s ease, color .15s ease; }
-.btn:hover { transform: translateY(-2px); }
+/* kein Hover-Hüpfer mehr (Design-Check 22.10.2026) */
 .btn-primary { background: var(--yellow); color: var(--black); }
 .btn-ghost { color: var(--yellow); background: transparent; }
 .btn-ghost:hover { background: var(--yellow); color: var(--black); }

@@ -1071,7 +1071,7 @@ section, .page-intro, .q-hero, .events, .event, .events-empty, .tevent, .press-i
 .service-wide .service-body > p.sub-title { font-size: var(--fs-h3) !important; color: var(--white); margin: 0 0 14px; }
 
 /* Laufband: Pause per JS (Safari), Video-Play-Knopf gelb/schwarz (Emanuel, 2026-10-22) */
-.tape-ticker.js-pause .band:hover .track { animation-play-state: running; }
+.tape-ticker.js-run .track { animation: none !important; will-change: transform; }
 .vid-wrap { position: relative; }
 .vid-play { position: absolute; left: 50%; top: 50%; width: 72px; height: 72px; margin: -36px 0 0 -36px; border: 0; border-radius: 50%; background: var(--yellow); cursor: pointer; padding: 0; }
 .vid-play::after { content: ""; position: absolute; left: 29px; top: 23px; border-style: solid; border-width: 13px 0 13px 21px; border-color: transparent transparent transparent #0B0B0B; }

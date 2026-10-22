@@ -130,12 +130,27 @@ if (strip) {
     strip.hidden = false;
     // Gleichmäßiges, ruhiges Tempo in Pixeln pro Sekunde, egal wie lang der Text ist
     strip.querySelectorAll('.track').forEach((tr, i) => { tr.style.animationDuration = `${Math.round(tr.scrollWidth / 2 / (i ? 55 : 45))}s`; });
-    // Beim Drüberfahren anhalten, per Web Animations statt CSS-Hover (Safari setzt das Band sonst zurück)
-    const anims = () => [...strip.querySelectorAll('.track')].flatMap(tr => tr.getAnimations ? tr.getAnimations() : []);
-    if (strip.querySelector('.track').getAnimations) {
-      strip.classList.add('js-pause');
-      strip.addEventListener('mouseenter', () => anims().forEach(a => a.pause()));
-      strip.addEventListener('mouseleave', () => anims().forEach(a => a.play()));
+    // Bewegung per JS statt CSS-Animation: jedes Band hält beim Drüberfahren für sich an (Safari springt sonst)
+    if (!matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      strip.classList.add('js-run');
+      const bands = [...strip.querySelectorAll('.band')].map((band, i) => {
+        const tr = band.querySelector('.track');
+        const o = { tr, dir: i ? 1 : -1, speed: i ? 55 : 45, x: 0, half: 0, stop: false };
+        band.addEventListener('mouseenter', () => { o.stop = true; });
+        band.addEventListener('mouseleave', () => { o.stop = false; });
+        return o;
+      });
+      let last = performance.now();
+      const step = now => {
+        const dt = Math.min((now - last) / 1000, .1); last = now;
+        bands.forEach(o => {
+          o.half = o.tr.scrollWidth / 2 || o.half;
+          if (!o.stop && o.half) { o.x += o.dir * o.speed * dt; if (o.x <= -o.half) o.x += o.half; if (o.x > 0) o.x -= o.half; }
+          o.tr.style.transform = `translate3d(${o.x}px,0,0)`;
+        });
+        requestAnimationFrame(step);
+      };
+      requestAnimationFrame(step);
     }
   }
 }

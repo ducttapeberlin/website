@@ -830,16 +830,16 @@
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/poetry-slam-grand-prix-halbfinale-2-1/": {
-  "fetched": "2026-10-22T11:01:11+02:00",
+ "https://rausgegangen.de/events/keo-3/": {
+  "fetched": "2026-10-22T11:58:22+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "📅 23.–24. Oktober 2026 🎭 Halbfinals: Pfefferberg Theater (23.10.) 👑 Finale: Renaissance Theater Berlin (24.10.)   Das ist die Meisterschaft der Meisterschaften. Beim Grand Prix Poetry Slam: Deutschland stehen die jeweiligen Landesmeister:innen aller Bundesländer auf der Bühne – alle haben sich bereits in ihrem Bundeslands durchgesetzt. Jetzt treffen sie in Berlin aufeinander, für das endgültige Wort-Battle des Bundes um den Grand Prix.   Kein Punkterichter-Gremium, keine Jury: Ihr stimmt live per digitalem Voting ab, wer Germany’s Finest Poetry Slammer 2026 wird. Die Texte? Ein Panorama der deutschen Slamkultur: Berliner Schnauze bis Hamburger Schnack, bayerischer Schmäh bis sächsische Schlagfertigkeit – einmal quer durch Kulturen, Milieus und Mentalitäten.    🎤 Lineup 2026 – die Landesmeister:nnen   Kirsten Fuchs, Landesmeisterin Berlin-Brandenburg Stefan Brosch, Landesmeister Sachsen-Anhalt Matti Linke, Landesmeister Niedersachsen/Bremen Luise Wolff, Landesmeisterin NRW Marc Bobzin, Landesmeister Sachsen Tim Kuppler, Landesmeister Hessen Felix Treder, Stadtmeister Hamburg Tim Jürgensen, Landesmeister Schleswig-Holstein Dana Galkina, Landesmeisterin Thüringen Julius Althoetmar, Landesmeister Bayern Anne Kalkbrenner, Landesmeisterin Mecklenburg-Vorpommern Don Esteban, Landesmeister Rheinland-Pfalz Madeleine Schach, Landesmeisterin Saarland Marvin Suckutt, Landesmeister Baden-Württemberg   Zwei Abende. Zwei ikonische Berliner Bühnen. 14 Landesmeister:innen. Und am Ende steht ein Meister der Meister.   👉 Tickets & Infos: kiezpoeten.com/grandprix",
-   "endDate": "2026-10-23T23:00+0200",
+   "description": "Früher standen Finn und Conor Keogh noch in britischen Pubs auf der Bühne, jetzt klingt Keo nach deutlich lauteren Gitarren und offener Kante. Viel Alternative Rock, aber ohne Schutzschild 👀",
+   "endDate": "2027-04-11T06:00+0200",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/oC3EZeVFTFqnvuQqgVwV_vabildgrandprix.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Jg1vNdRjIbgCaKFsFpQK_press-photo-keobehappydigiv1judeharrison-39-klein.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -847,111 +847,25 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10119",
-     "streetAddress": "Schönhauser Allee 176"
+     "postalCode": "12051",
+     "streetAddress": "Hermannstraße 146"
     },
-    "name": "Pfefferberg Theater"
+    "name": "HOLE"
    },
-   "name": "Poetry Slam Grand Prix Deutschland (Halbfinale 2)",
+   "name": "Keo",
    "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "24.50",
-    "lowPrice": "16.90",
-    "offerCount": 12,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "PK1 Regulär",
-      "price": "26.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "PK1 Ermäßigt",
-      "price": "24.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "PK2 Regulär",
-      "price": "24.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "PK2 Ermäßigt",
-      "price": "20.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "PK3 Regulär",
-      "price": "20.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "PK3 Ermäßigt",
-      "price": "15.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "PK4 Regulär",
-      "price": "15.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "PK4 Ermäßigt",
-      "price": "12.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Paarplatz (2 Personen)",
-      "price": "40.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Zweiter Paarplatz",
-      "price": "0.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Schwerbehindertenausweis B-Ticket",
-      "price": "15.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Begleiterticket Schwerbehinderte",
-      "price": "0.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
+    "@type": "Offer",
+    "price": "29.30",
+    "priceCurrency": "EUR",
+    "url": "https://www.eventim.de/noapp/event/keo-hole-44-22217130/?affiliate=SZ3&utm_campaign=SzeneTickets+GmbH&utm_source=SZ3&utm_medium=dp",
+    "validFrom": "2027-04-10T20:00+0200"
    },
    "organizer": {
     "@type": "Organization",
-    "name": "Kiezpoeten",
-    "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
+    "name": "Trinity Music",
+    "url": "https://rausgegangen.de/organizations/trinity-music-ah-4tam/"
    },
-   "startDate": "2026-10-23T21:30+0200"
+   "startDate": "2027-04-10T20:00+0200"
   }
  }
 }

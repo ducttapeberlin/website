@@ -90,7 +90,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-10-22T17:55:40+02:00",
+  "fetched": "2026-10-23T00:52:15+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -260,51 +260,6 @@
   "seen": "2026-10-20T15:24:41+02:00",
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-1/": {
-  "fetched": "2026-10-22T22:55:05+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "DRAG BINGO @ BADEMEISTER 🎱Weißensee, wir sind wieder da! 💋Einmal im Monat verwandelt DUCT TAPE die Bademeister Bar in das Zuhause unseres Drag Bingos. Wir lieben es, nach Weißensee zu kommen und finden: Der Kiez kann ruhig noch ein bisschen mehr Drag vertragen.Freut euch auf einen Abend mit Bingo, Drag Show und Bar Night, gehostet von EMI, Symba oder Magda von Pfeffer aus dem DUCT TAPE Kollektiv. In mehreren Bingo-Runden wird gespielt, gewonnen, performt und natürlich auch ein bisschen eskaliert.Für 5€ bekommt ihr drei Bingo-Scheine für den gesamten Abend und damit die Chance auf verschiedene Preise. Dazu gibt’s Drinks und die leckeren deutschen Snackteller der Bademeister Bar. Also kommt hungrig, durstig und ready to win. 🍻🥨Bringt eure Freund*innen mit und macht euch bereit für ein bisschen mehr Drag in Weißensee.📅 24.09. · 22.10. · 19.11. · 10.12. 🎱 Bingo-Schein: 5 € 💋 Hosted by EMI, Symba & Magda von Pfeffer 📍 Bademeister Bar, Weißensee",
-   "endDate": "2026-10-22T22:00+0200",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/MHRsSAVSTFKLckljeSrU_cefc30c5-4816-4717-beb8-aad821a67f32.jpeg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "13088",
-     "streetAddress": "Bizetstraße 143"
-    },
-    "name": "Bademeister Bar"
-   },
-   "name": "DRAG BINGO NIGHT @ Bademeister Bar by DUCT TAPE",
-   "offers": {
-    "@type": "Offer",
-    "price": 0,
-    "priceCurrency": "EUR",
-    "validFrom": "2026-10-22T19:00+0200"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "CURA Berlin",
-     "url": "https://rausgegangen.de/organizations/cura-berlin/"
-    },
-    {
-     "@type": "Organization",
-     "name": "DUCT TAPE",
-     "url": "https://rausgegangen.de/organizations/duct-tape/"
-    }
-   ],
-   "startDate": "2026-10-22T19:00+0200"
-  },
-  "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
   "fetched": "2026-10-22T22:55:05+02:00",
@@ -579,7 +534,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-10-22T17:55:40+02:00",
+  "fetched": "2026-10-23T00:52:15+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -713,7 +668,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-10-22T17:55:40+02:00",
+  "fetched": "2026-10-23T00:52:15+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -830,40 +785,6 @@
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/jeder-mensch-kann-trauern-fee-vogel-eric-wrede-2/": {
-  "fetched": "2026-10-22T23:53:27+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Was passiert in unserem Körper, wenn wir trauern? Wie kann man lernen, mit Trauer zu leben? Was sind die schlimmsten Beileidsbekundungen aller Zeiten? Und was kann im Familien-WhatsApp-Chat alles schiefgehen, wenn plötzlich eine Beerdigung organisiert werden muss?Fee Vogel und Eric Wrede nehmen das Publikum mit auf einen Abend, der Trauer so zeigt, wie sie wirklich ist – menschlich, nah, manchmal überraschend komisch. Keine Lesung. Kein Vortrag. Sondern ein Gespräch über eine der wichtigsten Fähigkeiten, die wir haben.Grundlage des Abends ist das gleichnamige Buch, das im November 2026 im Insel Verlag (Suhrkamp) erscheint.Fee Vogel ist Geschäftsführerin von lebensnah Bestattungen Bonn und qualifizierte Trauerbegleiterin, auch für Kinder und Jugendliche. Sie ist Mitbegründerin der Beratungsfirma trauerkultur3, die Unternehmen und Führungskräfte unterstützt, wenn Trauer am Arbeitsplatz ankommt.Eric Wrede führt lebensnah Bestattungen in Berlin, Leipzig, Bonn und Potsdam. Sein Spiegel-Bestseller „The End“ wurde 2025 vom ZDF unter dem Titel „Sterben für Beginner“ verfilmt, im selben Jahr lief die Kino-Dokumentation „Der Tod ist ein Arschloch!“ in den Kinos. Im ARD/radioeins-Podcast „the end“ spricht er mit Gästen wie Sven Regener, Judith Holofernes, Sarah Kuttner und Sebastian Fitzek über das, worüber die meisten schweigen.Im November 2026 ist „Jeder Mensch kann trauern“ in Deutschland, Österreich und der Schweiz zu erleben.",
-   "endDate": "2026-11-18T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/gTc6DlSeQUGrmAJ5746L_jmktrausgegangentitelbild1920x1080.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10437",
-     "streetAddress": "Schönhauser Allee 123"
-    },
-    "name": "Filmtheater Colosseum"
-   },
-   "name": "Jeder Mensch kann trauern – Fee Vogel & Eric Wrede",
-   "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "24.90",
-    "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/jeder-mensch-kann-trauern-fee-vogel-eric-wrede-1",
-    "validFrom": "2026-09-29T16:00+0200"
-   },
-   "startDate": "2026-11-17T19:00+0100"
-  }
- },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-0/": {
   "fetched": "2026-10-22T21:04:20+02:00",
   "ld": {
@@ -941,5 +862,42 @@
   "seen": "2026-10-22T21:04:20+02:00",
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
+ },
+ "https://rausgegangen.de/events/photo-exhibition-falling-into-the-present-0/": {
+  "fetched": "2026-10-23T00:52:15+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Fallen ins Jetzt / Falling into the Present — Fotoausstellung + Abend mit Musik, Salsa & mehrEin Nachmittag mit echter Mischung: Fotografie, Meditation, ein Gespräch über die Zeit, Live-Musik und eine Salsa-Band — alles an einem Ort.Fallen ins Jetzt  / Falling into the Present ist mein erstes eigenes Projekt, das ich nach Jahren der Arbeit endlich zeige — entstanden in einem kleinen Heimstudio, unterstützt von meinem Kurs an der Ostkreuzschule für Fotografie.Programm: 17:00 — Meditation (kleine Gruppe) 18:00 — Tertulia über die Zeit 19:00 — Cheers & Opening 20:00 — Live-Musik mit @joelle.officialmusic 21:00 — Salsa mit @borondo.clubUm den Abend möglich zu machen, läuft parallel eine Crowdfunding-Kampagne — ein Teil der Spenden geht außerdem direkt an die Erdbebenhilfe für Chocó, Kolumbien. Mehr dazu auf meiner Website.📍 B23, Berlin 📅 24.10., ab 17:00 Uhr",
+   "endDate": "2026-10-24T22:00+0200",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/6lajvBv2Rfid0htv0VhV_ea131749-6216-40b9-bbd3-0b0d8b46fa6d.jpeg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10405",
+     "streetAddress": "Greifswalder Straße 23"
+    },
+    "name": "b23 Space"
+   },
+   "name": "Photo exhibition: “Falling into the Present”",
+   "offers": {
+    "@type": "Offer",
+    "price": "0.00",
+    "priceCurrency": "EUR",
+    "url": "https://www.startnext.com/en/falling-into-the-present-oct24",
+    "validFrom": "2026-10-24T17:00+0200"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Borondo Club"
+   },
+   "startDate": "2026-10-24T17:00+0200"
+  }
  }
 }

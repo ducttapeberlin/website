@@ -179,92 +179,6 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/bodies-baddies-community-edition-0/": {
-  "fetched": "2026-10-22T18:57:03+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Bodies & Baddies setzt auf eine queere Community Edition mit viel Energie und einem klar offenen Anspruch für Queers, Girls, Gays, Theys, Lovers und Allies. Mit DJ Sets von Christopher King und Ocean plus Performances von Corazón Angel und Calysta Sun wird das eine dichte Nacht auf einem Floor, bei der Du tanzen, flirten und einfach mit Deiner Crew aufgehen kannst 🌈",
-   "endDate": "2026-10-25T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/WD7uXNJgRTCPq06DrnRN_rausgegangenbnball.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10777",
-     "streetAddress": "Nollendorfplatz 5"
-    },
-    "name": "Metropol"
-   },
-   "name": "BODIES & BADDIES // The Pop House Party in Berlin",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "21.80",
-    "lowPrice": "11.20",
-    "offerCount": 6,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Early Bird",
-      "price": "11.20",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Group Tickets First Wave",
-      "price": "14.38",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "First Wave",
-      "price": "16.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Group Tickets Second Wave",
-      "price": "17.56",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Second Wave",
-      "price": "19.68",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Last Wave",
-      "price": "21.80",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Ocean Eyes",
-    "url": "https://rausgegangen.de/organizations/ocean-eyes/"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Ocean"
-   },
-   "startDate": "2026-10-24T23:00+0200"
-  }
- },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
   "fetched": "2026-10-22T13:54:57+02:00",
   "ld": {
@@ -797,6 +711,39 @@
    "startDate": "2026-11-15T12:00+0100"
   },
   "seen": "2026-10-20T15:24:41+02:00"
+ },
+ "https://rausgegangen.de/events/golden-gmilfs-miami-spice-18/": {
+  "fetched": "2026-10-22T19:51:57+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Mit trockenem Humor und noch trockeneren Perücken melden sie sich zurück: Die Bühnen-Queens der gereiften Lebensfreude heben ihr brandneues Stück auf ein völlig neues Level. In »Miami Spice« erlebt das verschmitzte Seniorinnen-Squad Unruhe in seiner floridianischen Nachbarschaft: Wer sind diese neuen Menschen? Woher kommen sie? Und was ist mit unserem Schmuck passiert?Das Ensemble präsentiert sich wie immer mit unerschrockenem Witz, strahlender Selbstironie und überraschend zarten Zwischentönen, jedoch diesmal in neuem Glanz: Rachel Intervention als Rose, Ryan Stecken als Sophia, Yvonne Nightstand als Dorothy und Deena Fear als Blanche. Für Gerechtigkeit sorgen selbstverständlich Miss Pan Am Drag Airlines und Mii. Frischer Schwung, aber gleichbleibender satirischer Biss und unwiderstehliche Bühnenenergie. Aber ... Moment mal ... wer ist die geheimnisvolle neue Nachbarin???Das und vieles mehr erfahren Sie zwischen scharfzüngigen Dialogen, musikalischen Glanzmomenten und wunderbar absurden Szenen im neuen Programm der Golden Gmilfs: eine Live-Playback-Parodie mit Sitcom-Schnipseln der 80er / 90er Jahre Kultserie »The Golden Girls«.",
+   "endDate": "2026-11-07T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/ZVAtNEEaQmSbT3gAU6mt_golden-gmilfs-miami-spice-foto-yves-tiedemann-fb.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10961",
+     "streetAddress": "Mehringdamm 34"
+    },
+    "name": "BKA Theater"
+   },
+   "name": "Golden Gmilfs: Miami Spice",
+   "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "EUR",
+    "url": "https://bka-theater-webshop.comfortticket.de/de/produktion/0d60aa6d-479d-4320-8251-af131be95f9c/469",
+    "validFrom": "2026-11-06T20:00+0100"
+   },
+   "startDate": "2026-11-06T20:00+0100"
+  }
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
   "fetched": "2026-10-22T17:55:40+02:00",

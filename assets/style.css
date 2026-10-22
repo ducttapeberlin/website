@@ -1057,3 +1057,15 @@ footer, .small, .gal-credit, .q-credit, .q-pcredit, .q-vid figcaption, .q-fig fi
   .lang-switch::after, .event-tag::after, .press-link::after, .offer-inline::after, .offer-link::after { content: ""; position: absolute; inset: -9px -6px; }
   .tevent-less, .kv-more-btn { padding-block: 12px; margin-block: -12px; }
 }
+
+/* Design-Check 3 (Emanuel, 2026-10-22): gelbe Markierung + Fokus, keine dünnen Trennlinien, Untertitel/Zwischenüberschriften statt Eyebrows */
+::selection { background: var(--yellow); color: #0B0B0B; }
+:focus-visible { outline: 3px solid var(--yellow); outline-offset: 4px; }
+.btn:focus-visible { outline-offset: 6px; }
+section, .page-intro, .q-hero, .events, .event, .events-empty, .tevent, .press-item { border-top-color: transparent; border-bottom-color: transparent; }
+#leistungen { background: #161517; }
+.q-hero h1:has(+ .q-tagline) { margin-bottom: 8px; }
+.q-tagline { font-size: var(--fs-intro); font-weight: 800; color: var(--white); margin: 0 0 20px; }
+.sub-title { font-family: var(--display); font-size: var(--fs-h3); font-weight: 400; text-transform: uppercase; letter-spacing: .01em; line-height: 1.05; color: var(--white); margin: 0 0 14px; }
+.service-wide .sub-title { max-width: 460px; }
+.service-wide .service-body > p.sub-title { font-size: var(--fs-h3) !important; color: var(--white); margin: 0 0 14px; }

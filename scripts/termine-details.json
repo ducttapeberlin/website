@@ -180,11 +180,11 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-10-22T00:52:47+02:00",
+  "fetched": "2026-10-22T06:56:37+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "COSMOPOLITAN is back. 💖🪩 A night of queer disco, big melodies and late-night house. 🎶✨ See you on the dancefloor. 💃🏽🕺🏻🎧 Line-up: EMI · Fixie Fate · TBA 🎭 Show: Duct Tape · Vyla Virus 📍 Location: Privatclub, Skalitzer Straße 85–86, 10997 Berlin 🗓️ 28 November · Doors 11 PM 🕚",
+   "description": "COSMOPOLITAN is back 💖🪩 A night of queer disco, big melodies and late-night house. 🎶✨ See you on the dancefloor. 💃🕺🍸 Welcome shot 🍬 Candy Girl & Candy Boy 🎧 Line-up: EMI · Fixie Fate · TBA 🎭 Show: Duct Tape · Vyla Virus👗 No dress code — wear whatever makes you feel good. Dressing to the theme is welcome, but completely optional.📍 Privatclub, Skalitzer Straße 85–86, 10997 Berlin 🗓️ 28 November · Doors 11 PM 🕚—————————— Presented by Duct Tape × Anytime Artwork: Daniel Christov Typography & colour palette: Emi",
    "endDate": "2026-11-29T06:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
@@ -712,6 +712,39 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
+ "https://rausgegangen.de/events/florence-road-4/": {
+  "fetched": "2026-10-22T06:56:37+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Vier Freundinnen aus Wicklow machen Songs, in denen Gitarren auch mal schaben und gleich danach alles offen daliegt. Erst kamen die Clips im Fish Eye Look, jetzt steht Florence Road wieder auf Deutschlandtour 👀",
+   "endDate": "2027-05-04T23:00+0200",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/P5gbWKQXSL4xQ42hqqg8_photo-florence-roadcredit-kate-cummings-kopie.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "12043",
+     "streetAddress": "Karl-Marx-Straße 141"
+    },
+    "name": "Heimathafen Neukölln"
+   },
+   "name": "Florence Road",
+   "offers": {
+    "@type": "Offer",
+    "price": "29.00",
+    "priceCurrency": "EUR",
+    "url": "https://www.eventim.de/noapp/event/florence-road-heimathafen-neukoelln-22156758/?affiliate=SZ3&utm_campaign=SzeneTickets+GmbH&utm_source=SZ3&utm_medium=dp",
+    "validFrom": "2027-05-04T20:00+0200"
+   },
+   "startDate": "2027-05-04T20:00+0200"
+  }
+ },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
   "fetched": "2026-10-22T04:55:41+02:00",
   "ld": {
@@ -829,97 +862,5 @@
   "seen": "2026-10-20T15:24:41+02:00",
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/love-at-first-slide-berlin-power-point-dating-by-rausgegange-13/": {
-  "fetched": "2026-10-22T05:58:08+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Wir bringen mit LOVE AT FIRST SLIDE Dating auf die Bühne: Freund:innen stellen in kurzen Power Point Präsentationen ihre Lieblingssingle vor – charmant, humorvoll und ganz ohne Swipe. Nach den witzigen Pitches kannst du bei Speed-Dating und Barabend neue Begegnungen entdecken. 💘🎤💫",
-   "endDate": "2026-11-11T23:30+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/G4DW5S6EQHOrXfM562GP_lafsbannerappstraight-2-5.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10625",
-     "streetAddress": "Kantstraße 127"
-    },
-    "name": "Dufte Berlin"
-   },
-   "name": "LOVE AT FIRST SLIDE Berlin | Power Point Dating by Rausgegangen 💖",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "19.50",
-    "lowPrice": "10.00",
-    "offerCount": 5,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Presenterticket",
-      "price": "10.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Publikum Ticket | Ich bin eine hetero Frau",
-      "price": "19.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Publikum Ticket | Ich bin ein hetero Mann",
-      "price": "19.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Publikum Ticket | Ich bin queer",
-      "price": "19.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Mitgegangen",
-      "price": "3.80",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "LOVE AT FIRST SLIDE BERLIN by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/love-at-first-slide-berlin-by-rausgegangen/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Love at first Slide by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/page-for-team-love-at-first-slide-by-rausgegangen/"
-    },
-    {
-     "@type": "Organization",
-     "name": "LOVE AT FIRST SLIDE by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/love-at-first-slide-by-rausgegangen/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Team Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/team-rausgegangen/"
-    }
-   ],
-   "startDate": "2026-11-11T19:00+0100"
-  }
  }
 }

@@ -1110,3 +1110,7 @@ section, .page-intro, .q-hero, .events, .event, .events-empty, .tevent, .press-i
 .nav .lang-switch, .site-header .lang-mobile { border: 0 !important; padding-left: 0; padding-right: 0; }
 .nav .lang-switch:hover, .site-header .lang-mobile:hover { color: var(--yellow); }
 @media (max-width: 820px) { .nav .lang-switch { padding: 16px var(--gutter); } }
+
+/* Mehrzeilige Überschriften: Umlaute dürfen nicht in die Zeile darüber ragen (Emanuel, 2026-10-22) */
+h1 { line-height: 1.1; }
+h2 { line-height: 1.16; }

@@ -908,16 +908,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/love-at-first-slide-berlin-power-point-dating-by-rausgegange-13/": {
-  "fetched": "2026-10-22T21:04:20+02:00",
+ "https://rausgegangen.de/events/mitte-bitte-lieb-lustig-comedy-open-mic-1/": {
+  "fetched": "2026-10-22T21:54:49+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Wir bringen mit LOVE AT FIRST SLIDE Dating auf die Bühne: Freund:innen stellen in kurzen Power Point Präsentationen ihre Lieblingssingle vor – charmant, humorvoll und ganz ohne Swipe. Nach den witzigen Pitches kannst du bei Speed-Dating und Barabend neue Begegnungen entdecken. 💘🎤💫",
-   "endDate": "2026-11-11T23:30+0100",
+   "description": "🎤 Ein Abend mit frischer Stand-up Comedy mitten in Berlin-Mitte: Bei MITTE BITTE! testen ausgewählte Comedians der Berliner Szene ihre neuesten Ideen, feilen an Jokes und präsentieren Material, das man so oft nur ein einziges Mal erlebt.Jeden Monat erwartet euch ein wechselndes Line-up in der besonderen Atmosphäre der Z-Bar. Gastgeber des Abends ist Comedian Rüdiger Rudolph.📍 Berlin Mitte / Bergstraße Ecke Torstraße  🗓 Jeden 4. Montag im Monat  🕗 Einlass 19:30 | Start 20:00  Host: @ruedigerrudolph🎟 Eintritt frei  💸 Spende willkommen    Eintritt ab 18 Jahren 🎟 Kostenlose Tickets: https://www.eventbrite.de/e/mitte-bitte-comedy-open-mic-tickets-1991102227361  ",
+   "endDate": "2026-11-30T22:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/G4DW5S6EQHOrXfM562GP_lafsbannerappstraight-2-5.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/nsx3WINWRJagbaBtMViY_harmonischer-filter-fur-layout-1920-x-1080-px-1200-x-675-px3.png"
    ],
    "location": {
     "@type": "Place",
@@ -925,79 +925,19 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10625",
-     "streetAddress": "Kantstraße 127"
+     "postalCode": "10115",
+     "streetAddress": "Bergstraße 2"
     },
-    "name": "Dufte Berlin"
+    "name": "Z-Bar"
    },
-   "name": "LOVE AT FIRST SLIDE Berlin | Power Point Dating by Rausgegangen 💖",
+   "name": "MITTE BITTE! - lieb & lustig - Comedy Open Mic",
    "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "19.50",
-    "lowPrice": "10.00",
-    "offerCount": 5,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Presenterticket",
-      "price": "10.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Publikum Ticket | Ich bin eine hetero Frau",
-      "price": "19.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Publikum Ticket | Ich bin ein hetero Mann",
-      "price": "19.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Publikum Ticket | Ich bin queer",
-      "price": "19.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Mitgegangen",
-      "price": "3.80",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
+    "@type": "Offer",
+    "price": "0.00",
+    "priceCurrency": "EUR",
+    "validFrom": "2026-11-30T20:00+0100"
    },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "LOVE AT FIRST SLIDE BERLIN by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/love-at-first-slide-berlin-by-rausgegangen/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Love at first Slide by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/page-for-team-love-at-first-slide-by-rausgegangen/"
-    },
-    {
-     "@type": "Organization",
-     "name": "LOVE AT FIRST SLIDE by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/love-at-first-slide-by-rausgegangen/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Team Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/team-rausgegangen/"
-    }
-   ],
-   "startDate": "2026-11-11T19:00+0100"
+   "startDate": "2026-11-30T20:00+0100"
   }
  }
 }

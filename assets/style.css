@@ -129,12 +129,12 @@ section { padding: clamp(56px, 8vw, 104px) 0; border-bottom: 1px solid var(--lin
 .event-date small { display: block; font-family: var(--body); font-size: 13px; font-weight: 600; letter-spacing: .12em; color: var(--grey); margin-top: 6px; }
 .event-date small { line-height: 1.5; }
 .event-date small span { display: block; }
-.event-date small .event-doors { opacity: .55; }
+.event-date small .event-doors { opacity: 1; }
 .event-tag { display: inline-block; font-size: 12px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: var(--black); background: var(--yellow); padding: 3px 9px; border-radius: 4px; margin-bottom: 8px; }
 .event p { margin: 6px 0 0; color: #BDBDB7; }
 .event h3 a { text-decoration: none; transition: color .2s ease; }
 .event h3 a:hover { color: var(--yellow); }
-.event h3 a::after { content: " ↗"; font-family: var(--body); font-size: .5em; vertical-align: super; color: var(--yellow); }
+.event h3 a::after { content: ""; display: inline-block; width: .42em; height: .42em; margin-left: .25em; vertical-align: .55em; background: var(--yellow); -webkit-mask: var(--ico-arrow) center / contain no-repeat; mask: var(--ico-arrow) center / contain no-repeat; transform: rotate(-45deg); }
 .events:not(.show-all) .event.is-more { display: none; }
 .events-more { display: flex; width: fit-content; margin: 28px auto 0; }
 .events-empty { padding: 28px 0; color: var(--grey); border-bottom: 1px solid var(--line); }
@@ -146,13 +146,13 @@ section { padding: clamp(56px, 8vw, 104px) 0; border-bottom: 1px solid var(--lin
 .featured h3 { font-size: clamp(38px, 5.4vw, 68px); margin: 6px 0 12px; }
 .featured h3 a { text-decoration: none; transition: color .2s ease; }
 .featured h3 a:hover { color: var(--accent); }
-.featured h3 a::after { content: " ↗"; font-family: var(--body); font-size: .4em; vertical-align: super; color: var(--accent); }
+.featured h3 a::after { content: ""; display: inline-block; width: .36em; height: .36em; margin-left: .22em; vertical-align: .6em; background: var(--accent); -webkit-mask: var(--ico-arrow) center / contain no-repeat; mask: var(--ico-arrow) center / contain no-repeat; transform: rotate(-45deg); }
 .featured-body p { margin: 0; color: #D8D8D2; font-size: 18px; }
 .featured-dates { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
 .featured-dates li { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 16px 16px 16px 22px; border-radius: 0; background: rgba(255, 255, 255, .07); backdrop-filter: blur(2px); }
 .featured-dates strong { display: block; font-family: var(--display); font-weight: 400; font-size: 30px; line-height: 1; text-transform: uppercase; }
 .featured-dates small { display: block; margin-top: 6px; font-size: 13px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: #CFCFC8; }
-.featured-dates .event-doors { display: block; opacity: .55; }
+.featured-dates .event-doors { display: block; opacity: 1; }
 .featured .btn-primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
 
 /* Thema Weihnachten: im Look des Show-Banners (Pergament-Creme, Weihnachtsrot, Tannengrün, Gold) mit der Illustration rechts */
@@ -417,10 +417,10 @@ footer a:hover { color: var(--yellow); }
 @media (max-width: 820px) { .newsletter { grid-template-columns: 1fr; } .newsletter .split-title { font-size: min(64px, 15cqi); } }
 .tevent-desc details summary { cursor: pointer; width: fit-content; font-weight: 700; color: var(--yellow); margin-bottom: 12px; list-style: none; }
 .tevent-desc details summary::-webkit-details-marker { display: none; }
-.tevent-desc details summary::after { content: " ↓"; }
+.tevent-desc details summary::after { content: ""; display: inline-block; width: .8em; height: .8em; margin-left: .4em; vertical-align: -.08em; background: currentColor; -webkit-mask: var(--ico-arrow) center / contain no-repeat; mask: var(--ico-arrow) center / contain no-repeat; transform: rotate(90deg); }
 .tevent-desc details[open] summary { display: none; }
 .tevent-less { background: none; border: 0; padding: 0; cursor: pointer; font: 700 16px var(--body); color: var(--yellow); }
-.tevent-less::after { content: " ↑"; }
+.tevent-less::after { content: ""; display: inline-block; width: .8em; height: .8em; margin-left: .4em; vertical-align: -.08em; background: currentColor; -webkit-mask: var(--ico-arrow) center / contain no-repeat; mask: var(--ico-arrow) center / contain no-repeat; transform: rotate(-90deg); }
 .page-intro:has(+ .all-events) { padding-bottom: clamp(24px, 3vw, 40px); }
 .page-intro:has(+ .all-events) .lead { margin-bottom: 0; }
 .page-intro:has(+ .offers) { padding-bottom: clamp(24px, 3vw, 40px); border-bottom: 0; }
@@ -747,8 +747,8 @@ main.legal { padding: var(--sec-y) 0; }
   .kv-more:not(.offen) > p { display: none; }
   .kv-more:not(.offen) > p:first-of-type { display: block; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; overflow: hidden; }
   .kv-more-btn { display: inline-flex; align-items: center; gap: 8px; margin-top: 4px; padding: 0; border: 0; background: none; color: var(--yellow); font: 800 14px/1.4 var(--body); letter-spacing: .12em; text-transform: uppercase; cursor: pointer; }
-  .kv-more-btn::after { content: "↓"; }
-  .kv-more.offen .kv-more-btn::after { content: "↑"; }
+  .kv-more-btn::after { content: ""; display: inline-block; width: .9em; height: .9em; background: currentColor; -webkit-mask: var(--ico-arrow) center / contain no-repeat; mask: var(--ico-arrow) center / contain no-repeat; transform: rotate(90deg); }
+  .kv-more.offen .kv-more-btn::after { transform: rotate(-90deg); }
 }
 /* Anfrage: Bühnenfoto als Hintergrund hinter der Überschrift */
 .page-intro.has-bg { position: relative; isolation: isolate; padding-top: clamp(96px, 14vw, 180px); background: var(--black) center / cover no-repeat; }
@@ -788,10 +788,6 @@ a.event-tag { text-decoration: none; } a.event-tag:hover { opacity: .85; }
 .event-tag.tag-halloween { background: #F07F13; color: #160A00; }
 .event-tag.tag-winter { background: #D8ECFF; color: #0A3561; }
 .event-tag.tag-christmas { background: #B3122C; color: #fff; box-shadow: inset 0 -3px 0 #1F7A3A; }
-.event-tag.tag-halloween::before, .event-tag.tag-winter::before, .event-tag.tag-christmas::before { display: inline-block; margin-right: 5px; font-size: 1em; line-height: 1; letter-spacing: 0; }
-.event-tag.tag-halloween::before { content: "🦇"; }
-.event-tag.tag-winter::before { content: "❄️"; }
-.event-tag.tag-christmas::before { content: "🎄"; }
 .intro-credit { position: absolute; right: 16px; bottom: 10px; margin: 0; font-size: 12px; color: rgba(255,255,255,.7); text-shadow: 0 1px 4px rgba(0,0,0,.9); }
 .fmt-dates .events:not(:has(.is-more)) .event:last-child { border-bottom: 0; }
 .fmt-page .kv-text p a { color: var(--yellow); }
@@ -981,7 +977,7 @@ footer, .small, .gal-credit, .q-credit, .q-pcredit, .q-vid figcaption, .q-fig fi
 .tape-ticker .track { display: flex; gap: 36px; width: max-content; animation: tape-run 40s linear infinite; font: 400 22px/1 var(--display); text-transform: uppercase; white-space: nowrap; }
 .tape-ticker .band.two .track { animation-name: tape-run-back; animation-duration: 50s; }
 @keyframes tape-run-back { from { transform: translateX(-50%); } to { transform: translateX(0); } }
-.tape-ticker .track span::after { content: "✦"; margin-left: 36px; }
+.tape-ticker .track span::after { content: ""; display: inline-block; width: 26px; height: 12px; margin-left: 36px; vertical-align: .2em; background: currentColor; -webkit-mask: var(--tape-piece) center / 100% 100% no-repeat; mask: var(--tape-piece) center / 100% 100% no-repeat; }
 .tape-ticker .band:hover .track { animation-play-state: paused; }
 @keyframes tape-run { to { transform: translateX(-50%); } }
 @media (max-width: 700px) { .next.tape-ticker { height: 108px; } .tape-ticker .band { top: 18px; padding: 10px 0; } .tape-ticker .band.two { top: 52px; } .tape-ticker .track { font-size: 18px; } }
@@ -1047,4 +1043,17 @@ footer, .small, .gal-credit, .q-credit, .q-pcredit, .q-vid figcaption, .q-fig fi
   /* Mehrzeilige Überschriften brauchen Luft */
   h1, h2 { line-height: 1.08; }
   .featured-dates small { letter-spacing: .04em; }
+}
+
+/* Gezeichnete Pfeile statt Unicode-Zeichen (Design-Check 22.10.2026) */
+:root { --ico-arrow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M2 12h17M12 4.5l7.5 7.5-7.5 7.5' fill='none' stroke='%23000' stroke-width='3.4' stroke-linecap='square'/%3E%3C/svg%3E"); }
+.ico { display: inline-block; width: .85em; height: .85em; margin-left: .3em; vertical-align: -.1em; background: currentColor; -webkit-mask: var(--ico-arrow) center / contain no-repeat; mask: var(--ico-arrow) center / contain no-repeat; }
+.ico-ext { transform: rotate(-45deg); }
+.ico-down { transform: rotate(90deg); }
+
+/* Größere Antippflächen auf dem Handy, ohne das Aussehen zu ändern */
+@media (max-width: 720px) {
+  .lang-switch, .event-tag, .press-link, .offer-inline, .offer-link { position: relative; }
+  .lang-switch::after, .event-tag::after, .press-link::after, .offer-inline::after, .offer-link::after { content: ""; position: absolute; inset: -9px -6px; }
+  .tevent-less, .kv-more-btn { padding-block: 12px; margin-block: -12px; }
 }

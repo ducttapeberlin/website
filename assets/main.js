@@ -258,11 +258,11 @@ if (reels) {
     const ig = (btn.dataset.reels || '').split(' ').filter(Boolean).map((id, n) =>
       `<figure class="reel">${titles[n] ? `<figcaption class="reels-label">${titles[n]}</figcaption>` : ''}` +
       `<div class="reel-frame"><iframe src="https://www.instagram.com/reel/${id}/embed/" scrolling="no" allowfullscreen title="${titles[n] || 'Instagram-Video'}"></iframe></div>` +
-      `<a href="https://www.instagram.com/reel/${id}/" target="_blank" rel="noopener">${t('Mehr auf Instagram', 'More on Instagram')} ↗</a></figure>`).join('');
+      `<a href="https://www.instagram.com/reel/${id}/" target="_blank" rel="noopener">${t('Mehr auf Instagram', 'More on Instagram')} <span class="ico ico-ext" aria-hidden="true"></span></a></figure>`).join('');
     body.innerHTML = (yt ? `<h3 class="reels-label">eBay · hot stuff</h3>` +
       `<p class="reels-desc">${t('Talkshow-Reihe auf YouTube, umgesetzt von DUCT TAPE in Kooperation mit eBay.', 'YouTube talk show series, produced by DUCT TAPE in collaboration with eBay.')}</p>` +
       `<div class="yt-grid">${yt}</div>` +
-      (btn.dataset.playlist ? `<a class="reels-more" href="https://www.youtube.com/playlist?list=${btn.dataset.playlist}" target="_blank" rel="noopener">${t('Alle Folgen auf YouTube', 'All episodes on YouTube')} ↗</a>` : '') : '') +
+      (btn.dataset.playlist ? `<a class="reels-more" href="https://www.youtube.com/playlist?list=${btn.dataset.playlist}" target="_blank" rel="noopener">${t('Alle Folgen auf YouTube', 'All episodes on YouTube')} <span class="ico ico-ext" aria-hidden="true"></span></a>` : '') : '') +
       (ig ? `<div class="reels-grid">${ig}</div>` : '');
     reels.showModal();
   }));

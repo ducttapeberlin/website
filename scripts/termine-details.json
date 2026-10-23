@@ -261,6 +261,39 @@
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/die-jazzpianistin-5/": {
+  "fetched": "2026-10-23T03:56:32+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Das Leben einer Jazz Virtuosin, die das Rampenlicht nicht aushielt.Kennen Sie Jutta Hipp? Die Pianistin, die es Mitte des 20. Jahrhunderts aus Leipzigs illegalen Jazzkellern bis nach ganz oben in die New Yorker Jazzszene geschafft hat? Die Pionierin des deutschen Jazz? Ach was, Europe ́s First Lady of Jazz! Geben Sie es zu, Sie kennen Sie nicht. Und das ist leider nicht verwunderlich. Jutta Hipp wurde ein Star, eine Virtuosin am Piano, doch sie hielt das Scheinwerferlicht nicht aus. Am Zenit ihrer Karriere traf sie eine radikale Entscheidung und berührte seither nie wieder die schwarz-weißen Tasten, die für sie einst ihr Leben bedeuteten. Seither ist ihr Werk, ihr Wirken wie wegradiert. Die Musik von Jutta Hipp wird heute nicht mehr gespielt. Fast so, als hätte es sie nie gegeben. Das einfühlsame Theaterstück „Die Jazzpianistin“ von Patricia Hoffmann erzählt die außergewöhnliche Lebensgeschichte dieser fast vergessenen Künstlerin. Von ihrer Geburtsstadt Leipzig und der heimlichen Liebe zum verbotenen Jazz während der NS-Zeit über den kometenhaften Aufstieg bis zu triumphalen Auftritten in New York – und ihrem plötzlichen Schweigen. Es zeigt die Schattenseiten des Ruhms, Jutta Hipps großen Fall, der in Alkoholsucht und Obdachlosigkeit mündete. Ein Kampf um die Freiheit und das Glück.Unter der musikalischen Leitung von Antonia Hausmann wird Hipps bewegendes Leben wieder hörbar und spürbar. Musik, Theater und Geschichte verweben sich zu einer Hommage an eine Frau, die viel zu früh verstummte – und doch unvergessen bleiben sollte.Musikalische Leitung: Antonia HausmannLeo Klein: Patricia HoffmannJutta Hipp: Beate PitronikJutta Hipp: Daniela BolligerKenny Burrell: Bertram BurkertFrankie Dunlop: Philipp ScholzAssistent: Philipp KrügerMelba Liston: Antonia HausmannRegie: Patricia Hoffmann",
+   "endDate": "2026-10-28T23:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/ocCIVczpQYeHzTbetYoi_juttahipp-websitephoto-lines-min-gro.jpeg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10115",
+     "streetAddress": "Invalidenstr.117"
+    },
+    "name": "Kunstfabrik Schlot"
+   },
+   "name": "DIE JAZZPIANISTIN",
+   "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "EUR",
+    "url": "https://kunstfabrik-schlot.de/event/die-jazzpianistin-ein-jazz-theaterstueck-ueber-europes-first-lady-of-jazz/",
+    "validFrom": "2026-10-28T21:00+0100"
+   },
+   "startDate": "2026-10-28T21:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
   "fetched": "2026-10-22T22:55:05+02:00",
   "ld": {
@@ -862,38 +895,5 @@
   "seen": "2026-10-22T21:04:20+02:00",
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/musical-spheres-ant-enoch-ava-joe-caro-schaeffler-0/": {
-  "fetched": "2026-10-23T03:10:11+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "LiveDrei exklusive Live-Performances an einem Abend: In »musical spheres« verwandeln musikalische Acts die Bühne des Planetariumssaals und nehmen euch mit in ein einzigartiges Konzert unter dem Himmelszelt. Aufstrebende Musik-Stars umgeben von 360°-Visuals, die live gesteuert werden und das Publikum in neue galaktische Weiten eintauchen lassen, ermöglichen ein ganz besonderes und effektvolles Erlebnis.Die Konzertreihe »musical spheres« vereint kosmische Live-Performances mit eindrucksvollen Visualisierungen.Folgendes Line-up erwartet euch am 17. November 2026:ANT ENOCHDer in Sydney und Berlin lebende Künstler ANT ENOCH schreibt Hymnen zum Weinen auf der Tanzfläche. Sein melodischer Bedroom Pop verbindet seine Liebe zu melancholischen Dance-Balladen der 1980er Jahre mit einer zeitgenössischen analogen Ästhetik. Seine selbst produzierte Debüt-EP »Big Talk Big Party« aus dem Jahr 2024 entstand aus der Isolation während der Pandemie und vereint klassische japanische Drum Machines, sehr persönliche Texte sowie Klavier, Synthesizer und Violine. Frühe Songwriting-Experimente führten ihn an Musikhochschulen in Sydney und Toronto, wo er in kleinen Clubs spielte. Heute lebt er zwischen Berlin und Bankstown und begeistert mit seinen Live-Shows u.a. in Berlin, München und Sydney sowie auf Festivals.AVA JOEMit ihren jungen 22 Jahren wirkt es zunächst ungewöhnlich, Ava Joe als »alte Seele« zu bezeichnen – doch ihre Leidenschaft für Geschichten und ihre Fähigkeit, persönliche Erfahrungen in romantische Momentaufnahmen zu verwandeln, sprechen dafür. Inspiriert von Kunst, Musik und Film sowie Künstler*innen wie Frank Sinatra, Marilyn Monroe oder Brigitte Bardot, entwickelte sie eine zeitlose musikalische Ästhetik. Ihre Debütsingle »Black Smoke« entführt in die Geschichte einer vergangenen Beziehung, geprägt von toxischer Co-Abhängigkeit. Aufgewachsen in Devon, Irland und London, studierte sie Musikperformance an der Brit School und Gesang an der ACM und etablierte sich seitdem als eindrucksvolle Sängerin und Performerin.Caro SchaefflerCaro Schaeffler versucht mit ihrer Kunst eine Welt zu schaffen, in der man sich verlieren, aber auch wiederfinden kann. Als selbsternannte »hoffnungslose Romantikerin« verwandelt sie flüchtige Augenblicke in intime, zeitlose Kunst. Ihre Musik bewegt sich zwischen Melancholie und jugendlicher Naivität: Chansonartige Balladen treffen auf organische und moderne Pop-Elemente. Ihre persönlichen Songs erzählen davon, in allen Erfahrungen – auch den schmerzhaften – Schönheit zu entdecken und diese mit anderen zu teilen. Auch ihre visuelle Sprache ist geprägt von poetischer Nostalgie, Filmklassikern und Gemälde-Welten. Ihr langfristiges Ziel: Kunst zu schaffen, die bleibt, in einer Welt der immer weiter voranschreitenden Kurzweiligkeit",
-   "endDate": "2026-11-17T22:45+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/HfkXA2pHTqmYUNBQPSZR_spbmusicalspheresheaderallefarbenmar24rz2.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10405",
-     "streetAddress": "Prenzlauer Allee 80"
-    },
-    "name": "Zeiss-Großplanetarium Berlin"
-   },
-   "name": "Musical spheres: ANT ENOCH, AVA JOE & Caro Schaeffler",
-   "offers": {
-    "@type": "Offer",
-    "price": "25.00",
-    "priceCurrency": "EUR",
-    "url": "https://www.planetarium.berlin/veranstaltungen/musical-spheres-im-november",
-    "validFrom": "2026-11-17T21:00+0100"
-   },
-   "startDate": "2026-11-17T21:00+0100"
-  }
  }
 }

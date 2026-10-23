@@ -869,16 +869,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/kukuriku-7/": {
-  "fetched": "2026-10-23T17:59:11+02:00",
+ "https://rausgegangen.de/events/posts-reels-stories-fluchterfahrungen-aus-jugoslawien-im-net-0/": {
+  "fetched": "2026-10-23T18:56:58+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Ein Holocaust-Überlebender kehrt nach vielen Jahren nach Deutschland zurück. Er trifft auf Menschen, die weitergelebt haben, als wäre nichts geschehen. Das Kind, das er damals unter Zwang zeugen musste und nach dem er sucht, hat unterdessen, ohne seine Herkunft zu kennen, den umgekehrten Weg nach Israel angetreten. Ein generationenübergreifendes Geflecht aus Schuld und Vergebung, Nähe und Gewalt.Das einzige Theaterstück des 2013 verstorbenen Schriftstellers Yoram Kaniuk wurde erst vor Kurzem im Nachlass entdeckt und feierte 2025 am TD Berlin seine Welturaufführung. Aus Kerem Hillels Regiekonzept, in dem alle Figuren Masken tragen, und der Musik von Meittam Govreen entsteht ein eindringliches Kammerspiel. Konkrete Dialoge treffen auf poetische Momente der Begegnung und schaffen in einem sich stetig zuspitzenden Bühnenbild einen atmosphärischen Raum der Aushandlung. Erinnerungen an die Verbrechen der NS-Zeit treten in Dialog mit dem Wunsch nach Erneuerung, zwischen Menschen, Kulturen und verhärteten nationalen Beziehungen.„Was erinnern Sie nicht, wenn Sie sich erinnern?“ verbindet als bohrende Frage im Stück das Jetzt mit dem Damals. Geht es um richtig oder falsch – oder mehr darum, wie wir mit der Vergangenheit umgehen: sie verdrängen, festhalten? Oder können wir die Vergangenheit neu erzählen, bis wir uns endlich darin wiederfinden?",
-   "endDate": "2026-10-25T05:00+0100",
+   "description": "TikTok, Instagram, Podcasts & Co. eröffnen neue Räume für Stimmen, die in klassischen Medien oft wenig Gehör finden. Menschen mit jugoslawischer Fluchtgeschichte teilen Erinnerungen, erklären den Krieg, Flucht und Vertreibung und sprechen über Folgen, die über Generationen weiterwirken. Doch wo Chancen für Sichtbarkeit und Austausch entstehen, verbreiten sich auch Desinformation und nationalistische Narrative. Wann werden soziale Medien zu einem Ort der Solidarität und wo beginnt die Gefahr?PROGRAMM Begrüßung Dr. Roland Borchers, Direktor, Dokumentationszentrum Flucht, Vertreibung, Versöhnung, BerlinGesprächFata Hasanović, InfluencerinKrsto Lazarević, Journalist und Podcaster „Neues vom Ballaballa-Balkan“Dr. Eva Tamara Asboth, Postdoc, Österreichische Akademie der Wissenschaften, WienModeration: Simone Gaul, Journalistin und Podcasterin „Die Zeit“ Im Anschluss laden wir Sie zu einem kleinen Empfang ein.   WEITERE HINWEISEEinlass: 18.00 UhrSprache: DeutschEINTRITT FREI Die Veranstaltung wird aufgezeichnet und auf unserem YouTube-Kanal Flucht, Vertreibung, Versöhnung veröffentlicht.Eine Veranstaltung im Rahmen der Veranstaltungsreihe \"Zerfallen. Geflohen. Angekommen? Erfahrungen aus Bosnien und Herzegowina\"Eine Veranstaltung von: Dokumentationszentrum Flucht, Vertreibung, Versöhnung · Bundeszentrale für politische Bildung",
+   "endDate": "2026-11-11T20:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://rausgegangen.s3.amazonaws.com/ecx7cdviq660.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/tRzV17PhR0y1Q7XSYcZf_2025-sfvvdokuzentrumsrebrenicaveranstaltungsfotosgrafikladenfoto-nihad-nino-pusija.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -886,20 +886,25 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10179",
-     "streetAddress": "Klosterstraße 44"
+     "postalCode": "10963",
+     "streetAddress": "Stresemannstraße 90"
     },
-    "name": "TD Berlin"
+    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
    },
-   "name": "KUKURÍKU",
+   "name": "Posts, Reels, Stories – Fluchterfahrungen aus Jugoslawien im Netz",
    "offers": {
     "@type": "Offer",
-    "price": "10.00",
+    "price": "0.00",
     "priceCurrency": "EUR",
-    "url": "https://tdberlin.reservix.de/p/reservix/group/546744",
-    "validFrom": "2026-10-24T20:00+0200"
+    "url": "https://buchungen.flucht-vertreibung-versoehnung.de/de/tickets/109",
+    "validFrom": "2026-11-11T18:30+0100"
    },
-   "startDate": "2026-10-24T20:00+0200"
+   "organizer": {
+    "@type": "Organization",
+    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung",
+    "url": "https://rausgegangen.de/organizations/dokumentationszentrum-flucht-vertreibung-versohnung/"
+   },
+   "startDate": "2026-11-11T18:30+0100"
   }
  }
 }

@@ -180,7 +180,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-10-23T09:10:59+02:00",
+  "fetched": "2026-10-23T16:00:31+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -786,13 +786,16 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-0/": {
-  "fetched": "2026-10-23T09:10:59+02:00",
+  "fetched": "2026-10-23T16:00:31+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Jung & fesch – der Drag-Frühschoppen!  Auf geht’s, Madln, Buam und alle dazwischen!  Wenn bayerische Wirtshauskultur auf queere Lebensfreude trifft, kann das nur eines werden: ein ziemlich fescher Frühschoppen!  Magda von Pfeffer und Na’Eve laden ein zu einem unterhaltsamen Vormittag voller Witz, Charme und einer ordentlichen Portion Gaudi.  Freut euch auf einen bunten Mix aus Kabarett, Theater, Live-Gesang und Lip-Sync – mal frech, mal schräg, mal überraschend und immer mit ganz viel Herz.  Dazu gibt’s eine zünftige Brotzeit, Weißwürste und ein frisches Weißbier – oder natürlich etwas anderes aus unserer Wirtshausküche und vom Zapfhahn.  Ob jung oder alt, queer oder nicht: Bei uns is(s)t jeder willkommen, wer Lust auf einen fröhlichen Frühschoppen hat!  Also: Aufbrezeln, vorbeikommen und gemeinsam einen fabelhaften Frühschoppen feiern!",
-   "endDate": "2026-11-08T14:00+0100",
+   "description": "Jung & fesch – der Drag-Frühschoppen!  Auf geht’s, Madln, Buam und alle dazwischen!  Wenn bayerische Wirtshauskultur auf queere Lebensfreude trifft, kann das nur eines werden: ein ziemlich fescher Frühschoppen!  Magda von Pfeffer und Na’Eve laden ein zu einem unterhaltsamen Vormittag voller Witz, Charme und einer ordentlichen Portion Gaudi.  Freut euch auf einen bunten Mix aus Tradition, Kabarett, Theater, Live-Gesang und Lip-Sync – mal frech, mal schräg, mal überraschend und immer mit ganz viel Herz.Natürlich wird das Programm Kulinarisch begleitet. Im preis inbegriffen ist eine zünftige Brotzeitplatte mit Vegetarischen und Veganen optionen sowie Weißwürstfrühstück.   Ob jung oder alt, queer oder nicht: Bei uns is(s)t jeder willkommen, wer Lust auf einen fröhlichen Frühschoppen hat!  Also: Aufbrezeln, vorbeikommen und gemeinsam einen fabelhaften Frühschoppen feiern!",
+   "endDate": "2026-11-08T13:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/FqUyrGF8QGO53aNt6lTr_image0.jpeg"
+   ],
    "location": {
     "@type": "Place",
     "address": {
@@ -818,20 +821,23 @@
     "name": "DUCT TAPE",
     "url": "https://rausgegangen.de/organizations/duct-tape/"
    },
-   "startDate": "2026-11-08T10:00+0100"
+   "startDate": "2026-11-08T10:30+0100"
   },
   "seen": "2026-10-22T21:04:20+02:00",
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch",
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1/": {
-  "fetched": "2026-10-23T09:10:59+02:00",
+  "fetched": "2026-10-23T16:00:31+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Jung & fesch – der Drag-Frühschoppen!  Auf geht’s, Madln, Buam und alle dazwischen!  Wenn bayerische Wirtshauskultur auf queere Lebensfreude trifft, kann das nur eines werden: ein ziemlich fescher Frühschoppen!  Magda von Pfeffer und Na’Eve laden ein zu einem unterhaltsamen Vormittag voller Witz, Charme und einer ordentlichen Portion Gaudi.  Freut euch auf einen bunten Mix aus Kabarett, Theater, Live-Gesang und Lip-Sync – mal frech, mal schräg, mal überraschend und immer mit ganz viel Herz.  Dazu gibt’s eine zünftige Brotzeit, Weißwürste und ein frisches Weißbier – oder natürlich etwas anderes aus unserer Wirtshausküche und vom Zapfhahn.  Ob jung oder alt, queer oder nicht: Bei uns is(s)t jeder willkommen, wer Lust auf einen fröhlichen Frühschoppen hat!  Also: Aufbrezeln, vorbeikommen und gemeinsam einen fabelhaften Frühschoppen feiern!",
-   "endDate": "2026-12-13T14:00+0100",
+   "description": "Jung & fesch – der Drag-Frühschoppen!  Auf geht’s, Madln, Buam und alle dazwischen!  Wenn bayerische Wirtshauskultur auf queere Lebensfreude trifft, kann das nur eines werden: ein ziemlich fescher Frühschoppen!  Magda von Pfeffer und Na’Eve laden ein zu einem unterhaltsamen Vormittag voller Witz, Charme und einer ordentlichen Portion Gaudi.  Freut euch auf einen bunten Mix aus Tradition, Kabarett, Theater, Live-Gesang und Lip-Sync – mal frech, mal schräg, mal überraschend und immer mit ganz viel Herz.Natürlich wird das Programm Kulinarisch begleitet. Im preis inbegriffen ist eine zünftige Brotzeitplatte mit Vegetarischen und Veganen optionen sowie Weißwürstfrühstück.   Ob jung oder alt, queer oder nicht: Bei uns is(s)t jeder willkommen, wer Lust auf einen fröhlichen Frühschoppen hat!  Also: Aufbrezeln, vorbeikommen und gemeinsam einen fabelhaften Frühschoppen feiern!",
+   "endDate": "2026-12-13T13:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/FqUyrGF8QGO53aNt6lTr_image0.jpeg"
+   ],
    "location": {
     "@type": "Place",
     "address": {
@@ -857,22 +863,22 @@
     "name": "DUCT TAPE",
     "url": "https://rausgegangen.de/organizations/duct-tape/"
    },
-   "startDate": "2026-12-13T10:00+0100"
+   "startDate": "2026-12-13T10:30+0100"
   },
   "seen": "2026-10-22T21:04:20+02:00",
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/tati-comedy---die-stand-up-comedy-show-109/": {
-  "fetched": "2026-10-23T15:06:22+02:00",
+ "https://rausgegangen.de/events/vinyl-night-mit-dieta-berliner-2/": {
+  "fetched": "2026-10-23T16:00:31+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "LIVE Stand Up Comedy in der schönsten Ecke Berlins - dem Prenzlauer Berg.Wir präsentieren euch einen Mix aus erfahrenen Profi-Comedians und den heißesten Newcomern der Berliner Comedy-Szene.Das Ticket muss nicht ausgedruckt werden.Egal wer an diesem Abend auf der Bühne steht - euch erwartet absolut authentische Stand Up Comedy nach amerikanischem Vorbild!Der Einlass wird bis 5 Minuten nach Showbeginn gewährt.--Location--Der \"Comedyflash - Club\" in der Metzer Str. 2 im Prenzlauer Berg ist zwei Fußminuten entfernt von der U2 Station “Senefelder Platz”. Die Bar bietet die perfekte Atmosphäre für einen gelungenen Comedyabend. Eine gemütliche Einrichtung, freundliches Personal und gute Getränke runden dieses besondere Comedyevent für dich ab.Comedyflash - Der Standup ClubMetzer Str. 2, 10405 Berlin",
-   "endDate": "2026-10-23T22:30+0200",
+   "description": "Vinyl Night mit Dieta Berliner – Deep House, Disco & DrinksVinyl knistert, Drinks sind kalt, der Groove setzt ein 🖤✨🎚️🎛️🎧Freut euch auf einen Sound, der sich nicht hetzen lässt: Deep House, Disco und Nu-Disco, gespielt exklusiv auf Vinyl. Warm, analog, mit diesem unverkennbaren Old-School-Feeling, das sofort die richtige Stimmung bringt – zwischen Bar, Dancefloor und spätem Feierabenddrink oder Pre-Clubbing. 🎧 Dieta Berliner ist Teil von Pakalolo Soundlab und bekannt für Sets, die nicht nur laufen, sondern sich entwickeln. Perfekt also für einen Abend, der irgendwo zwischen entspanntem Ankommen und ungeplant langem Bleiben liegt.🪩🖤✨  Wo?Bar Sprewa @ Me and All Hotel Berlin East SideAn der Schillingbrücke 2, 10243 Berlin",
+   "endDate": "2026-10-31T01:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/gqlLXG8iSYKiUDo8pXMy_tati-comedy-club-berliner-stand-up-nacht.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/f54hsgeQoOR4eIPSnp7N_meandall30mai103.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -880,43 +886,19 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10405",
-     "streetAddress": "Metzer Straße 2"
+     "postalCode": "10243",
+     "streetAddress": "An der Schillingbrücke 2"
     },
-    "name": "Tati goes Underground"
+    "name": "Bar Sprewa"
    },
-   "name": "Tati Comedy _ Die Stand Up Comedy Show",
+   "name": "Vinyl Night with DJ Dieta Berliner",
    "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": null,
-    "lowPrice": null,
-    "offerCount": 3,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "20.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Early Bird",
-      "price": "16.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Stdent",
-      "price": "13.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
+    "@type": "Offer",
+    "price": "0.00",
+    "priceCurrency": "EUR",
+    "validFrom": "2026-10-30T21:00+0100"
    },
-   "startDate": "2026-10-23T21:00+0200"
+   "startDate": "2026-10-30T21:00+0100"
   }
  }
 }

@@ -620,7 +620,8 @@ def main():
     for *_, r in events:
         if (r.get("Featured") or "").strip():
             featured.setdefault((r["Titel"].strip(), r["Featured"].strip()), []).append(r)
-    listed = [r for *_, r in events if not (r.get("Featured") or "").strip()]
+    # Highlights stehen zusätzlich ganz normal in der Terminliste (Emanuel, 2026-10-23)
+    listed = [r for *_, r in events]
 
     global L
     changed, used = False, set()

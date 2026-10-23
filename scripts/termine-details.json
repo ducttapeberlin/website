@@ -869,16 +869,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/tati-comedy---die-stand-up-comedy-show-109/": {
-  "fetched": "2026-10-23T16:59:47+02:00",
+ "https://rausgegangen.de/events/kukuriku-7/": {
+  "fetched": "2026-10-23T17:59:11+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "LIVE Stand Up Comedy in der schönsten Ecke Berlins - dem Prenzlauer Berg.Wir präsentieren euch einen Mix aus erfahrenen Profi-Comedians und den heißesten Newcomern der Berliner Comedy-Szene.Das Ticket muss nicht ausgedruckt werden.Egal wer an diesem Abend auf der Bühne steht - euch erwartet absolut authentische Stand Up Comedy nach amerikanischem Vorbild!Der Einlass wird bis 5 Minuten nach Showbeginn gewährt.--Location--Der \"Comedyflash - Club\" in der Metzer Str. 2 im Prenzlauer Berg ist zwei Fußminuten entfernt von der U2 Station “Senefelder Platz”. Die Bar bietet die perfekte Atmosphäre für einen gelungenen Comedyabend. Eine gemütliche Einrichtung, freundliches Personal und gute Getränke runden dieses besondere Comedyevent für dich ab.Comedyflash - Der Standup ClubMetzer Str. 2, 10405 Berlin",
-   "endDate": "2026-10-23T22:30+0200",
+   "description": "Ein Holocaust-Überlebender kehrt nach vielen Jahren nach Deutschland zurück. Er trifft auf Menschen, die weitergelebt haben, als wäre nichts geschehen. Das Kind, das er damals unter Zwang zeugen musste und nach dem er sucht, hat unterdessen, ohne seine Herkunft zu kennen, den umgekehrten Weg nach Israel angetreten. Ein generationenübergreifendes Geflecht aus Schuld und Vergebung, Nähe und Gewalt.Das einzige Theaterstück des 2013 verstorbenen Schriftstellers Yoram Kaniuk wurde erst vor Kurzem im Nachlass entdeckt und feierte 2025 am TD Berlin seine Welturaufführung. Aus Kerem Hillels Regiekonzept, in dem alle Figuren Masken tragen, und der Musik von Meittam Govreen entsteht ein eindringliches Kammerspiel. Konkrete Dialoge treffen auf poetische Momente der Begegnung und schaffen in einem sich stetig zuspitzenden Bühnenbild einen atmosphärischen Raum der Aushandlung. Erinnerungen an die Verbrechen der NS-Zeit treten in Dialog mit dem Wunsch nach Erneuerung, zwischen Menschen, Kulturen und verhärteten nationalen Beziehungen.„Was erinnern Sie nicht, wenn Sie sich erinnern?“ verbindet als bohrende Frage im Stück das Jetzt mit dem Damals. Geht es um richtig oder falsch – oder mehr darum, wie wir mit der Vergangenheit umgehen: sie verdrängen, festhalten? Oder können wir die Vergangenheit neu erzählen, bis wir uns endlich darin wiederfinden?",
+   "endDate": "2026-10-25T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/gqlLXG8iSYKiUDo8pXMy_tati-comedy-club-berliner-stand-up-nacht.png"
+    "https://rausgegangen.s3.amazonaws.com/ecx7cdviq660.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -886,43 +886,20 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10405",
-     "streetAddress": "Metzer Straße 2"
+     "postalCode": "10179",
+     "streetAddress": "Klosterstraße 44"
     },
-    "name": "Tati goes Underground"
+    "name": "TD Berlin"
    },
-   "name": "Tati Comedy _ Die Stand Up Comedy Show",
+   "name": "KUKURÍKU",
    "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": null,
-    "lowPrice": null,
-    "offerCount": 3,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "20.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Early Bird",
-      "price": "16.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Stdent",
-      "price": "13.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
+    "@type": "Offer",
+    "price": "10.00",
+    "priceCurrency": "EUR",
+    "url": "https://tdberlin.reservix.de/p/reservix/group/546744",
+    "validFrom": "2026-10-24T20:00+0200"
    },
-   "startDate": "2026-10-23T21:00+0200"
+   "startDate": "2026-10-24T20:00+0200"
   }
  }
 }

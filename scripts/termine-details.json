@@ -180,11 +180,11 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-10-23T16:00:31+02:00",
+  "fetched": "2026-10-23T22:53:45+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "COSMOPOLITAN is back 💖🪩 A night of queer disco, big melodies and late-night house. 🎶✨ See you on the dancefloor. 💃🕺🍸 Welcome shot 🍬 Candy Girl & Candy Boy 🎧 Line-up: EMI · Fixie Fate · TBA 🎭 Show: Duct Tape · Vyla Virus👗 No dress code — wear whatever makes you feel good. Dressing to the theme is welcome, but completely optional.📍 Privatclub, Skalitzer Straße 85–86, 10997 Berlin 🗓️ 28 November · Doors 11 PM 🕚—————————— Presented by Duct Tape × Anytime Artwork: Daniel Christov Typography & colour palette: Emi",
+   "description": "COSMOPOLITAN is back 💖🪩 A night of queer disco, big melodies and late-night house. 🎶✨ See you on the dancefloor. 💃🕺🍸 Welcome shot 🍬 Candy Girl & Candy Boy 🎧 Line-up: EMI · Fixie Fate · Bizarre Billy 🎭 Show: Duct Tape · Vyla Virus👗 No dress code — wear whatever makes you feel good. Dressing to the theme is welcome, but completely optional.📍 Privatclub, Skalitzer Straße 85–86, 10997 Berlin 🗓️ 28 November · Doors 11 PM 🕚—————————— Presented by Duct Tape × Anytime Artwork: Daniel Hristov Typography & colour palette: Emi",
    "endDate": "2026-11-29T06:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
@@ -667,91 +667,6 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
- "https://rausgegangen.de/events/geheimkonzert-berlin-23-by-rausgegangen-0/": {
-  "fetched": "2026-10-23T21:50:25+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Na Hallo! Es ist wieder so weit: Ein Abend voller Überraschung - denn wer auf der Bühne steht, bleibt bis zum ersten Ton geheim. Wir hatten schon Blond, Berq, Ennio, Futurebae, Jassin, Anais, Katha Pauer & viele mehr zu Gast – und das schon bevor sie die großen Bühnen der Nation gestürmt haben. Also entdecke die Stars von morgen bei unseren Geheimkonzerten. 🪩",
-   "endDate": "2026-10-26T22:15+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/udcU1rZtRaW4gjPcOu73_gk202516x9photoheadline-29-5.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin"
-    },
-    "name": "Secret location"
-   },
-   "name": "Geheimkonzert Berlin #23 by Rausgegangen",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "29.90",
-    "lowPrice": "24.50",
-    "offerCount": 5,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "LOYALITY TICKET",
-      "price": "21.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "MITGEGANGEN LOYALITY TICKET",
-      "price": "24.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "REGULAR",
-      "price": "26.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "4er FRIENDS BUNDLE für 98€",
-      "price": "24.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "MITGEGANGEN",
-      "price": "29.90",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "Mitgegangen",
-     "url": "https://rausgegangen.de/organizations/mitgegangen/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Rausgegangen Geheimkonzerte",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Rausgegangen Geheimkonzerte Berlin",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte-3/"
-    }
-   ],
-   "startDate": "2026-10-26T19:00+0100"
-  }
- },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
   "fetched": "2026-10-23T21:03:16+02:00",
   "ld": {
@@ -871,7 +786,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-0/": {
-  "fetched": "2026-10-23T16:00:31+02:00",
+  "fetched": "2026-10-23T22:53:45+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -913,7 +828,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1/": {
-  "fetched": "2026-10-23T16:00:31+02:00",
+  "fetched": "2026-10-23T22:53:45+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -953,5 +868,58 @@
   "seen": "2026-10-22T21:04:20+02:00",
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
+ },
+ "https://rausgegangen.de/events/lina-bo-asphalt-und-sterne-tour-2026-20/": {
+  "fetched": "2026-10-23T22:53:45+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Zwischen Straße und Club klingen Lina Bó nach Unterwegssein, nach Begegnungen und diesem Leben zwischen Kulturen. Hinter dem Duo stehen Celina von Wrochem und Luca Bo Hansen 💃",
+   "endDate": "2026-11-27T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/PPDKVpxqQ2cU0aMswuwf_lina-bo-tour-2026-bild-1-small-by-malte-paulsen.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10435",
+     "streetAddress": "Knaackstraße 97"
+    },
+    "name": "Maschinenhaus"
+   },
+   "name": "Lina Bó - Asphalt und Sterne Tour 2026",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 2,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "28.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Begleitperson",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Lina Bó"
+   },
+   "startDate": "2026-11-26T20:00+0100"
+  }
  }
 }

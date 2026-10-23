@@ -785,40 +785,6 @@
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/jeder-mensch-kann-trauern-fee-vogel-eric-wrede-2/": {
-  "fetched": "2026-10-23T09:10:59+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Was passiert in unserem Körper, wenn wir trauern? Wie kann man lernen, mit Trauer zu leben? Was sind die schlimmsten Beileidsbekundungen aller Zeiten? Und was kann im Familien-WhatsApp-Chat alles schiefgehen, wenn plötzlich eine Beerdigung organisiert werden muss?Fee Vogel und Eric Wrede nehmen das Publikum mit auf einen Abend, der Trauer so zeigt, wie sie wirklich ist – menschlich, nah, manchmal überraschend komisch. Keine Lesung. Kein Vortrag. Sondern ein Gespräch über eine der wichtigsten Fähigkeiten, die wir haben.Grundlage des Abends ist das gleichnamige Buch, das im November 2026 im Insel Verlag (Suhrkamp) erscheint.Fee Vogel ist Geschäftsführerin von lebensnah Bestattungen Bonn und qualifizierte Trauerbegleiterin, auch für Kinder und Jugendliche. Sie ist Mitbegründerin der Beratungsfirma trauerkultur3, die Unternehmen und Führungskräfte unterstützt, wenn Trauer am Arbeitsplatz ankommt.Eric Wrede führt lebensnah Bestattungen in Berlin, Leipzig, Bonn und Potsdam. Sein Spiegel-Bestseller „The End“ wurde 2025 vom ZDF unter dem Titel „Sterben für Beginner“ verfilmt, im selben Jahr lief die Kino-Dokumentation „Der Tod ist ein Arschloch!“ in den Kinos. Im ARD/radioeins-Podcast „the end“ spricht er mit Gästen wie Sven Regener, Judith Holofernes, Sarah Kuttner und Sebastian Fitzek über das, worüber die meisten schweigen.Im November 2026 ist „Jeder Mensch kann trauern“ in Deutschland, Österreich und der Schweiz zu erleben.",
-   "endDate": "2026-11-18T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/gTc6DlSeQUGrmAJ5746L_jmktrausgegangentitelbild1920x1080.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10437",
-     "streetAddress": "Schönhauser Allee 123"
-    },
-    "name": "Filmtheater Colosseum"
-   },
-   "name": "Jeder Mensch kann trauern – Fee Vogel & Eric Wrede",
-   "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "24.90",
-    "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/jeder-mensch-kann-trauern-fee-vogel-eric-wrede-1",
-    "validFrom": "2026-09-29T16:00+0200"
-   },
-   "startDate": "2026-11-17T19:00+0100"
-  }
- },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-0/": {
   "fetched": "2026-10-23T09:10:59+02:00",
   "ld": {
@@ -896,5 +862,129 @@
   "seen": "2026-10-22T21:04:20+02:00",
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
+ },
+ "https://rausgegangen.de/events/poetry-slam-grand-prix-halbfinale-2-1/": {
+  "fetched": "2026-10-23T10:00:31+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "📅 23.–24. Oktober 2026 🎭 Halbfinals: Pfefferberg Theater (23.10.) 👑 Finale: Renaissance Theater Berlin (24.10.)   Das ist die Meisterschaft der Meisterschaften. Beim Grand Prix Poetry Slam: Deutschland stehen die jeweiligen Landesmeister:innen aller Bundesländer auf der Bühne – alle haben sich bereits in ihrem Bundeslands durchgesetzt. Jetzt treffen sie in Berlin aufeinander, für das endgültige Wort-Battle des Bundes um den Grand Prix.   Kein Punkterichter-Gremium, keine Jury: Ihr stimmt live per digitalem Voting ab, wer Germany’s Finest Poetry Slammer 2026 wird. Die Texte? Ein Panorama der deutschen Slamkultur: Berliner Schnauze bis Hamburger Schnack, bayerischer Schmäh bis sächsische Schlagfertigkeit – einmal quer durch Kulturen, Milieus und Mentalitäten.    🎤 Lineup 2026 – die Landesmeister:nnen   Kirsten Fuchs, Landesmeisterin Berlin-Brandenburg Stefan Brosch, Landesmeister Sachsen-Anhalt Matti Linke, Landesmeister Niedersachsen/Bremen Luise Wolff, Landesmeisterin NRW Marc Bobzin, Landesmeister Sachsen Tim Kuppler, Landesmeister Hessen Felix Treder, Stadtmeister Hamburg Tim Jürgensen, Landesmeister Schleswig-Holstein Dana Galkina, Landesmeisterin Thüringen Julius Althoetmar, Landesmeister Bayern Anne Kalkbrenner, Landesmeisterin Mecklenburg-Vorpommern Don Esteban, Landesmeister Rheinland-Pfalz Madeleine Schach, Landesmeisterin Saarland Marvin Suckutt, Landesmeister Baden-Württemberg   Zwei Abende. Zwei ikonische Berliner Bühnen. 14 Landesmeister:innen. Und am Ende steht ein Meister der Meister.   👉 Tickets & Infos: kiezpoeten.com/grandprix",
+   "endDate": "2026-10-23T23:00+0200",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/oC3EZeVFTFqnvuQqgVwV_vabildgrandprix.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10119",
+     "streetAddress": "Schönhauser Allee 176"
+    },
+    "name": "Pfefferberg Theater"
+   },
+   "name": "Poetry Slam Grand Prix Deutschland (Halbfinale 2)",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "24.50",
+    "lowPrice": "16.90",
+    "offerCount": 12,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK1 Regulär",
+      "price": "26.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK1 Ermäßigt",
+      "price": "24.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK2 Regulär",
+      "price": "24.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK2 Ermäßigt",
+      "price": "20.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK3 Regulär",
+      "price": "20.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK3 Ermäßigt",
+      "price": "15.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK4 Regulär",
+      "price": "15.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK4 Ermäßigt",
+      "price": "12.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Paarplatz (2 Personen)",
+      "price": "40.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Zweiter Paarplatz",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Schwerbehindertenausweis B-Ticket",
+      "price": "15.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Begleiterticket Schwerbehinderte",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Kiezpoeten",
+    "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
+   },
+   "startDate": "2026-10-23T21:30+0200"
+  }
  }
 }

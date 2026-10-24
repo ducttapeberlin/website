@@ -90,7 +90,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-10-24T09:52:49+02:00",
+  "fetched": "2026-10-24T16:50:33+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -534,7 +534,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-10-24T09:52:49+02:00",
+  "fetched": "2026-10-24T16:50:33+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -668,7 +668,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-10-24T09:52:49+02:00",
+  "fetched": "2026-10-24T16:50:33+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -869,16 +869,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/speed-friending-berlin-by-rausgegangen-0/": {
-  "fetched": "2026-10-24T15:49:43+02:00",
+ "https://rausgegangen.de/events/kukuriku-7/": {
+  "fetched": "2026-10-24T16:50:33+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Speed Dating kennen wir alle, aber was ist mit Speed Friending? Hier lernst du in kurzen Gesprächen ganz entspannt neue Leute kennen, ohne das übliche Smalltalk-Blabla. Egal, ob du noch neue Friends suchst oder einfach Lust hast Menschen kennenzulernen. Das ist der place to be für neue Bekanntschaften. 🫂",
-   "endDate": "2026-11-05T22:30+0100",
+   "description": "Ein Holocaust-Überlebender kehrt nach vielen Jahren nach Deutschland zurück. Er trifft auf Menschen, die weitergelebt haben, als wäre nichts geschehen. Das Kind, das er damals unter Zwang zeugen musste und nach dem er sucht, hat unterdessen, ohne seine Herkunft zu kennen, den umgekehrten Weg nach Israel angetreten. Ein generationenübergreifendes Geflecht aus Schuld und Vergebung, Nähe und Gewalt.Das einzige Theaterstück des 2013 verstorbenen Schriftstellers Yoram Kaniuk wurde erst vor Kurzem im Nachlass entdeckt und feierte 2025 am TD Berlin seine Welturaufführung. Aus Kerem Hillels Regiekonzept, in dem alle Figuren Masken tragen, und der Musik von Meittam Govreen entsteht ein eindringliches Kammerspiel. Konkrete Dialoge treffen auf poetische Momente der Begegnung und schaffen in einem sich stetig zuspitzenden Bühnenbild einen atmosphärischen Raum der Aushandlung. Erinnerungen an die Verbrechen der NS-Zeit treten in Dialog mit dem Wunsch nach Erneuerung, zwischen Menschen, Kulturen und verhärteten nationalen Beziehungen.„Was erinnern Sie nicht, wenn Sie sich erinnern?“ verbindet als bohrende Frage im Stück das Jetzt mit dem Damals. Geht es um richtig oder falsch – oder mehr darum, wie wir mit der Vergangenheit umgehen: sie verdrängen, festhalten? Oder können wir die Vergangenheit neu erzählen, bis wir uns endlich darin wiederfinden?",
+   "endDate": "2026-10-25T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/DgOflF40T8WQ4ZDezaqe_design260820datingspeedfriending16x9.png"
+    "https://rausgegangen.s3.amazonaws.com/ecx7cdviq660.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -886,38 +886,20 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10625",
-     "streetAddress": "Kantstraße 127"
+     "postalCode": "10179",
+     "streetAddress": "Klosterstraße 44"
     },
-    "name": "Dufte Berlin"
+    "name": "TD Berlin"
    },
-   "name": "SPEED FRIENDING Berlin by Rausgegangen",
+   "name": "KUKURÍKU",
    "offers": {
     "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "19.90",
+    "price": "10.00",
     "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/speed-friending-berlin-by-rausgegangen",
-    "validFrom": "2026-09-28T00:00+0200"
+    "url": "https://tdberlin.reservix.de/p/reservix/group/546744",
+    "validFrom": "2026-10-24T20:00+0200"
    },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "Rausgegangen Events",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-events/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Speed Dating by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/speed-dating-by-rausgegangen/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Speed Friending by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/speed-friending-by-rausgegangen/"
-    }
-   ],
-   "startDate": "2026-11-05T19:30+0100"
+   "startDate": "2026-10-24T20:00+0200"
   }
  }
 }

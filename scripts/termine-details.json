@@ -869,16 +869,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/kukuriku-7/": {
-  "fetched": "2026-10-24T16:50:33+02:00",
+ "https://rausgegangen.de/events/love-at-first-slide-berlin-power-point-dating-by-rausgegange-13/": {
+  "fetched": "2026-10-24T17:51:11+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Ein Holocaust-Überlebender kehrt nach vielen Jahren nach Deutschland zurück. Er trifft auf Menschen, die weitergelebt haben, als wäre nichts geschehen. Das Kind, das er damals unter Zwang zeugen musste und nach dem er sucht, hat unterdessen, ohne seine Herkunft zu kennen, den umgekehrten Weg nach Israel angetreten. Ein generationenübergreifendes Geflecht aus Schuld und Vergebung, Nähe und Gewalt.Das einzige Theaterstück des 2013 verstorbenen Schriftstellers Yoram Kaniuk wurde erst vor Kurzem im Nachlass entdeckt und feierte 2025 am TD Berlin seine Welturaufführung. Aus Kerem Hillels Regiekonzept, in dem alle Figuren Masken tragen, und der Musik von Meittam Govreen entsteht ein eindringliches Kammerspiel. Konkrete Dialoge treffen auf poetische Momente der Begegnung und schaffen in einem sich stetig zuspitzenden Bühnenbild einen atmosphärischen Raum der Aushandlung. Erinnerungen an die Verbrechen der NS-Zeit treten in Dialog mit dem Wunsch nach Erneuerung, zwischen Menschen, Kulturen und verhärteten nationalen Beziehungen.„Was erinnern Sie nicht, wenn Sie sich erinnern?“ verbindet als bohrende Frage im Stück das Jetzt mit dem Damals. Geht es um richtig oder falsch – oder mehr darum, wie wir mit der Vergangenheit umgehen: sie verdrängen, festhalten? Oder können wir die Vergangenheit neu erzählen, bis wir uns endlich darin wiederfinden?",
-   "endDate": "2026-10-25T05:00+0100",
+   "description": "Wir bringen mit LOVE AT FIRST SLIDE Dating auf die Bühne: Freund:innen stellen in kurzen Power Point Präsentationen ihre Lieblingssingle vor – charmant, humorvoll und ganz ohne Swipe. Nach den witzigen Pitches kannst du bei Speed-Dating und Barabend neue Begegnungen entdecken. 💘🎤💫",
+   "endDate": "2026-11-11T23:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://rausgegangen.s3.amazonaws.com/ecx7cdviq660.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/G4DW5S6EQHOrXfM562GP_lafsbannerappstraight-2-5.png"
    ],
    "location": {
     "@type": "Place",
@@ -886,20 +886,79 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10179",
-     "streetAddress": "Klosterstraße 44"
+     "postalCode": "10625",
+     "streetAddress": "Kantstraße 127"
     },
-    "name": "TD Berlin"
+    "name": "Dufte Berlin"
    },
-   "name": "KUKURÍKU",
+   "name": "LOVE AT FIRST SLIDE Berlin | Power Point Dating by Rausgegangen 💖",
    "offers": {
-    "@type": "Offer",
-    "price": "10.00",
-    "priceCurrency": "EUR",
-    "url": "https://tdberlin.reservix.de/p/reservix/group/546744",
-    "validFrom": "2026-10-24T20:00+0200"
+    "@type": "AggregateOffer",
+    "highPrice": "19.50",
+    "lowPrice": "10.00",
+    "offerCount": 5,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Presenterticket",
+      "price": "10.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Publikum Ticket | Ich bin eine hetero Frau",
+      "price": "19.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Publikum Ticket | Ich bin ein hetero Mann",
+      "price": "19.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Publikum Ticket | Ich bin queer",
+      "price": "19.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Mitgegangen",
+      "price": "3.80",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
    },
-   "startDate": "2026-10-24T20:00+0200"
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "LOVE AT FIRST SLIDE BERLIN by Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/love-at-first-slide-berlin-by-rausgegangen/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Love at first Slide by Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/page-for-team-love-at-first-slide-by-rausgegangen/"
+    },
+    {
+     "@type": "Organization",
+     "name": "LOVE AT FIRST SLIDE by Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/love-at-first-slide-by-rausgegangen/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Team Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/team-rausgegangen/"
+    }
+   ],
+   "startDate": "2026-11-11T19:00+0100"
   }
  }
 }

@@ -869,16 +869,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/lina-bo-asphalt-und-sterne-tour-2026-20/": {
-  "fetched": "2026-10-24T07:52:27+02:00",
+ "https://rausgegangen.de/events/low-frequencies-bonecrusher-andrew-munn-beatrix-wagner-klang-0/": {
+  "fetched": "2026-10-24T09:06:49+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Zwischen Straße und Club klingen Lina Bó nach Unterwegssein, nach Begegnungen und diesem Leben zwischen Kulturen. Hinter dem Duo stehen Celina von Wrochem und Luca Bo Hansen 💃",
-   "endDate": "2026-11-27T05:00+0100",
+   "description": "Beatrix Wagner & Andrew Munn & BONECRUSHER19 Uhr * Kunstquartier Bethanien * 7 EuroIm langen Abend der Bassstimme und -instrumente „Low Frequencies“ spüren Beatrix Wagner mit der Kontrabassflöte, der Bassist Andrew Munn und BONECRUSHER den allertiefsten Schwingungen in Werken von Gerald Eckert, Alessio Rossato, Horațiu Rădulescu, Ellen Arkbro und Matthias Muche nach.  mehr Informationen   ***In ‘Low Frequencies’, a long evening dedicated to the bass voice and bass instruments, Beatrix Wagner on the contrabass flute, bassist Andrew Munn and BONECRUSHER explore the very deepest vibrations in works by Gerald Eckert, Alessio Rossato, Horațiu Rădulescu, Ellen Arkbro and Matthias Muche.  more information  Preisinformation:  7€ + VVK-Gebühren",
+   "endDate": "2026-11-08T21:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/PPDKVpxqQ2cU0aMswuwf_lina-bo-tour-2026-bild-1-small-by-malte-paulsen.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/wEdtJFcCRWahNshkjHj2_05-low-frequencies.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -886,40 +886,26 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10435",
-     "streetAddress": "Knaackstraße 97"
+     "postalCode": "10997",
+     "streetAddress": "Mariannenplatz 2"
     },
-    "name": "Maschinenhaus"
+    "name": "Studio 1, Kunstquartier Bethanien"
    },
-   "name": "Lina Bó - Asphalt und Sterne Tour 2026",
+   "name": "Low Frequencies | BONECRUSHER, Andrew Munn, Beatrix Wagner - Klangwerkstatt Berlin 2026",
    "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": null,
-    "lowPrice": null,
-    "offerCount": 2,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "28.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Begleitperson",
-      "price": "0.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "8.02",
+    "priceCurrency": "EUR",
+    "url": "https://t.rausgegangen.de/tickets/low-frequencies-klangwerkstatt-berlin-2026",
+    "validFrom": "2026-08-03T15:56+0200"
    },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Lina Bó"
+   "organizer": {
+    "@type": "Organization",
+    "name": "Klangwerkstatt Berlin",
+    "url": "https://rausgegangen.de/organizations/klangwerkstatt-berlin/"
    },
-   "startDate": "2026-11-26T20:00+0100"
+   "startDate": "2026-11-08T19:00+0100"
   }
  }
 }

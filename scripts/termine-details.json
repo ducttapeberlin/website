@@ -1,6 +1,6 @@
 {
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
-  "fetched": "2026-10-24T05:55:50+02:00",
+  "fetched": "2026-10-24T12:51:06+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -262,7 +262,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
-  "fetched": "2026-10-24T05:55:50+02:00",
+  "fetched": "2026-10-24T12:51:06+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -307,7 +307,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
-  "fetched": "2026-10-24T05:55:50+02:00",
+  "fetched": "2026-10-24T12:51:06+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -354,7 +354,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-21/": {
-  "fetched": "2026-10-24T05:55:50+02:00",
+  "fetched": "2026-10-24T12:51:06+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -399,7 +399,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-22/": {
-  "fetched": "2026-10-24T05:55:50+02:00",
+  "fetched": "2026-10-24T12:51:06+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -444,7 +444,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
-  "fetched": "2026-10-24T05:55:50+02:00",
+  "fetched": "2026-10-24T12:51:06+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -489,7 +489,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
-  "fetched": "2026-10-24T05:55:50+02:00",
+  "fetched": "2026-10-24T12:51:06+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -585,7 +585,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-brunch-sponsored-by-fritz-kola-halloween-edition-0/": {
-  "fetched": "2026-10-24T05:55:50+02:00",
+  "fetched": "2026-10-24T12:51:06+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -625,7 +625,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-brunch-sponsored-by-fritz-kola-winter-edition-0/": {
-  "fetched": "2026-10-24T05:55:50+02:00",
+  "fetched": "2026-10-24T12:51:06+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -667,77 +667,60 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
- "https://rausgegangen.de/events/geheimkonzert-berlin-24-by-rausgegangen-0/": {
-  "fetched": "2026-10-24T11:51:59+02:00",
+ "https://rausgegangen.de/events/fritzsessions-26/": {
+  "fetched": "2026-10-24T12:51:06+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Na Hallo! Es ist wieder so weit: Ein Abend voller Überraschung - denn wer auf der Bühne steht, bleibt bis zum ersten Ton geheim. Wir hatten schon Blond, Berq, Ennio, Futurebae, Jassin, Anais, Katha Pauer & viele mehr zu Gast – und das schon bevor sie die großen Bühnen der Nation gestürmt haben. Also entdecke die Stars von Morgen bei unseren Geheimkonzerten. 🪩",
-   "endDate": "2026-12-09T22:15+0100",
+   "description": "Zwischen Hyperpop, Pop und Rap steht kein sauberer Strich, eher fünf Leute, die ihr eigenes Ding mitbringen. Bei den FritzSessions treffen unter anderem Amélia, Dueja und Katlix aufeinander, also ein Abend für offene Ohren 👀",
+   "endDate": "2026-11-10T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/mO31iODjTCuFLVfQ493H_gk202516x9photoheadline-32-1.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/8Y9wBoTBRr29567OaXR9_16x9fritzsessions051026-5-artists.png"
    ],
    "location": {
     "@type": "Place",
     "address": {
      "@type": "PostalAddress",
      "addressCountry": "DE",
-     "addressLocality": "Berlin"
+     "addressLocality": "Berlin",
+     "postalCode": "10997",
+     "streetAddress": "Schlesische Strasse 2"
     },
-    "name": "Secret location"
+    "name": "Bi Nuu"
    },
-   "name": "Geheimkonzert Berlin #24 by Rausgegangen",
+   "name": "FritzSessions mit Amélia, Tara Emely, Dueja & Katlix",
    "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "29.90",
-    "lowPrice": "24.50",
-    "offerCount": 4,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "EARLY BIRD",
-      "price": "21.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "REGULAR",
-      "price": "26.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "4er FRIENDS BUNDLE für 98€",
-      "price": "24.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Mitgegangen",
-      "price": "3.80",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "14.00",
+    "priceCurrency": "EUR",
+    "url": "https://t.rausgegangen.de/tickets/fritzsessions-20",
+    "validFrom": "2026-10-04T15:05+0200"
    },
    "organizer": [
     {
      "@type": "Organization",
-     "name": "Rausgegangen Geheimkonzerte",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte/"
+     "name": "FritzSessions",
+     "url": "https://rausgegangen.de/organizations/page-for-team-fritzsessions/"
     },
     {
      "@type": "Organization",
-     "name": "Rausgegangen Geheimkonzerte Berlin",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte-3/"
+     "name": "Fritz vom rbb",
+     "url": "https://rausgegangen.de/organizations/fritz-vom-rbb/"
     }
    ],
-   "startDate": "2026-12-09T20:00+0100"
+   "performer": [
+    {
+     "@type": "PerformingGroup",
+     "name": "DUEJA"
+    },
+    {
+     "@type": "PerformingGroup",
+     "name": "KATLIX"
+    }
+   ],
+   "startDate": "2026-11-09T19:00+0100"
   }
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {

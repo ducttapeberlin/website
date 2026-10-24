@@ -90,7 +90,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-10-23T21:03:16+02:00",
+  "fetched": "2026-10-24T03:13:28+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -178,92 +178,6 @@
   "seen": "2026-10-20T15:24:41+02:00",
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/bodies-baddies-community-edition-0/": {
-  "fetched": "2026-10-24T01:48:20+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Bodies & Baddies setzt auf eine queere Community Edition mit viel Energie und einem klar offenen Anspruch für Queers, Girls, Gays, Theys, Lovers und Allies. Mit DJ Sets von Christopher King und Ocean plus Performances von Corazón Angel und Calysta Sun wird das eine dichte Nacht auf einem Floor, bei der Du tanzen, flirten und einfach mit Deiner Crew aufgehen kannst 🌈",
-   "endDate": "2026-10-25T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/WD7uXNJgRTCPq06DrnRN_rausgegangenbnball.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10777",
-     "streetAddress": "Nollendorfplatz 5"
-    },
-    "name": "Metropol"
-   },
-   "name": "BODIES & BADDIES // The Pop House Party in Berlin",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "21.80",
-    "lowPrice": "11.20",
-    "offerCount": 6,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Early Bird",
-      "price": "11.20",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Group Tickets First Wave",
-      "price": "14.38",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "First Wave",
-      "price": "16.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Group Tickets Second Wave",
-      "price": "17.56",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Second Wave",
-      "price": "19.68",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Last Wave // Abendkasse",
-      "price": "21.80",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Ocean Eyes",
-    "url": "https://rausgegangen.de/organizations/ocean-eyes/"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Ocean"
-   },
-   "startDate": "2026-10-24T23:00+0200"
-  }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
   "fetched": "2026-10-23T22:53:45+02:00",
@@ -620,7 +534,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-10-23T21:03:16+02:00",
+  "fetched": "2026-10-24T03:13:28+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -753,8 +667,41 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
+ "https://rausgegangen.de/events/florence-road-4/": {
+  "fetched": "2026-10-24T03:13:28+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Vier Freundinnen aus Wicklow machen Songs, in denen Gitarren auch mal schaben und gleich danach alles offen daliegt. Erst kamen die Clips im Fish Eye Look, jetzt steht Florence Road wieder auf Deutschlandtour 👀",
+   "endDate": "2027-05-04T23:00+0200",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/P5gbWKQXSL4xQ42hqqg8_photo-florence-roadcredit-kate-cummings-kopie.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "12043",
+     "streetAddress": "Karl-Marx-Straße 141"
+    },
+    "name": "Heimathafen Neukölln"
+   },
+   "name": "Florence Road",
+   "offers": {
+    "@type": "Offer",
+    "price": "29.00",
+    "priceCurrency": "EUR",
+    "url": "https://www.eventim.de/noapp/event/florence-road-heimathafen-neukoelln-22156758/?affiliate=SZ3&utm_campaign=SzeneTickets+GmbH&utm_source=SZ3&utm_medium=dp",
+    "validFrom": "2027-05-04T20:00+0200"
+   },
+   "startDate": "2027-05-04T20:00+0200"
+  }
+ },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-10-23T21:03:16+02:00",
+  "fetched": "2026-10-24T03:13:28+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",

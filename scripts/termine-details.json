@@ -1,38 +1,4 @@
 {
- "https://rausgegangen.de/events/1st-dental-jewelry-expo-berlin-0/": {
-  "fetched": "2026-10-24T03:56:27+02:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Zahnschmuck hat jetzt eine eigene Messe, und zwar zum ersten Mal in Berlin. Vor Ort werden Grillz und Tooth Gems direkt gemacht, während Goldie 333 später live spielt 👀",
-   "endDate": "2026-10-25T00:00+0200",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/egcAbsLYQCe0ebUyGTVo_rausgegangentitelbild16x9.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "14199",
-     "streetAddress": "Hohenzollerndamm 120"
-    },
-    "name": "Bunker West"
-   },
-   "name": "Win Grillz - Berlins erste Grillz & Tooth Gem Expo",
-   "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "9.50",
-    "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/1st-dental-jewelry-expo-berlin",
-    "validFrom": "2026-10-16T09:30+0200"
-   },
-   "startDate": "2026-10-24T14:00+0200"
-  }
- },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
   "fetched": "2026-10-23T23:53:42+02:00",
   "ld": {
@@ -214,7 +180,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-10-23T22:53:45+02:00",
+  "fetched": "2026-10-24T04:54:42+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -820,7 +786,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-0/": {
-  "fetched": "2026-10-23T22:53:45+02:00",
+  "fetched": "2026-10-24T04:54:42+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -862,7 +828,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1/": {
-  "fetched": "2026-10-23T22:53:45+02:00",
+  "fetched": "2026-10-24T04:54:42+02:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -902,5 +868,50 @@
   "seen": "2026-10-22T21:04:20+02:00",
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
+ },
+ "https://rausgegangen.de/events/late-night-cult-movies-november-dont-look-now-wenn-die-gonde-0/": {
+  "fetched": "2026-10-24T04:54:42+02:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Venedig sieht selten so unromantisch aus: Nicolas Roegs Film von 1973 schickt ein trauerndes Ehepaar durch Gassen, in denen die Wirklichkeit kippt. Vor allem das Ende hat sich tief in die Filmgeschichte geschrieben 🍿",
+   "endDate": "2026-11-28T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/CblhS5QSBaQZsj1hXOk8_dont-look-now5cf7d6.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10405",
+     "streetAddress": "Prenzlauer Allee 80"
+    },
+    "name": "Zeiss-Großplanetarium"
+   },
+   "name": "»Late Night Cult Movies« November: Don't Look Now – Wenn die Gondeln Trauer tragen",
+   "offers": {
+    "@type": "Offer",
+    "price": "7.00",
+    "priceCurrency": "EUR",
+    "url": "https://www.planetarium.berlin/kino/dont-look-now-wenn-die-gondeln-trauer-tragen",
+    "validFrom": "2026-11-27T22:15+0100"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "»Late Night Cult Movies«",
+     "url": "https://rausgegangen.de/organizations/late-night-cult-movies/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Stiftung Planetarium Berlin",
+     "url": "https://rausgegangen.de/organizations/stiftung-planetarium-berlin-1/"
+    }
+   ],
+   "startDate": "2026-11-27T22:15+0100"
+  }
  }
 }

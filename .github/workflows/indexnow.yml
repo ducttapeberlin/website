@@ -17,4 +17,4 @@ jobs:
         run: |
           urls=$(grep -o '<loc>[^<]*</loc>' sitemap.xml | sed 's/<[^>]*>//g' | jq -R . | jq -s .)
           jq -n --argjson u "$urls" '{host:"ducttape.berlin",key:"ece59739dacca59f2fcc86add631f677",keyLocation:"https://ducttape.berlin/ece59739dacca59f2fcc86add631f677.txt",urlList:$u}' > body.json
-          curl -sS -w '\nHTTP %{http_code}\n' -X POST https://api.indexnow.org/indexnow -H 'Content-Type: application/json; charset=utf-8' --data @body.json
+          curl -sSf -w '\nHTTP %{http_code}\n' -X POST https://api.indexnow.org/indexnow -H 'Content-Type: application/json; charset=utf-8' --data @body.json

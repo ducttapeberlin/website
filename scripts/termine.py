@@ -162,8 +162,18 @@ def title_html(row):
     return link(page, title) if page.startswith("http") else esc(title)
 
 
-def subtitle(row):
+def city(row):
+    """Stadt aus der rausgegangen-Adresse; leer bei Berlin (Emanuel, 2026-10-25: nur andere Städte werden gekennzeichnet)."""
+    loc = row.get("_location") or {}
+    c = ((loc.get("address") or {}) if isinstance(loc.get("address"), dict) else {}).get("addressLocality") or ""
+    c = c.strip()
+    return "" if not c or c.lower().startswith("berlin") else c
+
+
+def subtitle(row, with_city=True):
     sub = [esc(x) for x in [(row.get("Location") or "").strip()] if x]
+    if with_city and city(row):
+        sub.append(esc(city(row)))
     if g := guests(row.get("Gäste")):
         sub.append(g)
     if (row.get("Free Entry") or "").strip().lower() in ("ja", "yes", "x", "true"):
@@ -402,7 +412,7 @@ def render_all(events):
         desc = add_breaks(desc)
         title = (r.get("Titel") or "").strip()
         tag = (r.get("Format") or "").strip()
-        sub = subtitle(r)
+        sub = subtitle(r, with_city=not poster)
         btn = button(r)
         page = (r.get("Eventseite") or "").strip()
         wd = L['weekdays'][date.weekday()]
@@ -410,7 +420,8 @@ def render_all(events):
         day = (f"{wd}, {date.day} {L['months'][date.month - 1]} {date.year}" if L is EN
                else f"{wd}, {date:%d.%m.%Y}")
         when_line = " · ".join(x for x in [day, time, doors] if x)
-        media = (f'<img src="{L["prefix"]}{poster}" alt="Poster: {esc(title)}" loading="lazy">' if poster else
+        tape = f'<span class="city-tape">{esc(city(r))}</span>' if city(r) else ""
+        media = (f'{tape}<img src="{L["prefix"]}{poster}" alt="Poster: {esc(title)}" loading="lazy">' if poster else
                  f'<div class="tevent-noposter"><span>{date:%d.%m.}</span></div>')
         shown, rest = split_teaser(desc)
         para = lambda p: f"      <p>{esc(p).replace(chr(10), '<br>')}</p>"

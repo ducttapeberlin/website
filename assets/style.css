@@ -1114,3 +1114,10 @@ section, .page-intro, .q-hero, .events, .event, .events-empty, .tevent, .press-i
 /* Mehrzeilige Überschriften: Umlaute dürfen nicht in die Zeile darüber ragen (Emanuel, 2026-10-22) */
 h1 { line-height: 1.1; }
 h2 { line-height: 1.16; }
+
+/* Termine außerhalb Berlins: gelbes Tape mit der Stadt, schräg auf die linke obere Poster-Ecke geklebt (Emanuel, 2026-10-25) */
+.tevent-poster { position: relative; }
+.city-tape { position: absolute; z-index: 2; top: -12px; left: -16px; padding: 13px 26px 10px; transform: rotate(-11deg);
+  isolation: isolate; font-family: var(--display); font-size: 22px; line-height: 1; text-transform: uppercase; letter-spacing: .04em; color: var(--black); pointer-events: none; }
+.city-tape::before { content: ""; position: absolute; inset: 0; z-index: -1; background: var(--yellow);
+  -webkit-mask: url(img/tape/t5h.png) center / 100% 100% no-repeat; mask: url(img/tape/t5h.png) center / 100% 100% no-repeat; }

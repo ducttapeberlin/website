@@ -364,6 +364,30 @@ def details(row):
     return desc, save_poster(poster) if poster.startswith("http") else ""
 
 
+TEASER = 260  # so viele Zeichen Beschreibung sind sichtbar, der Rest steht hinter "Weiterlesen"
+
+
+def split_teaser(desc):
+    """Teilt eine Beschreibung in sichtbaren Anfang und den Rest hinter "Weiterlesen"."""
+    paras = [p.strip() for p in desc.split("\n\n") if p.strip()]
+    if sum(len(p) for p in paras) <= TEASER * 1.4:
+        return paras, []
+    shown, n = [], 0
+    while paras and n + len(paras[0]) <= TEASER:
+        n += len(paras[0])
+        shown.append(paras.pop(0))
+    if not shown and paras:
+        # erster Absatz zu lang: an einem Satzende (oder Leerzeichen) vor der Grenze trennen
+        p = paras.pop(0)
+        cut = max(p.rfind(c, 120, TEASER) for c in (". ", "! ", "? ", "\n"))
+        if cut < 0:
+            cut = p.rfind(" ", 0, TEASER)
+        cut = cut + 1 if cut > 0 else TEASER
+        shown.append(p[:cut].strip())
+        paras.insert(0, p[cut:].strip())
+    return shown, paras
+
+
 def render_all(events):
     """Alle Termine mit Poster und Beschreibung für termine.html, nach Monaten gruppiert."""
     out, month = [], None
@@ -388,9 +412,11 @@ def render_all(events):
         when_line = " · ".join(x for x in [day, time, doors] if x)
         media = (f'<img src="{L["prefix"]}{poster}" alt="Poster: {esc(title)}" loading="lazy">' if poster else
                  f'<div class="tevent-noposter"><span>{date:%d.%m.}</span></div>')
-        paras = [f"      <p>{esc(p).replace(chr(10), '<br>')}</p>" for p in desc.split("\n\n") if p.strip()]
-        if len(paras) > 3:  # lange Texte: Rest hinter "Weiterlesen"
-            paras = paras[:2] + ["      <details>", f"        <summary>{L['more']}</summary>", *["  " + p for p in paras[2:]], "      </details>"]
+        shown, rest = split_teaser(desc)
+        para = lambda p: f"      <p>{esc(p).replace(chr(10), '<br>')}</p>"
+        paras = [para(p) for p in shown]
+        if rest:  # lange Texte: Rest hinter "Weiterlesen" (Emanuel, 2026-10-25)
+            paras += ["      <details>", f"        <summary>{L['more']}</summary>", *["  " + para(p) for p in rest], "      </details>"]
         actions = ([f"      {btn}"] if btn else []) + (
             [f'      <a class="btn btn-ghost" href="{esc(href(page))}"{new_tab(page)}>{L["event_page"]}</a>'] if page.startswith("http") else [])
         out += [

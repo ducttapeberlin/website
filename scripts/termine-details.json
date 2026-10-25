@@ -869,16 +869,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/love-at-first-slide-berlin-power-point-dating-by-rausgegange-13/": {
-  "fetched": "2026-10-25T12:49:49+01:00",
+ "https://rausgegangen.de/events/ocean-bound-1/": {
+  "fetched": "2026-10-25T15:04:07+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Wir bringen mit LOVE AT FIRST SLIDE Dating auf die Bühne: Freund:innen stellen in kurzen Power Point Präsentationen ihre Lieblingssingle vor – charmant, humorvoll und ganz ohne Swipe. Nach den witzigen Pitches kannst du bei Speed-Dating und Barabend neue Begegnungen entdecken. 💘🎤💫",
-   "endDate": "2026-11-11T23:30+0100",
+   "description": "Küstenlinien verändern sich bis zur Unkenntlichkeit; vertraute Landschaften verschwinden. Vor dem Hintergrund des Klimawandels und des Verlusts von Umgebungen, mit denen wir verbunden sind und die uns zusammenhalten, widmet sich der rumänische Choreograf Sergiu Matis in seiner neuen Arbeit „Ocean Bound“ der Frage, wie bewegte Bilder auf bewegte Körper wirken.Eigens für das Projekt entstandenes Videomaterial richtet den Blick auf Lebensräume an der Schnittstelle von Land und Meer, menschlicher Besiedlung und Wald – Orte, an denen steigende Wasserstände durch die Abholzung von Mangrovenwäldern, Küstenerosion und Veränderungen der Gezeiten das Leben zunehmend prägen. Publikum und Performer*innen bewegen sich zwischen unterschiedlichen Videoprojektionen frei auf der Bühne und erzeugen eine Choreografie, in der Körper und Bilder innerhalb einer gemeinsamen, vom Ozean geprägten Umgebung miteinander verwoben werden.„Ocean Bound“ schafft Raum für das tiefe Gefühl von Verlust und für Formen des Trauerns, für die uns Sprache und Rituale fehlen. Die Körper der Performer*innen werden von den komplexen Emotionen ökologischer Trauer bewegt. So entsteht eine Choreografie an der Grenze zwischen Digitalem und Analogem, zwischen Dokumentation und Fiktion – und gibt Raum, um das Gewicht des Verlusts zu tragen, zu trauern und aus den Fragmenten eine bewegende, hoffnungsvolle und poetische Sprache zu entwickeln.",
+   "endDate": "2026-10-30T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/G4DW5S6EQHOrXfM562GP_lafsbannerappstraight-2-5.png"
+    "https://rausgegangen.s3.amazonaws.com/vo178knl9swb.png"
    ],
    "location": {
     "@type": "Place",
@@ -886,79 +886,20 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10625",
-     "streetAddress": "Kantstraße 127"
+     "postalCode": "10243",
+     "streetAddress": "Holzmarktstr. 33"
     },
-    "name": "Dufte Berlin"
+    "name": "Radialsystem"
    },
-   "name": "LOVE AT FIRST SLIDE Berlin | Power Point Dating by Rausgegangen 💖",
+   "name": "Ocean Bound",
    "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "19.50",
-    "lowPrice": "10.00",
-    "offerCount": 5,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Presenterticket",
-      "price": "10.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Publikum Ticket | Ich bin eine hetero Frau",
-      "price": "19.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Publikum Ticket | Ich bin ein hetero Mann",
-      "price": "19.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Publikum Ticket | Ich bin queer",
-      "price": "19.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Mitgegangen",
-      "price": "3.80",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
+    "@type": "Offer",
+    "price": "12.00",
+    "priceCurrency": "EUR",
+    "url": "https://pretix.eu/radialsystem/snxxl/",
+    "validFrom": "2026-10-29T20:00+0100"
    },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "LOVE AT FIRST SLIDE BERLIN by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/love-at-first-slide-berlin-by-rausgegangen/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Love at first Slide by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/page-for-team-love-at-first-slide-by-rausgegangen/"
-    },
-    {
-     "@type": "Organization",
-     "name": "LOVE AT FIRST SLIDE by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/love-at-first-slide-by-rausgegangen/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Team Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/team-rausgegangen/"
-    }
-   ],
-   "startDate": "2026-11-11T19:00+0100"
+   "startDate": "2026-10-29T20:00+0100"
   }
  }
 }

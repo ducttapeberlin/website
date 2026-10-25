@@ -869,16 +869,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/mitte-bitte-lieb-lustig-comedy-open-mic-0/": {
-  "fetched": "2026-10-25T02:02:35+01:00",
+ "https://rausgegangen.de/events/just-signed-3/": {
+  "fetched": "2026-10-25T02:51:37+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "🎤 Ein Abend mit frischer Stand-up Comedy mitten in Berlin-Mitte: Bei MITTE BITTE! testen ausgewählte Comedians der Berliner Szene ihre neuesten Ideen, feilen an Jokes und präsentieren Material, das man so oft nur ein einziges Mal erlebt.Jeden Monat erwartet euch ein wechselndes Line-up in der besonderen Atmosphäre der Z-Bar. Gastgeber des Abends ist Comedian Rüdiger Rudolph.📍 Berlin Mitte / Bergstraße Ecke Torstraße  🗓 Jeden 4. Montag im Monat  🕗 Einlass 19:30 | Start 20:00  Host: @ruedigerrudolph🎟 Eintritt frei  💸 Spende willkommen    Eintritt ab 18 Jahren 🎟 Kostenlose Tickets: https://www.eventbrite.de/e/mitte-bitte-comedy-open-mic-tickets-1991102227361  ",
-   "endDate": "2026-10-26T22:00+0100",
+   "description": "Drei Acts, frisch unterschrieben, und noch nichts wirkt geschniegelt. Yasola, Victoria West und PARA zeigen Pop, Rap und Indie lieber mit Ecken und eigener Handschrift als auf Nummer sicher 🌈",
+   "endDate": "2026-11-19T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/nsx3WINWRJagbaBtMViY_harmonischer-filter-fur-layout-1920-x-1080-px-1200-x-675-px3.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/PNsu3JEFSvqskyhEJ5cd_26justsigned18-11websitenews1080x1920.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -886,19 +886,25 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10115",
-     "streetAddress": "Bergstraße 2"
+     "postalCode": "10969",
+     "streetAddress": "Ritterstraße 24-27"
     },
-    "name": "Z-Bar"
+    "name": "MODUS Berlin"
    },
-   "name": "MITTE BITTE! - lieb & lustig - Comedy Open Mic",
+   "name": "Just Signed!",
    "offers": {
     "@type": "Offer",
-    "price": "0.00",
+    "price": "10.00",
     "priceCurrency": "EUR",
-    "validFrom": "2026-10-26T20:00+0100"
+    "url": "https://tickets.infield.live/event/just-signed-0qyt3h",
+    "validFrom": "2026-11-18T19:00+0100"
    },
-   "startDate": "2026-10-26T20:00+0100"
+   "organizer": {
+    "@type": "Organization",
+    "name": "RBX GmbH",
+    "url": "https://rausgegangen.de/organizations/rbx-gmbh/"
+   },
+   "startDate": "2026-11-18T19:00+0100"
   }
  }
 }

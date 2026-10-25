@@ -1121,3 +1121,6 @@ h2 { line-height: 1.16; }
   isolation: isolate; font-family: var(--display); font-size: 22px; line-height: 1; text-transform: uppercase; letter-spacing: .04em; color: var(--black); pointer-events: none; }
 .city-tape::before { content: ""; position: absolute; inset: 0; z-index: -1; background: var(--yellow);
   -webkit-mask: url(img/tape/t5h.png) center / 100% 100% no-repeat; mask: url(img/tape/t5h.png) center / 100% 100% no-repeat; }
+
+/* Eventseiten mit langem Titel: Umbruch erlaubt statt Einzeiler */
+.xs-title.xs-title-wrap { white-space: normal; font-size: var(--fs-h2) !important; }

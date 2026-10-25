@@ -168,4 +168,16 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://ducttape.berlin/christmas-show"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ducttape.berlin/en/christmas-show"/>
   </url>
+  <url>
+    <loc>https://ducttape.berlin/drag-fruehschoppen-muenchen</loc>
+    <lastmod>2026-10-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ducttape.berlin/drag-fruehschoppen-muenchen"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ducttape.berlin/en/drag-fruehschoppen-muenchen"/>
+  </url>
+  <url>
+    <loc>https://ducttape.berlin/en/drag-fruehschoppen-muenchen</loc>
+    <lastmod>2026-10-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ducttape.berlin/drag-fruehschoppen-muenchen"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ducttape.berlin/en/drag-fruehschoppen-muenchen"/>
+  </url>
 </urlset>

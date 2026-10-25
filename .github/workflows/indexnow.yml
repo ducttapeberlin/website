@@ -1,0 +1,20 @@
+# Meldet geänderte Seiten per IndexNow an Bing (und Yandex, Seznam, Naver).
+# Google nutzt IndexNow nicht, dort reicht die Sitemap.
+name: IndexNow
+on:
+  push:
+    branches: [main]
+    paths: ['**.html', 'sitemap.xml']
+  workflow_dispatch:
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Warten, bis GitHub Pages die neue Version ausliefert
+        run: sleep 120
+      - name: Alle Seiten aus der Sitemap melden
+        run: |
+          urls=$(grep -o '<loc>[^<]*</loc>' sitemap.xml | sed 's/<[^>]*>//g' | jq -R . | jq -s .)
+          jq -n --argjson u "$urls" '{host:"ducttape.berlin",key:"ece59739dacca59f2fcc86add631f677",keyLocation:"https://ducttape.berlin/ece59739dacca59f2fcc86add631f677.txt",urlList:$u}' > body.json
+          curl -sS -w '\nHTTP %{http_code}\n' -X POST https://api.indexnow.org/indexnow -H 'Content-Type: application/json; charset=utf-8' --data @body.json

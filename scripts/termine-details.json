@@ -883,16 +883,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/millennial-mixtape-das-revival-der-nullerjahre-auf-3-floors-0/": {
-  "fetched": "2026-10-26T20:57:44+01:00",
+ "https://rausgegangen.de/events/mitte-bitte-lieb-lustig-comedy-open-mic-0/": {
+  "fetched": "2026-10-26T21:57:36+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Mainfloor: 'diefeder' (Millennial Pop-Mix)Loungefloor: Little A (00er R'n'B HipHop)Salonfloor: tba «Ist das noch Indie?!»  Wir bringen SexyBack! Am Samstag, den 14. Novomber, verwandelt sich unser kleiner Wohlfühlclub in das Epizentrum für pure Nullerjahre-Nostalgie. Mit dem „Millennial Mixtape“ feiern wir den Sound und das Lebensgefühl eines unvergesslich unbeschwerten Jahrzehnts.Drei Floors – Drei Welten Egal, welche Musikrichtung eure Jugend geprägt hat – auf dem „Millennial Mixtape“ finden alle ihre ganz persönlichen absoluten 00er Banger:• Mainflloor: Die Pop-Explosion mit 'diefeder'! – Hier regieren die Königinnen und Könige der Nullerjahre. Tanzt zu Britney Spears, den No Angels, Justin Timberlake, Shakira und der besten Kylie ever.• Radaufloor: \"Little A\" und sein Hip-Hop & R&B Mix – Hey Ya, willkommen In da Club! Fette Bässe und smoother Groove. Freut euch auf die Tracks von Eminem, 50 Cent, Beyoncé, Nelly und Usher.• Salon: Indie & Rock-Alternative selektiert von DJ Snacky Baba & DJ tba – «Ist das noch Indie?!» Wir sagen: Das ist Disco! Von Arctic Monkeys bis Whitney Houston, von Kraftklub bis Charli XCX und von Two Door Cinema Club bis Nina Chuba wird für alle etwas dabei sein! Die Hardfacts:• Event: Millennial Mixtape – Das Revival der Nullerjahre auf 3 Floors!• Wann: Samstag, 14. Novmeber 2026, ab 21:00 Uhr• Wo: Frannz Club (in der Kulturbrauerei), Schönhauser Allee 36, 10435 Berlin• Eintritt: Early Bird für 8,00 Euro (nur von 21:00 bis 22:00 Uhr und nur an der Abendkasse), danach regulär 12,00 Euro an der Abendkasse. Sichert euch euren Platz auf der Tanzfläche und spult mit uns das Mixtape eurer Jugend zurück!",
-   "endDate": "2026-11-15T05:00+0100",
+   "description": "🎤 Ein Abend mit frischer Stand-up Comedy mitten in Berlin-Mitte: Bei MITTE BITTE! testen ausgewählte Comedians der Berliner Szene ihre neuesten Ideen, feilen an Jokes und präsentieren Material, das man so oft nur ein einziges Mal erlebt.Jeden Monat erwartet euch ein wechselndes Line-up in der besonderen Atmosphäre der Z-Bar. Gastgeber des Abends ist Comedian Rüdiger Rudolph.📍 Berlin Mitte / Bergstraße Ecke Torstraße  🗓 Jeden 4. Montag im Monat  🕗 Einlass 19:30 | Start 20:00  Host: @ruedigerrudolph🎟 Eintritt frei  💸 Spende willkommen    Eintritt ab 18 Jahren 🎟 Kostenlose Tickets: https://www.eventbrite.de/e/mitte-bitte-comedy-open-mic-tickets-1991102227361  ",
+   "endDate": "2026-10-26T22:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/dyghNqMTteDJHdV9BYbr_facebook-event-banner-mixtape-1411.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/nsx3WINWRJagbaBtMViY_harmonischer-filter-fur-layout-1920-x-1080-px-1200-x-675-px3.png"
    ],
    "location": {
     "@type": "Place",
@@ -900,20 +900,19 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10435",
-     "streetAddress": "Schönhauser Allee 36"
+     "postalCode": "10115",
+     "streetAddress": "Bergstraße 2"
     },
-    "name": "frannz club berlin"
+    "name": "Z-Bar"
    },
-   "name": "Millennial Mixtape- Das Revival der Nullerjahre auf 3 Floors!",
+   "name": "MITTE BITTE! - lieb & lustig - Comedy Open Mic",
    "offers": {
     "@type": "Offer",
-    "price": "12.00",
+    "price": "0.00",
     "priceCurrency": "EUR",
-    "url": "https://shop.copilot.events/frannz/events/820df3ed-f0bf-4d98-ad28-aa2f26619ae6",
-    "validFrom": "2026-11-14T21:00+0100"
+    "validFrom": "2026-10-26T20:00+0100"
    },
-   "startDate": "2026-11-14T21:00+0100"
+   "startDate": "2026-10-26T20:00+0100"
   }
  }
 }

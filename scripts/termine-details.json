@@ -674,6 +674,62 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
+ "https://rausgegangen.de/events/fritzsessions-26/": {
+  "fetched": "2026-10-26T09:10:34+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Zwischen Hyperpop, Pop und Rap steht kein sauberer Strich, eher fünf Leute, die ihr eigenes Ding mitbringen. Bei den FritzSessions treffen unter anderem Amélia, Dueja und Katlix aufeinander, also ein Abend für offene Ohren 👀",
+   "endDate": "2026-11-10T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/8Y9wBoTBRr29567OaXR9_16x9fritzsessions051026-5-artists.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10997",
+     "streetAddress": "Schlesische Strasse 2"
+    },
+    "name": "Bi Nuu"
+   },
+   "name": "FritzSessions mit Amélia, Tara Emely, Dueja & Katlix",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "14.00",
+    "priceCurrency": "EUR",
+    "url": "https://t.rausgegangen.de/tickets/fritzsessions-20",
+    "validFrom": "2026-10-04T15:05+0200"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "FritzSessions",
+     "url": "https://rausgegangen.de/organizations/page-for-team-fritzsessions/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Fritz vom rbb",
+     "url": "https://rausgegangen.de/organizations/fritz-vom-rbb/"
+    }
+   ],
+   "performer": [
+    {
+     "@type": "PerformingGroup",
+     "name": "DUEJA"
+    },
+    {
+     "@type": "PerformingGroup",
+     "name": "KATLIX"
+    }
+   ],
+   "startDate": "2026-11-09T19:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
   "fetched": "2026-10-26T08:18:39+01:00",
   "ld": {
@@ -875,97 +931,5 @@
   "seen": "2026-10-22T21:04:20+02:00",
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/love-at-first-slide-berlin-power-point-dating-by-rausgegange-13/": {
-  "fetched": "2026-10-26T08:18:39+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Wir bringen mit LOVE AT FIRST SLIDE Dating auf die Bühne: Freund:innen stellen in kurzen Power Point Präsentationen ihre Lieblingssingle vor – charmant, humorvoll und ganz ohne Swipe. Nach den witzigen Pitches kannst du bei Speed-Dating und Barabend neue Begegnungen entdecken. 💘🎤💫",
-   "endDate": "2026-11-11T23:30+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/G4DW5S6EQHOrXfM562GP_lafsbannerappstraight-2-5.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10625",
-     "streetAddress": "Kantstraße 127"
-    },
-    "name": "Dufte Berlin"
-   },
-   "name": "LOVE AT FIRST SLIDE Berlin | Power Point Dating by Rausgegangen 💖",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "19.50",
-    "lowPrice": "10.00",
-    "offerCount": 5,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Presenterticket",
-      "price": "10.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Publikum Ticket | Ich bin eine hetero Frau",
-      "price": "19.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Publikum Ticket | Ich bin ein hetero Mann",
-      "price": "19.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Publikum Ticket | Ich bin queer",
-      "price": "19.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Mitgegangen",
-      "price": "3.80",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "LOVE AT FIRST SLIDE BERLIN by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/love-at-first-slide-berlin-by-rausgegangen/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Love at first Slide by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/page-for-team-love-at-first-slide-by-rausgegangen/"
-    },
-    {
-     "@type": "Organization",
-     "name": "LOVE AT FIRST SLIDE by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/love-at-first-slide-by-rausgegangen/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Team Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/team-rausgegangen/"
-    }
-   ],
-   "startDate": "2026-11-11T19:00+0100"
-  }
  }
 }

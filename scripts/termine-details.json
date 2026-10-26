@@ -1,6 +1,6 @@
 {
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
-  "fetched": "2026-10-26T03:57:47+01:00",
+  "fetched": "2026-10-26T10:06:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -187,7 +187,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-10-26T03:57:47+01:00",
+  "fetched": "2026-10-26T10:06:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -269,7 +269,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
-  "fetched": "2026-10-26T03:57:47+01:00",
+  "fetched": "2026-10-26T10:06:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -314,7 +314,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
-  "fetched": "2026-10-26T03:57:47+01:00",
+  "fetched": "2026-10-26T10:06:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -361,7 +361,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-21/": {
-  "fetched": "2026-10-26T03:57:47+01:00",
+  "fetched": "2026-10-26T10:06:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -406,7 +406,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-22/": {
-  "fetched": "2026-10-26T03:57:47+01:00",
+  "fetched": "2026-10-26T10:06:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -451,7 +451,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
-  "fetched": "2026-10-26T03:57:47+01:00",
+  "fetched": "2026-10-26T10:06:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -496,7 +496,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
-  "fetched": "2026-10-26T03:57:47+01:00",
+  "fetched": "2026-10-26T10:06:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -592,7 +592,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-brunch-sponsored-by-fritz-kola-halloween-edition-0/": {
-  "fetched": "2026-10-26T03:57:47+01:00",
+  "fetched": "2026-10-26T10:06:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -632,7 +632,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-brunch-sponsored-by-fritz-kola-winter-edition-0/": {
-  "fetched": "2026-10-26T03:57:47+01:00",
+  "fetched": "2026-10-26T10:06:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -673,62 +673,6 @@
    "startDate": "2026-11-15T12:00+0100"
   },
   "seen": "2026-10-20T15:24:41+02:00"
- },
- "https://rausgegangen.de/events/fritzsessions-26/": {
-  "fetched": "2026-10-26T09:10:34+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Zwischen Hyperpop, Pop und Rap steht kein sauberer Strich, eher fünf Leute, die ihr eigenes Ding mitbringen. Bei den FritzSessions treffen unter anderem Amélia, Dueja und Katlix aufeinander, also ein Abend für offene Ohren 👀",
-   "endDate": "2026-11-10T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/8Y9wBoTBRr29567OaXR9_16x9fritzsessions051026-5-artists.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10997",
-     "streetAddress": "Schlesische Strasse 2"
-    },
-    "name": "Bi Nuu"
-   },
-   "name": "FritzSessions mit Amélia, Tara Emely, Dueja & Katlix",
-   "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "14.00",
-    "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/fritzsessions-20",
-    "validFrom": "2026-10-04T15:05+0200"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "FritzSessions",
-     "url": "https://rausgegangen.de/organizations/page-for-team-fritzsessions/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Fritz vom rbb",
-     "url": "https://rausgegangen.de/organizations/fritz-vom-rbb/"
-    }
-   ],
-   "performer": [
-    {
-     "@type": "PerformingGroup",
-     "name": "DUEJA"
-    },
-    {
-     "@type": "PerformingGroup",
-     "name": "KATLIX"
-    }
-   ],
-   "startDate": "2026-11-09T19:00+0100"
-  }
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
   "fetched": "2026-10-26T08:18:39+01:00",
@@ -848,8 +792,42 @@
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/jeder-mensch-kann-trauern-fee-vogel-eric-wrede-2/": {
+  "fetched": "2026-10-26T10:06:30+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Was passiert in unserem Körper, wenn wir trauern? Wie kann man lernen, mit Trauer zu leben? Was sind die schlimmsten Beileidsbekundungen aller Zeiten? Und was kann im Familien-WhatsApp-Chat alles schiefgehen, wenn plötzlich eine Beerdigung organisiert werden muss?Fee Vogel und Eric Wrede nehmen das Publikum mit auf einen Abend, der Trauer so zeigt, wie sie wirklich ist – menschlich, nah, manchmal überraschend komisch. Keine Lesung. Kein Vortrag. Sondern ein Gespräch über eine der wichtigsten Fähigkeiten, die wir haben.Grundlage des Abends ist das gleichnamige Buch, das im November 2026 im Insel Verlag (Suhrkamp) erscheint.Fee Vogel ist Geschäftsführerin von lebensnah Bestattungen Bonn und qualifizierte Trauerbegleiterin, auch für Kinder und Jugendliche. Sie ist Mitbegründerin der Beratungsfirma trauerkultur3, die Unternehmen und Führungskräfte unterstützt, wenn Trauer am Arbeitsplatz ankommt.Eric Wrede führt lebensnah Bestattungen in Berlin, Leipzig, Bonn und Potsdam. Sein Spiegel-Bestseller „The End“ wurde 2025 vom ZDF unter dem Titel „Sterben für Beginner“ verfilmt, im selben Jahr lief die Kino-Dokumentation „Der Tod ist ein Arschloch!“ in den Kinos. Im ARD/radioeins-Podcast „the end“ spricht er mit Gästen wie Sven Regener, Judith Holofernes, Sarah Kuttner und Sebastian Fitzek über das, worüber die meisten schweigen.Im November 2026 ist „Jeder Mensch kann trauern“ in Deutschland, Österreich und der Schweiz zu erleben.",
+   "endDate": "2026-11-18T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/gTc6DlSeQUGrmAJ5746L_jmktrausgegangentitelbild1920x1080.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10437",
+     "streetAddress": "Schönhauser Allee 123"
+    },
+    "name": "Filmtheater Colosseum"
+   },
+   "name": "Jeder Mensch kann trauern – Fee Vogel & Eric Wrede",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "24.90",
+    "priceCurrency": "EUR",
+    "url": "https://t.rausgegangen.de/tickets/jeder-mensch-kann-trauern-fee-vogel-eric-wrede-1",
+    "validFrom": "2026-09-29T16:00+0200"
+   },
+   "startDate": "2026-11-17T19:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-0/": {
-  "fetched": "2026-10-26T03:57:47+01:00",
+  "fetched": "2026-10-26T10:06:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -891,7 +869,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1/": {
-  "fetched": "2026-10-26T03:57:47+01:00",
+  "fetched": "2026-10-26T10:06:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",

@@ -1,6 +1,6 @@
 {
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
-  "fetched": "2026-10-25T21:48:18+01:00",
+  "fetched": "2026-10-26T03:57:47+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -187,7 +187,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-10-25T21:48:18+01:00",
+  "fetched": "2026-10-26T03:57:47+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -269,7 +269,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
-  "fetched": "2026-10-25T21:48:18+01:00",
+  "fetched": "2026-10-26T03:57:47+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -314,7 +314,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
-  "fetched": "2026-10-25T21:48:18+01:00",
+  "fetched": "2026-10-26T03:57:47+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -361,7 +361,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-21/": {
-  "fetched": "2026-10-25T21:48:18+01:00",
+  "fetched": "2026-10-26T03:57:47+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -406,7 +406,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-22/": {
-  "fetched": "2026-10-25T21:48:18+01:00",
+  "fetched": "2026-10-26T03:57:47+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -451,7 +451,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
-  "fetched": "2026-10-25T21:48:18+01:00",
+  "fetched": "2026-10-26T03:57:47+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -496,7 +496,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
-  "fetched": "2026-10-25T21:48:18+01:00",
+  "fetched": "2026-10-26T03:57:47+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -592,7 +592,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-brunch-sponsored-by-fritz-kola-halloween-edition-0/": {
-  "fetched": "2026-10-25T21:48:18+01:00",
+  "fetched": "2026-10-26T03:57:47+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -632,7 +632,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-brunch-sponsored-by-fritz-kola-winter-edition-0/": {
-  "fetched": "2026-10-25T21:48:18+01:00",
+  "fetched": "2026-10-26T03:57:47+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -673,6 +673,39 @@
    "startDate": "2026-11-15T12:00+0100"
   },
   "seen": "2026-10-20T15:24:41+02:00"
+ },
+ "https://rausgegangen.de/events/florence-road-4/": {
+  "fetched": "2026-10-26T03:57:47+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Vier Freundinnen aus Wicklow machen Songs, in denen Gitarren auch mal schaben und gleich danach alles offen daliegt. Erst kamen die Clips im Fish Eye Look, jetzt steht Florence Road wieder auf Deutschlandtour 👀",
+   "endDate": "2027-05-04T23:00+0200",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/P5gbWKQXSL4xQ42hqqg8_photo-florence-roadcredit-kate-cummings-kopie.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "12043",
+     "streetAddress": "Karl-Marx-Straße 141"
+    },
+    "name": "Heimathafen Neukölln"
+   },
+   "name": "Florence Road",
+   "offers": {
+    "@type": "Offer",
+    "price": "29.00",
+    "priceCurrency": "EUR",
+    "url": "https://www.eventim.de/noapp/event/florence-road-heimathafen-neukoelln-22156758/?affiliate=SZ3&utm_campaign=SzeneTickets+GmbH&utm_source=SZ3&utm_medium=dp",
+    "validFrom": "2027-05-04T20:00+0200"
+   },
+   "startDate": "2027-05-04T20:00+0200"
+  }
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
   "fetched": "2026-10-26T02:17:17+01:00",
@@ -793,7 +826,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-0/": {
-  "fetched": "2026-10-25T21:48:18+01:00",
+  "fetched": "2026-10-26T03:57:47+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -835,7 +868,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1/": {
-  "fetched": "2026-10-25T21:48:18+01:00",
+  "fetched": "2026-10-26T03:57:47+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -875,43 +908,5 @@
   "seen": "2026-10-22T21:04:20+02:00",
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/keo-3/": {
-  "fetched": "2026-10-26T03:01:40+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Früher standen Finn und Conor Keogh noch in britischen Pubs auf der Bühne, jetzt klingt Keo nach deutlich lauteren Gitarren und offener Kante. Viel Alternative Rock, aber ohne Schutzschild 👀",
-   "endDate": "2027-04-11T06:00+0200",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Jg1vNdRjIbgCaKFsFpQK_press-photo-keobehappydigiv1judeharrison-39-klein.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "12051",
-     "streetAddress": "Hermannstraße 146"
-    },
-    "name": "HOLE"
-   },
-   "name": "Keo",
-   "offers": {
-    "@type": "Offer",
-    "price": "29.30",
-    "priceCurrency": "EUR",
-    "url": "https://www.eventim.de/noapp/event/keo-hole-44-22217130/?affiliate=SZ3&utm_campaign=SzeneTickets+GmbH&utm_source=SZ3&utm_medium=dp",
-    "validFrom": "2027-04-10T20:00+0200"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Trinity Music",
-    "url": "https://rausgegangen.de/organizations/trinity-music-ah-4tam/"
-   },
-   "startDate": "2027-04-10T20:00+0200"
-  }
  }
 }

@@ -193,6 +193,40 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/barden-barrikaden-keine-burg-den-bonzen-0/": {
+  "fetched": "2026-10-26T20:10:22+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Barden & Barrikaden – Keine Burg den Bonzen Ein lauter Abend gegen Verdrängung, für Vielfalt und Freiräume. Vier Mittelalterbands lassen Leipzig erbeben – mit Trommeln, Lauten und Haltung. Denn Kultur gehört allen, nicht nur denen mit Schlüssel zum Schloss. Die Habenichtse - Reikas tanz - Sören vogelsang - Widarsihtig   ",
+   "endDate": "2026-11-07T23:45+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/TKi8JTofQ3CHUK8iErqH_barden-barrikaden-fb-cover.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Leipzig",
+     "postalCode": "04105",
+     "streetAddress": "Theresienstraße 2"
+    },
+    "name": "TV-Club Leipzig"
+   },
+   "name": "Barden & Barrikaden - Keine Burg den Bonzen",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "23.92",
+    "priceCurrency": "EUR",
+    "url": "https://t.rausgegangen.de/tickets/barden-barrikaden-keine-burg-den-bonzen",
+    "validFrom": "2025-11-21T22:48+0100"
+   },
+   "startDate": "2026-11-07T19:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
   "fetched": "2026-10-26T16:47:53+01:00",
   "ld": {
@@ -680,39 +714,6 @@
    "startDate": "2026-11-15T12:00+0100"
   },
   "seen": "2026-10-20T15:24:41+02:00"
- },
- "https://rausgegangen.de/events/dressed-like-boys-13/": {
-  "fetched": "2026-10-26T18:57:51+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Bei Dressed Like Boys kommt Pop nicht als Pose, sondern aus sehr persönlichen Geschichten über queere Identität. Hinter dem Projekt steckt Jelle Denturck aus Belgien, sonst Stimme von DIRK. 🌈",
-   "endDate": "2027-04-10T23:00+0200",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/D3CFGkCfS0OIxI4TCH11_photo-dressed-like-boyscredit-sieme-hermansweb.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10179",
-     "streetAddress": "Holzmarktstraße 15-18"
-    },
-    "name": "LARK"
-   },
-   "name": "Dressed Like Boys",
-   "offers": {
-    "@type": "Offer",
-    "price": 0,
-    "priceCurrency": "EUR",
-    "url": "https://www.eventim.de/artist/dressed-like-boys/",
-    "validFrom": "2027-04-10T19:00+0200"
-   },
-   "startDate": "2027-04-10T19:00+0200"
-  }
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
   "fetched": "2026-10-26T14:39:47+01:00",

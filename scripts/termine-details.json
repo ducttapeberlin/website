@@ -268,6 +268,61 @@
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/dani-lia-yola-gangsta-goren-tour-5/": {
+  "fetched": "2026-10-26T05:58:53+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Brav ist bei Dani Lia und yola offenbar gerade ausverkauft. Die beiden gehen zusammen auf Tour und setzen mit kompromisslosem Pop gegen Klischees und für eine andere Idee von Girlhood ein deutliches Zeichen 💅🏼",
+   "endDate": "2027-05-23T22:00+0200",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/oJ7jfUwKS46GCFI3YkfM_pressefoto1-janaabel.jpeg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10997",
+     "streetAddress": "Cuvrystr. 7"
+    },
+    "name": "Lido"
+   },
+   "name": "Dani Lia yola - GANGSTA GÖREN TOUR",
+   "offers": {
+    "@type": "Offer",
+    "price": "31.90",
+    "priceCurrency": "EUR",
+    "url": "https://chimperator-tickets.de/dani-lia",
+    "validFrom": "2027-05-23T19:00+0200"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "Angst Booking",
+     "url": "https://rausgegangen.de/organizations/angst-booking/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Chimperator Live GmbH - Touring",
+     "url": "https://rausgegangen.de/organizations/chimperator-live-gmbh-touring/"
+    }
+   ],
+   "performer": [
+    {
+     "@type": "PerformingGroup",
+     "name": "DANI LIA"
+    },
+    {
+     "@type": "PerformingGroup",
+     "name": "Yola"
+    }
+   ],
+   "startDate": "2027-05-23T19:00+0200"
+  }
+ },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
   "fetched": "2026-10-26T03:57:47+01:00",
   "ld": {
@@ -875,97 +930,5 @@
   "seen": "2026-10-22T21:04:20+02:00",
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/love-at-first-slide-berlin-power-point-dating-by-rausgegange-13/": {
-  "fetched": "2026-10-26T04:59:40+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Wir bringen mit LOVE AT FIRST SLIDE Dating auf die Bühne: Freund:innen stellen in kurzen Power Point Präsentationen ihre Lieblingssingle vor – charmant, humorvoll und ganz ohne Swipe. Nach den witzigen Pitches kannst du bei Speed-Dating und Barabend neue Begegnungen entdecken. 💘🎤💫",
-   "endDate": "2026-11-11T23:30+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/G4DW5S6EQHOrXfM562GP_lafsbannerappstraight-2-5.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10625",
-     "streetAddress": "Kantstraße 127"
-    },
-    "name": "Dufte Berlin"
-   },
-   "name": "LOVE AT FIRST SLIDE Berlin | Power Point Dating by Rausgegangen 💖",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "19.50",
-    "lowPrice": "10.00",
-    "offerCount": 5,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Presenterticket",
-      "price": "10.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Publikum Ticket | Ich bin eine hetero Frau",
-      "price": "19.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Publikum Ticket | Ich bin ein hetero Mann",
-      "price": "19.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Publikum Ticket | Ich bin queer",
-      "price": "19.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Mitgegangen",
-      "price": "3.80",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "LOVE AT FIRST SLIDE BERLIN by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/love-at-first-slide-berlin-by-rausgegangen/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Love at first Slide by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/page-for-team-love-at-first-slide-by-rausgegangen/"
-    },
-    {
-     "@type": "Organization",
-     "name": "LOVE AT FIRST SLIDE by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/love-at-first-slide-by-rausgegangen/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Team Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/team-rausgegangen/"
-    }
-   ],
-   "startDate": "2026-11-11T19:00+0100"
-  }
  }
 }

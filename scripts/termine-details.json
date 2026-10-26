@@ -193,6 +193,55 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/almost-asians-standup-comedy-hour-1/": {
+  "fetched": "2026-10-26T18:05:21+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Two comedians. One continent. One million trauma! Expect tales of cultural confusion, identity crisis, and immigrant imposter syndrome! Abi is a Berlin based comedian. Born in India, she didn't go far from the stereotype of being a software engineer. While that fills her pockets, comedy fills the void in her heart. Her comedy is a powerful blend of satire and raw honesty, shedding light on the often-taboo subjects of religious dogma and the psychological scars of a restrictive upbringing. Currently converting childhood trauma into jokes one show at a time, Abi has been spreading her darkness all over Europe, usually in places where Ryanair goes. She won the coveted King Gong at the Comedy Store in London in a desperate attempt to make her parents proud. She has opened for comedians like Dragos, Mike Rice, Radu Issac and Netflix star Adrienne Iapalucci. Check out @abiscomedy on Instagram to know what you are getting into! Nikita is a Siberian comedian based in Berlin. A regular in the English and Russian comedy scene in Berlin, Nikita delivers jokes that catch audiences off guard — blending clever observations with an unfiltered perspective shaped by his diverse background. Whether riffing on cultural clashes, everyday absurdities, or political nonsense, Nikita's comedy is as engaging as it is insightful. He recently won the Big Belly gong in London.",
+   "endDate": "2026-10-29T22:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/cwyx4c5VSJOKt2jpgy3J_image.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10437",
+     "streetAddress": "Dunckerstraße 10"
+    },
+    "name": "Misirlou Bar"
+   },
+   "name": "Almost Asians - Standup Comedy Hour",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 2,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Pay online",
+      "price": "10.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Pay at the door 5-15 eur",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "startDate": "2026-10-29T20:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
   "fetched": "2026-10-26T16:47:53+01:00",
   "ld": {
@@ -882,38 +931,5 @@
   "seen": "2026-10-22T21:04:20+02:00",
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/tommy-lefroy-5/": {
-  "fetched": "2026-10-26T16:47:53+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Nicht nur Gitarren, sondern auch Gespräche: Tommy Lefroy organisieren bei ihren Konzerten sogar Büchertausch, während ihre Songs von Unsicherheit und Selbstbestimmung erzählen. Persönlich und politisch zugleich 💜",
-   "endDate": "2027-02-12T23:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/87oYVgOTBOqOv8rlX18B_photo-tommy-lefroycredit-brendon-burton-kopie.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10179",
-     "streetAddress": "Holzmarktstraße 15-18"
-    },
-    "name": "LARK"
-   },
-   "name": "Tommy Lefroy",
-   "offers": {
-    "@type": "Offer",
-    "price": "25.00",
-    "priceCurrency": "EUR",
-    "url": "https://www.eventim.de/artist/tommy-lefroy/",
-    "validFrom": "2027-02-12T19:00+0100"
-   },
-   "startDate": "2027-02-12T19:00+0100"
-  }
  }
 }

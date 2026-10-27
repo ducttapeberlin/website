@@ -1138,3 +1138,9 @@ h2 { line-height: 1.16; }
   .brunch-dates .brunch-vid { max-width: 300px; }
   .brunch-dates .kv-vwrap { flex: none; aspect-ratio: 9 / 16; }
 }
+
+/* Terminlisten: Datum, Text und Knopf oben bündig, damit alle Knöpfe an derselben Stelle sitzen (Emanuel, 2026-10-27) */
+@media (min-width: 721px) {
+  .events .event { align-items: start; }
+  .events .event > .btn { align-self: start; margin-top: 2px; }
+}

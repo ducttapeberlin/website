@@ -441,39 +441,6 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
- "https://rausgegangen.de/events/dressed-like-boys-13/": {
-  "fetched": "2026-10-27T17:05:03+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Bei Dressed Like Boys kommt Pop nicht als Pose, sondern aus sehr persönlichen Geschichten über queere Identität. Hinter dem Projekt steckt Jelle Denturck aus Belgien, sonst Stimme von DIRK. 🌈",
-   "endDate": "2027-04-10T23:00+0200",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/D3CFGkCfS0OIxI4TCH11_photo-dressed-like-boyscredit-sieme-hermansweb.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10179",
-     "streetAddress": "Holzmarktstraße 15-18"
-    },
-    "name": "LARK"
-   },
-   "name": "Dressed Like Boys",
-   "offers": {
-    "@type": "Offer",
-    "price": 0,
-    "priceCurrency": "EUR",
-    "url": "https://www.eventim.de/artist/dressed-like-boys/",
-    "validFrom": "2027-04-10T19:00+0200"
-   },
-   "startDate": "2027-04-10T19:00+0200"
-  }
- },
  "https://rausgegangen.de/events/halloween-drag-bingo-night-by-duct-tape-0/": {
   "fetched": "2026-10-27T15:10:36+01:00",
   "ld": {
@@ -553,5 +520,43 @@
   "seen": "2026-10-22T21:04:20+02:00",
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch",
   "tickets_ok": true
+ },
+ "https://rausgegangen.de/events/lets-do-the-time-warp-0/": {
+  "fetched": "2026-10-27T18:08:36+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Drinks, drag, music & a little bit of madnessIt's astounding. Time is fleeting. Madness takes its toll.This Halloween, we're stepping into the outrageous world of The Rocky Horror Picture Show for a night of cocktails, drag, music and unapologetic glamour.Inspired by the cult classic and celebrating the unforgettable legacy of Tim Curry, join us at The Social Hub Berlin on 30 October for an evening of camp, glitter and delicious chaos.WHAT TO EXPECT?🍸 Two drinks included with your ticket 💋 A live drag show by The Girls Berlin and Santana Sex Machine, inspired by The Rocky Horror Picture Show 🎶 DJ Abribass bringing the beats ✨ Costumes, glamour and a little bit of madnessFishnets, sequins, corsets, glitter and red lips are highly encouraged. Whether you're a Rocky Horror fan or simply here for a fabulous Halloween night, come as you are, or as someone entirely different.Grab your friends, unleash your inner creature of the night and get ready for an evening of camp, cocktails and chaos. 📅 30 October | 19:00–23:00 📍 The Social Hub BerlinDON'T DREAM IT. BE IT. 💋",
+   "endDate": "2026-10-30T23:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/ATCy0k4GQdutC5KU4bkz_tsh-berlin-halloween-party-banner.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10179",
+     "streetAddress": "Alexanderstraße 40"
+    },
+    "name": "The Social Hub Berlin"
+   },
+   "name": "LET'S DO THE TIME WARP",
+   "offers": {
+    "@type": "Offer",
+    "price": "12.00",
+    "priceCurrency": "EUR",
+    "url": "https://www.eventbrite.co.uk/e/lets-do-the-time-warp-tickets-2002139840158?aff=oddtdtcreator",
+    "validFrom": "2026-10-30T19:00+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Team - The Social Hub Berlin",
+    "url": "https://rausgegangen.de/organizations/p-team-the-social-hub-berlin/"
+   },
+   "startDate": "2026-10-30T19:00+0100"
+  }
  }
 }

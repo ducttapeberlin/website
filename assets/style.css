@@ -777,7 +777,8 @@ a.event-tag { text-decoration: none; } a.event-tag:hover { opacity: .85; }
 .page-intro.intro-fmt { overflow: hidden; }
 /* Wie die Startseite: Foto nur rechts, nach links ins Schwarze ausgeblendet */
 .page-intro.intro-fmt::after { content: ""; position: absolute; top: 0; right: 0; bottom: 0; width: 60%; z-index: -2; background: center 30% / cover no-repeat; opacity: .85; }
-.page-intro.intro-drag-brunch::after { background-image: url("img/leistungen/brunch-gruppe.jpg"); background-position: center 40%; }
+.page-intro.intro-drag-brunch::after { background-image: url("img/leistungen/brunch-gruppe.jpg"); background-position: center 47%; }
+.kv-cols .kv-group img[src$="brunch-faecher.jpg"] { object-position: 60% 20%; }
 .page-intro.intro-drag-bingo::after { background-image: url("img/bingo-hero.jpg"); background-position: 58% 38%; }
 .page-intro.intro-drag-shows::after { background-image: url("img/leistungen/show-csd.jpg"); background-position: center 35%; }
 .page-intro.intro-fmt::before { background: linear-gradient(90deg, rgba(11,11,11,1) 0%, rgba(11,11,11,1) 40%, rgba(11,11,11,.55) 58%, rgba(11,11,11,0) 85%), linear-gradient(0deg, rgba(11,11,11,1) 0%, rgba(11,11,11,0) 35%); }

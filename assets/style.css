@@ -1125,14 +1125,16 @@ h2 { line-height: 1.16; }
 /* Eventseiten mit langem Titel: Umbruch erlaubt statt Einzeiler */
 .xs-title.xs-title-wrap { white-space: normal; font-size: var(--fs-h2) !important; }
 
-/* Drag Brunch: Video von @iheartberlin neben den nächsten Terminen, damit es gleich zu sehen ist (Emanuel, 2026-10-27) */
-.brunch-dates { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: clamp(32px, 5vw, 72px); align-items: start; }
-.brunch-dates .kv-video { margin: 0; }
-.brunch-dates .kv-vwrap { position: relative; }
-.brunch-dates .kv-video video { display: block; width: 100%; aspect-ratio: 9 / 16; height: auto; object-fit: cover; }
-.brunch-dates figcaption { font-size: 13px; color: #CFCFCA; margin-top: 8px; }
+/* Drag Brunch: Video von @iheartberlin neben den nächsten Terminen, genau so hoch wie die Terminliste (Emanuel, 2026-10-27) */
+.brunch-dates { display: grid; grid-template-columns: minmax(0, 1fr) 280px; gap: clamp(32px, 4vw, 56px); align-items: stretch; }
+.brunch-dates .events { margin: 0; }
+.brunch-dates .brunch-vid { margin: 0; display: flex; flex-direction: column; min-height: 0; }
+.brunch-dates .kv-vwrap { position: relative; flex: 1 1 0; min-height: 0; }
+.brunch-dates .kv-vwrap video { position: absolute; inset: 0; display: block; width: 100%; height: 100%; object-fit: cover; }
+.brunch-dates figcaption { flex: none; font-size: 13px; color: #CFCFCA; margin-top: 8px; white-space: nowrap; }
 .brunch-dates figcaption a { color: inherit; }
 @media (max-width: 860px) {
   .brunch-dates { grid-template-columns: 1fr; }
-  .brunch-dates .kv-video { max-width: 300px; }
+  .brunch-dates .brunch-vid { max-width: 300px; }
+  .brunch-dates .kv-vwrap { flex: none; aspect-ratio: 9 / 16; }
 }

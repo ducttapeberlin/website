@@ -97,7 +97,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-10-27T09:05:16+01:00",
+  "fetched": "2026-10-27T15:10:36+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -548,7 +548,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-10-27T09:05:16+01:00",
+  "fetched": "2026-10-27T15:10:36+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -681,8 +681,41 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
+ "https://rausgegangen.de/events/dressed-like-boys-13/": {
+  "fetched": "2026-10-27T15:10:36+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Bei Dressed Like Boys kommt Pop nicht als Pose, sondern aus sehr persönlichen Geschichten über queere Identität. Hinter dem Projekt steckt Jelle Denturck aus Belgien, sonst Stimme von DIRK. 🌈",
+   "endDate": "2027-04-10T23:00+0200",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/D3CFGkCfS0OIxI4TCH11_photo-dressed-like-boyscredit-sieme-hermansweb.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10179",
+     "streetAddress": "Holzmarktstraße 15-18"
+    },
+    "name": "LARK"
+   },
+   "name": "Dressed Like Boys",
+   "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "EUR",
+    "url": "https://www.eventim.de/artist/dressed-like-boys/",
+    "validFrom": "2027-04-10T19:00+0200"
+   },
+   "startDate": "2027-04-10T19:00+0200"
+  }
+ },
  "https://rausgegangen.de/events/halloween-drag-bingo-night-by-duct-tape-0/": {
-  "fetched": "2026-10-27T08:13:56+01:00",
+  "fetched": "2026-10-27T15:10:36+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -720,7 +753,7 @@
   "seen": "2026-10-27T02:02:02+01:00"
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-10-27T09:05:16+01:00",
+  "fetched": "2026-10-27T15:10:36+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -920,58 +953,5 @@
   "seen": "2026-10-22T21:04:20+02:00",
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/lina-bo-asphalt-und-sterne-tour-2026-20/": {
-  "fetched": "2026-10-27T14:13:22+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Zwischen Straße und Club klingen Lina Bó nach Unterwegssein, nach Begegnungen und diesem Leben zwischen Kulturen. Hinter dem Duo stehen Celina von Wrochem und Luca Bo Hansen 💃",
-   "endDate": "2026-11-27T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/PPDKVpxqQ2cU0aMswuwf_lina-bo-tour-2026-bild-1-small-by-malte-paulsen.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10435",
-     "streetAddress": "Knaackstraße 97"
-    },
-    "name": "Maschinenhaus"
-   },
-   "name": "Lina Bó - Asphalt und Sterne Tour 2026",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": null,
-    "lowPrice": null,
-    "offerCount": 2,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "28.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Begleitperson",
-      "price": "0.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Lina Bó"
-   },
-   "startDate": "2026-11-26T20:00+0100"
-  }
  }
 }

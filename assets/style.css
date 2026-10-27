@@ -1125,27 +1125,23 @@ h2 { line-height: 1.16; }
 /* Eventseiten mit langem Titel: Umbruch erlaubt statt Einzeiler */
 .xs-title.xs-title-wrap { white-space: normal; font-size: var(--fs-h2) !important; }
 
-/* Format-Seiten: Video neben den nächsten Terminen, genau so hoch wie die Terminliste (Emanuel, 2026-10-27).
-   Bei langen Listen (.dates-vid-sticky) behält das Video sein Format und bleibt beim Scrollen stehen. */
-.dates-vid { display: grid; grid-template-columns: minmax(0, 1fr) 280px; gap: clamp(32px, 4vw, 56px); align-items: stretch; }
+/* Format-Seiten: Video neben den nächsten Terminen, unbeschnitten im Hochformat und genau so hoch
+   wie die sichtbaren Termine (Emanuel, 2026-10-27). Die Höhe setzt main.js als --vid-h. */
+.dates-vid { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: clamp(32px, 4vw, 56px); align-items: start; }
 .dates-vid .events { margin: 0; }
-.dates-vid .dates-vid-fig { margin: 0; display: flex; flex-direction: column; min-height: 0; }
-.dates-vid .kv-vwrap { position: relative; flex: 1 1 0; min-height: 0; }
-.dates-vid .kv-vwrap video { position: absolute; inset: 0; display: block; width: 100%; height: 100%; object-fit: cover; }
-.dates-vid figcaption { flex: none; font-size: 13px; color: #CFCFCA; margin-top: 8px; white-space: nowrap; }
+.dates-vid .dates-vid-fig { margin: var(--vid-top, 28px) 0 0; width: calc(var(--vid-h, 480px) * 9 / 16); }
+.dates-vid .kv-vwrap { position: relative; height: var(--vid-h, 480px); }
+.dates-vid .kv-vwrap video { display: block; width: 100%; height: 100%; object-fit: cover; }
+.dates-vid figcaption { font-size: 13px; color: #CFCFCA; margin-top: 8px; white-space: nowrap; }
 .dates-vid figcaption a { color: inherit; }
 @media (max-width: 860px) {
   .dates-vid { grid-template-columns: 1fr; }
-  .dates-vid .dates-vid-fig { max-width: 300px; }
-  .dates-vid .kv-vwrap { flex: none; aspect-ratio: 9 / 16; }
+  .dates-vid .dates-vid-fig { margin-top: 0; width: 100%; max-width: 300px; }
+  .dates-vid .kv-vwrap { height: auto; aspect-ratio: 9 / 16; }
 }
 
 /* Terminlisten: Datum, Text und Knopf oben bündig, damit alle Knöpfe an derselben Stelle sitzen (Emanuel, 2026-10-27) */
 @media (min-width: 721px) {
   .events .event { align-items: start; }
   .events .event > .btn { align-self: start; margin-top: 2px; }
-}
-@media (min-width: 861px) {
-  .dates-vid.dates-vid-sticky .dates-vid-fig { align-self: start; position: sticky; top: 96px; }
-  .dates-vid.dates-vid-sticky .kv-vwrap { flex: none; aspect-ratio: 9 / 16; }
 }

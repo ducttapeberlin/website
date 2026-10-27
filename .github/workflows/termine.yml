@@ -18,10 +18,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: rausgegangen-Organizer-Seite laden
         continue-on-error: true
+        # rausgegangen zeigt pro Seite nur ca. 10 Termine ("Load more"), deshalb ?page=2, 3 … bis keine neuen Events mehr kommen
         run: |
-          timeout 60 google-chrome --headless=new --no-sandbox --disable-gpu --virtual-time-budget=15000 \
-            --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0 Safari/537.36" \
-            --dump-dom https://rausgegangen.de/organizations/duct-tape/ > "$RUNNER_TEMP/rausgegangen.html" 2>/dev/null
+          out="$RUNNER_TEMP/rausgegangen.html"; : > "$out"
+          for page in 1 2 3 4 5 6; do
+            timeout 60 google-chrome --headless=new --no-sandbox --disable-gpu --virtual-time-budget=15000 \
+              --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0 Safari/537.36" \
+              --dump-dom "https://rausgegangen.de/organizations/duct-tape/?page=$page" > "$RUNNER_TEMP/page.html" 2>/dev/null || true
+            new=$(grep -oE '/events/[^"/?#]+' "$RUNNER_TEMP/page.html" | sort -u | grep -vxFf <(grep -oE '/events/[^"/?#]+' "$out" | sort -u) | wc -l)
+            cat "$RUNNER_TEMP/page.html" >> "$out"
+            echo "Seite $page: $new neue Events"
+            [ "$new" -eq 0 ] && break
+          done
       - name: Pillow für die Poster
         continue-on-error: true
         run: python3 -m pip install --quiet --break-system-packages pillow

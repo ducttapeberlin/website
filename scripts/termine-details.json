@@ -681,6 +681,44 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
+ "https://rausgegangen.de/events/halloween-drag-bingo-night-by-duct-tape-0/": {
+  "fetched": "2026-10-27T02:02:02+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "HALLOWEEN SPECIAL: DRAG BINGO @ LAMM BAR 🎃An Halloween wird's gruselig gut: EMI von DUCT TAPE kommt in die Lamm Bar für ein Drag Bingo Halloween Special!Freut euch auf 3 Runden Bingo, leckere Drinks und natürlich eine fabelhafte Drag Performance. Zu gewinnen gibt es tolle Preise, und wer im Kostüm kommt, ist besonders willkommen. 👻Reserviert euren Platz per Mail an mail@lammbar.de.📅 Samstag, 31.10.26 ⏰ 20:00–22:00 Uhr 💸 5 € pro Person 📍 Lamm Bar, Wisbyer Straße 1, 10439 BerlinMehr von DUCT TAPE: ducttape.berlin",
+   "endDate": "2026-10-31T22:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/apDdqejTRCxszs22zUR7_hallowwenqueeremi.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10439",
+     "streetAddress": "Wisbyer Straße 1"
+    },
+    "name": "Lamm Bar"
+   },
+   "name": "HALLOWEEN DRAG BINGO NIGHT by DUCT TAPE",
+   "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "EUR",
+    "validFrom": "2026-10-31T20:00+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "DUCT TAPE",
+    "url": "https://rausgegangen.de/organizations/duct-tape/"
+   },
+   "startDate": "2026-10-31T20:00+0100"
+  },
+  "seen": "2026-10-27T02:02:02+01:00"
+ },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
   "fetched": "2026-10-26T20:57:44+01:00",
   "ld": {
@@ -883,16 +921,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/just-signed-3/": {
-  "fetched": "2026-10-27T00:51:04+01:00",
+ "https://rausgegangen.de/events/skuppin-musee-sentimental-tour-2027-10/": {
+  "fetched": "2026-10-27T02:02:02+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Drei Acts, frisch unterschrieben, und noch nichts wirkt geschniegelt. Yasola, Victoria West und PARA zeigen Pop, Rap und Indie lieber mit Ecken und eigener Handschrift als auf Nummer sicher 🌈",
-   "endDate": "2026-11-19T05:00+0100",
+   "description": "Kühle Synths, düstere Bässe, und dann diese Stimme, die plötzlich mehr Druck hat, als man erst denkt. SKUPPIN bringt auf der Musée Sentimental Tour neuen Stoff mit und steht live nicht allein auf der Bühne 👀",
+   "endDate": "2027-11-26T22:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/PNsu3JEFSvqskyhEJ5cd_26justsigned18-11websitenews1080x1920.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Y4GElzxUQ8avCC0sjfVr_pressefotoskuppinstellawei00edit.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -900,25 +938,24 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10969",
-     "streetAddress": "Ritterstraße 24-27"
+     "postalCode": "10997",
+     "streetAddress": "Skalitzer Strasse 85-86"
     },
-    "name": "MODUS Berlin"
+    "name": "Privatclub Berlin"
    },
-   "name": "Just Signed!",
+   "name": "SKUPPIN - \"Musée Sentimental\" Tour 2027",
    "offers": {
     "@type": "Offer",
-    "price": "10.00",
+    "price": 0,
     "priceCurrency": "EUR",
-    "url": "https://tickets.infield.live/event/just-signed-0qyt3h",
-    "validFrom": "2026-11-18T19:00+0100"
+    "url": "https://loveyourartist.com/de/profiles/skuppin-YAJ7YR/events",
+    "validFrom": "2027-11-26T20:00+0100"
    },
-   "organizer": {
-    "@type": "Organization",
-    "name": "RBX GmbH",
-    "url": "https://rausgegangen.de/organizations/rbx-gmbh/"
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "SKUPPIN"
    },
-   "startDate": "2026-11-18T19:00+0100"
+   "startDate": "2027-11-26T20:00+0100"
   }
  }
 }

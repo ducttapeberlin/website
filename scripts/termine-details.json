@@ -193,16 +193,16 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/berlin-premiere-von-identitti-0/": {
-  "fetched": "2026-10-27T23:54:42+01:00",
+ "https://rausgegangen.de/events/cirque-de-lafrique-x-afro-life-0/": {
+  "fetched": "2026-10-28T00:51:58+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Eine Dozentin, die sich als Deutsche statt als Inderin entpuppt, und plötzlich steht alles auf dem Spiel, was Nivedita über Zugehörigkeit glaubt. Zur Berlin Premiere kommen Regisseurin Randa Chahoud und die drei Hauptdarsteller:innen 👀",
-   "endDate": "2026-11-11T23:00+0100",
+   "description": "CIRQUE DE L’AFRIQUE x AFRO LIVEZirkus trifft Clubnacht. Und du bist mittendrin!Was passiert, wenn Akrobat, Tänzer, Live-Musik und DJs auf einer Tanzfläche zusammenkommen?Am 28. November bringt Cirque de l’Afrique x Afro Live genau dieses Erlebnis ins MAAYA Berlin!Freu dich auf spektakuläre Akrobatik, mitreißende Tanzperformances und überraschende Showmomente, während die Musik die ganze Nacht weiterläuft. Hier wird nicht einfach nur aufgelegt oder eine Show gespielt. Alles passiert gleichzeitig, direkt um dich herum!Mit dabei ist Heaven Sam aka Mr. Afro Disco. Mit seiner Mischung aus DJ-Sets, kraftvollen Live-Drums und Klavier bringt er eine ganz besondere Energie in den Raum.Musikalisch erwartet dich ein Mix aus afrikanischen, karibischen und elektronischen Sounds, von Afrobeats und Amapiano über Afro House bis hin zu Dancehall.Ob du zum Tanzen kommst, die Performances erleben möchtest oder einfach nach einer außergewöhnlichen Partynacht in Berlin suchst: Cirque de l’Afrique bringt all das zusammen.Keine gewöhnliche Party. Keine gewöhnliche Show. Ein Abend, an dem du mittendrin bist!LINE-UPHeaven Sam DJ Nomi Prince M.I.K Freak de l’Afrique Papi Da SilvaSamstag, 28. November 2026 | Ab 23:00 UhrMAAYA Berlin Revaler Straße 99, 10245 Berlin-Friedrichshain",
+   "endDate": "2026-11-29T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/UpkPFnCOQwa1jeFARHMh_design-ohne-titel-3.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/1QUGShU6TAyJw5njoxDH_cirque-de-lafrique-3.png"
    ],
    "location": {
     "@type": "Place",
@@ -210,19 +210,25 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10407",
-     "streetAddress": "Bötzowstraße 1-5"
+     "postalCode": "10245",
+     "streetAddress": "Revaler Straße 99"
     },
-    "name": "Filmtheater am Friedrichshain"
+    "name": "MAAYA"
    },
-   "name": "Berlin-Premiere von IDENTITTI",
+   "name": "Cirque de l'Afrique x Afro Life",
    "offers": {
     "@type": "Offer",
-    "price": "14.00",
+    "price": "15.00",
     "priceCurrency": "EUR",
-    "validFrom": "2026-11-11T20:00+0100"
+    "url": "https://xceed.me/en/berlin/event/cirque-de-lafrique-x-afro-live-w-heaven-sam-281126/248062/channel/maaya-berlin",
+    "validFrom": "2026-11-28T23:00+0100"
    },
-   "startDate": "2026-11-11T20:00+0100"
+   "organizer": {
+    "@type": "Organization",
+    "name": "Freak De L'Afrique",
+    "url": "https://rausgegangen.de/organizations/freak-de-lafrique/"
+   },
+   "startDate": "2026-11-28T23:00+0100"
   }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
@@ -306,6 +312,39 @@
   "seen": "2026-10-20T15:24:41+02:00",
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
+ },
+ "https://rausgegangen.de/events/die-jazzpianistin-5/": {
+  "fetched": "2026-10-28T00:51:58+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Das Leben einer Jazz Virtuosin, die das Rampenlicht nicht aushielt.Kennen Sie Jutta Hipp? Die Pianistin, die es Mitte des 20. Jahrhunderts aus Leipzigs illegalen Jazzkellern bis nach ganz oben in die New Yorker Jazzszene geschafft hat? Die Pionierin des deutschen Jazz? Ach was, Europe ́s First Lady of Jazz! Geben Sie es zu, Sie kennen Sie nicht. Und das ist leider nicht verwunderlich. Jutta Hipp wurde ein Star, eine Virtuosin am Piano, doch sie hielt das Scheinwerferlicht nicht aus. Am Zenit ihrer Karriere traf sie eine radikale Entscheidung und berührte seither nie wieder die schwarz-weißen Tasten, die für sie einst ihr Leben bedeuteten. Seither ist ihr Werk, ihr Wirken wie wegradiert. Die Musik von Jutta Hipp wird heute nicht mehr gespielt. Fast so, als hätte es sie nie gegeben. Das einfühlsame Theaterstück „Die Jazzpianistin“ von Patricia Hoffmann erzählt die außergewöhnliche Lebensgeschichte dieser fast vergessenen Künstlerin. Von ihrer Geburtsstadt Leipzig und der heimlichen Liebe zum verbotenen Jazz während der NS-Zeit über den kometenhaften Aufstieg bis zu triumphalen Auftritten in New York – und ihrem plötzlichen Schweigen. Es zeigt die Schattenseiten des Ruhms, Jutta Hipps großen Fall, der in Alkoholsucht und Obdachlosigkeit mündete. Ein Kampf um die Freiheit und das Glück.Unter der musikalischen Leitung von Antonia Hausmann wird Hipps bewegendes Leben wieder hörbar und spürbar. Musik, Theater und Geschichte verweben sich zu einer Hommage an eine Frau, die viel zu früh verstummte – und doch unvergessen bleiben sollte.Musikalische Leitung: Antonia HausmannLeo Klein: Patricia HoffmannJutta Hipp: Beate PitronikJutta Hipp: Daniela BolligerKenny Burrell: Bertram BurkertFrankie Dunlop: Philipp ScholzAssistent: Philipp KrügerMelba Liston: Antonia HausmannRegie: Patricia Hoffmann",
+   "endDate": "2026-10-28T23:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/ocCIVczpQYeHzTbetYoi_juttahipp-websitephoto-lines-min-gro.jpeg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10115",
+     "streetAddress": "Invalidenstr.117"
+    },
+    "name": "Kunstfabrik Schlot"
+   },
+   "name": "DIE JAZZPIANISTIN",
+   "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "EUR",
+    "url": "https://kunstfabrik-schlot.de/event/die-jazzpianistin-ein-jazz-theaterstueck-ueber-europes-first-lady-of-jazz/",
+    "validFrom": "2026-10-28T21:00+0100"
+   },
+   "startDate": "2026-10-28T21:00+0100"
+  }
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
   "fetched": "2026-10-27T23:54:42+01:00",
@@ -713,16 +752,16 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
- "https://rausgegangen.de/events/florence-road-4/": {
-  "fetched": "2026-10-27T22:56:20+01:00",
+ "https://rausgegangen.de/events/fiona-fiasco-0/": {
+  "fetched": "2026-10-28T00:51:58+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Vier Freundinnen aus Wicklow machen Songs, in denen Gitarren auch mal schaben und gleich danach alles offen daliegt. Erst kamen die Clips im Fish Eye Look, jetzt steht Florence Road wieder auf Deutschlandtour 👀",
-   "endDate": "2027-05-04T23:00+0200",
+   "description": "Da steht eine Band erst in der Lobby eines alten Hotels und im nächsten Moment auf einer Landstraße zwischen Wiese und Wald. Fiona Fiascos EP ist über anderthalb Jahre an sehr verschiedenen Orten zusammengekommen, und genau dieses schöne Verrutschen bleibt hängen 👀",
+   "endDate": "2027-04-08T22:30+0200",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/P5gbWKQXSL4xQ42hqqg8_photo-florence-roadcredit-kate-cummings-kopie.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/9gkLl9IRS4aHbQ1M9mSl_fiona-fiasco-georgia-spain.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -730,20 +769,25 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "12043",
-     "streetAddress": "Karl-Marx-Straße 141"
+     "postalCode": "10119",
+     "streetAddress": "Schönhauser Allee 177b"
     },
-    "name": "Heimathafen Neukölln"
+    "name": "8mm Bar"
    },
-   "name": "Florence Road",
+   "name": "Fiona Fiasco",
    "offers": {
     "@type": "Offer",
-    "price": "29.00",
+    "price": "15.00",
     "priceCurrency": "EUR",
-    "url": "https://www.eventim.de/noapp/event/florence-road-heimathafen-neukoelln-22156758/?affiliate=SZ3&utm_campaign=SzeneTickets+GmbH&utm_source=SZ3&utm_medium=dp",
-    "validFrom": "2027-05-04T20:00+0200"
+    "url": "https://www.tixforgigs.com/Event/75587/fiona-fiasco-neue-zukunft-small-room-berlin",
+    "validFrom": "2027-04-08T20:00+0200"
    },
-   "startDate": "2027-05-04T20:00+0200"
+   "organizer": {
+    "@type": "Organization",
+    "name": "Puschen",
+    "url": "https://rausgegangen.de/organizations/puschen/"
+   },
+   "startDate": "2027-04-08T20:00+0200"
   }
  },
  "https://rausgegangen.de/events/halloween-drag-bingo-night-by-duct-tape-0/": {
@@ -783,6 +827,38 @@
    "startDate": "2026-10-31T20:00+0100"
   },
   "seen": "2026-10-27T02:02:02+01:00"
+ },
+ "https://rausgegangen.de/events/herbst-bitte-lieb-mich-tourdrama-2027-10/": {
+  "fetched": "2026-10-28T00:51:58+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Popkonzert reicht ihm offenbar nicht, herbst baut seine Songs zu einem richtigen Tourdrama zusammen. Während das zweite Album bitte lieb mich schon am Horizont hängt, wirkt diese Show eher wie ein Kapitel mit Ansage 👀",
+   "endDate": "2027-04-07T06:00+0200",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/gyqSBVZRZyy3BRI8MAow_herbst2026by-andy-rumball03.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "12051",
+     "streetAddress": "Hermannstraße 146"
+    },
+    "name": "Hole44"
+   },
+   "name": "herbst /// bitte lieb mich - tourdrama 2027",
+   "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "EUR",
+    "validFrom": "2027-04-06T19:00+0200"
+   },
+   "startDate": "2027-04-06T19:00+0200"
+  }
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
   "fetched": "2026-10-27T20:46:24+01:00",
@@ -986,16 +1062,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/maaya-halloween-0/": {
-  "fetched": "2026-10-27T23:54:42+01:00",
+ "https://rausgegangen.de/events/just-signed-3/": {
+  "fetched": "2026-10-28T00:51:58+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "MAAYA HALLOWEEN 2026 | 2 Floors & Costume ContestAm 31. Oktober wird MAAYA zur Halloween-Party für alle, die keine Lust auf einen gewöhnlichen Samstagabend haben.Zwei Floors, unterschiedliche Sounds, ausgefallene Kostüme und eine Nacht, in der du ruhig ein bisschen übertreiben darfst.🎶 TWO FLOORS, TWO VIBES🔥 FREAK DE L’AFRIQUE FLOOR Mit Shorty, Wallizz und Jimah. Hosted by Copado, mit den Fola Dancers.🔥 AFRO HOUSE FLOOR Mit AFU 🇰🇪 und Aunty Cece.Von Afrobeats und Amapiano bis zu Afro House. Wechsel zwischen den Floors, finde deinen Sound und tanz bis spät in die Nacht.🏆 THE BIG COSTUME CONTESTHalloween ohne Kostüm? Kann man machen. Aber warum?Egal ob gruselig, sexy, lustig oder komplett verrückt: Wir suchen die besten Halloween-Looks der Nacht!🏆 Best Single Costume🏆 Best Group CostumeZu gewinnen gibt es Drinks, eine Flasche für die Crew und Tickets für unsere MAAYA New Year's Eve Party.Also schnapp dir deine Leute, plant eure Outfits und zeigt uns, was ihr draufhabt.🎃 MAAYA HALLOWEEN 2026📅 Samstag, 31. Oktober 2026🕚 Ab 23:00 Uhr bis spät📍 MAAYA Berlin, Revaler Str. 99, 10245 Berlin🎟️ Tickets ab 12 €Ob du zum Tanzen, wegen der Kostüme oder einfach für eine gute Halloween-Nacht kommst: Bei MAAYA bist du richtig.Bring your crew. Dress up. See you on the dancefloor.",
-   "endDate": "2026-11-01T06:00+0100",
+   "description": "Drei Acts, frisch unterschrieben, und noch nichts wirkt geschniegelt. Yasola, Victoria West und PARA zeigen Pop, Rap und Indie lieber mit Ecken und eigener Handschrift als auf Nummer sicher 🌈",
+   "endDate": "2026-11-19T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/AhctdPmmTs0abHUcD5Yl_facebook-4.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/PNsu3JEFSvqskyhEJ5cd_26justsigned18-11websitenews1080x1920.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -1003,37 +1079,37 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10245",
-     "streetAddress": "Revaler Straße 99"
+     "postalCode": "10969",
+     "streetAddress": "Ritterstraße 24-27"
     },
-    "name": "MAAYA"
+    "name": "MODUS Berlin"
    },
-   "name": "MAAYA HALLOWEEN 2026 | 2 Floors & Costume Contest",
+   "name": "Just Signed!",
    "offers": {
     "@type": "Offer",
-    "price": "12.00",
+    "price": "10.00",
     "priceCurrency": "EUR",
-    "url": "https://xceed.me/en/berlin/event/maaya-halloween/243650/channel/maaya-berlin",
-    "validFrom": "2026-10-31T23:00+0100"
+    "url": "https://tickets.infield.live/event/just-signed-0qyt3h",
+    "validFrom": "2026-11-18T19:00+0100"
    },
    "organizer": {
     "@type": "Organization",
-    "name": "Maaya Berlin",
-    "url": "https://rausgegangen.de/organizations/page-for-team-maaya-berlin-2/"
+    "name": "RBX GmbH",
+    "url": "https://rausgegangen.de/organizations/rbx-gmbh/"
    },
-   "startDate": "2026-10-31T23:00+0100"
+   "startDate": "2026-11-18T19:00+0100"
   }
  },
- "https://rausgegangen.de/events/musical-spheres-ant-enoch-ava-joe-caro-schaeffler-0/": {
-  "fetched": "2026-10-27T23:54:42+01:00",
+ "https://rausgegangen.de/events/love-at-first-slide-berlin-power-point-dating-by-rausgegange-13/": {
+  "fetched": "2026-10-28T00:51:58+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "LiveDrei exklusive Live-Performances an einem Abend: In »musical spheres« verwandeln musikalische Acts die Bühne des Planetariumssaals und nehmen euch mit in ein einzigartiges Konzert unter dem Himmelszelt. Aufstrebende Musik-Stars umgeben von 360°-Visuals, die live gesteuert werden und das Publikum in neue galaktische Weiten eintauchen lassen, ermöglichen ein ganz besonderes und effektvolles Erlebnis.Die Konzertreihe »musical spheres« vereint kosmische Live-Performances mit eindrucksvollen Visualisierungen.Folgendes Line-up erwartet euch am 17. November 2026:ANT ENOCHDer in Sydney und Berlin lebende Künstler ANT ENOCH schreibt Hymnen zum Weinen auf der Tanzfläche. Sein melodischer Bedroom Pop verbindet seine Liebe zu melancholischen Dance-Balladen der 1980er Jahre mit einer zeitgenössischen analogen Ästhetik. Seine selbst produzierte Debüt-EP »Big Talk Big Party« aus dem Jahr 2024 entstand aus der Isolation während der Pandemie und vereint klassische japanische Drum Machines, sehr persönliche Texte sowie Klavier, Synthesizer und Violine. Frühe Songwriting-Experimente führten ihn an Musikhochschulen in Sydney und Toronto, wo er in kleinen Clubs spielte. Heute lebt er zwischen Berlin und Bankstown und begeistert mit seinen Live-Shows u.a. in Berlin, München und Sydney sowie auf Festivals.AVA JOEMit ihren jungen 22 Jahren wirkt es zunächst ungewöhnlich, Ava Joe als »alte Seele« zu bezeichnen – doch ihre Leidenschaft für Geschichten und ihre Fähigkeit, persönliche Erfahrungen in romantische Momentaufnahmen zu verwandeln, sprechen dafür. Inspiriert von Kunst, Musik und Film sowie Künstler*innen wie Frank Sinatra, Marilyn Monroe oder Brigitte Bardot, entwickelte sie eine zeitlose musikalische Ästhetik. Ihre Debütsingle »Black Smoke« entführt in die Geschichte einer vergangenen Beziehung, geprägt von toxischer Co-Abhängigkeit. Aufgewachsen in Devon, Irland und London, studierte sie Musikperformance an der Brit School und Gesang an der ACM und etablierte sich seitdem als eindrucksvolle Sängerin und Performerin.Caro SchaefflerCaro Schaeffler versucht mit ihrer Kunst eine Welt zu schaffen, in der man sich verlieren, aber auch wiederfinden kann. Als selbsternannte »hoffnungslose Romantikerin« verwandelt sie flüchtige Augenblicke in intime, zeitlose Kunst. Ihre Musik bewegt sich zwischen Melancholie und jugendlicher Naivität: Chansonartige Balladen treffen auf organische und moderne Pop-Elemente. Ihre persönlichen Songs erzählen davon, in allen Erfahrungen – auch den schmerzhaften – Schönheit zu entdecken und diese mit anderen zu teilen. Auch ihre visuelle Sprache ist geprägt von poetischer Nostalgie, Filmklassikern und Gemälde-Welten. Ihr langfristiges Ziel: Kunst zu schaffen, die bleibt, in einer Welt der immer weiter voranschreitenden Kurzweiligkeit",
-   "endDate": "2026-11-17T22:45+0100",
+   "description": "Wir bringen mit LOVE AT FIRST SLIDE Dating auf die Bühne: Freund:innen stellen in kurzen Power Point Präsentationen ihre Lieblingssingle vor – charmant, humorvoll und ganz ohne Swipe. Nach den witzigen Pitches kannst du bei Speed-Dating und Barabend neue Begegnungen entdecken. 💘🎤💫",
+   "endDate": "2026-11-11T23:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/HfkXA2pHTqmYUNBQPSZR_spbmusicalspheresheaderallefarbenmar24rz2.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/G4DW5S6EQHOrXfM562GP_lafsbannerappstraight-2-5.png"
    ],
    "location": {
     "@type": "Place",
@@ -1041,90 +1117,79 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10405",
-     "streetAddress": "Prenzlauer Allee 80"
+     "postalCode": "10625",
+     "streetAddress": "Kantstraße 127"
     },
-    "name": "Zeiss-Großplanetarium Berlin"
+    "name": "Dufte Berlin"
    },
-   "name": "Musical spheres: ANT ENOCH, AVA JOE & Caro Schaeffler",
+   "name": "LOVE AT FIRST SLIDE Berlin | Power Point Dating by Rausgegangen 💖",
    "offers": {
-    "@type": "Offer",
-    "price": "25.00",
-    "priceCurrency": "EUR",
-    "url": "https://www.planetarium.berlin/veranstaltungen/musical-spheres-im-november",
-    "validFrom": "2026-11-17T21:00+0100"
+    "@type": "AggregateOffer",
+    "highPrice": "19.50",
+    "lowPrice": "10.00",
+    "offerCount": 5,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Presenterticket",
+      "price": "10.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Publikum Ticket | Ich bin eine hetero Frau",
+      "price": "19.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Publikum Ticket | Ich bin ein hetero Mann",
+      "price": "19.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Publikum Ticket | Ich bin queer",
+      "price": "19.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Mitgegangen",
+      "price": "3.80",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
    },
-   "startDate": "2026-11-17T21:00+0100"
-  }
- },
- "https://rausgegangen.de/events/restaurantweek-berlin-drei-gange-menus-zum-festivalpreis-281-0/": {
-  "fetched": "2026-10-27T23:54:42+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Dieses kurze Zögern vor einer Restaurantreservierung kennen leider alle. Die RestaurantWeek nimmt genau das raus, mit eigens zusammengestellten Drei Gängen zum festen Preis in teilnehmenden Restaurants 🙂",
-   "endDate": "2026-11-22T00:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/jjEJICYUTVKs7SN4XuSA_rw-logo-without-trademark-navy.png"
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "LOVE AT FIRST SLIDE BERLIN by Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/love-at-first-slide-berlin-by-rausgegangen/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Love at first Slide by Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/page-for-team-love-at-first-slide-by-rausgegangen/"
+    },
+    {
+     "@type": "Organization",
+     "name": "LOVE AT FIRST SLIDE by Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/love-at-first-slide-by-rausgegangen/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Team Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/team-rausgegangen/"
+    }
    ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": null,
-     "postalCode": null,
-     "streetAddress": null
-    },
-    "name": "Berlin"
-   },
-   "name": "RestaurantWeek Berlin: Drei-Gänge-Menüs zum Festivalpreis, 28.10.–22.11.",
-   "offers": {
-    "@type": "Offer",
-    "price": "29.00",
-    "priceCurrency": "EUR",
-    "url": "https://restaurant-week.de/restaurantweek?utm_type=partner&utm_medium=email&utm_campaign=RWD26A&utm_content=Rausgegangen",
-    "validFrom": "2026-10-28T00:00+0100"
-   },
-   "startDate": "2026-10-28T00:00+0100"
-  }
- },
- "https://rausgegangen.de/events/skuppin-musee-sentimental-tour-2027-10/": {
-  "fetched": "2026-10-27T23:54:42+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Kühle Synths, düstere Bässe, und dann diese Stimme, die plötzlich mehr Druck hat, als man erst denkt. SKUPPIN bringt auf der Musée Sentimental Tour neuen Stoff mit und steht live nicht allein auf der Bühne 👀",
-   "endDate": "2027-11-26T22:30+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Y4GElzxUQ8avCC0sjfVr_pressefotoskuppinstellawei00edit.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10997",
-     "streetAddress": "Skalitzer Strasse 85-86"
-    },
-    "name": "Privatclub Berlin"
-   },
-   "name": "SKUPPIN - \"Musée Sentimental\" Tour 2027",
-   "offers": {
-    "@type": "Offer",
-    "price": 0,
-    "priceCurrency": "EUR",
-    "url": "https://loveyourartist.com/de/profiles/skuppin-YAJ7YR/events",
-    "validFrom": "2027-11-26T20:00+0100"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "SKUPPIN"
-   },
-   "startDate": "2027-11-26T20:00+0100"
+   "startDate": "2026-11-11T19:00+0100"
   }
  }
 }

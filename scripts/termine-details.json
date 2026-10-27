@@ -275,6 +275,39 @@
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/die-jazzpianistin-5/": {
+  "fetched": "2026-10-27T12:55:57+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Das Leben einer Jazz Virtuosin, die das Rampenlicht nicht aushielt.Kennen Sie Jutta Hipp? Die Pianistin, die es Mitte des 20. Jahrhunderts aus Leipzigs illegalen Jazzkellern bis nach ganz oben in die New Yorker Jazzszene geschafft hat? Die Pionierin des deutschen Jazz? Ach was, Europe ́s First Lady of Jazz! Geben Sie es zu, Sie kennen Sie nicht. Und das ist leider nicht verwunderlich. Jutta Hipp wurde ein Star, eine Virtuosin am Piano, doch sie hielt das Scheinwerferlicht nicht aus. Am Zenit ihrer Karriere traf sie eine radikale Entscheidung und berührte seither nie wieder die schwarz-weißen Tasten, die für sie einst ihr Leben bedeuteten. Seither ist ihr Werk, ihr Wirken wie wegradiert. Die Musik von Jutta Hipp wird heute nicht mehr gespielt. Fast so, als hätte es sie nie gegeben. Das einfühlsame Theaterstück „Die Jazzpianistin“ von Patricia Hoffmann erzählt die außergewöhnliche Lebensgeschichte dieser fast vergessenen Künstlerin. Von ihrer Geburtsstadt Leipzig und der heimlichen Liebe zum verbotenen Jazz während der NS-Zeit über den kometenhaften Aufstieg bis zu triumphalen Auftritten in New York – und ihrem plötzlichen Schweigen. Es zeigt die Schattenseiten des Ruhms, Jutta Hipps großen Fall, der in Alkoholsucht und Obdachlosigkeit mündete. Ein Kampf um die Freiheit und das Glück.Unter der musikalischen Leitung von Antonia Hausmann wird Hipps bewegendes Leben wieder hörbar und spürbar. Musik, Theater und Geschichte verweben sich zu einer Hommage an eine Frau, die viel zu früh verstummte – und doch unvergessen bleiben sollte.Musikalische Leitung: Antonia HausmannLeo Klein: Patricia HoffmannJutta Hipp: Beate PitronikJutta Hipp: Daniela BolligerKenny Burrell: Bertram BurkertFrankie Dunlop: Philipp ScholzAssistent: Philipp KrügerMelba Liston: Antonia HausmannRegie: Patricia Hoffmann",
+   "endDate": "2026-10-28T23:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/ocCIVczpQYeHzTbetYoi_juttahipp-websitephoto-lines-min-gro.jpeg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10115",
+     "streetAddress": "Invalidenstr.117"
+    },
+    "name": "Kunstfabrik Schlot"
+   },
+   "name": "DIE JAZZPIANISTIN",
+   "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "EUR",
+    "url": "https://kunstfabrik-schlot.de/event/die-jazzpianistin-ein-jazz-theaterstueck-ueber-europes-first-lady-of-jazz/",
+    "validFrom": "2026-10-28T21:00+0100"
+   },
+   "startDate": "2026-10-28T21:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
   "fetched": "2026-10-27T11:02:07+01:00",
   "ld": {
@@ -680,79 +713,6 @@
    "startDate": "2026-11-15T12:00+0100"
   },
   "seen": "2026-10-20T15:24:41+02:00"
- },
- "https://rausgegangen.de/events/geheimkonzert-berlin-24-by-rausgegangen-0/": {
-  "fetched": "2026-10-27T11:59:52+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Na Hallo! Es ist wieder so weit: Ein Abend voller Überraschung - denn wer auf der Bühne steht, bleibt bis zum ersten Ton geheim. Wir hatten schon Blond, Berq, Ennio, Futurebae, Jassin, Anais, Katha Pauer & viele mehr zu Gast – und das schon bevor sie die großen Bühnen der Nation gestürmt haben. Also entdecke die Stars von Morgen bei unseren Geheimkonzerten. 🪩",
-   "endDate": "2026-12-09T22:15+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/mO31iODjTCuFLVfQ493H_gk202516x9photoheadline-32-1.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin"
-    },
-    "name": "Secret location"
-   },
-   "name": "Geheimkonzert Berlin #24 by Rausgegangen",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "29.90",
-    "lowPrice": "24.50",
-    "offerCount": 4,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "EARLY BIRD",
-      "price": "21.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "REGULAR",
-      "price": "26.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "4er FRIENDS BUNDLE für 98€",
-      "price": "24.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Mitgegangen",
-      "price": "3.80",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "Rausgegangen Geheimkonzerte",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Rausgegangen Geheimkonzerte Berlin",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte-3/"
-    }
-   ],
-   "startDate": "2026-12-09T20:00+0100"
-  }
  },
  "https://rausgegangen.de/events/halloween-drag-bingo-night-by-duct-tape-0/": {
   "fetched": "2026-10-27T08:13:56+01:00",

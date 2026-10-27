@@ -1,0 +1,21 @@
+name: debug rausgegangen
+on:
+  push:
+    branches: [debug-rg]
+    paths: [".github/workflows/debug-rg.yml"]
+permissions:
+  contents: write
+jobs:
+  dump:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          mkdir -p debug
+          timeout 60 google-chrome --headless=new --no-sandbox --disable-gpu --virtual-time-budget=15000 \
+            --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0 Safari/537.36" \
+            --dump-dom https://rausgegangen.de/organizations/duct-tape/ > debug/org.html 2>/dev/null || true
+          timeout 60 google-chrome --headless=new --no-sandbox --disable-gpu --virtual-time-budget=15000 \
+            --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0 Safari/537.36" \
+            --dump-dom "https://rausgegangen.de/organizations/duct-tape/?page=2" > debug/org2.html 2>/dev/null || true
+          git add debug && git config user.name bot && git config user.email bot@x && git commit -m dump && git push

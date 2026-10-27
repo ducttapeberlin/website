@@ -13,6 +13,7 @@ import io
 import json
 import os
 import re
+import urllib.parse
 import shutil
 import unicodedata
 import subprocess
@@ -64,6 +65,9 @@ EN = {"weekdays": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Satu
       "table": "Book a table", "event_page": "Event page", "more": "Read more", "empty": "New dates coming soon.",
       "opentable": "en-GB", "prefix": "../"}
 L = DE
+
+# Tisch-Reservierung per Mail für Bars ohne Online-Buchung (Emanuel, 2026-10-27): Schlüssel = Teil des Ortsnamens
+RESERVIERUNG_MAIL = {"torte": "table@torte-bar.de", "bademeister": "mail@bademeisterbar.de"}
 
 
 def esc(s):
@@ -195,6 +199,25 @@ def button(row):
         booking = OPENTABLE.format(lang=L["opentable"], date=date.isoformat(), time=f"{t[0]:02d}%3A{t[1]:02d}")
     if booking.startswith("http"):
         return f'<a class="btn btn-ghost" href="{esc(booking)}" target="_blank" rel="noopener">{L["table"]}</a>'
+    mail = reservation_mail(row)
+    if mail:
+        what = "Drag Bingo" if row.get("Format") == "Drag Bingo" else (row.get("Titel") or "").strip()
+        subject = urllib.parse.quote(f"Tischreservierung {what} {date:%d.%m.%Y}")
+        return f'<a class="btn btn-ghost" href="mailto:{mail}?subject={subject}">{L["table"]}</a>'
+    return None
+
+
+def reservation_mail(row):
+    """Mailadresse für Tischreservierungen: feste Bars nach Ort, sonst eine Adresse, die im Eventtext
+    im Zusammenhang mit einer Reservierung steht."""
+    venue = (row.get("Location") or "").lower()
+    for key, mail in RESERVIERUNG_MAIL.items():
+        if key in venue:
+            return mail
+    desc = row.get("Beschreibung") or ""
+    for m in re.finditer(r"[\w.+-]+@[\w-]+(?:\.[\w-]+)+", desc):
+        if re.search(r"reserv|tisch|table", desc[max(0, m.start() - 120):m.end() + 40], re.I):
+            return m.group(0).rstrip(".")
     return None
 
 

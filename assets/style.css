@@ -1125,19 +1125,21 @@ h2 { line-height: 1.16; }
 /* Eventseiten mit langem Titel: Umbruch erlaubt statt Einzeiler */
 .xs-title.xs-title-wrap { white-space: normal; font-size: var(--fs-h2) !important; }
 
-/* Format-Seiten: Video neben den nächsten Terminen, unbeschnitten im Hochformat und genau so hoch
-   wie die sichtbaren Termine (Emanuel, 2026-10-27). Die Höhe setzt main.js als --vid-h. */
+/* Format-Seiten: Video neben den nächsten Terminen, oben und unten leicht beschnitten und genau so hoch
+   wie die sichtbaren Termine (Emanuel, 2026-10-27). Die Höhe setzt main.js als --vid-h.
+   Mobil steht das Video über den Terminen, damit es beim Aufklappen nicht mitwandert. */
 .dates-vid { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: clamp(32px, 4vw, 56px); align-items: start; }
 .dates-vid .events { margin: 0; }
 .dates-vid .dates-vid-fig { margin: var(--vid-top, 28px) 0 0; width: calc(var(--vid-h, 480px) * 2 / 3); }
 .dates-vid .kv-vwrap { position: relative; height: var(--vid-h, 480px); }
 .dates-vid .kv-vwrap video { display: block; width: 100%; height: 100%; object-fit: cover; }
-.dates-vid figcaption { font-size: 13px; color: #CFCFCA; margin-top: 8px; white-space: nowrap; }
+.dates-vid figcaption { font-size: 13px; color: #CFCFCA; margin-top: 8px; line-height: 1.4; }
+.dates-vid figcaption .nw { white-space: nowrap; }
 .dates-vid figcaption a { color: inherit; }
 @media (max-width: 860px) {
   .dates-vid { grid-template-columns: 1fr; }
-  .dates-vid .dates-vid-fig { margin-top: 0; width: 100%; max-width: 300px; }
-  .dates-vid .kv-vwrap { height: auto; aspect-ratio: 9 / 16; }
+  .dates-vid .dates-vid-fig { order: -1; margin: 0 0 8px; width: 100%; max-width: 300px; }
+  .dates-vid .kv-vwrap { height: auto; aspect-ratio: 2 / 3; }
 }
 
 /* Terminlisten: Datum, Text und Knopf oben bündig, damit alle Knöpfe an derselben Stelle sitzen (Emanuel, 2026-10-27) */

@@ -97,7 +97,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-10-27T03:00:07+01:00",
+  "fetched": "2026-10-27T09:05:16+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -548,7 +548,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-10-27T03:00:07+01:00",
+  "fetched": "2026-10-27T09:05:16+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -719,40 +719,8 @@
   },
   "seen": "2026-10-27T02:02:02+01:00"
  },
- "https://rausgegangen.de/events/herbst-bitte-lieb-mich-tourdrama-2027-10/": {
-  "fetched": "2026-10-27T08:13:56+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Popkonzert reicht ihm offenbar nicht, herbst baut seine Songs zu einem richtigen Tourdrama zusammen. Während das zweite Album bitte lieb mich schon am Horizont hängt, wirkt diese Show eher wie ein Kapitel mit Ansage 👀",
-   "endDate": "2027-04-07T06:00+0200",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/gyqSBVZRZyy3BRI8MAow_herbst2026by-andy-rumball03.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "12051",
-     "streetAddress": "Hermannstraße 146"
-    },
-    "name": "Hole44"
-   },
-   "name": "herbst /// bitte lieb mich - tourdrama 2027",
-   "offers": {
-    "@type": "Offer",
-    "price": 0,
-    "priceCurrency": "EUR",
-    "validFrom": "2027-04-06T19:00+0200"
-   },
-   "startDate": "2027-04-06T19:00+0200"
-  }
- },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-10-27T03:00:07+01:00",
+  "fetched": "2026-10-27T09:05:16+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -952,5 +920,73 @@
   "seen": "2026-10-22T21:04:20+02:00",
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
+ },
+ "https://rausgegangen.de/events/ostberlin-poetry-slam-12/": {
+  "fetched": "2026-10-27T09:05:16+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "ist das kalt da draußen! Wäre es nicht viel schöner, sich jetzt in einen wohlig-warmen Kinosessel fallen zu lassen, und sich von warmen Wörtern, heißen Zeilen und kuscheligen Reimen unterhalten zu lassen? Der Ostberlin Poetry Slam versüßt euch die Wintertage, wie stets mit Poeten, Comedians und Erzählerinnen von nah und fern. Das ist ganz großes Kino! Also, der Alte Saal vom Union Kino eben. Mit Gedichten, Humor und Geschichten, die dein Herz so genug erwärmen, um dich durch den Winter zu bringen!",
+   "endDate": "2026-11-05T22:30+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/PpmVlfaPQVG79z3jsY0A_ostberlinslamvabild.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "12587",
+     "streetAddress": "Bölschestraße 69"
+    },
+    "name": "Kino UNION"
+   },
+   "name": "Ostberlin Poetry Slam",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "14.90",
+    "lowPrice": "12.90",
+    "offerCount": 4,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "14.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Ermäßigt",
+      "price": "12.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Schwerbehindertenausweis B-Ticket",
+      "price": "12.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Begleiterticket Schwerbehinderte",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Kiezpoeten",
+    "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
+   },
+   "startDate": "2026-11-05T20:15+0100"
+  }
  }
 }

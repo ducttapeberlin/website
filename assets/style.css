@@ -777,7 +777,7 @@ a.event-tag { text-decoration: none; } a.event-tag:hover { opacity: .85; }
 .page-intro.intro-fmt { overflow: hidden; }
 /* Wie die Startseite: Foto nur rechts, nach links ins Schwarze ausgeblendet */
 .page-intro.intro-fmt::after { content: ""; position: absolute; top: 0; right: 0; bottom: 0; width: 60%; z-index: -2; background: center 30% / cover no-repeat; opacity: .85; }
-.page-intro.intro-drag-brunch::after { background-image: url("img/brunch-hero.jpg"); }
+.page-intro.intro-drag-brunch::after { background-image: url("img/leistungen/brunch-gruppe.jpg"); background-position: center 40%; }
 .page-intro.intro-drag-bingo::after { background-image: url("img/bingo-hero.jpg"); background-position: 58% 38%; }
 .page-intro.intro-drag-shows::after { background-image: url("img/leistungen/show-csd.jpg"); background-position: center 35%; }
 .page-intro.intro-fmt::before { background: linear-gradient(90deg, rgba(11,11,11,1) 0%, rgba(11,11,11,1) 40%, rgba(11,11,11,.55) 58%, rgba(11,11,11,0) 85%), linear-gradient(0deg, rgba(11,11,11,1) 0%, rgba(11,11,11,0) 35%); }
@@ -1126,22 +1126,14 @@ h2 { line-height: 1.16; }
 /* Eventseiten mit langem Titel: Umbruch erlaubt statt Einzeiler */
 .xs-title.xs-title-wrap { white-space: normal; font-size: var(--fs-h2) !important; }
 
-/* Format-Seiten: Video neben den nächsten Terminen, oben und unten leicht beschnitten und genau so hoch
-   wie die sichtbaren Termine (Emanuel, 2026-10-27). Die Höhe setzt main.js als --vid-h.
-   Mobil steht das Video über den Terminen, damit es beim Aufklappen nicht mitwandert. */
-.dates-vid { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: clamp(32px, 4vw, 56px); align-items: start; }
-.dates-vid .events { margin: 0; }
-.dates-vid .dates-vid-fig { margin: var(--vid-top, 28px) 0 0; width: min(calc(var(--vid-h, 480px) * 2 / 3), 300px); }
-.dates-vid .kv-vwrap { position: relative; height: var(--vid-h, 480px); }
-.dates-vid .kv-vwrap video { display: block; width: 100%; height: 100%; object-fit: cover; }
-.dates-vid figcaption { font-size: 13px; color: #CFCFCA; margin-top: 8px; line-height: 1.4; }
-.dates-vid figcaption .nw { white-space: nowrap; }
-.dates-vid figcaption a { color: inherit; }
-@media (max-width: 860px) {
-  .dates-vid { grid-template-columns: 1fr; }
-  .dates-vid .dates-vid-fig { order: -1; margin: 0 0 8px; width: 100%; max-width: 300px; }
-  .dates-vid .kv-vwrap { height: auto; aspect-ratio: 2 / 3; }
-}
+/* Format-Seiten: Videos stehen wie die Fotos in der Reihe unter dem Ablauf-Text, im selben 2:3-Format
+   (Emanuel, 2026-10-27). Bingo hat zwei Videos, die Reihe ist dort zwei Drittel breit. */
+.fmt-photos .fmt-vid .kv-vwrap { position: relative; }
+.fmt-photos .fmt-vid video { display: block; width: 100%; height: auto; aspect-ratio: 2 / 3; object-fit: cover; border-radius: 0; background: #161616; }
+.fmt-photos figcaption { line-height: 1.4; }
+.fmt-photos figcaption .nw { white-space: nowrap; }
+.fmt-photos figcaption a { color: inherit; }
+.fmt-photos.fmt-two { grid-template-columns: repeat(2, minmax(0, 1fr)); max-width: calc((100% - 2 * clamp(8px, 1.5vw, 16px)) * 2 / 3 + clamp(8px, 1.5vw, 16px)); }
 
 /* Terminlisten: Datum, Text und Knopf oben bündig, damit alle Knöpfe an derselben Stelle sitzen (Emanuel, 2026-10-27) */
 @media (min-width: 721px) {

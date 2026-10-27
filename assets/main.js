@@ -91,22 +91,6 @@ if (list && upcoming.length) {
   }
   if (actions.children.length) list.after(actions);
 }
-// Format-Seiten: Video neben den Terminen so hoch wie die sichtbaren Termine (oben bündig mit dem ersten, unten mit dem letzten)
-document.querySelectorAll('.dates-vid').forEach(box => {
-  const fig = box.querySelector('.dates-vid-fig');
-  const size = () => {
-    const evs = [...box.querySelectorAll('.event:not(.is-more)')];
-    if (!fig || !evs.length || matchMedia('(max-width: 860px)').matches) return;
-    const first = evs[0], last = evs[evs.length - 1], cs = getComputedStyle(first);
-    const top = first.getBoundingClientRect().top + parseFloat(cs.paddingTop);
-    const bottom = last.getBoundingClientRect().bottom - parseFloat(getComputedStyle(last).paddingBottom);
-    box.style.setProperty('--vid-top', `${Math.round(top - box.getBoundingClientRect().top)}px`);
-    box.style.setProperty('--vid-h', `${Math.round(bottom - top)}px`);
-  };
-  size();
-  addEventListener('resize', size);
-  document.fonts?.ready.then(size);
-});
 // Menü "Events": erster Unterpunkt ist die Featured Show, falls es eine gibt
 const feat = document.querySelector('.featured');
 const featLink = document.querySelector('.nav-featured');

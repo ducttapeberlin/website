@@ -193,6 +193,40 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/barden-barrikaden-keine-burg-den-bonzen-0/": {
+  "fetched": "2026-10-28T18:11:22+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Barden & Barrikaden – Keine Burg den Bonzen Ein lauter Abend gegen Verdrängung, für Vielfalt und Freiräume. Vier Mittelalterbands lassen Leipzig erbeben – mit Trommeln, Lauten und Haltung. Denn Kultur gehört allen, nicht nur denen mit Schlüssel zum Schloss. Die Habenichtse - Reikas tanz - Sören vogelsang - Widarsihtig   ",
+   "endDate": "2026-11-07T23:45+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/TKi8JTofQ3CHUK8iErqH_barden-barrikaden-fb-cover.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Leipzig",
+     "postalCode": "04105",
+     "streetAddress": "Theresienstraße 2"
+    },
+    "name": "TV-Club Leipzig"
+   },
+   "name": "Barden & Barrikaden - Keine Burg den Bonzen",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "23.92",
+    "priceCurrency": "EUR",
+    "url": "https://t.rausgegangen.de/tickets/barden-barrikaden-keine-burg-den-bonzen",
+    "validFrom": "2025-11-21T22:48+0100"
+   },
+   "startDate": "2026-11-07T19:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
   "fetched": "2026-10-28T13:03:24+01:00",
   "ld": {
@@ -681,77 +715,37 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
- "https://rausgegangen.de/events/geheimkonzert-berlin-24-by-rausgegangen-0/": {
-  "fetched": "2026-10-28T17:12:52+01:00",
+ "https://rausgegangen.de/events/florence-road-4/": {
+  "fetched": "2026-10-28T18:11:22+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Na Hallo! Es ist wieder so weit: Ein Abend voller Überraschung - denn wer auf der Bühne steht, bleibt bis zum ersten Ton geheim. Wir hatten schon Blond, Berq, Ennio, Futurebae, Jassin, Anais, Katha Pauer & viele mehr zu Gast – und das schon bevor sie die großen Bühnen der Nation gestürmt haben. Also entdecke die Stars von Morgen bei unseren Geheimkonzerten. 🪩",
-   "endDate": "2026-12-09T22:15+0100",
+   "description": "Vier Freundinnen aus Wicklow machen Songs, in denen Gitarren auch mal schaben und gleich danach alles offen daliegt. Erst kamen die Clips im Fish Eye Look, jetzt steht Florence Road wieder auf Deutschlandtour 👀",
+   "endDate": "2027-05-04T23:00+0200",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/mO31iODjTCuFLVfQ493H_gk202516x9photoheadline-32-1.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/P5gbWKQXSL4xQ42hqqg8_photo-florence-roadcredit-kate-cummings-kopie.jpg"
    ],
    "location": {
     "@type": "Place",
     "address": {
      "@type": "PostalAddress",
      "addressCountry": "DE",
-     "addressLocality": "Berlin"
+     "addressLocality": "Berlin",
+     "postalCode": "12043",
+     "streetAddress": "Karl-Marx-Straße 141"
     },
-    "name": "Secret location"
+    "name": "Heimathafen Neukölln"
    },
-   "name": "Geheimkonzert Berlin #24 by Rausgegangen",
+   "name": "Florence Road",
    "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "29.90",
-    "lowPrice": "24.50",
-    "offerCount": 4,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "EARLY BIRD",
-      "price": "21.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "REGULAR",
-      "price": "26.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "4er FRIENDS BUNDLE",
-      "price": "22.25",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Mitgegangen",
-      "price": "3.80",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
+    "@type": "Offer",
+    "price": "29.00",
+    "priceCurrency": "EUR",
+    "url": "https://www.eventim.de/noapp/event/florence-road-heimathafen-neukoelln-22156758/?affiliate=SZ3&utm_campaign=SzeneTickets+GmbH&utm_source=SZ3&utm_medium=dp",
+    "validFrom": "2027-05-04T20:00+0200"
    },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "Rausgegangen Geheimkonzerte",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Rausgegangen Geheimkonzerte Berlin",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte-3/"
-    }
-   ],
-   "startDate": "2026-12-09T20:00+0100"
+   "startDate": "2027-05-04T20:00+0200"
   }
  },
  "https://rausgegangen.de/events/halloween-drag-bingo-night-by-duct-tape-0/": {
@@ -791,38 +785,6 @@
    "startDate": "2026-10-31T20:00+0100"
   },
   "seen": "2026-10-27T02:02:02+01:00"
- },
- "https://rausgegangen.de/events/herbst-bitte-lieb-mich-tourdrama-2027-10/": {
-  "fetched": "2026-10-28T17:12:52+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Popkonzert reicht ihm offenbar nicht, herbst baut seine Songs zu einem richtigen Tourdrama zusammen. Während das zweite Album bitte lieb mich schon am Horizont hängt, wirkt diese Show eher wie ein Kapitel mit Ansage 👀",
-   "endDate": "2027-04-07T06:00+0200",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/gyqSBVZRZyy3BRI8MAow_herbst2026by-andy-rumball03.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "12051",
-     "streetAddress": "Hermannstraße 146"
-    },
-    "name": "Hole44"
-   },
-   "name": "herbst /// bitte lieb mich - tourdrama 2027",
-   "offers": {
-    "@type": "Offer",
-    "price": 0,
-    "priceCurrency": "EUR",
-    "validFrom": "2027-04-06T19:00+0200"
-   },
-   "startDate": "2027-04-06T19:00+0200"
-  }
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
   "fetched": "2026-10-28T16:14:01+01:00",
@@ -1026,104 +988,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/la-kiffance-2/": {
-  "fetched": "2026-10-28T17:12:52+01:00",
+ "https://rausgegangen.de/events/late-night-cult-movies-november-dont-look-now-wenn-die-gonde-0/": {
+  "fetched": "2026-10-28T18:11:22+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "LA KIFFANCE | 13.11 | MAAYA BerlinFrench rap lovers, Caribbean music heads and everyone who’s been waiting for a proper night out: La Kiffance is back at MAAYA on Friday, 13 November. Expect French rap, Afro R&B, Shatta, Bouyon, Afrotrap and Kompa, with sounds from France, Africa and the Caribbean sharing one dancefloor. From anthems you know word for word to tracks that send you straight to the DJ booth asking for the name, there’s plenty to keep you moving. Come with your crew or come ready to meet new people. Whether you’re here to shout every lyric, dance close or lose yourself in the bass, there’s a place for you. You don’t need to speak French to get into it. La Kiffance is all about enjoying yourself, and we’re giving you a whole night to do exactly that. Get your tickets, send the link to the group chat and meet us on the dancefloor. 📍 MAAYA Berlin | Revaler Str. 99, 10245 Berlin 📅 Friday, 13 November 2026 C’est la kiffance!",
-   "endDate": "2026-11-14T05:00+0100",
+   "description": "Venedig sieht selten so unromantisch aus: Nicolas Roegs Film von 1973 schickt ein trauerndes Ehepaar durch Gassen, in denen die Wirklichkeit kippt. Vor allem das Ende hat sich tief in die Filmgeschichte geschrieben 🍿",
+   "endDate": "2026-11-28T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/HBnj8GjBRlCGaB0cNs4N_feed-2.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10245",
-     "streetAddress": "Revaler Straße 99"
-    },
-    "name": "MAAYA"
-   },
-   "name": "La Kiffance",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": null,
-    "lowPrice": null,
-    "offerCount": 0,
-    "offers": [],
-    "priceCurrency": "EUR"
-   },
-   "startDate": "2026-11-13T22:30+0100"
-  }
- },
- "https://rausgegangen.de/events/poetry-slam-stories-stadtbad-lichtenberg-hidden-places-slam-0/": {
-  "fetched": "2026-10-28T17:12:52+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Ein Ort, der längst verstummt ist – bis jetzt.Für diese Show öffnet sich das ehemalige Stadtbad Lichtenberg für ein einmaliges Erlebnis: Spoken Word inmitten von Geschichte, Staub und Echos. Wo früher das Wasser rauschte, fließen jetzt Worte – roh, intensiv und wunderschön vergänglich. Zwischen Lost Place und Poesie.In vier Workshops haben wir gemeinsam mit den Lichtenbergern und Lichtenbergerinnen ihre Erinnerungen, Geschichten und Gefühle zu diesem historischen Ort gesammelt und kreativ verarbeitet - nun werden sie von vier Profi-Slammer:innen bühnenreif performt. Bei einer immersiven Begehung der sonst versperrten Räume des Stadtbades machen wir das Bad zur Bühne.Perfekt für alle, die Urban Exploration lieben, für Abenteurer*innen, Kulturjäger und In-Erinnerungen-Schwelger, und alle, die Literatur gern dort erleben, wo man sie nicht erwartet.Poetry Slam Stories ist ein Projekt des Stift & Mikro e.V., gefördert durch das Bezirksamt Lichtenberg von Berlin aus Mitteln des Bezirkskulturfonds.Zwei Durchgänge, limitierte Plätze.Einlass nur mit Voranmeldung – das Stadtbad öffnet exklusiv für dieses Event.",
-   "endDate": "2026-11-13T18:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Cgcok20KTRWm55yPPTKP_slam-stadtbad-lichtenberg-2-2.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10365",
-     "streetAddress": "Hubertusstraße 47"
-    },
-    "name": "Stadtbad Lichtenberg"
-   },
-   "name": "Poetry Slam Stories: Stadtbad Lichtenberg | Hidden Places Slam",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "13.32",
-    "lowPrice": "11.20",
-    "offerCount": 2,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "13.32",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Ermäßigt",
-      "price": "11.20",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Kiezpoeten",
-    "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
-   },
-   "startDate": "2026-11-13T17:00+0100"
-  }
- },
- "https://rausgegangen.de/events/tati-comedy-one-laugh-night-24/": {
-  "fetched": "2026-10-28T17:12:52+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Comedy mit Stil im Tati goes Underground in Berlin. Authentische Stand-up Shows mit bekannten Comedians, Berliner Underground Acts und Newcomern in edler Bar-Atmosphäre mit hochwertigen Cocktails. Die Bühne für spontane Überraschungen. Mal tauchen bekannte Gesichter aus der Comedy-Szene auf, mal brandneue Talente, die man so noch nie gesehen hat.Sicher ist nur eins:Es wird spät, es wird witzig und es wird auch dunkel lustig.Eintritt  ab 16 Jahre",
-   "endDate": "2026-10-29T22:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/kJyays4wROGHyg5J9wGS_tati-comedy-club-berliner-stand-up-nacht.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/CblhS5QSBaQZsj1hXOk8_dont-look-now5cf7d6.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -1132,54 +1006,43 @@
      "addressCountry": "DE",
      "addressLocality": "Berlin",
      "postalCode": "10405",
-     "streetAddress": "Metzer Straße 2"
+     "streetAddress": "Prenzlauer Allee 80"
     },
-    "name": "Tati goes Underground"
+    "name": "Zeiss-Großplanetarium"
    },
-   "name": "Tati Comedy - Die Stand Up Comedy Show",
+   "name": "»Late Night Cult Movies« November: Don't Look Now – Wenn die Gondeln Trauer tragen",
    "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": null,
-    "lowPrice": null,
-    "offerCount": 3,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "16.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Frühbücher",
-      "price": "14.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Studenten",
-      "price": "14.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
+    "@type": "Offer",
+    "price": "7.00",
+    "priceCurrency": "EUR",
+    "url": "https://www.planetarium.berlin/kino/dont-look-now-wenn-die-gondeln-trauer-tragen",
+    "validFrom": "2026-11-27T22:15+0100"
    },
-   "startDate": "2026-10-29T20:00+0100"
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "»Late Night Cult Movies«",
+     "url": "https://rausgegangen.de/organizations/late-night-cult-movies/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Stiftung Planetarium Berlin",
+     "url": "https://rausgegangen.de/organizations/stiftung-planetarium-berlin-1/"
+    }
+   ],
+   "startDate": "2026-11-27T22:15+0100"
   }
  },
- "https://rausgegangen.de/events/vinyl-night-mit-dieta-berliner-2/": {
-  "fetched": "2026-10-28T17:12:52+01:00",
+ "https://rausgegangen.de/events/posts-reels-stories-fluchterfahrungen-aus-jugoslawien-im-net-0/": {
+  "fetched": "2026-10-28T18:11:22+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Vinyl Night mit Dieta Berliner – Deep House, Disco & DrinksVinyl knistert, Drinks sind kalt, der Groove setzt ein 🖤✨🎚️🎛️🎧Freut euch auf einen Sound, der sich nicht hetzen lässt: Deep House, Disco und Nu-Disco, gespielt exklusiv auf Vinyl. Warm, analog, mit diesem unverkennbaren Old-School-Feeling, das sofort die richtige Stimmung bringt – zwischen Bar, Dancefloor und spätem Feierabenddrink oder Pre-Clubbing. 🎧 Dieta Berliner ist Teil von Pakalolo Soundlab und bekannt für Sets, die nicht nur laufen, sondern sich entwickeln. Perfekt also für einen Abend, der irgendwo zwischen entspanntem Ankommen und ungeplant langem Bleiben liegt.🪩🖤✨  Wo?Bar Sprewa @ Me and All Hotel Berlin East SideAn der Schillingbrücke 2, 10243 Berlin",
-   "endDate": "2026-10-31T01:00+0100",
+   "description": "TikTok, Instagram, Podcasts & Co. eröffnen neue Räume für Stimmen, die in klassischen Medien oft wenig Gehör finden. Menschen mit jugoslawischer Fluchtgeschichte teilen Erinnerungen, erklären den Krieg, Flucht und Vertreibung und sprechen über Folgen, die über Generationen weiterwirken. Doch wo Chancen für Sichtbarkeit und Austausch entstehen, verbreiten sich auch Desinformation und nationalistische Narrative. Wann werden soziale Medien zu einem Ort der Solidarität und wo beginnt die Gefahr?PROGRAMM Begrüßung Dr. Roland Borchers, Direktor, Dokumentationszentrum Flucht, Vertreibung, Versöhnung, BerlinGesprächFata Hasanović, InfluencerinKrsto Lazarević, Journalist und Podcaster „Neues vom Ballaballa-Balkan“Dr. Eva Tamara Asboth, Postdoc, Österreichische Akademie der Wissenschaften, WienModeration: Simone Gaul, Journalistin und Podcasterin „Die Zeit“ Im Anschluss laden wir Sie zu einem kleinen Empfang ein.   WEITERE HINWEISEEinlass: 18.00 UhrSprache: DeutschEINTRITT FREI Die Veranstaltung wird aufgezeichnet und auf unserem YouTube-Kanal Flucht, Vertreibung, Versöhnung veröffentlicht.Eine Veranstaltung im Rahmen der Veranstaltungsreihe \"Zerfallen. Geflohen. Angekommen? Erfahrungen aus Bosnien und Herzegowina\"Eine Veranstaltung von: Dokumentationszentrum Flucht, Vertreibung, Versöhnung · Bundeszentrale für politische Bildung",
+   "endDate": "2026-11-11T20:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/f54hsgeQoOR4eIPSnp7N_meandall30mai103.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/tRzV17PhR0y1Q7XSYcZf_2025-sfvvdokuzentrumsrebrenicaveranstaltungsfotosgrafikladenfoto-nihad-nino-pusija.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -1187,19 +1050,25 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10243",
-     "streetAddress": "An der Schillingbrücke 2"
+     "postalCode": "10963",
+     "streetAddress": "Stresemannstraße 90"
     },
-    "name": "Bar Sprewa"
+    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
    },
-   "name": "Vinyl Night with DJ Dieta Berliner",
+   "name": "Posts, Reels, Stories – Fluchterfahrungen aus Jugoslawien im Netz",
    "offers": {
     "@type": "Offer",
     "price": "0.00",
     "priceCurrency": "EUR",
-    "validFrom": "2026-10-30T21:00+0100"
+    "url": "https://buchungen.flucht-vertreibung-versoehnung.de/de/tickets/109",
+    "validFrom": "2026-11-11T18:30+0100"
    },
-   "startDate": "2026-10-30T21:00+0100"
+   "organizer": {
+    "@type": "Organization",
+    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung",
+    "url": "https://rausgegangen.de/organizations/dokumentationszentrum-flucht-vertreibung-versohnung/"
+   },
+   "startDate": "2026-11-11T18:30+0100"
   }
  }
 }

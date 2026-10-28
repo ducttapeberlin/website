@@ -497,9 +497,12 @@ def events_ld(events):
             ev["image"] = SITE + poster
         if page.startswith("http"):
             ev["url"] = own_page(page)
-        # Google verlangt bei Angeboten Preis und Verkaufsstart. Ohne bekannten Preis lieber gar kein Angebot.
+        # Google verlangt bei Angeboten Preis und Verkaufsstart. Ohne Ticketverkauf und ohne Preis bei rausgegangen
+        # (z. B. leeres Angebot beim Bingo) ist der Eintritt frei, also Preis 0. Mit Tickets, aber ohne Preis: kein Angebot.
         price = 0 if free else r.get("_price")
-        if (free or tickets) and price is not None:
+        if price is None and not tickets:
+            price = 0
+        if price is not None:
             offer = {"@type": "Offer", "priceCurrency": "EUR", "availability": "https://schema.org/InStock",
                      "url": tickets if tickets.startswith("http") else page or SITE, "price": price}
             valid = r.get("_validFrom") or r.get("_seen")

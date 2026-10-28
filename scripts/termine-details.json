@@ -193,44 +193,6 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/cirque-de-lafrique-x-afro-life-0/": {
-  "fetched": "2026-10-28T00:51:58+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "CIRQUE DE L’AFRIQUE x AFRO LIVEZirkus trifft Clubnacht. Und du bist mittendrin!Was passiert, wenn Akrobat, Tänzer, Live-Musik und DJs auf einer Tanzfläche zusammenkommen?Am 28. November bringt Cirque de l’Afrique x Afro Live genau dieses Erlebnis ins MAAYA Berlin!Freu dich auf spektakuläre Akrobatik, mitreißende Tanzperformances und überraschende Showmomente, während die Musik die ganze Nacht weiterläuft. Hier wird nicht einfach nur aufgelegt oder eine Show gespielt. Alles passiert gleichzeitig, direkt um dich herum!Mit dabei ist Heaven Sam aka Mr. Afro Disco. Mit seiner Mischung aus DJ-Sets, kraftvollen Live-Drums und Klavier bringt er eine ganz besondere Energie in den Raum.Musikalisch erwartet dich ein Mix aus afrikanischen, karibischen und elektronischen Sounds, von Afrobeats und Amapiano über Afro House bis hin zu Dancehall.Ob du zum Tanzen kommst, die Performances erleben möchtest oder einfach nach einer außergewöhnlichen Partynacht in Berlin suchst: Cirque de l’Afrique bringt all das zusammen.Keine gewöhnliche Party. Keine gewöhnliche Show. Ein Abend, an dem du mittendrin bist!LINE-UPHeaven Sam DJ Nomi Prince M.I.K Freak de l’Afrique Papi Da SilvaSamstag, 28. November 2026 | Ab 23:00 UhrMAAYA Berlin Revaler Straße 99, 10245 Berlin-Friedrichshain",
-   "endDate": "2026-11-29T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/1QUGShU6TAyJw5njoxDH_cirque-de-lafrique-3.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10245",
-     "streetAddress": "Revaler Straße 99"
-    },
-    "name": "MAAYA"
-   },
-   "name": "Cirque de l'Afrique x Afro Life",
-   "offers": {
-    "@type": "Offer",
-    "price": "15.00",
-    "priceCurrency": "EUR",
-    "url": "https://xceed.me/en/berlin/event/cirque-de-lafrique-x-afro-live-w-heaven-sam-281126/248062/channel/maaya-berlin",
-    "validFrom": "2026-11-28T23:00+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Freak De L'Afrique",
-    "url": "https://rausgegangen.de/organizations/freak-de-lafrique/"
-   },
-   "startDate": "2026-11-28T23:00+0100"
-  }
- },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
   "fetched": "2026-10-27T23:54:42+01:00",
   "ld": {
@@ -752,16 +714,16 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
- "https://rausgegangen.de/events/fiona-fiasco-0/": {
-  "fetched": "2026-10-28T00:51:58+01:00",
+ "https://rausgegangen.de/events/fritzsessions-26/": {
+  "fetched": "2026-10-28T02:26:04+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Da steht eine Band erst in der Lobby eines alten Hotels und im nächsten Moment auf einer Landstraße zwischen Wiese und Wald. Fiona Fiascos EP ist über anderthalb Jahre an sehr verschiedenen Orten zusammengekommen, und genau dieses schöne Verrutschen bleibt hängen 👀",
-   "endDate": "2027-04-08T22:30+0200",
+   "description": "Zwischen Hyperpop, Pop und Rap steht kein sauberer Strich, eher fünf Leute, die ihr eigenes Ding mitbringen. Bei den FritzSessions treffen unter anderem Amélia, Dueja und Katlix aufeinander, also ein Abend für offene Ohren 👀",
+   "endDate": "2026-11-10T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/9gkLl9IRS4aHbQ1M9mSl_fiona-fiasco-georgia-spain.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/8Y9wBoTBRr29567OaXR9_16x9fritzsessions051026-5-artists.png"
    ],
    "location": {
     "@type": "Place",
@@ -769,25 +731,43 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10119",
-     "streetAddress": "Schönhauser Allee 177b"
+     "postalCode": "10997",
+     "streetAddress": "Schlesische Strasse 2"
     },
-    "name": "8mm Bar"
+    "name": "Bi Nuu"
    },
-   "name": "Fiona Fiasco",
+   "name": "FritzSessions mit Amélia, Tara Emely, Dueja & Katlix",
    "offers": {
     "@type": "Offer",
-    "price": "15.00",
+    "availability": "https://schema.org/InStock",
+    "price": "14.00",
     "priceCurrency": "EUR",
-    "url": "https://www.tixforgigs.com/Event/75587/fiona-fiasco-neue-zukunft-small-room-berlin",
-    "validFrom": "2027-04-08T20:00+0200"
+    "url": "https://t.rausgegangen.de/tickets/fritzsessions-20",
+    "validFrom": "2026-10-04T15:05+0200"
    },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Puschen",
-    "url": "https://rausgegangen.de/organizations/puschen/"
-   },
-   "startDate": "2027-04-08T20:00+0200"
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "FritzSessions",
+     "url": "https://rausgegangen.de/organizations/page-for-team-fritzsessions/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Fritz vom rbb",
+     "url": "https://rausgegangen.de/organizations/fritz-vom-rbb/"
+    }
+   ],
+   "performer": [
+    {
+     "@type": "PerformingGroup",
+     "name": "DUEJA"
+    },
+    {
+     "@type": "PerformingGroup",
+     "name": "KATLIX"
+    }
+   ],
+   "startDate": "2026-11-09T19:00+0100"
   }
  },
  "https://rausgegangen.de/events/halloween-drag-bingo-night-by-duct-tape-0/": {
@@ -827,38 +807,6 @@
    "startDate": "2026-10-31T20:00+0100"
   },
   "seen": "2026-10-27T02:02:02+01:00"
- },
- "https://rausgegangen.de/events/herbst-bitte-lieb-mich-tourdrama-2027-10/": {
-  "fetched": "2026-10-28T00:51:58+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Popkonzert reicht ihm offenbar nicht, herbst baut seine Songs zu einem richtigen Tourdrama zusammen. Während das zweite Album bitte lieb mich schon am Horizont hängt, wirkt diese Show eher wie ein Kapitel mit Ansage 👀",
-   "endDate": "2027-04-07T06:00+0200",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/gyqSBVZRZyy3BRI8MAow_herbst2026by-andy-rumball03.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "12051",
-     "streetAddress": "Hermannstraße 146"
-    },
-    "name": "Hole44"
-   },
-   "name": "herbst /// bitte lieb mich - tourdrama 2027",
-   "offers": {
-    "@type": "Offer",
-    "price": 0,
-    "priceCurrency": "EUR",
-    "validFrom": "2027-04-06T19:00+0200"
-   },
-   "startDate": "2027-04-06T19:00+0200"
-  }
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
   "fetched": "2026-10-27T20:46:24+01:00",
@@ -1062,44 +1010,6 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/just-signed-3/": {
-  "fetched": "2026-10-28T00:51:58+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Drei Acts, frisch unterschrieben, und noch nichts wirkt geschniegelt. Yasola, Victoria West und PARA zeigen Pop, Rap und Indie lieber mit Ecken und eigener Handschrift als auf Nummer sicher 🌈",
-   "endDate": "2026-11-19T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/PNsu3JEFSvqskyhEJ5cd_26justsigned18-11websitenews1080x1920.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10969",
-     "streetAddress": "Ritterstraße 24-27"
-    },
-    "name": "MODUS Berlin"
-   },
-   "name": "Just Signed!",
-   "offers": {
-    "@type": "Offer",
-    "price": "10.00",
-    "priceCurrency": "EUR",
-    "url": "https://tickets.infield.live/event/just-signed-0qyt3h",
-    "validFrom": "2026-11-18T19:00+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "RBX GmbH",
-    "url": "https://rausgegangen.de/organizations/rbx-gmbh/"
-   },
-   "startDate": "2026-11-18T19:00+0100"
-  }
- },
  "https://rausgegangen.de/events/love-at-first-slide-berlin-power-point-dating-by-rausgegange-13/": {
   "fetched": "2026-10-28T00:51:58+01:00",
   "ld": {
@@ -1190,6 +1100,154 @@
     }
    ],
    "startDate": "2026-11-11T19:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/ocean-bound-1/": {
+  "fetched": "2026-10-28T02:26:04+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Küstenlinien verändern sich bis zur Unkenntlichkeit; vertraute Landschaften verschwinden. Vor dem Hintergrund des Klimawandels und des Verlusts von Umgebungen, mit denen wir verbunden sind und die uns zusammenhalten, widmet sich der rumänische Choreograf Sergiu Matis in seiner neuen Arbeit „Ocean Bound“ der Frage, wie bewegte Bilder auf bewegte Körper wirken.Eigens für das Projekt entstandenes Videomaterial richtet den Blick auf Lebensräume an der Schnittstelle von Land und Meer, menschlicher Besiedlung und Wald – Orte, an denen steigende Wasserstände durch die Abholzung von Mangrovenwäldern, Küstenerosion und Veränderungen der Gezeiten das Leben zunehmend prägen. Publikum und Performer*innen bewegen sich zwischen unterschiedlichen Videoprojektionen frei auf der Bühne und erzeugen eine Choreografie, in der Körper und Bilder innerhalb einer gemeinsamen, vom Ozean geprägten Umgebung miteinander verwoben werden.„Ocean Bound“ schafft Raum für das tiefe Gefühl von Verlust und für Formen des Trauerns, für die uns Sprache und Rituale fehlen. Die Körper der Performer*innen werden von den komplexen Emotionen ökologischer Trauer bewegt. So entsteht eine Choreografie an der Grenze zwischen Digitalem und Analogem, zwischen Dokumentation und Fiktion – und gibt Raum, um das Gewicht des Verlusts zu tragen, zu trauern und aus den Fragmenten eine bewegende, hoffnungsvolle und poetische Sprache zu entwickeln.",
+   "endDate": "2026-10-30T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://rausgegangen.s3.amazonaws.com/vo178knl9swb.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10243",
+     "streetAddress": "Holzmarktstr. 33"
+    },
+    "name": "Radialsystem"
+   },
+   "name": "Ocean Bound",
+   "offers": {
+    "@type": "Offer",
+    "price": "12.00",
+    "priceCurrency": "EUR",
+    "url": "https://pretix.eu/radialsystem/snxxl/",
+    "validFrom": "2026-10-29T20:00+0100"
+   },
+   "startDate": "2026-10-29T20:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/poetry-slam-stories-stadtbad-lichtenberg-hidden-places-slam-0/": {
+  "fetched": "2026-10-28T02:26:04+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Ein Ort, der längst verstummt ist – bis jetzt.Für diese Show öffnet sich das ehemalige Stadtbad Lichtenberg für ein einmaliges Erlebnis: Spoken Word inmitten von Geschichte, Staub und Echos. Wo früher das Wasser rauschte, fließen jetzt Worte – roh, intensiv und wunderschön vergänglich. Zwischen Lost Place und Poesie.In vier Workshops haben wir gemeinsam mit den Lichtenbergern und Lichtenbergerinnen ihre Erinnerungen, Geschichten und Gefühle zu diesem historischen Ort gesammelt und kreativ verarbeitet - nun werden sie von vier Profi-Slammer:innen bühnenreif performt. Bei einer immersiven Begehung der sonst versperrten Räume des Stadtbades machen wir das Bad zur Bühne.Perfekt für alle, die Urban Exploration lieben, für Abenteurer*innen, Kulturjäger und In-Erinnerungen-Schwelger, und alle, die Literatur gern dort erleben, wo man sie nicht erwartet.Poetry Slam Stories ist ein Projekt des Stift & Mikro e.V., gefördert durch das Bezirksamt Lichtenberg von Berlin aus Mitteln des Bezirkskulturfonds.Zwei Durchgänge, limitierte Plätze.Einlass nur mit Voranmeldung – das Stadtbad öffnet exklusiv für dieses Event.",
+   "endDate": "2026-11-13T18:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Cgcok20KTRWm55yPPTKP_slam-stadtbad-lichtenberg-2-2.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10365",
+     "streetAddress": "Hubertusstraße 47"
+    },
+    "name": "Stadtbad Lichtenberg"
+   },
+   "name": "Poetry Slam Stories: Stadtbad Lichtenberg | Hidden Places Slam",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "13.32",
+    "lowPrice": "11.20",
+    "offerCount": 2,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "13.32",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Ermäßigt",
+      "price": "11.20",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Kiezpoeten",
+    "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
+   },
+   "startDate": "2026-11-13T17:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/schall-rauch-slam-12/": {
+  "fetched": "2026-10-28T02:26:04+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Beim Schall & Rauch Slam verbinden Berliner Poetry Slammer:innen Schauspiel, Poesie und Stand-Up zu mitreißenden Performances. Die Bühne wird zum Ort, an dem Worte Formen annehmen und du hautnah erlebst, wer mit Kostüm und Requisite das Publikum beeindruckt 👀",
+   "endDate": "2026-11-11T21:15+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/nA80EFNVT8uMPOtHcLk3_2025schall-rauch-fotologo-cjonassamsonfotos-27.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10557",
+     "streetAddress": "Lehrter Straße 55"
+    },
+    "name": "Gravity Bar"
+   },
+   "name": "Schall & Rauch Slam",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 3,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Eintritt",
+      "price": "12.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Schwerbehindertenausweis B-Ticket (inkl. 1 Begleiter-Ticket)",
+      "price": "12.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Begleiterticket Schwerbehinderte",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Kiezpoeten",
+    "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
+   },
+   "startDate": "2026-11-11T19:30+0100"
   }
  }
 }

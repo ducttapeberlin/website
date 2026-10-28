@@ -1,10 +1,10 @@
 {
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
-  "fetched": "2026-10-28T06:06:08+01:00",
+  "fetched": "2026-10-28T13:03:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "A BERLIN DRAG QUEENS CHRISTMAS SHOW 🎄✨Dieses Weihnachten bringt DUCT TAPE die Berliner Drag-Szene für zwei ganz besondere Abende im Theater im Delphi zusammen.Am 4. und 5. Dezember feiern wir Weihnachten mit zwei unterschiedlichen gigantischen Berlin Allstars Line-ups. Und dieses Mal bleibt alles in der Hauptstadt: Auf der Bühne stehen ausschließlich Berliner Artists. ❤️Freut euch auf ein weihnachtliches Spektakel voller Drag, Comedy, Live-Gesang, Tanz und Performance. Von glamouröser Christmas Fantasy über große Showmomente bis hin zum absoluten Weihnachtschaos ist alles dabei.Und weil Berlin viel zu viele großartige Künstler*innen für nur einen Abend hat, bekommt jede der beiden Shows ein eigenes Line-up und Programm. Zwei Abende, zwei unterschiedliche Casts und jede Menge Berliner Drag.🎄 SHOW 1 📅 Freitag, 4. DezemberYvonne Nightstand • Rachel Intervention • Jacky-Oh Weinhaus • Bambi Mercury • Harpy • Toylette Paypr • Lady Dina • Anna Klatsche • Bibingka🎄 SHOW 2 📅 Samstag, 5. DezemberYvonne Nightstand • Sasha Glam • Anesha • Karlie Kant • Yenny Stark • Raven van Krüger • Cordova • Daniela Candela • Daisy Dick Präsentiert von Anytime Studios.Tickets sind ab jetzt verfügbar.",
+   "description": "Weihnachten mit Berliner Drag heißt in diesem Fall nicht still sitzen, sondern zwei Abende mit komplett unterschiedlicher Besetzung. DUCT TAPE holt dafür nur Artists aus der Stadt auf die Bühne 🌈",
    "endDate": "2026-12-04T21:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
@@ -193,42 +193,40 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/barden-barrikaden-keine-burg-den-bonzen-0/": {
-  "fetched": "2026-10-28T12:05:16+01:00",
+ "https://rausgegangen.de/events/berlin-premiere-von-identitti-0/": {
+  "fetched": "2026-10-28T13:03:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Barden & Barrikaden – Keine Burg den Bonzen Ein lauter Abend gegen Verdrängung, für Vielfalt und Freiräume. Vier Mittelalterbands lassen Leipzig erbeben – mit Trommeln, Lauten und Haltung. Denn Kultur gehört allen, nicht nur denen mit Schlüssel zum Schloss. Die Habenichtse - Reikas tanz - Sören vogelsang - Widarsihtig   ",
-   "endDate": "2026-11-07T23:45+0100",
+   "description": "Eine Dozentin, die sich als Deutsche statt als Inderin entpuppt, und plötzlich steht alles auf dem Spiel, was Nivedita über Zugehörigkeit glaubt. Zur Berlin Premiere kommen Regisseurin Randa Chahoud und die drei Hauptdarsteller:innen 👀",
+   "endDate": "2026-11-11T23:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/TKi8JTofQ3CHUK8iErqH_barden-barrikaden-fb-cover.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/UpkPFnCOQwa1jeFARHMh_design-ohne-titel-3.jpg"
    ],
    "location": {
     "@type": "Place",
     "address": {
      "@type": "PostalAddress",
      "addressCountry": "DE",
-     "addressLocality": "Leipzig",
-     "postalCode": "04105",
-     "streetAddress": "Theresienstraße 2"
+     "addressLocality": "Berlin",
+     "postalCode": "10407",
+     "streetAddress": "Bötzowstraße 1-5"
     },
-    "name": "TV-Club Leipzig"
+    "name": "Filmtheater am Friedrichshain"
    },
-   "name": "Barden & Barrikaden - Keine Burg den Bonzen",
+   "name": "Berlin-Premiere von IDENTITTI",
    "offers": {
     "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "23.92",
+    "price": "14.00",
     "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/barden-barrikaden-keine-burg-den-bonzen",
-    "validFrom": "2025-11-21T22:48+0100"
+    "validFrom": "2026-11-11T20:00+0100"
    },
-   "startDate": "2026-11-07T19:00+0100"
+   "startDate": "2026-11-11T20:00+0100"
   }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-10-28T06:06:08+01:00",
+  "fetched": "2026-10-28T13:03:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -310,7 +308,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
-  "fetched": "2026-10-28T06:06:08+01:00",
+  "fetched": "2026-10-28T13:03:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -402,7 +400,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-21/": {
-  "fetched": "2026-10-28T06:06:08+01:00",
+  "fetched": "2026-10-28T13:03:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -447,7 +445,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-22/": {
-  "fetched": "2026-10-28T06:06:08+01:00",
+  "fetched": "2026-10-28T13:03:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -492,7 +490,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
-  "fetched": "2026-10-28T06:06:08+01:00",
+  "fetched": "2026-10-28T13:03:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -633,7 +631,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-brunch-sponsored-by-fritz-kola-halloween-edition-0/": {
-  "fetched": "2026-10-28T06:06:08+01:00",
+  "fetched": "2026-10-28T13:03:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -673,7 +671,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-brunch-sponsored-by-fritz-kola-winter-edition-0/": {
-  "fetched": "2026-10-28T06:06:08+01:00",
+  "fetched": "2026-10-28T13:03:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -715,98 +713,77 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
- "https://rausgegangen.de/events/fiona-fiasco-0/": {
-  "fetched": "2026-10-28T12:05:16+01:00",
+ "https://rausgegangen.de/events/geheimkonzert-berlin-24-by-rausgegangen-0/": {
+  "fetched": "2026-10-28T13:03:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Da steht eine Band erst in der Lobby eines alten Hotels und im nächsten Moment auf einer Landstraße zwischen Wiese und Wald. Fiona Fiascos EP ist über anderthalb Jahre an sehr verschiedenen Orten zusammengekommen, und genau dieses schöne Verrutschen bleibt hängen 👀",
-   "endDate": "2027-04-08T22:30+0200",
+   "description": "Na Hallo! Es ist wieder so weit: Ein Abend voller Überraschung - denn wer auf der Bühne steht, bleibt bis zum ersten Ton geheim. Wir hatten schon Blond, Berq, Ennio, Futurebae, Jassin, Anais, Katha Pauer & viele mehr zu Gast – und das schon bevor sie die großen Bühnen der Nation gestürmt haben. Also entdecke die Stars von Morgen bei unseren Geheimkonzerten. 🪩",
+   "endDate": "2026-12-09T22:15+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/9gkLl9IRS4aHbQ1M9mSl_fiona-fiasco-georgia-spain.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/mO31iODjTCuFLVfQ493H_gk202516x9photoheadline-32-1.png"
    ],
    "location": {
     "@type": "Place",
     "address": {
      "@type": "PostalAddress",
      "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10119",
-     "streetAddress": "Schönhauser Allee 177b"
+     "addressLocality": "Berlin"
     },
-    "name": "8mm Bar"
+    "name": "Secret location"
    },
-   "name": "Fiona Fiasco",
+   "name": "Geheimkonzert Berlin #24 by Rausgegangen",
    "offers": {
-    "@type": "Offer",
-    "price": "15.00",
-    "priceCurrency": "EUR",
-    "url": "https://www.tixforgigs.com/Event/75587/fiona-fiasco-neue-zukunft-small-room-berlin",
-    "validFrom": "2027-04-08T20:00+0200"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Puschen",
-    "url": "https://rausgegangen.de/organizations/puschen/"
-   },
-   "startDate": "2027-04-08T20:00+0200"
-  }
- },
- "https://rausgegangen.de/events/fritzsessions-26/": {
-  "fetched": "2026-10-28T12:05:16+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Zwischen Hyperpop, Pop und Rap steht kein sauberer Strich, eher fünf Leute, die ihr eigenes Ding mitbringen. Bei den FritzSessions treffen unter anderem Amélia, Dueja und Katlix aufeinander, also ein Abend für offene Ohren 👀",
-   "endDate": "2026-11-10T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/8Y9wBoTBRr29567OaXR9_16x9fritzsessions051026-5-artists.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10997",
-     "streetAddress": "Schlesische Strasse 2"
-    },
-    "name": "Bi Nuu"
-   },
-   "name": "FritzSessions mit Amélia, Tara Emely, Dueja & Katlix",
-   "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "14.00",
-    "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/fritzsessions-20",
-    "validFrom": "2026-10-04T15:05+0200"
+    "@type": "AggregateOffer",
+    "highPrice": "29.90",
+    "lowPrice": "24.50",
+    "offerCount": 4,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "EARLY BIRD",
+      "price": "21.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "REGULAR",
+      "price": "26.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "4er FRIENDS BUNDLE für 98€",
+      "price": "24.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Mitgegangen",
+      "price": "3.80",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
    },
    "organizer": [
     {
      "@type": "Organization",
-     "name": "FritzSessions",
-     "url": "https://rausgegangen.de/organizations/page-for-team-fritzsessions/"
+     "name": "Rausgegangen Geheimkonzerte",
+     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte/"
     },
     {
      "@type": "Organization",
-     "name": "Fritz vom rbb",
-     "url": "https://rausgegangen.de/organizations/fritz-vom-rbb/"
+     "name": "Rausgegangen Geheimkonzerte Berlin",
+     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte-3/"
     }
    ],
-   "performer": [
-    {
-     "@type": "PerformingGroup",
-     "name": "DUEJA"
-    },
-    {
-     "@type": "PerformingGroup",
-     "name": "KATLIX"
-    }
-   ],
-   "startDate": "2026-11-09T19:00+0100"
+   "startDate": "2026-12-09T20:00+0100"
   }
  },
  "https://rausgegangen.de/events/halloween-drag-bingo-night-by-duct-tape-0/": {
@@ -966,7 +943,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-0/": {
-  "fetched": "2026-10-28T06:06:08+01:00",
+  "fetched": "2026-10-28T13:03:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -1049,16 +1026,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/poetry-slam-stories-stadtbad-lichtenberg-hidden-places-slam-0/": {
-  "fetched": "2026-10-28T12:05:16+01:00",
+ "https://rausgegangen.de/events/late-night-cult-movies-november-dont-look-now-wenn-die-gonde-0/": {
+  "fetched": "2026-10-28T13:03:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Ein Ort, der längst verstummt ist – bis jetzt.Für diese Show öffnet sich das ehemalige Stadtbad Lichtenberg für ein einmaliges Erlebnis: Spoken Word inmitten von Geschichte, Staub und Echos. Wo früher das Wasser rauschte, fließen jetzt Worte – roh, intensiv und wunderschön vergänglich. Zwischen Lost Place und Poesie.In vier Workshops haben wir gemeinsam mit den Lichtenbergern und Lichtenbergerinnen ihre Erinnerungen, Geschichten und Gefühle zu diesem historischen Ort gesammelt und kreativ verarbeitet - nun werden sie von vier Profi-Slammer:innen bühnenreif performt. Bei einer immersiven Begehung der sonst versperrten Räume des Stadtbades machen wir das Bad zur Bühne.Perfekt für alle, die Urban Exploration lieben, für Abenteurer*innen, Kulturjäger und In-Erinnerungen-Schwelger, und alle, die Literatur gern dort erleben, wo man sie nicht erwartet.Poetry Slam Stories ist ein Projekt des Stift & Mikro e.V., gefördert durch das Bezirksamt Lichtenberg von Berlin aus Mitteln des Bezirkskulturfonds.Zwei Durchgänge, limitierte Plätze.Einlass nur mit Voranmeldung – das Stadtbad öffnet exklusiv für dieses Event.",
-   "endDate": "2026-11-13T18:00+0100",
+   "description": "Venedig sieht selten so unromantisch aus: Nicolas Roegs Film von 1973 schickt ein trauerndes Ehepaar durch Gassen, in denen die Wirklichkeit kippt. Vor allem das Ende hat sich tief in die Filmgeschichte geschrieben 🍿",
+   "endDate": "2026-11-28T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Cgcok20KTRWm55yPPTKP_slam-stadtbad-lichtenberg-2-2.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/CblhS5QSBaQZsj1hXOk8_dont-look-now5cf7d6.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -1066,53 +1043,82 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10365",
-     "streetAddress": "Hubertusstraße 47"
+     "postalCode": "10405",
+     "streetAddress": "Prenzlauer Allee 80"
     },
-    "name": "Stadtbad Lichtenberg"
+    "name": "Zeiss-Großplanetarium"
    },
-   "name": "Poetry Slam Stories: Stadtbad Lichtenberg | Hidden Places Slam",
+   "name": "»Late Night Cult Movies« November: Don't Look Now – Wenn die Gondeln Trauer tragen",
    "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "13.32",
-    "lowPrice": "11.20",
-    "offerCount": 2,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "13.32",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Ermäßigt",
-      "price": "11.20",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
+    "@type": "Offer",
+    "price": "7.00",
+    "priceCurrency": "EUR",
+    "url": "https://www.planetarium.berlin/kino/dont-look-now-wenn-die-gondeln-trauer-tragen",
+    "validFrom": "2026-11-27T22:15+0100"
    },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Kiezpoeten",
-    "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
-   },
-   "startDate": "2026-11-13T17:00+0100"
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "»Late Night Cult Movies«",
+     "url": "https://rausgegangen.de/organizations/late-night-cult-movies/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Stiftung Planetarium Berlin",
+     "url": "https://rausgegangen.de/organizations/stiftung-planetarium-berlin-1/"
+    }
+   ],
+   "startDate": "2026-11-27T22:15+0100"
   }
  },
- "https://rausgegangen.de/events/speed-friending-berlin-by-rausgegangen-0/": {
-  "fetched": "2026-10-28T12:05:16+01:00",
+ "https://rausgegangen.de/events/lets-do-the-time-warp-0/": {
+  "fetched": "2026-10-28T13:03:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Speed Dating kennen wir alle, aber was ist mit Speed Friending? Hier lernst du in kurzen Gesprächen ganz entspannt neue Leute kennen, ohne das übliche Smalltalk-Blabla. Egal, ob du noch neue Friends suchst oder einfach Lust hast Menschen kennenzulernen. Das ist der place to be für neue Bekanntschaften. 🫂",
-   "endDate": "2026-11-05T22:30+0100",
+   "description": "Drinks, drag, music & a little bit of madnessIt's astounding. Time is fleeting. Madness takes its toll.This Halloween, we're stepping into the outrageous world of The Rocky Horror Picture Show for a night of cocktails, drag, music and unapologetic glamour.Inspired by the cult classic and celebrating the unforgettable legacy of Tim Curry, join us at The Social Hub Berlin on 30 October for an evening of camp, glitter and delicious chaos.WHAT TO EXPECT?🍸 Two drinks included with your ticket 💋 A live drag show by The Girls Berlin and Santana Sex Machine, inspired by The Rocky Horror Picture Show 🎶 DJ Abribass bringing the beats ✨ Costumes, glamour and a little bit of madnessFishnets, sequins, corsets, glitter and red lips are highly encouraged. Whether you're a Rocky Horror fan or simply here for a fabulous Halloween night, come as you are, or as someone entirely different.Grab your friends, unleash your inner creature of the night and get ready for an evening of camp, cocktails and chaos. 📅 30 October | 19:00–23:00 📍 The Social Hub BerlinDON'T DREAM IT. BE IT. 💋",
+   "endDate": "2026-10-30T23:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/DgOflF40T8WQ4ZDezaqe_design260820datingspeedfriending16x9.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/ATCy0k4GQdutC5KU4bkz_tsh-berlin-halloween-party-banner.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10179",
+     "streetAddress": "Alexanderstraße 40"
+    },
+    "name": "The Social Hub Berlin"
+   },
+   "name": "LET'S DO THE TIME WARP",
+   "offers": {
+    "@type": "Offer",
+    "price": "12.00",
+    "priceCurrency": "EUR",
+    "url": "https://www.eventbrite.co.uk/e/lets-do-the-time-warp-tickets-2002139840158?aff=oddtdtcreator",
+    "validFrom": "2026-10-30T19:00+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Team - The Social Hub Berlin",
+    "url": "https://rausgegangen.de/organizations/p-team-the-social-hub-berlin/"
+   },
+   "startDate": "2026-10-30T19:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/love-at-first-slide-berlin-power-point-dating-by-rausgegange-13/": {
+  "fetched": "2026-10-28T13:03:24+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Wir bringen mit LOVE AT FIRST SLIDE Dating auf die Bühne: Freund:innen stellen in kurzen Power Point Präsentationen ihre Lieblingssingle vor – charmant, humorvoll und ganz ohne Swipe. Nach den witzigen Pitches kannst du bei Speed-Dating und Barabend neue Begegnungen entdecken. 💘🎤💫",
+   "endDate": "2026-11-11T23:30+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/G4DW5S6EQHOrXfM562GP_lafsbannerappstraight-2-5.png"
    ],
    "location": {
     "@type": "Place",
@@ -1125,45 +1131,86 @@
     },
     "name": "Dufte Berlin"
    },
-   "name": "SPEED FRIENDING Berlin by Rausgegangen",
+   "name": "LOVE AT FIRST SLIDE Berlin | Power Point Dating by Rausgegangen 💖",
    "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "19.90",
-    "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/speed-friending-berlin-by-rausgegangen",
-    "validFrom": "2026-09-28T00:00+0200"
+    "@type": "AggregateOffer",
+    "highPrice": "19.50",
+    "lowPrice": "10.00",
+    "offerCount": 5,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Presenterticket",
+      "price": "10.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Publikum Ticket | Ich bin eine hetero Frau",
+      "price": "19.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Publikum Ticket | Ich bin ein hetero Mann",
+      "price": "19.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Publikum Ticket | Ich bin queer",
+      "price": "19.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Mitgegangen",
+      "price": "3.80",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
    },
    "organizer": [
     {
      "@type": "Organization",
-     "name": "Rausgegangen Events",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-events/"
+     "name": "LOVE AT FIRST SLIDE BERLIN by Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/love-at-first-slide-berlin-by-rausgegangen/"
     },
     {
      "@type": "Organization",
-     "name": "Speed Dating by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/speed-dating-by-rausgegangen/"
+     "name": "Love at first Slide by Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/page-for-team-love-at-first-slide-by-rausgegangen/"
     },
     {
      "@type": "Organization",
-     "name": "Speed Friending by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/speed-friending-by-rausgegangen/"
+     "name": "LOVE AT FIRST SLIDE by Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/love-at-first-slide-by-rausgegangen/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Team Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/team-rausgegangen/"
     }
    ],
-   "startDate": "2026-11-05T19:30+0100"
+   "startDate": "2026-11-11T19:00+0100"
   }
  },
- "https://rausgegangen.de/events/tommy-lefroy-5/": {
-  "fetched": "2026-10-28T12:05:16+01:00",
+ "https://rausgegangen.de/events/ocean-bound-1/": {
+  "fetched": "2026-10-28T13:03:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Nicht nur Gitarren, sondern auch Gespräche: Tommy Lefroy organisieren bei ihren Konzerten sogar Büchertausch, während ihre Songs von Unsicherheit und Selbstbestimmung erzählen. Persönlich und politisch zugleich 💜",
-   "endDate": "2027-02-12T23:00+0100",
+   "description": "Küstenlinien verändern sich bis zur Unkenntlichkeit; vertraute Landschaften verschwinden. Vor dem Hintergrund des Klimawandels und des Verlusts von Umgebungen, mit denen wir verbunden sind und die uns zusammenhalten, widmet sich der rumänische Choreograf Sergiu Matis in seiner neuen Arbeit „Ocean Bound“ der Frage, wie bewegte Bilder auf bewegte Körper wirken.Eigens für das Projekt entstandenes Videomaterial richtet den Blick auf Lebensräume an der Schnittstelle von Land und Meer, menschlicher Besiedlung und Wald – Orte, an denen steigende Wasserstände durch die Abholzung von Mangrovenwäldern, Küstenerosion und Veränderungen der Gezeiten das Leben zunehmend prägen. Publikum und Performer*innen bewegen sich zwischen unterschiedlichen Videoprojektionen frei auf der Bühne und erzeugen eine Choreografie, in der Körper und Bilder innerhalb einer gemeinsamen, vom Ozean geprägten Umgebung miteinander verwoben werden.„Ocean Bound“ schafft Raum für das tiefe Gefühl von Verlust und für Formen des Trauerns, für die uns Sprache und Rituale fehlen. Die Körper der Performer*innen werden von den komplexen Emotionen ökologischer Trauer bewegt. So entsteht eine Choreografie an der Grenze zwischen Digitalem und Analogem, zwischen Dokumentation und Fiktion – und gibt Raum, um das Gewicht des Verlusts zu tragen, zu trauern und aus den Fragmenten eine bewegende, hoffnungsvolle und poetische Sprache zu entwickeln.",
+   "endDate": "2026-10-30T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/87oYVgOTBOqOv8rlX18B_photo-tommy-lefroycredit-brendon-burton-kopie.jpg"
+    "https://rausgegangen.s3.amazonaws.com/vo178knl9swb.png"
    ],
    "location": {
     "@type": "Place",
@@ -1171,20 +1218,20 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10179",
-     "streetAddress": "Holzmarktstraße 15-18"
+     "postalCode": "10243",
+     "streetAddress": "Holzmarktstr. 33"
     },
-    "name": "LARK"
+    "name": "Radialsystem"
    },
-   "name": "Tommy Lefroy",
+   "name": "Ocean Bound",
    "offers": {
     "@type": "Offer",
-    "price": "25.00",
+    "price": "12.00",
     "priceCurrency": "EUR",
-    "url": "https://www.eventim.de/artist/tommy-lefroy/",
-    "validFrom": "2027-02-12T19:00+0100"
+    "url": "https://pretix.eu/radialsystem/snxxl/",
+    "validFrom": "2026-10-29T20:00+0100"
    },
-   "startDate": "2027-02-12T19:00+0100"
+   "startDate": "2026-10-29T20:00+0100"
   }
  }
 }

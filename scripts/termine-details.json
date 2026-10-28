@@ -681,16 +681,16 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
- "https://rausgegangen.de/events/fiona-fiasco-0/": {
-  "fetched": "2026-10-28T04:04:39+01:00",
+ "https://rausgegangen.de/events/dressed-like-boys-13/": {
+  "fetched": "2026-10-28T05:06:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Da steht eine Band erst in der Lobby eines alten Hotels und im nächsten Moment auf einer Landstraße zwischen Wiese und Wald. Fiona Fiascos EP ist über anderthalb Jahre an sehr verschiedenen Orten zusammengekommen, und genau dieses schöne Verrutschen bleibt hängen 👀",
-   "endDate": "2027-04-08T22:30+0200",
+   "description": "Bei Dressed Like Boys kommt Pop nicht als Pose, sondern aus sehr persönlichen Geschichten über queere Identität. Hinter dem Projekt steckt Jelle Denturck aus Belgien, sonst Stimme von DIRK. 🌈",
+   "endDate": "2027-04-10T23:00+0200",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/9gkLl9IRS4aHbQ1M9mSl_fiona-fiasco-georgia-spain.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/D3CFGkCfS0OIxI4TCH11_photo-dressed-like-boyscredit-sieme-hermansweb.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -698,25 +698,20 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10119",
-     "streetAddress": "Schönhauser Allee 177b"
+     "postalCode": "10179",
+     "streetAddress": "Holzmarktstraße 15-18"
     },
-    "name": "8mm Bar"
+    "name": "LARK"
    },
-   "name": "Fiona Fiasco",
+   "name": "Dressed Like Boys",
    "offers": {
     "@type": "Offer",
-    "price": "15.00",
+    "price": 0,
     "priceCurrency": "EUR",
-    "url": "https://www.tixforgigs.com/Event/75587/fiona-fiasco-neue-zukunft-small-room-berlin",
-    "validFrom": "2027-04-08T20:00+0200"
+    "url": "https://www.eventim.de/artist/dressed-like-boys/",
+    "validFrom": "2027-04-10T19:00+0200"
    },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Puschen",
-    "url": "https://rausgegangen.de/organizations/puschen/"
-   },
-   "startDate": "2027-04-08T20:00+0200"
+   "startDate": "2027-04-10T19:00+0200"
   }
  },
  "https://rausgegangen.de/events/halloween-drag-bingo-night-by-duct-tape-0/": {
@@ -993,16 +988,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/keo-3/": {
-  "fetched": "2026-10-28T04:04:39+01:00",
+ "https://rausgegangen.de/events/la-kiffance-2/": {
+  "fetched": "2026-10-28T05:06:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Früher standen Finn und Conor Keogh noch in britischen Pubs auf der Bühne, jetzt klingt Keo nach deutlich lauteren Gitarren und offener Kante. Viel Alternative Rock, aber ohne Schutzschild 👀",
-   "endDate": "2027-04-11T06:00+0200",
+   "description": "LA KIFFANCE | 13.11 | MAAYA BerlinFrench rap lovers, Caribbean music heads and everyone who’s been waiting for a proper night out: La Kiffance is back at MAAYA on Friday, 13 November. Expect French rap, Afro R&B, Shatta, Bouyon, Afrotrap and Kompa, with sounds from France, Africa and the Caribbean sharing one dancefloor. From anthems you know word for word to tracks that send you straight to the DJ booth asking for the name, there’s plenty to keep you moving. Come with your crew or come ready to meet new people. Whether you’re here to shout every lyric, dance close or lose yourself in the bass, there’s a place for you. You don’t need to speak French to get into it. La Kiffance is all about enjoying yourself, and we’re giving you a whole night to do exactly that. Get your tickets, send the link to the group chat and meet us on the dancefloor. 📍 MAAYA Berlin | Revaler Str. 99, 10245 Berlin 📅 Friday, 13 November 2026 C’est la kiffance!",
+   "endDate": "2026-11-14T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Jg1vNdRjIbgCaKFsFpQK_press-photo-keobehappydigiv1judeharrison-39-klein.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/HBnj8GjBRlCGaB0cNs4N_feed-2.png"
    ],
    "location": {
     "@type": "Place",
@@ -1010,37 +1005,33 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "12051",
-     "streetAddress": "Hermannstraße 146"
+     "postalCode": "10245",
+     "streetAddress": "Revaler Straße 99"
     },
-    "name": "HOLE"
+    "name": "MAAYA"
    },
-   "name": "Keo",
+   "name": "La Kiffance",
    "offers": {
-    "@type": "Offer",
-    "price": "29.30",
-    "priceCurrency": "EUR",
-    "url": "https://www.eventim.de/noapp/event/keo-hole-44-22217130/?affiliate=SZ3&utm_campaign=SzeneTickets+GmbH&utm_source=SZ3&utm_medium=dp",
-    "validFrom": "2027-04-10T20:00+0200"
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 0,
+    "offers": [],
+    "priceCurrency": "EUR"
    },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Trinity Music",
-    "url": "https://rausgegangen.de/organizations/trinity-music-ah-4tam/"
-   },
-   "startDate": "2027-04-10T20:00+0200"
+   "startDate": "2026-11-13T22:30+0100"
   }
  },
- "https://rausgegangen.de/events/lets-do-the-time-warp-0/": {
-  "fetched": "2026-10-28T04:04:39+01:00",
+ "https://rausgegangen.de/events/lina-bo-asphalt-und-sterne-tour-2026-20/": {
+  "fetched": "2026-10-28T05:06:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Drinks, drag, music & a little bit of madnessIt's astounding. Time is fleeting. Madness takes its toll.This Halloween, we're stepping into the outrageous world of The Rocky Horror Picture Show for a night of cocktails, drag, music and unapologetic glamour.Inspired by the cult classic and celebrating the unforgettable legacy of Tim Curry, join us at The Social Hub Berlin on 30 October for an evening of camp, glitter and delicious chaos.WHAT TO EXPECT?🍸 Two drinks included with your ticket 💋 A live drag show by The Girls Berlin and Santana Sex Machine, inspired by The Rocky Horror Picture Show 🎶 DJ Abribass bringing the beats ✨ Costumes, glamour and a little bit of madnessFishnets, sequins, corsets, glitter and red lips are highly encouraged. Whether you're a Rocky Horror fan or simply here for a fabulous Halloween night, come as you are, or as someone entirely different.Grab your friends, unleash your inner creature of the night and get ready for an evening of camp, cocktails and chaos. 📅 30 October | 19:00–23:00 📍 The Social Hub BerlinDON'T DREAM IT. BE IT. 💋",
-   "endDate": "2026-10-30T23:00+0100",
+   "description": "Zwischen Straße und Club klingen Lina Bó nach Unterwegssein, nach Begegnungen und diesem Leben zwischen Kulturen. Hinter dem Duo stehen Celina von Wrochem und Luca Bo Hansen 💃",
+   "endDate": "2026-11-27T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/ATCy0k4GQdutC5KU4bkz_tsh-berlin-halloween-party-banner.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/PPDKVpxqQ2cU0aMswuwf_lina-bo-tour-2026-bild-1-small-by-malte-paulsen.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -1048,113 +1039,115 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10179",
-     "streetAddress": "Alexanderstraße 40"
+     "postalCode": "10435",
+     "streetAddress": "Knaackstraße 97"
     },
-    "name": "The Social Hub Berlin"
+    "name": "Maschinenhaus"
    },
-   "name": "LET'S DO THE TIME WARP",
+   "name": "Lina Bó - Asphalt und Sterne Tour 2026",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 2,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "28.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Begleitperson",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Lina Bó"
+   },
+   "startDate": "2026-11-26T20:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/ocean-bound-1/": {
+  "fetched": "2026-10-28T05:06:24+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Küstenlinien verändern sich bis zur Unkenntlichkeit; vertraute Landschaften verschwinden. Vor dem Hintergrund des Klimawandels und des Verlusts von Umgebungen, mit denen wir verbunden sind und die uns zusammenhalten, widmet sich der rumänische Choreograf Sergiu Matis in seiner neuen Arbeit „Ocean Bound“ der Frage, wie bewegte Bilder auf bewegte Körper wirken.Eigens für das Projekt entstandenes Videomaterial richtet den Blick auf Lebensräume an der Schnittstelle von Land und Meer, menschlicher Besiedlung und Wald – Orte, an denen steigende Wasserstände durch die Abholzung von Mangrovenwäldern, Küstenerosion und Veränderungen der Gezeiten das Leben zunehmend prägen. Publikum und Performer*innen bewegen sich zwischen unterschiedlichen Videoprojektionen frei auf der Bühne und erzeugen eine Choreografie, in der Körper und Bilder innerhalb einer gemeinsamen, vom Ozean geprägten Umgebung miteinander verwoben werden.„Ocean Bound“ schafft Raum für das tiefe Gefühl von Verlust und für Formen des Trauerns, für die uns Sprache und Rituale fehlen. Die Körper der Performer*innen werden von den komplexen Emotionen ökologischer Trauer bewegt. So entsteht eine Choreografie an der Grenze zwischen Digitalem und Analogem, zwischen Dokumentation und Fiktion – und gibt Raum, um das Gewicht des Verlusts zu tragen, zu trauern und aus den Fragmenten eine bewegende, hoffnungsvolle und poetische Sprache zu entwickeln.",
+   "endDate": "2026-10-30T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://rausgegangen.s3.amazonaws.com/vo178knl9swb.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10243",
+     "streetAddress": "Holzmarktstr. 33"
+    },
+    "name": "Radialsystem"
+   },
+   "name": "Ocean Bound",
    "offers": {
     "@type": "Offer",
     "price": "12.00",
     "priceCurrency": "EUR",
-    "url": "https://www.eventbrite.co.uk/e/lets-do-the-time-warp-tickets-2002139840158?aff=oddtdtcreator",
-    "validFrom": "2026-10-30T19:00+0100"
+    "url": "https://pretix.eu/radialsystem/snxxl/",
+    "validFrom": "2026-10-29T20:00+0100"
+   },
+   "startDate": "2026-10-29T20:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/yab-yum-tour-2026-0/": {
+  "fetched": "2026-10-28T05:06:24+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Sieben Leute auf der Bühne, dazu Bläser und Rap, und alles kommt direkt aus dem Moment statt aus dem Rechner. Twiceasmad bringen ihre nächste eigene Tour zum ersten Mal auch nach Berlin 👀",
+   "endDate": "2026-11-22T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/ZmjTgBfRTuFmJv5MY5Qf_tamgarage-21.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10627",
+     "streetAddress": "Kaiser-Friedrich-Straße 67, 10627 Berlin-Charlottenburg"
+    },
+    "name": "ART Stalker - Kunst + Bar + Events"
+   },
+   "name": "Yab Yum Tour 2026",
+   "offers": {
+    "@type": "Offer",
+    "price": "8.00",
+    "priceCurrency": "EUR",
+    "url": "https://art-stalker.reservix.de/p/reservix/event/2539159",
+    "validFrom": "2026-11-21T20:00+0100"
    },
    "organizer": {
     "@type": "Organization",
-    "name": "Team - The Social Hub Berlin",
-    "url": "https://rausgegangen.de/organizations/p-team-the-social-hub-berlin/"
-   },
-   "startDate": "2026-10-30T19:00+0100"
-  }
- },
- "https://rausgegangen.de/events/skuppin-musee-sentimental-tour-2027-10/": {
-  "fetched": "2026-10-28T04:04:39+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Kühle Synths, düstere Bässe, und dann diese Stimme, die plötzlich mehr Druck hat, als man erst denkt. SKUPPIN bringt auf der Musée Sentimental Tour neuen Stoff mit und steht live nicht allein auf der Bühne 👀",
-   "endDate": "2027-11-26T22:30+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Y4GElzxUQ8avCC0sjfVr_pressefotoskuppinstellawei00edit.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10997",
-     "streetAddress": "Skalitzer Strasse 85-86"
-    },
-    "name": "Privatclub Berlin"
-   },
-   "name": "SKUPPIN - \"Musée Sentimental\" Tour 2027",
-   "offers": {
-    "@type": "Offer",
-    "price": 0,
-    "priceCurrency": "EUR",
-    "url": "https://loveyourartist.com/de/profiles/skuppin-YAJ7YR/events",
-    "validFrom": "2027-11-26T20:00+0100"
+    "name": "twiceasmad",
+    "url": "https://rausgegangen.de/organizations/page-for-team-twiceasmad/"
    },
    "performer": {
     "@type": "PerformingGroup",
-    "name": "SKUPPIN"
+    "name": "twiceasmad"
    },
-   "startDate": "2027-11-26T20:00+0100"
-  }
- },
- "https://rausgegangen.de/events/speed-friending-berlin-by-rausgegangen-0/": {
-  "fetched": "2026-10-28T04:04:39+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Speed Dating kennen wir alle, aber was ist mit Speed Friending? Hier lernst du in kurzen Gesprächen ganz entspannt neue Leute kennen, ohne das übliche Smalltalk-Blabla. Egal, ob du noch neue Friends suchst oder einfach Lust hast Menschen kennenzulernen. Das ist der place to be für neue Bekanntschaften. 🫂",
-   "endDate": "2026-11-05T22:30+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/DgOflF40T8WQ4ZDezaqe_design260820datingspeedfriending16x9.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10625",
-     "streetAddress": "Kantstraße 127"
-    },
-    "name": "Dufte Berlin"
-   },
-   "name": "SPEED FRIENDING Berlin by Rausgegangen",
-   "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "19.90",
-    "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/speed-friending-berlin-by-rausgegangen",
-    "validFrom": "2026-09-28T00:00+0200"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "Rausgegangen Events",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-events/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Speed Dating by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/speed-dating-by-rausgegangen/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Speed Friending by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/speed-friending-by-rausgegangen/"
-    }
-   ],
-   "startDate": "2026-11-05T19:30+0100"
+   "startDate": "2026-11-21T20:00+0100"
   }
  }
 }

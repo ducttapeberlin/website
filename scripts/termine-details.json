@@ -193,6 +193,44 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/alte-seilschaften-das-bundesvertriebenenministerium-zwischen-0/": {
+  "fetched": "2026-10-29T19:05:58+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Das Vertriebenenministerium (1949–1969) war die oberste Bundesbehörde für die Belange der rund 8 Millionen Heimatvertriebenen und Flüchtlinge in der Bundesrepublik. Nicht nur an seiner Spitze standen dabei denkbar gegensätzliche Persönlichkeiten: Der erste Minister war Widerstandskämpfer, sein Nachfolger hingegen tief in das NS-System verstrickt.Welche Rolle spielten alte Seilschaften, Parteibücher und persönliche Netzwerke für die Arbeit, den Aufstieg und Einfluss im Vertriebenenministerium? Unterscheidet es sich dabei von anderen Bundesministerien? Die neue Kollektivbiografie Kommunikation und Konsensfindung (hier kostenfrei erhältlich) geht solchen Fragen erstmals systematisch nach.Diskutieren Sie mit!",
+   "endDate": "2026-11-05T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/qjZcr5pTqCRNc4LtzcJj_bundesarchiv-b-145-bild-f000016-0641-fotograf-oang.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10963",
+     "streetAddress": "Stresemannstraße 90"
+    },
+    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
+   },
+   "name": "Alte Seilschaften? Das Bundesvertriebenenministerium zwischen NS-Diktatur und Demokratie",
+   "offers": {
+    "@type": "Offer",
+    "price": "0.00",
+    "priceCurrency": "EUR",
+    "url": "https://buchungen.flucht-vertreibung-versoehnung.de/de/tickets/108",
+    "validFrom": "2026-11-05T00:00+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung",
+    "url": "https://rausgegangen.de/organizations/dokumentationszentrum-flucht-vertreibung-versohnung/"
+   },
+   "startDate": "2026-11-05T00:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
   "fetched": "2026-10-29T16:15:45+01:00",
   "ld": {
@@ -681,39 +719,6 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
- "https://rausgegangen.de/events/golden-gmilfs-miami-spice-18/": {
-  "fetched": "2026-10-29T18:14:18+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Mit trockenem Humor und noch trockeneren Perücken melden sie sich zurück: Die Bühnen-Queens der gereiften Lebensfreude heben ihr brandneues Stück auf ein völlig neues Level. In »Miami Spice« erlebt das verschmitzte Seniorinnen-Squad Unruhe in seiner floridianischen Nachbarschaft: Wer sind diese neuen Menschen? Woher kommen sie? Und was ist mit unserem Schmuck passiert?Das Ensemble präsentiert sich wie immer mit unerschrockenem Witz, strahlender Selbstironie und überraschend zarten Zwischentönen, jedoch diesmal in neuem Glanz: Rachel Intervention als Rose, Ryan Stecken als Sophia, Yvonne Nightstand als Dorothy und Deena Fear als Blanche. Für Gerechtigkeit sorgen selbstverständlich Miss Pan Am Drag Airlines und Mii. Frischer Schwung, aber gleichbleibender satirischer Biss und unwiderstehliche Bühnenenergie. Aber ... Moment mal ... wer ist die geheimnisvolle neue Nachbarin???Das und vieles mehr erfahren Sie zwischen scharfzüngigen Dialogen, musikalischen Glanzmomenten und wunderbar absurden Szenen im neuen Programm der Golden Gmilfs: eine Live-Playback-Parodie mit Sitcom-Schnipseln der 80er / 90er Jahre Kultserie »The Golden Girls«.",
-   "endDate": "2026-11-07T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/ZVAtNEEaQmSbT3gAU6mt_golden-gmilfs-miami-spice-foto-yves-tiedemann-fb.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10961",
-     "streetAddress": "Mehringdamm 34"
-    },
-    "name": "BKA Theater"
-   },
-   "name": "Golden Gmilfs: Miami Spice",
-   "offers": {
-    "@type": "Offer",
-    "price": 0,
-    "priceCurrency": "EUR",
-    "url": "https://bka-theater-webshop.comfortticket.de/de/produktion/0d60aa6d-479d-4320-8251-af131be95f9c/469",
-    "validFrom": "2026-11-06T20:00+0100"
-   },
-   "startDate": "2026-11-06T20:00+0100"
-  }
- },
  "https://rausgegangen.de/events/halloween-drag-bingo-night-by-duct-tape-0/": {
   "fetched": "2026-10-29T17:14:04+01:00",
   "ld": {
@@ -870,16 +875,16 @@
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/jeder-mensch-kann-trauern-fee-vogel-eric-wrede-2/": {
-  "fetched": "2026-10-29T17:14:04+01:00",
+ "https://rausgegangen.de/events/jake-isaac-5/": {
+  "fetched": "2026-10-29T19:05:58+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Was passiert in unserem Körper, wenn wir trauern? Wie kann man lernen, mit Trauer zu leben? Was sind die schlimmsten Beileidsbekundungen aller Zeiten? Und was kann im Familien-WhatsApp-Chat alles schiefgehen, wenn plötzlich eine Beerdigung organisiert werden muss?Fee Vogel und Eric Wrede nehmen das Publikum mit auf einen Abend, der Trauer so zeigt, wie sie wirklich ist – menschlich, nah, manchmal überraschend komisch. Keine Lesung. Kein Vortrag. Sondern ein Gespräch über eine der wichtigsten Fähigkeiten, die wir haben.Grundlage des Abends ist das gleichnamige Buch, das im November 2026 im Insel Verlag (Suhrkamp) erscheint.Fee Vogel ist Geschäftsführerin von lebensnah Bestattungen Bonn und qualifizierte Trauerbegleiterin, auch für Kinder und Jugendliche. Sie ist Mitbegründerin der Beratungsfirma trauerkultur3, die Unternehmen und Führungskräfte unterstützt, wenn Trauer am Arbeitsplatz ankommt.Eric Wrede führt lebensnah Bestattungen in Berlin, Leipzig, Bonn und Potsdam. Sein Spiegel-Bestseller „The End“ wurde 2025 vom ZDF unter dem Titel „Sterben für Beginner“ verfilmt, im selben Jahr lief die Kino-Dokumentation „Der Tod ist ein Arschloch!“ in den Kinos. Im ARD/radioeins-Podcast „the end“ spricht er mit Gästen wie Sven Regener, Judith Holofernes, Sarah Kuttner und Sebastian Fitzek über das, worüber die meisten schweigen.Im November 2026 ist „Jeder Mensch kann trauern“ in Deutschland, Österreich und der Schweiz zu erleben.",
-   "endDate": "2026-11-18T05:00+0100",
+   "description": "Zehn Jahre später packt Jake Isaac seine alten Songs noch mal an, und plötzlich hört man, wie viel Weg dazwischen liegt. Der Mann aus Südlondon kam erst übers Schlagzeug zur Musik, unter seiner Soulstimme schiebt also immer auch Rhythmus mit 🙂",
+   "endDate": "2027-05-11T23:00+0200",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/gTc6DlSeQUGrmAJ5746L_jmktrausgegangentitelbild1920x1080.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/SroI1DKYQ82lBUbI1BAg_jifb-cover.png"
    ],
    "location": {
     "@type": "Place",
@@ -887,21 +892,29 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10437",
-     "streetAddress": "Schönhauser Allee 123"
+     "postalCode": "10435",
+     "streetAddress": "Schönhauser Allee 36"
     },
-    "name": "Filmtheater Colosseum"
+    "name": "frannz club berlin"
    },
-   "name": "Jeder Mensch kann trauern – Fee Vogel & Eric Wrede",
+   "name": "Jake Isaac",
    "offers": {
     "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "24.90",
+    "price": "36.00",
     "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/jeder-mensch-kann-trauern-fee-vogel-eric-wrede-1",
-    "validFrom": "2026-09-29T16:00+0200"
+    "url": "https://link.dice.fm/A0137a8279d3",
+    "validFrom": "2027-05-11T20:00+0200"
    },
-   "startDate": "2026-11-17T19:00+0100"
+   "organizer": {
+    "@type": "Organization",
+    "name": "Z|ART Agency",
+    "url": "https://rausgegangen.de/organizations/zart-agency-gmbh/"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Jake Isaac"
+   },
+   "startDate": "2027-05-11T20:00+0200"
   }
  },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-0/": {
@@ -988,16 +1001,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/maaya-halloween-0/": {
-  "fetched": "2026-10-29T18:14:18+01:00",
+ "https://rausgegangen.de/events/late-night-cult-movies-november-dont-look-now-wenn-die-gonde-0/": {
+  "fetched": "2026-10-29T19:05:58+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "MAAYA HALLOWEEN 2026 | 2 Floors & Costume ContestAm 31. Oktober wird MAAYA zur Halloween-Party für alle, die keine Lust auf einen gewöhnlichen Samstagabend haben.Zwei Floors, unterschiedliche Sounds, ausgefallene Kostüme und eine Nacht, in der du ruhig ein bisschen übertreiben darfst.🎶 TWO FLOORS, TWO VIBES🔥 FREAK DE L’AFRIQUE FLOOR Mit Shorty, Wallizz und Jimah. Hosted by Copado, mit den Fola Dancers.🔥 AFRO HOUSE FLOOR Mit AFU 🇰🇪 und Aunty Cece.Von Afrobeats und Amapiano bis zu Afro House. Wechsel zwischen den Floors, finde deinen Sound und tanz bis spät in die Nacht.🏆 THE BIG COSTUME CONTESTHalloween ohne Kostüm? Kann man machen. Aber warum?Egal ob gruselig, sexy, lustig oder komplett verrückt: Wir suchen die besten Halloween-Looks der Nacht!🏆 Best Single Costume🏆 Best Group CostumeZu gewinnen gibt es Drinks, eine Flasche für die Crew und Tickets für unsere MAAYA New Year's Eve Party.Also schnapp dir deine Leute, plant eure Outfits und zeigt uns, was ihr draufhabt.🎃 MAAYA HALLOWEEN 2026📅 Samstag, 31. Oktober 2026🕚 Ab 23:00 Uhr bis spät📍 MAAYA Berlin, Revaler Str. 99, 10245 Berlin🎟️ Tickets ab 12 €Ob du zum Tanzen, wegen der Kostüme oder einfach für eine gute Halloween-Nacht kommst: Bei MAAYA bist du richtig.Bring your crew. Dress up. See you on the dancefloor.",
-   "endDate": "2026-11-01T06:00+0100",
+   "description": "Venedig sieht selten so unromantisch aus: Nicolas Roegs Film von 1973 schickt ein trauerndes Ehepaar durch Gassen, in denen die Wirklichkeit kippt. Vor allem das Ende hat sich tief in die Filmgeschichte geschrieben 🍿",
+   "endDate": "2026-11-28T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/AhctdPmmTs0abHUcD5Yl_facebook-4.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/CblhS5QSBaQZsj1hXOk8_dont-look-now5cf7d6.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -1005,37 +1018,77 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10245",
-     "streetAddress": "Revaler Straße 99"
+     "postalCode": "10405",
+     "streetAddress": "Prenzlauer Allee 80"
     },
-    "name": "MAAYA"
+    "name": "Zeiss-Großplanetarium"
    },
-   "name": "MAAYA HALLOWEEN 2026 | 2 Floors & Costume Contest",
+   "name": "»Late Night Cult Movies« November: Don't Look Now – Wenn die Gondeln Trauer tragen",
+   "offers": {
+    "@type": "Offer",
+    "price": "7.00",
+    "priceCurrency": "EUR",
+    "url": "https://www.planetarium.berlin/kino/dont-look-now-wenn-die-gondeln-trauer-tragen",
+    "validFrom": "2026-11-27T22:15+0100"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "»Late Night Cult Movies«",
+     "url": "https://rausgegangen.de/organizations/late-night-cult-movies/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Stiftung Planetarium Berlin",
+     "url": "https://rausgegangen.de/organizations/stiftung-planetarium-berlin-1/"
+    }
+   ],
+   "startDate": "2026-11-27T22:15+0100"
+  }
+ },
+ "https://rausgegangen.de/events/millennial-mixtape-das-revival-der-nullerjahre-auf-3-floors-0/": {
+  "fetched": "2026-10-29T19:05:58+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Mainfloor: 'diefeder' (Millennial Pop-Mix)Loungefloor: Little A (00er R'n'B HipHop)Salonfloor: tba «Ist das noch Indie?!»  Wir bringen SexyBack! Am Samstag, den 14. Novomber, verwandelt sich unser kleiner Wohlfühlclub in das Epizentrum für pure Nullerjahre-Nostalgie. Mit dem „Millennial Mixtape“ feiern wir den Sound und das Lebensgefühl eines unvergesslich unbeschwerten Jahrzehnts.Drei Floors – Drei Welten Egal, welche Musikrichtung eure Jugend geprägt hat – auf dem „Millennial Mixtape“ finden alle ihre ganz persönlichen absoluten 00er Banger:• Mainflloor: Die Pop-Explosion mit 'diefeder'! – Hier regieren die Königinnen und Könige der Nullerjahre. Tanzt zu Britney Spears, den No Angels, Justin Timberlake, Shakira und der besten Kylie ever.• Radaufloor: \"Little A\" und sein Hip-Hop & R&B Mix – Hey Ya, willkommen In da Club! Fette Bässe und smoother Groove. Freut euch auf die Tracks von Eminem, 50 Cent, Beyoncé, Nelly und Usher.• Salon: Indie & Rock-Alternative selektiert von DJ Snacky Baba & DJ tba – «Ist das noch Indie?!» Wir sagen: Das ist Disco! Von Arctic Monkeys bis Whitney Houston, von Kraftklub bis Charli XCX und von Two Door Cinema Club bis Nina Chuba wird für alle etwas dabei sein! Die Hardfacts:• Event: Millennial Mixtape – Das Revival der Nullerjahre auf 3 Floors!• Wann: Samstag, 14. Novmeber 2026, ab 21:00 Uhr• Wo: Frannz Club (in der Kulturbrauerei), Schönhauser Allee 36, 10435 Berlin• Eintritt: Early Bird für 8,00 Euro (nur von 21:00 bis 22:00 Uhr und nur an der Abendkasse), danach regulär 12,00 Euro an der Abendkasse. Sichert euch euren Platz auf der Tanzfläche und spult mit uns das Mixtape eurer Jugend zurück!",
+   "endDate": "2026-11-15T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/dyghNqMTteDJHdV9BYbr_facebook-event-banner-mixtape-1411.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10435",
+     "streetAddress": "Schönhauser Allee 36"
+    },
+    "name": "frannz club berlin"
+   },
+   "name": "Millennial Mixtape- Das Revival der Nullerjahre auf 3 Floors!",
    "offers": {
     "@type": "Offer",
     "price": "12.00",
     "priceCurrency": "EUR",
-    "url": "https://xceed.me/en/berlin/event/maaya-halloween/243650/channel/maaya-berlin",
-    "validFrom": "2026-10-31T23:00+0100"
+    "url": "https://shop.copilot.events/frannz/events/820df3ed-f0bf-4d98-ad28-aa2f26619ae6",
+    "validFrom": "2026-11-14T21:00+0100"
    },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Maaya Berlin",
-    "url": "https://rausgegangen.de/organizations/page-for-team-maaya-berlin-2/"
-   },
-   "startDate": "2026-10-31T23:00+0100"
+   "startDate": "2026-11-14T21:00+0100"
   }
  },
- "https://rausgegangen.de/events/most-wanted-music-club-festival-1/": {
-  "fetched": "2026-10-29T18:14:18+01:00",
+ "https://rausgegangen.de/events/ocean-bound-1/": {
+  "fetched": "2026-10-29T19:05:58+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Kein großer Name, auf den alle warten, sondern mehr als 40 Acts, die Du vielleicht erst später überall hörst. Am Ende kippt das Ganze sogar in eine offene Jam Session, bei der auch Leute aus dem Publikum mitmachen können 👀",
-   "endDate": "2026-11-05T23:45+0100",
+   "description": "Küstenlinien verändern sich bis zur Unkenntlichkeit; vertraute Landschaften verschwinden. Vor dem Hintergrund des Klimawandels und des Verlusts von Umgebungen, mit denen wir verbunden sind und die uns zusammenhalten, widmet sich der rumänische Choreograf Sergiu Matis in seiner neuen Arbeit „Ocean Bound“ der Frage, wie bewegte Bilder auf bewegte Körper wirken.Eigens für das Projekt entstandenes Videomaterial richtet den Blick auf Lebensräume an der Schnittstelle von Land und Meer, menschlicher Besiedlung und Wald – Orte, an denen steigende Wasserstände durch die Abholzung von Mangrovenwäldern, Küstenerosion und Veränderungen der Gezeiten das Leben zunehmend prägen. Publikum und Performer*innen bewegen sich zwischen unterschiedlichen Videoprojektionen frei auf der Bühne und erzeugen eine Choreografie, in der Körper und Bilder innerhalb einer gemeinsamen, vom Ozean geprägten Umgebung miteinander verwoben werden.„Ocean Bound“ schafft Raum für das tiefe Gefühl von Verlust und für Formen des Trauerns, für die uns Sprache und Rituale fehlen. Die Körper der Performer*innen werden von den komplexen Emotionen ökologischer Trauer bewegt. So entsteht eine Choreografie an der Grenze zwischen Digitalem und Analogem, zwischen Dokumentation und Fiktion – und gibt Raum, um das Gewicht des Verlusts zu tragen, zu trauern und aus den Fragmenten eine bewegende, hoffnungsvolle und poetische Sprache zu entwickeln.",
+   "endDate": "2026-10-30T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/sWyu3FVSH6doXGdOWd4g_club-festival-online-banner-1920-x-1080-px.jpg"
+    "https://rausgegangen.s3.amazonaws.com/vo178knl9swb.png"
    ],
    "location": {
     "@type": "Place",
@@ -1043,37 +1096,32 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10245",
-     "streetAddress": "Revaler Str. 99"
+     "postalCode": "10243",
+     "streetAddress": "Holzmarktstr. 33"
     },
-    "name": "RAW-Gelände"
+    "name": "Radialsystem"
    },
-   "name": "Most Wanted: Music Club Festival",
+   "name": "Ocean Bound",
    "offers": {
     "@type": "Offer",
-    "price": "25.00",
+    "price": "12.00",
     "priceCurrency": "EUR",
-    "url": "https://mwm-berlin.reservix.de/tickets-most-wanted-music-club-festival-in-berlin-raw-gelaende-am-4-11-2026/e2583600",
-    "validFrom": "2026-11-04T17:00+0100"
+    "url": "https://pretix.eu/radialsystem/snxxl/",
+    "validFrom": "2026-10-29T20:00+0100"
    },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Berlin Music Commission eG",
-    "url": "https://rausgegangen.de/organizations/page-for-team-berlin-music-commission-eg/"
-   },
-   "startDate": "2026-11-04T17:00+0100"
+   "startDate": "2026-10-29T20:00+0100"
   }
  },
- "https://rausgegangen.de/events/roda-60-halloween-edition-0/": {
-  "fetched": "2026-10-29T18:14:18+01:00",
+ "https://rausgegangen.de/events/slam-der-jugend-17/": {
+  "fetched": "2026-10-29T19:05:58+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Tickets ALSO available at the door - €22Kids until 11 years old and birthday guests of the month enjoy FREE ENTRYThe last Roda of the year is here! We’re back at Festsaal Kreuzberg for a special Halloween edition. Expect everything we love: Brazilian beats, a touch of Carnival, and the united community that makes Roda so special and truly warms our hearts.Come enjoy a full day of samba, DJ sets, and delicious Brazilian food, Carnival energy and family-friendly activities. Costumes are highly encouraged for this Halloween edition!‍ ‍Program:Live Roda de SambaDJ AcerolaDJ RôBloco do UrsoSamba de Gafieira Workshop with Carlos FrevoFun activities for kids to enjoy throughout the dayFood: Traditional and vegan feijoada, picanha, pastel, traditional and vegan coxinha, pão de queijo, brigadeiro, and other Brazilian sweets. Please note: food and drinks are sold separately and are not included in the ticket price.  Kids Activities: We’ll have a special kids’ area with fun activities so the whole family can enjoy the day together.  Birthdays: Want to celebrate your birthday with us? Send an email to info@bossafm.com and tell us your idea!October, November and December birthday guests get FREE ENTRY. Just show a valid photo ID at the door.Special Group Offer: Buy 5 tickets, get 1 FREE!Bring your friends and family for a day full of music, food, and unforgettable vibes! See you there! 👻",
-   "endDate": "2026-11-01T22:00+0100",
+   "description": "Der Poetry Slam für U22-Jährige im Atze Berlin, direkt an der Amrumer Straße Wedding.Ob nachdenkliche Lyrik oder lustige Stand-Up: Auf dieser Bühne ist alles erlaubt, was mit Worten gemacht werden kann. Es gelten die drei Regeln des Poetry Slam: 1. Nur selbstgeschriebene Texte 2. Keine Requisiten 3. Ein Zeitlimit, in diesem Fall von 5 Minuten. Die Besonderheit: Kein*e der Auftretenden ist über 22 Jahre alt. Die Line-Up Liste ist offen – du kannst dich also einfach vorher anmelden. Als der Nachwuchs-Slam unter den Kiezpoeten-Shows in Berlin richtet sich der “Poetry Slam der Jugend” vor allem an Jugendliche und junge Erwachsene. Eure Themen. Euer Stil. Als Zuschauer*in erwartet dich ein vielfältiges und abwechslungsreiches Line-Up mit Texten, die dir aus der Seele sprechen. Von Menschen, die dein Leben kennen. Nicht jeder Text wird auf das letzte Wort gefeilt und performativ perfektioniert sein. Aber dafür absolut authentisch.Besonders geeignet für Schulgruppen. --Bild: Timo Becker / Martin Kleingräber",
+   "endDate": "2026-11-04T20:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/le8sc8H0SQWVkokNOlfP_banner-site-roda-hallowen2.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/a7j2Dd3RdaMeNLJ3jlQE_2025slam-der-jugend-fotologo-cjonassamsonfotos-27.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -1081,62 +1129,74 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "12435",
-     "streetAddress": "Am Flutgraben 2"
+     "postalCode": "13353",
+     "streetAddress": "Luxemburger Straße 20"
     },
-    "name": "Festsaal Kreuzberg"
+    "name": "ATZE Musiktheater"
    },
-   "name": "Roda #60 | Halloween Edition",
+   "name": "Slam der Jugend",
    "offers": {
-    "@type": "Offer",
-    "price": "18.00",
-    "priceCurrency": "EUR",
-    "url": "https://www.bossafm.com/tickets/berlin/festsaal-kreuzber/roda-halloween-edition/1-nov-2026",
-    "validFrom": "2026-11-01T13:00+0100"
+    "@type": "AggregateOffer",
+    "highPrice": "8.50",
+    "lowPrice": "5.50",
+    "offerCount": 5,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "8.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Jugendliche",
+      "price": "6.95",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Schulgruppe ab 10 Personen",
+      "price": "5.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Schwerbehindertenausweis B-Ticket (inkl. 1 Begleiter-Ticket)",
+      "price": "6.95",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Begleiterticket Schwerbehinderte",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
    },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Bossa FM",
-    "url": "https://rausgegangen.de/organizations/bossa-fm-3/"
-   },
-   "startDate": "2026-11-01T13:00+0100"
-  }
- },
- "https://rausgegangen.de/events/skuppin-musee-sentimental-tour-2027-10/": {
-  "fetched": "2026-10-29T18:14:18+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Kühle Synths, düstere Bässe, und dann diese Stimme, die plötzlich mehr Druck hat, als man erst denkt. SKUPPIN bringt auf der Musée Sentimental Tour neuen Stoff mit und steht live nicht allein auf der Bühne 👀",
-   "endDate": "2027-11-26T22:30+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Y4GElzxUQ8avCC0sjfVr_pressefotoskuppinstellawei00edit.jpg"
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "Kiezpoeten",
+     "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Newcomer Slams",
+     "url": "https://rausgegangen.de/organizations/p-newcomer-slams/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Slam der Jugend",
+     "url": "https://rausgegangen.de/organizations/p-slam-der-jugend/"
+    }
    ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10997",
-     "streetAddress": "Skalitzer Strasse 85-86"
-    },
-    "name": "Privatclub Berlin"
-   },
-   "name": "SKUPPIN - \"Musée Sentimental\" Tour 2027",
-   "offers": {
-    "@type": "Offer",
-    "price": 0,
-    "priceCurrency": "EUR",
-    "url": "https://loveyourartist.com/de/profiles/skuppin-YAJ7YR/events",
-    "validFrom": "2027-11-26T20:00+0100"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "SKUPPIN"
-   },
-   "startDate": "2027-11-26T20:00+0100"
+   "startDate": "2026-11-04T18:00+0100"
   }
  }
 }

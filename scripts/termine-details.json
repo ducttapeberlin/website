@@ -193,44 +193,6 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/alte-seilschaften-das-bundesvertriebenenministerium-zwischen-0/": {
-  "fetched": "2026-10-29T13:03:04+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Das Vertriebenenministerium (1949–1969) war die oberste Bundesbehörde für die Belange der rund 8 Millionen Heimatvertriebenen und Flüchtlinge in der Bundesrepublik. Nicht nur an seiner Spitze standen dabei denkbar gegensätzliche Persönlichkeiten: Der erste Minister war Widerstandskämpfer, sein Nachfolger hingegen tief in das NS-System verstrickt.Welche Rolle spielten alte Seilschaften, Parteibücher und persönliche Netzwerke für die Arbeit, den Aufstieg und Einfluss im Vertriebenenministerium? Unterscheidet es sich dabei von anderen Bundesministerien? Die neue Kollektivbiografie Kommunikation und Konsensfindung (hier kostenfrei erhältlich) geht solchen Fragen erstmals systematisch nach.Diskutieren Sie mit!",
-   "endDate": "2026-11-05T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/qjZcr5pTqCRNc4LtzcJj_bundesarchiv-b-145-bild-f000016-0641-fotograf-oang.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10963",
-     "streetAddress": "Stresemannstraße 90"
-    },
-    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
-   },
-   "name": "Alte Seilschaften? Das Bundesvertriebenenministerium zwischen NS-Diktatur und Demokratie",
-   "offers": {
-    "@type": "Offer",
-    "price": "0.00",
-    "priceCurrency": "EUR",
-    "url": "https://buchungen.flucht-vertreibung-versoehnung.de/de/tickets/108",
-    "validFrom": "2026-11-05T00:00+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung",
-    "url": "https://rausgegangen.de/organizations/dokumentationszentrum-flucht-vertreibung-versohnung/"
-   },
-   "startDate": "2026-11-05T00:00+0100"
-  }
- },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
   "fetched": "2026-10-29T08:27:39+01:00",
   "ld": {
@@ -959,16 +921,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/maaya-halloween-0/": {
-  "fetched": "2026-10-29T13:03:04+01:00",
+ "https://rausgegangen.de/events/ostberlin-poetry-slam-12/": {
+  "fetched": "2026-10-29T14:26:01+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "MAAYA HALLOWEEN 2026 | 2 Floors & Costume ContestAm 31. Oktober wird MAAYA zur Halloween-Party für alle, die keine Lust auf einen gewöhnlichen Samstagabend haben.Zwei Floors, unterschiedliche Sounds, ausgefallene Kostüme und eine Nacht, in der du ruhig ein bisschen übertreiben darfst.🎶 TWO FLOORS, TWO VIBES🔥 FREAK DE L’AFRIQUE FLOOR Mit Shorty, Wallizz und Jimah. Hosted by Copado, mit den Fola Dancers.🔥 AFRO HOUSE FLOOR Mit AFU 🇰🇪 und Aunty Cece.Von Afrobeats und Amapiano bis zu Afro House. Wechsel zwischen den Floors, finde deinen Sound und tanz bis spät in die Nacht.🏆 THE BIG COSTUME CONTESTHalloween ohne Kostüm? Kann man machen. Aber warum?Egal ob gruselig, sexy, lustig oder komplett verrückt: Wir suchen die besten Halloween-Looks der Nacht!🏆 Best Single Costume🏆 Best Group CostumeZu gewinnen gibt es Drinks, eine Flasche für die Crew und Tickets für unsere MAAYA New Year's Eve Party.Also schnapp dir deine Leute, plant eure Outfits und zeigt uns, was ihr draufhabt.🎃 MAAYA HALLOWEEN 2026📅 Samstag, 31. Oktober 2026🕚 Ab 23:00 Uhr bis spät📍 MAAYA Berlin, Revaler Str. 99, 10245 Berlin🎟️ Tickets ab 12 €Ob du zum Tanzen, wegen der Kostüme oder einfach für eine gute Halloween-Nacht kommst: Bei MAAYA bist du richtig.Bring your crew. Dress up. See you on the dancefloor.",
-   "endDate": "2026-11-01T06:00+0100",
+   "description": "ist das kalt da draußen! Wäre es nicht viel schöner, sich jetzt in einen wohlig-warmen Kinosessel fallen zu lassen, und sich von warmen Wörtern, heißen Zeilen und kuscheligen Reimen unterhalten zu lassen? Der Ostberlin Poetry Slam versüßt euch die Wintertage, wie stets mit Poeten, Comedians und Erzählerinnen von nah und fern. Das ist ganz großes Kino! Also, der Alte Saal vom Union Kino eben. Mit Gedichten, Humor und Geschichten, die dein Herz so genug erwärmen, um dich durch den Winter zu bringen!",
+   "endDate": "2026-11-05T22:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/AhctdPmmTs0abHUcD5Yl_facebook-4.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/PpmVlfaPQVG79z3jsY0A_ostberlinslamvabild.png"
    ],
    "location": {
     "@type": "Place",
@@ -976,25 +938,55 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10245",
-     "streetAddress": "Revaler Straße 99"
+     "postalCode": "12587",
+     "streetAddress": "Bölschestraße 69"
     },
-    "name": "MAAYA"
+    "name": "Kino UNION"
    },
-   "name": "MAAYA HALLOWEEN 2026 | 2 Floors & Costume Contest",
+   "name": "Ostberlin Poetry Slam",
    "offers": {
-    "@type": "Offer",
-    "price": "12.00",
-    "priceCurrency": "EUR",
-    "url": "https://xceed.me/en/berlin/event/maaya-halloween/243650/channel/maaya-berlin",
-    "validFrom": "2026-10-31T23:00+0100"
+    "@type": "AggregateOffer",
+    "highPrice": "14.90",
+    "lowPrice": "12.90",
+    "offerCount": 4,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "14.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Ermäßigt",
+      "price": "12.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Schwerbehindertenausweis B-Ticket",
+      "price": "12.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Begleiterticket Schwerbehinderte",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
    },
    "organizer": {
     "@type": "Organization",
-    "name": "Maaya Berlin",
-    "url": "https://rausgegangen.de/organizations/page-for-team-maaya-berlin-2/"
+    "name": "Kiezpoeten",
+    "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
    },
-   "startDate": "2026-10-31T23:00+0100"
+   "startDate": "2026-11-05T20:15+0100"
   }
  },
  "https://rausgegangen.de/events/poetry-slam-stories-stadtbad-lichtenberg-hidden-places-slam-0/": {
@@ -1051,6 +1043,93 @@
    "startDate": "2026-11-13T17:00+0100"
   }
  },
+ "https://rausgegangen.de/events/slam-der-jugend-17/": {
+  "fetched": "2026-10-29T14:26:01+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Der Poetry Slam für U22-Jährige im Atze Berlin, direkt an der Amrumer Straße Wedding.Ob nachdenkliche Lyrik oder lustige Stand-Up: Auf dieser Bühne ist alles erlaubt, was mit Worten gemacht werden kann. Es gelten die drei Regeln des Poetry Slam: 1. Nur selbstgeschriebene Texte 2. Keine Requisiten 3. Ein Zeitlimit, in diesem Fall von 5 Minuten. Die Besonderheit: Kein*e der Auftretenden ist über 22 Jahre alt. Die Line-Up Liste ist offen – du kannst dich also einfach vorher anmelden. Als der Nachwuchs-Slam unter den Kiezpoeten-Shows in Berlin richtet sich der “Poetry Slam der Jugend” vor allem an Jugendliche und junge Erwachsene. Eure Themen. Euer Stil. Als Zuschauer*in erwartet dich ein vielfältiges und abwechslungsreiches Line-Up mit Texten, die dir aus der Seele sprechen. Von Menschen, die dein Leben kennen. Nicht jeder Text wird auf das letzte Wort gefeilt und performativ perfektioniert sein. Aber dafür absolut authentisch.Besonders geeignet für Schulgruppen. --Bild: Timo Becker / Martin Kleingräber",
+   "endDate": "2026-11-04T20:30+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/a7j2Dd3RdaMeNLJ3jlQE_2025slam-der-jugend-fotologo-cjonassamsonfotos-27.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "13353",
+     "streetAddress": "Luxemburger Straße 20"
+    },
+    "name": "ATZE Musiktheater"
+   },
+   "name": "Slam der Jugend",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "8.50",
+    "lowPrice": "5.50",
+    "offerCount": 5,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "8.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Jugendliche",
+      "price": "6.95",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Schulgruppe ab 10 Personen",
+      "price": "5.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Schwerbehindertenausweis B-Ticket (inkl. 1 Begleiter-Ticket)",
+      "price": "6.95",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Begleiterticket Schwerbehinderte",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "Kiezpoeten",
+     "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Newcomer Slams",
+     "url": "https://rausgegangen.de/organizations/p-newcomer-slams/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Slam der Jugend",
+     "url": "https://rausgegangen.de/organizations/p-slam-der-jugend/"
+    }
+   ],
+   "startDate": "2026-11-04T18:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/tati-comedy-one-laugh-night-24/": {
   "fetched": "2026-10-29T13:03:04+01:00",
   "ld": {
@@ -1105,6 +1184,81 @@
     "priceCurrency": "EUR"
    },
    "startDate": "2026-10-29T20:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/tommy-lefroy-5/": {
+  "fetched": "2026-10-29T14:26:01+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Nicht nur Gitarren, sondern auch Gespräche: Tommy Lefroy organisieren bei ihren Konzerten sogar Büchertausch, während ihre Songs von Unsicherheit und Selbstbestimmung erzählen. Persönlich und politisch zugleich 💜",
+   "endDate": "2027-02-12T23:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/87oYVgOTBOqOv8rlX18B_photo-tommy-lefroycredit-brendon-burton-kopie.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10179",
+     "streetAddress": "Holzmarktstraße 15-18"
+    },
+    "name": "LARK"
+   },
+   "name": "Tommy Lefroy",
+   "offers": {
+    "@type": "Offer",
+    "price": "25.00",
+    "priceCurrency": "EUR",
+    "url": "https://www.eventim.de/artist/tommy-lefroy/",
+    "validFrom": "2027-02-12T19:00+0100"
+   },
+   "startDate": "2027-02-12T19:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/yab-yum-tour-2026-0/": {
+  "fetched": "2026-10-29T14:26:01+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Sieben Leute auf der Bühne, dazu Bläser und Rap, und alles kommt direkt aus dem Moment statt aus dem Rechner. Twiceasmad bringen ihre nächste eigene Tour zum ersten Mal auch nach Berlin 👀",
+   "endDate": "2026-11-22T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/ZmjTgBfRTuFmJv5MY5Qf_tamgarage-21.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10627",
+     "streetAddress": "Kaiser-Friedrich-Straße 67, 10627 Berlin-Charlottenburg"
+    },
+    "name": "ART Stalker - Kunst + Bar + Events"
+   },
+   "name": "Yab Yum Tour 2026",
+   "offers": {
+    "@type": "Offer",
+    "price": "8.00",
+    "priceCurrency": "EUR",
+    "url": "https://art-stalker.reservix.de/p/reservix/event/2539159",
+    "validFrom": "2026-11-21T20:00+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "twiceasmad",
+    "url": "https://rausgegangen.de/organizations/page-for-team-twiceasmad/"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "twiceasmad"
+   },
+   "startDate": "2026-11-21T20:00+0100"
   }
  }
 }

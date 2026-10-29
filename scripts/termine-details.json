@@ -97,7 +97,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-10-29T17:14:04+01:00",
+  "fetched": "2026-10-30T00:00:05+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -192,6 +192,44 @@
   "seen": "2026-10-27T20:46:24+01:00",
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
+ },
+ "https://rausgegangen.de/events/cirque-de-lafrique-x-afro-life-0/": {
+  "fetched": "2026-10-30T00:00:05+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "CIRQUE DE L’AFRIQUE x AFRO LIVEZirkus trifft Clubnacht. Und du bist mittendrin!Was passiert, wenn Akrobat, Tänzer, Live-Musik und DJs auf einer Tanzfläche zusammenkommen?Am 28. November bringt Cirque de l’Afrique x Afro Live genau dieses Erlebnis ins MAAYA Berlin!Freu dich auf spektakuläre Akrobatik, mitreißende Tanzperformances und überraschende Showmomente, während die Musik die ganze Nacht weiterläuft. Hier wird nicht einfach nur aufgelegt oder eine Show gespielt. Alles passiert gleichzeitig, direkt um dich herum!Mit dabei ist Heaven Sam aka Mr. Afro Disco. Mit seiner Mischung aus DJ-Sets, kraftvollen Live-Drums und Klavier bringt er eine ganz besondere Energie in den Raum.Musikalisch erwartet dich ein Mix aus afrikanischen, karibischen und elektronischen Sounds, von Afrobeats und Amapiano über Afro House bis hin zu Dancehall.Ob du zum Tanzen kommst, die Performances erleben möchtest oder einfach nach einer außergewöhnlichen Partynacht in Berlin suchst: Cirque de l’Afrique bringt all das zusammen.Keine gewöhnliche Party. Keine gewöhnliche Show. Ein Abend, an dem du mittendrin bist!LINE-UPHeaven Sam DJ Nomi Prince M.I.K Freak de l’Afrique Papi Da SilvaSamstag, 28. November 2026 | Ab 23:00 UhrMAAYA Berlin Revaler Straße 99, 10245 Berlin-Friedrichshain",
+   "endDate": "2026-11-29T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/1QUGShU6TAyJw5njoxDH_cirque-de-lafrique-3.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10245",
+     "streetAddress": "Revaler Straße 99"
+    },
+    "name": "MAAYA"
+   },
+   "name": "Cirque de l'Afrique x Afro Life",
+   "offers": {
+    "@type": "Offer",
+    "price": "15.00",
+    "priceCurrency": "EUR",
+    "url": "https://xceed.me/en/berlin/event/cirque-de-lafrique-x-afro-live-w-heaven-sam-281126/248062/channel/maaya-berlin",
+    "validFrom": "2026-11-28T23:00+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Freak De L'Afrique",
+    "url": "https://rausgegangen.de/organizations/freak-de-lafrique/"
+   },
+   "startDate": "2026-11-28T23:00+0100"
+  }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
   "fetched": "2026-10-29T23:02:17+01:00",
@@ -321,7 +359,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
-  "fetched": "2026-10-29T17:14:04+01:00",
+  "fetched": "2026-10-30T00:00:05+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -503,7 +541,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
-  "fetched": "2026-10-29T17:14:04+01:00",
+  "fetched": "2026-10-30T00:00:05+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -548,7 +586,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-10-29T17:14:04+01:00",
+  "fetched": "2026-10-30T00:00:05+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -681,41 +719,8 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
- "https://rausgegangen.de/events/golden-gmilfs-miami-spice-18/": {
-  "fetched": "2026-10-29T22:05:41+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Mit trockenem Humor und noch trockeneren Perücken melden sie sich zurück: Die Bühnen-Queens der gereiften Lebensfreude heben ihr brandneues Stück auf ein völlig neues Level. In »Miami Spice« erlebt das verschmitzte Seniorinnen-Squad Unruhe in seiner floridianischen Nachbarschaft: Wer sind diese neuen Menschen? Woher kommen sie? Und was ist mit unserem Schmuck passiert?Das Ensemble präsentiert sich wie immer mit unerschrockenem Witz, strahlender Selbstironie und überraschend zarten Zwischentönen, jedoch diesmal in neuem Glanz: Rachel Intervention als Rose, Ryan Stecken als Sophia, Yvonne Nightstand als Dorothy und Deena Fear als Blanche. Für Gerechtigkeit sorgen selbstverständlich Miss Pan Am Drag Airlines und Mii. Frischer Schwung, aber gleichbleibender satirischer Biss und unwiderstehliche Bühnenenergie. Aber ... Moment mal ... wer ist die geheimnisvolle neue Nachbarin???Das und vieles mehr erfahren Sie zwischen scharfzüngigen Dialogen, musikalischen Glanzmomenten und wunderbar absurden Szenen im neuen Programm der Golden Gmilfs: eine Live-Playback-Parodie mit Sitcom-Schnipseln der 80er / 90er Jahre Kultserie »The Golden Girls«.",
-   "endDate": "2026-11-07T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/ZVAtNEEaQmSbT3gAU6mt_golden-gmilfs-miami-spice-foto-yves-tiedemann-fb.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10961",
-     "streetAddress": "Mehringdamm 34"
-    },
-    "name": "BKA Theater"
-   },
-   "name": "Golden Gmilfs: Miami Spice",
-   "offers": {
-    "@type": "Offer",
-    "price": 0,
-    "priceCurrency": "EUR",
-    "url": "https://bka-theater-webshop.comfortticket.de/de/produktion/0d60aa6d-479d-4320-8251-af131be95f9c/469",
-    "validFrom": "2026-11-06T20:00+0100"
-   },
-   "startDate": "2026-11-06T20:00+0100"
-  }
- },
  "https://rausgegangen.de/events/halloween-drag-bingo-night-by-duct-tape-0/": {
-  "fetched": "2026-10-29T17:14:04+01:00",
+  "fetched": "2026-10-30T00:00:05+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -753,7 +758,7 @@
   "seen": "2026-10-27T02:02:02+01:00"
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-10-29T17:14:04+01:00",
+  "fetched": "2026-10-30T00:00:05+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -870,6 +875,40 @@
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/jeder-mensch-kann-trauern-fee-vogel-eric-wrede-2/": {
+  "fetched": "2026-10-30T00:00:05+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Was passiert in unserem Körper, wenn wir trauern? Wie kann man lernen, mit Trauer zu leben? Was sind die schlimmsten Beileidsbekundungen aller Zeiten? Und was kann im Familien-WhatsApp-Chat alles schiefgehen, wenn plötzlich eine Beerdigung organisiert werden muss?Fee Vogel und Eric Wrede nehmen das Publikum mit auf einen Abend, der Trauer so zeigt, wie sie wirklich ist – menschlich, nah, manchmal überraschend komisch. Keine Lesung. Kein Vortrag. Sondern ein Gespräch über eine der wichtigsten Fähigkeiten, die wir haben.Grundlage des Abends ist das gleichnamige Buch, das im November 2026 im Insel Verlag (Suhrkamp) erscheint.Fee Vogel ist Geschäftsführerin von lebensnah Bestattungen Bonn und qualifizierte Trauerbegleiterin, auch für Kinder und Jugendliche. Sie ist Mitbegründerin der Beratungsfirma trauerkultur3, die Unternehmen und Führungskräfte unterstützt, wenn Trauer am Arbeitsplatz ankommt.Eric Wrede führt lebensnah Bestattungen in Berlin, Leipzig, Bonn und Potsdam. Sein Spiegel-Bestseller „The End“ wurde 2025 vom ZDF unter dem Titel „Sterben für Beginner“ verfilmt, im selben Jahr lief die Kino-Dokumentation „Der Tod ist ein Arschloch!“ in den Kinos. Im ARD/radioeins-Podcast „the end“ spricht er mit Gästen wie Sven Regener, Judith Holofernes, Sarah Kuttner und Sebastian Fitzek über das, worüber die meisten schweigen.Im November 2026 ist „Jeder Mensch kann trauern“ in Deutschland, Österreich und der Schweiz zu erleben.",
+   "endDate": "2026-11-18T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/gTc6DlSeQUGrmAJ5746L_jmktrausgegangentitelbild1920x1080.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10437",
+     "streetAddress": "Schönhauser Allee 123"
+    },
+    "name": "Filmtheater Colosseum"
+   },
+   "name": "Jeder Mensch kann trauern – Fee Vogel & Eric Wrede",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "24.90",
+    "priceCurrency": "EUR",
+    "url": "https://t.rausgegangen.de/tickets/jeder-mensch-kann-trauern-fee-vogel-eric-wrede-1",
+    "validFrom": "2026-09-29T16:00+0200"
+   },
+   "startDate": "2026-11-17T19:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-0/": {
   "fetched": "2026-10-29T23:02:17+01:00",
   "ld": {
@@ -913,7 +952,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1/": {
-  "fetched": "2026-10-29T17:14:04+01:00",
+  "fetched": "2026-10-30T00:00:05+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -992,16 +1031,16 @@
    "startDate": "2026-10-30T19:00+0100"
   }
  },
- "https://rausgegangen.de/events/poetry-slam-stories-stadtbad-lichtenberg-hidden-places-slam-0/": {
-  "fetched": "2026-10-29T23:02:17+01:00",
+ "https://rausgegangen.de/events/musical-spheres-ant-enoch-ava-joe-caro-schaeffler-0/": {
+  "fetched": "2026-10-30T00:00:05+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Ein Ort, der längst verstummt ist – bis jetzt.Für diese Show öffnet sich das ehemalige Stadtbad Lichtenberg für ein einmaliges Erlebnis: Spoken Word inmitten von Geschichte, Staub und Echos. Wo früher das Wasser rauschte, fließen jetzt Worte – roh, intensiv und wunderschön vergänglich. Zwischen Lost Place und Poesie.In vier Workshops haben wir gemeinsam mit den Lichtenbergern und Lichtenbergerinnen ihre Erinnerungen, Geschichten und Gefühle zu diesem historischen Ort gesammelt und kreativ verarbeitet - nun werden sie von vier Profi-Slammer:innen bühnenreif performt. Bei einer immersiven Begehung der sonst versperrten Räume des Stadtbades machen wir das Bad zur Bühne.Perfekt für alle, die Urban Exploration lieben, für Abenteurer*innen, Kulturjäger und In-Erinnerungen-Schwelger, und alle, die Literatur gern dort erleben, wo man sie nicht erwartet.Poetry Slam Stories ist ein Projekt des Stift & Mikro e.V., gefördert durch das Bezirksamt Lichtenberg von Berlin aus Mitteln des Bezirkskulturfonds.Zwei Durchgänge, limitierte Plätze.Einlass nur mit Voranmeldung – das Stadtbad öffnet exklusiv für dieses Event.",
-   "endDate": "2026-11-13T18:00+0100",
+   "description": "LiveDrei exklusive Live-Performances an einem Abend: In »musical spheres« verwandeln musikalische Acts die Bühne des Planetariumssaals und nehmen euch mit in ein einzigartiges Konzert unter dem Himmelszelt. Aufstrebende Musik-Stars umgeben von 360°-Visuals, die live gesteuert werden und das Publikum in neue galaktische Weiten eintauchen lassen, ermöglichen ein ganz besonderes und effektvolles Erlebnis.Die Konzertreihe »musical spheres« vereint kosmische Live-Performances mit eindrucksvollen Visualisierungen.Folgendes Line-up erwartet euch am 17. November 2026:ANT ENOCHDer in Sydney und Berlin lebende Künstler ANT ENOCH schreibt Hymnen zum Weinen auf der Tanzfläche. Sein melodischer Bedroom Pop verbindet seine Liebe zu melancholischen Dance-Balladen der 1980er Jahre mit einer zeitgenössischen analogen Ästhetik. Seine selbst produzierte Debüt-EP »Big Talk Big Party« aus dem Jahr 2024 entstand aus der Isolation während der Pandemie und vereint klassische japanische Drum Machines, sehr persönliche Texte sowie Klavier, Synthesizer und Violine. Frühe Songwriting-Experimente führten ihn an Musikhochschulen in Sydney und Toronto, wo er in kleinen Clubs spielte. Heute lebt er zwischen Berlin und Bankstown und begeistert mit seinen Live-Shows u.a. in Berlin, München und Sydney sowie auf Festivals.AVA JOEMit ihren jungen 22 Jahren wirkt es zunächst ungewöhnlich, Ava Joe als »alte Seele« zu bezeichnen – doch ihre Leidenschaft für Geschichten und ihre Fähigkeit, persönliche Erfahrungen in romantische Momentaufnahmen zu verwandeln, sprechen dafür. Inspiriert von Kunst, Musik und Film sowie Künstler*innen wie Frank Sinatra, Marilyn Monroe oder Brigitte Bardot, entwickelte sie eine zeitlose musikalische Ästhetik. Ihre Debütsingle »Black Smoke« entführt in die Geschichte einer vergangenen Beziehung, geprägt von toxischer Co-Abhängigkeit. Aufgewachsen in Devon, Irland und London, studierte sie Musikperformance an der Brit School und Gesang an der ACM und etablierte sich seitdem als eindrucksvolle Sängerin und Performerin.Caro SchaefflerCaro Schaeffler versucht mit ihrer Kunst eine Welt zu schaffen, in der man sich verlieren, aber auch wiederfinden kann. Als selbsternannte »hoffnungslose Romantikerin« verwandelt sie flüchtige Augenblicke in intime, zeitlose Kunst. Ihre Musik bewegt sich zwischen Melancholie und jugendlicher Naivität: Chansonartige Balladen treffen auf organische und moderne Pop-Elemente. Ihre persönlichen Songs erzählen davon, in allen Erfahrungen – auch den schmerzhaften – Schönheit zu entdecken und diese mit anderen zu teilen. Auch ihre visuelle Sprache ist geprägt von poetischer Nostalgie, Filmklassikern und Gemälde-Welten. Ihr langfristiges Ziel: Kunst zu schaffen, die bleibt, in einer Welt der immer weiter voranschreitenden Kurzweiligkeit",
+   "endDate": "2026-11-17T22:45+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Cgcok20KTRWm55yPPTKP_slam-stadtbad-lichtenberg-2-2.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/HfkXA2pHTqmYUNBQPSZR_spbmusicalspheresheaderallefarbenmar24rz2.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -1009,30 +1048,70 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10365",
-     "streetAddress": "Hubertusstraße 47"
+     "postalCode": "10405",
+     "streetAddress": "Prenzlauer Allee 80"
     },
-    "name": "Stadtbad Lichtenberg"
+    "name": "Zeiss-Großplanetarium Berlin"
    },
-   "name": "Poetry Slam Stories: Stadtbad Lichtenberg | Hidden Places Slam",
+   "name": "Musical spheres: ANT ENOCH, AVA JOE & Caro Schaeffler",
+   "offers": {
+    "@type": "Offer",
+    "price": "25.00",
+    "priceCurrency": "EUR",
+    "url": "https://www.planetarium.berlin/veranstaltungen/musical-spheres-im-november",
+    "validFrom": "2026-11-17T21:00+0100"
+   },
+   "startDate": "2026-11-17T21:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/schall-rauch-slam-12/": {
+  "fetched": "2026-10-30T00:00:05+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Beim Schall & Rauch Slam verbinden Berliner Poetry Slammer:innen Schauspiel, Poesie und Stand-Up zu mitreißenden Performances. Die Bühne wird zum Ort, an dem Worte Formen annehmen und du hautnah erlebst, wer mit Kostüm und Requisite das Publikum beeindruckt 👀",
+   "endDate": "2026-11-11T21:15+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/nA80EFNVT8uMPOtHcLk3_2025schall-rauch-fotologo-cjonassamsonfotos-27.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10557",
+     "streetAddress": "Lehrter Straße 55"
+    },
+    "name": "Gravity Bar"
+   },
+   "name": "Schall & Rauch Slam",
    "offers": {
     "@type": "AggregateOffer",
-    "highPrice": "13.32",
-    "lowPrice": "11.20",
-    "offerCount": 2,
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 3,
     "offers": [
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "13.32",
+      "name": "Eintritt",
+      "price": "12.00",
       "priceCurrency": "EUR"
      },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "Ermäßigt",
-      "price": "11.20",
+      "name": "Schwerbehindertenausweis B-Ticket (inkl. 1 Begleiter-Ticket)",
+      "price": "12.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Begleiterticket Schwerbehinderte",
+      "price": "0.00",
       "priceCurrency": "EUR"
      }
     ],
@@ -1043,19 +1122,19 @@
     "name": "Kiezpoeten",
     "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
    },
-   "startDate": "2026-11-13T17:00+0100"
+   "startDate": "2026-11-11T19:30+0100"
   }
  },
- "https://rausgegangen.de/events/roda-60-halloween-edition-0/": {
-  "fetched": "2026-10-29T23:02:17+01:00",
+ "https://rausgegangen.de/events/wedding-slam-royale-jahresfinale-1/": {
+  "fetched": "2026-10-30T00:00:05+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Tickets ALSO available at the door - €22Kids until 11 years old and birthday guests of the month enjoy FREE ENTRYThe last Roda of the year is here! We’re back at Festsaal Kreuzberg for a special Halloween edition. Expect everything we love: Brazilian beats, a touch of Carnival, and the united community that makes Roda so special and truly warms our hearts.Come enjoy a full day of samba, DJ sets, and delicious Brazilian food, Carnival energy and family-friendly activities. Costumes are highly encouraged for this Halloween edition!‍ ‍Program:Live Roda de SambaDJ AcerolaDJ RôBloco do UrsoSamba de Gafieira Workshop with Carlos FrevoFun activities for kids to enjoy throughout the dayFood: Traditional and vegan feijoada, picanha, pastel, traditional and vegan coxinha, pão de queijo, brigadeiro, and other Brazilian sweets. Please note: food and drinks are sold separately and are not included in the ticket price.  Kids Activities: We’ll have a special kids’ area with fun activities so the whole family can enjoy the day together.  Birthdays: Want to celebrate your birthday with us? Send an email to info@bossafm.com and tell us your idea!October, November and December birthday guests get FREE ENTRY. Just show a valid photo ID at the door.Special Group Offer: Buy 5 tickets, get 1 FREE!Bring your friends and family for a day full of music, food, and unforgettable vibes! See you there! 👻",
-   "endDate": "2026-11-01T22:00+0100",
+   "description": "Der Best-Of Poetry Slam im schicksten Ballhaus der Stadt. Wir werfen uns in Schale und bringen ein fein ausgewähltes Lineup aus Poetry Slam, Comedy und Bühnenliteratur in den Wedding. Das ist Poetry Slam für alle, die Hochkultur wollen - aber in höchst unterhaltsam! Nur die besten Slammer:innen kommen auf diese Bühne, auf dass du dich für anderthalb Stunden ganz und gar fallen lassen kannst. Mit einem Sektglas auf der Chaiselongue, für den perfekten Sonntagabend.   ----- Bild: Timo Becker / Martin Kleingräber",
+   "endDate": "2026-11-15T21:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/le8sc8H0SQWVkokNOlfP_banner-site-roda-hallowen2.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/GDkIYgNR7rNBzEBLVMkA_2025wedding-royale-fotologo-cjonassamsonfotos-27.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -1063,25 +1142,62 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "12435",
-     "streetAddress": "Am Flutgraben 2"
+     "postalCode": "13359",
+     "streetAddress": "Wriezener Str. 6"
     },
-    "name": "Festsaal Kreuzberg"
+    "name": "Ballhaus Wedding"
    },
-   "name": "Roda #60 | Halloween Edition",
+   "name": "Wedding Slam Royale: Jahresfinale",
    "offers": {
-    "@type": "Offer",
-    "price": "18.00",
-    "priceCurrency": "EUR",
-    "url": "https://www.bossafm.com/tickets/berlin/festsaal-kreuzber/roda-halloween-edition/1-nov-2026",
-    "validFrom": "2026-11-01T13:00+0100"
+    "@type": "AggregateOffer",
+    "highPrice": "26.70",
+    "lowPrice": "9.90",
+    "offerCount": 5,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "16.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Ermäßigt",
+      "price": "9.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Sofaticket inkl 1 Freisekt",
+      "price": "26.70",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Schwerbehindertenausweis B-Ticket",
+      "price": "9.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Begleiterticket Schwerbehinderte",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
    },
    "organizer": {
     "@type": "Organization",
-    "name": "Bossa FM",
-    "url": "https://rausgegangen.de/organizations/bossa-fm-3/"
+    "name": "Kiezpoeten",
+    "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
    },
-   "startDate": "2026-11-01T13:00+0100"
+   "startDate": "2026-11-15T19:30+0100"
   }
  }
 }

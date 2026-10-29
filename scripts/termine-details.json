@@ -242,6 +242,44 @@
    "startDate": "2026-10-29T20:00+0100"
   }
  },
+ "https://rausgegangen.de/events/cirque-de-lafrique-x-afro-life-0/": {
+  "fetched": "2026-10-29T04:07:05+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "CIRQUE DE L’AFRIQUE x AFRO LIVEZirkus trifft Clubnacht. Und du bist mittendrin!Was passiert, wenn Akrobat, Tänzer, Live-Musik und DJs auf einer Tanzfläche zusammenkommen?Am 28. November bringt Cirque de l’Afrique x Afro Live genau dieses Erlebnis ins MAAYA Berlin!Freu dich auf spektakuläre Akrobatik, mitreißende Tanzperformances und überraschende Showmomente, während die Musik die ganze Nacht weiterläuft. Hier wird nicht einfach nur aufgelegt oder eine Show gespielt. Alles passiert gleichzeitig, direkt um dich herum!Mit dabei ist Heaven Sam aka Mr. Afro Disco. Mit seiner Mischung aus DJ-Sets, kraftvollen Live-Drums und Klavier bringt er eine ganz besondere Energie in den Raum.Musikalisch erwartet dich ein Mix aus afrikanischen, karibischen und elektronischen Sounds, von Afrobeats und Amapiano über Afro House bis hin zu Dancehall.Ob du zum Tanzen kommst, die Performances erleben möchtest oder einfach nach einer außergewöhnlichen Partynacht in Berlin suchst: Cirque de l’Afrique bringt all das zusammen.Keine gewöhnliche Party. Keine gewöhnliche Show. Ein Abend, an dem du mittendrin bist!LINE-UPHeaven Sam DJ Nomi Prince M.I.K Freak de l’Afrique Papi Da SilvaSamstag, 28. November 2026 | Ab 23:00 UhrMAAYA Berlin Revaler Straße 99, 10245 Berlin-Friedrichshain",
+   "endDate": "2026-11-29T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/1QUGShU6TAyJw5njoxDH_cirque-de-lafrique-3.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10245",
+     "streetAddress": "Revaler Straße 99"
+    },
+    "name": "MAAYA"
+   },
+   "name": "Cirque de l'Afrique x Afro Life",
+   "offers": {
+    "@type": "Offer",
+    "price": "15.00",
+    "priceCurrency": "EUR",
+    "url": "https://xceed.me/en/berlin/event/cirque-de-lafrique-x-afro-live-w-heaven-sam-281126/248062/channel/maaya-berlin",
+    "validFrom": "2026-11-28T23:00+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Freak De L'Afrique",
+    "url": "https://rausgegangen.de/organizations/freak-de-lafrique/"
+   },
+   "startDate": "2026-11-28T23:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
   "fetched": "2026-10-29T02:25:25+01:00",
   "ld": {
@@ -886,40 +924,6 @@
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/jeder-mensch-kann-trauern-fee-vogel-eric-wrede-2/": {
-  "fetched": "2026-10-29T02:25:25+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Was passiert in unserem Körper, wenn wir trauern? Wie kann man lernen, mit Trauer zu leben? Was sind die schlimmsten Beileidsbekundungen aller Zeiten? Und was kann im Familien-WhatsApp-Chat alles schiefgehen, wenn plötzlich eine Beerdigung organisiert werden muss?Fee Vogel und Eric Wrede nehmen das Publikum mit auf einen Abend, der Trauer so zeigt, wie sie wirklich ist – menschlich, nah, manchmal überraschend komisch. Keine Lesung. Kein Vortrag. Sondern ein Gespräch über eine der wichtigsten Fähigkeiten, die wir haben.Grundlage des Abends ist das gleichnamige Buch, das im November 2026 im Insel Verlag (Suhrkamp) erscheint.Fee Vogel ist Geschäftsführerin von lebensnah Bestattungen Bonn und qualifizierte Trauerbegleiterin, auch für Kinder und Jugendliche. Sie ist Mitbegründerin der Beratungsfirma trauerkultur3, die Unternehmen und Führungskräfte unterstützt, wenn Trauer am Arbeitsplatz ankommt.Eric Wrede führt lebensnah Bestattungen in Berlin, Leipzig, Bonn und Potsdam. Sein Spiegel-Bestseller „The End“ wurde 2025 vom ZDF unter dem Titel „Sterben für Beginner“ verfilmt, im selben Jahr lief die Kino-Dokumentation „Der Tod ist ein Arschloch!“ in den Kinos. Im ARD/radioeins-Podcast „the end“ spricht er mit Gästen wie Sven Regener, Judith Holofernes, Sarah Kuttner und Sebastian Fitzek über das, worüber die meisten schweigen.Im November 2026 ist „Jeder Mensch kann trauern“ in Deutschland, Österreich und der Schweiz zu erleben.",
-   "endDate": "2026-11-18T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/gTc6DlSeQUGrmAJ5746L_jmktrausgegangentitelbild1920x1080.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10437",
-     "streetAddress": "Schönhauser Allee 123"
-    },
-    "name": "Filmtheater Colosseum"
-   },
-   "name": "Jeder Mensch kann trauern – Fee Vogel & Eric Wrede",
-   "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "24.90",
-    "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/jeder-mensch-kann-trauern-fee-vogel-eric-wrede-1",
-    "validFrom": "2026-09-29T16:00+0200"
-   },
-   "startDate": "2026-11-17T19:00+0100"
-  }
- },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-0/": {
   "fetched": "2026-10-29T02:25:25+01:00",
   "ld": {
@@ -1003,44 +1007,6 @@
   "seen": "2026-10-27T20:46:24+01:00",
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/lets-do-the-time-warp-0/": {
-  "fetched": "2026-10-29T00:55:08+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Drinks, drag, music & a little bit of madnessIt's astounding. Time is fleeting. Madness takes its toll.This Halloween, we're stepping into the outrageous world of The Rocky Horror Picture Show for a night of cocktails, drag, music and unapologetic glamour.Inspired by the cult classic and celebrating the unforgettable legacy of Tim Curry, join us at The Social Hub Berlin on 30 October for an evening of camp, glitter and delicious chaos.WHAT TO EXPECT?🍸 Two drinks included with your ticket 💋 A live drag show by The Girls Berlin and Santana Sex Machine, inspired by The Rocky Horror Picture Show 🎶 DJ Abribass bringing the beats ✨ Costumes, glamour and a little bit of madnessFishnets, sequins, corsets, glitter and red lips are highly encouraged. Whether you're a Rocky Horror fan or simply here for a fabulous Halloween night, come as you are, or as someone entirely different.Grab your friends, unleash your inner creature of the night and get ready for an evening of camp, cocktails and chaos. 📅 30 October | 19:00–23:00 📍 The Social Hub BerlinDON'T DREAM IT. BE IT. 💋",
-   "endDate": "2026-10-30T23:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/ATCy0k4GQdutC5KU4bkz_tsh-berlin-halloween-party-banner.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10179",
-     "streetAddress": "Alexanderstraße 40"
-    },
-    "name": "The Social Hub Berlin"
-   },
-   "name": "LET'S DO THE TIME WARP",
-   "offers": {
-    "@type": "Offer",
-    "price": "12.00",
-    "priceCurrency": "EUR",
-    "url": "https://www.eventbrite.co.uk/e/lets-do-the-time-warp-tickets-2002139840158?aff=oddtdtcreator",
-    "validFrom": "2026-10-30T19:00+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Team - The Social Hub Berlin",
-    "url": "https://rausgegangen.de/organizations/p-team-the-social-hub-berlin/"
-   },
-   "startDate": "2026-10-30T19:00+0100"
-  }
  },
  "https://rausgegangen.de/events/love-at-first-slide-berlin-power-point-dating-by-rausgegange-13/": {
   "fetched": "2026-10-29T00:55:08+01:00",
@@ -1170,6 +1136,39 @@
     "url": "https://rausgegangen.de/organizations/page-for-team-berlin-music-commission-eg/"
    },
    "startDate": "2026-11-04T17:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/musical-spheres-ant-enoch-ava-joe-caro-schaeffler-0/": {
+  "fetched": "2026-10-29T04:07:05+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "LiveDrei exklusive Live-Performances an einem Abend: In »musical spheres« verwandeln musikalische Acts die Bühne des Planetariumssaals und nehmen euch mit in ein einzigartiges Konzert unter dem Himmelszelt. Aufstrebende Musik-Stars umgeben von 360°-Visuals, die live gesteuert werden und das Publikum in neue galaktische Weiten eintauchen lassen, ermöglichen ein ganz besonderes und effektvolles Erlebnis.Die Konzertreihe »musical spheres« vereint kosmische Live-Performances mit eindrucksvollen Visualisierungen.Folgendes Line-up erwartet euch am 17. November 2026:ANT ENOCHDer in Sydney und Berlin lebende Künstler ANT ENOCH schreibt Hymnen zum Weinen auf der Tanzfläche. Sein melodischer Bedroom Pop verbindet seine Liebe zu melancholischen Dance-Balladen der 1980er Jahre mit einer zeitgenössischen analogen Ästhetik. Seine selbst produzierte Debüt-EP »Big Talk Big Party« aus dem Jahr 2024 entstand aus der Isolation während der Pandemie und vereint klassische japanische Drum Machines, sehr persönliche Texte sowie Klavier, Synthesizer und Violine. Frühe Songwriting-Experimente führten ihn an Musikhochschulen in Sydney und Toronto, wo er in kleinen Clubs spielte. Heute lebt er zwischen Berlin und Bankstown und begeistert mit seinen Live-Shows u.a. in Berlin, München und Sydney sowie auf Festivals.AVA JOEMit ihren jungen 22 Jahren wirkt es zunächst ungewöhnlich, Ava Joe als »alte Seele« zu bezeichnen – doch ihre Leidenschaft für Geschichten und ihre Fähigkeit, persönliche Erfahrungen in romantische Momentaufnahmen zu verwandeln, sprechen dafür. Inspiriert von Kunst, Musik und Film sowie Künstler*innen wie Frank Sinatra, Marilyn Monroe oder Brigitte Bardot, entwickelte sie eine zeitlose musikalische Ästhetik. Ihre Debütsingle »Black Smoke« entführt in die Geschichte einer vergangenen Beziehung, geprägt von toxischer Co-Abhängigkeit. Aufgewachsen in Devon, Irland und London, studierte sie Musikperformance an der Brit School und Gesang an der ACM und etablierte sich seitdem als eindrucksvolle Sängerin und Performerin.Caro SchaefflerCaro Schaeffler versucht mit ihrer Kunst eine Welt zu schaffen, in der man sich verlieren, aber auch wiederfinden kann. Als selbsternannte »hoffnungslose Romantikerin« verwandelt sie flüchtige Augenblicke in intime, zeitlose Kunst. Ihre Musik bewegt sich zwischen Melancholie und jugendlicher Naivität: Chansonartige Balladen treffen auf organische und moderne Pop-Elemente. Ihre persönlichen Songs erzählen davon, in allen Erfahrungen – auch den schmerzhaften – Schönheit zu entdecken und diese mit anderen zu teilen. Auch ihre visuelle Sprache ist geprägt von poetischer Nostalgie, Filmklassikern und Gemälde-Welten. Ihr langfristiges Ziel: Kunst zu schaffen, die bleibt, in einer Welt der immer weiter voranschreitenden Kurzweiligkeit",
+   "endDate": "2026-11-17T22:45+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/HfkXA2pHTqmYUNBQPSZR_spbmusicalspheresheaderallefarbenmar24rz2.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10405",
+     "streetAddress": "Prenzlauer Allee 80"
+    },
+    "name": "Zeiss-Großplanetarium Berlin"
+   },
+   "name": "Musical spheres: ANT ENOCH, AVA JOE & Caro Schaeffler",
+   "offers": {
+    "@type": "Offer",
+    "price": "25.00",
+    "priceCurrency": "EUR",
+    "url": "https://www.planetarium.berlin/veranstaltungen/musical-spheres-im-november",
+    "validFrom": "2026-11-17T21:00+0100"
+   },
+   "startDate": "2026-11-17T21:00+0100"
   }
  },
  "https://rausgegangen.de/events/tati-comedy-one-laugh-night-24/": {

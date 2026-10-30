@@ -193,44 +193,6 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/alte-seilschaften-das-bundesvertriebenenministerium-zwischen-0/": {
-  "fetched": "2026-10-30T21:00:41+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Das Vertriebenenministerium (1949–1969) war die oberste Bundesbehörde für die Belange der rund 8 Millionen Heimatvertriebenen und Flüchtlinge in der Bundesrepublik. Nicht nur an seiner Spitze standen dabei denkbar gegensätzliche Persönlichkeiten: Der erste Minister war Widerstandskämpfer, sein Nachfolger hingegen tief in das NS-System verstrickt.Welche Rolle spielten alte Seilschaften, Parteibücher und persönliche Netzwerke für die Arbeit, den Aufstieg und Einfluss im Vertriebenenministerium? Unterscheidet es sich dabei von anderen Bundesministerien? Die neue Kollektivbiografie Kommunikation und Konsensfindung (hier kostenfrei erhältlich) geht solchen Fragen erstmals systematisch nach.Diskutieren Sie mit!",
-   "endDate": "2026-11-05T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/qjZcr5pTqCRNc4LtzcJj_bundesarchiv-b-145-bild-f000016-0641-fotograf-oang.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10963",
-     "streetAddress": "Stresemannstraße 90"
-    },
-    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
-   },
-   "name": "Alte Seilschaften? Das Bundesvertriebenenministerium zwischen NS-Diktatur und Demokratie",
-   "offers": {
-    "@type": "Offer",
-    "price": "0.00",
-    "priceCurrency": "EUR",
-    "url": "https://buchungen.flucht-vertreibung-versoehnung.de/de/tickets/108",
-    "validFrom": "2026-11-05T00:00+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung",
-    "url": "https://rausgegangen.de/organizations/dokumentationszentrum-flucht-vertreibung-versohnung/"
-   },
-   "startDate": "2026-11-05T00:00+0100"
-  }
- },
  "https://rausgegangen.de/events/cirque-de-lafrique-x-afro-life-0/": {
   "fetched": "2026-10-30T21:00:41+01:00",
   "ld": {
@@ -764,6 +726,39 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
+ "https://rausgegangen.de/events/es-betet-hafis-interreligioses-festkonzert-1/": {
+  "fetched": "2026-10-30T22:00:23+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Mitten in Kreuzberg erklingen die Worte eines persischen Dichters aus dem 14. Jahrhundert, vertont von Komponisten jüdischer Herkunft und gesungen in einer christlichen Kirche. Im Zentrum des Festkonzerts steht „Hafis eine Liederreihe\", ein Zyklus für Chor, Gesangssolisten und Klavier von Friedrich Gernsheim, ein farbenreiches und heute seltene aufgeführtes Werk, das der Ölbergchor wiederentdeckt. Ergänzt wird es durch Kompositionen von Giacomo Meyerbeer, Felix Mendelssohn Bartholdy und weiteren Komponisten, die sich ebenfalls von Hafis’ Dichtung inspirieren ließen.Hafis' Verse feiern die Liebe, den Wein und die Schönheit der Welt und stellen zugleich unbequeme Fragen: nach der Wahrhaftigkeit des Glaubens, nach Frömmigkeit, die zur bloßen Pose wird, und nach der Freiheit des Einzelnen gegenüber religiöser Autorität. Mehr als 600 Jahre nach ihrer Entstehung haben diese Texte nichts von ihrer Dringlichkeit verloren. Das Konzert lädt dazu ein, über die Grenzen der Religionen hinweg zuzuhören und ins Gespräch zu kommen.Zur Einstimmung finden am Freitag und Samstag jeweils eine Stunde vor Konzertbeginn Einführungsvorträge statt: Thomas Kliche von der Meyerbeer-Gesellschaft sowie Natalie Marie Rose und Osman Oers vom House of One geben Einblicke in die Werke und ihren interreligiösen Hintergrund.Mitwirkende Laurenzia Kampa, Sopran · Sophia Maeono, Alt · Jakob Schuld, Tenor · Anton Förster, Bass Insa Bernds, Klavier Ölbergchor Kreuzberg Leitung: Johannes Weber",
+   "endDate": "2026-11-21T21:45+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/7lb5lGZjTLCUD3N0LyJx_a90fa8e8-9b9c-49c7-99ac-33a8258c769f.jpeg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10997",
+     "streetAddress": "Lausitzer Platz 8 A"
+    },
+    "name": "Emmauskirche Kreuzberg"
+   },
+   "name": "Es betet Hafis, Interreligiöses Festkonzert",
+   "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "EUR",
+    "url": "https://eventfrog.de/de/p/gruppen/es-betet-hafis-interreligioeses-festkonzert-7510406879572436895.html",
+    "validFrom": "2026-11-21T20:00+0100"
+   },
+   "startDate": "2026-11-21T20:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/halloween-drag-bingo-night-by-duct-tape-0/": {
   "fetched": "2026-10-30T20:11:57+01:00",
   "ld": {
@@ -1004,16 +999,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/posts-reels-stories-fluchterfahrungen-aus-jugoslawien-im-net-0/": {
-  "fetched": "2026-10-30T20:11:57+01:00",
+ "https://rausgegangen.de/events/millennial-mixtape-das-revival-der-nullerjahre-auf-3-floors-0/": {
+  "fetched": "2026-10-30T22:00:23+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "TikTok, Instagram, Podcasts & Co. eröffnen neue Räume für Stimmen, die in klassischen Medien oft wenig Gehör finden. Menschen mit jugoslawischer Fluchtgeschichte teilen Erinnerungen, erklären den Krieg, Flucht und Vertreibung und sprechen über Folgen, die über Generationen weiterwirken. Doch wo Chancen für Sichtbarkeit und Austausch entstehen, verbreiten sich auch Desinformation und nationalistische Narrative. Wann werden soziale Medien zu einem Ort der Solidarität und wo beginnt die Gefahr?PROGRAMM Begrüßung Dr. Roland Borchers, Direktor, Dokumentationszentrum Flucht, Vertreibung, Versöhnung, BerlinGesprächFata Hasanović, InfluencerinKrsto Lazarević, Journalist und Podcaster „Neues vom Ballaballa-Balkan“Dr. Eva Tamara Asboth, Postdoc, Österreichische Akademie der Wissenschaften, WienModeration: Simone Gaul, Journalistin und Podcasterin „Die Zeit“ Im Anschluss laden wir Sie zu einem kleinen Empfang ein.   WEITERE HINWEISEEinlass: 18.00 UhrSprache: DeutschEINTRITT FREI Die Veranstaltung wird aufgezeichnet und auf unserem YouTube-Kanal Flucht, Vertreibung, Versöhnung veröffentlicht.Eine Veranstaltung im Rahmen der Veranstaltungsreihe \"Zerfallen. Geflohen. Angekommen? Erfahrungen aus Bosnien und Herzegowina\"Eine Veranstaltung von: Dokumentationszentrum Flucht, Vertreibung, Versöhnung · Bundeszentrale für politische Bildung",
-   "endDate": "2026-11-11T20:00+0100",
+   "description": "Mainfloor: 'diefeder' (Millennial Pop-Mix)Loungefloor: Little A (00er R'n'B HipHop)Salonfloor: tba «Ist das noch Indie?!»  Wir bringen SexyBack! Am Samstag, den 14. Novomber, verwandelt sich unser kleiner Wohlfühlclub in das Epizentrum für pure Nullerjahre-Nostalgie. Mit dem „Millennial Mixtape“ feiern wir den Sound und das Lebensgefühl eines unvergesslich unbeschwerten Jahrzehnts.Drei Floors – Drei Welten Egal, welche Musikrichtung eure Jugend geprägt hat – auf dem „Millennial Mixtape“ finden alle ihre ganz persönlichen absoluten 00er Banger:• Mainflloor: Die Pop-Explosion mit 'diefeder'! – Hier regieren die Königinnen und Könige der Nullerjahre. Tanzt zu Britney Spears, den No Angels, Justin Timberlake, Shakira und der besten Kylie ever.• Radaufloor: \"Little A\" und sein Hip-Hop & R&B Mix – Hey Ya, willkommen In da Club! Fette Bässe und smoother Groove. Freut euch auf die Tracks von Eminem, 50 Cent, Beyoncé, Nelly und Usher.• Salon: Indie & Rock-Alternative selektiert von DJ Snacky Baba & DJ tba – «Ist das noch Indie?!» Wir sagen: Das ist Disco! Von Arctic Monkeys bis Whitney Houston, von Kraftklub bis Charli XCX und von Two Door Cinema Club bis Nina Chuba wird für alle etwas dabei sein! Die Hardfacts:• Event: Millennial Mixtape – Das Revival der Nullerjahre auf 3 Floors!• Wann: Samstag, 14. Novmeber 2026, ab 21:00 Uhr• Wo: Frannz Club (in der Kulturbrauerei), Schönhauser Allee 36, 10435 Berlin• Eintritt: Early Bird für 8,00 Euro (nur von 21:00 bis 22:00 Uhr und nur an der Abendkasse), danach regulär 12,00 Euro an der Abendkasse. Sichert euch euren Platz auf der Tanzfläche und spult mit uns das Mixtape eurer Jugend zurück!",
+   "endDate": "2026-11-15T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/tRzV17PhR0y1Q7XSYcZf_2025-sfvvdokuzentrumsrebrenicaveranstaltungsfotosgrafikladenfoto-nihad-nino-pusija.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/dyghNqMTteDJHdV9BYbr_facebook-event-banner-mixtape-1411.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -1021,37 +1016,32 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10963",
-     "streetAddress": "Stresemannstraße 90"
+     "postalCode": "10435",
+     "streetAddress": "Schönhauser Allee 36"
     },
-    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
+    "name": "frannz club berlin"
    },
-   "name": "Posts, Reels, Stories – Fluchterfahrungen aus Jugoslawien im Netz",
+   "name": "Millennial Mixtape- Das Revival der Nullerjahre auf 3 Floors!",
    "offers": {
     "@type": "Offer",
-    "price": "0.00",
+    "price": "12.00",
     "priceCurrency": "EUR",
-    "url": "https://buchungen.flucht-vertreibung-versoehnung.de/de/tickets/109",
-    "validFrom": "2026-11-11T18:30+0100"
+    "url": "https://shop.copilot.events/frannz/events/820df3ed-f0bf-4d98-ad28-aa2f26619ae6",
+    "validFrom": "2026-11-14T21:00+0100"
    },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung",
-    "url": "https://rausgegangen.de/organizations/dokumentationszentrum-flucht-vertreibung-versohnung/"
-   },
-   "startDate": "2026-11-11T18:30+0100"
+   "startDate": "2026-11-14T21:00+0100"
   }
  },
- "https://rausgegangen.de/events/roda-60-halloween-edition-0/": {
-  "fetched": "2026-10-30T21:00:41+01:00",
+ "https://rausgegangen.de/events/slam-der-jugend-17/": {
+  "fetched": "2026-10-30T22:00:23+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Tickets ALSO available at the door - €22Kids until 11 years old and birthday guests of the month enjoy FREE ENTRYThe last Roda of the year is here! We’re back at Festsaal Kreuzberg for a special Halloween edition. Expect everything we love: Brazilian beats, a touch of Carnival, and the united community that makes Roda so special and truly warms our hearts.Come enjoy a full day of samba, DJ sets, and delicious Brazilian food, Carnival energy and family-friendly activities. Costumes are highly encouraged for this Halloween edition!‍ ‍Program:Live Roda de SambaDJ AcerolaDJ RôBloco do UrsoSamba de Gafieira Workshop with Carlos FrevoFun activities for kids to enjoy throughout the dayFood: Traditional and vegan feijoada, picanha, pastel, traditional and vegan coxinha, pão de queijo, brigadeiro, and other Brazilian sweets. Please note: food and drinks are sold separately and are not included in the ticket price.  Kids Activities: We’ll have a special kids’ area with fun activities so the whole family can enjoy the day together.  Birthdays: Want to celebrate your birthday with us? Send an email to info@bossafm.com and tell us your idea!October, November and December birthday guests get FREE ENTRY. Just show a valid photo ID at the door.Special Group Offer: Buy 5 tickets, get 1 FREE!Bring your friends and family for a day full of music, food, and unforgettable vibes! See you there! 👻",
-   "endDate": "2026-11-01T22:00+0100",
+   "description": "Der Poetry Slam für U22-Jährige im Atze Berlin, direkt an der Amrumer Straße Wedding.Ob nachdenkliche Lyrik oder lustige Stand-Up: Auf dieser Bühne ist alles erlaubt, was mit Worten gemacht werden kann. Es gelten die drei Regeln des Poetry Slam: 1. Nur selbstgeschriebene Texte 2. Keine Requisiten 3. Ein Zeitlimit, in diesem Fall von 5 Minuten. Die Besonderheit: Kein*e der Auftretenden ist über 22 Jahre alt. Die Line-Up Liste ist offen – du kannst dich also einfach vorher anmelden. Als der Nachwuchs-Slam unter den Kiezpoeten-Shows in Berlin richtet sich der “Poetry Slam der Jugend” vor allem an Jugendliche und junge Erwachsene. Eure Themen. Euer Stil. Als Zuschauer*in erwartet dich ein vielfältiges und abwechslungsreiches Line-Up mit Texten, die dir aus der Seele sprechen. Von Menschen, die dein Leben kennen. Nicht jeder Text wird auf das letzte Wort gefeilt und performativ perfektioniert sein. Aber dafür absolut authentisch.Besonders geeignet für Schulgruppen. --Bild: Timo Becker / Martin Kleingräber",
+   "endDate": "2026-11-04T20:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/le8sc8H0SQWVkokNOlfP_banner-site-roda-hallowen2.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/a7j2Dd3RdaMeNLJ3jlQE_2025slam-der-jugend-fotologo-cjonassamsonfotos-27.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -1059,68 +1049,44 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "12435",
-     "streetAddress": "Am Flutgraben 2"
+     "postalCode": "13353",
+     "streetAddress": "Luxemburger Straße 20"
     },
-    "name": "Festsaal Kreuzberg"
+    "name": "ATZE Musiktheater"
    },
-   "name": "Roda #60 | Halloween Edition",
-   "offers": {
-    "@type": "Offer",
-    "price": "18.00",
-    "priceCurrency": "EUR",
-    "url": "https://www.bossafm.com/tickets/berlin/festsaal-kreuzber/roda-halloween-edition/1-nov-2026",
-    "validFrom": "2026-11-01T13:00+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Bossa FM",
-    "url": "https://rausgegangen.de/organizations/bossa-fm-3/"
-   },
-   "startDate": "2026-11-01T13:00+0100"
-  }
- },
- "https://rausgegangen.de/events/schall-rauch-slam-12/": {
-  "fetched": "2026-10-30T18:58:38+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Beim Schall & Rauch Slam verbinden Berliner Poetry Slammer:innen Schauspiel, Poesie und Stand-Up zu mitreißenden Performances. Die Bühne wird zum Ort, an dem Worte Formen annehmen und du hautnah erlebst, wer mit Kostüm und Requisite das Publikum beeindruckt 👀",
-   "endDate": "2026-11-11T21:15+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/nA80EFNVT8uMPOtHcLk3_2025schall-rauch-fotologo-cjonassamsonfotos-27.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10557",
-     "streetAddress": "Lehrter Straße 55"
-    },
-    "name": "Gravity Bar"
-   },
-   "name": "Schall & Rauch Slam",
+   "name": "Slam der Jugend",
    "offers": {
     "@type": "AggregateOffer",
-    "highPrice": null,
-    "lowPrice": null,
-    "offerCount": 3,
+    "highPrice": "8.50",
+    "lowPrice": "5.50",
+    "offerCount": 5,
     "offers": [
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "Eintritt",
-      "price": "12.00",
+      "name": "Regulär",
+      "price": "8.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Jugendliche",
+      "price": "6.95",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Schulgruppe ab 10 Personen",
+      "price": "5.90",
       "priceCurrency": "EUR"
      },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
       "name": "Schwerbehindertenausweis B-Ticket (inkl. 1 Begleiter-Ticket)",
-      "price": "12.00",
+      "price": "6.95",
       "priceCurrency": "EUR"
      },
      {
@@ -1133,54 +1099,24 @@
     ],
     "priceCurrency": "EUR"
    },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Kiezpoeten",
-    "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
-   },
-   "startDate": "2026-11-11T19:30+0100"
-  }
- },
- "https://rausgegangen.de/events/yab-yum-tour-2026-0/": {
-  "fetched": "2026-10-30T18:58:38+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Sieben Leute auf der Bühne, dazu Bläser und Rap, und alles kommt direkt aus dem Moment statt aus dem Rechner. Twiceasmad bringen ihre nächste eigene Tour zum ersten Mal auch nach Berlin 👀",
-   "endDate": "2026-11-22T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/ZmjTgBfRTuFmJv5MY5Qf_tamgarage-21.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10627",
-     "streetAddress": "Kaiser-Friedrich-Straße 67, 10627 Berlin-Charlottenburg"
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "Kiezpoeten",
+     "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
     },
-    "name": "ART Stalker - Kunst + Bar + Events"
-   },
-   "name": "Yab Yum Tour 2026",
-   "offers": {
-    "@type": "Offer",
-    "price": "8.00",
-    "priceCurrency": "EUR",
-    "url": "https://art-stalker.reservix.de/p/reservix/event/2539159",
-    "validFrom": "2026-11-21T20:00+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "twiceasmad",
-    "url": "https://rausgegangen.de/organizations/page-for-team-twiceasmad/"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "twiceasmad"
-   },
-   "startDate": "2026-11-21T20:00+0100"
+    {
+     "@type": "Organization",
+     "name": "Newcomer Slams",
+     "url": "https://rausgegangen.de/organizations/p-newcomer-slams/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Slam der Jugend",
+     "url": "https://rausgegangen.de/organizations/p-slam-der-jugend/"
+    }
+   ],
+   "startDate": "2026-11-04T18:00+0100"
   }
  }
 }

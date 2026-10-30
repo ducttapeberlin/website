@@ -282,6 +282,80 @@
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/donata-strength-release-concert-0/": {
+  "fetched": "2026-10-30T23:57:04+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Zwischen Neuanfang und Rücken gerade machen liegen bei Donata nur ein paar Songs. Sie bringt ihre neue EP Strength mit kompletter Band auf die Bühne und lädt zu einem Abend ein, der eher nach echtem Miteinander klingt als nach bloßem Konzert 💜",
+   "endDate": "2026-11-12T23:30+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Td7PmoF3RX6i3YmuX3OA_2.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10117",
+     "streetAddress": "Auguststraße 24"
+    },
+    "name": "Spiegelsaal | Clärchens Ballhaus"
+   },
+   "name": "Donata - \"Strength\" Release Concert",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "30.00",
+    "lowPrice": "21.80",
+    "offerCount": 5,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Soli-Ticket",
+      "price": "21.80",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regular",
+      "price": "27.10",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Supporter",
+      "price": "32.40",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Friends & Family",
+      "price": "16.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Guestlist",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Donata"
+   },
+   "startDate": "2026-11-12T19:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
   "fetched": "2026-10-30T18:03:56+01:00",
   "ld": {
@@ -688,6 +762,79 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
+ "https://rausgegangen.de/events/geheimkonzert-berlin-24-by-rausgegangen-0/": {
+  "fetched": "2026-10-30T23:57:04+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Na Hallo! Es ist wieder so weit: Ein Abend voller Überraschung - denn wer auf der Bühne steht, bleibt bis zum ersten Ton geheim. Wir hatten schon Blond, Berq, Ennio, Futurebae, Jassin, Anais, Katha Pauer & viele mehr zu Gast – und das schon bevor sie die großen Bühnen der Nation gestürmt haben. Also entdecke die Stars von Morgen bei unseren Geheimkonzerten. 🪩",
+   "endDate": "2026-12-09T22:15+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/mO31iODjTCuFLVfQ493H_gk202516x9photoheadline-32-1.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin"
+    },
+    "name": "Secret location"
+   },
+   "name": "Geheimkonzert Berlin #24 by Rausgegangen",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "29.90",
+    "lowPrice": "24.50",
+    "offerCount": 4,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "EARLY BIRD",
+      "price": "21.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "REGULAR",
+      "price": "26.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "4er FRIENDS BUNDLE",
+      "price": "22.25",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Mitgegangen",
+      "price": "3.80",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "Rausgegangen Geheimkonzerte",
+     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Rausgegangen Geheimkonzerte Berlin",
+     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte-3/"
+    }
+   ],
+   "startDate": "2026-12-09T20:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/halloween-drag-bingo-night-by-duct-tape-0/": {
   "fetched": "2026-10-30T20:11:57+01:00",
   "ld": {
@@ -928,54 +1075,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/lets-do-the-time-warp-0/": {
-  "fetched": "2026-10-30T22:56:31+01:00",
+ "https://rausgegangen.de/events/maaya-halloween-0/": {
+  "fetched": "2026-10-30T23:57:04+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Drinks, drag, music & a little bit of madnessIt's astounding. Time is fleeting. Madness takes its toll.This Halloween, we're stepping into the outrageous world of The Rocky Horror Picture Show for a night of cocktails, drag, music and unapologetic glamour.Inspired by the cult classic and celebrating the unforgettable legacy of Tim Curry, join us at The Social Hub Berlin on 30 October for an evening of camp, glitter and delicious chaos.WHAT TO EXPECT?🍸 Two drinks included with your ticket 💋 A live drag show by The Girls Berlin and Santana Sex Machine, inspired by The Rocky Horror Picture Show 🎶 DJ Abribass bringing the beats ✨ Costumes, glamour and a little bit of madnessFishnets, sequins, corsets, glitter and red lips are highly encouraged. Whether you're a Rocky Horror fan or simply here for a fabulous Halloween night, come as you are, or as someone entirely different.Grab your friends, unleash your inner creature of the night and get ready for an evening of camp, cocktails and chaos. 📅 30 October | 19:00–23:00 📍 The Social Hub BerlinDON'T DREAM IT. BE IT. 💋",
-   "endDate": "2026-10-30T23:00+0100",
+   "description": "MAAYA HALLOWEEN 2026 | 2 Floors & Costume ContestAm 31. Oktober wird MAAYA zur Halloween-Party für alle, die keine Lust auf einen gewöhnlichen Samstagabend haben.Zwei Floors, unterschiedliche Sounds, ausgefallene Kostüme und eine Nacht, in der du ruhig ein bisschen übertreiben darfst.🎶 TWO FLOORS, TWO VIBES🔥 FREAK DE L’AFRIQUE FLOOR Mit Shorty, Wallizz und Jimah. Hosted by Copado, mit den Fola Dancers.🔥 AFRO HOUSE FLOOR Mit AFU 🇰🇪 und Aunty Cece.Von Afrobeats und Amapiano bis zu Afro House. Wechsel zwischen den Floors, finde deinen Sound und tanz bis spät in die Nacht.🏆 THE BIG COSTUME CONTESTHalloween ohne Kostüm? Kann man machen. Aber warum?Egal ob gruselig, sexy, lustig oder komplett verrückt: Wir suchen die besten Halloween-Looks der Nacht!🏆 Best Single Costume🏆 Best Group CostumeZu gewinnen gibt es Drinks, eine Flasche für die Crew und Tickets für unsere MAAYA New Year's Eve Party.Also schnapp dir deine Leute, plant eure Outfits und zeigt uns, was ihr draufhabt.🎃 MAAYA HALLOWEEN 2026📅 Samstag, 31. Oktober 2026🕚 Ab 23:00 Uhr bis spät📍 MAAYA Berlin, Revaler Str. 99, 10245 Berlin🎟️ Tickets ab 12 €Ob du zum Tanzen, wegen der Kostüme oder einfach für eine gute Halloween-Nacht kommst: Bei MAAYA bist du richtig.Bring your crew. Dress up. See you on the dancefloor.",
+   "endDate": "2026-11-01T06:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/ATCy0k4GQdutC5KU4bkz_tsh-berlin-halloween-party-banner.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10179",
-     "streetAddress": "Alexanderstraße 40"
-    },
-    "name": "The Social Hub Berlin"
-   },
-   "name": "LET'S DO THE TIME WARP",
-   "offers": {
-    "@type": "Offer",
-    "price": "12.00",
-    "priceCurrency": "EUR",
-    "url": "https://www.eventbrite.co.uk/e/lets-do-the-time-warp-tickets-2002139840158?aff=oddtdtcreator",
-    "validFrom": "2026-10-30T19:00+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Team - The Social Hub Berlin",
-    "url": "https://rausgegangen.de/organizations/p-team-the-social-hub-berlin/"
-   },
-   "startDate": "2026-10-30T19:00+0100"
-  }
- },
- "https://rausgegangen.de/events/most-wanted-music-club-festival-1/": {
-  "fetched": "2026-10-30T22:56:31+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Kein großer Name, auf den alle warten, sondern mehr als 40 Acts, die Du vielleicht erst später überall hörst. Am Ende kippt das Ganze sogar in eine offene Jam Session, bei der auch Leute aus dem Publikum mitmachen können 👀",
-   "endDate": "2026-11-05T23:45+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/sWyu3FVSH6doXGdOWd4g_club-festival-online-banner-1920-x-1080-px.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/AhctdPmmTs0abHUcD5Yl_facebook-4.png"
    ],
    "location": {
     "@type": "Place",
@@ -984,36 +1093,36 @@
      "addressCountry": "DE",
      "addressLocality": "Berlin",
      "postalCode": "10245",
-     "streetAddress": "Revaler Str. 99"
+     "streetAddress": "Revaler Straße 99"
     },
-    "name": "RAW-Gelände"
+    "name": "MAAYA"
    },
-   "name": "Most Wanted: Music Club Festival",
+   "name": "MAAYA HALLOWEEN 2026 | 2 Floors & Costume Contest",
    "offers": {
     "@type": "Offer",
-    "price": "25.00",
+    "price": "12.00",
     "priceCurrency": "EUR",
-    "url": "https://mwm-berlin.reservix.de/tickets-most-wanted-music-club-festival-in-berlin-raw-gelaende-am-4-11-2026/e2583600",
-    "validFrom": "2026-11-04T17:00+0100"
+    "url": "https://xceed.me/en/berlin/event/maaya-halloween/243650/channel/maaya-berlin",
+    "validFrom": "2026-10-31T23:00+0100"
    },
    "organizer": {
     "@type": "Organization",
-    "name": "Berlin Music Commission eG",
-    "url": "https://rausgegangen.de/organizations/page-for-team-berlin-music-commission-eg/"
+    "name": "Maaya Berlin",
+    "url": "https://rausgegangen.de/organizations/page-for-team-maaya-berlin-2/"
    },
-   "startDate": "2026-11-04T17:00+0100"
+   "startDate": "2026-10-31T23:00+0100"
   }
  },
- "https://rausgegangen.de/events/poetry-slam-stories-stadtbad-lichtenberg-hidden-places-slam-0/": {
-  "fetched": "2026-10-30T22:56:31+01:00",
+ "https://rausgegangen.de/events/schall-rauch-slam-12/": {
+  "fetched": "2026-10-30T23:57:04+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Ein Ort, der längst verstummt ist – bis jetzt.Für diese Show öffnet sich das ehemalige Stadtbad Lichtenberg für ein einmaliges Erlebnis: Spoken Word inmitten von Geschichte, Staub und Echos. Wo früher das Wasser rauschte, fließen jetzt Worte – roh, intensiv und wunderschön vergänglich. Zwischen Lost Place und Poesie.In vier Workshops haben wir gemeinsam mit den Lichtenbergern und Lichtenbergerinnen ihre Erinnerungen, Geschichten und Gefühle zu diesem historischen Ort gesammelt und kreativ verarbeitet - nun werden sie von vier Profi-Slammer:innen bühnenreif performt. Bei einer immersiven Begehung der sonst versperrten Räume des Stadtbades machen wir das Bad zur Bühne.Perfekt für alle, die Urban Exploration lieben, für Abenteurer*innen, Kulturjäger und In-Erinnerungen-Schwelger, und alle, die Literatur gern dort erleben, wo man sie nicht erwartet.Poetry Slam Stories ist ein Projekt des Stift & Mikro e.V., gefördert durch das Bezirksamt Lichtenberg von Berlin aus Mitteln des Bezirkskulturfonds.Zwei Durchgänge, limitierte Plätze.Einlass nur mit Voranmeldung – das Stadtbad öffnet exklusiv für dieses Event.",
-   "endDate": "2026-11-13T18:00+0100",
+   "description": "Beim Schall & Rauch Slam verbinden Berliner Poetry Slammer:innen Schauspiel, Poesie und Stand-Up zu mitreißenden Performances. Die Bühne wird zum Ort, an dem Worte Formen annehmen und du hautnah erlebst, wer mit Kostüm und Requisite das Publikum beeindruckt 👀",
+   "endDate": "2026-11-11T21:15+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Cgcok20KTRWm55yPPTKP_slam-stadtbad-lichtenberg-2-2.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/nA80EFNVT8uMPOtHcLk3_2025schall-rauch-fotologo-cjonassamsonfotos-27.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -1021,30 +1130,37 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10365",
-     "streetAddress": "Hubertusstraße 47"
+     "postalCode": "10557",
+     "streetAddress": "Lehrter Straße 55"
     },
-    "name": "Stadtbad Lichtenberg"
+    "name": "Gravity Bar"
    },
-   "name": "Poetry Slam Stories: Stadtbad Lichtenberg | Hidden Places Slam",
+   "name": "Schall & Rauch Slam",
    "offers": {
     "@type": "AggregateOffer",
-    "highPrice": "13.32",
-    "lowPrice": "11.20",
-    "offerCount": 2,
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 3,
     "offers": [
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "13.32",
+      "name": "Eintritt",
+      "price": "12.00",
       "priceCurrency": "EUR"
      },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "Ermäßigt",
-      "price": "11.20",
+      "name": "Schwerbehindertenausweis B-Ticket (inkl. 1 Begleiter-Ticket)",
+      "price": "12.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Begleiterticket Schwerbehinderte",
+      "price": "0.00",
       "priceCurrency": "EUR"
      }
     ],
@@ -1055,7 +1171,39 @@
     "name": "Kiezpoeten",
     "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
    },
-   "startDate": "2026-11-13T17:00+0100"
+   "startDate": "2026-11-11T19:30+0100"
+  }
+ },
+ "https://rausgegangen.de/events/vinyl-night-mit-dieta-berliner-2/": {
+  "fetched": "2026-10-30T23:57:04+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Vinyl Night mit Dieta Berliner – Deep House, Disco & DrinksVinyl knistert, Drinks sind kalt, der Groove setzt ein 🖤✨🎚️🎛️🎧Freut euch auf einen Sound, der sich nicht hetzen lässt: Deep House, Disco und Nu-Disco, gespielt exklusiv auf Vinyl. Warm, analog, mit diesem unverkennbaren Old-School-Feeling, das sofort die richtige Stimmung bringt – zwischen Bar, Dancefloor und spätem Feierabenddrink oder Pre-Clubbing. 🎧 Dieta Berliner ist Teil von Pakalolo Soundlab und bekannt für Sets, die nicht nur laufen, sondern sich entwickeln. Perfekt also für einen Abend, der irgendwo zwischen entspanntem Ankommen und ungeplant langem Bleiben liegt.🪩🖤✨  Wo?Bar Sprewa @ Me and All Hotel Berlin East SideAn der Schillingbrücke 2, 10243 Berlin",
+   "endDate": "2026-10-31T01:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/f54hsgeQoOR4eIPSnp7N_meandall30mai103.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10243",
+     "streetAddress": "An der Schillingbrücke 2"
+    },
+    "name": "Bar Sprewa"
+   },
+   "name": "Vinyl Night with DJ Dieta Berliner",
+   "offers": {
+    "@type": "Offer",
+    "price": "0.00",
+    "priceCurrency": "EUR",
+    "validFrom": "2026-10-30T21:00+0100"
+   },
+   "startDate": "2026-10-30T21:00+0100"
   }
  },
  "https://rausgegangen.de/events/yab-yum-tour-2026-0/": {

@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: rausgegangen-Organizer-Seite laden
         continue-on-error: true
         # rausgegangen zeigt pro Seite nur ca. 10 Termine ("Load more"), deshalb ?page=2, 3 … bis keine neuen Events mehr kommen
@@ -45,13 +45,15 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "Termine von rausgegangen aktualisiert"
           # Falls parallel jemand anderes gepusht hat: neu aufsetzen und erneut versuchen
-          for i in 1 2 3; do
+          # Kurze Störungen bei GitHub: mehrmals mit wachsender Pause versuchen. Klappt es gar nicht, nur eine Warnung,
+          # denn die nächste stündliche Aktualisierung holt die Termine ohnehin nach (keine Fehler-Mail für Emanuel).
+          for i in 1 2 3 4 5; do
             git push && exit 0
             if ! git pull --rebase origin main; then
               git rebase --abort
               echo "Konflikt mit neueren Änderungen, die nächste stündliche Aktualisierung holt das nach."
               exit 0
             fi
-            sleep 5
+            sleep $((i * 10))
           done
-          exit 1
+          echo "::warning::Push nicht möglich, die nächste stündliche Aktualisierung holt das nach."

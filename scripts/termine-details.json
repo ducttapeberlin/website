@@ -97,7 +97,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-10-30T00:00:05+01:00",
+  "fetched": "2026-10-30T06:07:42+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -321,7 +321,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
-  "fetched": "2026-10-30T00:00:05+01:00",
+  "fetched": "2026-10-30T06:07:42+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -503,7 +503,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
-  "fetched": "2026-10-30T00:00:05+01:00",
+  "fetched": "2026-10-30T06:07:42+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -548,7 +548,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-10-30T00:00:05+01:00",
+  "fetched": "2026-10-30T06:07:42+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -682,7 +682,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/halloween-drag-bingo-night-by-duct-tape-0/": {
-  "fetched": "2026-10-30T00:00:05+01:00",
+  "fetched": "2026-10-30T06:07:42+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -720,7 +720,7 @@
   "seen": "2026-10-27T02:02:02+01:00"
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-10-30T00:00:05+01:00",
+  "fetched": "2026-10-30T06:07:42+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -880,7 +880,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1/": {
-  "fetched": "2026-10-30T00:00:05+01:00",
+  "fetched": "2026-10-30T06:07:42+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -921,16 +921,108 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/late-night-cult-movies-november-dont-look-now-wenn-die-gonde-0/": {
-  "fetched": "2026-10-30T05:09:46+01:00",
+ "https://rausgegangen.de/events/love-at-first-slide-berlin-power-point-dating-by-rausgegange-13/": {
+  "fetched": "2026-10-30T06:07:42+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Venedig sieht selten so unromantisch aus: Nicolas Roegs Film von 1973 schickt ein trauerndes Ehepaar durch Gassen, in denen die Wirklichkeit kippt. Vor allem das Ende hat sich tief in die Filmgeschichte geschrieben 🍿",
-   "endDate": "2026-11-28T05:00+0100",
+   "description": "Wir bringen mit LOVE AT FIRST SLIDE Dating auf die Bühne: Freund:innen stellen in kurzen Power Point Präsentationen ihre Lieblingssingle vor – charmant, humorvoll und ganz ohne Swipe. Nach den witzigen Pitches kannst du bei Speed-Dating und Barabend neue Begegnungen entdecken. 💘🎤💫",
+   "endDate": "2026-11-11T23:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/CblhS5QSBaQZsj1hXOk8_dont-look-now5cf7d6.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/G4DW5S6EQHOrXfM562GP_lafsbannerappstraight-2-5.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10625",
+     "streetAddress": "Kantstraße 127"
+    },
+    "name": "Dufte Berlin"
+   },
+   "name": "LOVE AT FIRST SLIDE Berlin | Power Point Dating by Rausgegangen 💖",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "19.50",
+    "lowPrice": "10.00",
+    "offerCount": 5,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Presenterticket",
+      "price": "10.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Publikum Ticket | Ich bin eine hetero Frau",
+      "price": "19.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Publikum Ticket | Ich bin ein hetero Mann",
+      "price": "19.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Publikum Ticket | Ich bin queer",
+      "price": "19.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Mitgegangen",
+      "price": "3.80",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "LOVE AT FIRST SLIDE BERLIN by Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/love-at-first-slide-berlin-by-rausgegangen/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Love at first Slide by Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/page-for-team-love-at-first-slide-by-rausgegangen/"
+    },
+    {
+     "@type": "Organization",
+     "name": "LOVE AT FIRST SLIDE by Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/love-at-first-slide-by-rausgegangen/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Team Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/team-rausgegangen/"
+    }
+   ],
+   "startDate": "2026-11-11T19:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/musical-spheres-ant-enoch-ava-joe-caro-schaeffler-0/": {
+  "fetched": "2026-10-30T06:07:42+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "LiveDrei exklusive Live-Performances an einem Abend: In »musical spheres« verwandeln musikalische Acts die Bühne des Planetariumssaals und nehmen euch mit in ein einzigartiges Konzert unter dem Himmelszelt. Aufstrebende Musik-Stars umgeben von 360°-Visuals, die live gesteuert werden und das Publikum in neue galaktische Weiten eintauchen lassen, ermöglichen ein ganz besonderes und effektvolles Erlebnis.Die Konzertreihe »musical spheres« vereint kosmische Live-Performances mit eindrucksvollen Visualisierungen.Folgendes Line-up erwartet euch am 17. November 2026:ANT ENOCHDer in Sydney und Berlin lebende Künstler ANT ENOCH schreibt Hymnen zum Weinen auf der Tanzfläche. Sein melodischer Bedroom Pop verbindet seine Liebe zu melancholischen Dance-Balladen der 1980er Jahre mit einer zeitgenössischen analogen Ästhetik. Seine selbst produzierte Debüt-EP »Big Talk Big Party« aus dem Jahr 2024 entstand aus der Isolation während der Pandemie und vereint klassische japanische Drum Machines, sehr persönliche Texte sowie Klavier, Synthesizer und Violine. Frühe Songwriting-Experimente führten ihn an Musikhochschulen in Sydney und Toronto, wo er in kleinen Clubs spielte. Heute lebt er zwischen Berlin und Bankstown und begeistert mit seinen Live-Shows u.a. in Berlin, München und Sydney sowie auf Festivals.AVA JOEMit ihren jungen 22 Jahren wirkt es zunächst ungewöhnlich, Ava Joe als »alte Seele« zu bezeichnen – doch ihre Leidenschaft für Geschichten und ihre Fähigkeit, persönliche Erfahrungen in romantische Momentaufnahmen zu verwandeln, sprechen dafür. Inspiriert von Kunst, Musik und Film sowie Künstler*innen wie Frank Sinatra, Marilyn Monroe oder Brigitte Bardot, entwickelte sie eine zeitlose musikalische Ästhetik. Ihre Debütsingle »Black Smoke« entführt in die Geschichte einer vergangenen Beziehung, geprägt von toxischer Co-Abhängigkeit. Aufgewachsen in Devon, Irland und London, studierte sie Musikperformance an der Brit School und Gesang an der ACM und etablierte sich seitdem als eindrucksvolle Sängerin und Performerin.Caro SchaefflerCaro Schaeffler versucht mit ihrer Kunst eine Welt zu schaffen, in der man sich verlieren, aber auch wiederfinden kann. Als selbsternannte »hoffnungslose Romantikerin« verwandelt sie flüchtige Augenblicke in intime, zeitlose Kunst. Ihre Musik bewegt sich zwischen Melancholie und jugendlicher Naivität: Chansonartige Balladen treffen auf organische und moderne Pop-Elemente. Ihre persönlichen Songs erzählen davon, in allen Erfahrungen – auch den schmerzhaften – Schönheit zu entdecken und diese mit anderen zu teilen. Auch ihre visuelle Sprache ist geprägt von poetischer Nostalgie, Filmklassikern und Gemälde-Welten. Ihr langfristiges Ziel: Kunst zu schaffen, die bleibt, in einer Welt der immer weiter voranschreitenden Kurzweiligkeit",
+   "endDate": "2026-11-17T22:45+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/HfkXA2pHTqmYUNBQPSZR_spbmusicalspheresheaderallefarbenmar24rz2.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -941,41 +1033,29 @@
      "postalCode": "10405",
      "streetAddress": "Prenzlauer Allee 80"
     },
-    "name": "Zeiss-Großplanetarium"
+    "name": "Zeiss-Großplanetarium Berlin"
    },
-   "name": "»Late Night Cult Movies« November: Don't Look Now – Wenn die Gondeln Trauer tragen",
+   "name": "Musical spheres: ANT ENOCH, AVA JOE & Caro Schaeffler",
    "offers": {
     "@type": "Offer",
-    "price": "7.00",
+    "price": "25.00",
     "priceCurrency": "EUR",
-    "url": "https://www.planetarium.berlin/kino/dont-look-now-wenn-die-gondeln-trauer-tragen",
-    "validFrom": "2026-11-27T22:15+0100"
+    "url": "https://www.planetarium.berlin/veranstaltungen/musical-spheres-im-november",
+    "validFrom": "2026-11-17T21:00+0100"
    },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "»Late Night Cult Movies«",
-     "url": "https://rausgegangen.de/organizations/late-night-cult-movies/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Stiftung Planetarium Berlin",
-     "url": "https://rausgegangen.de/organizations/stiftung-planetarium-berlin-1/"
-    }
-   ],
-   "startDate": "2026-11-27T22:15+0100"
+   "startDate": "2026-11-17T21:00+0100"
   }
  },
- "https://rausgegangen.de/events/lina-bo-asphalt-und-sterne-tour-2026-20/": {
-  "fetched": "2026-10-30T05:09:46+01:00",
+ "https://rausgegangen.de/events/poetry-slam-stories-stadtbad-lichtenberg-hidden-places-slam-0/": {
+  "fetched": "2026-10-30T06:07:42+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Zwischen Straße und Club klingen Lina Bó nach Unterwegssein, nach Begegnungen und diesem Leben zwischen Kulturen. Hinter dem Duo stehen Celina von Wrochem und Luca Bo Hansen 💃",
-   "endDate": "2026-11-27T05:00+0100",
+   "description": "Ein Ort, der längst verstummt ist – bis jetzt.Für diese Show öffnet sich das ehemalige Stadtbad Lichtenberg für ein einmaliges Erlebnis: Spoken Word inmitten von Geschichte, Staub und Echos. Wo früher das Wasser rauschte, fließen jetzt Worte – roh, intensiv und wunderschön vergänglich. Zwischen Lost Place und Poesie.In vier Workshops haben wir gemeinsam mit den Lichtenbergern und Lichtenbergerinnen ihre Erinnerungen, Geschichten und Gefühle zu diesem historischen Ort gesammelt und kreativ verarbeitet - nun werden sie von vier Profi-Slammer:innen bühnenreif performt. Bei einer immersiven Begehung der sonst versperrten Räume des Stadtbades machen wir das Bad zur Bühne.Perfekt für alle, die Urban Exploration lieben, für Abenteurer*innen, Kulturjäger und In-Erinnerungen-Schwelger, und alle, die Literatur gern dort erleben, wo man sie nicht erwartet.Poetry Slam Stories ist ein Projekt des Stift & Mikro e.V., gefördert durch das Bezirksamt Lichtenberg von Berlin aus Mitteln des Bezirkskulturfonds.Zwei Durchgänge, limitierte Plätze.Einlass nur mit Voranmeldung – das Stadtbad öffnet exklusiv für dieses Event.",
+   "endDate": "2026-11-13T18:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/PPDKVpxqQ2cU0aMswuwf_lina-bo-tour-2026-bild-1-small-by-malte-paulsen.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Cgcok20KTRWm55yPPTKP_slam-stadtbad-lichtenberg-2-2.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -983,116 +1063,41 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10435",
-     "streetAddress": "Knaackstraße 97"
+     "postalCode": "10365",
+     "streetAddress": "Hubertusstraße 47"
     },
-    "name": "Maschinenhaus"
+    "name": "Stadtbad Lichtenberg"
    },
-   "name": "Lina Bó - Asphalt und Sterne Tour 2026",
+   "name": "Poetry Slam Stories: Stadtbad Lichtenberg | Hidden Places Slam",
    "offers": {
     "@type": "AggregateOffer",
-    "highPrice": null,
-    "lowPrice": null,
+    "highPrice": "13.32",
+    "lowPrice": "11.20",
     "offerCount": 2,
     "offers": [
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
       "name": "Regulär",
-      "price": "28.00",
+      "price": "13.32",
       "priceCurrency": "EUR"
      },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "Begleitperson",
-      "price": "0.00",
+      "name": "Ermäßigt",
+      "price": "11.20",
       "priceCurrency": "EUR"
      }
     ],
     "priceCurrency": "EUR"
    },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Lina Bó"
-   },
-   "startDate": "2026-11-26T20:00+0100"
-  }
- },
- "https://rausgegangen.de/events/maaya-halloween-0/": {
-  "fetched": "2026-10-30T05:09:46+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "MAAYA HALLOWEEN 2026 | 2 Floors & Costume ContestAm 31. Oktober wird MAAYA zur Halloween-Party für alle, die keine Lust auf einen gewöhnlichen Samstagabend haben.Zwei Floors, unterschiedliche Sounds, ausgefallene Kostüme und eine Nacht, in der du ruhig ein bisschen übertreiben darfst.🎶 TWO FLOORS, TWO VIBES🔥 FREAK DE L’AFRIQUE FLOOR Mit Shorty, Wallizz und Jimah. Hosted by Copado, mit den Fola Dancers.🔥 AFRO HOUSE FLOOR Mit AFU 🇰🇪 und Aunty Cece.Von Afrobeats und Amapiano bis zu Afro House. Wechsel zwischen den Floors, finde deinen Sound und tanz bis spät in die Nacht.🏆 THE BIG COSTUME CONTESTHalloween ohne Kostüm? Kann man machen. Aber warum?Egal ob gruselig, sexy, lustig oder komplett verrückt: Wir suchen die besten Halloween-Looks der Nacht!🏆 Best Single Costume🏆 Best Group CostumeZu gewinnen gibt es Drinks, eine Flasche für die Crew und Tickets für unsere MAAYA New Year's Eve Party.Also schnapp dir deine Leute, plant eure Outfits und zeigt uns, was ihr draufhabt.🎃 MAAYA HALLOWEEN 2026📅 Samstag, 31. Oktober 2026🕚 Ab 23:00 Uhr bis spät📍 MAAYA Berlin, Revaler Str. 99, 10245 Berlin🎟️ Tickets ab 12 €Ob du zum Tanzen, wegen der Kostüme oder einfach für eine gute Halloween-Nacht kommst: Bei MAAYA bist du richtig.Bring your crew. Dress up. See you on the dancefloor.",
-   "endDate": "2026-11-01T06:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/AhctdPmmTs0abHUcD5Yl_facebook-4.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10245",
-     "streetAddress": "Revaler Straße 99"
-    },
-    "name": "MAAYA"
-   },
-   "name": "MAAYA HALLOWEEN 2026 | 2 Floors & Costume Contest",
-   "offers": {
-    "@type": "Offer",
-    "price": "12.00",
-    "priceCurrency": "EUR",
-    "url": "https://xceed.me/en/berlin/event/maaya-halloween/243650/channel/maaya-berlin",
-    "validFrom": "2026-10-31T23:00+0100"
-   },
    "organizer": {
     "@type": "Organization",
-    "name": "Maaya Berlin",
-    "url": "https://rausgegangen.de/organizations/page-for-team-maaya-berlin-2/"
+    "name": "Kiezpoeten",
+    "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
    },
-   "startDate": "2026-10-31T23:00+0100"
-  }
- },
- "https://rausgegangen.de/events/posts-reels-stories-fluchterfahrungen-aus-jugoslawien-im-net-0/": {
-  "fetched": "2026-10-30T05:09:46+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "TikTok, Instagram, Podcasts & Co. eröffnen neue Räume für Stimmen, die in klassischen Medien oft wenig Gehör finden. Menschen mit jugoslawischer Fluchtgeschichte teilen Erinnerungen, erklären den Krieg, Flucht und Vertreibung und sprechen über Folgen, die über Generationen weiterwirken. Doch wo Chancen für Sichtbarkeit und Austausch entstehen, verbreiten sich auch Desinformation und nationalistische Narrative. Wann werden soziale Medien zu einem Ort der Solidarität und wo beginnt die Gefahr?PROGRAMM Begrüßung Dr. Roland Borchers, Direktor, Dokumentationszentrum Flucht, Vertreibung, Versöhnung, BerlinGesprächFata Hasanović, InfluencerinKrsto Lazarević, Journalist und Podcaster „Neues vom Ballaballa-Balkan“Dr. Eva Tamara Asboth, Postdoc, Österreichische Akademie der Wissenschaften, WienModeration: Simone Gaul, Journalistin und Podcasterin „Die Zeit“ Im Anschluss laden wir Sie zu einem kleinen Empfang ein.   WEITERE HINWEISEEinlass: 18.00 UhrSprache: DeutschEINTRITT FREI Die Veranstaltung wird aufgezeichnet und auf unserem YouTube-Kanal Flucht, Vertreibung, Versöhnung veröffentlicht.Eine Veranstaltung im Rahmen der Veranstaltungsreihe \"Zerfallen. Geflohen. Angekommen? Erfahrungen aus Bosnien und Herzegowina\"Eine Veranstaltung von: Dokumentationszentrum Flucht, Vertreibung, Versöhnung · Bundeszentrale für politische Bildung",
-   "endDate": "2026-11-11T20:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/tRzV17PhR0y1Q7XSYcZf_2025-sfvvdokuzentrumsrebrenicaveranstaltungsfotosgrafikladenfoto-nihad-nino-pusija.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10963",
-     "streetAddress": "Stresemannstraße 90"
-    },
-    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
-   },
-   "name": "Posts, Reels, Stories – Fluchterfahrungen aus Jugoslawien im Netz",
-   "offers": {
-    "@type": "Offer",
-    "price": "0.00",
-    "priceCurrency": "EUR",
-    "url": "https://buchungen.flucht-vertreibung-versoehnung.de/de/tickets/109",
-    "validFrom": "2026-11-11T18:30+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung",
-    "url": "https://rausgegangen.de/organizations/dokumentationszentrum-flucht-vertreibung-versohnung/"
-   },
-   "startDate": "2026-11-11T18:30+0100"
+   "startDate": "2026-11-13T17:00+0100"
   }
  },
  "https://rausgegangen.de/events/slam-der-jugend-17/": {

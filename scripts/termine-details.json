@@ -1,6 +1,6 @@
 {
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
-  "fetched": "2026-10-30T05:09:46+01:00",
+  "fetched": "2026-10-30T11:11:57+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -193,8 +193,46 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/cirque-de-lafrique-x-afro-life-0/": {
+  "fetched": "2026-10-30T11:11:57+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "CIRQUE DE L’AFRIQUE x AFRO LIVEZirkus trifft Clubnacht. Und du bist mittendrin!Was passiert, wenn Akrobat, Tänzer, Live-Musik und DJs auf einer Tanzfläche zusammenkommen?Am 28. November bringt Cirque de l’Afrique x Afro Live genau dieses Erlebnis ins MAAYA Berlin!Freu dich auf spektakuläre Akrobatik, mitreißende Tanzperformances und überraschende Showmomente, während die Musik die ganze Nacht weiterläuft. Hier wird nicht einfach nur aufgelegt oder eine Show gespielt. Alles passiert gleichzeitig, direkt um dich herum!Mit dabei ist Heaven Sam aka Mr. Afro Disco. Mit seiner Mischung aus DJ-Sets, kraftvollen Live-Drums und Klavier bringt er eine ganz besondere Energie in den Raum.Musikalisch erwartet dich ein Mix aus afrikanischen, karibischen und elektronischen Sounds, von Afrobeats und Amapiano über Afro House bis hin zu Dancehall.Ob du zum Tanzen kommst, die Performances erleben möchtest oder einfach nach einer außergewöhnlichen Partynacht in Berlin suchst: Cirque de l’Afrique bringt all das zusammen.Keine gewöhnliche Party. Keine gewöhnliche Show. Ein Abend, an dem du mittendrin bist!LINE-UPHeaven Sam DJ Nomi Prince M.I.K Freak de l’Afrique Papi Da SilvaSamstag, 28. November 2026 | Ab 23:00 UhrMAAYA Berlin Revaler Straße 99, 10245 Berlin-Friedrichshain",
+   "endDate": "2026-11-29T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/1QUGShU6TAyJw5njoxDH_cirque-de-lafrique-3.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10245",
+     "streetAddress": "Revaler Straße 99"
+    },
+    "name": "MAAYA"
+   },
+   "name": "Cirque de l'Afrique x Afro Life",
+   "offers": {
+    "@type": "Offer",
+    "price": "15.00",
+    "priceCurrency": "EUR",
+    "url": "https://xceed.me/en/berlin/event/cirque-de-lafrique-x-afro-live-w-heaven-sam-281126/248062/channel/maaya-berlin",
+    "validFrom": "2026-11-28T23:00+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Freak De L'Afrique",
+    "url": "https://rausgegangen.de/organizations/freak-de-lafrique/"
+   },
+   "startDate": "2026-11-28T23:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-10-30T05:09:46+01:00",
+  "fetched": "2026-10-30T11:11:57+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -275,63 +313,8 @@
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/dani-lia-yola-gangsta-goren-tour-5/": {
-  "fetched": "2026-10-30T10:13:06+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Brav ist bei Dani Lia und yola offenbar gerade ausverkauft. Die beiden gehen zusammen auf Tour und setzen mit kompromisslosem Pop gegen Klischees und für eine andere Idee von Girlhood ein deutliches Zeichen 💅🏼",
-   "endDate": "2027-05-23T22:00+0200",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/oJ7jfUwKS46GCFI3YkfM_pressefoto1-janaabel.jpeg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10997",
-     "streetAddress": "Cuvrystr. 7"
-    },
-    "name": "Lido"
-   },
-   "name": "Dani Lia yola - GANGSTA GÖREN TOUR",
-   "offers": {
-    "@type": "Offer",
-    "price": "31.90",
-    "priceCurrency": "EUR",
-    "url": "https://chimperator-tickets.de/dani-lia",
-    "validFrom": "2027-05-23T19:00+0200"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "Angst Booking",
-     "url": "https://rausgegangen.de/organizations/angst-booking/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Chimperator Live GmbH - Touring",
-     "url": "https://rausgegangen.de/organizations/chimperator-live-gmbh-touring/"
-    }
-   ],
-   "performer": [
-    {
-     "@type": "PerformingGroup",
-     "name": "DANI LIA"
-    },
-    {
-     "@type": "PerformingGroup",
-     "name": "Yola"
-    }
-   ],
-   "startDate": "2027-05-23T19:00+0200"
-  }
- },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
-  "fetched": "2026-10-30T05:09:46+01:00",
+  "fetched": "2026-10-30T11:11:57+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -423,7 +406,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-21/": {
-  "fetched": "2026-10-30T05:09:46+01:00",
+  "fetched": "2026-10-30T11:11:57+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -468,7 +451,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-22/": {
-  "fetched": "2026-10-30T05:09:46+01:00",
+  "fetched": "2026-10-30T11:11:57+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -513,7 +496,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
-  "fetched": "2026-10-30T05:09:46+01:00",
+  "fetched": "2026-10-30T11:11:57+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -654,7 +637,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-brunch-sponsored-by-fritz-kola-halloween-edition-0/": {
-  "fetched": "2026-10-30T05:09:46+01:00",
+  "fetched": "2026-10-30T11:11:57+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -694,7 +677,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-brunch-sponsored-by-fritz-kola-winter-edition-0/": {
-  "fetched": "2026-10-30T05:09:46+01:00",
+  "fetched": "2026-10-30T11:11:57+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -735,39 +718,6 @@
    "startDate": "2026-11-15T12:00+0100"
   },
   "seen": "2026-10-20T15:24:41+02:00"
- },
- "https://rausgegangen.de/events/golden-gmilfs-miami-spice-18/": {
-  "fetched": "2026-10-30T10:13:06+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Mit trockenem Humor und noch trockeneren Perücken melden sie sich zurück: Die Bühnen-Queens der gereiften Lebensfreude heben ihr brandneues Stück auf ein völlig neues Level. In »Miami Spice« erlebt das verschmitzte Seniorinnen-Squad Unruhe in seiner floridianischen Nachbarschaft: Wer sind diese neuen Menschen? Woher kommen sie? Und was ist mit unserem Schmuck passiert?Das Ensemble präsentiert sich wie immer mit unerschrockenem Witz, strahlender Selbstironie und überraschend zarten Zwischentönen, jedoch diesmal in neuem Glanz: Rachel Intervention als Rose, Ryan Stecken als Sophia, Yvonne Nightstand als Dorothy und Deena Fear als Blanche. Für Gerechtigkeit sorgen selbstverständlich Miss Pan Am Drag Airlines und Mii. Frischer Schwung, aber gleichbleibender satirischer Biss und unwiderstehliche Bühnenenergie. Aber ... Moment mal ... wer ist die geheimnisvolle neue Nachbarin???Das und vieles mehr erfahren Sie zwischen scharfzüngigen Dialogen, musikalischen Glanzmomenten und wunderbar absurden Szenen im neuen Programm der Golden Gmilfs: eine Live-Playback-Parodie mit Sitcom-Schnipseln der 80er / 90er Jahre Kultserie »The Golden Girls«.",
-   "endDate": "2026-11-07T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/ZVAtNEEaQmSbT3gAU6mt_golden-gmilfs-miami-spice-foto-yves-tiedemann-fb.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10961",
-     "streetAddress": "Mehringdamm 34"
-    },
-    "name": "BKA Theater"
-   },
-   "name": "Golden Gmilfs: Miami Spice",
-   "offers": {
-    "@type": "Offer",
-    "price": 0,
-    "priceCurrency": "EUR",
-    "url": "https://bka-theater-webshop.comfortticket.de/de/produktion/0d60aa6d-479d-4320-8251-af131be95f9c/469",
-    "validFrom": "2026-11-06T20:00+0100"
-   },
-   "startDate": "2026-11-06T20:00+0100"
-  }
  },
  "https://rausgegangen.de/events/halloween-drag-bingo-night-by-duct-tape-0/": {
   "fetched": "2026-10-30T06:07:42+01:00",
@@ -925,8 +875,42 @@
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/jeder-mensch-kann-trauern-fee-vogel-eric-wrede-2/": {
+  "fetched": "2026-10-30T11:11:57+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Was passiert in unserem Körper, wenn wir trauern? Wie kann man lernen, mit Trauer zu leben? Was sind die schlimmsten Beileidsbekundungen aller Zeiten? Und was kann im Familien-WhatsApp-Chat alles schiefgehen, wenn plötzlich eine Beerdigung organisiert werden muss?Fee Vogel und Eric Wrede nehmen das Publikum mit auf einen Abend, der Trauer so zeigt, wie sie wirklich ist – menschlich, nah, manchmal überraschend komisch. Keine Lesung. Kein Vortrag. Sondern ein Gespräch über eine der wichtigsten Fähigkeiten, die wir haben.Grundlage des Abends ist das gleichnamige Buch, das im November 2026 im Insel Verlag (Suhrkamp) erscheint.Fee Vogel ist Geschäftsführerin von lebensnah Bestattungen Bonn und qualifizierte Trauerbegleiterin, auch für Kinder und Jugendliche. Sie ist Mitbegründerin der Beratungsfirma trauerkultur3, die Unternehmen und Führungskräfte unterstützt, wenn Trauer am Arbeitsplatz ankommt.Eric Wrede führt lebensnah Bestattungen in Berlin, Leipzig, Bonn und Potsdam. Sein Spiegel-Bestseller „The End“ wurde 2025 vom ZDF unter dem Titel „Sterben für Beginner“ verfilmt, im selben Jahr lief die Kino-Dokumentation „Der Tod ist ein Arschloch!“ in den Kinos. Im ARD/radioeins-Podcast „the end“ spricht er mit Gästen wie Sven Regener, Judith Holofernes, Sarah Kuttner und Sebastian Fitzek über das, worüber die meisten schweigen.Im November 2026 ist „Jeder Mensch kann trauern“ in Deutschland, Österreich und der Schweiz zu erleben.",
+   "endDate": "2026-11-18T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/gTc6DlSeQUGrmAJ5746L_jmktrausgegangentitelbild1920x1080.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10437",
+     "streetAddress": "Schönhauser Allee 123"
+    },
+    "name": "Filmtheater Colosseum"
+   },
+   "name": "Jeder Mensch kann trauern – Fee Vogel & Eric Wrede",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "24.90",
+    "priceCurrency": "EUR",
+    "url": "https://t.rausgegangen.de/tickets/jeder-mensch-kann-trauern-fee-vogel-eric-wrede-1",
+    "validFrom": "2026-09-29T16:00+0200"
+   },
+   "startDate": "2026-11-17T19:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-0/": {
-  "fetched": "2026-10-30T05:09:46+01:00",
+  "fetched": "2026-10-30T11:11:57+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -1009,6 +993,85 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/la-kiffance-2/": {
+  "fetched": "2026-10-30T11:11:57+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "LA KIFFANCE | 13.11 | MAAYA BerlinFrench rap lovers, Caribbean music heads and everyone who’s been waiting for a proper night out: La Kiffance is back at MAAYA on Friday, 13 November. Expect French rap, Afro R&B, Shatta, Bouyon, Afrotrap and Kompa, with sounds from France, Africa and the Caribbean sharing one dancefloor. From anthems you know word for word to tracks that send you straight to the DJ booth asking for the name, there’s plenty to keep you moving. Come with your crew or come ready to meet new people. Whether you’re here to shout every lyric, dance close or lose yourself in the bass, there’s a place for you. You don’t need to speak French to get into it. La Kiffance is all about enjoying yourself, and we’re giving you a whole night to do exactly that. Get your tickets, send the link to the group chat and meet us on the dancefloor. 📍 MAAYA Berlin | Revaler Str. 99, 10245 Berlin 📅 Friday, 13 November 2026 C’est la kiffance!",
+   "endDate": "2026-11-14T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/HBnj8GjBRlCGaB0cNs4N_feed-2.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10245",
+     "streetAddress": "Revaler Straße 99"
+    },
+    "name": "MAAYA"
+   },
+   "name": "La Kiffance",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 0,
+    "offers": [],
+    "priceCurrency": "EUR"
+   },
+   "startDate": "2026-11-13T22:30+0100"
+  }
+ },
+ "https://rausgegangen.de/events/late-night-cult-movies-november-dont-look-now-wenn-die-gonde-0/": {
+  "fetched": "2026-10-30T11:11:57+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Venedig sieht selten so unromantisch aus: Nicolas Roegs Film von 1973 schickt ein trauerndes Ehepaar durch Gassen, in denen die Wirklichkeit kippt. Vor allem das Ende hat sich tief in die Filmgeschichte geschrieben 🍿",
+   "endDate": "2026-11-28T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/CblhS5QSBaQZsj1hXOk8_dont-look-now5cf7d6.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10405",
+     "streetAddress": "Prenzlauer Allee 80"
+    },
+    "name": "Zeiss-Großplanetarium"
+   },
+   "name": "»Late Night Cult Movies« November: Don't Look Now – Wenn die Gondeln Trauer tragen",
+   "offers": {
+    "@type": "Offer",
+    "price": "7.00",
+    "priceCurrency": "EUR",
+    "url": "https://www.planetarium.berlin/kino/dont-look-now-wenn-die-gondeln-trauer-tragen",
+    "validFrom": "2026-11-27T22:15+0100"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "»Late Night Cult Movies«",
+     "url": "https://rausgegangen.de/organizations/late-night-cult-movies/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Stiftung Planetarium Berlin",
+     "url": "https://rausgegangen.de/organizations/stiftung-planetarium-berlin-1/"
+    }
+   ],
+   "startDate": "2026-11-27T22:15+0100"
+  }
+ },
  "https://rausgegangen.de/events/lina-bo-asphalt-und-sterne-tour-2026-20/": {
   "fetched": "2026-10-30T10:13:06+01:00",
   "ld": {
@@ -1062,16 +1125,16 @@
    "startDate": "2026-11-26T20:00+0100"
   }
  },
- "https://rausgegangen.de/events/musical-spheres-ant-enoch-ava-joe-caro-schaeffler-0/": {
-  "fetched": "2026-10-30T08:26:29+01:00",
+ "https://rausgegangen.de/events/maaya-halloween-0/": {
+  "fetched": "2026-10-30T11:11:57+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "LiveDrei exklusive Live-Performances an einem Abend: In »musical spheres« verwandeln musikalische Acts die Bühne des Planetariumssaals und nehmen euch mit in ein einzigartiges Konzert unter dem Himmelszelt. Aufstrebende Musik-Stars umgeben von 360°-Visuals, die live gesteuert werden und das Publikum in neue galaktische Weiten eintauchen lassen, ermöglichen ein ganz besonderes und effektvolles Erlebnis.Die Konzertreihe »musical spheres« vereint kosmische Live-Performances mit eindrucksvollen Visualisierungen.Folgendes Line-up erwartet euch am 17. November 2026:ANT ENOCHDer in Sydney und Berlin lebende Künstler ANT ENOCH schreibt Hymnen zum Weinen auf der Tanzfläche. Sein melodischer Bedroom Pop verbindet seine Liebe zu melancholischen Dance-Balladen der 1980er Jahre mit einer zeitgenössischen analogen Ästhetik. Seine selbst produzierte Debüt-EP »Big Talk Big Party« aus dem Jahr 2024 entstand aus der Isolation während der Pandemie und vereint klassische japanische Drum Machines, sehr persönliche Texte sowie Klavier, Synthesizer und Violine. Frühe Songwriting-Experimente führten ihn an Musikhochschulen in Sydney und Toronto, wo er in kleinen Clubs spielte. Heute lebt er zwischen Berlin und Bankstown und begeistert mit seinen Live-Shows u.a. in Berlin, München und Sydney sowie auf Festivals.AVA JOEMit ihren jungen 22 Jahren wirkt es zunächst ungewöhnlich, Ava Joe als »alte Seele« zu bezeichnen – doch ihre Leidenschaft für Geschichten und ihre Fähigkeit, persönliche Erfahrungen in romantische Momentaufnahmen zu verwandeln, sprechen dafür. Inspiriert von Kunst, Musik und Film sowie Künstler*innen wie Frank Sinatra, Marilyn Monroe oder Brigitte Bardot, entwickelte sie eine zeitlose musikalische Ästhetik. Ihre Debütsingle »Black Smoke« entführt in die Geschichte einer vergangenen Beziehung, geprägt von toxischer Co-Abhängigkeit. Aufgewachsen in Devon, Irland und London, studierte sie Musikperformance an der Brit School und Gesang an der ACM und etablierte sich seitdem als eindrucksvolle Sängerin und Performerin.Caro SchaefflerCaro Schaeffler versucht mit ihrer Kunst eine Welt zu schaffen, in der man sich verlieren, aber auch wiederfinden kann. Als selbsternannte »hoffnungslose Romantikerin« verwandelt sie flüchtige Augenblicke in intime, zeitlose Kunst. Ihre Musik bewegt sich zwischen Melancholie und jugendlicher Naivität: Chansonartige Balladen treffen auf organische und moderne Pop-Elemente. Ihre persönlichen Songs erzählen davon, in allen Erfahrungen – auch den schmerzhaften – Schönheit zu entdecken und diese mit anderen zu teilen. Auch ihre visuelle Sprache ist geprägt von poetischer Nostalgie, Filmklassikern und Gemälde-Welten. Ihr langfristiges Ziel: Kunst zu schaffen, die bleibt, in einer Welt der immer weiter voranschreitenden Kurzweiligkeit",
-   "endDate": "2026-11-17T22:45+0100",
+   "description": "MAAYA HALLOWEEN 2026 | 2 Floors & Costume ContestAm 31. Oktober wird MAAYA zur Halloween-Party für alle, die keine Lust auf einen gewöhnlichen Samstagabend haben.Zwei Floors, unterschiedliche Sounds, ausgefallene Kostüme und eine Nacht, in der du ruhig ein bisschen übertreiben darfst.🎶 TWO FLOORS, TWO VIBES🔥 FREAK DE L’AFRIQUE FLOOR Mit Shorty, Wallizz und Jimah. Hosted by Copado, mit den Fola Dancers.🔥 AFRO HOUSE FLOOR Mit AFU 🇰🇪 und Aunty Cece.Von Afrobeats und Amapiano bis zu Afro House. Wechsel zwischen den Floors, finde deinen Sound und tanz bis spät in die Nacht.🏆 THE BIG COSTUME CONTESTHalloween ohne Kostüm? Kann man machen. Aber warum?Egal ob gruselig, sexy, lustig oder komplett verrückt: Wir suchen die besten Halloween-Looks der Nacht!🏆 Best Single Costume🏆 Best Group CostumeZu gewinnen gibt es Drinks, eine Flasche für die Crew und Tickets für unsere MAAYA New Year's Eve Party.Also schnapp dir deine Leute, plant eure Outfits und zeigt uns, was ihr draufhabt.🎃 MAAYA HALLOWEEN 2026📅 Samstag, 31. Oktober 2026🕚 Ab 23:00 Uhr bis spät📍 MAAYA Berlin, Revaler Str. 99, 10245 Berlin🎟️ Tickets ab 12 €Ob du zum Tanzen, wegen der Kostüme oder einfach für eine gute Halloween-Nacht kommst: Bei MAAYA bist du richtig.Bring your crew. Dress up. See you on the dancefloor.",
+   "endDate": "2026-11-01T06:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/HfkXA2pHTqmYUNBQPSZR_spbmusicalspheresheaderallefarbenmar24rz2.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/AhctdPmmTs0abHUcD5Yl_facebook-4.png"
    ],
    "location": {
     "@type": "Place",
@@ -1079,149 +1142,25 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10405",
-     "streetAddress": "Prenzlauer Allee 80"
+     "postalCode": "10245",
+     "streetAddress": "Revaler Straße 99"
     },
-    "name": "Zeiss-Großplanetarium Berlin"
+    "name": "MAAYA"
    },
-   "name": "Musical spheres: ANT ENOCH, AVA JOE & Caro Schaeffler",
+   "name": "MAAYA HALLOWEEN 2026 | 2 Floors & Costume Contest",
    "offers": {
     "@type": "Offer",
-    "price": "25.00",
+    "price": "12.00",
     "priceCurrency": "EUR",
-    "url": "https://www.planetarium.berlin/veranstaltungen/musical-spheres-im-november",
-    "validFrom": "2026-11-17T21:00+0100"
-   },
-   "startDate": "2026-11-17T21:00+0100"
-  }
- },
- "https://rausgegangen.de/events/ostberlin-poetry-slam-12/": {
-  "fetched": "2026-10-30T10:13:06+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "ist das kalt da draußen! Wäre es nicht viel schöner, sich jetzt in einen wohlig-warmen Kinosessel fallen zu lassen, und sich von warmen Wörtern, heißen Zeilen und kuscheligen Reimen unterhalten zu lassen? Der Ostberlin Poetry Slam versüßt euch die Wintertage, wie stets mit Poeten, Comedians und Erzählerinnen von nah und fern. Das ist ganz großes Kino! Also, der Alte Saal vom Union Kino eben. Mit Gedichten, Humor und Geschichten, die dein Herz so genug erwärmen, um dich durch den Winter zu bringen!",
-   "endDate": "2026-11-05T22:30+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/PpmVlfaPQVG79z3jsY0A_ostberlinslamvabild.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "12587",
-     "streetAddress": "Bölschestraße 69"
-    },
-    "name": "Kino UNION"
-   },
-   "name": "Ostberlin Poetry Slam",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "14.90",
-    "lowPrice": "12.90",
-    "offerCount": 4,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "14.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Ermäßigt",
-      "price": "12.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Schwerbehindertenausweis B-Ticket",
-      "price": "12.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Begleiterticket Schwerbehinderte",
-      "price": "0.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
+    "url": "https://xceed.me/en/berlin/event/maaya-halloween/243650/channel/maaya-berlin",
+    "validFrom": "2026-10-31T23:00+0100"
    },
    "organizer": {
     "@type": "Organization",
-    "name": "Kiezpoeten",
-    "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
+    "name": "Maaya Berlin",
+    "url": "https://rausgegangen.de/organizations/page-for-team-maaya-berlin-2/"
    },
-   "startDate": "2026-11-05T20:15+0100"
-  }
- },
- "https://rausgegangen.de/events/schall-rauch-slam-12/": {
-  "fetched": "2026-10-30T08:26:29+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Beim Schall & Rauch Slam verbinden Berliner Poetry Slammer:innen Schauspiel, Poesie und Stand-Up zu mitreißenden Performances. Die Bühne wird zum Ort, an dem Worte Formen annehmen und du hautnah erlebst, wer mit Kostüm und Requisite das Publikum beeindruckt 👀",
-   "endDate": "2026-11-11T21:15+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/nA80EFNVT8uMPOtHcLk3_2025schall-rauch-fotologo-cjonassamsonfotos-27.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10557",
-     "streetAddress": "Lehrter Straße 55"
-    },
-    "name": "Gravity Bar"
-   },
-   "name": "Schall & Rauch Slam",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": null,
-    "lowPrice": null,
-    "offerCount": 3,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Eintritt",
-      "price": "12.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Schwerbehindertenausweis B-Ticket (inkl. 1 Begleiter-Ticket)",
-      "price": "12.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Begleiterticket Schwerbehinderte",
-      "price": "0.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Kiezpoeten",
-    "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
-   },
-   "startDate": "2026-11-11T19:30+0100"
+   "startDate": "2026-10-31T23:00+0100"
   }
  }
 }

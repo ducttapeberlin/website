@@ -681,6 +681,39 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
+ "https://rausgegangen.de/events/es-betet-hafis-interreligioses-festkonzert-1/": {
+  "fetched": "2026-10-30T15:30:00+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Mitten in Kreuzberg erklingen die Worte eines persischen Dichters aus dem 14. Jahrhundert, vertont von Komponisten jüdischer Herkunft und gesungen in einer christlichen Kirche. Im Zentrum des Festkonzerts steht „Hafis eine Liederreihe\", ein Zyklus für Chor, Gesangssolisten und Klavier von Friedrich Gernsheim, ein farbenreiches und heute seltene aufgeführtes Werk, das der Ölbergchor wiederentdeckt. Ergänzt wird es durch Kompositionen von Giacomo Meyerbeer, Felix Mendelssohn Bartholdy und weiteren Komponisten, die sich ebenfalls von Hafis’ Dichtung inspirieren ließen.Hafis' Verse feiern die Liebe, den Wein und die Schönheit der Welt und stellen zugleich unbequeme Fragen: nach der Wahrhaftigkeit des Glaubens, nach Frömmigkeit, die zur bloßen Pose wird, und nach der Freiheit des Einzelnen gegenüber religiöser Autorität. Mehr als 600 Jahre nach ihrer Entstehung haben diese Texte nichts von ihrer Dringlichkeit verloren. Das Konzert lädt dazu ein, über die Grenzen der Religionen hinweg zuzuhören und ins Gespräch zu kommen.Zur Einstimmung finden am Freitag und Samstag jeweils eine Stunde vor Konzertbeginn Einführungsvorträge statt: Thomas Kliche von der Meyerbeer-Gesellschaft sowie Natalie Marie Rose und Osman Oers vom House of One geben Einblicke in die Werke und ihren interreligiösen Hintergrund.Mitwirkende Laurenzia Kampa, Sopran · Sophia Maeono, Alt · Jakob Schuld, Tenor · Anton Förster, Bass Insa Bernds, Klavier Ölbergchor Kreuzberg Leitung: Johannes Weber",
+   "endDate": "2026-11-21T21:45+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/7lb5lGZjTLCUD3N0LyJx_a90fa8e8-9b9c-49c7-99ac-33a8258c769f.jpeg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10997",
+     "streetAddress": "Lausitzer Platz 8 A"
+    },
+    "name": "Emmauskirche Kreuzberg"
+   },
+   "name": "Es betet Hafis, Interreligiöses Festkonzert",
+   "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "EUR",
+    "url": "https://eventfrog.de/de/p/gruppen/es-betet-hafis-interreligioeses-festkonzert-7510406879572436895.html",
+    "validFrom": "2026-11-21T20:00+0100"
+   },
+   "startDate": "2026-11-21T20:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/halloween-drag-bingo-night-by-duct-tape-0/": {
   "fetched": "2026-10-30T13:02:27+01:00",
   "ld": {
@@ -921,77 +954,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/schall-rauch-slam-12/": {
-  "fetched": "2026-10-30T14:21:57+01:00",
+ "https://rausgegangen.de/events/maaya-halloween-0/": {
+  "fetched": "2026-10-30T15:30:00+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Beim Schall & Rauch Slam verbinden Berliner Poetry Slammer:innen Schauspiel, Poesie und Stand-Up zu mitreißenden Performances. Die Bühne wird zum Ort, an dem Worte Formen annehmen und du hautnah erlebst, wer mit Kostüm und Requisite das Publikum beeindruckt 👀",
-   "endDate": "2026-11-11T21:15+0100",
+   "description": "MAAYA HALLOWEEN 2026 | 2 Floors & Costume ContestAm 31. Oktober wird MAAYA zur Halloween-Party für alle, die keine Lust auf einen gewöhnlichen Samstagabend haben.Zwei Floors, unterschiedliche Sounds, ausgefallene Kostüme und eine Nacht, in der du ruhig ein bisschen übertreiben darfst.🎶 TWO FLOORS, TWO VIBES🔥 FREAK DE L’AFRIQUE FLOOR Mit Shorty, Wallizz und Jimah. Hosted by Copado, mit den Fola Dancers.🔥 AFRO HOUSE FLOOR Mit AFU 🇰🇪 und Aunty Cece.Von Afrobeats und Amapiano bis zu Afro House. Wechsel zwischen den Floors, finde deinen Sound und tanz bis spät in die Nacht.🏆 THE BIG COSTUME CONTESTHalloween ohne Kostüm? Kann man machen. Aber warum?Egal ob gruselig, sexy, lustig oder komplett verrückt: Wir suchen die besten Halloween-Looks der Nacht!🏆 Best Single Costume🏆 Best Group CostumeZu gewinnen gibt es Drinks, eine Flasche für die Crew und Tickets für unsere MAAYA New Year's Eve Party.Also schnapp dir deine Leute, plant eure Outfits und zeigt uns, was ihr draufhabt.🎃 MAAYA HALLOWEEN 2026📅 Samstag, 31. Oktober 2026🕚 Ab 23:00 Uhr bis spät📍 MAAYA Berlin, Revaler Str. 99, 10245 Berlin🎟️ Tickets ab 12 €Ob du zum Tanzen, wegen der Kostüme oder einfach für eine gute Halloween-Nacht kommst: Bei MAAYA bist du richtig.Bring your crew. Dress up. See you on the dancefloor.",
+   "endDate": "2026-11-01T06:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/nA80EFNVT8uMPOtHcLk3_2025schall-rauch-fotologo-cjonassamsonfotos-27.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10557",
-     "streetAddress": "Lehrter Straße 55"
-    },
-    "name": "Gravity Bar"
-   },
-   "name": "Schall & Rauch Slam",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": null,
-    "lowPrice": null,
-    "offerCount": 3,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Eintritt",
-      "price": "12.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Schwerbehindertenausweis B-Ticket (inkl. 1 Begleiter-Ticket)",
-      "price": "12.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Begleiterticket Schwerbehinderte",
-      "price": "0.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Kiezpoeten",
-    "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
-   },
-   "startDate": "2026-11-11T19:30+0100"
-  }
- },
- "https://rausgegangen.de/events/speak-up-inline-x-stories-of-her-with-x-tin-degen-oneyra-lin-0/": {
-  "fetched": "2026-10-30T13:02:27+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Erst reden, dann tanzen: Die Party feiert den sechsten Geburtstag von Stories of Her, einem Projekt, das anonyme Erfahrungen mit Sexismus, Belästigung und sexualisierter Gewalt sichtbar macht. Später kippt der Abend in elektronische Sets von X Tin, degen, Ôneyra, Linda shiro und mehr 🌈",
-   "endDate": "2026-11-15T06:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/07IK7lgPQpK2XrMjwDQC_postv1.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/AhctdPmmTs0abHUcD5Yl_facebook-4.png"
    ],
    "location": {
     "@type": "Place",
@@ -1000,23 +972,75 @@
      "addressCountry": "DE",
      "addressLocality": "Berlin",
      "postalCode": "10245",
-     "streetAddress": "Revaler Str. 99"
+     "streetAddress": "Revaler Straße 99"
     },
-    "name": "Crack Bellmer"
+    "name": "MAAYA"
    },
-   "name": "SPEAK UP Inline x Stories of Her with X Tin, degen, Ôneyra, Linda shiro & many more",
+   "name": "MAAYA HALLOWEEN 2026 | 2 Floors & Costume Contest",
    "offers": {
     "@type": "Offer",
-    "price": "10.00",
+    "price": "12.00",
     "priceCurrency": "EUR",
-    "validFrom": "2026-11-14T17:30+0100"
+    "url": "https://xceed.me/en/berlin/event/maaya-halloween/243650/channel/maaya-berlin",
+    "validFrom": "2026-10-31T23:00+0100"
    },
    "organizer": {
     "@type": "Organization",
-    "name": "Inline",
-    "url": "https://rausgegangen.de/organizations/inline/"
+    "name": "Maaya Berlin",
+    "url": "https://rausgegangen.de/organizations/page-for-team-maaya-berlin-2/"
    },
-   "startDate": "2026-11-14T17:30+0100"
+   "startDate": "2026-10-31T23:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/speed-friending-berlin-by-rausgegangen-0/": {
+  "fetched": "2026-10-30T15:30:00+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Speed Dating kennen wir alle, aber was ist mit Speed Friending? Hier lernst du in kurzen Gesprächen ganz entspannt neue Leute kennen, ohne das übliche Smalltalk-Blabla. Egal, ob du noch neue Friends suchst oder einfach Lust hast Menschen kennenzulernen. Das ist der place to be für neue Bekanntschaften. 🫂",
+   "endDate": "2026-11-05T22:30+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/DgOflF40T8WQ4ZDezaqe_design260820datingspeedfriending16x9.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10625",
+     "streetAddress": "Kantstraße 127"
+    },
+    "name": "Dufte Berlin"
+   },
+   "name": "SPEED FRIENDING Berlin by Rausgegangen",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "19.90",
+    "priceCurrency": "EUR",
+    "url": "https://t.rausgegangen.de/tickets/speed-friending-berlin-by-rausgegangen",
+    "validFrom": "2026-09-28T00:00+0200"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "Rausgegangen Events",
+     "url": "https://rausgegangen.de/organizations/rausgegangen-events/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Speed Dating by Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/speed-dating-by-rausgegangen/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Speed Friending by Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/speed-friending-by-rausgegangen/"
+    }
+   ],
+   "startDate": "2026-11-05T19:30+0100"
   }
  }
 }

@@ -193,6 +193,44 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/alte-seilschaften-das-bundesvertriebenenministerium-zwischen-0/": {
+  "fetched": "2026-10-30T02:28:12+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Das Vertriebenenministerium (1949–1969) war die oberste Bundesbehörde für die Belange der rund 8 Millionen Heimatvertriebenen und Flüchtlinge in der Bundesrepublik. Nicht nur an seiner Spitze standen dabei denkbar gegensätzliche Persönlichkeiten: Der erste Minister war Widerstandskämpfer, sein Nachfolger hingegen tief in das NS-System verstrickt.Welche Rolle spielten alte Seilschaften, Parteibücher und persönliche Netzwerke für die Arbeit, den Aufstieg und Einfluss im Vertriebenenministerium? Unterscheidet es sich dabei von anderen Bundesministerien? Die neue Kollektivbiografie Kommunikation und Konsensfindung (hier kostenfrei erhältlich) geht solchen Fragen erstmals systematisch nach.Diskutieren Sie mit!",
+   "endDate": "2026-11-05T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/qjZcr5pTqCRNc4LtzcJj_bundesarchiv-b-145-bild-f000016-0641-fotograf-oang.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10963",
+     "streetAddress": "Stresemannstraße 90"
+    },
+    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
+   },
+   "name": "Alte Seilschaften? Das Bundesvertriebenenministerium zwischen NS-Diktatur und Demokratie",
+   "offers": {
+    "@type": "Offer",
+    "price": "0.00",
+    "priceCurrency": "EUR",
+    "url": "https://buchungen.flucht-vertreibung-versoehnung.de/de/tickets/108",
+    "validFrom": "2026-11-05T00:00+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung",
+    "url": "https://rausgegangen.de/organizations/dokumentationszentrum-flucht-vertreibung-versohnung/"
+   },
+   "startDate": "2026-11-05T00:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
   "fetched": "2026-10-29T23:02:17+01:00",
   "ld": {
@@ -274,6 +312,61 @@
   "seen": "2026-10-20T15:24:41+02:00",
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
+ },
+ "https://rausgegangen.de/events/dani-lia-yola-gangsta-goren-tour-5/": {
+  "fetched": "2026-10-30T02:28:12+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Brav ist bei Dani Lia und yola offenbar gerade ausverkauft. Die beiden gehen zusammen auf Tour und setzen mit kompromisslosem Pop gegen Klischees und für eine andere Idee von Girlhood ein deutliches Zeichen 💅🏼",
+   "endDate": "2027-05-23T22:00+0200",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/oJ7jfUwKS46GCFI3YkfM_pressefoto1-janaabel.jpeg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10997",
+     "streetAddress": "Cuvrystr. 7"
+    },
+    "name": "Lido"
+   },
+   "name": "Dani Lia yola - GANGSTA GÖREN TOUR",
+   "offers": {
+    "@type": "Offer",
+    "price": "31.90",
+    "priceCurrency": "EUR",
+    "url": "https://chimperator-tickets.de/dani-lia",
+    "validFrom": "2027-05-23T19:00+0200"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "Angst Booking",
+     "url": "https://rausgegangen.de/organizations/angst-booking/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Chimperator Live GmbH - Touring",
+     "url": "https://rausgegangen.de/organizations/chimperator-live-gmbh-touring/"
+    }
+   ],
+   "performer": [
+    {
+     "@type": "PerformingGroup",
+     "name": "DANI LIA"
+    },
+    {
+     "@type": "PerformingGroup",
+     "name": "Yola"
+    }
+   ],
+   "startDate": "2027-05-23T19:00+0200"
+  }
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
   "fetched": "2026-10-29T23:02:17+01:00",
@@ -681,72 +774,6 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
- "https://rausgegangen.de/events/es-betet-hafis-interreligioses-festkonzert-1/": {
-  "fetched": "2026-10-30T00:56:10+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Mitten in Kreuzberg erklingen die Worte eines persischen Dichters aus dem 14. Jahrhundert, vertont von Komponisten jüdischer Herkunft und gesungen in einer christlichen Kirche. Im Zentrum des Festkonzerts steht „Hafis eine Liederreihe\", ein Zyklus für Chor, Gesangssolisten und Klavier von Friedrich Gernsheim, ein farbenreiches und heute seltene aufgeführtes Werk, das der Ölbergchor wiederentdeckt. Ergänzt wird es durch Kompositionen von Giacomo Meyerbeer, Felix Mendelssohn Bartholdy und weiteren Komponisten, die sich ebenfalls von Hafis’ Dichtung inspirieren ließen.Hafis' Verse feiern die Liebe, den Wein und die Schönheit der Welt und stellen zugleich unbequeme Fragen: nach der Wahrhaftigkeit des Glaubens, nach Frömmigkeit, die zur bloßen Pose wird, und nach der Freiheit des Einzelnen gegenüber religiöser Autorität. Mehr als 600 Jahre nach ihrer Entstehung haben diese Texte nichts von ihrer Dringlichkeit verloren. Das Konzert lädt dazu ein, über die Grenzen der Religionen hinweg zuzuhören und ins Gespräch zu kommen.Zur Einstimmung finden am Freitag und Samstag jeweils eine Stunde vor Konzertbeginn Einführungsvorträge statt: Thomas Kliche von der Meyerbeer-Gesellschaft sowie Natalie Marie Rose und Osman Oers vom House of One geben Einblicke in die Werke und ihren interreligiösen Hintergrund.Mitwirkende Laurenzia Kampa, Sopran · Sophia Maeono, Alt · Jakob Schuld, Tenor · Anton Förster, Bass Insa Bernds, Klavier Ölbergchor Kreuzberg Leitung: Johannes Weber",
-   "endDate": "2026-11-21T21:45+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/7lb5lGZjTLCUD3N0LyJx_a90fa8e8-9b9c-49c7-99ac-33a8258c769f.jpeg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10997",
-     "streetAddress": "Lausitzer Platz 8 A"
-    },
-    "name": "Emmauskirche Kreuzberg"
-   },
-   "name": "Es betet Hafis, Interreligiöses Festkonzert",
-   "offers": {
-    "@type": "Offer",
-    "price": 0,
-    "priceCurrency": "EUR",
-    "url": "https://eventfrog.de/de/p/gruppen/es-betet-hafis-interreligioeses-festkonzert-7510406879572436895.html",
-    "validFrom": "2026-11-21T20:00+0100"
-   },
-   "startDate": "2026-11-21T20:00+0100"
-  }
- },
- "https://rausgegangen.de/events/golden-gmilfs-miami-spice-18/": {
-  "fetched": "2026-10-30T00:56:10+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Mit trockenem Humor und noch trockeneren Perücken melden sie sich zurück: Die Bühnen-Queens der gereiften Lebensfreude heben ihr brandneues Stück auf ein völlig neues Level. In »Miami Spice« erlebt das verschmitzte Seniorinnen-Squad Unruhe in seiner floridianischen Nachbarschaft: Wer sind diese neuen Menschen? Woher kommen sie? Und was ist mit unserem Schmuck passiert?Das Ensemble präsentiert sich wie immer mit unerschrockenem Witz, strahlender Selbstironie und überraschend zarten Zwischentönen, jedoch diesmal in neuem Glanz: Rachel Intervention als Rose, Ryan Stecken als Sophia, Yvonne Nightstand als Dorothy und Deena Fear als Blanche. Für Gerechtigkeit sorgen selbstverständlich Miss Pan Am Drag Airlines und Mii. Frischer Schwung, aber gleichbleibender satirischer Biss und unwiderstehliche Bühnenenergie. Aber ... Moment mal ... wer ist die geheimnisvolle neue Nachbarin???Das und vieles mehr erfahren Sie zwischen scharfzüngigen Dialogen, musikalischen Glanzmomenten und wunderbar absurden Szenen im neuen Programm der Golden Gmilfs: eine Live-Playback-Parodie mit Sitcom-Schnipseln der 80er / 90er Jahre Kultserie »The Golden Girls«.",
-   "endDate": "2026-11-07T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/ZVAtNEEaQmSbT3gAU6mt_golden-gmilfs-miami-spice-foto-yves-tiedemann-fb.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10961",
-     "streetAddress": "Mehringdamm 34"
-    },
-    "name": "BKA Theater"
-   },
-   "name": "Golden Gmilfs: Miami Spice",
-   "offers": {
-    "@type": "Offer",
-    "price": 0,
-    "priceCurrency": "EUR",
-    "url": "https://bka-theater-webshop.comfortticket.de/de/produktion/0d60aa6d-479d-4320-8251-af131be95f9c/469",
-    "validFrom": "2026-11-06T20:00+0100"
-   },
-   "startDate": "2026-11-06T20:00+0100"
-  }
- },
  "https://rausgegangen.de/events/halloween-drag-bingo-night-by-duct-tape-0/": {
   "fetched": "2026-10-30T00:00:05+01:00",
   "ld": {
@@ -903,82 +930,6 @@
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/jake-isaac-5/": {
-  "fetched": "2026-10-30T00:56:10+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Zehn Jahre später packt Jake Isaac seine alten Songs noch mal an, und plötzlich hört man, wie viel Weg dazwischen liegt. Der Mann aus Südlondon kam erst übers Schlagzeug zur Musik, unter seiner Soulstimme schiebt also immer auch Rhythmus mit 🙂",
-   "endDate": "2027-05-11T23:00+0200",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/SroI1DKYQ82lBUbI1BAg_jifb-cover.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10435",
-     "streetAddress": "Schönhauser Allee 36"
-    },
-    "name": "frannz club berlin"
-   },
-   "name": "Jake Isaac",
-   "offers": {
-    "@type": "Offer",
-    "price": "36.00",
-    "priceCurrency": "EUR",
-    "url": "https://link.dice.fm/A0137a8279d3",
-    "validFrom": "2027-05-11T20:00+0200"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Z|ART Agency",
-    "url": "https://rausgegangen.de/organizations/zart-agency-gmbh/"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Jake Isaac"
-   },
-   "startDate": "2027-05-11T20:00+0200"
-  }
- },
- "https://rausgegangen.de/events/jeder-mensch-kann-trauern-fee-vogel-eric-wrede-2/": {
-  "fetched": "2026-10-30T00:00:05+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Was passiert in unserem Körper, wenn wir trauern? Wie kann man lernen, mit Trauer zu leben? Was sind die schlimmsten Beileidsbekundungen aller Zeiten? Und was kann im Familien-WhatsApp-Chat alles schiefgehen, wenn plötzlich eine Beerdigung organisiert werden muss?Fee Vogel und Eric Wrede nehmen das Publikum mit auf einen Abend, der Trauer so zeigt, wie sie wirklich ist – menschlich, nah, manchmal überraschend komisch. Keine Lesung. Kein Vortrag. Sondern ein Gespräch über eine der wichtigsten Fähigkeiten, die wir haben.Grundlage des Abends ist das gleichnamige Buch, das im November 2026 im Insel Verlag (Suhrkamp) erscheint.Fee Vogel ist Geschäftsführerin von lebensnah Bestattungen Bonn und qualifizierte Trauerbegleiterin, auch für Kinder und Jugendliche. Sie ist Mitbegründerin der Beratungsfirma trauerkultur3, die Unternehmen und Führungskräfte unterstützt, wenn Trauer am Arbeitsplatz ankommt.Eric Wrede führt lebensnah Bestattungen in Berlin, Leipzig, Bonn und Potsdam. Sein Spiegel-Bestseller „The End“ wurde 2025 vom ZDF unter dem Titel „Sterben für Beginner“ verfilmt, im selben Jahr lief die Kino-Dokumentation „Der Tod ist ein Arschloch!“ in den Kinos. Im ARD/radioeins-Podcast „the end“ spricht er mit Gästen wie Sven Regener, Judith Holofernes, Sarah Kuttner und Sebastian Fitzek über das, worüber die meisten schweigen.Im November 2026 ist „Jeder Mensch kann trauern“ in Deutschland, Österreich und der Schweiz zu erleben.",
-   "endDate": "2026-11-18T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/gTc6DlSeQUGrmAJ5746L_jmktrausgegangentitelbild1920x1080.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10437",
-     "streetAddress": "Schönhauser Allee 123"
-    },
-    "name": "Filmtheater Colosseum"
-   },
-   "name": "Jeder Mensch kann trauern – Fee Vogel & Eric Wrede",
-   "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "24.90",
-    "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/jeder-mensch-kann-trauern-fee-vogel-eric-wrede-1",
-    "validFrom": "2026-09-29T16:00+0200"
-   },
-   "startDate": "2026-11-17T19:00+0100"
-  }
- },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-0/": {
   "fetched": "2026-10-29T23:02:17+01:00",
   "ld": {
@@ -1063,16 +1014,69 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/maaya-halloween-0/": {
-  "fetched": "2026-10-30T00:56:10+01:00",
+ "https://rausgegangen.de/events/lina-bo-asphalt-und-sterne-tour-2026-20/": {
+  "fetched": "2026-10-30T02:28:12+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "MAAYA HALLOWEEN 2026 | 2 Floors & Costume ContestAm 31. Oktober wird MAAYA zur Halloween-Party für alle, die keine Lust auf einen gewöhnlichen Samstagabend haben.Zwei Floors, unterschiedliche Sounds, ausgefallene Kostüme und eine Nacht, in der du ruhig ein bisschen übertreiben darfst.🎶 TWO FLOORS, TWO VIBES🔥 FREAK DE L’AFRIQUE FLOOR Mit Shorty, Wallizz und Jimah. Hosted by Copado, mit den Fola Dancers.🔥 AFRO HOUSE FLOOR Mit AFU 🇰🇪 und Aunty Cece.Von Afrobeats und Amapiano bis zu Afro House. Wechsel zwischen den Floors, finde deinen Sound und tanz bis spät in die Nacht.🏆 THE BIG COSTUME CONTESTHalloween ohne Kostüm? Kann man machen. Aber warum?Egal ob gruselig, sexy, lustig oder komplett verrückt: Wir suchen die besten Halloween-Looks der Nacht!🏆 Best Single Costume🏆 Best Group CostumeZu gewinnen gibt es Drinks, eine Flasche für die Crew und Tickets für unsere MAAYA New Year's Eve Party.Also schnapp dir deine Leute, plant eure Outfits und zeigt uns, was ihr draufhabt.🎃 MAAYA HALLOWEEN 2026📅 Samstag, 31. Oktober 2026🕚 Ab 23:00 Uhr bis spät📍 MAAYA Berlin, Revaler Str. 99, 10245 Berlin🎟️ Tickets ab 12 €Ob du zum Tanzen, wegen der Kostüme oder einfach für eine gute Halloween-Nacht kommst: Bei MAAYA bist du richtig.Bring your crew. Dress up. See you on the dancefloor.",
-   "endDate": "2026-11-01T06:00+0100",
+   "description": "Zwischen Straße und Club klingen Lina Bó nach Unterwegssein, nach Begegnungen und diesem Leben zwischen Kulturen. Hinter dem Duo stehen Celina von Wrochem und Luca Bo Hansen 💃",
+   "endDate": "2026-11-27T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/AhctdPmmTs0abHUcD5Yl_facebook-4.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/PPDKVpxqQ2cU0aMswuwf_lina-bo-tour-2026-bild-1-small-by-malte-paulsen.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10435",
+     "streetAddress": "Knaackstraße 97"
+    },
+    "name": "Maschinenhaus"
+   },
+   "name": "Lina Bó - Asphalt und Sterne Tour 2026",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 2,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "28.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Begleitperson",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Lina Bó"
+   },
+   "startDate": "2026-11-26T20:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/most-wanted-music-club-festival-1/": {
+  "fetched": "2026-10-30T02:28:12+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Kein großer Name, auf den alle warten, sondern mehr als 40 Acts, die Du vielleicht erst später überall hörst. Am Ende kippt das Ganze sogar in eine offene Jam Session, bei der auch Leute aus dem Publikum mitmachen können 👀",
+   "endDate": "2026-11-05T23:45+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/sWyu3FVSH6doXGdOWd4g_club-festival-online-banner-1920-x-1080-px.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -1081,36 +1085,36 @@
      "addressCountry": "DE",
      "addressLocality": "Berlin",
      "postalCode": "10245",
-     "streetAddress": "Revaler Straße 99"
+     "streetAddress": "Revaler Str. 99"
     },
-    "name": "MAAYA"
+    "name": "RAW-Gelände"
    },
-   "name": "MAAYA HALLOWEEN 2026 | 2 Floors & Costume Contest",
+   "name": "Most Wanted: Music Club Festival",
    "offers": {
     "@type": "Offer",
-    "price": "12.00",
+    "price": "25.00",
     "priceCurrency": "EUR",
-    "url": "https://xceed.me/en/berlin/event/maaya-halloween/243650/channel/maaya-berlin",
-    "validFrom": "2026-10-31T23:00+0100"
+    "url": "https://mwm-berlin.reservix.de/tickets-most-wanted-music-club-festival-in-berlin-raw-gelaende-am-4-11-2026/e2583600",
+    "validFrom": "2026-11-04T17:00+0100"
    },
    "organizer": {
     "@type": "Organization",
-    "name": "Maaya Berlin",
-    "url": "https://rausgegangen.de/organizations/page-for-team-maaya-berlin-2/"
+    "name": "Berlin Music Commission eG",
+    "url": "https://rausgegangen.de/organizations/page-for-team-berlin-music-commission-eg/"
    },
-   "startDate": "2026-10-31T23:00+0100"
+   "startDate": "2026-11-04T17:00+0100"
   }
  },
- "https://rausgegangen.de/events/wedding-slam-royale-jahresfinale-1/": {
-  "fetched": "2026-10-30T00:00:05+01:00",
+ "https://rausgegangen.de/events/roda-60-halloween-edition-0/": {
+  "fetched": "2026-10-30T02:28:12+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Der Best-Of Poetry Slam im schicksten Ballhaus der Stadt. Wir werfen uns in Schale und bringen ein fein ausgewähltes Lineup aus Poetry Slam, Comedy und Bühnenliteratur in den Wedding. Das ist Poetry Slam für alle, die Hochkultur wollen - aber in höchst unterhaltsam! Nur die besten Slammer:innen kommen auf diese Bühne, auf dass du dich für anderthalb Stunden ganz und gar fallen lassen kannst. Mit einem Sektglas auf der Chaiselongue, für den perfekten Sonntagabend.   ----- Bild: Timo Becker / Martin Kleingräber",
-   "endDate": "2026-11-15T21:30+0100",
+   "description": "Tickets ALSO available at the door - €22Kids until 11 years old and birthday guests of the month enjoy FREE ENTRYThe last Roda of the year is here! We’re back at Festsaal Kreuzberg for a special Halloween edition. Expect everything we love: Brazilian beats, a touch of Carnival, and the united community that makes Roda so special and truly warms our hearts.Come enjoy a full day of samba, DJ sets, and delicious Brazilian food, Carnival energy and family-friendly activities. Costumes are highly encouraged for this Halloween edition!‍ ‍Program:Live Roda de SambaDJ AcerolaDJ RôBloco do UrsoSamba de Gafieira Workshop with Carlos FrevoFun activities for kids to enjoy throughout the dayFood: Traditional and vegan feijoada, picanha, pastel, traditional and vegan coxinha, pão de queijo, brigadeiro, and other Brazilian sweets. Please note: food and drinks are sold separately and are not included in the ticket price.  Kids Activities: We’ll have a special kids’ area with fun activities so the whole family can enjoy the day together.  Birthdays: Want to celebrate your birthday with us? Send an email to info@bossafm.com and tell us your idea!October, November and December birthday guests get FREE ENTRY. Just show a valid photo ID at the door.Special Group Offer: Buy 5 tickets, get 1 FREE!Bring your friends and family for a day full of music, food, and unforgettable vibes! See you there! 👻",
+   "endDate": "2026-11-01T22:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/GDkIYgNR7rNBzEBLVMkA_2025wedding-royale-fotologo-cjonassamsonfotos-27.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/le8sc8H0SQWVkokNOlfP_banner-site-roda-hallowen2.png"
    ],
    "location": {
     "@type": "Place",
@@ -1118,62 +1122,57 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "13359",
-     "streetAddress": "Wriezener Str. 6"
+     "postalCode": "12435",
+     "streetAddress": "Am Flutgraben 2"
     },
-    "name": "Ballhaus Wedding"
+    "name": "Festsaal Kreuzberg"
    },
-   "name": "Wedding Slam Royale: Jahresfinale",
+   "name": "Roda #60 | Halloween Edition",
    "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "26.70",
-    "lowPrice": "9.90",
-    "offerCount": 5,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "16.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Ermäßigt",
-      "price": "9.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Sofaticket inkl 1 Freisekt",
-      "price": "26.70",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Schwerbehindertenausweis B-Ticket",
-      "price": "9.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Begleiterticket Schwerbehinderte",
-      "price": "0.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
+    "@type": "Offer",
+    "price": "18.00",
+    "priceCurrency": "EUR",
+    "url": "https://www.bossafm.com/tickets/berlin/festsaal-kreuzber/roda-halloween-edition/1-nov-2026",
+    "validFrom": "2026-11-01T13:00+0100"
    },
    "organizer": {
     "@type": "Organization",
-    "name": "Kiezpoeten",
-    "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
+    "name": "Bossa FM",
+    "url": "https://rausgegangen.de/organizations/bossa-fm-3/"
    },
-   "startDate": "2026-11-15T19:30+0100"
+   "startDate": "2026-11-01T13:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/vinyl-night-mit-dieta-berliner-2/": {
+  "fetched": "2026-10-30T02:28:12+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Vinyl Night mit Dieta Berliner – Deep House, Disco & DrinksVinyl knistert, Drinks sind kalt, der Groove setzt ein 🖤✨🎚️🎛️🎧Freut euch auf einen Sound, der sich nicht hetzen lässt: Deep House, Disco und Nu-Disco, gespielt exklusiv auf Vinyl. Warm, analog, mit diesem unverkennbaren Old-School-Feeling, das sofort die richtige Stimmung bringt – zwischen Bar, Dancefloor und spätem Feierabenddrink oder Pre-Clubbing. 🎧 Dieta Berliner ist Teil von Pakalolo Soundlab und bekannt für Sets, die nicht nur laufen, sondern sich entwickeln. Perfekt also für einen Abend, der irgendwo zwischen entspanntem Ankommen und ungeplant langem Bleiben liegt.🪩🖤✨  Wo?Bar Sprewa @ Me and All Hotel Berlin East SideAn der Schillingbrücke 2, 10243 Berlin",
+   "endDate": "2026-10-31T01:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/f54hsgeQoOR4eIPSnp7N_meandall30mai103.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10243",
+     "streetAddress": "An der Schillingbrücke 2"
+    },
+    "name": "Bar Sprewa"
+   },
+   "name": "Vinyl Night with DJ Dieta Berliner",
+   "offers": {
+    "@type": "Offer",
+    "price": "0.00",
+    "priceCurrency": "EUR",
+    "validFrom": "2026-10-30T21:00+0100"
+   },
+   "startDate": "2026-10-30T21:00+0100"
   }
  }
 }

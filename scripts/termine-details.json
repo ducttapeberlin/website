@@ -231,6 +231,44 @@
    "startDate": "2026-11-05T00:00+0100"
   }
  },
+ "https://rausgegangen.de/events/cirque-de-lafrique-x-afro-life-0/": {
+  "fetched": "2026-10-31T08:21:12+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "CIRQUE DE L’AFRIQUE x AFRO LIVEZirkus trifft Clubnacht. Und du bist mittendrin!Was passiert, wenn Akrobat, Tänzer, Live-Musik und DJs auf einer Tanzfläche zusammenkommen?Am 28. November bringt Cirque de l’Afrique x Afro Live genau dieses Erlebnis ins MAAYA Berlin!Freu dich auf spektakuläre Akrobatik, mitreißende Tanzperformances und überraschende Showmomente, während die Musik die ganze Nacht weiterläuft. Hier wird nicht einfach nur aufgelegt oder eine Show gespielt. Alles passiert gleichzeitig, direkt um dich herum!Mit dabei ist Heaven Sam aka Mr. Afro Disco. Mit seiner Mischung aus DJ-Sets, kraftvollen Live-Drums und Klavier bringt er eine ganz besondere Energie in den Raum.Musikalisch erwartet dich ein Mix aus afrikanischen, karibischen und elektronischen Sounds, von Afrobeats und Amapiano über Afro House bis hin zu Dancehall.Ob du zum Tanzen kommst, die Performances erleben möchtest oder einfach nach einer außergewöhnlichen Partynacht in Berlin suchst: Cirque de l’Afrique bringt all das zusammen.Keine gewöhnliche Party. Keine gewöhnliche Show. Ein Abend, an dem du mittendrin bist!LINE-UPHeaven Sam DJ Nomi Prince M.I.K Freak de l’Afrique Papi Da SilvaSamstag, 28. November 2026 | Ab 23:00 UhrMAAYA Berlin Revaler Straße 99, 10245 Berlin-Friedrichshain",
+   "endDate": "2026-11-29T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/1QUGShU6TAyJw5njoxDH_cirque-de-lafrique-3.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10245",
+     "streetAddress": "Revaler Straße 99"
+    },
+    "name": "MAAYA"
+   },
+   "name": "Cirque de l'Afrique x Afro Life",
+   "offers": {
+    "@type": "Offer",
+    "price": "15.00",
+    "priceCurrency": "EUR",
+    "url": "https://xceed.me/en/berlin/event/cirque-de-lafrique-x-afro-live-w-heaven-sam-281126/248062/channel/maaya-berlin",
+    "validFrom": "2026-11-28T23:00+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Freak De L'Afrique",
+    "url": "https://rausgegangen.de/organizations/freak-de-lafrique/"
+   },
+   "startDate": "2026-11-28T23:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
   "fetched": "2026-10-31T06:59:27+01:00",
   "ld": {
@@ -726,112 +764,6 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
- "https://rausgegangen.de/events/es-betet-hafis-interreligioses-festkonzert-1/": {
-  "fetched": "2026-10-31T06:59:27+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Mitten in Kreuzberg erklingen die Worte eines persischen Dichters aus dem 14. Jahrhundert, vertont von Komponisten jüdischer Herkunft und gesungen in einer christlichen Kirche. Im Zentrum des Festkonzerts steht „Hafis eine Liederreihe\", ein Zyklus für Chor, Gesangssolisten und Klavier von Friedrich Gernsheim, ein farbenreiches und heute seltene aufgeführtes Werk, das der Ölbergchor wiederentdeckt. Ergänzt wird es durch Kompositionen von Giacomo Meyerbeer, Felix Mendelssohn Bartholdy und weiteren Komponisten, die sich ebenfalls von Hafis’ Dichtung inspirieren ließen.Hafis' Verse feiern die Liebe, den Wein und die Schönheit der Welt und stellen zugleich unbequeme Fragen: nach der Wahrhaftigkeit des Glaubens, nach Frömmigkeit, die zur bloßen Pose wird, und nach der Freiheit des Einzelnen gegenüber religiöser Autorität. Mehr als 600 Jahre nach ihrer Entstehung haben diese Texte nichts von ihrer Dringlichkeit verloren. Das Konzert lädt dazu ein, über die Grenzen der Religionen hinweg zuzuhören und ins Gespräch zu kommen.Zur Einstimmung finden am Freitag und Samstag jeweils eine Stunde vor Konzertbeginn Einführungsvorträge statt: Thomas Kliche von der Meyerbeer-Gesellschaft sowie Natalie Marie Rose und Osman Oers vom House of One geben Einblicke in die Werke und ihren interreligiösen Hintergrund.Mitwirkende Laurenzia Kampa, Sopran · Sophia Maeono, Alt · Jakob Schuld, Tenor · Anton Förster, Bass Insa Bernds, Klavier Ölbergchor Kreuzberg Leitung: Johannes Weber",
-   "endDate": "2026-11-21T21:45+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/7lb5lGZjTLCUD3N0LyJx_a90fa8e8-9b9c-49c7-99ac-33a8258c769f.jpeg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10997",
-     "streetAddress": "Lausitzer Platz 8 A"
-    },
-    "name": "Emmauskirche Kreuzberg"
-   },
-   "name": "Es betet Hafis, Interreligiöses Festkonzert",
-   "offers": {
-    "@type": "Offer",
-    "price": 0,
-    "priceCurrency": "EUR",
-    "url": "https://eventfrog.de/de/p/gruppen/es-betet-hafis-interreligioeses-festkonzert-7510406879572436895.html",
-    "validFrom": "2026-11-21T20:00+0100"
-   },
-   "startDate": "2026-11-21T20:00+0100"
-  }
- },
- "https://rausgegangen.de/events/geheimkonzert-berlin-24-by-rausgegangen-0/": {
-  "fetched": "2026-10-31T06:02:50+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Na Hallo! Es ist wieder so weit: Ein Abend voller Überraschung - denn wer auf der Bühne steht, bleibt bis zum ersten Ton geheim. Wir hatten schon Blond, Berq, Ennio, Futurebae, Jassin, Anais, Katha Pauer & viele mehr zu Gast – und das schon bevor sie die großen Bühnen der Nation gestürmt haben. Also entdecke die Stars von Morgen bei unseren Geheimkonzerten. 🪩",
-   "endDate": "2026-12-09T22:15+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/mO31iODjTCuFLVfQ493H_gk202516x9photoheadline-32-1.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin"
-    },
-    "name": "Secret location"
-   },
-   "name": "Geheimkonzert Berlin #24 by Rausgegangen",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "29.90",
-    "lowPrice": "24.50",
-    "offerCount": 4,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "EARLY BIRD",
-      "price": "21.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "REGULAR",
-      "price": "26.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "4er FRIENDS BUNDLE",
-      "price": "22.25",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Mitgegangen",
-      "price": "3.80",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "Rausgegangen Geheimkonzerte",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Rausgegangen Geheimkonzerte Berlin",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte-3/"
-    }
-   ],
-   "startDate": "2026-12-09T20:00+0100"
-  }
- },
  "https://rausgegangen.de/events/halloween-drag-bingo-night-by-duct-tape-0/": {
   "fetched": "2026-10-31T02:26:10+01:00",
   "ld": {
@@ -988,16 +920,16 @@
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/jake-isaac-5/": {
-  "fetched": "2026-10-31T06:59:27+01:00",
+ "https://rausgegangen.de/events/jeder-mensch-kann-trauern-fee-vogel-eric-wrede-2/": {
+  "fetched": "2026-10-31T08:21:12+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Zehn Jahre später packt Jake Isaac seine alten Songs noch mal an, und plötzlich hört man, wie viel Weg dazwischen liegt. Der Mann aus Südlondon kam erst übers Schlagzeug zur Musik, unter seiner Soulstimme schiebt also immer auch Rhythmus mit 🙂",
-   "endDate": "2027-05-11T23:00+0200",
+   "description": "Was passiert in unserem Körper, wenn wir trauern? Wie kann man lernen, mit Trauer zu leben? Was sind die schlimmsten Beileidsbekundungen aller Zeiten? Und was kann im Familien-WhatsApp-Chat alles schiefgehen, wenn plötzlich eine Beerdigung organisiert werden muss?Fee Vogel und Eric Wrede nehmen das Publikum mit auf einen Abend, der Trauer so zeigt, wie sie wirklich ist – menschlich, nah, manchmal überraschend komisch. Keine Lesung. Kein Vortrag. Sondern ein Gespräch über eine der wichtigsten Fähigkeiten, die wir haben.Grundlage des Abends ist das gleichnamige Buch, das im November 2026 im Insel Verlag (Suhrkamp) erscheint.Fee Vogel ist Geschäftsführerin von lebensnah Bestattungen Bonn und qualifizierte Trauerbegleiterin, auch für Kinder und Jugendliche. Sie ist Mitbegründerin der Beratungsfirma trauerkultur3, die Unternehmen und Führungskräfte unterstützt, wenn Trauer am Arbeitsplatz ankommt.Eric Wrede führt lebensnah Bestattungen in Berlin, Leipzig, Bonn und Potsdam. Sein Spiegel-Bestseller „The End“ wurde 2025 vom ZDF unter dem Titel „Sterben für Beginner“ verfilmt, im selben Jahr lief die Kino-Dokumentation „Der Tod ist ein Arschloch!“ in den Kinos. Im ARD/radioeins-Podcast „the end“ spricht er mit Gästen wie Sven Regener, Judith Holofernes, Sarah Kuttner und Sebastian Fitzek über das, worüber die meisten schweigen.Im November 2026 ist „Jeder Mensch kann trauern“ in Deutschland, Österreich und der Schweiz zu erleben.",
+   "endDate": "2026-11-18T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/SroI1DKYQ82lBUbI1BAg_jifb-cover.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/gTc6DlSeQUGrmAJ5746L_jmktrausgegangentitelbild1920x1080.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -1005,29 +937,21 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10435",
-     "streetAddress": "Schönhauser Allee 36"
+     "postalCode": "10437",
+     "streetAddress": "Schönhauser Allee 123"
     },
-    "name": "frannz club berlin"
+    "name": "Filmtheater Colosseum"
    },
-   "name": "Jake Isaac",
+   "name": "Jeder Mensch kann trauern – Fee Vogel & Eric Wrede",
    "offers": {
     "@type": "Offer",
-    "price": "36.00",
+    "availability": "https://schema.org/InStock",
+    "price": "24.90",
     "priceCurrency": "EUR",
-    "url": "https://link.dice.fm/A0137a8279d3",
-    "validFrom": "2027-05-11T20:00+0200"
+    "url": "https://t.rausgegangen.de/tickets/jeder-mensch-kann-trauern-fee-vogel-eric-wrede-1",
+    "validFrom": "2026-09-29T16:00+0200"
    },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Z|ART Agency",
-    "url": "https://rausgegangen.de/organizations/zart-agency-gmbh/"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Jake Isaac"
-   },
-   "startDate": "2027-05-11T20:00+0200"
+   "startDate": "2026-11-17T19:00+0100"
   }
  },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-0/": {
@@ -1114,16 +1038,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/skuppin-musee-sentimental-tour-2027-10/": {
-  "fetched": "2026-10-31T06:59:27+01:00",
+ "https://rausgegangen.de/events/ostberlin-poetry-slam-12/": {
+  "fetched": "2026-10-31T08:21:12+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Kühle Synths, düstere Bässe, und dann diese Stimme, die plötzlich mehr Druck hat, als man erst denkt. SKUPPIN bringt auf der Musée Sentimental Tour neuen Stoff mit und steht live nicht allein auf der Bühne 👀",
-   "endDate": "2027-11-26T22:30+0100",
+   "description": "ist das kalt da draußen! Wäre es nicht viel schöner, sich jetzt in einen wohlig-warmen Kinosessel fallen zu lassen, und sich von warmen Wörtern, heißen Zeilen und kuscheligen Reimen unterhalten zu lassen? Der Ostberlin Poetry Slam versüßt euch die Wintertage, wie stets mit Poeten, Comedians und Erzählerinnen von nah und fern. Das ist ganz großes Kino! Also, der Alte Saal vom Union Kino eben. Mit Gedichten, Humor und Geschichten, die dein Herz so genug erwärmen, um dich durch den Winter zu bringen!",
+   "endDate": "2026-11-05T22:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Y4GElzxUQ8avCC0sjfVr_pressefotoskuppinstellawei00edit.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/PpmVlfaPQVG79z3jsY0A_ostberlinslamvabild.png"
    ],
    "location": {
     "@type": "Place",
@@ -1131,24 +1055,142 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10997",
-     "streetAddress": "Skalitzer Strasse 85-86"
+     "postalCode": "12587",
+     "streetAddress": "Bölschestraße 69"
     },
-    "name": "Privatclub Berlin"
+    "name": "Kino UNION"
    },
-   "name": "SKUPPIN - \"Musée Sentimental\" Tour 2027",
+   "name": "Ostberlin Poetry Slam",
    "offers": {
-    "@type": "Offer",
-    "price": 0,
-    "priceCurrency": "EUR",
-    "url": "https://loveyourartist.com/de/profiles/skuppin-YAJ7YR/events",
-    "validFrom": "2027-11-26T20:00+0100"
+    "@type": "AggregateOffer",
+    "highPrice": "14.90",
+    "lowPrice": "12.90",
+    "offerCount": 4,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "14.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Ermäßigt",
+      "price": "12.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Schwerbehindertenausweis B-Ticket",
+      "price": "12.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Begleiterticket Schwerbehinderte",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
    },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "SKUPPIN"
+   "organizer": {
+    "@type": "Organization",
+    "name": "Kiezpoeten",
+    "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
    },
-   "startDate": "2027-11-26T20:00+0100"
+   "startDate": "2026-11-05T20:15+0100"
+  }
+ },
+ "https://rausgegangen.de/events/slam-der-jugend-17/": {
+  "fetched": "2026-10-31T08:21:12+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Der Poetry Slam für U22-Jährige im Atze Berlin, direkt an der Amrumer Straße Wedding.Ob nachdenkliche Lyrik oder lustige Stand-Up: Auf dieser Bühne ist alles erlaubt, was mit Worten gemacht werden kann. Es gelten die drei Regeln des Poetry Slam: 1. Nur selbstgeschriebene Texte 2. Keine Requisiten 3. Ein Zeitlimit, in diesem Fall von 5 Minuten. Die Besonderheit: Kein*e der Auftretenden ist über 22 Jahre alt. Die Line-Up Liste ist offen – du kannst dich also einfach vorher anmelden. Als der Nachwuchs-Slam unter den Kiezpoeten-Shows in Berlin richtet sich der “Poetry Slam der Jugend” vor allem an Jugendliche und junge Erwachsene. Eure Themen. Euer Stil. Als Zuschauer*in erwartet dich ein vielfältiges und abwechslungsreiches Line-Up mit Texten, die dir aus der Seele sprechen. Von Menschen, die dein Leben kennen. Nicht jeder Text wird auf das letzte Wort gefeilt und performativ perfektioniert sein. Aber dafür absolut authentisch.Besonders geeignet für Schulgruppen. --Bild: Timo Becker / Martin Kleingräber",
+   "endDate": "2026-11-04T20:30+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/a7j2Dd3RdaMeNLJ3jlQE_2025slam-der-jugend-fotologo-cjonassamsonfotos-27.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "13353",
+     "streetAddress": "Luxemburger Straße 20"
+    },
+    "name": "ATZE Musiktheater"
+   },
+   "name": "Slam der Jugend",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "8.50",
+    "lowPrice": "5.50",
+    "offerCount": 5,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "8.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Jugendliche",
+      "price": "6.95",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Schulgruppe ab 10 Personen",
+      "price": "5.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Schwerbehindertenausweis B-Ticket (inkl. 1 Begleiter-Ticket)",
+      "price": "6.95",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Begleiterticket Schwerbehinderte",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "Kiezpoeten",
+     "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Newcomer Slams",
+     "url": "https://rausgegangen.de/organizations/p-newcomer-slams/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Slam der Jugend",
+     "url": "https://rausgegangen.de/organizations/p-slam-der-jugend/"
+    }
+   ],
+   "startDate": "2026-11-04T18:00+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
@@ -1190,16 +1232,16 @@
   },
   "seen": "2026-10-31T02:26:10+01:00"
  },
- "https://rausgegangen.de/events/yab-yum-tour-2026-0/": {
-  "fetched": "2026-10-31T06:59:27+01:00",
+ "https://rausgegangen.de/events/wedding-slam-royale-jahresfinale-1/": {
+  "fetched": "2026-10-31T08:21:12+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Sieben Leute auf der Bühne, dazu Bläser und Rap, und alles kommt direkt aus dem Moment statt aus dem Rechner. Twiceasmad bringen ihre nächste eigene Tour zum ersten Mal auch nach Berlin 👀",
-   "endDate": "2026-11-22T05:00+0100",
+   "description": "Der Best-Of Poetry Slam im schicksten Ballhaus der Stadt. Wir werfen uns in Schale und bringen ein fein ausgewähltes Lineup aus Poetry Slam, Comedy und Bühnenliteratur in den Wedding. Das ist Poetry Slam für alle, die Hochkultur wollen - aber in höchst unterhaltsam! Nur die besten Slammer:innen kommen auf diese Bühne, auf dass du dich für anderthalb Stunden ganz und gar fallen lassen kannst. Mit einem Sektglas auf der Chaiselongue, für den perfekten Sonntagabend.   ----- Bild: Timo Becker / Martin Kleingräber",
+   "endDate": "2026-11-15T21:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/ZmjTgBfRTuFmJv5MY5Qf_tamgarage-21.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/GDkIYgNR7rNBzEBLVMkA_2025wedding-royale-fotologo-cjonassamsonfotos-27.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -1207,29 +1249,62 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10627",
-     "streetAddress": "Kaiser-Friedrich-Straße 67, 10627 Berlin-Charlottenburg"
+     "postalCode": "13359",
+     "streetAddress": "Wriezener Str. 6"
     },
-    "name": "ART Stalker - Kunst + Bar + Events"
+    "name": "Ballhaus Wedding"
    },
-   "name": "Yab Yum Tour 2026",
+   "name": "Wedding Slam Royale: Jahresfinale",
    "offers": {
-    "@type": "Offer",
-    "price": "8.00",
-    "priceCurrency": "EUR",
-    "url": "https://art-stalker.reservix.de/p/reservix/event/2539159",
-    "validFrom": "2026-11-21T20:00+0100"
+    "@type": "AggregateOffer",
+    "highPrice": "26.70",
+    "lowPrice": "9.90",
+    "offerCount": 5,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "16.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Ermäßigt",
+      "price": "9.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Sofaticket inkl 1 Freisekt",
+      "price": "26.70",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Schwerbehindertenausweis B-Ticket",
+      "price": "9.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Begleiterticket Schwerbehinderte",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
    },
    "organizer": {
     "@type": "Organization",
-    "name": "twiceasmad",
-    "url": "https://rausgegangen.de/organizations/page-for-team-twiceasmad/"
+    "name": "Kiezpoeten",
+    "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
    },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "twiceasmad"
-   },
-   "startDate": "2026-11-21T20:00+0100"
+   "startDate": "2026-11-15T19:30+0100"
   }
  }
 }

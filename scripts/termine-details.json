@@ -97,7 +97,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-10-31T09:08:50+01:00",
+  "fetched": "2026-10-31T15:55:38+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -193,16 +193,16 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/amber-georgia-0/": {
-  "fetched": "2026-10-31T14:15:30+01:00",
+ "https://rausgegangen.de/events/cirque-de-lafrique-x-afro-life-0/": {
+  "fetched": "2026-10-31T15:55:38+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Orange im Glas und dahinter mehr als 60 Winzer:innen aus Georgien, die ihre Weine selbst mitbringen. Statt Messestress eher ein direkter Draht zu einer uralten Weintradition 👀",
-   "endDate": "2026-11-28T17:00+0100",
+   "description": "CIRQUE DE L’AFRIQUE x AFRO LIVEZirkus trifft Clubnacht. Und du bist mittendrin!Was passiert, wenn Akrobat, Tänzer, Live-Musik und DJs auf einer Tanzfläche zusammenkommen?Am 28. November bringt Cirque de l’Afrique x Afro Live genau dieses Erlebnis ins MAAYA Berlin!Freu dich auf spektakuläre Akrobatik, mitreißende Tanzperformances und überraschende Showmomente, während die Musik die ganze Nacht weiterläuft. Hier wird nicht einfach nur aufgelegt oder eine Show gespielt. Alles passiert gleichzeitig, direkt um dich herum!Mit dabei ist Heaven Sam aka Mr. Afro Disco. Mit seiner Mischung aus DJ-Sets, kraftvollen Live-Drums und Klavier bringt er eine ganz besondere Energie in den Raum.Musikalisch erwartet dich ein Mix aus afrikanischen, karibischen und elektronischen Sounds, von Afrobeats und Amapiano über Afro House bis hin zu Dancehall.Ob du zum Tanzen kommst, die Performances erleben möchtest oder einfach nach einer außergewöhnlichen Partynacht in Berlin suchst: Cirque de l’Afrique bringt all das zusammen.Keine gewöhnliche Party. Keine gewöhnliche Show. Ein Abend, an dem du mittendrin bist!LINE-UPHeaven Sam DJ Nomi Prince M.I.K Freak de l’Afrique Papi Da SilvaSamstag, 28. November 2026 | Ab 23:00 UhrMAAYA Berlin Revaler Straße 99, 10245 Berlin-Friedrichshain",
+   "endDate": "2026-11-29T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://rausgegangen.s3.amazonaws.com/dytpw4esg6av.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/1QUGShU6TAyJw5njoxDH_cirque-de-lafrique-3.png"
    ],
    "location": {
     "@type": "Place",
@@ -210,25 +210,25 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10997",
-     "streetAddress": "Köpenicker Str. 16/17"
+     "postalCode": "10245",
+     "streetAddress": "Revaler Straße 99"
     },
-    "name": "Magazin in der Heeresbäckerei"
+    "name": "MAAYA"
    },
-   "name": "Amber Georgia Low Intervention Wine Fair",
+   "name": "Cirque de l'Afrique x Afro Life",
    "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": null,
-    "lowPrice": null,
-    "offerCount": 0,
-    "offers": [],
-    "priceCurrency": "EUR"
+    "@type": "Offer",
+    "price": "15.00",
+    "priceCurrency": "EUR",
+    "url": "https://xceed.me/en/berlin/event/cirque-de-lafrique-x-afro-live-w-heaven-sam-281126/248062/channel/maaya-berlin",
+    "validFrom": "2026-11-28T23:00+0100"
    },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Amber Georgia Berlin"
+   "organizer": {
+    "@type": "Organization",
+    "name": "Freak De L'Afrique",
+    "url": "https://rausgegangen.de/organizations/freak-de-lafrique/"
    },
-   "startDate": "2026-11-28T11:00+0100"
+   "startDate": "2026-11-28T23:00+0100"
   }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
@@ -366,7 +366,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
-  "fetched": "2026-10-31T09:08:50+01:00",
+  "fetched": "2026-10-31T15:55:38+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -548,7 +548,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
-  "fetched": "2026-10-31T09:08:50+01:00",
+  "fetched": "2026-10-31T15:55:38+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -593,7 +593,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-10-31T09:08:50+01:00",
+  "fetched": "2026-10-31T15:55:38+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -727,7 +727,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/halloween-drag-bingo-night-by-duct-tape-0/": {
-  "fetched": "2026-10-31T09:08:50+01:00",
+  "fetched": "2026-10-31T15:55:38+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -765,7 +765,7 @@
   "seen": "2026-10-27T02:02:02+01:00"
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-10-31T09:08:50+01:00",
+  "fetched": "2026-10-31T15:55:38+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -925,7 +925,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1/": {
-  "fetched": "2026-10-31T09:08:50+01:00",
+  "fetched": "2026-10-31T15:55:38+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -1000,16 +1000,16 @@
    "startDate": "2026-11-13T22:30+0100"
   }
  },
- "https://rausgegangen.de/events/ostberlin-poetry-slam-12/": {
-  "fetched": "2026-10-31T14:59:58+01:00",
+ "https://rausgegangen.de/events/late-night-cult-movies-november-dont-look-now-wenn-die-gonde-0/": {
+  "fetched": "2026-10-31T15:55:38+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "ist das kalt da draußen! Wäre es nicht viel schöner, sich jetzt in einen wohlig-warmen Kinosessel fallen zu lassen, und sich von warmen Wörtern, heißen Zeilen und kuscheligen Reimen unterhalten zu lassen? Der Ostberlin Poetry Slam versüßt euch die Wintertage, wie stets mit Poeten, Comedians und Erzählerinnen von nah und fern. Das ist ganz großes Kino! Also, der Alte Saal vom Union Kino eben. Mit Gedichten, Humor und Geschichten, die dein Herz so genug erwärmen, um dich durch den Winter zu bringen!",
-   "endDate": "2026-11-05T22:30+0100",
+   "description": "Venedig sieht selten so unromantisch aus: Nicolas Roegs Film von 1973 schickt ein trauerndes Ehepaar durch Gassen, in denen die Wirklichkeit kippt. Vor allem das Ende hat sich tief in die Filmgeschichte geschrieben 🍿",
+   "endDate": "2026-11-28T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/PpmVlfaPQVG79z3jsY0A_ostberlinslamvabild.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/CblhS5QSBaQZsj1hXOk8_dont-look-now5cf7d6.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -1017,97 +1017,36 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "12587",
-     "streetAddress": "Bölschestraße 69"
+     "postalCode": "10405",
+     "streetAddress": "Prenzlauer Allee 80"
     },
-    "name": "Kino UNION"
+    "name": "Zeiss-Großplanetarium"
    },
-   "name": "Ostberlin Poetry Slam",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "14.90",
-    "lowPrice": "12.90",
-    "offerCount": 4,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "14.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Ermäßigt",
-      "price": "12.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Schwerbehindertenausweis B-Ticket",
-      "price": "12.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Begleiterticket Schwerbehinderte",
-      "price": "0.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Kiezpoeten",
-    "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
-   },
-   "startDate": "2026-11-05T20:15+0100"
-  }
- },
- "https://rausgegangen.de/events/roda-60-halloween-edition-0/": {
-  "fetched": "2026-10-31T14:59:58+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Tickets ALSO available at the door - €22Kids until 11 years old and birthday guests of the month enjoy FREE ENTRYThe last Roda of the year is here! We’re back at Festsaal Kreuzberg for a special Halloween edition. Expect everything we love: Brazilian beats, a touch of Carnival, and the united community that makes Roda so special and truly warms our hearts.Come enjoy a full day of samba, DJ sets, and delicious Brazilian food, Carnival energy and family-friendly activities. Costumes are highly encouraged for this Halloween edition!‍ ‍Program:Live Roda de SambaDJ AcerolaDJ RôBloco do UrsoSamba de Gafieira Workshop with Carlos FrevoFun activities for kids to enjoy throughout the dayFood: Traditional and vegan feijoada, picanha, pastel, traditional and vegan coxinha, pão de queijo, brigadeiro, and other Brazilian sweets. Please note: food and drinks are sold separately and are not included in the ticket price.  Kids Activities: We’ll have a special kids’ area with fun activities so the whole family can enjoy the day together.  Birthdays: Want to celebrate your birthday with us? Send an email to info@bossafm.com and tell us your idea!October, November and December birthday guests get FREE ENTRY. Just show a valid photo ID at the door.Special Group Offer: Buy 5 tickets, get 1 FREE!Bring your friends and family for a day full of music, food, and unforgettable vibes! See you there! 👻",
-   "endDate": "2026-11-01T22:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/le8sc8H0SQWVkokNOlfP_banner-site-roda-hallowen2.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "12435",
-     "streetAddress": "Am Flutgraben 2"
-    },
-    "name": "Festsaal Kreuzberg"
-   },
-   "name": "Roda #60 | Halloween Edition",
+   "name": "»Late Night Cult Movies« November: Don't Look Now – Wenn die Gondeln Trauer tragen",
    "offers": {
     "@type": "Offer",
-    "price": "18.00",
+    "price": "7.00",
     "priceCurrency": "EUR",
-    "url": "https://www.bossafm.com/tickets/berlin/festsaal-kreuzber/roda-halloween-edition/1-nov-2026",
-    "validFrom": "2026-11-01T13:00+0100"
+    "url": "https://www.planetarium.berlin/kino/dont-look-now-wenn-die-gondeln-trauer-tragen",
+    "validFrom": "2026-11-27T22:15+0100"
    },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Bossa FM",
-    "url": "https://rausgegangen.de/organizations/bossa-fm-3/"
-   },
-   "startDate": "2026-11-01T13:00+0100"
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "»Late Night Cult Movies«",
+     "url": "https://rausgegangen.de/organizations/late-night-cult-movies/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Stiftung Planetarium Berlin",
+     "url": "https://rausgegangen.de/organizations/stiftung-planetarium-berlin-1/"
+    }
+   ],
+   "startDate": "2026-11-27T22:15+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
-  "fetched": "2026-10-31T09:08:50+01:00",
+  "fetched": "2026-10-31T15:55:38+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -1144,131 +1083,5 @@
    "startDate": "2026-12-19T19:30+0100"
   },
   "seen": "2026-10-31T02:26:10+01:00"
- },
- "https://rausgegangen.de/events/speed-friending-berlin-by-rausgegangen-0/": {
-  "fetched": "2026-10-31T14:15:30+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Speed Dating kennen wir alle, aber was ist mit Speed Friending? Hier lernst du in kurzen Gesprächen ganz entspannt neue Leute kennen, ohne das übliche Smalltalk-Blabla. Egal, ob du noch neue Friends suchst oder einfach Lust hast Menschen kennenzulernen. Das ist der place to be für neue Bekanntschaften. 🫂",
-   "endDate": "2026-11-05T22:30+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/DgOflF40T8WQ4ZDezaqe_design260820datingspeedfriending16x9.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10625",
-     "streetAddress": "Kantstraße 127"
-    },
-    "name": "Dufte Berlin"
-   },
-   "name": "SPEED FRIENDING Berlin by Rausgegangen",
-   "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "19.90",
-    "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/speed-friending-berlin-by-rausgegangen",
-    "validFrom": "2026-09-28T00:00+0200"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "Rausgegangen Events",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-events/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Speed Dating by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/speed-dating-by-rausgegangen/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Speed Friending by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/speed-friending-by-rausgegangen/"
-    }
-   ],
-   "startDate": "2026-11-05T19:30+0100"
-  }
- },
- "https://rausgegangen.de/events/wedding-slam-royale-jahresfinale-1/": {
-  "fetched": "2026-10-31T14:59:58+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Der Best-Of Poetry Slam im schicksten Ballhaus der Stadt. Wir werfen uns in Schale und bringen ein fein ausgewähltes Lineup aus Poetry Slam, Comedy und Bühnenliteratur in den Wedding. Das ist Poetry Slam für alle, die Hochkultur wollen - aber in höchst unterhaltsam! Nur die besten Slammer:innen kommen auf diese Bühne, auf dass du dich für anderthalb Stunden ganz und gar fallen lassen kannst. Mit einem Sektglas auf der Chaiselongue, für den perfekten Sonntagabend.   ----- Bild: Timo Becker / Martin Kleingräber",
-   "endDate": "2026-11-15T21:30+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/GDkIYgNR7rNBzEBLVMkA_2025wedding-royale-fotologo-cjonassamsonfotos-27.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "13359",
-     "streetAddress": "Wriezener Str. 6"
-    },
-    "name": "Ballhaus Wedding"
-   },
-   "name": "Wedding Slam Royale: Jahresfinale",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "26.70",
-    "lowPrice": "9.90",
-    "offerCount": 5,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "16.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Ermäßigt",
-      "price": "9.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Sofaticket inkl 1 Freisekt",
-      "price": "26.70",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Schwerbehindertenausweis B-Ticket",
-      "price": "9.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Begleiterticket Schwerbehinderte",
-      "price": "0.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Kiezpoeten",
-    "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
-   },
-   "startDate": "2026-11-15T19:30+0100"
-  }
  }
 }

@@ -39,6 +39,7 @@ F_START, F_END = "<!-- FEATURED:START -->", "<!-- FEATURED:END -->"
 A_START, A_END = "<!-- ALL:START -->", "<!-- ALL:END -->"
 LD_START, LD_END = "<!-- LD:START -->", "<!-- LD:END -->"
 FMT_START, FMT_END = "<!-- FMT:START -->", "<!-- FMT:END -->"
+N_START, N_END = "<!-- NEXT:START -->", "<!-- NEXT:END -->"
 # Format-Seiten (drag-brunch.html usw., EN unter en/): dort stehen nur die Termine des jeweiligen Formats
 FORMAT_PAGES = {
     "drag-bingo": lambda r: (r.get("Format") or "").strip() == "Drag Bingo",
@@ -219,6 +220,19 @@ def reservation_mail(row):
         if re.search(r"reserv|tisch|table", desc[max(0, m.start() - 120):m.end() + 40], re.I):
             return m.group(0).rstrip(".")
     return None
+
+
+def render_next(row):
+    """Nächster Termin im Kopf einer Format-Seite (Emanuel, 2026-11-01)."""
+    date, _, time, _ = when(row)
+    wd = L["weekdays"][date.weekday()][:L["wd_short"]]
+    bits = [f"{wd} {date:%d.%m.}"] + ([time] if time else []) + [esc(x) for x in [(row.get("Location") or "").strip()] if x]
+    if city(row):
+        bits.append(esc(city(row)))
+    btn = (button(row) or "").replace("btn-ghost", "btn-primary")
+    label = "Nächster Termin" if L is DE else "Next date"
+    lines = ['<div class="fmt-next">', f'  <p><strong>{label}:</strong> {" · ".join(bits)}</p>', *([f"  {btn}"] if btn else []), "</div>"]
+    return "\n".join("      " + l for l in lines)
 
 
 def tag_html(row, cls="event-tag"):
@@ -719,6 +733,8 @@ def main():
             f_new = replace_between(f_src, FMT_START, FMT_END, f_body, INDENT)
             if LD_START in f_new:
                 f_new = replace_between(f_new, LD_START, LD_END, events_ld(own), "  ")
+            if N_START in f_new:
+                f_new = replace_between(f_new, N_START, N_END, render_next(own[0][2]) if own else "", "      ")
             if f_new != f_src:
                 page.write_text(f_new, encoding="utf-8")
                 changed = True

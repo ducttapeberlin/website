@@ -780,6 +780,8 @@ a.event-tag { text-decoration: none; } a.event-tag:hover { opacity: .85; }
 .page-intro.intro-drag-brunch::after { background-image: url("img/leistungen/brunch-gruppe.jpg"); background-position: center 47%; }
 .kv-cols .kv-group img[src$="brunch-faecher.jpg"] { object-position: 60% 28%; }
 .page-intro.intro-drag-bingo::after { background-image: url("img/bingo-hero.jpg"); background-position: 58% 38%; }
+.page-intro.intro-kollektiv::after { background-image: url("img/kollektiv-hero.jpg"); background-position: 25% 35%; }
+.page-intro.intro-kollektiv h1 { max-width: 720px; }
 .page-intro.intro-drag-shows::after { background-image: url("img/leistungen/show-csd.jpg"); background-position: center 35%; }
 .page-intro.intro-fmt::before { background: linear-gradient(90deg, rgba(11,11,11,1) 0%, rgba(11,11,11,1) 40%, rgba(11,11,11,.55) 58%, rgba(11,11,11,0) 85%), linear-gradient(0deg, rgba(11,11,11,1) 0%, rgba(11,11,11,0) 35%); }
 @media (max-width: 760px) {

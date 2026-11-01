@@ -179,6 +179,44 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/alte-seilschaften-das-bundesvertriebenenministerium-zwischen-0/": {
+  "fetched": "2026-11-01T10:06:27+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Das Vertriebenenministerium (1949–1969) war die oberste Bundesbehörde für die Belange der rund 8 Millionen Heimatvertriebenen und Flüchtlinge in der Bundesrepublik. Nicht nur an seiner Spitze standen dabei denkbar gegensätzliche Persönlichkeiten: Der erste Minister war Widerstandskämpfer, sein Nachfolger hingegen tief in das NS-System verstrickt.Welche Rolle spielten alte Seilschaften, Parteibücher und persönliche Netzwerke für die Arbeit, den Aufstieg und Einfluss im Vertriebenenministerium? Unterscheidet es sich dabei von anderen Bundesministerien? Die neue Kollektivbiografie Kommunikation und Konsensfindung (hier kostenfrei erhältlich) geht solchen Fragen erstmals systematisch nach.Diskutieren Sie mit!",
+   "endDate": "2026-11-05T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/qjZcr5pTqCRNc4LtzcJj_bundesarchiv-b-145-bild-f000016-0641-fotograf-oang.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10963",
+     "streetAddress": "Stresemannstraße 90"
+    },
+    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
+   },
+   "name": "Alte Seilschaften? Das Bundesvertriebenenministerium zwischen NS-Diktatur und Demokratie",
+   "offers": {
+    "@type": "Offer",
+    "price": "0.00",
+    "priceCurrency": "EUR",
+    "url": "https://buchungen.flucht-vertreibung-versoehnung.de/de/tickets/108",
+    "validFrom": "2026-11-05T00:00+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung",
+    "url": "https://rausgegangen.de/organizations/dokumentationszentrum-flucht-vertreibung-versohnung/"
+   },
+   "startDate": "2026-11-05T00:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
   "fetched": "2026-11-01T04:08:01+01:00",
   "ld": {
@@ -267,6 +305,80 @@
   "seen": "2026-10-20T15:24:41+02:00",
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
+ },
+ "https://rausgegangen.de/events/donata-strength-release-concert-0/": {
+  "fetched": "2026-11-01T10:06:27+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Zwischen Neuanfang und Rücken gerade machen liegen bei Donata nur ein paar Songs. Sie bringt ihre neue EP Strength mit kompletter Band auf die Bühne und lädt zu einem Abend ein, der eher nach echtem Miteinander klingt als nach bloßem Konzert 💜",
+   "endDate": "2026-11-12T23:30+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Td7PmoF3RX6i3YmuX3OA_2.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10117",
+     "streetAddress": "Auguststraße 24"
+    },
+    "name": "Spiegelsaal | Clärchens Ballhaus"
+   },
+   "name": "Donata - \"Strength\" Release Concert",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "30.00",
+    "lowPrice": "21.80",
+    "offerCount": 5,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Soli-Ticket",
+      "price": "21.80",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regular",
+      "price": "27.10",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Supporter",
+      "price": "32.40",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Friends & Family",
+      "price": "16.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Guestlist",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Donata"
+   },
+   "startDate": "2026-11-12T19:00+0100"
+  }
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
   "fetched": "2026-11-01T04:08:01+01:00",
@@ -752,6 +864,48 @@
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/jake-isaac-5/": {
+  "fetched": "2026-11-01T10:06:27+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Zehn Jahre später packt Jake Isaac seine alten Songs noch mal an, und plötzlich hört man, wie viel Weg dazwischen liegt. Der Mann aus Südlondon kam erst übers Schlagzeug zur Musik, unter seiner Soulstimme schiebt also immer auch Rhythmus mit 🙂",
+   "endDate": "2027-05-11T23:00+0200",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/SroI1DKYQ82lBUbI1BAg_jifb-cover.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10435",
+     "streetAddress": "Schönhauser Allee 36"
+    },
+    "name": "frannz club berlin"
+   },
+   "name": "Jake Isaac",
+   "offers": {
+    "@type": "Offer",
+    "price": "36.00",
+    "priceCurrency": "EUR",
+    "url": "https://link.dice.fm/A0137a8279d3",
+    "validFrom": "2027-05-11T20:00+0200"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Z|ART Agency",
+    "url": "https://rausgegangen.de/organizations/zart-agency-gmbh/"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Jake Isaac"
+   },
+   "startDate": "2027-05-11T20:00+0200"
+  }
+ },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-0/": {
   "fetched": "2026-11-01T04:08:01+01:00",
   "ld": {
@@ -836,16 +990,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/ostberlin-poetry-slam-12/": {
-  "fetched": "2026-11-01T08:27:44+01:00",
+ "https://rausgegangen.de/events/millennial-mixtape-das-revival-der-nullerjahre-auf-3-floors-0/": {
+  "fetched": "2026-11-01T10:06:27+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "ist das kalt da draußen! Wäre es nicht viel schöner, sich jetzt in einen wohlig-warmen Kinosessel fallen zu lassen, und sich von warmen Wörtern, heißen Zeilen und kuscheligen Reimen unterhalten zu lassen? Der Ostberlin Poetry Slam versüßt euch die Wintertage, wie stets mit Poeten, Comedians und Erzählerinnen von nah und fern. Das ist ganz großes Kino! Also, der Alte Saal vom Union Kino eben. Mit Gedichten, Humor und Geschichten, die dein Herz so genug erwärmen, um dich durch den Winter zu bringen!",
-   "endDate": "2026-11-05T22:30+0100",
+   "description": "Mainfloor: 'diefeder' (Millennial Pop-Mix)Loungefloor: Little A (00er R'n'B HipHop)Salonfloor: tba «Ist das noch Indie?!»  Wir bringen SexyBack! Am Samstag, den 14. Novomber, verwandelt sich unser kleiner Wohlfühlclub in das Epizentrum für pure Nullerjahre-Nostalgie. Mit dem „Millennial Mixtape“ feiern wir den Sound und das Lebensgefühl eines unvergesslich unbeschwerten Jahrzehnts.Drei Floors – Drei Welten Egal, welche Musikrichtung eure Jugend geprägt hat – auf dem „Millennial Mixtape“ finden alle ihre ganz persönlichen absoluten 00er Banger:• Mainflloor: Die Pop-Explosion mit 'diefeder'! – Hier regieren die Königinnen und Könige der Nullerjahre. Tanzt zu Britney Spears, den No Angels, Justin Timberlake, Shakira und der besten Kylie ever.• Radaufloor: \"Little A\" und sein Hip-Hop & R&B Mix – Hey Ya, willkommen In da Club! Fette Bässe und smoother Groove. Freut euch auf die Tracks von Eminem, 50 Cent, Beyoncé, Nelly und Usher.• Salon: Indie & Rock-Alternative selektiert von DJ Snacky Baba & DJ tba – «Ist das noch Indie?!» Wir sagen: Das ist Disco! Von Arctic Monkeys bis Whitney Houston, von Kraftklub bis Charli XCX und von Two Door Cinema Club bis Nina Chuba wird für alle etwas dabei sein! Die Hardfacts:• Event: Millennial Mixtape – Das Revival der Nullerjahre auf 3 Floors!• Wann: Samstag, 14. Novmeber 2026, ab 21:00 Uhr• Wo: Frannz Club (in der Kulturbrauerei), Schönhauser Allee 36, 10435 Berlin• Eintritt: Early Bird für 8,00 Euro (nur von 21:00 bis 22:00 Uhr und nur an der Abendkasse), danach regulär 12,00 Euro an der Abendkasse. Sichert euch euren Platz auf der Tanzfläche und spult mit uns das Mixtape eurer Jugend zurück!",
+   "endDate": "2026-11-15T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/PpmVlfaPQVG79z3jsY0A_ostberlinslamvabild.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/dyghNqMTteDJHdV9BYbr_facebook-event-banner-mixtape-1411.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -853,142 +1007,20 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "12587",
-     "streetAddress": "Bölschestraße 69"
+     "postalCode": "10435",
+     "streetAddress": "Schönhauser Allee 36"
     },
-    "name": "Kino UNION"
+    "name": "frannz club berlin"
    },
-   "name": "Ostberlin Poetry Slam",
+   "name": "Millennial Mixtape- Das Revival der Nullerjahre auf 3 Floors!",
    "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "14.90",
-    "lowPrice": "12.90",
-    "offerCount": 4,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "14.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Ermäßigt",
-      "price": "12.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Schwerbehindertenausweis B-Ticket",
-      "price": "12.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Begleiterticket Schwerbehinderte",
-      "price": "0.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
+    "@type": "Offer",
+    "price": "12.00",
+    "priceCurrency": "EUR",
+    "url": "https://shop.copilot.events/frannz/events/820df3ed-f0bf-4d98-ad28-aa2f26619ae6",
+    "validFrom": "2026-11-14T21:00+0100"
    },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Kiezpoeten",
-    "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
-   },
-   "startDate": "2026-11-05T20:15+0100"
-  }
- },
- "https://rausgegangen.de/events/slam-der-jugend-17/": {
-  "fetched": "2026-11-01T08:27:44+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Der Poetry Slam für U22-Jährige im Atze Berlin, direkt an der Amrumer Straße Wedding.Ob nachdenkliche Lyrik oder lustige Stand-Up: Auf dieser Bühne ist alles erlaubt, was mit Worten gemacht werden kann. Es gelten die drei Regeln des Poetry Slam: 1. Nur selbstgeschriebene Texte 2. Keine Requisiten 3. Ein Zeitlimit, in diesem Fall von 5 Minuten. Die Besonderheit: Kein*e der Auftretenden ist über 22 Jahre alt. Die Line-Up Liste ist offen – du kannst dich also einfach vorher anmelden. Als der Nachwuchs-Slam unter den Kiezpoeten-Shows in Berlin richtet sich der “Poetry Slam der Jugend” vor allem an Jugendliche und junge Erwachsene. Eure Themen. Euer Stil. Als Zuschauer*in erwartet dich ein vielfältiges und abwechslungsreiches Line-Up mit Texten, die dir aus der Seele sprechen. Von Menschen, die dein Leben kennen. Nicht jeder Text wird auf das letzte Wort gefeilt und performativ perfektioniert sein. Aber dafür absolut authentisch.Besonders geeignet für Schulgruppen. --Bild: Timo Becker / Martin Kleingräber",
-   "endDate": "2026-11-04T20:30+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/a7j2Dd3RdaMeNLJ3jlQE_2025slam-der-jugend-fotologo-cjonassamsonfotos-27.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "13353",
-     "streetAddress": "Luxemburger Straße 20"
-    },
-    "name": "ATZE Musiktheater"
-   },
-   "name": "Slam der Jugend",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "8.50",
-    "lowPrice": "5.50",
-    "offerCount": 5,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "8.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Jugendliche",
-      "price": "6.95",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Schulgruppe ab 10 Personen",
-      "price": "5.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Schwerbehindertenausweis B-Ticket (inkl. 1 Begleiter-Ticket)",
-      "price": "6.95",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Begleiterticket Schwerbehinderte",
-      "price": "0.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "Kiezpoeten",
-     "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Newcomer Slams",
-     "url": "https://rausgegangen.de/organizations/p-newcomer-slams/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Slam der Jugend",
-     "url": "https://rausgegangen.de/organizations/p-slam-der-jugend/"
-    }
-   ],
-   "startDate": "2026-11-04T18:00+0100"
+   "startDate": "2026-11-14T21:00+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
@@ -1065,81 +1097,6 @@
     "url": "https://rausgegangen.de/organizations/inline/"
    },
    "startDate": "2026-11-14T17:30+0100"
-  }
- },
- "https://rausgegangen.de/events/wedding-slam-royale-jahresfinale-1/": {
-  "fetched": "2026-11-01T08:27:44+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Der Best-Of Poetry Slam im schicksten Ballhaus der Stadt. Wir werfen uns in Schale und bringen ein fein ausgewähltes Lineup aus Poetry Slam, Comedy und Bühnenliteratur in den Wedding. Das ist Poetry Slam für alle, die Hochkultur wollen - aber in höchst unterhaltsam! Nur die besten Slammer:innen kommen auf diese Bühne, auf dass du dich für anderthalb Stunden ganz und gar fallen lassen kannst. Mit einem Sektglas auf der Chaiselongue, für den perfekten Sonntagabend.   ----- Bild: Timo Becker / Martin Kleingräber",
-   "endDate": "2026-11-15T21:30+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/GDkIYgNR7rNBzEBLVMkA_2025wedding-royale-fotologo-cjonassamsonfotos-27.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "13359",
-     "streetAddress": "Wriezener Str. 6"
-    },
-    "name": "Ballhaus Wedding"
-   },
-   "name": "Wedding Slam Royale: Jahresfinale",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "26.70",
-    "lowPrice": "9.90",
-    "offerCount": 5,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "16.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Ermäßigt",
-      "price": "9.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Sofaticket inkl 1 Freisekt",
-      "price": "26.70",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Schwerbehindertenausweis B-Ticket",
-      "price": "9.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Begleiterticket Schwerbehinderte",
-      "price": "0.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Kiezpoeten",
-    "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
-   },
-   "startDate": "2026-11-15T19:30+0100"
   }
  }
 }

@@ -195,6 +195,10 @@ def button(row):
     if slug:
         label = f"{(row.get('Titel') or '').strip()} · {L['weekdays'][date.weekday()]} {date:%d.%m.}"
         return f'<button class="btn btn-primary" type="button" data-tickets="{esc(slug)}" data-label="{esc(label)}">Tickets</button>'
+    tickets = (row.get("Tickets") or "").strip()
+    if tickets.startswith("http") and not re.search(r"rausgegangen\.de/(?:en/)?events/|opentable\.", tickets):
+        # Tickets bei einem anderen Anbieter (z. B. Eventbrite): normaler Link (Emanuel, 2026-11-01)
+        return f'<a class="btn btn-primary" href="{esc(tickets)}" target="_blank" rel="noopener">Tickets</a>'
     if booking.lower() == "opentable":
         t = begin or (12, 0)
         booking = OPENTABLE.format(lang=L["opentable"], date=date.isoformat(), time=f"{t[0]:02d}%3A{t[1]:02d}")
@@ -358,7 +362,11 @@ def performers(desc):
     Ein Name endet vor dem nächsten 👑, einem Emoji oder dem nächsten Satz (großes Wort, dann kleines Wort).
     Steht das ganze Kollektiv drin, heißt es einfach "mit DUCT TAPE"."""
     names = []
-    for seg in (desc or "").split("👑")[1:]:
+    parts = (desc or "").split("👑")
+    for prev, seg in zip(parts, parts[1:]):
+        # Deko-Krone am Satzende ("Sleigh Queens! 🛷👑Just before …") ist keine Namensliste
+        if re.search("[" + EMOJI + "!?.]$", prev.rstrip()) and not re.search(r"[:\s]$", prev):
+            continue
         words, out = seg.split(), []
         for i, w in enumerate(words):
             nxt = words[i + 1] if i + 1 < len(words) else ""
@@ -370,6 +378,17 @@ def performers(desc):
         name = " ".join(out).strip(" .,:;!")
         if name and name not in names:
             names.append(name)
+    # Fließtext ohne 👑-Liste: "Your host EMI …, joined by A, B and C." / "Moderation: EMI, mit A, B und C."
+    if not names:
+        host = re.search(r"\b(?:[Hh]ost(?:ess)?|Moderation:?|[Gg]astgeber(?:in)?)\s+([A-Z][\w.]*(?:\s+(?:von\s+)?[A-Z][\w.]*)*)", desc or "")
+        if host:
+            names.append(host[1].strip(" ."))
+        joined = re.search(r"\b(?:joined by|together with|zusammen mit|unterstützt von)\s+(.+?)(?=[" + EMOJI + r"]|\.\s+[A-Z][a-z]+\s+[a-z]|\.$|$)", desc or "")
+        if joined:
+            for n in re.split(r",\s*|\s+(?:and|und|&)\s+", joined[1]):
+                n = n.strip(" .")
+                if n[:1].isupper() and len(n.split()) <= 4 and n not in names:
+                    names.append(n)
     return "DUCT TAPE" if CREW <= set(names) else ", ".join(names)
 
 

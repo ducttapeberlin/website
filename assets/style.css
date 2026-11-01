@@ -1160,3 +1160,4 @@ h2 { line-height: 1.16; }
 .kv-text .fmt-h2-mid { margin-top: clamp(40px, 5vw, 64px); }
 .kv-text .fmt-h2-mid + .kv-cols + .fmt-photos-2 { margin-top: clamp(24px, 4vw, 40px); }
 .q-cta-solo p { max-width: none; }
+.page-intro.intro-drag-shows::after { transform: scaleX(-1); }

@@ -179,6 +179,44 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/cirque-de-lafrique-x-afro-life-0/": {
+  "fetched": "2026-11-01T15:57:19+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "CIRQUE DE L’AFRIQUE x AFRO LIVEZirkus trifft Clubnacht. Und du bist mittendrin!Was passiert, wenn Akrobat, Tänzer, Live-Musik und DJs auf einer Tanzfläche zusammenkommen?Am 28. November bringt Cirque de l’Afrique x Afro Live genau dieses Erlebnis ins MAAYA Berlin!Freu dich auf spektakuläre Akrobatik, mitreißende Tanzperformances und überraschende Showmomente, während die Musik die ganze Nacht weiterläuft. Hier wird nicht einfach nur aufgelegt oder eine Show gespielt. Alles passiert gleichzeitig, direkt um dich herum!Mit dabei ist Heaven Sam aka Mr. Afro Disco. Mit seiner Mischung aus DJ-Sets, kraftvollen Live-Drums und Klavier bringt er eine ganz besondere Energie in den Raum.Musikalisch erwartet dich ein Mix aus afrikanischen, karibischen und elektronischen Sounds, von Afrobeats und Amapiano über Afro House bis hin zu Dancehall.Ob du zum Tanzen kommst, die Performances erleben möchtest oder einfach nach einer außergewöhnlichen Partynacht in Berlin suchst: Cirque de l’Afrique bringt all das zusammen.Keine gewöhnliche Party. Keine gewöhnliche Show. Ein Abend, an dem du mittendrin bist!LINE-UPHeaven Sam DJ Nomi Prince M.I.K Freak de l’Afrique Papi Da SilvaSamstag, 28. November 2026 | Ab 23:00 UhrMAAYA Berlin Revaler Straße 99, 10245 Berlin-Friedrichshain",
+   "endDate": "2026-11-29T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/1QUGShU6TAyJw5njoxDH_cirque-de-lafrique-3.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10245",
+     "streetAddress": "Revaler Straße 99"
+    },
+    "name": "MAAYA"
+   },
+   "name": "Cirque de l'Afrique x Afro Life",
+   "offers": {
+    "@type": "Offer",
+    "price": "15.00",
+    "priceCurrency": "EUR",
+    "url": "https://xceed.me/en/berlin/event/cirque-de-lafrique-x-afro-live-w-heaven-sam-281126/248062/channel/maaya-berlin",
+    "validFrom": "2026-11-28T23:00+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Freak De L'Afrique",
+    "url": "https://rausgegangen.de/organizations/freak-de-lafrique/"
+   },
+   "startDate": "2026-11-28T23:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
   "fetched": "2026-11-01T11:03:17+01:00",
   "ld": {
@@ -267,80 +305,6 @@
   "seen": "2026-10-20T15:24:41+02:00",
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/donata-strength-release-concert-0/": {
-  "fetched": "2026-11-01T15:02:22+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Zwischen Neuanfang und Rücken gerade machen liegen bei Donata nur ein paar Songs. Sie bringt ihre neue EP Strength mit kompletter Band auf die Bühne und lädt zu einem Abend ein, der eher nach echtem Miteinander klingt als nach bloßem Konzert 💜",
-   "endDate": "2026-11-12T23:30+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Td7PmoF3RX6i3YmuX3OA_2.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10117",
-     "streetAddress": "Auguststraße 24"
-    },
-    "name": "Spiegelsaal | Clärchens Ballhaus"
-   },
-   "name": "Donata - \"Strength\" Release Concert",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "30.00",
-    "lowPrice": "21.80",
-    "offerCount": 5,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Soli-Ticket",
-      "price": "21.80",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regular",
-      "price": "27.10",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Supporter",
-      "price": "32.40",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Friends & Family",
-      "price": "16.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Guestlist",
-      "price": "0.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Donata"
-   },
-   "startDate": "2026-11-12T19:00+0100"
-  }
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
   "fetched": "2026-11-01T11:03:17+01:00",
@@ -910,40 +874,6 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/la-kiffance-2/": {
-  "fetched": "2026-11-01T15:02:22+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "LA KIFFANCE | 13.11 | MAAYA BerlinFrench rap lovers, Caribbean music heads and everyone who’s been waiting for a proper night out: La Kiffance is back at MAAYA on Friday, 13 November. Expect French rap, Afro R&B, Shatta, Bouyon, Afrotrap and Kompa, with sounds from France, Africa and the Caribbean sharing one dancefloor. From anthems you know word for word to tracks that send you straight to the DJ booth asking for the name, there’s plenty to keep you moving. Come with your crew or come ready to meet new people. Whether you’re here to shout every lyric, dance close or lose yourself in the bass, there’s a place for you. You don’t need to speak French to get into it. La Kiffance is all about enjoying yourself, and we’re giving you a whole night to do exactly that. Get your tickets, send the link to the group chat and meet us on the dancefloor. 📍 MAAYA Berlin | Revaler Str. 99, 10245 Berlin 📅 Friday, 13 November 2026 C’est la kiffance!",
-   "endDate": "2026-11-14T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/HBnj8GjBRlCGaB0cNs4N_feed-2.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10245",
-     "streetAddress": "Revaler Straße 99"
-    },
-    "name": "MAAYA"
-   },
-   "name": "La Kiffance",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": null,
-    "lowPrice": null,
-    "offerCount": 0,
-    "offers": [],
-    "priceCurrency": "EUR"
-   },
-   "startDate": "2026-11-13T22:30+0100"
-  }
- },
  "https://rausgegangen.de/events/love-at-first-slide-berlin-power-point-dating-by-rausgegange-13/": {
   "fetched": "2026-11-01T15:02:22+01:00",
   "ld": {
@@ -1036,16 +966,16 @@
    "startDate": "2026-11-11T19:00+0100"
   }
  },
- "https://rausgegangen.de/events/poetry-slam-stories-stadtbad-lichtenberg-hidden-places-slam-0/": {
-  "fetched": "2026-11-01T15:02:22+01:00",
+ "https://rausgegangen.de/events/ostberlin-poetry-slam-12/": {
+  "fetched": "2026-11-01T15:57:19+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Ein Ort, der längst verstummt ist – bis jetzt.Für diese Show öffnet sich das ehemalige Stadtbad Lichtenberg für ein einmaliges Erlebnis: Spoken Word inmitten von Geschichte, Staub und Echos. Wo früher das Wasser rauschte, fließen jetzt Worte – roh, intensiv und wunderschön vergänglich. Zwischen Lost Place und Poesie.In vier Workshops haben wir gemeinsam mit den Lichtenbergern und Lichtenbergerinnen ihre Erinnerungen, Geschichten und Gefühle zu diesem historischen Ort gesammelt und kreativ verarbeitet - nun werden sie von vier Profi-Slammer:innen bühnenreif performt. Bei einer immersiven Begehung der sonst versperrten Räume des Stadtbades machen wir das Bad zur Bühne.Perfekt für alle, die Urban Exploration lieben, für Abenteurer*innen, Kulturjäger und In-Erinnerungen-Schwelger, und alle, die Literatur gern dort erleben, wo man sie nicht erwartet.Poetry Slam Stories ist ein Projekt des Stift & Mikro e.V., gefördert durch das Bezirksamt Lichtenberg von Berlin aus Mitteln des Bezirkskulturfonds.Zwei Durchgänge, limitierte Plätze.Einlass nur mit Voranmeldung – das Stadtbad öffnet exklusiv für dieses Event.",
-   "endDate": "2026-11-13T18:00+0100",
+   "description": "ist das kalt da draußen! Wäre es nicht viel schöner, sich jetzt in einen wohlig-warmen Kinosessel fallen zu lassen, und sich von warmen Wörtern, heißen Zeilen und kuscheligen Reimen unterhalten zu lassen? Der Ostberlin Poetry Slam versüßt euch die Wintertage, wie stets mit Poeten, Comedians und Erzählerinnen von nah und fern. Das ist ganz großes Kino! Also, der Alte Saal vom Union Kino eben. Mit Gedichten, Humor und Geschichten, die dein Herz so genug erwärmen, um dich durch den Winter zu bringen!",
+   "endDate": "2026-11-05T22:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Cgcok20KTRWm55yPPTKP_slam-stadtbad-lichtenberg-2-2.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/PpmVlfaPQVG79z3jsY0A_ostberlinslamvabild.png"
    ],
    "location": {
     "@type": "Place",
@@ -1053,98 +983,37 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10365",
-     "streetAddress": "Hubertusstraße 47"
+     "postalCode": "12587",
+     "streetAddress": "Bölschestraße 69"
     },
-    "name": "Stadtbad Lichtenberg"
+    "name": "Kino UNION"
    },
-   "name": "Poetry Slam Stories: Stadtbad Lichtenberg | Hidden Places Slam",
+   "name": "Ostberlin Poetry Slam",
    "offers": {
     "@type": "AggregateOffer",
-    "highPrice": "13.32",
-    "lowPrice": "11.20",
-    "offerCount": 2,
+    "highPrice": "14.90",
+    "lowPrice": "12.90",
+    "offerCount": 4,
     "offers": [
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
       "name": "Regulär",
-      "price": "13.32",
+      "price": "14.90",
       "priceCurrency": "EUR"
      },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
       "name": "Ermäßigt",
-      "price": "11.20",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Kiezpoeten",
-    "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
-   },
-   "startDate": "2026-11-13T17:00+0100"
-  }
- },
- "https://rausgegangen.de/events/slam-der-jugend-17/": {
-  "fetched": "2026-11-01T15:02:22+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Der Poetry Slam für U22-Jährige im Atze Berlin, direkt an der Amrumer Straße Wedding.Ob nachdenkliche Lyrik oder lustige Stand-Up: Auf dieser Bühne ist alles erlaubt, was mit Worten gemacht werden kann. Es gelten die drei Regeln des Poetry Slam: 1. Nur selbstgeschriebene Texte 2. Keine Requisiten 3. Ein Zeitlimit, in diesem Fall von 5 Minuten. Die Besonderheit: Kein*e der Auftretenden ist über 22 Jahre alt. Die Line-Up Liste ist offen – du kannst dich also einfach vorher anmelden. Als der Nachwuchs-Slam unter den Kiezpoeten-Shows in Berlin richtet sich der “Poetry Slam der Jugend” vor allem an Jugendliche und junge Erwachsene. Eure Themen. Euer Stil. Als Zuschauer*in erwartet dich ein vielfältiges und abwechslungsreiches Line-Up mit Texten, die dir aus der Seele sprechen. Von Menschen, die dein Leben kennen. Nicht jeder Text wird auf das letzte Wort gefeilt und performativ perfektioniert sein. Aber dafür absolut authentisch.Besonders geeignet für Schulgruppen. --Bild: Timo Becker / Martin Kleingräber",
-   "endDate": "2026-11-04T20:30+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/a7j2Dd3RdaMeNLJ3jlQE_2025slam-der-jugend-fotologo-cjonassamsonfotos-27.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "13353",
-     "streetAddress": "Luxemburger Straße 20"
-    },
-    "name": "ATZE Musiktheater"
-   },
-   "name": "Slam der Jugend",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "8.50",
-    "lowPrice": "5.50",
-    "offerCount": 5,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "8.50",
+      "price": "12.90",
       "priceCurrency": "EUR"
      },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "Jugendliche",
-      "price": "6.95",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Schulgruppe ab 10 Personen",
-      "price": "5.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Schwerbehindertenausweis B-Ticket (inkl. 1 Begleiter-Ticket)",
-      "price": "6.95",
+      "name": "Schwerbehindertenausweis B-Ticket",
+      "price": "12.90",
       "priceCurrency": "EUR"
      },
      {
@@ -1157,24 +1026,12 @@
     ],
     "priceCurrency": "EUR"
    },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "Kiezpoeten",
-     "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Newcomer Slams",
-     "url": "https://rausgegangen.de/organizations/p-newcomer-slams/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Slam der Jugend",
-     "url": "https://rausgegangen.de/organizations/p-slam-der-jugend/"
-    }
-   ],
-   "startDate": "2026-11-04T18:00+0100"
+   "organizer": {
+    "@type": "Organization",
+    "name": "Kiezpoeten",
+    "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
+   },
+   "startDate": "2026-11-05T20:15+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
@@ -1265,6 +1122,39 @@
     }
    ],
    "startDate": "2026-11-05T19:30+0100"
+  }
+ },
+ "https://rausgegangen.de/events/tommy-lefroy-5/": {
+  "fetched": "2026-11-01T15:57:19+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Nicht nur Gitarren, sondern auch Gespräche: Tommy Lefroy organisieren bei ihren Konzerten sogar Büchertausch, während ihre Songs von Unsicherheit und Selbstbestimmung erzählen. Persönlich und politisch zugleich 💜",
+   "endDate": "2027-02-12T23:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/87oYVgOTBOqOv8rlX18B_photo-tommy-lefroycredit-brendon-burton-kopie.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10179",
+     "streetAddress": "Holzmarktstraße 15-18"
+    },
+    "name": "LARK"
+   },
+   "name": "Tommy Lefroy",
+   "offers": {
+    "@type": "Offer",
+    "price": "25.00",
+    "priceCurrency": "EUR",
+    "url": "https://www.eventim.de/artist/tommy-lefroy/",
+    "validFrom": "2027-02-12T19:00+0100"
+   },
+   "startDate": "2027-02-12T19:00+0100"
   }
  }
 }

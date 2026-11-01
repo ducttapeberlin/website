@@ -1149,14 +1149,6 @@ h2 { line-height: 1.16; }
 .fmt-next { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; max-width: 640px; }
 .fmt-next p { margin: 0; font-size: 17px; }
 .fmt-next strong { color: var(--yellow); }
-.fmt-nl { display: grid; grid-template-columns: 1fr minmax(280px, 420px); gap: 6px 32px; align-items: center; margin-top: clamp(28px, 4vw, 44px); padding: 22px clamp(20px, 3vw, 32px); background: var(--yellow); color: var(--black); }
-.fmt-nl-text { margin: 0; font-size: 17px; line-height: 1.45; }
-.fmt-nl-text strong { display: block; font: 400 clamp(24px, 2.6vw, 32px)/1.05 var(--display, "Anton", sans-serif); text-transform: uppercase; margin-bottom: 4px; }
-.fmt-nl .nl-form { margin: 0; }
-.fmt-nl .nl-form input { flex-basis: 180px; padding: 11px 16px; }
-.fmt-nl .nl-msg, .fmt-nl-small { grid-column: 2; margin: 0; font-size: 13px; }
-.fmt-nl-small a { color: inherit; }
-@media (max-width: 820px) { .fmt-nl { grid-template-columns: 1fr; gap: 14px; } .fmt-nl .nl-msg, .fmt-nl-small { grid-column: 1; } }
 /* Kleinere Kopfbilder fürs Handy */
 @media (max-width: 760px) {
   .page-intro.intro-drag-brunch::after { background-image: url("img/leistungen/brunch-gruppe-m.jpg"); }
@@ -1164,6 +1156,4 @@ h2 { line-height: 1.16; }
   .page-intro.intro-kollektiv::after { background-image: url("img/kollektiv-hero-m.jpg"); }
   .page-intro.intro-drag-shows::after { background-image: url("img/leistungen/show-csd-m.jpg"); }
 }
-.fmt-nl .split-title { white-space: normal; font-size: clamp(36px, 5cqi, 56px); line-height: 1; }
-@media (max-width: 820px) { .fmt-nl .split-title { font-size: min(48px, 11cqi); } }
 .fmt-photos-2 { margin-top: clamp(8px, 1.5vw, 16px); }

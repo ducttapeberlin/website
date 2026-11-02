@@ -193,44 +193,6 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/alte-seilschaften-das-bundesvertriebenenministerium-zwischen-0/": {
-  "fetched": "2026-11-02T23:01:04+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Das Vertriebenenministerium (1949–1969) war die oberste Bundesbehörde für die Belange der rund 8 Millionen Heimatvertriebenen und Flüchtlinge in der Bundesrepublik. Nicht nur an seiner Spitze standen dabei denkbar gegensätzliche Persönlichkeiten: Der erste Minister war Widerstandskämpfer, sein Nachfolger hingegen tief in das NS-System verstrickt.Welche Rolle spielten alte Seilschaften, Parteibücher und persönliche Netzwerke für die Arbeit, den Aufstieg und Einfluss im Vertriebenenministerium? Unterscheidet es sich dabei von anderen Bundesministerien? Die neue Kollektivbiografie Kommunikation und Konsensfindung (hier kostenfrei erhältlich) geht solchen Fragen erstmals systematisch nach.Diskutieren Sie mit!",
-   "endDate": "2026-11-05T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/qjZcr5pTqCRNc4LtzcJj_bundesarchiv-b-145-bild-f000016-0641-fotograf-oang.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10963",
-     "streetAddress": "Stresemannstraße 90"
-    },
-    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
-   },
-   "name": "Alte Seilschaften? Das Bundesvertriebenenministerium zwischen NS-Diktatur und Demokratie",
-   "offers": {
-    "@type": "Offer",
-    "price": "0.00",
-    "priceCurrency": "EUR",
-    "url": "https://buchungen.flucht-vertreibung-versoehnung.de/de/tickets/108",
-    "validFrom": "2026-11-05T00:00+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung",
-    "url": "https://rausgegangen.de/organizations/dokumentationszentrum-flucht-vertreibung-versohnung/"
-   },
-   "startDate": "2026-11-05T00:00+0100"
-  }
- },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
   "fetched": "2026-11-02T23:01:04+01:00",
   "ld": {
@@ -686,6 +648,39 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
+ "https://rausgegangen.de/events/es-betet-hafis-interreligioses-festkonzert-1/": {
+  "fetched": "2026-11-02T23:59:46+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Mitten in Kreuzberg erklingen die Worte eines persischen Dichters aus dem 14. Jahrhundert, vertont von Komponisten jüdischer Herkunft und gesungen in einer christlichen Kirche. Im Zentrum des Festkonzerts steht „Hafis eine Liederreihe\", ein Zyklus für Chor, Gesangssolisten und Klavier von Friedrich Gernsheim, ein farbenreiches und heute seltene aufgeführtes Werk, das der Ölbergchor wiederentdeckt. Ergänzt wird es durch Kompositionen von Giacomo Meyerbeer, Felix Mendelssohn Bartholdy und weiteren Komponisten, die sich ebenfalls von Hafis’ Dichtung inspirieren ließen.Hafis' Verse feiern die Liebe, den Wein und die Schönheit der Welt und stellen zugleich unbequeme Fragen: nach der Wahrhaftigkeit des Glaubens, nach Frömmigkeit, die zur bloßen Pose wird, und nach der Freiheit des Einzelnen gegenüber religiöser Autorität. Mehr als 600 Jahre nach ihrer Entstehung haben diese Texte nichts von ihrer Dringlichkeit verloren. Das Konzert lädt dazu ein, über die Grenzen der Religionen hinweg zuzuhören und ins Gespräch zu kommen.Zur Einstimmung finden am Freitag und Samstag jeweils eine Stunde vor Konzertbeginn Einführungsvorträge statt: Thomas Kliche von der Meyerbeer-Gesellschaft sowie Natalie Marie Rose und Osman Oers vom House of One geben Einblicke in die Werke und ihren interreligiösen Hintergrund.Mitwirkende Laurenzia Kampa, Sopran · Sophia Maeono, Alt · Jakob Schuld, Tenor · Anton Förster, Bass Insa Bernds, Klavier Ölbergchor Kreuzberg Leitung: Johannes Weber",
+   "endDate": "2026-11-21T21:45+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/7lb5lGZjTLCUD3N0LyJx_a90fa8e8-9b9c-49c7-99ac-33a8258c769f.jpeg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10997",
+     "streetAddress": "Lausitzer Platz 8 A"
+    },
+    "name": "Emmauskirche Kreuzberg"
+   },
+   "name": "Es betet Hafis, Interreligiöses Festkonzert",
+   "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "EUR",
+    "url": "https://eventfrog.de/de/p/gruppen/es-betet-hafis-interreligioeses-festkonzert-7510406879572436895.html",
+    "validFrom": "2026-11-21T20:00+0100"
+   },
+   "startDate": "2026-11-21T20:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/geheimkonzert-berlin-24-by-rausgegangen-0/": {
   "fetched": "2026-11-02T23:01:04+01:00",
   "ld": {
@@ -994,16 +989,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/most-wanted-music-club-festival-1/": {
-  "fetched": "2026-11-02T23:01:04+01:00",
+ "https://rausgegangen.de/events/knack-den-fall-37/": {
+  "fetched": "2026-11-02T23:59:46+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Kein großer Name, auf den alle warten, sondern mehr als 40 Acts, die Du vielleicht erst später überall hörst. Am Ende kippt das Ganze sogar in eine offene Jam Session, bei der auch Leute aus dem Publikum mitmachen können 👀",
-   "endDate": "2026-11-05T23:45+0100",
+   "description": "Detektive aufgepasst!1895 in Berlin – zwei Freundinnen, Peggy Palmer und ihre beste und leider auch einzige Freundin Margarete Klammroth, ermitteln in diversen Kriminalfällen. Aufgeschrieben hat diese Begebenheiten Peggy Palmer persönlich, alias Katharina Palm. „Knack den Fall!\" ist ein spektakuläres, interaktives Krimi-Event! 6 fesselnde Sprecher:innen des Peggy-Palmer-Ensembles und eine spritzige Moderatorin fordern das Publikum heraus, die jeweiligen Verbrechen aufzuklären.Sie lesen, unterstützt von Geräuschen und Musik, die verschiedenen Rollen, das Publikum löst den Fall, gibt seinen Tipp ab und der oder die Glückliche gewinnt den Preis „Der Goldene Riecher\".",
+   "endDate": "2026-11-08T21:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/sWyu3FVSH6doXGdOWd4g_club-festival-online-banner-1920-x-1080-px.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/emP8LKlATey2u7i2dbzD_kdf-november-2026-2.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -1011,37 +1006,32 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10245",
-     "streetAddress": "Revaler Str. 99"
+     "postalCode": "10117",
+     "streetAddress": "Monbijoustraße 3B"
     },
-    "name": "RAW-Gelände"
+    "name": "Märchenhütte des Monbijou Theaters"
    },
-   "name": "Most Wanted: Music Club Festival",
+   "name": "Knack den Fall! Nr. 13",
    "offers": {
     "@type": "Offer",
-    "price": "25.00",
+    "price": "17.00",
     "priceCurrency": "EUR",
-    "url": "https://mwm-berlin.reservix.de/tickets-most-wanted-music-club-festival-in-berlin-raw-gelaende-am-4-11-2026/e2583600",
-    "validFrom": "2026-11-04T17:00+0100"
+    "url": "https://maerchenhuetten.com/programm/knack-den-fall/",
+    "validFrom": "2026-11-08T19:00+0100"
    },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Berlin Music Commission eG",
-    "url": "https://rausgegangen.de/organizations/page-for-team-berlin-music-commission-eg/"
-   },
-   "startDate": "2026-11-04T17:00+0100"
+   "startDate": "2026-11-08T19:00+0100"
   }
  },
- "https://rausgegangen.de/events/slam-der-jugend-17/": {
-  "fetched": "2026-11-02T23:01:04+01:00",
+ "https://rausgegangen.de/events/love-at-first-slide-berlin-power-point-dating-by-rausgegange-13/": {
+  "fetched": "2026-11-02T23:59:46+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Der Poetry Slam für U22-Jährige im Atze Berlin, direkt an der Amrumer Straße Wedding.Ob nachdenkliche Lyrik oder lustige Stand-Up: Auf dieser Bühne ist alles erlaubt, was mit Worten gemacht werden kann. Es gelten die drei Regeln des Poetry Slam: 1. Nur selbstgeschriebene Texte 2. Keine Requisiten 3. Ein Zeitlimit, in diesem Fall von 5 Minuten. Die Besonderheit: Kein*e der Auftretenden ist über 22 Jahre alt. Die Line-Up Liste ist offen – du kannst dich also einfach vorher anmelden. Als der Nachwuchs-Slam unter den Kiezpoeten-Shows in Berlin richtet sich der “Poetry Slam der Jugend” vor allem an Jugendliche und junge Erwachsene. Eure Themen. Euer Stil. Als Zuschauer*in erwartet dich ein vielfältiges und abwechslungsreiches Line-Up mit Texten, die dir aus der Seele sprechen. Von Menschen, die dein Leben kennen. Nicht jeder Text wird auf das letzte Wort gefeilt und performativ perfektioniert sein. Aber dafür absolut authentisch.Besonders geeignet für Schulgruppen. --Bild: Timo Becker / Martin Kleingräber",
-   "endDate": "2026-11-04T20:30+0100",
+   "description": "Wir bringen mit LOVE AT FIRST SLIDE Dating auf die Bühne: Freund:innen stellen in kurzen Power Point Präsentationen ihre Lieblingssingle vor – charmant, humorvoll und ganz ohne Swipe. Nach den witzigen Pitches kannst du bei Speed-Dating und Barabend neue Begegnungen entdecken. 💘🎤💫",
+   "endDate": "2026-11-11T23:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/a7j2Dd3RdaMeNLJ3jlQE_2025slam-der-jugend-fotologo-cjonassamsonfotos-27.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/G4DW5S6EQHOrXfM562GP_lafsbannerappstraight-2-5.png"
    ],
    "location": {
     "@type": "Place",
@@ -1049,51 +1039,51 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "13353",
-     "streetAddress": "Luxemburger Straße 20"
+     "postalCode": "10625",
+     "streetAddress": "Kantstraße 127"
     },
-    "name": "ATZE Musiktheater"
+    "name": "Dufte Berlin"
    },
-   "name": "Slam der Jugend",
+   "name": "LOVE AT FIRST SLIDE Berlin | Power Point Dating by Rausgegangen 💖",
    "offers": {
     "@type": "AggregateOffer",
-    "highPrice": "8.50",
-    "lowPrice": "5.50",
+    "highPrice": "19.50",
+    "lowPrice": "10.00",
     "offerCount": 5,
     "offers": [
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "8.50",
+      "name": "Presenterticket",
+      "price": "10.00",
       "priceCurrency": "EUR"
      },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "Jugendliche",
-      "price": "6.95",
+      "name": "Publikum Ticket | Ich bin eine hetero Frau",
+      "price": "19.50",
       "priceCurrency": "EUR"
      },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "Schulgruppe ab 10 Personen",
-      "price": "5.90",
+      "name": "Publikum Ticket | Ich bin ein hetero Mann",
+      "price": "19.50",
       "priceCurrency": "EUR"
      },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "Schwerbehindertenausweis B-Ticket (inkl. 1 Begleiter-Ticket)",
-      "price": "6.95",
+      "name": "Publikum Ticket | Ich bin queer",
+      "price": "19.50",
       "priceCurrency": "EUR"
      },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "Begleiterticket Schwerbehinderte",
-      "price": "0.00",
+      "name": "Mitgegangen",
+      "price": "3.80",
       "priceCurrency": "EUR"
      }
     ],
@@ -1102,21 +1092,26 @@
    "organizer": [
     {
      "@type": "Organization",
-     "name": "Kiezpoeten",
-     "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
+     "name": "LOVE AT FIRST SLIDE BERLIN by Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/love-at-first-slide-berlin-by-rausgegangen/"
     },
     {
      "@type": "Organization",
-     "name": "Newcomer Slams",
-     "url": "https://rausgegangen.de/organizations/p-newcomer-slams/"
+     "name": "Love at first Slide by Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/page-for-team-love-at-first-slide-by-rausgegangen/"
     },
     {
      "@type": "Organization",
-     "name": "Slam der Jugend",
-     "url": "https://rausgegangen.de/organizations/p-slam-der-jugend/"
+     "name": "LOVE AT FIRST SLIDE by Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/love-at-first-slide-by-rausgegangen/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Team Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/team-rausgegangen/"
     }
    ],
-   "startDate": "2026-11-04T18:00+0100"
+   "startDate": "2026-11-11T19:00+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
@@ -1158,16 +1153,16 @@
   },
   "seen": "2026-10-31T02:26:10+01:00"
  },
- "https://rausgegangen.de/events/speed-friending-berlin-by-rausgegangen-0/": {
-  "fetched": "2026-11-02T23:01:04+01:00",
+ "https://rausgegangen.de/events/tommy-lefroy-5/": {
+  "fetched": "2026-11-02T23:59:46+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Speed Dating kennen wir alle, aber was ist mit Speed Friending? Hier lernst du in kurzen Gesprächen ganz entspannt neue Leute kennen, ohne das übliche Smalltalk-Blabla. Egal, ob du noch neue Friends suchst oder einfach Lust hast Menschen kennenzulernen. Das ist der place to be für neue Bekanntschaften. 🫂",
-   "endDate": "2026-11-05T22:30+0100",
+   "description": "Nicht nur Gitarren, sondern auch Gespräche: Tommy Lefroy organisieren bei ihren Konzerten sogar Büchertausch, während ihre Songs von Unsicherheit und Selbstbestimmung erzählen. Persönlich und politisch zugleich 💜",
+   "endDate": "2027-02-12T23:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/DgOflF40T8WQ4ZDezaqe_design260820datingspeedfriending16x9.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/87oYVgOTBOqOv8rlX18B_photo-tommy-lefroycredit-brendon-burton-kopie.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -1175,38 +1170,20 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10625",
-     "streetAddress": "Kantstraße 127"
+     "postalCode": "10179",
+     "streetAddress": "Holzmarktstraße 15-18"
     },
-    "name": "Dufte Berlin"
+    "name": "LARK"
    },
-   "name": "SPEED FRIENDING Berlin by Rausgegangen",
+   "name": "Tommy Lefroy",
    "offers": {
     "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "19.90",
+    "price": "25.00",
     "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/speed-friending-berlin-by-rausgegangen",
-    "validFrom": "2026-09-28T00:00+0200"
+    "url": "https://www.eventim.de/artist/tommy-lefroy/",
+    "validFrom": "2027-02-12T19:00+0100"
    },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "Rausgegangen Events",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-events/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Speed Dating by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/speed-dating-by-rausgegangen/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Speed Friending by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/speed-friending-by-rausgegangen/"
-    }
-   ],
-   "startDate": "2026-11-05T19:30+0100"
+   "startDate": "2027-02-12T19:00+0100"
   }
  }
 }

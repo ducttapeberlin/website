@@ -1185,3 +1185,4 @@ h2 { line-height: 1.16; }
 .q-cta-nl .nl-form input::placeholder { color: rgba(255,255,255,.55); }
 .q-cta-nl .nl-form .btn { background: var(--yellow); border-color: var(--yellow); color: var(--black); --tape-c: var(--yellow); }
 @media (max-width: 820px) { .q-cta-split .q-cta-book { padding-bottom: clamp(28px, 5vw, 56px); } }
+.page-intro h1 .q-h1-sub { display: block; font-size: .5em; line-height: 1.05; }

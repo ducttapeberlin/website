@@ -1,6 +1,6 @@
 {
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
-  "fetched": "2026-11-03T17:16:45+01:00",
+  "fetched": "2026-11-04T00:05:08+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -97,7 +97,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-11-03T17:16:45+01:00",
+  "fetched": "2026-11-04T00:05:08+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -286,8 +286,46 @@
    "startDate": "2026-12-31T22:00+0100"
   }
  },
+ "https://rausgegangen.de/events/cirque-de-lafrique-x-afro-life-0/": {
+  "fetched": "2026-11-04T00:05:08+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "CIRQUE DE L’AFRIQUE x AFRO LIVEZirkus trifft Clubnacht. Und du bist mittendrin!Was passiert, wenn Akrobat, Tänzer, Live-Musik und DJs auf einer Tanzfläche zusammenkommen?Am 28. November bringt Cirque de l’Afrique x Afro Live genau dieses Erlebnis ins MAAYA Berlin!Freu dich auf spektakuläre Akrobatik, mitreißende Tanzperformances und überraschende Showmomente, während die Musik die ganze Nacht weiterläuft. Hier wird nicht einfach nur aufgelegt oder eine Show gespielt. Alles passiert gleichzeitig, direkt um dich herum!Mit dabei ist Heaven Sam aka Mr. Afro Disco. Mit seiner Mischung aus DJ-Sets, kraftvollen Live-Drums und Klavier bringt er eine ganz besondere Energie in den Raum.Musikalisch erwartet dich ein Mix aus afrikanischen, karibischen und elektronischen Sounds, von Afrobeats und Amapiano über Afro House bis hin zu Dancehall.Ob du zum Tanzen kommst, die Performances erleben möchtest oder einfach nach einer außergewöhnlichen Partynacht in Berlin suchst: Cirque de l’Afrique bringt all das zusammen.Keine gewöhnliche Party. Keine gewöhnliche Show. Ein Abend, an dem du mittendrin bist!LINE-UPHeaven Sam DJ Nomi Prince M.I.K Freak de l’Afrique Papi Da SilvaSamstag, 28. November 2026 | Ab 23:00 UhrMAAYA Berlin Revaler Straße 99, 10245 Berlin-Friedrichshain",
+   "endDate": "2026-11-29T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/1QUGShU6TAyJw5njoxDH_cirque-de-lafrique-3.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10245",
+     "streetAddress": "Revaler Straße 99"
+    },
+    "name": "MAAYA"
+   },
+   "name": "Cirque de l'Afrique x Afro Life",
+   "offers": {
+    "@type": "Offer",
+    "price": "15.00",
+    "priceCurrency": "EUR",
+    "url": "https://xceed.me/en/berlin/event/cirque-de-lafrique-x-afro-live-w-heaven-sam-281126/248062/channel/maaya-berlin",
+    "validFrom": "2026-11-28T23:00+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Freak De L'Afrique",
+    "url": "https://rausgegangen.de/organizations/freak-de-lafrique/"
+   },
+   "startDate": "2026-11-28T23:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-11-03T17:16:45+01:00",
+  "fetched": "2026-11-04T00:05:08+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -375,63 +413,8 @@
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/dani-lia-yola-gangsta-goren-tour-5/": {
-  "fetched": "2026-11-03T23:07:24+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Brav ist bei Dani Lia und yola offenbar gerade ausverkauft. Die beiden gehen zusammen auf Tour und setzen mit kompromisslosem Pop gegen Klischees und für eine andere Idee von Girlhood ein deutliches Zeichen 💅🏼",
-   "endDate": "2027-05-23T22:00+0200",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/oJ7jfUwKS46GCFI3YkfM_pressefoto1-janaabel.jpeg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10997",
-     "streetAddress": "Cuvrystr. 7"
-    },
-    "name": "Lido"
-   },
-   "name": "Dani Lia yola - GANGSTA GÖREN TOUR",
-   "offers": {
-    "@type": "Offer",
-    "price": "31.90",
-    "priceCurrency": "EUR",
-    "url": "https://chimperator-tickets.de/dani-lia",
-    "validFrom": "2027-05-23T19:00+0200"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "Angst Booking",
-     "url": "https://rausgegangen.de/organizations/angst-booking/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Chimperator Live GmbH - Touring",
-     "url": "https://rausgegangen.de/organizations/chimperator-live-gmbh-touring/"
-    }
-   ],
-   "performer": [
-    {
-     "@type": "PerformingGroup",
-     "name": "DANI LIA"
-    },
-    {
-     "@type": "PerformingGroup",
-     "name": "Yola"
-    }
-   ],
-   "startDate": "2027-05-23T19:00+0200"
-  }
- },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
-  "fetched": "2026-11-03T17:16:45+01:00",
+  "fetched": "2026-11-04T00:05:08+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -476,7 +459,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-03T17:16:45+01:00",
+  "fetched": "2026-11-04T00:05:08+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -523,7 +506,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-21/": {
-  "fetched": "2026-11-03T17:16:45+01:00",
+  "fetched": "2026-11-04T00:05:08+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -568,7 +551,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-22/": {
-  "fetched": "2026-11-03T17:16:45+01:00",
+  "fetched": "2026-11-04T00:05:08+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -613,7 +596,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
-  "fetched": "2026-11-03T17:16:45+01:00",
+  "fetched": "2026-11-04T00:05:08+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -658,7 +641,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
-  "fetched": "2026-11-03T17:16:45+01:00",
+  "fetched": "2026-11-04T00:05:08+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -703,7 +686,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-11-03T17:16:45+01:00",
+  "fetched": "2026-11-04T00:05:08+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -754,7 +737,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-brunch-sponsored-by-fritz-kola-winter-edition-0/": {
-  "fetched": "2026-11-03T17:16:45+01:00",
+  "fetched": "2026-11-04T00:05:08+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -796,81 +779,8 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
- "https://rausgegangen.de/events/geheimkonzert-berlin-24-by-rausgegangen-0/": {
-  "fetched": "2026-11-03T23:07:24+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Na Hallo! Es ist wieder so weit: Ein Abend voller Überraschung - denn wer auf der Bühne steht, bleibt bis zum ersten Ton geheim. Wir hatten schon Blond, Berq, Ennio, Futurebae, Jassin, Anais, Katha Pauer & viele mehr zu Gast – und das schon bevor sie die großen Bühnen der Nation gestürmt haben. Also entdecke die Stars von Morgen bei unseren Geheimkonzerten. 🪩",
-   "endDate": "2026-12-09T22:15+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/mO31iODjTCuFLVfQ493H_gk202516x9photoheadline-32-1.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin"
-    },
-    "name": "Secret location"
-   },
-   "name": "Geheimkonzert Berlin #24 by Rausgegangen",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "29.90",
-    "lowPrice": "24.50",
-    "offerCount": 4,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "SCHNAPPER",
-      "price": "22.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "REGULAR",
-      "price": "26.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "4er FRIENDS BUNDLE",
-      "price": "24.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Mitgegangen",
-      "price": "3.80",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "Rausgegangen Geheimkonzerte",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Rausgegangen Geheimkonzerte Berlin",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte-3/"
-    }
-   ],
-   "startDate": "2026-12-09T20:00+0100"
-  }
- },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-11-03T17:16:45+01:00",
+  "fetched": "2026-11-04T00:05:08+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -988,7 +898,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-0/": {
-  "fetched": "2026-11-03T17:16:45+01:00",
+  "fetched": "2026-11-04T00:05:08+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -1030,7 +940,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1/": {
-  "fetched": "2026-11-03T17:16:45+01:00",
+  "fetched": "2026-11-04T00:05:08+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -1109,16 +1019,16 @@
    "startDate": "2026-11-11T18:30+0100"
   }
  },
- "https://rausgegangen.de/events/schall-rauch-slam-12/": {
-  "fetched": "2026-11-03T23:07:24+01:00",
+ "https://rausgegangen.de/events/skuppin-musee-sentimental-tour-2027-10/": {
+  "fetched": "2026-11-04T00:05:08+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Beim Schall & Rauch Slam verbinden Berliner Poetry Slammer:innen Schauspiel, Poesie und Stand-Up zu mitreißenden Performances. Die Bühne wird zum Ort, an dem Worte Formen annehmen und du hautnah erlebst, wer mit Kostüm und Requisite das Publikum beeindruckt 👀",
-   "endDate": "2026-11-11T21:15+0100",
+   "description": "Kühle Synths, düstere Bässe, und dann diese Stimme, die plötzlich mehr Druck hat, als man erst denkt. SKUPPIN bringt auf der Musée Sentimental Tour neuen Stoff mit und steht live nicht allein auf der Bühne 👀",
+   "endDate": "2027-11-26T22:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/nA80EFNVT8uMPOtHcLk3_2025schall-rauch-fotologo-cjonassamsonfotos-27.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Y4GElzxUQ8avCC0sjfVr_pressefotoskuppinstellawei00edit.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -1126,52 +1036,28 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10557",
-     "streetAddress": "Lehrter Straße 55"
+     "postalCode": "10997",
+     "streetAddress": "Skalitzer Strasse 85-86"
     },
-    "name": "Gravity Bar"
+    "name": "Privatclub Berlin"
    },
-   "name": "Schall & Rauch Slam",
+   "name": "SKUPPIN - \"Musée Sentimental\" Tour 2027",
    "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": null,
-    "lowPrice": null,
-    "offerCount": 3,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Eintritt",
-      "price": "12.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Schwerbehindertenausweis B-Ticket (inkl. 1 Begleiter-Ticket)",
-      "price": "12.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Begleiterticket Schwerbehinderte",
-      "price": "0.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "EUR",
+    "url": "https://loveyourartist.com/de/profiles/skuppin-YAJ7YR/events",
+    "validFrom": "2027-11-26T20:00+0100"
    },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Kiezpoeten",
-    "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "SKUPPIN"
    },
-   "startDate": "2026-11-11T19:30+0100"
+   "startDate": "2027-11-26T20:00+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
-  "fetched": "2026-11-03T17:16:45+01:00",
+  "fetched": "2026-11-04T00:05:08+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -1208,6 +1094,43 @@
    "startDate": "2026-12-19T19:30+0100"
   },
   "seen": "2026-10-31T02:26:10+01:00"
+ },
+ "https://rausgegangen.de/events/speak-up-inline-x-stories-of-her-with-x-tin-degen-oneyra-lin-0/": {
+  "fetched": "2026-11-04T00:05:08+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Erst reden, dann tanzen: Die Party feiert den sechsten Geburtstag von Stories of Her, einem Projekt, das anonyme Erfahrungen mit Sexismus, Belästigung und sexualisierter Gewalt sichtbar macht. Später kippt der Abend in elektronische Sets von X Tin, degen, Ôneyra, Linda shiro und mehr 🌈",
+   "endDate": "2026-11-15T06:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/07IK7lgPQpK2XrMjwDQC_postv1.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10245",
+     "streetAddress": "Revaler Str. 99"
+    },
+    "name": "Crack Bellmer"
+   },
+   "name": "SPEAK UP Inline x Stories of Her with X Tin, degen, Ôneyra, Linda shiro & many more",
+   "offers": {
+    "@type": "Offer",
+    "price": "10.00",
+    "priceCurrency": "EUR",
+    "validFrom": "2026-11-14T17:30+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Inline",
+    "url": "https://rausgegangen.de/organizations/inline/"
+   },
+   "startDate": "2026-11-14T17:30+0100"
+  }
  },
  "https://rausgegangen.de/events/wedding-slam-royale-jahresfinale-1/": {
   "fetched": "2026-11-03T23:07:24+01:00",

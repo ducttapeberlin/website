@@ -193,6 +193,44 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/amber-georgia-0/": {
+  "fetched": "2026-11-04T00:57:22+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Orange im Glas und dahinter mehr als 60 Winzer:innen aus Georgien, die ihre Weine selbst mitbringen. Statt Messestress eher ein direkter Draht zu einer uralten Weintradition 👀",
+   "endDate": "2026-11-28T17:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/cIF9OMxVScGZqgIavWKV_amber-georgia-berlin-weine-aus-georgien-3.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10997",
+     "streetAddress": "Köpenicker Str. 16/17"
+    },
+    "name": "Magazin in der Heeresbäckerei"
+   },
+   "name": "Amber Georgia Low Intervention Wine Fair",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 0,
+    "offers": [],
+    "priceCurrency": "EUR"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Amber Georgia Berlin"
+   },
+   "startDate": "2026-11-28T11:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/bodies-baddies-nye-edition-0/": {
   "fetched": "2026-11-03T23:07:24+01:00",
   "ld": {
@@ -284,44 +322,6 @@
     "name": "Ocean"
    },
    "startDate": "2026-12-31T22:00+0100"
-  }
- },
- "https://rausgegangen.de/events/cirque-de-lafrique-x-afro-life-0/": {
-  "fetched": "2026-11-04T00:05:08+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "CIRQUE DE L’AFRIQUE x AFRO LIVEZirkus trifft Clubnacht. Und du bist mittendrin!Was passiert, wenn Akrobat, Tänzer, Live-Musik und DJs auf einer Tanzfläche zusammenkommen?Am 28. November bringt Cirque de l’Afrique x Afro Live genau dieses Erlebnis ins MAAYA Berlin!Freu dich auf spektakuläre Akrobatik, mitreißende Tanzperformances und überraschende Showmomente, während die Musik die ganze Nacht weiterläuft. Hier wird nicht einfach nur aufgelegt oder eine Show gespielt. Alles passiert gleichzeitig, direkt um dich herum!Mit dabei ist Heaven Sam aka Mr. Afro Disco. Mit seiner Mischung aus DJ-Sets, kraftvollen Live-Drums und Klavier bringt er eine ganz besondere Energie in den Raum.Musikalisch erwartet dich ein Mix aus afrikanischen, karibischen und elektronischen Sounds, von Afrobeats und Amapiano über Afro House bis hin zu Dancehall.Ob du zum Tanzen kommst, die Performances erleben möchtest oder einfach nach einer außergewöhnlichen Partynacht in Berlin suchst: Cirque de l’Afrique bringt all das zusammen.Keine gewöhnliche Party. Keine gewöhnliche Show. Ein Abend, an dem du mittendrin bist!LINE-UPHeaven Sam DJ Nomi Prince M.I.K Freak de l’Afrique Papi Da SilvaSamstag, 28. November 2026 | Ab 23:00 UhrMAAYA Berlin Revaler Straße 99, 10245 Berlin-Friedrichshain",
-   "endDate": "2026-11-29T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/1QUGShU6TAyJw5njoxDH_cirque-de-lafrique-3.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10245",
-     "streetAddress": "Revaler Straße 99"
-    },
-    "name": "MAAYA"
-   },
-   "name": "Cirque de l'Afrique x Afro Life",
-   "offers": {
-    "@type": "Offer",
-    "price": "15.00",
-    "priceCurrency": "EUR",
-    "url": "https://xceed.me/en/berlin/event/cirque-de-lafrique-x-afro-live-w-heaven-sam-281126/248062/channel/maaya-berlin",
-    "validFrom": "2026-11-28T23:00+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Freak De L'Afrique",
-    "url": "https://rausgegangen.de/organizations/freak-de-lafrique/"
-   },
-   "startDate": "2026-11-28T23:00+0100"
   }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
@@ -779,6 +779,77 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
+ "https://rausgegangen.de/events/fiona-fiasco-0/": {
+  "fetched": "2026-11-04T00:57:22+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Da steht eine Band erst in der Lobby eines alten Hotels und im nächsten Moment auf einer Landstraße zwischen Wiese und Wald. Fiona Fiascos EP ist über anderthalb Jahre an sehr verschiedenen Orten zusammengekommen, und genau dieses schöne Verrutschen bleibt hängen 👀",
+   "endDate": "2027-04-08T22:30+0200",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/9gkLl9IRS4aHbQ1M9mSl_fiona-fiasco-georgia-spain.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10119",
+     "streetAddress": "Schönhauser Allee 177b"
+    },
+    "name": "8mm Bar"
+   },
+   "name": "Fiona Fiasco",
+   "offers": {
+    "@type": "Offer",
+    "price": "15.00",
+    "priceCurrency": "EUR",
+    "url": "https://www.tixforgigs.com/Event/75587/fiona-fiasco-neue-zukunft-small-room-berlin",
+    "validFrom": "2027-04-08T20:00+0200"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Puschen",
+    "url": "https://rausgegangen.de/organizations/puschen/"
+   },
+   "startDate": "2027-04-08T20:00+0200"
+  }
+ },
+ "https://rausgegangen.de/events/golden-gmilfs-miami-spice-18/": {
+  "fetched": "2026-11-04T00:57:22+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Mit trockenem Humor und noch trockeneren Perücken melden sie sich zurück: Die Bühnen-Queens der gereiften Lebensfreude heben ihr brandneues Stück auf ein völlig neues Level. In »Miami Spice« erlebt das verschmitzte Seniorinnen-Squad Unruhe in seiner floridianischen Nachbarschaft: Wer sind diese neuen Menschen? Woher kommen sie? Und was ist mit unserem Schmuck passiert?Das Ensemble präsentiert sich wie immer mit unerschrockenem Witz, strahlender Selbstironie und überraschend zarten Zwischentönen, jedoch diesmal in neuem Glanz: Rachel Intervention als Rose, Ryan Stecken als Sophia, Yvonne Nightstand als Dorothy und Deena Fear als Blanche. Für Gerechtigkeit sorgen selbstverständlich Miss Pan Am Drag Airlines und Mii. Frischer Schwung, aber gleichbleibender satirischer Biss und unwiderstehliche Bühnenenergie. Aber ... Moment mal ... wer ist die geheimnisvolle neue Nachbarin???Das und vieles mehr erfahren Sie zwischen scharfzüngigen Dialogen, musikalischen Glanzmomenten und wunderbar absurden Szenen im neuen Programm der Golden Gmilfs: eine Live-Playback-Parodie mit Sitcom-Schnipseln der 80er / 90er Jahre Kultserie »The Golden Girls«.",
+   "endDate": "2026-11-07T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/ZVAtNEEaQmSbT3gAU6mt_golden-gmilfs-miami-spice-foto-yves-tiedemann-fb.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10961",
+     "streetAddress": "Mehringdamm 34"
+    },
+    "name": "BKA Theater"
+   },
+   "name": "Golden Gmilfs: Miami Spice",
+   "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "EUR",
+    "url": "https://bka-theater-webshop.comfortticket.de/de/produktion/0d60aa6d-479d-4320-8251-af131be95f9c/469",
+    "validFrom": "2026-11-06T20:00+0100"
+   },
+   "startDate": "2026-11-06T20:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
   "fetched": "2026-11-04T00:05:08+01:00",
   "ld": {
@@ -981,16 +1052,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/posts-reels-stories-fluchterfahrungen-aus-jugoslawien-im-net-0/": {
-  "fetched": "2026-11-03T23:07:24+01:00",
+ "https://rausgegangen.de/events/millennial-mixtape-das-revival-der-nullerjahre-auf-3-floors-0/": {
+  "fetched": "2026-11-04T00:57:22+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "TikTok, Instagram, Podcasts & Co. eröffnen neue Räume für Stimmen, die in klassischen Medien oft wenig Gehör finden. Menschen mit jugoslawischer Fluchtgeschichte teilen Erinnerungen, erklären den Krieg, Flucht und Vertreibung und sprechen über Folgen, die über Generationen weiterwirken. Doch wo Chancen für Sichtbarkeit und Austausch entstehen, verbreiten sich auch Desinformation und nationalistische Narrative. Wann werden soziale Medien zu einem Ort der Solidarität und wo beginnt die Gefahr?PROGRAMM Begrüßung Dr. Roland Borchers, Direktor, Dokumentationszentrum Flucht, Vertreibung, Versöhnung, BerlinGesprächFata Hasanović, InfluencerinKrsto Lazarević, Journalist und Podcaster „Neues vom Ballaballa-Balkan“Dr. Eva Tamara Asboth, Postdoc, Österreichische Akademie der Wissenschaften, WienModeration: Simone Gaul, Journalistin und Podcasterin „Die Zeit“ Im Anschluss laden wir Sie zu einem kleinen Empfang ein.   WEITERE HINWEISEEinlass: 18.00 UhrSprache: DeutschEINTRITT FREI Die Veranstaltung wird aufgezeichnet und auf unserem YouTube-Kanal Flucht, Vertreibung, Versöhnung veröffentlicht.Eine Veranstaltung im Rahmen der Veranstaltungsreihe \"Zerfallen. Geflohen. Angekommen? Erfahrungen aus Bosnien und Herzegowina\"Eine Veranstaltung von: Dokumentationszentrum Flucht, Vertreibung, Versöhnung · Bundeszentrale für politische Bildung",
-   "endDate": "2026-11-11T20:00+0100",
+   "description": "Mainfloor: 'diefeder' (Millennial Pop-Mix)Loungefloor: Little A (00er R'n'B HipHop)Salonfloor: tba «Ist das noch Indie?!»  Wir bringen SexyBack! Am Samstag, den 14. Novomber, verwandelt sich unser kleiner Wohlfühlclub in das Epizentrum für pure Nullerjahre-Nostalgie. Mit dem „Millennial Mixtape“ feiern wir den Sound und das Lebensgefühl eines unvergesslich unbeschwerten Jahrzehnts.Drei Floors – Drei Welten Egal, welche Musikrichtung eure Jugend geprägt hat – auf dem „Millennial Mixtape“ finden alle ihre ganz persönlichen absoluten 00er Banger:• Mainflloor: Die Pop-Explosion mit 'diefeder'! – Hier regieren die Königinnen und Könige der Nullerjahre. Tanzt zu Britney Spears, den No Angels, Justin Timberlake, Shakira und der besten Kylie ever.• Radaufloor: \"Little A\" und sein Hip-Hop & R&B Mix – Hey Ya, willkommen In da Club! Fette Bässe und smoother Groove. Freut euch auf die Tracks von Eminem, 50 Cent, Beyoncé, Nelly und Usher.• Salon: Indie & Rock-Alternative selektiert von DJ Snacky Baba & DJ tba – «Ist das noch Indie?!» Wir sagen: Das ist Disco! Von Arctic Monkeys bis Whitney Houston, von Kraftklub bis Charli XCX und von Two Door Cinema Club bis Nina Chuba wird für alle etwas dabei sein! Die Hardfacts:• Event: Millennial Mixtape – Das Revival der Nullerjahre auf 3 Floors!• Wann: Samstag, 14. Novmeber 2026, ab 21:00 Uhr• Wo: Frannz Club (in der Kulturbrauerei), Schönhauser Allee 36, 10435 Berlin• Eintritt: Early Bird für 8,00 Euro (nur von 21:00 bis 22:00 Uhr und nur an der Abendkasse), danach regulär 12,00 Euro an der Abendkasse. Sichert euch euren Platz auf der Tanzfläche und spult mit uns das Mixtape eurer Jugend zurück!",
+   "endDate": "2026-11-15T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/tRzV17PhR0y1Q7XSYcZf_2025-sfvvdokuzentrumsrebrenicaveranstaltungsfotosgrafikladenfoto-nihad-nino-pusija.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/dyghNqMTteDJHdV9BYbr_facebook-event-banner-mixtape-1411.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -998,62 +1069,20 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10963",
-     "streetAddress": "Stresemannstraße 90"
+     "postalCode": "10435",
+     "streetAddress": "Schönhauser Allee 36"
     },
-    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
+    "name": "frannz club berlin"
    },
-   "name": "Posts, Reels, Stories – Fluchterfahrungen aus Jugoslawien im Netz",
+   "name": "Millennial Mixtape- Das Revival der Nullerjahre auf 3 Floors!",
    "offers": {
     "@type": "Offer",
-    "price": "0.00",
+    "price": "12.00",
     "priceCurrency": "EUR",
-    "url": "https://buchungen.flucht-vertreibung-versoehnung.de/de/tickets/109",
-    "validFrom": "2026-11-11T18:30+0100"
+    "url": "https://shop.copilot.events/frannz/events/820df3ed-f0bf-4d98-ad28-aa2f26619ae6",
+    "validFrom": "2026-11-14T21:00+0100"
    },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung",
-    "url": "https://rausgegangen.de/organizations/dokumentationszentrum-flucht-vertreibung-versohnung/"
-   },
-   "startDate": "2026-11-11T18:30+0100"
-  }
- },
- "https://rausgegangen.de/events/skuppin-musee-sentimental-tour-2027-10/": {
-  "fetched": "2026-11-04T00:05:08+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Kühle Synths, düstere Bässe, und dann diese Stimme, die plötzlich mehr Druck hat, als man erst denkt. SKUPPIN bringt auf der Musée Sentimental Tour neuen Stoff mit und steht live nicht allein auf der Bühne 👀",
-   "endDate": "2027-11-26T22:30+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Y4GElzxUQ8avCC0sjfVr_pressefotoskuppinstellawei00edit.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10997",
-     "streetAddress": "Skalitzer Strasse 85-86"
-    },
-    "name": "Privatclub Berlin"
-   },
-   "name": "SKUPPIN - \"Musée Sentimental\" Tour 2027",
-   "offers": {
-    "@type": "Offer",
-    "price": 0,
-    "priceCurrency": "EUR",
-    "url": "https://loveyourartist.com/de/profiles/skuppin-YAJ7YR/events",
-    "validFrom": "2027-11-26T20:00+0100"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "SKUPPIN"
-   },
-   "startDate": "2027-11-26T20:00+0100"
+   "startDate": "2026-11-14T21:00+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
@@ -1094,117 +1123,5 @@
    "startDate": "2026-12-19T19:30+0100"
   },
   "seen": "2026-10-31T02:26:10+01:00"
- },
- "https://rausgegangen.de/events/speak-up-inline-x-stories-of-her-with-x-tin-degen-oneyra-lin-0/": {
-  "fetched": "2026-11-04T00:05:08+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Erst reden, dann tanzen: Die Party feiert den sechsten Geburtstag von Stories of Her, einem Projekt, das anonyme Erfahrungen mit Sexismus, Belästigung und sexualisierter Gewalt sichtbar macht. Später kippt der Abend in elektronische Sets von X Tin, degen, Ôneyra, Linda shiro und mehr 🌈",
-   "endDate": "2026-11-15T06:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/07IK7lgPQpK2XrMjwDQC_postv1.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10245",
-     "streetAddress": "Revaler Str. 99"
-    },
-    "name": "Crack Bellmer"
-   },
-   "name": "SPEAK UP Inline x Stories of Her with X Tin, degen, Ôneyra, Linda shiro & many more",
-   "offers": {
-    "@type": "Offer",
-    "price": "10.00",
-    "priceCurrency": "EUR",
-    "validFrom": "2026-11-14T17:30+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Inline",
-    "url": "https://rausgegangen.de/organizations/inline/"
-   },
-   "startDate": "2026-11-14T17:30+0100"
-  }
- },
- "https://rausgegangen.de/events/wedding-slam-royale-jahresfinale-1/": {
-  "fetched": "2026-11-03T23:07:24+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Der Best-Of Poetry Slam im schicksten Ballhaus der Stadt. Wir werfen uns in Schale und bringen ein fein ausgewähltes Lineup aus Poetry Slam, Comedy und Bühnenliteratur in den Wedding. Das ist Poetry Slam für alle, die Hochkultur wollen - aber in höchst unterhaltsam! Nur die besten Slammer:innen kommen auf diese Bühne, auf dass du dich für anderthalb Stunden ganz und gar fallen lassen kannst. Mit einem Sektglas auf der Chaiselongue, für den perfekten Sonntagabend.   ----- Bild: Timo Becker / Martin Kleingräber",
-   "endDate": "2026-11-15T21:30+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/GDkIYgNR7rNBzEBLVMkA_2025wedding-royale-fotologo-cjonassamsonfotos-27.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "13359",
-     "streetAddress": "Wriezener Str. 6"
-    },
-    "name": "Ballhaus Wedding"
-   },
-   "name": "Wedding Slam Royale: Jahresfinale",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "26.70",
-    "lowPrice": "9.90",
-    "offerCount": 5,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "16.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Ermäßigt",
-      "price": "9.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Sofaticket inkl 1 Freisekt",
-      "price": "26.70",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Schwerbehindertenausweis B-Ticket",
-      "price": "9.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Begleiterticket Schwerbehinderte",
-      "price": "0.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Kiezpoeten",
-    "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
-   },
-   "startDate": "2026-11-15T19:30+0100"
-  }
  }
 }

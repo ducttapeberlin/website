@@ -193,6 +193,92 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/bodies-baddies-nye-edition-0/": {
+  "fetched": "2026-11-03T13:06:32+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Wenn Du das Jahr queer und mit ordentlich Energie abschließen willst, klingt das hier ziemlich ideal: mehrere Floors, Shows direkt nach dem Countdown und ein Format, das klar aus der Community kommt. Für Queers, Girls, Gays, Theys, Lovers und Allies gedacht 👀",
+   "endDate": "2027-01-01T06:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/RqGvZn1mSD2O5uy0Wezo_rausgegangenbnbsasha-kopie2.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10777",
+     "streetAddress": "Nollendorfplatz 5"
+    },
+    "name": "Metropol"
+   },
+   "name": "BODIES & BADDIES // NYE Party",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "85.40",
+    "lowPrice": "16.50",
+    "offerCount": 6,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Early Bird",
+      "price": "27.10",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Group Tickets First Wave",
+      "price": "32.40",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "First Wave",
+      "price": "37.70",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Group Tickets Second Wave",
+      "price": "43.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Second Wave",
+      "price": "48.30",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Last Wave // Abendkasse",
+      "price": "52.54",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Ocean Eyes",
+    "url": "https://rausgegangen.de/organizations/ocean-eyes/"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Ocean"
+   },
+   "startDate": "2026-12-31T22:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
   "fetched": "2026-11-03T11:16:40+01:00",
   "ld": {
@@ -850,39 +936,6 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/millennial-mixtape-das-revival-der-nullerjahre-auf-3-floors-0/": {
-  "fetched": "2026-11-03T12:16:16+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Mainfloor: 'diefeder' (Millennial Pop-Mix)Loungefloor: Little A (00er R'n'B HipHop)Salonfloor: tba «Ist das noch Indie?!»  Wir bringen SexyBack! Am Samstag, den 14. Novomber, verwandelt sich unser kleiner Wohlfühlclub in das Epizentrum für pure Nullerjahre-Nostalgie. Mit dem „Millennial Mixtape“ feiern wir den Sound und das Lebensgefühl eines unvergesslich unbeschwerten Jahrzehnts.Drei Floors – Drei Welten Egal, welche Musikrichtung eure Jugend geprägt hat – auf dem „Millennial Mixtape“ finden alle ihre ganz persönlichen absoluten 00er Banger:• Mainflloor: Die Pop-Explosion mit 'diefeder'! – Hier regieren die Königinnen und Könige der Nullerjahre. Tanzt zu Britney Spears, den No Angels, Justin Timberlake, Shakira und der besten Kylie ever.• Radaufloor: \"Little A\" und sein Hip-Hop & R&B Mix – Hey Ya, willkommen In da Club! Fette Bässe und smoother Groove. Freut euch auf die Tracks von Eminem, 50 Cent, Beyoncé, Nelly und Usher.• Salon: Indie & Rock-Alternative selektiert von DJ Snacky Baba & DJ tba – «Ist das noch Indie?!» Wir sagen: Das ist Disco! Von Arctic Monkeys bis Whitney Houston, von Kraftklub bis Charli XCX und von Two Door Cinema Club bis Nina Chuba wird für alle etwas dabei sein! Die Hardfacts:• Event: Millennial Mixtape – Das Revival der Nullerjahre auf 3 Floors!• Wann: Samstag, 14. Novmeber 2026, ab 21:00 Uhr• Wo: Frannz Club (in der Kulturbrauerei), Schönhauser Allee 36, 10435 Berlin• Eintritt: Early Bird für 8,00 Euro (nur von 21:00 bis 22:00 Uhr und nur an der Abendkasse), danach regulär 12,00 Euro an der Abendkasse. Sichert euch euren Platz auf der Tanzfläche und spult mit uns das Mixtape eurer Jugend zurück!",
-   "endDate": "2026-11-15T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/dyghNqMTteDJHdV9BYbr_facebook-event-banner-mixtape-1411.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10435",
-     "streetAddress": "Schönhauser Allee 36"
-    },
-    "name": "frannz club berlin"
-   },
-   "name": "Millennial Mixtape- Das Revival der Nullerjahre auf 3 Floors!",
-   "offers": {
-    "@type": "Offer",
-    "price": "12.00",
-    "priceCurrency": "EUR",
-    "url": "https://shop.copilot.events/frannz/events/820df3ed-f0bf-4d98-ad28-aa2f26619ae6",
-    "validFrom": "2026-11-14T21:00+0100"
-   },
-   "startDate": "2026-11-14T21:00+0100"
-  }
- },
  "https://rausgegangen.de/events/rebel-yell-love-the-80s-28/": {
   "fetched": "2026-11-03T12:16:16+01:00",
   "ld": {
@@ -914,154 +967,6 @@
     "validFrom": "2026-11-06T21:00+0100"
    },
    "startDate": "2026-11-06T21:00+0100"
-  }
- },
- "https://rausgegangen.de/events/schall-rauch-slam-12/": {
-  "fetched": "2026-11-03T12:16:16+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Beim Schall & Rauch Slam verbinden Berliner Poetry Slammer:innen Schauspiel, Poesie und Stand-Up zu mitreißenden Performances. Die Bühne wird zum Ort, an dem Worte Formen annehmen und du hautnah erlebst, wer mit Kostüm und Requisite das Publikum beeindruckt 👀",
-   "endDate": "2026-11-11T21:15+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/nA80EFNVT8uMPOtHcLk3_2025schall-rauch-fotologo-cjonassamsonfotos-27.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10557",
-     "streetAddress": "Lehrter Straße 55"
-    },
-    "name": "Gravity Bar"
-   },
-   "name": "Schall & Rauch Slam",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": null,
-    "lowPrice": null,
-    "offerCount": 3,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Eintritt",
-      "price": "12.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Schwerbehindertenausweis B-Ticket (inkl. 1 Begleiter-Ticket)",
-      "price": "12.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Begleiterticket Schwerbehinderte",
-      "price": "0.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Kiezpoeten",
-    "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
-   },
-   "startDate": "2026-11-11T19:30+0100"
-  }
- },
- "https://rausgegangen.de/events/slam-der-jugend-17/": {
-  "fetched": "2026-11-03T12:16:16+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Der Poetry Slam für U22-Jährige im Atze Berlin, direkt an der Amrumer Straße Wedding.Ob nachdenkliche Lyrik oder lustige Stand-Up: Auf dieser Bühne ist alles erlaubt, was mit Worten gemacht werden kann. Es gelten die drei Regeln des Poetry Slam: 1. Nur selbstgeschriebene Texte 2. Keine Requisiten 3. Ein Zeitlimit, in diesem Fall von 5 Minuten. Die Besonderheit: Kein*e der Auftretenden ist über 22 Jahre alt. Die Line-Up Liste ist offen – du kannst dich also einfach vorher anmelden. Als der Nachwuchs-Slam unter den Kiezpoeten-Shows in Berlin richtet sich der “Poetry Slam der Jugend” vor allem an Jugendliche und junge Erwachsene. Eure Themen. Euer Stil. Als Zuschauer*in erwartet dich ein vielfältiges und abwechslungsreiches Line-Up mit Texten, die dir aus der Seele sprechen. Von Menschen, die dein Leben kennen. Nicht jeder Text wird auf das letzte Wort gefeilt und performativ perfektioniert sein. Aber dafür absolut authentisch.Besonders geeignet für Schulgruppen. --Bild: Timo Becker / Martin Kleingräber",
-   "endDate": "2026-11-04T20:30+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/a7j2Dd3RdaMeNLJ3jlQE_2025slam-der-jugend-fotologo-cjonassamsonfotos-27.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "13353",
-     "streetAddress": "Luxemburger Straße 20"
-    },
-    "name": "ATZE Musiktheater"
-   },
-   "name": "Slam der Jugend",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "8.50",
-    "lowPrice": "5.50",
-    "offerCount": 5,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "8.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Jugendliche",
-      "price": "6.95",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Schulgruppe ab 10 Personen",
-      "price": "5.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Schwerbehindertenausweis B-Ticket (inkl. 1 Begleiter-Ticket)",
-      "price": "6.95",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Begleiterticket Schwerbehinderte",
-      "price": "0.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "Kiezpoeten",
-     "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Newcomer Slams",
-     "url": "https://rausgegangen.de/organizations/p-newcomer-slams/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Slam der Jugend",
-     "url": "https://rausgegangen.de/organizations/p-slam-der-jugend/"
-    }
-   ],
-   "startDate": "2026-11-04T18:00+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {

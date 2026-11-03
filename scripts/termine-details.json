@@ -193,16 +193,16 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/amber-georgia-0/": {
-  "fetched": "2026-11-03T22:09:20+01:00",
+ "https://rausgegangen.de/events/bodies-baddies-nye-edition-0/": {
+  "fetched": "2026-11-03T23:07:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Orange im Glas und dahinter mehr als 60 Winzer:innen aus Georgien, die ihre Weine selbst mitbringen. Statt Messestress eher ein direkter Draht zu einer uralten Weintradition 👀",
-   "endDate": "2026-11-28T17:00+0100",
+   "description": "Wenn Du das Jahr queer und mit ordentlich Energie abschließen willst, klingt das hier ziemlich ideal: mehrere Floors, Shows direkt nach dem Countdown und ein Format, das klar aus der Community kommt. Für Queers, Girls, Gays, Theys, Lovers und Allies gedacht 👀",
+   "endDate": "2027-01-01T06:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/cIF9OMxVScGZqgIavWKV_amber-georgia-berlin-weine-aus-georgien-3.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/RqGvZn1mSD2O5uy0Wezo_rausgegangenbnbsasha-kopie2.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -210,25 +210,80 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10997",
-     "streetAddress": "Köpenicker Str. 16/17"
+     "postalCode": "10777",
+     "streetAddress": "Nollendorfplatz 5"
     },
-    "name": "Magazin in der Heeresbäckerei"
+    "name": "Metropol"
    },
-   "name": "Amber Georgia Low Intervention Wine Fair",
+   "name": "BODIES & BADDIES // NYE Party",
    "offers": {
     "@type": "AggregateOffer",
-    "highPrice": null,
-    "lowPrice": null,
-    "offerCount": 0,
-    "offers": [],
+    "highPrice": "85.40",
+    "lowPrice": "16.50",
+    "offerCount": 7,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Early Bird",
+      "price": "27.10",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Group Tickets First Wave",
+      "price": "32.40",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "First Wave",
+      "price": "37.70",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "VIP Tickets",
+      "price": "85.40",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Group Tickets Second Wave",
+      "price": "43.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Second Wave",
+      "price": "48.30",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Last Wave // Abendkasse",
+      "price": "52.54",
+      "priceCurrency": "EUR"
+     }
+    ],
     "priceCurrency": "EUR"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Ocean Eyes",
+    "url": "https://rausgegangen.de/organizations/ocean-eyes/"
    },
    "performer": {
     "@type": "PerformingGroup",
-    "name": "Amber Georgia Berlin"
+    "name": "Ocean"
    },
-   "startDate": "2026-11-28T11:00+0100"
+   "startDate": "2026-12-31T22:00+0100"
   }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
@@ -319,6 +374,61 @@
   "seen": "2026-10-20T15:24:41+02:00",
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
+ },
+ "https://rausgegangen.de/events/dani-lia-yola-gangsta-goren-tour-5/": {
+  "fetched": "2026-11-03T23:07:24+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Brav ist bei Dani Lia und yola offenbar gerade ausverkauft. Die beiden gehen zusammen auf Tour und setzen mit kompromisslosem Pop gegen Klischees und für eine andere Idee von Girlhood ein deutliches Zeichen 💅🏼",
+   "endDate": "2027-05-23T22:00+0200",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/oJ7jfUwKS46GCFI3YkfM_pressefoto1-janaabel.jpeg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10997",
+     "streetAddress": "Cuvrystr. 7"
+    },
+    "name": "Lido"
+   },
+   "name": "Dani Lia yola - GANGSTA GÖREN TOUR",
+   "offers": {
+    "@type": "Offer",
+    "price": "31.90",
+    "priceCurrency": "EUR",
+    "url": "https://chimperator-tickets.de/dani-lia",
+    "validFrom": "2027-05-23T19:00+0200"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "Angst Booking",
+     "url": "https://rausgegangen.de/organizations/angst-booking/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Chimperator Live GmbH - Touring",
+     "url": "https://rausgegangen.de/organizations/chimperator-live-gmbh-touring/"
+    }
+   ],
+   "performer": [
+    {
+     "@type": "PerformingGroup",
+     "name": "DANI LIA"
+    },
+    {
+     "@type": "PerformingGroup",
+     "name": "Yola"
+    }
+   ],
+   "startDate": "2027-05-23T19:00+0200"
+  }
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
   "fetched": "2026-11-03T17:16:45+01:00",
@@ -686,42 +796,77 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
- "https://rausgegangen.de/events/fiona-fiasco-0/": {
-  "fetched": "2026-11-03T22:09:20+01:00",
+ "https://rausgegangen.de/events/geheimkonzert-berlin-24-by-rausgegangen-0/": {
+  "fetched": "2026-11-03T23:07:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Da steht eine Band erst in der Lobby eines alten Hotels und im nächsten Moment auf einer Landstraße zwischen Wiese und Wald. Fiona Fiascos EP ist über anderthalb Jahre an sehr verschiedenen Orten zusammengekommen, und genau dieses schöne Verrutschen bleibt hängen 👀",
-   "endDate": "2027-04-08T22:30+0200",
+   "description": "Na Hallo! Es ist wieder so weit: Ein Abend voller Überraschung - denn wer auf der Bühne steht, bleibt bis zum ersten Ton geheim. Wir hatten schon Blond, Berq, Ennio, Futurebae, Jassin, Anais, Katha Pauer & viele mehr zu Gast – und das schon bevor sie die großen Bühnen der Nation gestürmt haben. Also entdecke die Stars von Morgen bei unseren Geheimkonzerten. 🪩",
+   "endDate": "2026-12-09T22:15+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/9gkLl9IRS4aHbQ1M9mSl_fiona-fiasco-georgia-spain.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/mO31iODjTCuFLVfQ493H_gk202516x9photoheadline-32-1.png"
    ],
    "location": {
     "@type": "Place",
     "address": {
      "@type": "PostalAddress",
      "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10119",
-     "streetAddress": "Schönhauser Allee 177b"
+     "addressLocality": "Berlin"
     },
-    "name": "8mm Bar"
+    "name": "Secret location"
    },
-   "name": "Fiona Fiasco",
+   "name": "Geheimkonzert Berlin #24 by Rausgegangen",
    "offers": {
-    "@type": "Offer",
-    "price": "15.00",
-    "priceCurrency": "EUR",
-    "url": "https://www.tixforgigs.com/Event/75587/fiona-fiasco-neue-zukunft-small-room-berlin",
-    "validFrom": "2027-04-08T20:00+0200"
+    "@type": "AggregateOffer",
+    "highPrice": "29.90",
+    "lowPrice": "24.50",
+    "offerCount": 4,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "SCHNAPPER",
+      "price": "22.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "REGULAR",
+      "price": "26.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "4er FRIENDS BUNDLE",
+      "price": "24.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Mitgegangen",
+      "price": "3.80",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
    },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Puschen",
-    "url": "https://rausgegangen.de/organizations/puschen/"
-   },
-   "startDate": "2027-04-08T20:00+0200"
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "Rausgegangen Geheimkonzerte",
+     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Rausgegangen Geheimkonzerte Berlin",
+     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte-3/"
+    }
+   ],
+   "startDate": "2026-12-09T20:00+0100"
   }
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
@@ -926,16 +1071,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/millennial-mixtape-das-revival-der-nullerjahre-auf-3-floors-0/": {
-  "fetched": "2026-11-03T21:12:20+01:00",
+ "https://rausgegangen.de/events/posts-reels-stories-fluchterfahrungen-aus-jugoslawien-im-net-0/": {
+  "fetched": "2026-11-03T23:07:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Mainfloor: 'diefeder' (Millennial Pop-Mix)Loungefloor: Little A (00er R'n'B HipHop)Salonfloor: tba «Ist das noch Indie?!»  Wir bringen SexyBack! Am Samstag, den 14. Novomber, verwandelt sich unser kleiner Wohlfühlclub in das Epizentrum für pure Nullerjahre-Nostalgie. Mit dem „Millennial Mixtape“ feiern wir den Sound und das Lebensgefühl eines unvergesslich unbeschwerten Jahrzehnts.Drei Floors – Drei Welten Egal, welche Musikrichtung eure Jugend geprägt hat – auf dem „Millennial Mixtape“ finden alle ihre ganz persönlichen absoluten 00er Banger:• Mainflloor: Die Pop-Explosion mit 'diefeder'! – Hier regieren die Königinnen und Könige der Nullerjahre. Tanzt zu Britney Spears, den No Angels, Justin Timberlake, Shakira und der besten Kylie ever.• Radaufloor: \"Little A\" und sein Hip-Hop & R&B Mix – Hey Ya, willkommen In da Club! Fette Bässe und smoother Groove. Freut euch auf die Tracks von Eminem, 50 Cent, Beyoncé, Nelly und Usher.• Salon: Indie & Rock-Alternative selektiert von DJ Snacky Baba & DJ tba – «Ist das noch Indie?!» Wir sagen: Das ist Disco! Von Arctic Monkeys bis Whitney Houston, von Kraftklub bis Charli XCX und von Two Door Cinema Club bis Nina Chuba wird für alle etwas dabei sein! Die Hardfacts:• Event: Millennial Mixtape – Das Revival der Nullerjahre auf 3 Floors!• Wann: Samstag, 14. Novmeber 2026, ab 21:00 Uhr• Wo: Frannz Club (in der Kulturbrauerei), Schönhauser Allee 36, 10435 Berlin• Eintritt: Early Bird für 8,00 Euro (nur von 21:00 bis 22:00 Uhr und nur an der Abendkasse), danach regulär 12,00 Euro an der Abendkasse. Sichert euch euren Platz auf der Tanzfläche und spult mit uns das Mixtape eurer Jugend zurück!",
-   "endDate": "2026-11-15T05:00+0100",
+   "description": "TikTok, Instagram, Podcasts & Co. eröffnen neue Räume für Stimmen, die in klassischen Medien oft wenig Gehör finden. Menschen mit jugoslawischer Fluchtgeschichte teilen Erinnerungen, erklären den Krieg, Flucht und Vertreibung und sprechen über Folgen, die über Generationen weiterwirken. Doch wo Chancen für Sichtbarkeit und Austausch entstehen, verbreiten sich auch Desinformation und nationalistische Narrative. Wann werden soziale Medien zu einem Ort der Solidarität und wo beginnt die Gefahr?PROGRAMM Begrüßung Dr. Roland Borchers, Direktor, Dokumentationszentrum Flucht, Vertreibung, Versöhnung, BerlinGesprächFata Hasanović, InfluencerinKrsto Lazarević, Journalist und Podcaster „Neues vom Ballaballa-Balkan“Dr. Eva Tamara Asboth, Postdoc, Österreichische Akademie der Wissenschaften, WienModeration: Simone Gaul, Journalistin und Podcasterin „Die Zeit“ Im Anschluss laden wir Sie zu einem kleinen Empfang ein.   WEITERE HINWEISEEinlass: 18.00 UhrSprache: DeutschEINTRITT FREI Die Veranstaltung wird aufgezeichnet und auf unserem YouTube-Kanal Flucht, Vertreibung, Versöhnung veröffentlicht.Eine Veranstaltung im Rahmen der Veranstaltungsreihe \"Zerfallen. Geflohen. Angekommen? Erfahrungen aus Bosnien und Herzegowina\"Eine Veranstaltung von: Dokumentationszentrum Flucht, Vertreibung, Versöhnung · Bundeszentrale für politische Bildung",
+   "endDate": "2026-11-11T20:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/dyghNqMTteDJHdV9BYbr_facebook-event-banner-mixtape-1411.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/tRzV17PhR0y1Q7XSYcZf_2025-sfvvdokuzentrumsrebrenicaveranstaltungsfotosgrafikladenfoto-nihad-nino-pusija.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -943,32 +1088,37 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10435",
-     "streetAddress": "Schönhauser Allee 36"
+     "postalCode": "10963",
+     "streetAddress": "Stresemannstraße 90"
     },
-    "name": "frannz club berlin"
+    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
    },
-   "name": "Millennial Mixtape- Das Revival der Nullerjahre auf 3 Floors!",
+   "name": "Posts, Reels, Stories – Fluchterfahrungen aus Jugoslawien im Netz",
    "offers": {
     "@type": "Offer",
-    "price": "12.00",
+    "price": "0.00",
     "priceCurrency": "EUR",
-    "url": "https://shop.copilot.events/frannz/events/820df3ed-f0bf-4d98-ad28-aa2f26619ae6",
-    "validFrom": "2026-11-14T21:00+0100"
+    "url": "https://buchungen.flucht-vertreibung-versoehnung.de/de/tickets/109",
+    "validFrom": "2026-11-11T18:30+0100"
    },
-   "startDate": "2026-11-14T21:00+0100"
+   "organizer": {
+    "@type": "Organization",
+    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung",
+    "url": "https://rausgegangen.de/organizations/dokumentationszentrum-flucht-vertreibung-versohnung/"
+   },
+   "startDate": "2026-11-11T18:30+0100"
   }
  },
- "https://rausgegangen.de/events/ostberlin-poetry-slam-12/": {
-  "fetched": "2026-11-03T22:09:20+01:00",
+ "https://rausgegangen.de/events/schall-rauch-slam-12/": {
+  "fetched": "2026-11-03T23:07:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "ist das kalt da draußen! Wäre es nicht viel schöner, sich jetzt in einen wohlig-warmen Kinosessel fallen zu lassen, und sich von warmen Wörtern, heißen Zeilen und kuscheligen Reimen unterhalten zu lassen? Der Ostberlin Poetry Slam versüßt euch die Wintertage, wie stets mit Poeten, Comedians und Erzählerinnen von nah und fern. Das ist ganz großes Kino! Also, der Alte Saal vom Union Kino eben. Mit Gedichten, Humor und Geschichten, die dein Herz so genug erwärmen, um dich durch den Winter zu bringen!",
-   "endDate": "2026-11-05T22:30+0100",
+   "description": "Beim Schall & Rauch Slam verbinden Berliner Poetry Slammer:innen Schauspiel, Poesie und Stand-Up zu mitreißenden Performances. Die Bühne wird zum Ort, an dem Worte Formen annehmen und du hautnah erlebst, wer mit Kostüm und Requisite das Publikum beeindruckt 👀",
+   "endDate": "2026-11-11T21:15+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/PpmVlfaPQVG79z3jsY0A_ostberlinslamvabild.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/nA80EFNVT8uMPOtHcLk3_2025schall-rauch-fotologo-cjonassamsonfotos-27.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -976,37 +1126,30 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "12587",
-     "streetAddress": "Bölschestraße 69"
+     "postalCode": "10557",
+     "streetAddress": "Lehrter Straße 55"
     },
-    "name": "Kino UNION"
+    "name": "Gravity Bar"
    },
-   "name": "Ostberlin Poetry Slam",
+   "name": "Schall & Rauch Slam",
    "offers": {
     "@type": "AggregateOffer",
-    "highPrice": "14.90",
-    "lowPrice": "12.90",
-    "offerCount": 4,
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 3,
     "offers": [
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "14.90",
+      "name": "Eintritt",
+      "price": "12.00",
       "priceCurrency": "EUR"
      },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "Ermäßigt",
-      "price": "12.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Schwerbehindertenausweis B-Ticket",
-      "price": "12.90",
+      "name": "Schwerbehindertenausweis B-Ticket (inkl. 1 Begleiter-Ticket)",
+      "price": "12.00",
       "priceCurrency": "EUR"
      },
      {
@@ -1024,7 +1167,7 @@
     "name": "Kiezpoeten",
     "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
    },
-   "startDate": "2026-11-05T20:15+0100"
+   "startDate": "2026-11-11T19:30+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
@@ -1066,16 +1209,16 @@
   },
   "seen": "2026-10-31T02:26:10+01:00"
  },
- "https://rausgegangen.de/events/social-reading-club-3-1/": {
-  "fetched": "2026-11-03T22:09:20+01:00",
+ "https://rausgegangen.de/events/wedding-slam-royale-jahresfinale-1/": {
+  "fetched": "2026-11-03T23:07:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Das Handy bleibt draußen, das Buch nicht. Beim Social Reading Club liest Du ganz entspannt mit anderen zusammen und kannst danach einfach weitermachen, wenn Du magst 👀",
-   "endDate": "2026-11-17T20:00+0100",
+   "description": "Der Best-Of Poetry Slam im schicksten Ballhaus der Stadt. Wir werfen uns in Schale und bringen ein fein ausgewähltes Lineup aus Poetry Slam, Comedy und Bühnenliteratur in den Wedding. Das ist Poetry Slam für alle, die Hochkultur wollen - aber in höchst unterhaltsam! Nur die besten Slammer:innen kommen auf diese Bühne, auf dass du dich für anderthalb Stunden ganz und gar fallen lassen kannst. Mit einem Sektglas auf der Chaiselongue, für den perfekten Sonntagabend.   ----- Bild: Timo Becker / Martin Kleingräber",
+   "endDate": "2026-11-15T21:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/5y41L6DFQ2uwqonGQ2L4_gk202516x9photoheadline-53-1.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/GDkIYgNR7rNBzEBLVMkA_2025wedding-royale-fotologo-cjonassamsonfotos-27.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -1083,57 +1226,62 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10625",
-     "streetAddress": "Kantstraße 127"
+     "postalCode": "13359",
+     "streetAddress": "Wriezener Str. 6"
     },
-    "name": "Dufte Berlin"
+    "name": "Ballhaus Wedding"
    },
-   "name": "Social Reading Club #3",
+   "name": "Wedding Slam Royale: Jahresfinale",
    "offers": {
-    "@type": "Offer",
-    "price": "0.00",
-    "priceCurrency": "EUR",
-    "validFrom": "2026-11-17T18:30+0100"
+    "@type": "AggregateOffer",
+    "highPrice": "26.70",
+    "lowPrice": "9.90",
+    "offerCount": 5,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "16.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Ermäßigt",
+      "price": "9.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Sofaticket inkl 1 Freisekt",
+      "price": "26.70",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Schwerbehindertenausweis B-Ticket",
+      "price": "9.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Begleiterticket Schwerbehinderte",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
    },
    "organizer": {
     "@type": "Organization",
-    "name": "Social Reading Club",
-    "url": "https://rausgegangen.de/organizations/social-reading-club/"
+    "name": "Kiezpoeten",
+    "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
    },
-   "startDate": "2026-11-17T18:30+0100"
-  }
- },
- "https://rausgegangen.de/events/tommy-lefroy-5/": {
-  "fetched": "2026-11-03T22:09:20+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Nicht nur Gitarren, sondern auch Gespräche: Tommy Lefroy organisieren bei ihren Konzerten sogar Büchertausch, während ihre Songs von Unsicherheit und Selbstbestimmung erzählen. Persönlich und politisch zugleich 💜",
-   "endDate": "2027-02-12T23:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/87oYVgOTBOqOv8rlX18B_photo-tommy-lefroycredit-brendon-burton-kopie.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10179",
-     "streetAddress": "Holzmarktstraße 15-18"
-    },
-    "name": "LARK"
-   },
-   "name": "Tommy Lefroy",
-   "offers": {
-    "@type": "Offer",
-    "price": "25.00",
-    "priceCurrency": "EUR",
-    "url": "https://www.eventim.de/artist/tommy-lefroy/",
-    "validFrom": "2027-02-12T19:00+0100"
-   },
-   "startDate": "2027-02-12T19:00+0100"
+   "startDate": "2026-11-15T19:30+0100"
   }
  }
 }

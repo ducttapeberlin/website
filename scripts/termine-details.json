@@ -193,6 +193,92 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/bodies-baddies-nye-edition-0/": {
+  "fetched": "2026-11-03T02:30:05+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Wenn Du das Jahr queer und mit ordentlich Energie abschließen willst, klingt das hier ziemlich ideal: mehrere Floors, Shows direkt nach dem Countdown und ein Format, das klar aus der Community kommt. Für Queers, Girls, Gays, Theys, Lovers und Allies gedacht 👀",
+   "endDate": "2027-01-01T06:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/RqGvZn1mSD2O5uy0Wezo_rausgegangenbnbsasha-kopie2.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10777",
+     "streetAddress": "Nollendorfplatz 5"
+    },
+    "name": "Metropol"
+   },
+   "name": "BODIES & BADDIES // NYE Party",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "85.40",
+    "lowPrice": "16.50",
+    "offerCount": 6,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Early Bird",
+      "price": "27.10",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Group Tickets First Wave",
+      "price": "32.40",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "First Wave",
+      "price": "37.70",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Group Tickets Second Wave",
+      "price": "43.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Second Wave",
+      "price": "48.30",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Last Wave",
+      "price": "52.54",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Ocean Eyes",
+    "url": "https://rausgegangen.de/organizations/ocean-eyes/"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Ocean"
+   },
+   "startDate": "2026-12-31T22:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
   "fetched": "2026-11-02T23:01:04+01:00",
   "ld": {
@@ -648,79 +734,6 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
- "https://rausgegangen.de/events/geheimkonzert-berlin-24-by-rausgegangen-0/": {
-  "fetched": "2026-11-02T23:01:04+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Na Hallo! Es ist wieder so weit: Ein Abend voller Überraschung - denn wer auf der Bühne steht, bleibt bis zum ersten Ton geheim. Wir hatten schon Blond, Berq, Ennio, Futurebae, Jassin, Anais, Katha Pauer & viele mehr zu Gast – und das schon bevor sie die großen Bühnen der Nation gestürmt haben. Also entdecke die Stars von Morgen bei unseren Geheimkonzerten. 🪩",
-   "endDate": "2026-12-09T22:15+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/mO31iODjTCuFLVfQ493H_gk202516x9photoheadline-32-1.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin"
-    },
-    "name": "Secret location"
-   },
-   "name": "Geheimkonzert Berlin #24 by Rausgegangen",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "29.90",
-    "lowPrice": "24.50",
-    "offerCount": 4,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "EARLY BIRD",
-      "price": "21.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "REGULAR",
-      "price": "26.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "4er FRIENDS BUNDLE",
-      "price": "22.25",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Mitgegangen",
-      "price": "3.80",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "Rausgegangen Geheimkonzerte",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Rausgegangen Geheimkonzerte Berlin",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte-3/"
-    }
-   ],
-   "startDate": "2026-12-09T20:00+0100"
-  }
- },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
   "fetched": "2026-11-02T23:01:04+01:00",
   "ld": {
@@ -923,16 +936,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/rebel-yell-love-the-80s-28/": {
-  "fetched": "2026-11-03T00:54:45+01:00",
+ "https://rausgegangen.de/events/la-kiffance-2/": {
+  "fetched": "2026-11-03T02:30:05+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Mainfloor: DJ Hey, my Commander (Synthie Pop, New Wave, NDW)Radaufloor: RadioRadau (Dark Side of the 80s)Salon: 'diefeder' (Dance Hits the 80s)Wie an jedem ersten Freitag entführen wir euch auch im November in die Welt der 80er Jahre: Hits und heimliche Hymnen dieses Jahrzehnts stehen auf den Floors der Rebel Yell auf dem Plan. Hey, my Commander sortiert dabei Synthie Pop, New Wave und NDW. RadioRadau nimmt sich derweilen auf dem Radaufloor die Dark Side of the 80s vor, hinzu kommt der Salon, wo die größen Dancehits unseres Lieblingsjahrzehnts zelebriert werden.",
-   "endDate": "2026-11-07T05:00+0100",
+   "description": "LA KIFFANCE | 13.11 | MAAYA BerlinFrench rap lovers, Caribbean music heads and everyone who’s been waiting for a proper night out: La Kiffance is back at MAAYA on Friday, 13 November. Expect French rap, Afro R&B, Shatta, Bouyon, Afrotrap and Kompa, with sounds from France, Africa and the Caribbean sharing one dancefloor. From anthems you know word for word to tracks that send you straight to the DJ booth asking for the name, there’s plenty to keep you moving. Come with your crew or come ready to meet new people. Whether you’re here to shout every lyric, dance close or lose yourself in the bass, there’s a place for you. You don’t need to speak French to get into it. La Kiffance is all about enjoying yourself, and we’re giving you a whole night to do exactly that. Get your tickets, send the link to the group chat and meet us on the dancefloor. 📍 MAAYA Berlin | Revaler Str. 99, 10245 Berlin 📅 Friday, 13 November 2026 C’est la kiffance!",
+   "endDate": "2026-11-14T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/0duTvuueRJOhzmTZPDd8_rebel-im-november.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/HBnj8GjBRlCGaB0cNs4N_feed-2.png"
    ],
    "location": {
     "@type": "Place",
@@ -940,20 +953,187 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10435",
-     "streetAddress": "Schönhauser Allee 36"
+     "postalCode": "10245",
+     "streetAddress": "Revaler Straße 99"
     },
-    "name": "frannz club berlin"
+    "name": "MAAYA"
    },
-   "name": "Rebel Yell- Love the 80s",
+   "name": "La Kiffance",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 0,
+    "offers": [],
+    "priceCurrency": "EUR"
+   },
+   "startDate": "2026-11-13T22:30+0100"
+  }
+ },
+ "https://rausgegangen.de/events/ostberlin-poetry-slam-12/": {
+  "fetched": "2026-11-03T02:30:05+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "ist das kalt da draußen! Wäre es nicht viel schöner, sich jetzt in einen wohlig-warmen Kinosessel fallen zu lassen, und sich von warmen Wörtern, heißen Zeilen und kuscheligen Reimen unterhalten zu lassen? Der Ostberlin Poetry Slam versüßt euch die Wintertage, wie stets mit Poeten, Comedians und Erzählerinnen von nah und fern. Das ist ganz großes Kino! Also, der Alte Saal vom Union Kino eben. Mit Gedichten, Humor und Geschichten, die dein Herz so genug erwärmen, um dich durch den Winter zu bringen!",
+   "endDate": "2026-11-05T22:30+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/PpmVlfaPQVG79z3jsY0A_ostberlinslamvabild.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "12587",
+     "streetAddress": "Bölschestraße 69"
+    },
+    "name": "Kino UNION"
+   },
+   "name": "Ostberlin Poetry Slam",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "14.90",
+    "lowPrice": "12.90",
+    "offerCount": 4,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "14.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Ermäßigt",
+      "price": "12.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Schwerbehindertenausweis B-Ticket",
+      "price": "12.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Begleiterticket Schwerbehinderte",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Kiezpoeten",
+    "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
+   },
+   "startDate": "2026-11-05T20:15+0100"
+  }
+ },
+ "https://rausgegangen.de/events/schall-rauch-slam-12/": {
+  "fetched": "2026-11-03T02:30:05+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Beim Schall & Rauch Slam verbinden Berliner Poetry Slammer:innen Schauspiel, Poesie und Stand-Up zu mitreißenden Performances. Die Bühne wird zum Ort, an dem Worte Formen annehmen und du hautnah erlebst, wer mit Kostüm und Requisite das Publikum beeindruckt 👀",
+   "endDate": "2026-11-11T21:15+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/nA80EFNVT8uMPOtHcLk3_2025schall-rauch-fotologo-cjonassamsonfotos-27.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10557",
+     "streetAddress": "Lehrter Straße 55"
+    },
+    "name": "Gravity Bar"
+   },
+   "name": "Schall & Rauch Slam",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 3,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Eintritt",
+      "price": "12.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Schwerbehindertenausweis B-Ticket (inkl. 1 Begleiter-Ticket)",
+      "price": "12.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Begleiterticket Schwerbehinderte",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Kiezpoeten",
+    "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
+   },
+   "startDate": "2026-11-11T19:30+0100"
+  }
+ },
+ "https://rausgegangen.de/events/skuppin-musee-sentimental-tour-2027-10/": {
+  "fetched": "2026-11-03T02:30:05+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Kühle Synths, düstere Bässe, und dann diese Stimme, die plötzlich mehr Druck hat, als man erst denkt. SKUPPIN bringt auf der Musée Sentimental Tour neuen Stoff mit und steht live nicht allein auf der Bühne 👀",
+   "endDate": "2027-11-26T22:30+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Y4GElzxUQ8avCC0sjfVr_pressefotoskuppinstellawei00edit.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10997",
+     "streetAddress": "Skalitzer Strasse 85-86"
+    },
+    "name": "Privatclub Berlin"
+   },
+   "name": "SKUPPIN - \"Musée Sentimental\" Tour 2027",
    "offers": {
     "@type": "Offer",
-    "price": "10.00",
+    "price": 0,
     "priceCurrency": "EUR",
-    "url": "https://shop.copilot.events/frannz/events/1cc02bcc-643d-4267-91dc-22e55c422b9e",
-    "validFrom": "2026-11-06T21:00+0100"
+    "url": "https://loveyourartist.com/de/profiles/skuppin-YAJ7YR/events",
+    "validFrom": "2027-11-26T20:00+0100"
    },
-   "startDate": "2026-11-06T21:00+0100"
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "SKUPPIN"
+   },
+   "startDate": "2027-11-26T20:00+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {

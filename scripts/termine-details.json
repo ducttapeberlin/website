@@ -850,16 +850,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/most-wanted-music-club-festival-1/": {
-  "fetched": "2026-11-04T02:29:20+01:00",
+ "https://rausgegangen.de/events/late-night-cult-movies-november-dont-look-now-wenn-die-gonde-0/": {
+  "fetched": "2026-11-04T04:11:37+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Kein großer Name, auf den alle warten, sondern mehr als 40 Acts, die Du vielleicht erst später überall hörst. Am Ende kippt das Ganze sogar in eine offene Jam Session, bei der auch Leute aus dem Publikum mitmachen können 👀",
-   "endDate": "2026-11-05T23:45+0100",
+   "description": "Venedig sieht selten so unromantisch aus: Nicolas Roegs Film von 1973 schickt ein trauerndes Ehepaar durch Gassen, in denen die Wirklichkeit kippt. Vor allem das Ende hat sich tief in die Filmgeschichte geschrieben 🍿",
+   "endDate": "2026-11-28T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/sWyu3FVSH6doXGdOWd4g_club-festival-online-banner-1920-x-1080-px.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/CblhS5QSBaQZsj1hXOk8_dont-look-now5cf7d6.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -867,25 +867,65 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10245",
-     "streetAddress": "Revaler Str. 99"
+     "postalCode": "10405",
+     "streetAddress": "Prenzlauer Allee 80"
     },
-    "name": "RAW-Gelände"
+    "name": "Zeiss-Großplanetarium"
    },
-   "name": "Most Wanted: Music Club Festival",
+   "name": "»Late Night Cult Movies« November: Don't Look Now – Wenn die Gondeln Trauer tragen",
    "offers": {
     "@type": "Offer",
-    "price": "25.00",
+    "price": "7.00",
     "priceCurrency": "EUR",
-    "url": "https://mwm-berlin.reservix.de/tickets-most-wanted-music-club-festival-in-berlin-raw-gelaende-am-4-11-2026/e2583600",
-    "validFrom": "2026-11-04T17:00+0100"
+    "url": "https://www.planetarium.berlin/kino/dont-look-now-wenn-die-gondeln-trauer-tragen",
+    "validFrom": "2026-11-27T22:15+0100"
    },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Berlin Music Commission eG",
-    "url": "https://rausgegangen.de/organizations/page-for-team-berlin-music-commission-eg/"
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "»Late Night Cult Movies«",
+     "url": "https://rausgegangen.de/organizations/late-night-cult-movies/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Stiftung Planetarium Berlin",
+     "url": "https://rausgegangen.de/organizations/stiftung-planetarium-berlin-1/"
+    }
+   ],
+   "startDate": "2026-11-27T22:15+0100"
+  }
+ },
+ "https://rausgegangen.de/events/millennial-mixtape-das-revival-der-nullerjahre-auf-3-floors-0/": {
+  "fetched": "2026-11-04T04:11:37+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Mainfloor: 'diefeder' (Millennial Pop-Mix)Loungefloor: Little A (00er R'n'B HipHop)Salonfloor: tba «Ist das noch Indie?!»  Wir bringen SexyBack! Am Samstag, den 14. Novomber, verwandelt sich unser kleiner Wohlfühlclub in das Epizentrum für pure Nullerjahre-Nostalgie. Mit dem „Millennial Mixtape“ feiern wir den Sound und das Lebensgefühl eines unvergesslich unbeschwerten Jahrzehnts.Drei Floors – Drei Welten Egal, welche Musikrichtung eure Jugend geprägt hat – auf dem „Millennial Mixtape“ finden alle ihre ganz persönlichen absoluten 00er Banger:• Mainflloor: Die Pop-Explosion mit 'diefeder'! – Hier regieren die Königinnen und Könige der Nullerjahre. Tanzt zu Britney Spears, den No Angels, Justin Timberlake, Shakira und der besten Kylie ever.• Radaufloor: \"Little A\" und sein Hip-Hop & R&B Mix – Hey Ya, willkommen In da Club! Fette Bässe und smoother Groove. Freut euch auf die Tracks von Eminem, 50 Cent, Beyoncé, Nelly und Usher.• Salon: Indie & Rock-Alternative selektiert von DJ Snacky Baba & DJ tba – «Ist das noch Indie?!» Wir sagen: Das ist Disco! Von Arctic Monkeys bis Whitney Houston, von Kraftklub bis Charli XCX und von Two Door Cinema Club bis Nina Chuba wird für alle etwas dabei sein! Die Hardfacts:• Event: Millennial Mixtape – Das Revival der Nullerjahre auf 3 Floors!• Wann: Samstag, 14. Novmeber 2026, ab 21:00 Uhr• Wo: Frannz Club (in der Kulturbrauerei), Schönhauser Allee 36, 10435 Berlin• Eintritt: Early Bird für 8,00 Euro (nur von 21:00 bis 22:00 Uhr und nur an der Abendkasse), danach regulär 12,00 Euro an der Abendkasse. Sichert euch euren Platz auf der Tanzfläche und spult mit uns das Mixtape eurer Jugend zurück!",
+   "endDate": "2026-11-15T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/dyghNqMTteDJHdV9BYbr_facebook-event-banner-mixtape-1411.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10435",
+     "streetAddress": "Schönhauser Allee 36"
+    },
+    "name": "frannz club berlin"
    },
-   "startDate": "2026-11-04T17:00+0100"
+   "name": "Millennial Mixtape- Das Revival der Nullerjahre auf 3 Floors!",
+   "offers": {
+    "@type": "Offer",
+    "price": "12.00",
+    "priceCurrency": "EUR",
+    "url": "https://shop.copilot.events/frannz/events/820df3ed-f0bf-4d98-ad28-aa2f26619ae6",
+    "validFrom": "2026-11-14T21:00+0100"
+   },
+   "startDate": "2026-11-14T21:00+0100"
   }
  },
  "https://rausgegangen.de/events/posts-reels-stories-fluchterfahrungen-aus-jugoslawien-im-net-0/": {
@@ -926,6 +966,43 @@
    "startDate": "2026-11-11T18:30+0100"
   }
  },
+ "https://rausgegangen.de/events/skuppin-musee-sentimental-tour-2027-10/": {
+  "fetched": "2026-11-04T04:11:37+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Kühle Synths, düstere Bässe, und dann diese Stimme, die plötzlich mehr Druck hat, als man erst denkt. SKUPPIN bringt auf der Musée Sentimental Tour neuen Stoff mit und steht live nicht allein auf der Bühne 👀",
+   "endDate": "2027-11-26T22:30+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Y4GElzxUQ8avCC0sjfVr_pressefotoskuppinstellawei00edit.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10997",
+     "streetAddress": "Skalitzer Strasse 85-86"
+    },
+    "name": "Privatclub Berlin"
+   },
+   "name": "SKUPPIN - \"Musée Sentimental\" Tour 2027",
+   "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "EUR",
+    "url": "https://loveyourartist.com/de/profiles/skuppin-YAJ7YR/events",
+    "validFrom": "2027-11-26T20:00+0100"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "SKUPPIN"
+   },
+   "startDate": "2027-11-26T20:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
   "fetched": "2026-11-04T00:05:08+01:00",
   "ld": {
@@ -964,42 +1041,5 @@
    "startDate": "2026-12-19T19:30+0100"
   },
   "seen": "2026-10-31T02:26:10+01:00"
- },
- "https://rausgegangen.de/events/speak-up-inline-x-stories-of-her-with-x-tin-degen-oneyra-lin-0/": {
-  "fetched": "2026-11-04T02:29:20+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Erst reden, dann tanzen: Die Party feiert den sechsten Geburtstag von Stories of Her, einem Projekt, das anonyme Erfahrungen mit Sexismus, Belästigung und sexualisierter Gewalt sichtbar macht. Später kippt der Abend in elektronische Sets von X Tin, degen, Ôneyra, Linda shiro und mehr 🌈",
-   "endDate": "2026-11-15T06:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/07IK7lgPQpK2XrMjwDQC_postv1.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10245",
-     "streetAddress": "Revaler Str. 99"
-    },
-    "name": "Crack Bellmer"
-   },
-   "name": "SPEAK UP Inline x Stories of Her with X Tin, degen, Ôneyra, Linda shiro & many more",
-   "offers": {
-    "@type": "Offer",
-    "price": "10.00",
-    "priceCurrency": "EUR",
-    "validFrom": "2026-11-14T17:30+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Inline",
-    "url": "https://rausgegangen.de/organizations/inline/"
-   },
-   "startDate": "2026-11-14T17:30+0100"
-  }
  }
 }

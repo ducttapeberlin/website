@@ -282,6 +282,80 @@
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/donata-strength-release-concert-0/": {
+  "fetched": "2026-11-04T23:07:36+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Zwischen Neuanfang und Rücken gerade machen liegen bei Donata nur ein paar Songs. Sie bringt ihre neue EP Strength mit kompletter Band auf die Bühne und lädt zu einem Abend ein, der eher nach echtem Miteinander klingt als nach bloßem Konzert 💜",
+   "endDate": "2026-11-12T23:30+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Td7PmoF3RX6i3YmuX3OA_2.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10117",
+     "streetAddress": "Auguststraße 24"
+    },
+    "name": "Spiegelsaal | Clärchens Ballhaus"
+   },
+   "name": "Donata - \"Strength\" Release Concert",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "30.00",
+    "lowPrice": "21.80",
+    "offerCount": 5,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Soli-Ticket",
+      "price": "21.80",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regular",
+      "price": "27.10",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Supporter",
+      "price": "32.40",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Friends & Family",
+      "price": "16.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Guestlist",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Donata"
+   },
+   "startDate": "2026-11-12T19:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
   "fetched": "2026-11-04T19:11:25+01:00",
   "ld": {
@@ -850,16 +924,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/late-night-cult-movies-november-dont-look-now-wenn-die-gonde-0/": {
-  "fetched": "2026-11-04T18:16:42+01:00",
+ "https://rausgegangen.de/events/posts-reels-stories-fluchterfahrungen-aus-jugoslawien-im-net-0/": {
+  "fetched": "2026-11-04T23:07:36+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Venedig sieht selten so unromantisch aus: Nicolas Roegs Film von 1973 schickt ein trauerndes Ehepaar durch Gassen, in denen die Wirklichkeit kippt. Vor allem das Ende hat sich tief in die Filmgeschichte geschrieben 🍿",
-   "endDate": "2026-11-28T05:00+0100",
+   "description": "TikTok, Instagram, Podcasts & Co. eröffnen neue Räume für Stimmen, die in klassischen Medien oft wenig Gehör finden. Menschen mit jugoslawischer Fluchtgeschichte teilen Erinnerungen, erklären den Krieg, Flucht und Vertreibung und sprechen über Folgen, die über Generationen weiterwirken. Doch wo Chancen für Sichtbarkeit und Austausch entstehen, verbreiten sich auch Desinformation und nationalistische Narrative. Wann werden soziale Medien zu einem Ort der Solidarität und wo beginnt die Gefahr?PROGRAMM Begrüßung Dr. Roland Borchers, Direktor, Dokumentationszentrum Flucht, Vertreibung, Versöhnung, BerlinGesprächFata Hasanović, InfluencerinKrsto Lazarević, Journalist und Podcaster „Neues vom Ballaballa-Balkan“Dr. Eva Tamara Asboth, Postdoc, Österreichische Akademie der Wissenschaften, WienModeration: Simone Gaul, Journalistin und Podcasterin „Die Zeit“ Im Anschluss laden wir Sie zu einem kleinen Empfang ein.   WEITERE HINWEISEEinlass: 18.00 UhrSprache: DeutschEINTRITT FREI Die Veranstaltung wird aufgezeichnet und auf unserem YouTube-Kanal Flucht, Vertreibung, Versöhnung veröffentlicht.Eine Veranstaltung im Rahmen der Veranstaltungsreihe \"Zerfallen. Geflohen. Angekommen? Erfahrungen aus Bosnien und Herzegowina\"Eine Veranstaltung von: Dokumentationszentrum Flucht, Vertreibung, Versöhnung · Bundeszentrale für politische Bildung",
+   "endDate": "2026-11-11T20:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/CblhS5QSBaQZsj1hXOk8_dont-look-now5cf7d6.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/tRzV17PhR0y1Q7XSYcZf_2025-sfvvdokuzentrumsrebrenicaveranstaltungsfotosgrafikladenfoto-nihad-nino-pusija.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -867,32 +941,156 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10405",
-     "streetAddress": "Prenzlauer Allee 80"
+     "postalCode": "10963",
+     "streetAddress": "Stresemannstraße 90"
     },
-    "name": "Zeiss-Großplanetarium"
+    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
    },
-   "name": "»Late Night Cult Movies« November: Don't Look Now – Wenn die Gondeln Trauer tragen",
+   "name": "Posts, Reels, Stories – Fluchterfahrungen aus Jugoslawien im Netz",
    "offers": {
     "@type": "Offer",
-    "price": "7.00",
+    "price": "0.00",
     "priceCurrency": "EUR",
-    "url": "https://www.planetarium.berlin/kino/dont-look-now-wenn-die-gondeln-trauer-tragen",
-    "validFrom": "2026-11-27T22:15+0100"
+    "url": "https://buchungen.flucht-vertreibung-versoehnung.de/de/tickets/109",
+    "validFrom": "2026-11-11T18:30+0100"
    },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "»Late Night Cult Movies«",
-     "url": "https://rausgegangen.de/organizations/late-night-cult-movies/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Stiftung Planetarium Berlin",
-     "url": "https://rausgegangen.de/organizations/stiftung-planetarium-berlin-1/"
-    }
+   "organizer": {
+    "@type": "Organization",
+    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung",
+    "url": "https://rausgegangen.de/organizations/dokumentationszentrum-flucht-vertreibung-versohnung/"
+   },
+   "startDate": "2026-11-11T18:30+0100"
+  }
+ },
+ "https://rausgegangen.de/events/rebel-yell-love-the-80s-28/": {
+  "fetched": "2026-11-04T23:07:36+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Mainfloor: DJ Hey, my Commander (Synthie Pop, New Wave, NDW)Radaufloor: RadioRadau (Dark Side of the 80s)Salon: 'diefeder' (Dance Hits the 80s)Wie an jedem ersten Freitag entführen wir euch auch im November in die Welt der 80er Jahre: Hits und heimliche Hymnen dieses Jahrzehnts stehen auf den Floors der Rebel Yell auf dem Plan. Hey, my Commander sortiert dabei Synthie Pop, New Wave und NDW. RadioRadau nimmt sich derweilen auf dem Radaufloor die Dark Side of the 80s vor, hinzu kommt der Salon, wo die größen Dancehits unseres Lieblingsjahrzehnts zelebriert werden.",
+   "endDate": "2026-11-07T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/0duTvuueRJOhzmTZPDd8_rebel-im-november.jpg"
    ],
-   "startDate": "2026-11-27T22:15+0100"
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10435",
+     "streetAddress": "Schönhauser Allee 36"
+    },
+    "name": "frannz club berlin"
+   },
+   "name": "Rebel Yell- Love the 80s",
+   "offers": {
+    "@type": "Offer",
+    "price": "10.00",
+    "priceCurrency": "EUR",
+    "url": "https://shop.copilot.events/frannz/events/1cc02bcc-643d-4267-91dc-22e55c422b9e",
+    "validFrom": "2026-11-06T21:00+0100"
+   },
+   "startDate": "2026-11-06T21:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/schall-rauch-slam-12/": {
+  "fetched": "2026-11-04T23:07:36+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Beim Schall & Rauch Slam verbinden Berliner Poetry Slammer:innen Schauspiel, Poesie und Stand-Up zu mitreißenden Performances. Die Bühne wird zum Ort, an dem Worte Formen annehmen und du hautnah erlebst, wer mit Kostüm und Requisite das Publikum beeindruckt 👀",
+   "endDate": "2026-11-11T21:15+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/nA80EFNVT8uMPOtHcLk3_2025schall-rauch-fotologo-cjonassamsonfotos-27.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10557",
+     "streetAddress": "Lehrter Straße 55"
+    },
+    "name": "Gravity Bar"
+   },
+   "name": "Schall & Rauch Slam",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 3,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Eintritt",
+      "price": "12.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Schwerbehindertenausweis B-Ticket (inkl. 1 Begleiter-Ticket)",
+      "price": "12.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Begleiterticket Schwerbehinderte",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Kiezpoeten",
+    "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
+   },
+   "startDate": "2026-11-11T19:30+0100"
+  }
+ },
+ "https://rausgegangen.de/events/skuppin-musee-sentimental-tour-2027-10/": {
+  "fetched": "2026-11-04T23:07:36+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Kühle Synths, düstere Bässe, und dann diese Stimme, die plötzlich mehr Druck hat, als man erst denkt. SKUPPIN bringt auf der Musée Sentimental Tour neuen Stoff mit und steht live nicht allein auf der Bühne 👀",
+   "endDate": "2027-11-26T22:30+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Y4GElzxUQ8avCC0sjfVr_pressefotoskuppinstellawei00edit.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10997",
+     "streetAddress": "Skalitzer Strasse 85-86"
+    },
+    "name": "Privatclub Berlin"
+   },
+   "name": "SKUPPIN - \"Musée Sentimental\" Tour 2027",
+   "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "EUR",
+    "url": "https://loveyourartist.com/de/profiles/skuppin-YAJ7YR/events",
+    "validFrom": "2027-11-26T20:00+0100"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "SKUPPIN"
+   },
+   "startDate": "2027-11-26T20:00+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
@@ -934,16 +1132,16 @@
   },
   "seen": "2026-10-31T02:26:10+01:00"
  },
- "https://rausgegangen.de/events/speak-up-inline-x-stories-of-her-with-x-tin-degen-oneyra-lin-0/": {
-  "fetched": "2026-11-04T22:13:11+01:00",
+ "https://rausgegangen.de/events/wedding-slam-royale-jahresfinale-1/": {
+  "fetched": "2026-11-04T23:07:36+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Erst reden, dann tanzen: Die Party feiert den sechsten Geburtstag von Stories of Her, einem Projekt, das anonyme Erfahrungen mit Sexismus, Belästigung und sexualisierter Gewalt sichtbar macht. Später kippt der Abend in elektronische Sets von X Tin, degen, Ôneyra, Linda shiro und mehr 🌈",
-   "endDate": "2026-11-15T06:00+0100",
+   "description": "Der Best-Of Poetry Slam im schicksten Ballhaus der Stadt. Wir werfen uns in Schale und bringen ein fein ausgewähltes Lineup aus Poetry Slam, Comedy und Bühnenliteratur in den Wedding. Das ist Poetry Slam für alle, die Hochkultur wollen - aber in höchst unterhaltsam! Nur die besten Slammer:innen kommen auf diese Bühne, auf dass du dich für anderthalb Stunden ganz und gar fallen lassen kannst. Mit einem Sektglas auf der Chaiselongue, für den perfekten Sonntagabend.   ----- Bild: Timo Becker / Martin Kleingräber",
+   "endDate": "2026-11-15T21:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/07IK7lgPQpK2XrMjwDQC_postv1.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/GDkIYgNR7rNBzEBLVMkA_2025wedding-royale-fotologo-cjonassamsonfotos-27.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -951,24 +1149,62 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10245",
-     "streetAddress": "Revaler Str. 99"
+     "postalCode": "13359",
+     "streetAddress": "Wriezener Str. 6"
     },
-    "name": "Crack Bellmer"
+    "name": "Ballhaus Wedding"
    },
-   "name": "SPEAK UP Inline x Stories of Her with X Tin, degen, Ôneyra, Linda shiro & many more",
+   "name": "Wedding Slam Royale: Jahresfinale",
    "offers": {
-    "@type": "Offer",
-    "price": "10.00",
-    "priceCurrency": "EUR",
-    "validFrom": "2026-11-14T17:30+0100"
+    "@type": "AggregateOffer",
+    "highPrice": "26.70",
+    "lowPrice": "9.90",
+    "offerCount": 5,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "16.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Ermäßigt",
+      "price": "9.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Sofaticket inkl 1 Freisekt",
+      "price": "26.70",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Schwerbehindertenausweis B-Ticket",
+      "price": "9.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Begleiterticket Schwerbehinderte",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
    },
    "organizer": {
     "@type": "Organization",
-    "name": "Inline",
-    "url": "https://rausgegangen.de/organizations/inline/"
+    "name": "Kiezpoeten",
+    "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
    },
-   "startDate": "2026-11-14T17:30+0100"
+   "startDate": "2026-11-15T19:30+0100"
   }
  }
 }

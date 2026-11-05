@@ -193,6 +193,44 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/a-matcha-affair-cocktail-tasting-0/": {
+  "fetched": "2026-11-05T04:12:56+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Matcha isn't only for your morning latte. Its grassy, umami-rich character makes it a surprisingly brilliant cocktail ingredient.Join us for an evening of matcha-inspired cocktails, delicious treats and good company. We’ll be mixing things up with More Cha matcha, exploring 3–4 creative cocktails that showcase a different side of green tea, from fresh and refreshing to rich and unexpected.What to expect🍸 A tasting of 3–4 matcha-inspired cocktails🍡 A selection of matcha treats💬 A relaxed atmosphere to meet new people and enjoy something differentAnd when the workshop ends? The night is just getting started!Stick around after the cocktail tasting for our bar takeover with a DJ from 7PM onwards. Enjoy more drinks, great music and an easygoing evening with the Matcha Affair crowd. The bar takeover is open to everyone, no registration needed.A little drink with a bigger purpose 💚For every drink and cocktail sold, we’ll donate €0.50 to Hejmo, supporting a more connected city.Good to know4PM: A Matcha Affair: Tasting & Workshop (separate registration required)6PM: A Matcha Affair: Cocktail Tasting (registration required here)7PM onwards: A Matcha Affair: Cocktail Fundraiser with DJ, drinks and music at the bar (open to the public, more information here)Please let us know about any allergies when registering.Come for the cocktails, stay for the vibes! 💚",
+   "endDate": "2026-11-07T19:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/qBpE282R9e2b2BDkysbw_cocktail-workshop-eindhoven.jpeg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10179",
+     "streetAddress": "Alexanderstraße 40"
+    },
+    "name": "The Social Hub Berlin"
+   },
+   "name": "A Matcha Affair: Cocktail Tasting",
+   "offers": {
+    "@type": "Offer",
+    "price": "35.00",
+    "priceCurrency": "EUR",
+    "url": "https://www.eventbrite.com/e/matcha-after-hours-a-cocktail-tasting-tickets-2003596084825?aff=oddtdtcreator&keep_tld=true",
+    "validFrom": "2026-11-07T18:00+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Team - The Social Hub Berlin",
+    "url": "https://rausgegangen.de/organizations/p-team-the-social-hub-berlin/"
+   },
+   "startDate": "2026-11-07T18:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
   "fetched": "2026-11-05T02:34:07+01:00",
   "ld": {
@@ -281,61 +319,6 @@
   "seen": "2026-10-20T15:24:41+02:00",
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/dani-lia-yola-gangsta-goren-tour-5/": {
-  "fetched": "2026-11-05T02:34:07+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Brav ist bei Dani Lia und yola offenbar gerade ausverkauft. Die beiden gehen zusammen auf Tour und setzen mit kompromisslosem Pop gegen Klischees und für eine andere Idee von Girlhood ein deutliches Zeichen 💅🏼",
-   "endDate": "2027-05-23T22:00+0200",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/oJ7jfUwKS46GCFI3YkfM_pressefoto1-janaabel.jpeg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10997",
-     "streetAddress": "Cuvrystr. 7"
-    },
-    "name": "Lido"
-   },
-   "name": "Dani Lia yola - GANGSTA GÖREN TOUR",
-   "offers": {
-    "@type": "Offer",
-    "price": "31.90",
-    "priceCurrency": "EUR",
-    "url": "https://chimperator-tickets.de/dani-lia",
-    "validFrom": "2027-05-23T19:00+0200"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "Angst Booking",
-     "url": "https://rausgegangen.de/organizations/angst-booking/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Chimperator Live GmbH - Touring",
-     "url": "https://rausgegangen.de/organizations/chimperator-live-gmbh-touring/"
-    }
-   ],
-   "performer": [
-    {
-     "@type": "PerformingGroup",
-     "name": "DANI LIA"
-    },
-    {
-     "@type": "PerformingGroup",
-     "name": "Yola"
-    }
-   ],
-   "startDate": "2027-05-23T19:00+0200"
-  }
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
   "fetched": "2026-11-05T02:34:07+01:00",
@@ -898,16 +881,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/knack-den-fall-37/": {
-  "fetched": "2026-11-05T02:34:07+01:00",
+ "https://rausgegangen.de/events/rebel-yell-love-the-80s-28/": {
+  "fetched": "2026-11-05T04:12:56+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Detektive aufgepasst!1895 in Berlin – zwei Freundinnen, Peggy Palmer und ihre beste und leider auch einzige Freundin Margarete Klammroth, ermitteln in diversen Kriminalfällen. Aufgeschrieben hat diese Begebenheiten Peggy Palmer persönlich, alias Katharina Palm. „Knack den Fall!\" ist ein spektakuläres, interaktives Krimi-Event! 6 fesselnde Sprecher:innen des Peggy-Palmer-Ensembles und eine spritzige Moderatorin fordern das Publikum heraus, die jeweiligen Verbrechen aufzuklären.Sie lesen, unterstützt von Geräuschen und Musik, die verschiedenen Rollen, das Publikum löst den Fall, gibt seinen Tipp ab und der oder die Glückliche gewinnt den Preis „Der Goldene Riecher\".",
-   "endDate": "2026-11-08T21:00+0100",
+   "description": "Mainfloor: DJ Hey, my Commander (Synthie Pop, New Wave, NDW)Radaufloor: RadioRadau (Dark Side of the 80s)Salon: 'diefeder' (Dance Hits the 80s)Wie an jedem ersten Freitag entführen wir euch auch im November in die Welt der 80er Jahre: Hits und heimliche Hymnen dieses Jahrzehnts stehen auf den Floors der Rebel Yell auf dem Plan. Hey, my Commander sortiert dabei Synthie Pop, New Wave und NDW. RadioRadau nimmt sich derweilen auf dem Radaufloor die Dark Side of the 80s vor, hinzu kommt der Salon, wo die größen Dancehits unseres Lieblingsjahrzehnts zelebriert werden.",
+   "endDate": "2026-11-07T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/emP8LKlATey2u7i2dbzD_kdf-november-2026-2.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/0duTvuueRJOhzmTZPDd8_rebel-im-november.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -915,141 +898,20 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10117",
-     "streetAddress": "Monbijoustraße 3B"
+     "postalCode": "10435",
+     "streetAddress": "Schönhauser Allee 36"
     },
-    "name": "Märchenhütte des Monbijou Theaters"
+    "name": "frannz club berlin"
    },
-   "name": "Knack den Fall! Nr. 13",
+   "name": "Rebel Yell- Love the 80s",
    "offers": {
     "@type": "Offer",
-    "price": "17.00",
+    "price": "10.00",
     "priceCurrency": "EUR",
-    "url": "https://maerchenhuetten.com/programm/knack-den-fall/",
-    "validFrom": "2026-11-08T19:00+0100"
+    "url": "https://shop.copilot.events/frannz/events/1cc02bcc-643d-4267-91dc-22e55c422b9e",
+    "validFrom": "2026-11-06T21:00+0100"
    },
-   "startDate": "2026-11-08T19:00+0100"
-  }
- },
- "https://rausgegangen.de/events/late-night-cult-movies-november-dont-look-now-wenn-die-gonde-0/": {
-  "fetched": "2026-11-05T02:34:07+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Venedig sieht selten so unromantisch aus: Nicolas Roegs Film von 1973 schickt ein trauerndes Ehepaar durch Gassen, in denen die Wirklichkeit kippt. Vor allem das Ende hat sich tief in die Filmgeschichte geschrieben 🍿",
-   "endDate": "2026-11-28T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/CblhS5QSBaQZsj1hXOk8_dont-look-now5cf7d6.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10405",
-     "streetAddress": "Prenzlauer Allee 80"
-    },
-    "name": "Zeiss-Großplanetarium"
-   },
-   "name": "»Late Night Cult Movies« November: Don't Look Now – Wenn die Gondeln Trauer tragen",
-   "offers": {
-    "@type": "Offer",
-    "price": "7.00",
-    "priceCurrency": "EUR",
-    "url": "https://www.planetarium.berlin/kino/dont-look-now-wenn-die-gondeln-trauer-tragen",
-    "validFrom": "2026-11-27T22:15+0100"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "»Late Night Cult Movies«",
-     "url": "https://rausgegangen.de/organizations/late-night-cult-movies/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Stiftung Planetarium Berlin",
-     "url": "https://rausgegangen.de/organizations/stiftung-planetarium-berlin-1/"
-    }
-   ],
-   "startDate": "2026-11-27T22:15+0100"
-  }
- },
- "https://rausgegangen.de/events/mattiel-4/": {
-  "fetched": "2026-11-05T00:59:34+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Mattiel Brown kommt aus Atlanta, lebt in Italien und klingt trotzdem nach keiner klaren Schublade. Zwischen Vintage Soul und Indie Rock zeigt ihre neue Single eine leisere, persönlichere Seite 👀",
-   "endDate": "2027-05-24T06:00+0200",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/H5QfApkARu6WTlvbe579_mattiel-hp-1270x700-px.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10777",
-     "streetAddress": "Nollendorfplatz 5"
-    },
-    "name": "Mikropol"
-   },
-   "name": "Mattiel",
-   "offers": {
-    "@type": "Offer",
-    "price": "24.90",
-    "priceCurrency": "EUR",
-    "url": "https://www.eventim.de/noapp/event/mattiel-the-at-the-doorstep-tour-mikropol-22313827/?affiliate=KSG&utm_campaign=schoneberg&utm_source=KSG&utm_medium=dp",
-    "validFrom": "2027-05-23T19:00+0200"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Konzertbüro Schoneberg",
-    "url": "https://rausgegangen.de/organizations/schoneberg-konzerte/"
-   },
-   "startDate": "2027-05-23T19:00+0200"
-  }
- },
- "https://rausgegangen.de/events/posts-reels-stories-fluchterfahrungen-aus-jugoslawien-im-net-0/": {
-  "fetched": "2026-11-04T23:07:36+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "TikTok, Instagram, Podcasts & Co. eröffnen neue Räume für Stimmen, die in klassischen Medien oft wenig Gehör finden. Menschen mit jugoslawischer Fluchtgeschichte teilen Erinnerungen, erklären den Krieg, Flucht und Vertreibung und sprechen über Folgen, die über Generationen weiterwirken. Doch wo Chancen für Sichtbarkeit und Austausch entstehen, verbreiten sich auch Desinformation und nationalistische Narrative. Wann werden soziale Medien zu einem Ort der Solidarität und wo beginnt die Gefahr?PROGRAMM Begrüßung Dr. Roland Borchers, Direktor, Dokumentationszentrum Flucht, Vertreibung, Versöhnung, BerlinGesprächFata Hasanović, InfluencerinKrsto Lazarević, Journalist und Podcaster „Neues vom Ballaballa-Balkan“Dr. Eva Tamara Asboth, Postdoc, Österreichische Akademie der Wissenschaften, WienModeration: Simone Gaul, Journalistin und Podcasterin „Die Zeit“ Im Anschluss laden wir Sie zu einem kleinen Empfang ein.   WEITERE HINWEISEEinlass: 18.00 UhrSprache: DeutschEINTRITT FREI Die Veranstaltung wird aufgezeichnet und auf unserem YouTube-Kanal Flucht, Vertreibung, Versöhnung veröffentlicht.Eine Veranstaltung im Rahmen der Veranstaltungsreihe \"Zerfallen. Geflohen. Angekommen? Erfahrungen aus Bosnien und Herzegowina\"Eine Veranstaltung von: Dokumentationszentrum Flucht, Vertreibung, Versöhnung · Bundeszentrale für politische Bildung",
-   "endDate": "2026-11-11T20:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/tRzV17PhR0y1Q7XSYcZf_2025-sfvvdokuzentrumsrebrenicaveranstaltungsfotosgrafikladenfoto-nihad-nino-pusija.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10963",
-     "streetAddress": "Stresemannstraße 90"
-    },
-    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
-   },
-   "name": "Posts, Reels, Stories – Fluchterfahrungen aus Jugoslawien im Netz",
-   "offers": {
-    "@type": "Offer",
-    "price": "0.00",
-    "priceCurrency": "EUR",
-    "url": "https://buchungen.flucht-vertreibung-versoehnung.de/de/tickets/109",
-    "validFrom": "2026-11-11T18:30+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung",
-    "url": "https://rausgegangen.de/organizations/dokumentationszentrum-flucht-vertreibung-versohnung/"
-   },
-   "startDate": "2026-11-11T18:30+0100"
+   "startDate": "2026-11-06T21:00+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
@@ -1090,5 +952,38 @@
    "startDate": "2026-12-19T19:30+0100"
   },
   "seen": "2026-10-31T02:26:10+01:00"
+ },
+ "https://rausgegangen.de/events/tommy-lefroy-5/": {
+  "fetched": "2026-11-05T04:12:56+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Nicht nur Gitarren, sondern auch Gespräche: Tommy Lefroy organisieren bei ihren Konzerten sogar Büchertausch, während ihre Songs von Unsicherheit und Selbstbestimmung erzählen. Persönlich und politisch zugleich 💜",
+   "endDate": "2027-02-12T23:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/87oYVgOTBOqOv8rlX18B_photo-tommy-lefroycredit-brendon-burton-kopie.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10179",
+     "streetAddress": "Holzmarktstraße 15-18"
+    },
+    "name": "LARK"
+   },
+   "name": "Tommy Lefroy",
+   "offers": {
+    "@type": "Offer",
+    "price": "25.00",
+    "priceCurrency": "EUR",
+    "url": "https://www.eventim.de/artist/tommy-lefroy/",
+    "validFrom": "2027-02-12T19:00+0100"
+   },
+   "startDate": "2027-02-12T19:00+0100"
+  }
  }
 }

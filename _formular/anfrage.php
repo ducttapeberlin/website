@@ -97,7 +97,18 @@ $text .= "\nAntworten geht direkt an " . $email . ".\n";
 
 // HTML-Fassung
 function h($v) { return htmlspecialchars($v, ENT_QUOTES, 'UTF-8'); }
-$antwort = 'mailto:' . rawurlencode($email) . '?subject=' . rawurlencode('Re: ' . $betreff);
+// Antwort-Button: neue Mail an die Person, Rahmendaten der Anfrage schon im Text
+$en = ($lang === 'en');
+$en_label = ['Programm' => 'Programme', 'Datum' => 'Date', 'Ort / Location' => 'Venue', 'Gäste' => 'Guests', 'Anlass' => 'Occasion', 'Firma / Organisation' => 'Company'];
+$rahmen = '';
+$felder_antwort = $abschnitte['Anfrage'] + ['Firma / Organisation' => $abschnitte['Kontakt']['Firma / Organisation']];
+foreach ($felder_antwort as $k => $v) {
+  if ($v === '' || $v === 'Noch offen') continue;
+  $rahmen .= ($en ? ($en_label[$k] ?? $k) : $k) . ': ' . $v . "\n";
+}
+$antwort_text = ($en ? 'Hi ' : 'Hallo ') . strtok($name, ' ') . ",\n\n\n\n"
+  . '---' . "\n" . ($en ? 'Your enquiry from ' : 'Anfrage vom ') . date('d.m.Y') . ":\n" . $rahmen;
+$antwort = 'mailto:' . rawurlencode($email) . '?subject=' . rawurlencode('Re: ' . $betreff) . '&body=' . rawurlencode(str_replace("\n", "\r\n", $antwort_text));
 $html  = '<!doctype html><html><body style="margin:0;padding:0;background:#f2f2f2;">';
 $html .= '<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#f2f2f2;padding:24px 12px;"><tr><td align="center">';
 $html .= '<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:600px;background:#ffffff;border-radius:10px;overflow:hidden;font-family:-apple-system,Helvetica,Arial,sans-serif;color:#111;">';

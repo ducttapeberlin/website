@@ -193,16 +193,16 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/abi-mohanty-tough-tiies-0/": {
-  "fetched": "2026-11-06T22:04:46+01:00",
+ "https://rausgegangen.de/events/bodies-baddies-nye-edition-0/": {
+  "fetched": "2026-11-06T22:59:53+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Dark, raw & unapologetic comedy with Berlin’s Abi Mohanty. Uncomfortable truths, taboo topics & big laughs.Tough Titties isn't just another stand-up show. It's a night of uncomfortable truths wrapped in hilarious stories, sharp observations and the kind of jokes that make you laugh first — and question yourself later.Berlin-based comedian Abi Mohanty brings her signature blend of dark humour, satire and raw honesty to Karakas Comedy Club.Born in India and now based in Berlin, Abi explores the uncomfortable side of life with a wicked sense of humour. Her comedy takes on taboo subjects including religious dogma, restrictive upbringing, mental health, sexuality, identity, individual freedom and the strange realities of being an Ausländer in Europe.Abi has opened for some of the biggest names in European comedy, including Dragos, Mike Rice, Radu Isac and Netflix star Adrienne Iapalucci, as well as Abhishek Upmanyu.She has also made her mark on the London comedy circuit, winning multiple gong shows, including the coveted King Gong at The Comedy Store.Currently converting childhood trauma into jokes one show at a time, Abi has performed across Europe — usually in places where Ryanair goes.Her comedy is sharp, personal and deliberately uncomfortable. No easy stereotypes, no safe topics — just brutally honest stories turned into very good jokes.Come for the dark comedy. Stay for the chaos. And don't be surprised if you feel slightly guilty for laughing afterwards. Dark comedy. Raw honesty. Uncomfortable laughs. Zero apologies.  14 November · Karakas Comedy Club Kurfürstenstraße 9, Berlin 10785",
-   "endDate": "2026-11-14T19:30+0100",
+   "description": "Wenn Du das Jahr queer und mit ordentlich Energie abschließen willst, klingt das hier ziemlich ideal: mehrere Floors, Shows direkt nach dem Countdown und ein Format, das klar aus der Community kommt. Für Queers, Girls, Gays, Theys, Lovers und Allies gedacht 👀",
+   "endDate": "2027-01-01T06:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/VihvDSydQ2qvMHAqK021_tough-tits-landscape.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/RqGvZn1mSD2O5uy0Wezo_rausgegangenbnbsasha-kopie2.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -210,26 +210,80 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10785",
-     "streetAddress": "Kurfürstenstraße 9"
+     "postalCode": "10777",
+     "streetAddress": "Nollendorfplatz 5"
     },
-    "name": "Karakas Bar"
+    "name": "Metropol"
    },
-   "name": "Abi Mohanty - Tough Ti**ies",
+   "name": "BODIES & BADDIES // NYE Party",
    "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "16.50",
-    "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/abi-mohanty-tough-tiies",
-    "validFrom": "2026-11-03T00:29+0100"
+    "@type": "AggregateOffer",
+    "highPrice": "85.40",
+    "lowPrice": "16.50",
+    "offerCount": 7,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Early Bird",
+      "price": "27.10",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Group Tickets First Wave",
+      "price": "32.40",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "First Wave",
+      "price": "37.70",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "VIP Tickets",
+      "price": "85.40",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Group Tickets Second Wave",
+      "price": "43.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Second Wave",
+      "price": "48.30",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Last Wave // Abendkasse",
+      "price": "52.54",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
    },
    "organizer": {
     "@type": "Organization",
-    "name": "Karakas Comedy Club",
-    "url": "https://rausgegangen.de/organizations/karakas-comedy-club-1/"
+    "name": "Ocean Eyes",
+    "url": "https://rausgegangen.de/organizations/ocean-eyes/"
    },
-   "startDate": "2026-11-14T18:00+0100"
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Ocean"
+   },
+   "startDate": "2026-12-31T22:00+0100"
   }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
@@ -320,6 +374,73 @@
   "seen": "2026-10-20T15:24:41+02:00",
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
+ },
+ "https://rausgegangen.de/events/cris-cosmo-liebe-dich-selbst-tour-2026-3/": {
+  "fetched": "2026-11-06T22:59:53+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Liebe dich selbst Tour 2026 – Mit seinem neuen Album geht Cris Cosmo im Herbst 2026 auf große Deutschlandtour und bringt die Botschaft von Selbstliebe, Lebensfreude und Zusammenhalt auf die Bühne. Cris Cosmo, bekannt als Botschafter für Toleranz und Weltoffenheit, verbindet Singer-Songwriter, Indie-Pop, Reggae und südamerikanische Grooves zu einem tanzbaren Sound mit starken, positiven Messages. Nach über 2.000 Konzerten begeistert er mit interaktiven Momenten, spontanen Freestyle-Einlagen und einer außergewöhnlichen Bühnenpräsenz – eine Freiheits-Party voller guter Vibes, bei der alle Generationen und Nationen willkommen sind. Der Zutritt zum Monarch ist erst ab 18 Jahren möglich.",
+   "endDate": "2026-11-21T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Zvxq8P9MTq52crjoixf4_cris-cosmo-liebe-dich-selbst-cover-image-by-rene-van-der-voorden-header-1.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10999",
+     "streetAddress": "Skalitzer Str. 134"
+    },
+    "name": "Monarch"
+   },
+   "name": "Cris Cosmo - Liebe dich selbst Tour 2026",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "20.00",
+    "lowPrice": "0.00",
+    "offerCount": 4,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "15.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Ermäßigt",
+      "price": "10.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Supporter",
+      "price": "20.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Begleitperson",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Cris Cosmo"
+   },
+   "startDate": "2026-11-20T19:30+0100"
+  }
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
   "fetched": "2026-11-06T18:14:44+01:00",
@@ -816,16 +937,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/knack-den-fall-37/": {
-  "fetched": "2026-11-06T22:04:46+01:00",
+ "https://rausgegangen.de/events/musical-spheres-ant-enoch-ava-joe-caro-schaeffler-0/": {
+  "fetched": "2026-11-06T22:59:53+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Detektive aufgepasst!1895 in Berlin – zwei Freundinnen, Peggy Palmer und ihre beste und leider auch einzige Freundin Margarete Klammroth, ermitteln in diversen Kriminalfällen. Aufgeschrieben hat diese Begebenheiten Peggy Palmer persönlich, alias Katharina Palm. „Knack den Fall!\" ist ein spektakuläres, interaktives Krimi-Event! 6 fesselnde Sprecher:innen des Peggy-Palmer-Ensembles und eine spritzige Moderatorin fordern das Publikum heraus, die jeweiligen Verbrechen aufzuklären.Sie lesen, unterstützt von Geräuschen und Musik, die verschiedenen Rollen, das Publikum löst den Fall, gibt seinen Tipp ab und der oder die Glückliche gewinnt den Preis „Der Goldene Riecher\".",
-   "endDate": "2026-11-08T21:00+0100",
+   "description": "LiveDrei exklusive Live-Performances an einem Abend: In »musical spheres« verwandeln musikalische Acts die Bühne des Planetariumssaals und nehmen euch mit in ein einzigartiges Konzert unter dem Himmelszelt. Aufstrebende Musik-Stars umgeben von 360°-Visuals, die live gesteuert werden und das Publikum in neue galaktische Weiten eintauchen lassen, ermöglichen ein ganz besonderes und effektvolles Erlebnis.Die Konzertreihe »musical spheres« vereint kosmische Live-Performances mit eindrucksvollen Visualisierungen.Folgendes Line-up erwartet euch am 17. November 2026:ANT ENOCHDer in Sydney und Berlin lebende Künstler ANT ENOCH schreibt Hymnen zum Weinen auf der Tanzfläche. Sein melodischer Bedroom Pop verbindet seine Liebe zu melancholischen Dance-Balladen der 1980er Jahre mit einer zeitgenössischen analogen Ästhetik. Seine selbst produzierte Debüt-EP »Big Talk Big Party« aus dem Jahr 2024 entstand aus der Isolation während der Pandemie und vereint klassische japanische Drum Machines, sehr persönliche Texte sowie Klavier, Synthesizer und Violine. Frühe Songwriting-Experimente führten ihn an Musikhochschulen in Sydney und Toronto, wo er in kleinen Clubs spielte. Heute lebt er zwischen Berlin und Bankstown und begeistert mit seinen Live-Shows u.a. in Berlin, München und Sydney sowie auf Festivals.AVA JOEMit ihren jungen 22 Jahren wirkt es zunächst ungewöhnlich, Ava Joe als »alte Seele« zu bezeichnen – doch ihre Leidenschaft für Geschichten und ihre Fähigkeit, persönliche Erfahrungen in romantische Momentaufnahmen zu verwandeln, sprechen dafür. Inspiriert von Kunst, Musik und Film sowie Künstler*innen wie Frank Sinatra, Marilyn Monroe oder Brigitte Bardot, entwickelte sie eine zeitlose musikalische Ästhetik. Ihre Debütsingle »Black Smoke« entführt in die Geschichte einer vergangenen Beziehung, geprägt von toxischer Co-Abhängigkeit. Aufgewachsen in Devon, Irland und London, studierte sie Musikperformance an der Brit School und Gesang an der ACM und etablierte sich seitdem als eindrucksvolle Sängerin und Performerin.Caro SchaefflerCaro Schaeffler versucht mit ihrer Kunst eine Welt zu schaffen, in der man sich verlieren, aber auch wiederfinden kann. Als selbsternannte »hoffnungslose Romantikerin« verwandelt sie flüchtige Augenblicke in intime, zeitlose Kunst. Ihre Musik bewegt sich zwischen Melancholie und jugendlicher Naivität: Chansonartige Balladen treffen auf organische und moderne Pop-Elemente. Ihre persönlichen Songs erzählen davon, in allen Erfahrungen – auch den schmerzhaften – Schönheit zu entdecken und diese mit anderen zu teilen. Auch ihre visuelle Sprache ist geprägt von poetischer Nostalgie, Filmklassikern und Gemälde-Welten. Ihr langfristiges Ziel: Kunst zu schaffen, die bleibt, in einer Welt der immer weiter voranschreitenden Kurzweiligkeit",
+   "endDate": "2026-11-17T22:45+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/emP8LKlATey2u7i2dbzD_kdf-november-2026-2.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/HfkXA2pHTqmYUNBQPSZR_spbmusicalspheresheaderallefarbenmar24rz2.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -833,20 +954,20 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10117",
-     "streetAddress": "Monbijoustraße 3B"
+     "postalCode": "10405",
+     "streetAddress": "Prenzlauer Allee 80"
     },
-    "name": "Märchenhütte des Monbijou Theaters"
+    "name": "Zeiss-Großplanetarium Berlin"
    },
-   "name": "Knack den Fall! Nr. 13",
+   "name": "Musical spheres: ANT ENOCH, AVA JOE & Caro Schaeffler",
    "offers": {
     "@type": "Offer",
-    "price": "17.00",
+    "price": "25.00",
     "priceCurrency": "EUR",
-    "url": "https://maerchenhuetten.com/programm/knack-den-fall/",
-    "validFrom": "2026-11-08T19:00+0100"
+    "url": "https://www.planetarium.berlin/veranstaltungen/musical-spheres-im-november",
+    "validFrom": "2026-11-17T21:00+0100"
    },
-   "startDate": "2026-11-08T19:00+0100"
+   "startDate": "2026-11-17T21:00+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
@@ -887,61 +1008,5 @@
    "startDate": "2026-12-19T19:30+0100"
   },
   "seen": "2026-10-31T02:26:10+01:00"
- },
- "https://rausgegangen.de/events/tati-comedy-one-laugh-night-28/": {
-  "fetched": "2026-11-06T22:04:46+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Comedy mit Stil im Tati goes Underground in Berlin. Authentische Stand-up Shows mit bekannten Comedians, Berliner Underground Acts und Newcomern in edler Bar-Atmosphäre mit hochwertigen Cocktails. Die Bühne für spontane Überraschungen. Mal tauchen bekannte Gesichter aus der Comedy-Szene auf, mal brandneue Talente, die man so noch nie gesehen hat.Sicher ist nur eins:Es wird spät, es wird witzig und es wird auch dunkel lustig.Eintritt  ab 16 Jahre",
-   "endDate": "2026-11-12T22:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/kJyays4wROGHyg5J9wGS_tati-comedy-club-berliner-stand-up-nacht.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10405",
-     "streetAddress": "Metzer Straße 2"
-    },
-    "name": "Tati goes Underground"
-   },
-   "name": "Tati Comedy - Die Stand Up Comedy Show",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": null,
-    "lowPrice": null,
-    "offerCount": 3,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "16.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Frühbücher",
-      "price": "14.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Studenten",
-      "price": "14.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "startDate": "2026-11-12T20:00+0100"
-  }
  }
 }

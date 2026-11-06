@@ -193,44 +193,6 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/a-matcha-affair-cocktail-tasting-0/": {
-  "fetched": "2026-11-06T00:59:54+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Matcha isn't only for your morning latte. Its grassy, umami-rich character makes it a surprisingly brilliant cocktail ingredient.Join us for an evening of matcha-inspired cocktails, delicious treats and good company. We’ll be mixing things up with More Cha matcha, exploring 3–4 creative cocktails that showcase a different side of green tea, from fresh and refreshing to rich and unexpected.What to expect🍸 A tasting of 3–4 matcha-inspired cocktails🍡 A selection of matcha treats💬 A relaxed atmosphere to meet new people and enjoy something differentAnd when the workshop ends? The night is just getting started!Stick around after the cocktail tasting for our bar takeover with a DJ from 7PM onwards. Enjoy more drinks, great music and an easygoing evening with the Matcha Affair crowd. The bar takeover is open to everyone, no registration needed.A little drink with a bigger purpose 💚For every drink and cocktail sold, we’ll donate €0.50 to Hejmo, supporting a more connected city.Good to know4PM: A Matcha Affair: Tasting & Workshop (separate registration required)6PM: A Matcha Affair: Cocktail Tasting (registration required here)7PM onwards: A Matcha Affair: Cocktail Fundraiser with DJ, drinks and music at the bar (open to the public, more information here)Please let us know about any allergies when registering.Come for the cocktails, stay for the vibes! 💚",
-   "endDate": "2026-11-07T19:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/qBpE282R9e2b2BDkysbw_cocktail-workshop-eindhoven.jpeg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10179",
-     "streetAddress": "Alexanderstraße 40"
-    },
-    "name": "The Social Hub Berlin"
-   },
-   "name": "A Matcha Affair: Cocktail Tasting",
-   "offers": {
-    "@type": "Offer",
-    "price": "35.00",
-    "priceCurrency": "EUR",
-    "url": "https://www.eventbrite.com/e/matcha-after-hours-a-cocktail-tasting-tickets-2003596084825?aff=oddtdtcreator&keep_tld=true",
-    "validFrom": "2026-11-07T18:00+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Team - The Social Hub Berlin",
-    "url": "https://rausgegangen.de/organizations/p-team-the-social-hub-berlin/"
-   },
-   "startDate": "2026-11-07T18:00+0100"
-  }
- },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
   "fetched": "2026-11-05T23:07:39+01:00",
   "ld": {
@@ -319,6 +281,73 @@
   "seen": "2026-10-20T15:24:41+02:00",
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
+ },
+ "https://rausgegangen.de/events/cris-cosmo-liebe-dich-selbst-tour-2026-3/": {
+  "fetched": "2026-11-06T02:36:32+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Liebe dich selbst Tour 2026 – Mit seinem neuen Album geht Cris Cosmo im Herbst 2026 auf große Deutschlandtour und bringt die Botschaft von Selbstliebe, Lebensfreude und Zusammenhalt auf die Bühne. Cris Cosmo, bekannt als Botschafter für Toleranz und Weltoffenheit, verbindet Singer-Songwriter, Indie-Pop, Reggae und südamerikanische Grooves zu einem tanzbaren Sound mit starken, positiven Messages. Nach über 2.000 Konzerten begeistert er mit interaktiven Momenten, spontanen Freestyle-Einlagen und einer außergewöhnlichen Bühnenpräsenz – eine Freiheits-Party voller guter Vibes, bei der alle Generationen und Nationen willkommen sind. Der Zutritt zum Monarch ist erst ab 18 Jahren möglich.",
+   "endDate": "2026-11-21T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Zvxq8P9MTq52crjoixf4_cris-cosmo-liebe-dich-selbst-cover-image-by-rene-van-der-voorden-header-1.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10999",
+     "streetAddress": "Skalitzer Str. 134"
+    },
+    "name": "Monarch"
+   },
+   "name": "Cris Cosmo - Liebe dich selbst Tour 2026",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "20.00",
+    "lowPrice": "0.00",
+    "offerCount": 4,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "15.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Ermäßigt",
+      "price": "10.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Supporter",
+      "price": "20.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Begleitperson",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Cris Cosmo"
+   },
+   "startDate": "2026-11-20T19:30+0100"
+  }
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
   "fetched": "2026-11-05T23:07:39+01:00",
@@ -641,117 +670,6 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
- "https://rausgegangen.de/events/fiona-fiasco-0/": {
-  "fetched": "2026-11-06T00:59:54+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Da steht eine Band erst in der Lobby eines alten Hotels und im nächsten Moment auf einer Landstraße zwischen Wiese und Wald. Fiona Fiascos EP ist über anderthalb Jahre an sehr verschiedenen Orten zusammengekommen, und genau dieses schöne Verrutschen bleibt hängen 👀",
-   "endDate": "2027-04-08T22:30+0200",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/9gkLl9IRS4aHbQ1M9mSl_fiona-fiasco-georgia-spain.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10119",
-     "streetAddress": "Schönhauser Allee 177b"
-    },
-    "name": "8mm Bar"
-   },
-   "name": "Fiona Fiasco",
-   "offers": {
-    "@type": "Offer",
-    "price": "15.00",
-    "priceCurrency": "EUR",
-    "url": "https://www.tixforgigs.com/Event/75587/fiona-fiasco-neue-zukunft-small-room-berlin",
-    "validFrom": "2027-04-08T20:00+0200"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Puschen",
-    "url": "https://rausgegangen.de/organizations/puschen/"
-   },
-   "startDate": "2027-04-08T20:00+0200"
-  }
- },
- "https://rausgegangen.de/events/geheimkonzert-berlin-24-by-rausgegangen-0/": {
-  "fetched": "2026-11-06T00:05:01+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Na Hallo! Es ist wieder so weit: Ein Abend voller Überraschung - denn wer auf der Bühne steht, bleibt bis zum ersten Ton geheim. Wir hatten schon Blond, Berq, Ennio, Futurebae, Jassin, Anais, Katha Pauer & viele mehr zu Gast – und das schon bevor sie die großen Bühnen der Nation gestürmt haben. Also entdecke die Stars von Morgen bei unseren Geheimkonzerten. 🪩",
-   "endDate": "2026-12-09T22:15+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/mO31iODjTCuFLVfQ493H_gk202516x9photoheadline-32-1.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin"
-    },
-    "name": "Secret location"
-   },
-   "name": "Geheimkonzert Berlin #24 by Rausgegangen",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "29.90",
-    "lowPrice": "24.50",
-    "offerCount": 4,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "SCHNAPPER",
-      "price": "21.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "REGULAR",
-      "price": "25.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "4er FRIENDS BUNDLE",
-      "price": "23.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Mitgegangen",
-      "price": "3.80",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "Rausgegangen Geheimkonzerte",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Rausgegangen Geheimkonzerte Berlin",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte-3/"
-    }
-   ],
-   "startDate": "2026-12-09T20:00+0100"
-  }
- },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
   "fetched": "2026-11-05T23:07:39+01:00",
   "ld": {
@@ -842,48 +760,6 @@
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/jake-isaac-5/": {
-  "fetched": "2026-11-06T00:59:54+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Zehn Jahre später packt Jake Isaac seine alten Songs noch mal an, und plötzlich hört man, wie viel Weg dazwischen liegt. Der Mann aus Südlondon kam erst übers Schlagzeug zur Musik, unter seiner Soulstimme schiebt also immer auch Rhythmus mit 🙂",
-   "endDate": "2027-05-11T23:00+0200",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/SroI1DKYQ82lBUbI1BAg_jifb-cover.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10435",
-     "streetAddress": "Schönhauser Allee 36"
-    },
-    "name": "frannz club berlin"
-   },
-   "name": "Jake Isaac",
-   "offers": {
-    "@type": "Offer",
-    "price": "36.00",
-    "priceCurrency": "EUR",
-    "url": "https://link.dice.fm/A0137a8279d3",
-    "validFrom": "2027-05-11T20:00+0200"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Z|ART Agency",
-    "url": "https://rausgegangen.de/organizations/zart-agency-gmbh/"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Jake Isaac"
-   },
-   "startDate": "2027-05-11T20:00+0200"
-  }
- },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-0/": {
   "fetched": "2026-11-05T23:07:39+01:00",
   "ld": {
@@ -968,16 +844,61 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/pandawomen-2026-aban-ensemble-dj-rosemah-curated-by-yalda-ya-0/": {
-  "fetched": "2026-11-06T00:59:54+01:00",
+ "https://rausgegangen.de/events/late-night-cult-movies-november-dont-look-now-wenn-die-gonde-0/": {
+  "fetched": "2026-11-06T02:36:32+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Erst vier Musikerinnen aus Iran, dann DJ ROSEMAH mit Sounds zwischen House, Hip Hop und Klängen aus Afghanistan, Persien und der SWANA Region. Ein Abend, an dem musikalische Welten nicht sauber getrennt bleiben 👀",
-   "endDate": "2026-11-22T05:00+0100",
+   "description": "Venedig sieht selten so unromantisch aus: Nicolas Roegs Film von 1973 schickt ein trauerndes Ehepaar durch Gassen, in denen die Wirklichkeit kippt. Vor allem das Ende hat sich tief in die Filmgeschichte geschrieben 🍿",
+   "endDate": "2026-11-28T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/xujcRKOIRwmSNozh4mi6_23207image-2048x1024.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/CblhS5QSBaQZsj1hXOk8_dont-look-now5cf7d6.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10405",
+     "streetAddress": "Prenzlauer Allee 80"
+    },
+    "name": "Zeiss-Großplanetarium"
+   },
+   "name": "»Late Night Cult Movies« November: Don't Look Now – Wenn die Gondeln Trauer tragen",
+   "offers": {
+    "@type": "Offer",
+    "price": "7.00",
+    "priceCurrency": "EUR",
+    "url": "https://www.planetarium.berlin/kino/dont-look-now-wenn-die-gondeln-trauer-tragen",
+    "validFrom": "2026-11-27T22:15+0100"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "»Late Night Cult Movies«",
+     "url": "https://rausgegangen.de/organizations/late-night-cult-movies/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Stiftung Planetarium Berlin",
+     "url": "https://rausgegangen.de/organizations/stiftung-planetarium-berlin-1/"
+    }
+   ],
+   "startDate": "2026-11-27T22:15+0100"
+  }
+ },
+ "https://rausgegangen.de/events/marenera-pizzica-italienische-volksmusik-0/": {
+  "fetched": "2026-11-06T02:36:32+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Süditalienische Volksmusik, die nicht im Archiv bleibt, sondern für Tanz, Rituale und Feste gemacht ist. Marenera spielt Pizzica, Tarantella und andere überlieferte Lieder so, dass Du die Hochzeitsgesellschaft fast schon vor Dir siehst 💃",
+   "endDate": "2027-01-16T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/QX2v5BFTTY6s0wpjkvQ6_foto-1-treppecreditsgiannis-vassaras.jpeg"
    ],
    "location": {
     "@type": "Place",
@@ -990,13 +911,46 @@
     },
     "name": "PANDA platforma"
    },
-   "name": "PANDAwomen 2026: Aban Ensemble / DJ ROSEMAH / Curated by Yalda Yazdani",
+   "name": "Marenera: Pizzica & italienische Volksmusik",
    "offers": {
     "@type": "Offer",
-    "price": "20.00",
+    "price": "13.00",
     "priceCurrency": "EUR",
-    "url": "https://panda-platforma.berlin/events/aban-ensemble-dj-rosemah/",
-    "validFrom": "2026-11-21T20:30+0100"
+    "url": "https://panda-platforma.berlin/events/marenera-pizzica-italienische-volksmusik/",
+    "validFrom": "2027-01-15T20:30+0100"
+   },
+   "startDate": "2027-01-15T20:30+0100"
+  }
+ },
+ "https://rausgegangen.de/events/pandawomen-2026-nini-nutsubidze-vepsestikk-0/": {
+  "fetched": "2026-11-06T02:36:32+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Zwei Trompeten auf der einen Seite, georgischer Pop Folk zwischen Soul, R&B und Hip Hop auf der anderen. PANDAwomen packt an einem Abend Nini Nutsubidze und Vepsestikk zusammen, und genau diese scharfen Kanten machen neugierig 👀",
+   "endDate": "2026-11-15T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/j673pt2KTZeOPqOf454Q_23002image-2048x1024.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10435",
+     "streetAddress": "Knaackstraße 97"
+    },
+    "name": "PANDA platforma"
+   },
+   "name": "PANDAwomen 2026: Nini Nutsubidze / Vepsestikk",
+   "offers": {
+    "@type": "Offer",
+    "price": "17.00",
+    "priceCurrency": "EUR",
+    "url": "https://panda-platforma.berlin/events/nini-nutsubidze-vepsestikk/",
+    "validFrom": "2026-11-14T20:30+0100"
    },
    "organizer": [
     {
@@ -1010,7 +964,7 @@
      "url": "https://rausgegangen.de/organizations/pandawomen-festival/"
     }
    ],
-   "startDate": "2026-11-21T20:30+0100"
+   "startDate": "2026-11-14T20:30+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
@@ -1052,13 +1006,13 @@
   },
   "seen": "2026-10-31T02:26:10+01:00"
  },
- "https://rausgegangen.de/events/tati-comedy-one-laugh-night-28/": {
-  "fetched": "2026-11-06T00:59:54+01:00",
+ "https://rausgegangen.de/events/tati-comedy-one-laugh-night-27/": {
+  "fetched": "2026-11-06T02:36:32+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
    "description": "Comedy mit Stil im Tati goes Underground in Berlin. Authentische Stand-up Shows mit bekannten Comedians, Berliner Underground Acts und Newcomern in edler Bar-Atmosphäre mit hochwertigen Cocktails. Die Bühne für spontane Überraschungen. Mal tauchen bekannte Gesichter aus der Comedy-Szene auf, mal brandneue Talente, die man so noch nie gesehen hat.Sicher ist nur eins:Es wird spät, es wird witzig und es wird auch dunkel lustig.Eintritt  ab 16 Jahre",
-   "endDate": "2026-11-12T22:00+0100",
+   "endDate": "2026-11-11T22:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
     "https://s3.eu-central-1.amazonaws.com/rausgegangen/kJyays4wROGHyg5J9wGS_tati-comedy-club-berliner-stand-up-nacht.png"
@@ -1105,7 +1059,7 @@
     ],
     "priceCurrency": "EUR"
    },
-   "startDate": "2026-11-12T20:00+0100"
+   "startDate": "2026-11-11T20:00+0100"
   }
  }
 }

@@ -193,16 +193,16 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/abi-mohanty-tough-tiies-0/": {
-  "fetched": "2026-11-07T07:06:56+01:00",
+ "https://rausgegangen.de/events/alizade-0/": {
+  "fetched": "2026-11-07T08:27:54+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Dark, raw & unapologetic comedy with Berlin’s Abi Mohanty. Uncomfortable truths, taboo topics & big laughs.Tough Titties isn't just another stand-up show. It's a night of uncomfortable truths wrapped in hilarious stories, sharp observations and the kind of jokes that make you laugh first — and question yourself later.Berlin-based comedian Abi Mohanty brings her signature blend of dark humour, satire and raw honesty to Karakas Comedy Club.Born in India and now based in Berlin, Abi explores the uncomfortable side of life with a wicked sense of humour. Her comedy takes on taboo subjects including religious dogma, restrictive upbringing, mental health, sexuality, identity, individual freedom and the strange realities of being an Ausländer in Europe.Abi has opened for some of the biggest names in European comedy, including Dragos, Mike Rice, Radu Isac and Netflix star Adrienne Iapalucci, as well as Abhishek Upmanyu.She has also made her mark on the London comedy circuit, winning multiple gong shows, including the coveted King Gong at The Comedy Store.Currently converting childhood trauma into jokes one show at a time, Abi has performed across Europe — usually in places where Ryanair goes.Her comedy is sharp, personal and deliberately uncomfortable. No easy stereotypes, no safe topics — just brutally honest stories turned into very good jokes.Come for the dark comedy. Stay for the chaos. And don't be surprised if you feel slightly guilty for laughing afterwards. Dark comedy. Raw honesty. Uncomfortable laughs. Zero apologies.  14 November · Karakas Comedy Club Kurfürstenstraße 9, Berlin 10785",
-   "endDate": "2026-11-14T19:30+0100",
+   "description": "Drei Sprachen im Kopf, klare Ansage im Mic. Alizade bewegt sich zwischen türkischem Trap, Hip Hop und Pop, ohne sich stilistisch klein zu machen 💅🏼",
+   "endDate": "2027-03-18T23:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/VihvDSydQ2qvMHAqK021_tough-tits-landscape.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/RPaXer3QRV2eoGgEPHaF_photo-alizadecredit-ricardo-van-lachterop-kopie.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -210,26 +210,20 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10785",
-     "streetAddress": "Kurfürstenstraße 9"
+     "postalCode": "12435",
+     "streetAddress": "Am Flutgraben 2"
     },
-    "name": "Karakas Bar"
+    "name": "Festsaal Kreuzberg"
    },
-   "name": "Abi Mohanty - Tough Ti**ies",
+   "name": "Alizade",
    "offers": {
     "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "16.50",
+    "price": "33.50",
     "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/abi-mohanty-tough-tiies",
-    "validFrom": "2026-11-03T00:29+0100"
+    "url": "https://www.eventim.de/artist/alizade/",
+    "validFrom": "2027-03-18T19:00+0100"
    },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Karakas Comedy Club",
-    "url": "https://rausgegangen.de/organizations/karakas-comedy-club-1/"
-   },
-   "startDate": "2026-11-14T18:00+0100"
+   "startDate": "2027-03-18T19:00+0100"
   }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
@@ -734,48 +728,6 @@
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/jake-isaac-5/": {
-  "fetched": "2026-11-07T07:06:56+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Zehn Jahre später packt Jake Isaac seine alten Songs noch mal an, und plötzlich hört man, wie viel Weg dazwischen liegt. Der Mann aus Südlondon kam erst übers Schlagzeug zur Musik, unter seiner Soulstimme schiebt also immer auch Rhythmus mit 🙂",
-   "endDate": "2027-05-11T23:00+0200",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/SroI1DKYQ82lBUbI1BAg_jifb-cover.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10435",
-     "streetAddress": "Schönhauser Allee 36"
-    },
-    "name": "frannz club berlin"
-   },
-   "name": "Jake Isaac",
-   "offers": {
-    "@type": "Offer",
-    "price": "36.00",
-    "priceCurrency": "EUR",
-    "url": "https://link.dice.fm/A0137a8279d3",
-    "validFrom": "2027-05-11T20:00+0200"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Z|ART Agency",
-    "url": "https://rausgegangen.de/organizations/zart-agency-gmbh/"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Jake Isaac"
-   },
-   "startDate": "2027-05-11T20:00+0200"
-  }
- },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-0/": {
   "fetched": "2026-11-07T07:06:56+01:00",
   "ld": {
@@ -859,72 +811,6 @@
   "seen": "2026-10-27T20:46:24+01:00",
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/millennial-mixtape-das-revival-der-nullerjahre-auf-3-floors-0/": {
-  "fetched": "2026-11-07T07:06:56+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Mainfloor: 'diefeder' (Millennial Pop-Mix)Loungefloor: Little A (00er R'n'B HipHop)Salonfloor: tba «Ist das noch Indie?!»  Wir bringen SexyBack! Am Samstag, den 14. Novomber, verwandelt sich unser kleiner Wohlfühlclub in das Epizentrum für pure Nullerjahre-Nostalgie. Mit dem „Millennial Mixtape“ feiern wir den Sound und das Lebensgefühl eines unvergesslich unbeschwerten Jahrzehnts.Drei Floors – Drei Welten Egal, welche Musikrichtung eure Jugend geprägt hat – auf dem „Millennial Mixtape“ finden alle ihre ganz persönlichen absoluten 00er Banger:• Mainflloor: Die Pop-Explosion mit 'diefeder'! – Hier regieren die Königinnen und Könige der Nullerjahre. Tanzt zu Britney Spears, den No Angels, Justin Timberlake, Shakira und der besten Kylie ever.• Radaufloor: \"Little A\" und sein Hip-Hop & R&B Mix – Hey Ya, willkommen In da Club! Fette Bässe und smoother Groove. Freut euch auf die Tracks von Eminem, 50 Cent, Beyoncé, Nelly und Usher.• Salon: Indie & Rock-Alternative selektiert von DJ Snacky Baba & DJ tba – «Ist das noch Indie?!» Wir sagen: Das ist Disco! Von Arctic Monkeys bis Whitney Houston, von Kraftklub bis Charli XCX und von Two Door Cinema Club bis Nina Chuba wird für alle etwas dabei sein! Die Hardfacts:• Event: Millennial Mixtape – Das Revival der Nullerjahre auf 3 Floors!• Wann: Samstag, 14. Novmeber 2026, ab 21:00 Uhr• Wo: Frannz Club (in der Kulturbrauerei), Schönhauser Allee 36, 10435 Berlin• Eintritt: Early Bird für 8,00 Euro (nur von 21:00 bis 22:00 Uhr und nur an der Abendkasse), danach regulär 12,00 Euro an der Abendkasse. Sichert euch euren Platz auf der Tanzfläche und spult mit uns das Mixtape eurer Jugend zurück!",
-   "endDate": "2026-11-15T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/dyghNqMTteDJHdV9BYbr_facebook-event-banner-mixtape-1411.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10435",
-     "streetAddress": "Schönhauser Allee 36"
-    },
-    "name": "frannz club berlin"
-   },
-   "name": "Millennial Mixtape- Das Revival der Nullerjahre auf 3 Floors!",
-   "offers": {
-    "@type": "Offer",
-    "price": "12.00",
-    "priceCurrency": "EUR",
-    "url": "https://shop.copilot.events/frannz/events/820df3ed-f0bf-4d98-ad28-aa2f26619ae6",
-    "validFrom": "2026-11-14T21:00+0100"
-   },
-   "startDate": "2026-11-14T21:00+0100"
-  }
- },
- "https://rausgegangen.de/events/musical-spheres-ant-enoch-ava-joe-caro-schaeffler-0/": {
-  "fetched": "2026-11-07T07:06:56+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "LiveDrei exklusive Live-Performances an einem Abend: In »musical spheres« verwandeln musikalische Acts die Bühne des Planetariumssaals und nehmen euch mit in ein einzigartiges Konzert unter dem Himmelszelt. Aufstrebende Musik-Stars umgeben von 360°-Visuals, die live gesteuert werden und das Publikum in neue galaktische Weiten eintauchen lassen, ermöglichen ein ganz besonderes und effektvolles Erlebnis.Die Konzertreihe »musical spheres« vereint kosmische Live-Performances mit eindrucksvollen Visualisierungen.Folgendes Line-up erwartet euch am 17. November 2026:ANT ENOCHDer in Sydney und Berlin lebende Künstler ANT ENOCH schreibt Hymnen zum Weinen auf der Tanzfläche. Sein melodischer Bedroom Pop verbindet seine Liebe zu melancholischen Dance-Balladen der 1980er Jahre mit einer zeitgenössischen analogen Ästhetik. Seine selbst produzierte Debüt-EP »Big Talk Big Party« aus dem Jahr 2024 entstand aus der Isolation während der Pandemie und vereint klassische japanische Drum Machines, sehr persönliche Texte sowie Klavier, Synthesizer und Violine. Frühe Songwriting-Experimente führten ihn an Musikhochschulen in Sydney und Toronto, wo er in kleinen Clubs spielte. Heute lebt er zwischen Berlin und Bankstown und begeistert mit seinen Live-Shows u.a. in Berlin, München und Sydney sowie auf Festivals.AVA JOEMit ihren jungen 22 Jahren wirkt es zunächst ungewöhnlich, Ava Joe als »alte Seele« zu bezeichnen – doch ihre Leidenschaft für Geschichten und ihre Fähigkeit, persönliche Erfahrungen in romantische Momentaufnahmen zu verwandeln, sprechen dafür. Inspiriert von Kunst, Musik und Film sowie Künstler*innen wie Frank Sinatra, Marilyn Monroe oder Brigitte Bardot, entwickelte sie eine zeitlose musikalische Ästhetik. Ihre Debütsingle »Black Smoke« entführt in die Geschichte einer vergangenen Beziehung, geprägt von toxischer Co-Abhängigkeit. Aufgewachsen in Devon, Irland und London, studierte sie Musikperformance an der Brit School und Gesang an der ACM und etablierte sich seitdem als eindrucksvolle Sängerin und Performerin.Caro SchaefflerCaro Schaeffler versucht mit ihrer Kunst eine Welt zu schaffen, in der man sich verlieren, aber auch wiederfinden kann. Als selbsternannte »hoffnungslose Romantikerin« verwandelt sie flüchtige Augenblicke in intime, zeitlose Kunst. Ihre Musik bewegt sich zwischen Melancholie und jugendlicher Naivität: Chansonartige Balladen treffen auf organische und moderne Pop-Elemente. Ihre persönlichen Songs erzählen davon, in allen Erfahrungen – auch den schmerzhaften – Schönheit zu entdecken und diese mit anderen zu teilen. Auch ihre visuelle Sprache ist geprägt von poetischer Nostalgie, Filmklassikern und Gemälde-Welten. Ihr langfristiges Ziel: Kunst zu schaffen, die bleibt, in einer Welt der immer weiter voranschreitenden Kurzweiligkeit",
-   "endDate": "2026-11-17T22:45+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/HfkXA2pHTqmYUNBQPSZR_spbmusicalspheresheaderallefarbenmar24rz2.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10405",
-     "streetAddress": "Prenzlauer Allee 80"
-    },
-    "name": "Zeiss-Großplanetarium Berlin"
-   },
-   "name": "Musical spheres: ANT ENOCH, AVA JOE & Caro Schaeffler",
-   "offers": {
-    "@type": "Offer",
-    "price": "25.00",
-    "priceCurrency": "EUR",
-    "url": "https://www.planetarium.berlin/veranstaltungen/musical-spheres-im-november",
-    "validFrom": "2026-11-17T21:00+0100"
-   },
-   "startDate": "2026-11-17T21:00+0100"
-  }
  },
  "https://rausgegangen.de/events/skuppin-musee-sentimental-tour-2027-10/": {
   "fetched": "2026-11-07T07:06:56+01:00",
@@ -1037,6 +923,43 @@
     "url": "https://rausgegangen.de/organizations/social-reading-club/"
    },
    "startDate": "2026-11-17T18:30+0100"
+  }
+ },
+ "https://rausgegangen.de/events/speak-up-inline-x-stories-of-her-with-x-tin-degen-oneyra-lin-0/": {
+  "fetched": "2026-11-07T08:27:54+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Erst reden, dann tanzen: Die Party feiert den sechsten Geburtstag von Stories of Her, einem Projekt, das anonyme Erfahrungen mit Sexismus, Belästigung und sexualisierter Gewalt sichtbar macht. Später kippt der Abend in elektronische Sets von X Tin, degen, Ôneyra, Linda shiro und mehr 🌈",
+   "endDate": "2026-11-15T06:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/07IK7lgPQpK2XrMjwDQC_postv1.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10245",
+     "streetAddress": "Revaler Str. 99"
+    },
+    "name": "Crack Bellmer"
+   },
+   "name": "SPEAK UP Inline x Stories of Her with X Tin, degen, Ôneyra, Linda shiro & many more",
+   "offers": {
+    "@type": "Offer",
+    "price": "10.00",
+    "priceCurrency": "EUR",
+    "validFrom": "2026-11-14T17:30+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Inline",
+    "url": "https://rausgegangen.de/organizations/inline/"
+   },
+   "startDate": "2026-11-14T17:30+0100"
   }
  }
 }

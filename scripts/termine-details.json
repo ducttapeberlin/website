@@ -282,6 +282,73 @@
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/cris-cosmo-liebe-dich-selbst-tour-2026-3/": {
+  "fetched": "2026-11-07T12:57:57+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Liebe dich selbst Tour 2026 – Mit seinem neuen Album geht Cris Cosmo im Herbst 2026 auf große Deutschlandtour und bringt die Botschaft von Selbstliebe, Lebensfreude und Zusammenhalt auf die Bühne. Cris Cosmo, bekannt als Botschafter für Toleranz und Weltoffenheit, verbindet Singer-Songwriter, Indie-Pop, Reggae und südamerikanische Grooves zu einem tanzbaren Sound mit starken, positiven Messages. Nach über 2.000 Konzerten begeistert er mit interaktiven Momenten, spontanen Freestyle-Einlagen und einer außergewöhnlichen Bühnenpräsenz – eine Freiheits-Party voller guter Vibes, bei der alle Generationen und Nationen willkommen sind. Der Zutritt zum Monarch ist erst ab 18 Jahren möglich.",
+   "endDate": "2026-11-21T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Zvxq8P9MTq52crjoixf4_cris-cosmo-liebe-dich-selbst-cover-image-by-rene-van-der-voorden-header-1.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10999",
+     "streetAddress": "Skalitzer Str. 134"
+    },
+    "name": "Monarch"
+   },
+   "name": "Cris Cosmo - Liebe dich selbst Tour 2026",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "20.00",
+    "lowPrice": "0.00",
+    "offerCount": 4,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "15.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Ermäßigt",
+      "price": "10.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Supporter",
+      "price": "20.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Begleitperson",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Cris Cosmo"
+   },
+   "startDate": "2026-11-20T19:30+0100"
+  }
+ },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
   "fetched": "2026-11-07T07:06:56+01:00",
   "ld": {
@@ -779,16 +846,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/marenera-pizzica-italienische-volksmusik-0/": {
-  "fetched": "2026-11-07T12:02:17+01:00",
+ "https://rausgegangen.de/events/mattiel-4/": {
+  "fetched": "2026-11-07T12:57:57+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Süditalienische Volksmusik, die nicht im Archiv bleibt, sondern für Tanz, Rituale und Feste gemacht ist. Marenera spielt Pizzica, Tarantella und andere überlieferte Lieder so, dass Du die Hochzeitsgesellschaft fast schon vor Dir siehst 💃",
-   "endDate": "2027-01-16T05:00+0100",
+   "description": "Mattiel Brown kommt aus Atlanta, lebt in Italien und klingt trotzdem nach keiner klaren Schublade. Zwischen Vintage Soul und Indie Rock zeigt ihre neue Single eine leisere, persönlichere Seite 👀",
+   "endDate": "2027-05-24T06:00+0200",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/QX2v5BFTTY6s0wpjkvQ6_foto-1-treppecreditsgiannis-vassaras.jpeg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/H5QfApkARu6WTlvbe579_mattiel-hp-1270x700-px.png"
    ],
    "location": {
     "@type": "Place",
@@ -796,20 +863,25 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10435",
-     "streetAddress": "Knaackstraße 97"
+     "postalCode": "10777",
+     "streetAddress": "Nollendorfplatz 5"
     },
-    "name": "PANDA platforma"
+    "name": "Mikropol"
    },
-   "name": "Marenera: Pizzica & italienische Volksmusik",
+   "name": "Mattiel",
    "offers": {
     "@type": "Offer",
-    "price": "13.00",
+    "price": "24.90",
     "priceCurrency": "EUR",
-    "url": "https://panda-platforma.berlin/events/marenera-pizzica-italienische-volksmusik/",
-    "validFrom": "2027-01-15T20:30+0100"
+    "url": "https://www.eventim.de/noapp/event/mattiel-the-at-the-doorstep-tour-mikropol-22313827/?affiliate=KSG&utm_campaign=schoneberg&utm_source=KSG&utm_medium=dp",
+    "validFrom": "2027-05-23T19:00+0200"
    },
-   "startDate": "2027-01-15T20:30+0100"
+   "organizer": {
+    "@type": "Organization",
+    "name": "Konzertbüro Schoneberg",
+    "url": "https://rausgegangen.de/organizations/schoneberg-konzerte/"
+   },
+   "startDate": "2027-05-23T19:00+0200"
   }
  },
  "https://rausgegangen.de/events/millennial-mixtape-das-revival-der-nullerjahre-auf-3-floors-0/": {
@@ -843,129 +915,6 @@
     "validFrom": "2026-11-14T21:00+0100"
    },
    "startDate": "2026-11-14T21:00+0100"
-  }
- },
- "https://rausgegangen.de/events/musical-spheres-ant-enoch-ava-joe-caro-schaeffler-0/": {
-  "fetched": "2026-11-07T12:02:17+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "LiveDrei exklusive Live-Performances an einem Abend: In »musical spheres« verwandeln musikalische Acts die Bühne des Planetariumssaals und nehmen euch mit in ein einzigartiges Konzert unter dem Himmelszelt. Aufstrebende Musik-Stars umgeben von 360°-Visuals, die live gesteuert werden und das Publikum in neue galaktische Weiten eintauchen lassen, ermöglichen ein ganz besonderes und effektvolles Erlebnis.Die Konzertreihe »musical spheres« vereint kosmische Live-Performances mit eindrucksvollen Visualisierungen.Folgendes Line-up erwartet euch am 17. November 2026:ANT ENOCHDer in Sydney und Berlin lebende Künstler ANT ENOCH schreibt Hymnen zum Weinen auf der Tanzfläche. Sein melodischer Bedroom Pop verbindet seine Liebe zu melancholischen Dance-Balladen der 1980er Jahre mit einer zeitgenössischen analogen Ästhetik. Seine selbst produzierte Debüt-EP »Big Talk Big Party« aus dem Jahr 2024 entstand aus der Isolation während der Pandemie und vereint klassische japanische Drum Machines, sehr persönliche Texte sowie Klavier, Synthesizer und Violine. Frühe Songwriting-Experimente führten ihn an Musikhochschulen in Sydney und Toronto, wo er in kleinen Clubs spielte. Heute lebt er zwischen Berlin und Bankstown und begeistert mit seinen Live-Shows u.a. in Berlin, München und Sydney sowie auf Festivals.AVA JOEMit ihren jungen 22 Jahren wirkt es zunächst ungewöhnlich, Ava Joe als »alte Seele« zu bezeichnen – doch ihre Leidenschaft für Geschichten und ihre Fähigkeit, persönliche Erfahrungen in romantische Momentaufnahmen zu verwandeln, sprechen dafür. Inspiriert von Kunst, Musik und Film sowie Künstler*innen wie Frank Sinatra, Marilyn Monroe oder Brigitte Bardot, entwickelte sie eine zeitlose musikalische Ästhetik. Ihre Debütsingle »Black Smoke« entführt in die Geschichte einer vergangenen Beziehung, geprägt von toxischer Co-Abhängigkeit. Aufgewachsen in Devon, Irland und London, studierte sie Musikperformance an der Brit School und Gesang an der ACM und etablierte sich seitdem als eindrucksvolle Sängerin und Performerin.Caro SchaefflerCaro Schaeffler versucht mit ihrer Kunst eine Welt zu schaffen, in der man sich verlieren, aber auch wiederfinden kann. Als selbsternannte »hoffnungslose Romantikerin« verwandelt sie flüchtige Augenblicke in intime, zeitlose Kunst. Ihre Musik bewegt sich zwischen Melancholie und jugendlicher Naivität: Chansonartige Balladen treffen auf organische und moderne Pop-Elemente. Ihre persönlichen Songs erzählen davon, in allen Erfahrungen – auch den schmerzhaften – Schönheit zu entdecken und diese mit anderen zu teilen. Auch ihre visuelle Sprache ist geprägt von poetischer Nostalgie, Filmklassikern und Gemälde-Welten. Ihr langfristiges Ziel: Kunst zu schaffen, die bleibt, in einer Welt der immer weiter voranschreitenden Kurzweiligkeit",
-   "endDate": "2026-11-17T22:45+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/HfkXA2pHTqmYUNBQPSZR_spbmusicalspheresheaderallefarbenmar24rz2.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10405",
-     "streetAddress": "Prenzlauer Allee 80"
-    },
-    "name": "Zeiss-Großplanetarium Berlin"
-   },
-   "name": "Musical spheres: ANT ENOCH, AVA JOE & Caro Schaeffler",
-   "offers": {
-    "@type": "Offer",
-    "price": "25.00",
-    "priceCurrency": "EUR",
-    "url": "https://www.planetarium.berlin/veranstaltungen/musical-spheres-im-november",
-    "validFrom": "2026-11-17T21:00+0100"
-   },
-   "startDate": "2026-11-17T21:00+0100"
-  }
- },
- "https://rausgegangen.de/events/pandawomen-2026-kuula-hetke-perperuna-0/": {
-  "fetched": "2026-11-07T12:02:17+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Mal hörst Du fast den Atem, im nächsten Moment öffnet sich alles weit: Kuula Hetke zerlegen als improvisierendes Flötenduo aus Estland ihre Melodien live und setzen sie neu zusammen. Danach tragen sich bei Perperúna fünf Stimmen gegenseitig durch mehrstimmige Lieder 🌈",
-   "endDate": "2026-11-14T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/WAUbgZPgT12a9sSKq10q_22998image-2048x1024.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10435",
-     "streetAddress": "Knaackstraße 97"
-    },
-    "name": "PANDA platforma"
-   },
-   "name": "PANDAwomen 2026: Kuula Hetke / Perperúna",
-   "offers": {
-    "@type": "Offer",
-    "price": "20.00",
-    "priceCurrency": "EUR",
-    "url": "https://panda-platforma.berlin/events/kuula-hetke-perper-na/",
-    "validFrom": "2026-11-13T20:30+0100"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "PANDA platforma e.V.",
-     "url": "https://rausgegangen.de/organizations/page-for-team-panda-platforma-ev/"
-    },
-    {
-     "@type": "Organization",
-     "name": "PANDAwomen 2026 Festival",
-     "url": "https://rausgegangen.de/organizations/pandawomen-festival/"
-    }
-   ],
-   "startDate": "2026-11-13T20:30+0100"
-  }
- },
- "https://rausgegangen.de/events/pandawomen-2026-nini-nutsubidze-vepsestikk-0/": {
-  "fetched": "2026-11-07T12:02:17+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Zwei Trompeten auf der einen Seite, georgischer Pop Folk zwischen Soul, R&B und Hip Hop auf der anderen. PANDAwomen packt an einem Abend Nini Nutsubidze und Vepsestikk zusammen, und genau diese scharfen Kanten machen neugierig 👀",
-   "endDate": "2026-11-15T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/j673pt2KTZeOPqOf454Q_23002image-2048x1024.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10435",
-     "streetAddress": "Knaackstraße 97"
-    },
-    "name": "PANDA platforma"
-   },
-   "name": "PANDAwomen 2026: Nini Nutsubidze / Vepsestikk",
-   "offers": {
-    "@type": "Offer",
-    "price": "17.00",
-    "priceCurrency": "EUR",
-    "url": "https://panda-platforma.berlin/events/nini-nutsubidze-vepsestikk/",
-    "validFrom": "2026-11-14T20:30+0100"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "PANDA platforma e.V.",
-     "url": "https://rausgegangen.de/organizations/page-for-team-panda-platforma-ev/"
-    },
-    {
-     "@type": "Organization",
-     "name": "PANDAwomen 2026 Festival",
-     "url": "https://rausgegangen.de/organizations/pandawomen-festival/"
-    }
-   ],
-   "startDate": "2026-11-14T20:30+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
@@ -1006,54 +955,5 @@
    "startDate": "2026-12-19T19:30+0100"
   },
   "seen": "2026-10-31T02:26:10+01:00"
- },
- "https://rausgegangen.de/events/tati-comedy-tryout-stand-up-comedy-14/": {
-  "fetched": "2026-11-07T12:02:17+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Stand-Up Comedy Tryout / Open MicNeue Talente. Neue Jokes. Neue Energie – live & unfiltriert!TRYOUT ist die Bühne, auf der Comedy entsteht. Newcomer, Fortgeschrittene und spontane Mutige testen hier ihre brandneuen Jokes live vor Publikum. Nichts ist geplant, nichts ist perfekt – und genau das macht diesen Abend so einzigartig.Erlebe einen Abend voller Überraschungen, spontaner Momente und echter Stand-up-Comedy, bei der du manchmal der erste Mensch bist, der einen neuen Gag überhaupt zu hören bekommt.Was dich erwartet:Frische Comedy-Sets & brandneues MaterialAuthentische „Work in Progress“-AtmosphäreMutige Newcomer & überraschende ProfisHumor, der spontan entstehtEnergiegeladenes, ehrliches PublikumFür wen ist TRYOUT?Für alle, die Comedy lieben: Publikum, das über rohe, echte Comedy lachen möchte – und Performer, die mutig sind, Neues auszuprobieren.--Location--Welcome to Tati Goes Underground — Berlin’s intimate, alternative comedy club. Known for its cozy, candle-lit atmosphere and bohemian vibes, Tati is the kind of place where comedians and audiences come together like old friends... with strong opinions and stronger drinks.Metzer Str. 2 in Prenzlauer Berg is a two-minute walk from the U2 \"Senefelder Platz\" station. The bar offers the perfect atmosphere for a successful comedy evening. A cozy interior, friendly staff, and good drinks round out this special comedy event for you.",
-   "endDate": "2026-11-10T20:30+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/IUObRZ5jQgW7YMCD4a6c_tati-comedy-club-berliner-stand-up-nacht.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10405",
-     "streetAddress": "Metzer Straße 2"
-    },
-    "name": "Tati goes Underground"
-   },
-   "name": "Tati Comedy - Open Mic",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": null,
-    "lowPrice": null,
-    "offerCount": 2,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "15.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "earlybird",
-      "price": "12.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "startDate": "2026-11-10T19:00+0100"
-  }
  }
 }

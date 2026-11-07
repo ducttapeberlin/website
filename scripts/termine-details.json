@@ -193,6 +193,76 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/alizade-0/": {
+  "fetched": "2026-11-07T04:10:17+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Drei Sprachen im Kopf, klare Ansage im Mic. Alizade bewegt sich zwischen türkischem Trap, Hip Hop und Pop, ohne sich stilistisch klein zu machen 💅🏼",
+   "endDate": "2027-03-18T23:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/RPaXer3QRV2eoGgEPHaF_photo-alizadecredit-ricardo-van-lachterop-kopie.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "12435",
+     "streetAddress": "Am Flutgraben 2"
+    },
+    "name": "Festsaal Kreuzberg"
+   },
+   "name": "Alizade",
+   "offers": {
+    "@type": "Offer",
+    "price": "33.50",
+    "priceCurrency": "EUR",
+    "url": "https://www.eventim.de/artist/alizade/",
+    "validFrom": "2027-03-18T19:00+0100"
+   },
+   "startDate": "2027-03-18T19:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/amber-georgia-0/": {
+  "fetched": "2026-11-07T04:10:17+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Orange im Glas und dahinter mehr als 60 Winzer:innen aus Georgien, die ihre Weine selbst mitbringen. Statt Messestress eher ein direkter Draht zu einer uralten Weintradition 👀",
+   "endDate": "2026-11-28T17:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/cIF9OMxVScGZqgIavWKV_amber-georgia-berlin-weine-aus-georgien-3.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10997",
+     "streetAddress": "Köpenicker Str. 16/17"
+    },
+    "name": "Magazin in der Heeresbäckerei"
+   },
+   "name": "Amber Georgia – Low Intervention Wine Fair",
+   "offers": {
+    "@type": "Offer",
+    "price": "30.00",
+    "priceCurrency": "EUR",
+    "url": "https://ticketmaster.evyy.net/c/6519574/2038753/23890?u=https%3A%2F%2Fwww.universe.com%2Fevents%2Famber-georgia-tickets-LJS031%3Fref%3Dticketmaster&utm_medium=affiliate",
+    "validFrom": "2026-11-28T11:00+0100"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Amber Georgia Berlin"
+   },
+   "startDate": "2026-11-28T11:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
   "fetched": "2026-11-07T00:55:16+01:00",
   "ld": {
@@ -281,6 +351,73 @@
   "seen": "2026-10-20T15:24:41+02:00",
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
+ },
+ "https://rausgegangen.de/events/cris-cosmo-liebe-dich-selbst-tour-2026-3/": {
+  "fetched": "2026-11-07T04:10:17+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Liebe dich selbst Tour 2026 – Mit seinem neuen Album geht Cris Cosmo im Herbst 2026 auf große Deutschlandtour und bringt die Botschaft von Selbstliebe, Lebensfreude und Zusammenhalt auf die Bühne. Cris Cosmo, bekannt als Botschafter für Toleranz und Weltoffenheit, verbindet Singer-Songwriter, Indie-Pop, Reggae und südamerikanische Grooves zu einem tanzbaren Sound mit starken, positiven Messages. Nach über 2.000 Konzerten begeistert er mit interaktiven Momenten, spontanen Freestyle-Einlagen und einer außergewöhnlichen Bühnenpräsenz – eine Freiheits-Party voller guter Vibes, bei der alle Generationen und Nationen willkommen sind. Der Zutritt zum Monarch ist erst ab 18 Jahren möglich.",
+   "endDate": "2026-11-21T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Zvxq8P9MTq52crjoixf4_cris-cosmo-liebe-dich-selbst-cover-image-by-rene-van-der-voorden-header-1.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10999",
+     "streetAddress": "Skalitzer Str. 134"
+    },
+    "name": "Monarch"
+   },
+   "name": "Cris Cosmo - Liebe dich selbst Tour 2026",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "20.00",
+    "lowPrice": "0.00",
+    "offerCount": 4,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "15.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Ermäßigt",
+      "price": "10.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Supporter",
+      "price": "20.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Begleitperson",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Cris Cosmo"
+   },
+   "startDate": "2026-11-20T19:30+0100"
+  }
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
   "fetched": "2026-11-07T00:55:16+01:00",
@@ -605,6 +742,79 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
+ "https://rausgegangen.de/events/geheimkonzert-berlin-24-by-rausgegangen-0/": {
+  "fetched": "2026-11-07T04:10:17+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Na Hallo! Es ist wieder so weit: Ein Abend voller Überraschung - denn wer auf der Bühne steht, bleibt bis zum ersten Ton geheim. Wir hatten schon Blond, Berq, Ennio, Futurebae, Jassin, Anais, Katha Pauer & viele mehr zu Gast – und das schon bevor sie die großen Bühnen der Nation gestürmt haben. Also entdecke die Stars von Morgen bei unseren Geheimkonzerten. 🪩",
+   "endDate": "2026-12-09T22:15+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/mO31iODjTCuFLVfQ493H_gk202516x9photoheadline-32-1.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin"
+    },
+    "name": "Secret location"
+   },
+   "name": "Geheimkonzert Berlin #24 by Rausgegangen",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "29.90",
+    "lowPrice": "24.50",
+    "offerCount": 4,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "SCHNAPPER",
+      "price": "21.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "REGULAR",
+      "price": "25.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "4er FRIENDS BUNDLE",
+      "price": "23.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Mitgegangen",
+      "price": "3.80",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "Rausgegangen Geheimkonzerte",
+     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Rausgegangen Geheimkonzerte Berlin",
+     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte-3/"
+    }
+   ],
+   "startDate": "2026-12-09T20:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
   "fetched": "2026-11-07T00:55:16+01:00",
   "ld": {
@@ -779,49 +989,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/knack-den-fall-37/": {
-  "fetched": "2026-11-07T02:27:05+01:00",
+ "https://rausgegangen.de/events/pandawomen-2026-aban-ensemble-dj-rosemah-curated-by-yalda-ya-0/": {
+  "fetched": "2026-11-07T04:10:17+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Detektive aufgepasst!1895 in Berlin – zwei Freundinnen, Peggy Palmer und ihre beste und leider auch einzige Freundin Margarete Klammroth, ermitteln in diversen Kriminalfällen. Aufgeschrieben hat diese Begebenheiten Peggy Palmer persönlich, alias Katharina Palm. „Knack den Fall!\" ist ein spektakuläres, interaktives Krimi-Event! 6 fesselnde Sprecher:innen des Peggy-Palmer-Ensembles und eine spritzige Moderatorin fordern das Publikum heraus, die jeweiligen Verbrechen aufzuklären.Sie lesen, unterstützt von Geräuschen und Musik, die verschiedenen Rollen, das Publikum löst den Fall, gibt seinen Tipp ab und der oder die Glückliche gewinnt den Preis „Der Goldene Riecher\".",
-   "endDate": "2026-11-08T21:00+0100",
+   "description": "Erst vier Musikerinnen aus Iran, dann DJ ROSEMAH mit Sounds zwischen House, Hip Hop und Klängen aus Afghanistan, Persien und der SWANA Region. Ein Abend, an dem musikalische Welten nicht sauber getrennt bleiben 👀",
+   "endDate": "2026-11-22T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/emP8LKlATey2u7i2dbzD_kdf-november-2026-2.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10117",
-     "streetAddress": "Monbijoustraße 3B"
-    },
-    "name": "Märchenhütte des Monbijou Theaters"
-   },
-   "name": "Knack den Fall! Nr. 13",
-   "offers": {
-    "@type": "Offer",
-    "price": "17.00",
-    "priceCurrency": "EUR",
-    "url": "https://maerchenhuetten.com/programm/knack-den-fall/",
-    "validFrom": "2026-11-08T19:00+0100"
-   },
-   "startDate": "2026-11-08T19:00+0100"
-  }
- },
- "https://rausgegangen.de/events/pandawomen-2026-kuula-hetke-perperuna-0/": {
-  "fetched": "2026-11-07T02:27:05+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Mal hörst Du fast den Atem, im nächsten Moment öffnet sich alles weit: Kuula Hetke zerlegen als improvisierendes Flötenduo aus Estland ihre Melodien live und setzen sie neu zusammen. Danach tragen sich bei Perperúna fünf Stimmen gegenseitig durch mehrstimmige Lieder 🌈",
-   "endDate": "2026-11-14T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/WAUbgZPgT12a9sSKq10q_22998image-2048x1024.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/xujcRKOIRwmSNozh4mi6_23207image-2048x1024.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -834,13 +1011,13 @@
     },
     "name": "PANDA platforma"
    },
-   "name": "PANDAwomen 2026: Kuula Hetke / Perperúna",
+   "name": "PANDAwomen 2026: Aban Ensemble / DJ ROSEMAH / Curated by Yalda Yazdani",
    "offers": {
     "@type": "Offer",
     "price": "20.00",
     "priceCurrency": "EUR",
-    "url": "https://panda-platforma.berlin/events/kuula-hetke-perper-na/",
-    "validFrom": "2026-11-13T20:30+0100"
+    "url": "https://panda-platforma.berlin/events/aban-ensemble-dj-rosemah/",
+    "validFrom": "2026-11-21T20:30+0100"
    },
    "organizer": [
     {
@@ -854,7 +1031,39 @@
      "url": "https://rausgegangen.de/organizations/pandawomen-festival/"
     }
    ],
-   "startDate": "2026-11-13T20:30+0100"
+   "startDate": "2026-11-21T20:30+0100"
+  }
+ },
+ "https://rausgegangen.de/events/school-of-quilombismo-crip-epistemologies-0/": {
+  "fetched": "2026-11-07T04:10:17+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Hier geht es um Crip-Wissen, das von Menschen mit Behinderung selbst gedacht und weitergegeben wird. Workshops, Vorträge und Interventionen setzen dabei bewusst auf Austausch statt Frontalbetrieb – und das Ganze ist entspannt gestaltet 🫶",
+   "endDate": "2026-11-15T17:30+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/20VxdkKkSB6FSwWk767w_keyvisual-soq.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10557",
+     "streetAddress": "John-Foster-Dulles-Allee 10"
+    },
+    "name": "Haus der Kulturen der Welt | HKW"
+   },
+   "name": "School of Quilombismo: Crip Epistemologies",
+   "offers": {
+    "@type": "Offer",
+    "price": "0.00",
+    "priceCurrency": "EUR",
+    "validFrom": "2026-11-14T10:00+0100"
+   },
+   "startDate": "2026-11-14T10:00+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
@@ -895,42 +1104,5 @@
    "startDate": "2026-12-19T19:30+0100"
   },
   "seen": "2026-10-31T02:26:10+01:00"
- },
- "https://rausgegangen.de/events/speak-up-inline-x-stories-of-her-with-x-tin-degen-oneyra-lin-0/": {
-  "fetched": "2026-11-07T02:27:05+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Erst reden, dann tanzen: Die Party feiert den sechsten Geburtstag von Stories of Her, einem Projekt, das anonyme Erfahrungen mit Sexismus, Belästigung und sexualisierter Gewalt sichtbar macht. Später kippt der Abend in elektronische Sets von X Tin, degen, Ôneyra, Linda shiro und mehr 🌈",
-   "endDate": "2026-11-15T06:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/07IK7lgPQpK2XrMjwDQC_postv1.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10245",
-     "streetAddress": "Revaler Str. 99"
-    },
-    "name": "Crack Bellmer"
-   },
-   "name": "SPEAK UP Inline x Stories of Her with X Tin, degen, Ôneyra, Linda shiro & many more",
-   "offers": {
-    "@type": "Offer",
-    "price": "10.00",
-    "priceCurrency": "EUR",
-    "validFrom": "2026-11-14T17:30+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Inline",
-    "url": "https://rausgegangen.de/organizations/inline/"
-   },
-   "startDate": "2026-11-14T17:30+0100"
-  }
  }
 }

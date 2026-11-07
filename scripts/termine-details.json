@@ -193,16 +193,16 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/alizade-0/": {
-  "fetched": "2026-11-07T04:10:17+01:00",
+ "https://rausgegangen.de/events/comedy-slam-berlin-13/": {
+  "fetched": "2026-11-07T05:13:17+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Drei Sprachen im Kopf, klare Ansage im Mic. Alizade bewegt sich zwischen türkischem Trap, Hip Hop und Pop, ohne sich stilistisch klein zu machen 💅🏼",
-   "endDate": "2027-03-18T23:00+0100",
+   "description": "Vier der besten Slam-Poet*innen des Landes treffen beim Comedy Slam Berlins aufeinander, um sich mit ihren lustigsten Texten ins Zwerchfell des Publikums zu lesen. In zwei Runden erschüttern sie eure Bauchmuskeln. Workout fürs Zwerchfell! Und ihr entscheidet per Applaus über den lustigsten Text. Am Ende des Abend liegt ihr auf dem Boden vor Lachen, und eine*r der Comedy-Slammer*innen trägt den publikumsgewählten Triumph nach Hause.Einlass: 19:30Beginn: 20:00Was den Comedy Slam ausmachtGanz wie bei Poetry Slams stehen hier Text und Performance im Vordergrund. Die Regeln für die Auftretenden: 8 Minuten Zeitlimit, keine Requisiten, nur selbstgeschriebene Texte. Und das Publikum entscheidet über den Sieg des Abends. Aber anders als sonst, gibt es beim Comedy Slam Berlin ausschließlich lustige Texte: Literatur zum Lachen.Was den Comedy Slam von einer üblichen Stand-Up Show unterscheidet, die die Comedy-Clubs Berlins bevölkern? Hier gibt es nicht nur eine Aneinanderreihung von Witzen. Hier hört ihr durchgängige Geschichten, Erzählungen, Gedichte und ein bisschen Message. Die ganze Vielfalt des Poetry Slams eben. Mit den Zwerchfellerschütterern von Komikern. Poetry Slam meets Stand-Up.Vier geladene Slammer*innen treten im harten Wettkampf gegeneinander an: Und ihr entscheidet, wer die hohe Kunst der Literatur mit jener des Humors am Besten verbinden kann.",
+   "endDate": "2026-11-20T22:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/RPaXer3QRV2eoGgEPHaF_photo-alizadecredit-ricardo-van-lachterop-kopie.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/pNbniJqT9a5jAyHUlOgw_2025comedy-slam-fotologo.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -210,57 +210,135 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "12435",
-     "streetAddress": "Am Flutgraben 2"
+     "postalCode": "10119",
+     "streetAddress": "Schönhauser Allee 176"
     },
-    "name": "Festsaal Kreuzberg"
+    "name": "Pfefferberg Theater"
    },
-   "name": "Alizade",
+   "name": "Comedy Slam Berlin",
    "offers": {
-    "@type": "Offer",
-    "price": "33.50",
-    "priceCurrency": "EUR",
-    "url": "https://www.eventim.de/artist/alizade/",
-    "validFrom": "2027-03-18T19:00+0100"
+    "@type": "AggregateOffer",
+    "highPrice": "39.90",
+    "lowPrice": "14.90",
+    "offerCount": 13,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK 1: Regulär",
+      "price": "24.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK1: Ermäßigt",
+      "price": "22.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK2: Regulär",
+      "price": "22.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK2: Ermäßigt",
+      "price": "19.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK3: Regulär",
+      "price": "19.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK3: Ermäßigt",
+      "price": "17.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK4: Regulär",
+      "price": "17.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK4: Ermäßigt",
+      "price": "14.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Paarplatz Regulär (2 Pers.)",
+      "price": "39.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Paarplatz Ermäßigt (2 Pers.)",
+      "price": "35.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Zweiter Paarplatz (wähl dies zu deinem Kostenpflichtigen Hauptticket, alleine ist es ungültig)",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Schwerbehindertenausweis B-Ticket",
+      "price": "17.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Begleiterticket Schwerbehinderte (ungültig ohne Hauptticket)",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
    },
-   "startDate": "2027-03-18T19:00+0100"
-  }
- },
- "https://rausgegangen.de/events/amber-georgia-0/": {
-  "fetched": "2026-11-07T04:10:17+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Orange im Glas und dahinter mehr als 60 Winzer:innen aus Georgien, die ihre Weine selbst mitbringen. Statt Messestress eher ein direkter Draht zu einer uralten Weintradition 👀",
-   "endDate": "2026-11-28T17:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/cIF9OMxVScGZqgIavWKV_amber-georgia-berlin-weine-aus-georgien-3.png"
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "Comedy Slam",
+     "url": "https://rausgegangen.de/organizations/p-comedy-slam/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Kiezpoeten",
+     "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Pfefferberg Theater Slams",
+     "url": "https://rausgegangen.de/organizations/p-pfefferberg-theater-slams/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Premium Poetry",
+     "url": "https://rausgegangen.de/organizations/p-premium-poetry/"
+    }
    ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10997",
-     "streetAddress": "Köpenicker Str. 16/17"
-    },
-    "name": "Magazin in der Heeresbäckerei"
-   },
-   "name": "Amber Georgia – Low Intervention Wine Fair",
-   "offers": {
-    "@type": "Offer",
-    "price": "30.00",
-    "priceCurrency": "EUR",
-    "url": "https://ticketmaster.evyy.net/c/6519574/2038753/23890?u=https%3A%2F%2Fwww.universe.com%2Fevents%2Famber-georgia-tickets-LJS031%3Fref%3Dticketmaster&utm_medium=affiliate",
-    "validFrom": "2026-11-28T11:00+0100"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Amber Georgia Berlin"
-   },
-   "startDate": "2026-11-28T11:00+0100"
+   "startDate": "2026-11-20T20:00+0100"
   }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
@@ -351,73 +429,6 @@
   "seen": "2026-10-20T15:24:41+02:00",
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/cris-cosmo-liebe-dich-selbst-tour-2026-3/": {
-  "fetched": "2026-11-07T04:10:17+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Liebe dich selbst Tour 2026 – Mit seinem neuen Album geht Cris Cosmo im Herbst 2026 auf große Deutschlandtour und bringt die Botschaft von Selbstliebe, Lebensfreude und Zusammenhalt auf die Bühne. Cris Cosmo, bekannt als Botschafter für Toleranz und Weltoffenheit, verbindet Singer-Songwriter, Indie-Pop, Reggae und südamerikanische Grooves zu einem tanzbaren Sound mit starken, positiven Messages. Nach über 2.000 Konzerten begeistert er mit interaktiven Momenten, spontanen Freestyle-Einlagen und einer außergewöhnlichen Bühnenpräsenz – eine Freiheits-Party voller guter Vibes, bei der alle Generationen und Nationen willkommen sind. Der Zutritt zum Monarch ist erst ab 18 Jahren möglich.",
-   "endDate": "2026-11-21T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Zvxq8P9MTq52crjoixf4_cris-cosmo-liebe-dich-selbst-cover-image-by-rene-van-der-voorden-header-1.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10999",
-     "streetAddress": "Skalitzer Str. 134"
-    },
-    "name": "Monarch"
-   },
-   "name": "Cris Cosmo - Liebe dich selbst Tour 2026",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "20.00",
-    "lowPrice": "0.00",
-    "offerCount": 4,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "15.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Ermäßigt",
-      "price": "10.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Supporter",
-      "price": "20.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Begleitperson",
-      "price": "0.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Cris Cosmo"
-   },
-   "startDate": "2026-11-20T19:30+0100"
-  }
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
   "fetched": "2026-11-07T00:55:16+01:00",
@@ -742,79 +753,6 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
- "https://rausgegangen.de/events/geheimkonzert-berlin-24-by-rausgegangen-0/": {
-  "fetched": "2026-11-07T04:10:17+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Na Hallo! Es ist wieder so weit: Ein Abend voller Überraschung - denn wer auf der Bühne steht, bleibt bis zum ersten Ton geheim. Wir hatten schon Blond, Berq, Ennio, Futurebae, Jassin, Anais, Katha Pauer & viele mehr zu Gast – und das schon bevor sie die großen Bühnen der Nation gestürmt haben. Also entdecke die Stars von Morgen bei unseren Geheimkonzerten. 🪩",
-   "endDate": "2026-12-09T22:15+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/mO31iODjTCuFLVfQ493H_gk202516x9photoheadline-32-1.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin"
-    },
-    "name": "Secret location"
-   },
-   "name": "Geheimkonzert Berlin #24 by Rausgegangen",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "29.90",
-    "lowPrice": "24.50",
-    "offerCount": 4,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "SCHNAPPER",
-      "price": "21.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "REGULAR",
-      "price": "25.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "4er FRIENDS BUNDLE",
-      "price": "23.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Mitgegangen",
-      "price": "3.80",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "Rausgegangen Geheimkonzerte",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Rausgegangen Geheimkonzerte Berlin",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte-3/"
-    }
-   ],
-   "startDate": "2026-12-09T20:00+0100"
-  }
- },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
   "fetched": "2026-11-07T00:55:16+01:00",
   "ld": {
@@ -989,16 +927,108 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/pandawomen-2026-aban-ensemble-dj-rosemah-curated-by-yalda-ya-0/": {
-  "fetched": "2026-11-07T04:10:17+01:00",
+ "https://rausgegangen.de/events/love-at-first-slide-berlin-power-point-dating-by-rausgegange-13/": {
+  "fetched": "2026-11-07T05:13:17+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Erst vier Musikerinnen aus Iran, dann DJ ROSEMAH mit Sounds zwischen House, Hip Hop und Klängen aus Afghanistan, Persien und der SWANA Region. Ein Abend, an dem musikalische Welten nicht sauber getrennt bleiben 👀",
-   "endDate": "2026-11-22T05:00+0100",
+   "description": "Wir bringen mit LOVE AT FIRST SLIDE Dating auf die Bühne: Freund:innen stellen in kurzen Power Point Präsentationen ihre Lieblingssingle vor – charmant, humorvoll und ganz ohne Swipe. Nach den witzigen Pitches kannst du bei Speed-Dating und Barabend neue Begegnungen entdecken. 💘🎤💫",
+   "endDate": "2026-11-11T23:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/xujcRKOIRwmSNozh4mi6_23207image-2048x1024.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/G4DW5S6EQHOrXfM562GP_lafsbannerappstraight-2-5.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10625",
+     "streetAddress": "Kantstraße 127"
+    },
+    "name": "Dufte Berlin"
+   },
+   "name": "LOVE AT FIRST SLIDE Berlin | Power Point Dating by Rausgegangen 💖",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "19.50",
+    "lowPrice": "10.00",
+    "offerCount": 5,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Presenterticket",
+      "price": "10.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Publikum Ticket | Ich bin eine hetero Frau",
+      "price": "19.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Publikum Ticket | Ich bin ein hetero Mann",
+      "price": "19.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Publikum Ticket | Ich bin queer",
+      "price": "19.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Mitgegangen",
+      "price": "3.80",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "LOVE AT FIRST SLIDE BERLIN by Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/love-at-first-slide-berlin-by-rausgegangen/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Love at first Slide by Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/page-for-team-love-at-first-slide-by-rausgegangen/"
+    },
+    {
+     "@type": "Organization",
+     "name": "LOVE AT FIRST SLIDE by Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/love-at-first-slide-by-rausgegangen/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Team Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/team-rausgegangen/"
+    }
+   ],
+   "startDate": "2026-11-11T19:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/pandawomen-2026-nini-nutsubidze-vepsestikk-0/": {
+  "fetched": "2026-11-07T05:13:17+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Zwei Trompeten auf der einen Seite, georgischer Pop Folk zwischen Soul, R&B und Hip Hop auf der anderen. PANDAwomen packt an einem Abend Nini Nutsubidze und Vepsestikk zusammen, und genau diese scharfen Kanten machen neugierig 👀",
+   "endDate": "2026-11-15T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/j673pt2KTZeOPqOf454Q_23002image-2048x1024.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -1011,13 +1041,13 @@
     },
     "name": "PANDA platforma"
    },
-   "name": "PANDAwomen 2026: Aban Ensemble / DJ ROSEMAH / Curated by Yalda Yazdani",
+   "name": "PANDAwomen 2026: Nini Nutsubidze / Vepsestikk",
    "offers": {
     "@type": "Offer",
-    "price": "20.00",
+    "price": "17.00",
     "priceCurrency": "EUR",
-    "url": "https://panda-platforma.berlin/events/aban-ensemble-dj-rosemah/",
-    "validFrom": "2026-11-21T20:30+0100"
+    "url": "https://panda-platforma.berlin/events/nini-nutsubidze-vepsestikk/",
+    "validFrom": "2026-11-14T20:30+0100"
    },
    "organizer": [
     {
@@ -1031,19 +1061,19 @@
      "url": "https://rausgegangen.de/organizations/pandawomen-festival/"
     }
    ],
-   "startDate": "2026-11-21T20:30+0100"
+   "startDate": "2026-11-14T20:30+0100"
   }
  },
- "https://rausgegangen.de/events/school-of-quilombismo-crip-epistemologies-0/": {
-  "fetched": "2026-11-07T04:10:17+01:00",
+ "https://rausgegangen.de/events/pandawomen-2026-pandawomen-closing-event-anastasia-rydlevska-0/": {
+  "fetched": "2026-11-07T05:13:17+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Hier geht es um Crip-Wissen, das von Menschen mit Behinderung selbst gedacht und weitergegeben wird. Workshops, Vorträge und Interventionen setzen dabei bewusst auf Austausch statt Frontalbetrieb – und das Ganze ist entspannt gestaltet 🫶",
-   "endDate": "2026-11-15T17:30+0100",
+   "description": "Masken, Stimme, Elektronik: Bei Anastasia Rydlevskaya steht Pop neben belarussischer Folklore und bildender Kunst, ohne sich sauber trennen zu lassen. Danach übernimmt DJ Svetomusika mit einem spontanen Mix aus aller Welt 🪩",
+   "endDate": "2026-11-29T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/20VxdkKkSB6FSwWk767w_keyvisual-soq.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/c6PFSPuQuWhdtlyPLUea_23335image-2048x1024.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -1051,19 +1081,25 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10557",
-     "streetAddress": "John-Foster-Dulles-Allee 10"
+     "postalCode": "10435",
+     "streetAddress": "Knaackstraße 97"
     },
-    "name": "Haus der Kulturen der Welt | HKW"
+    "name": "PANDA platforma"
    },
-   "name": "School of Quilombismo: Crip Epistemologies",
+   "name": "PANDAwomen 2026: PANDAwomen closing event: Anastasia Rydlevskaya / DJ Svetomusika",
    "offers": {
     "@type": "Offer",
-    "price": "0.00",
+    "price": "25.00",
     "priceCurrency": "EUR",
-    "validFrom": "2026-11-14T10:00+0100"
+    "url": "https://panda-platforma.berlin/events/pandawomen-closing-event-anastasia-rydlevskaya-dj-svetomusika/",
+    "validFrom": "2026-11-28T20:30+0100"
    },
-   "startDate": "2026-11-14T10:00+0100"
+   "organizer": {
+    "@type": "Organization",
+    "name": "PANDAwomen 2026 Festival",
+    "url": "https://rausgegangen.de/organizations/pandawomen-festival/"
+   },
+   "startDate": "2026-11-28T20:30+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {

@@ -375,80 +375,6 @@
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/donata-strength-release-concert-0/": {
-  "fetched": "2026-11-08T14:17:03+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Zwischen Neuanfang und Rücken gerade machen liegen bei Donata nur ein paar Songs. Sie bringt ihre neue EP Strength mit kompletter Band auf die Bühne und lädt zu einem Abend ein, der eher nach echtem Miteinander klingt als nach bloßem Konzert 💜",
-   "endDate": "2026-11-12T23:30+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Td7PmoF3RX6i3YmuX3OA_2.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10117",
-     "streetAddress": "Auguststraße 24"
-    },
-    "name": "Spiegelsaal | Clärchens Ballhaus"
-   },
-   "name": "Donata - \"Strength\" Release Concert",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "30.00",
-    "lowPrice": "21.80",
-    "offerCount": 5,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Soli-Ticket",
-      "price": "21.80",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regular",
-      "price": "27.10",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Supporter",
-      "price": "32.40",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Friends & Family",
-      "price": "16.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Guestlist",
-      "price": "0.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Donata"
-   },
-   "startDate": "2026-11-12T19:00+0100"
-  }
- },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
   "fetched": "2026-11-08T11:07:18+01:00",
   "ld": {
@@ -1111,16 +1037,87 @@
    "startDate": "2026-11-11T19:00+0100"
   }
  },
- "https://rausgegangen.de/events/pandawomen-2026-nini-nutsubidze-vepsestikk-0/": {
-  "fetched": "2026-11-08T15:06:01+01:00",
+ "https://rausgegangen.de/events/mattiel-4/": {
+  "fetched": "2026-11-08T15:58:48+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Zwei Trompeten auf der einen Seite, georgischer Pop Folk zwischen Soul, R&B und Hip Hop auf der anderen. PANDAwomen packt an einem Abend Nini Nutsubidze und Vepsestikk zusammen, und genau diese scharfen Kanten machen neugierig 👀",
-   "endDate": "2026-11-15T05:00+0100",
+   "description": "Mattiel Brown kommt aus Atlanta, lebt in Italien und klingt trotzdem nach keiner klaren Schublade. Zwischen Vintage Soul und Indie Rock zeigt ihre neue Single eine leisere, persönlichere Seite 👀",
+   "endDate": "2027-05-24T06:00+0200",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/j673pt2KTZeOPqOf454Q_23002image-2048x1024.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/H5QfApkARu6WTlvbe579_mattiel-hp-1270x700-px.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10777",
+     "streetAddress": "Nollendorfplatz 5"
+    },
+    "name": "Mikropol"
+   },
+   "name": "Mattiel",
+   "offers": {
+    "@type": "Offer",
+    "price": "24.90",
+    "priceCurrency": "EUR",
+    "url": "https://www.eventim.de/noapp/event/mattiel-the-at-the-doorstep-tour-mikropol-22313827/?affiliate=KSG&utm_campaign=schoneberg&utm_source=KSG&utm_medium=dp",
+    "validFrom": "2027-05-23T19:00+0200"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Konzertbüro Schoneberg",
+    "url": "https://rausgegangen.de/organizations/schoneberg-konzerte/"
+   },
+   "startDate": "2027-05-23T19:00+0200"
+  }
+ },
+ "https://rausgegangen.de/events/musical-spheres-ant-enoch-ava-joe-caro-schaeffler-0/": {
+  "fetched": "2026-11-08T15:58:48+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "LiveDrei exklusive Live-Performances an einem Abend: In »musical spheres« verwandeln musikalische Acts die Bühne des Planetariumssaals und nehmen euch mit in ein einzigartiges Konzert unter dem Himmelszelt. Aufstrebende Musik-Stars umgeben von 360°-Visuals, die live gesteuert werden und das Publikum in neue galaktische Weiten eintauchen lassen, ermöglichen ein ganz besonderes und effektvolles Erlebnis.Die Konzertreihe »musical spheres« vereint kosmische Live-Performances mit eindrucksvollen Visualisierungen.Folgendes Line-up erwartet euch am 17. November 2026:ANT ENOCHDer in Sydney und Berlin lebende Künstler ANT ENOCH schreibt Hymnen zum Weinen auf der Tanzfläche. Sein melodischer Bedroom Pop verbindet seine Liebe zu melancholischen Dance-Balladen der 1980er Jahre mit einer zeitgenössischen analogen Ästhetik. Seine selbst produzierte Debüt-EP »Big Talk Big Party« aus dem Jahr 2024 entstand aus der Isolation während der Pandemie und vereint klassische japanische Drum Machines, sehr persönliche Texte sowie Klavier, Synthesizer und Violine. Frühe Songwriting-Experimente führten ihn an Musikhochschulen in Sydney und Toronto, wo er in kleinen Clubs spielte. Heute lebt er zwischen Berlin und Bankstown und begeistert mit seinen Live-Shows u.a. in Berlin, München und Sydney sowie auf Festivals.AVA JOEMit ihren jungen 22 Jahren wirkt es zunächst ungewöhnlich, Ava Joe als »alte Seele« zu bezeichnen – doch ihre Leidenschaft für Geschichten und ihre Fähigkeit, persönliche Erfahrungen in romantische Momentaufnahmen zu verwandeln, sprechen dafür. Inspiriert von Kunst, Musik und Film sowie Künstler*innen wie Frank Sinatra, Marilyn Monroe oder Brigitte Bardot, entwickelte sie eine zeitlose musikalische Ästhetik. Ihre Debütsingle »Black Smoke« entführt in die Geschichte einer vergangenen Beziehung, geprägt von toxischer Co-Abhängigkeit. Aufgewachsen in Devon, Irland und London, studierte sie Musikperformance an der Brit School und Gesang an der ACM und etablierte sich seitdem als eindrucksvolle Sängerin und Performerin.Caro SchaefflerCaro Schaeffler versucht mit ihrer Kunst eine Welt zu schaffen, in der man sich verlieren, aber auch wiederfinden kann. Als selbsternannte »hoffnungslose Romantikerin« verwandelt sie flüchtige Augenblicke in intime, zeitlose Kunst. Ihre Musik bewegt sich zwischen Melancholie und jugendlicher Naivität: Chansonartige Balladen treffen auf organische und moderne Pop-Elemente. Ihre persönlichen Songs erzählen davon, in allen Erfahrungen – auch den schmerzhaften – Schönheit zu entdecken und diese mit anderen zu teilen. Auch ihre visuelle Sprache ist geprägt von poetischer Nostalgie, Filmklassikern und Gemälde-Welten. Ihr langfristiges Ziel: Kunst zu schaffen, die bleibt, in einer Welt der immer weiter voranschreitenden Kurzweiligkeit",
+   "endDate": "2026-11-17T22:45+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/HfkXA2pHTqmYUNBQPSZR_spbmusicalspheresheaderallefarbenmar24rz2.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10405",
+     "streetAddress": "Prenzlauer Allee 80"
+    },
+    "name": "Zeiss-Großplanetarium Berlin"
+   },
+   "name": "Musical spheres: ANT ENOCH, AVA JOE & Caro Schaeffler",
+   "offers": {
+    "@type": "Offer",
+    "price": "25.00",
+    "priceCurrency": "EUR",
+    "url": "https://www.planetarium.berlin/veranstaltungen/musical-spheres-im-november",
+    "validFrom": "2026-11-17T21:00+0100"
+   },
+   "startDate": "2026-11-17T21:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/pandawomen-2026-aban-ensemble-dj-rosemah-curated-by-yalda-ya-0/": {
+  "fetched": "2026-11-08T15:58:48+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Erst vier Musikerinnen aus Iran, dann DJ ROSEMAH mit Sounds zwischen House, Hip Hop und Klängen aus Afghanistan, Persien und der SWANA Region. Ein Abend, an dem musikalische Welten nicht sauber getrennt bleiben 👀",
+   "endDate": "2026-11-22T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/xujcRKOIRwmSNozh4mi6_23207image-2048x1024.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -1133,13 +1130,13 @@
     },
     "name": "PANDA platforma"
    },
-   "name": "PANDAwomen 2026: Nini Nutsubidze / Vepsestikk",
+   "name": "PANDAwomen 2026: Aban Ensemble / DJ ROSEMAH / Curated by Yalda Yazdani",
    "offers": {
     "@type": "Offer",
-    "price": "17.00",
+    "price": "20.00",
     "priceCurrency": "EUR",
-    "url": "https://panda-platforma.berlin/events/nini-nutsubidze-vepsestikk/",
-    "validFrom": "2026-11-14T20:30+0100"
+    "url": "https://panda-platforma.berlin/events/aban-ensemble-dj-rosemah/",
+    "validFrom": "2026-11-21T20:30+0100"
    },
    "organizer": [
     {
@@ -1153,70 +1150,7 @@
      "url": "https://rausgegangen.de/organizations/pandawomen-festival/"
     }
    ],
-   "startDate": "2026-11-14T20:30+0100"
-  }
- },
- "https://rausgegangen.de/events/queerberg-solidarity-show-party-by-and-for-queer-trans-refug-0/": {
-  "fetched": "2026-11-08T15:06:01+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Queerberg feiert zehn Jahre mit einer Nacht von und für queere und trans Geflüchtete. Erst Show, dann Party, alles getragen von einer Community.",
-   "endDate": "2026-11-15T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/szq3y7GQ0WdLp2q7ikmn_img1980.JPG"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10999",
-     "streetAddress": "Admiralstr. 1-2"
-    },
-    "name": "Südblock"
-   },
-   "name": "QueerBerg- Solidarity Show & Party by and for QUEER & TRANS  REFUGEE ARTISTS / 10 Years Anniversary.",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "50.00",
-    "lowPrice": "11.20",
-    "offerCount": 4,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Refugee community Ticket",
-      "price": "11.20",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär Ticket",
-      "price": "19.68",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Solidarity Ticket",
-      "price": "30.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Supporter & Donations",
-      "price": "50.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "startDate": "2026-11-14T20:00+0100"
+   "startDate": "2026-11-21T20:30+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {

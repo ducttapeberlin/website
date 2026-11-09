@@ -1,50 +1,4 @@
 {
- "https://rausgegangen.de/events/1-day-chor-berlin-0/": {
-  "fetched": "2026-11-09T12:17:56+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Ein Chor für einen Tag, ohne langes Commitment. Unter Leitung von Constantin Gold entsteht mit anderen ein Medley aus 5 bis 7 Songs, und am Ende wird das gemeinsam Erarbeitete professionell aufgenommen 🎤",
-   "endDate": "2026-12-13T16:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/4JYsZ4KKQ46DQVPPL7v9_design2026eventsonedaychorentwurf01.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "13088",
-     "streetAddress": "Berliner Allee 125"
-    },
-    "name": "PETER EDEL"
-   },
-   "name": "1 DAY CHOR Berlin",
-   "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "60.00",
-    "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/1-day-chor-berlin",
-    "validFrom": "2026-11-05T00:00+0100"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "1 DAY CHOR",
-     "url": "https://rausgegangen.de/organizations/1-day-chor/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Rausgegangen Events",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-events/"
-    }
-   ],
-   "startDate": "2026-12-13T10:30+0100"
-  }
- },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
   "fetched": "2026-11-09T07:28:42+01:00",
   "ld": {
@@ -239,6 +193,154 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/comedy-slam-berlin-13/": {
+  "fetched": "2026-11-09T13:17:37+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Vier der besten Slam-Poet*innen des Landes treffen beim Comedy Slam Berlins aufeinander, um sich mit ihren lustigsten Texten ins Zwerchfell des Publikums zu lesen. In zwei Runden erschüttern sie eure Bauchmuskeln. Workout fürs Zwerchfell! Und ihr entscheidet per Applaus über den lustigsten Text. Am Ende des Abend liegt ihr auf dem Boden vor Lachen, und eine*r der Comedy-Slammer*innen trägt den publikumsgewählten Triumph nach Hause.Einlass: 19:30Beginn: 20:00Was den Comedy Slam ausmachtGanz wie bei Poetry Slams stehen hier Text und Performance im Vordergrund. Die Regeln für die Auftretenden: 8 Minuten Zeitlimit, keine Requisiten, nur selbstgeschriebene Texte. Und das Publikum entscheidet über den Sieg des Abends. Aber anders als sonst, gibt es beim Comedy Slam Berlin ausschließlich lustige Texte: Literatur zum Lachen.Was den Comedy Slam von einer üblichen Stand-Up Show unterscheidet, die die Comedy-Clubs Berlins bevölkern? Hier gibt es nicht nur eine Aneinanderreihung von Witzen. Hier hört ihr durchgängige Geschichten, Erzählungen, Gedichte und ein bisschen Message. Die ganze Vielfalt des Poetry Slams eben. Mit den Zwerchfellerschütterern von Komikern. Poetry Slam meets Stand-Up.Vier geladene Slammer*innen treten im harten Wettkampf gegeneinander an: Und ihr entscheidet, wer die hohe Kunst der Literatur mit jener des Humors am Besten verbinden kann.",
+   "endDate": "2026-11-20T22:30+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/pNbniJqT9a5jAyHUlOgw_2025comedy-slam-fotologo.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10119",
+     "streetAddress": "Schönhauser Allee 176"
+    },
+    "name": "Pfefferberg Theater"
+   },
+   "name": "Comedy Slam Berlin",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "39.90",
+    "lowPrice": "14.90",
+    "offerCount": 13,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK 1: Regulär",
+      "price": "24.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK1: Ermäßigt",
+      "price": "22.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK2: Regulär",
+      "price": "22.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK2: Ermäßigt",
+      "price": "19.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK3: Regulär",
+      "price": "19.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK3: Ermäßigt",
+      "price": "17.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK4: Regulär",
+      "price": "17.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK4: Ermäßigt",
+      "price": "14.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Paarplatz Regulär (2 Pers.)",
+      "price": "39.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Paarplatz Ermäßigt (2 Pers.)",
+      "price": "35.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Zweiter Paarplatz (wähl dies zu deinem Kostenpflichtigen Hauptticket, alleine ist es ungültig)",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Schwerbehindertenausweis B-Ticket",
+      "price": "17.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Begleiterticket Schwerbehinderte (ungültig ohne Hauptticket)",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "Comedy Slam",
+     "url": "https://rausgegangen.de/organizations/p-comedy-slam/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Kiezpoeten",
+     "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Pfefferberg Theater Slams",
+     "url": "https://rausgegangen.de/organizations/p-pfefferberg-theater-slams/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Premium Poetry",
+     "url": "https://rausgegangen.de/organizations/p-premium-poetry/"
+    }
+   ],
+   "startDate": "2026-11-20T20:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
   "fetched": "2026-11-09T07:28:42+01:00",
   "ld": {
@@ -327,80 +429,6 @@
   "seen": "2026-10-20T15:24:41+02:00",
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/donata-strength-release-concert-0/": {
-  "fetched": "2026-11-09T12:17:56+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Zwischen Neuanfang und Rücken gerade machen liegen bei Donata nur ein paar Songs. Sie bringt ihre neue EP Strength mit kompletter Band auf die Bühne und lädt zu einem Abend ein, der eher nach echtem Miteinander klingt als nach bloßem Konzert 💜",
-   "endDate": "2026-11-12T23:30+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Td7PmoF3RX6i3YmuX3OA_2.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10117",
-     "streetAddress": "Auguststraße 24"
-    },
-    "name": "Spiegelsaal | Clärchens Ballhaus"
-   },
-   "name": "Donata - \"Strength\" Release Concert",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "30.00",
-    "lowPrice": "21.80",
-    "offerCount": 5,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Soli-Ticket",
-      "price": "21.80",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regular",
-      "price": "27.10",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Supporter",
-      "price": "32.40",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Friends & Family",
-      "price": "16.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Guestlist",
-      "price": "0.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Donata"
-   },
-   "startDate": "2026-11-12T19:00+0100"
-  }
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
   "fetched": "2026-11-09T07:28:42+01:00",
@@ -725,6 +753,79 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
+ "https://rausgegangen.de/events/geheimkonzert-berlin-24-by-rausgegangen-0/": {
+  "fetched": "2026-11-09T13:17:37+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Na Hallo! Es ist wieder so weit: Ein Abend voller Überraschung - denn wer auf der Bühne steht, bleibt bis zum ersten Ton geheim. Wir hatten schon Blond, Berq, Ennio, Futurebae, Jassin, Anais, Katha Pauer & viele mehr zu Gast – und das schon bevor sie die großen Bühnen der Nation gestürmt haben. Also entdecke die Stars von Morgen bei unseren Geheimkonzerten. 🪩",
+   "endDate": "2026-12-09T22:15+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/mO31iODjTCuFLVfQ493H_gk202516x9photoheadline-32-1.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin"
+    },
+    "name": "Secret location"
+   },
+   "name": "Geheimkonzert Berlin #24 by Rausgegangen",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "29.90",
+    "lowPrice": "24.50",
+    "offerCount": 4,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "SCHNAPPER",
+      "price": "21.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "REGULAR",
+      "price": "25.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "4er FRIENDS BUNDLE",
+      "price": "23.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Mitgegangen",
+      "price": "3.80",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "Rausgegangen Geheimkonzerte",
+     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Rausgegangen Geheimkonzerte Berlin",
+     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte-3/"
+    }
+   ],
+   "startDate": "2026-12-09T20:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
   "fetched": "2026-11-09T07:28:42+01:00",
   "ld": {
@@ -857,16 +958,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/marenera-pizzica-italienische-volksmusik-0/": {
-  "fetched": "2026-11-09T11:18:32+01:00",
+ "https://rausgegangen.de/events/pandawomen-2026-vera-jonas-lisa-hoppe-paul-brody-gaia-mobili-0/": {
+  "fetched": "2026-11-09T13:17:37+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Süditalienische Volksmusik, die nicht im Archiv bleibt, sondern für Tanz, Rituale und Feste gemacht ist. Marenera spielt Pizzica, Tarantella und andere überlieferte Lieder so, dass Du die Hochzeitsgesellschaft fast schon vor Dir siehst 💃",
-   "endDate": "2027-01-16T05:00+0100",
+   "description": "Erst ganz nah dran, dann plötzlich offen nach allen Seiten: Vera Jónás spielt ihre Songs in einem neuen Trio mit Lisa Hoppe und Paul Brody. Danach schichtet Gaia Mobilij live Loops und akustische Klänge so um, dass Melodien kurz aufblitzen und wieder kippen 👀",
+   "endDate": "2026-11-21T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/QX2v5BFTTY6s0wpjkvQ6_foto-1-treppecreditsgiannis-vassaras.jpeg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/CSUU0tbRVVz56IiP3ZYw_23201image-2048x1024.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -879,27 +980,39 @@
     },
     "name": "PANDA platforma"
    },
-   "name": "Marenera: Pizzica & italienische Volksmusik",
+   "name": "PANDAwomen 2026: Vera Jónás, Lisa Hoppe & Paul Brody / Gaia Mobilij",
    "offers": {
     "@type": "Offer",
-    "price": "13.00",
+    "price": "17.00",
     "priceCurrency": "EUR",
-    "url": "https://panda-platforma.berlin/events/marenera-pizzica-italienische-volksmusik/",
-    "validFrom": "2027-01-15T20:30+0100"
+    "url": "https://panda-platforma.berlin/events/vera-j-n-s-lisa-hoppe-paul-brody-gaia-mobilij/",
+    "validFrom": "2026-11-20T20:30+0100"
    },
-   "startDate": "2027-01-15T20:30+0100"
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "PANDA platforma e.V.",
+     "url": "https://rausgegangen.de/organizations/page-for-team-panda-platforma-ev/"
+    },
+    {
+     "@type": "Organization",
+     "name": "PANDAwomen 2026 Festival",
+     "url": "https://rausgegangen.de/organizations/pandawomen-festival/"
+    }
+   ],
+   "startDate": "2026-11-20T20:30+0100"
   }
  },
- "https://rausgegangen.de/events/school-of-quilombismo-crip-epistemologies-0/": {
-  "fetched": "2026-11-09T12:17:56+01:00",
+ "https://rausgegangen.de/events/queerberg-solidarity-show-party-by-and-for-queer-trans-refug-0/": {
+  "fetched": "2026-11-09T13:17:37+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Hier geht es um Crip-Wissen, das von Menschen mit Behinderung selbst gedacht und weitergegeben wird. Workshops, Vorträge und Interventionen setzen dabei bewusst auf Austausch statt Frontalbetrieb – und das Ganze ist entspannt gestaltet 🫶",
-   "endDate": "2026-11-15T17:30+0100",
+   "description": "Queerberg feiert zehn Jahre mit einer Nacht von und für queere und trans Geflüchtete. Erst Show, dann Party, alles getragen von einer Community.",
+   "endDate": "2026-11-15T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/20VxdkKkSB6FSwWk767w_keyvisual-soq.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/szq3y7GQ0WdLp2q7ikmn_img1980.JPG"
    ],
    "location": {
     "@type": "Place",
@@ -907,19 +1020,50 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10557",
-     "streetAddress": "John-Foster-Dulles-Allee 10"
+     "postalCode": "10999",
+     "streetAddress": "Admiralstr. 1-2"
     },
-    "name": "Haus der Kulturen der Welt | HKW"
+    "name": "Südblock"
    },
-   "name": "School of Quilombismo: Crip Epistemologies",
+   "name": "QueerBerg- Solidarity Show & Party by and for QUEER & TRANS  REFUGEE ARTISTS / 10 Years Anniversary.",
    "offers": {
-    "@type": "Offer",
-    "price": "0.00",
-    "priceCurrency": "EUR",
-    "validFrom": "2026-11-14T10:00+0100"
+    "@type": "AggregateOffer",
+    "highPrice": "50.00",
+    "lowPrice": "11.20",
+    "offerCount": 4,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Refugee community Ticket",
+      "price": "11.20",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär Ticket",
+      "price": "19.68",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Solidarity Ticket",
+      "price": "30.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Supporter & Donations",
+      "price": "50.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
    },
-   "startDate": "2026-11-14T10:00+0100"
+   "startDate": "2026-11-14T20:00+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
@@ -961,16 +1105,16 @@
   },
   "seen": "2026-10-31T02:26:10+01:00"
  },
- "https://rausgegangen.de/events/speak-up-inline-x-stories-of-her-with-x-tin-degen-oneyra-lin-0/": {
-  "fetched": "2026-11-09T12:17:56+01:00",
+ "https://rausgegangen.de/events/social-reading-club-3-1/": {
+  "fetched": "2026-11-09T13:17:37+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Erst reden, dann tanzen: Die Party feiert den sechsten Geburtstag von Stories of Her, einem Projekt, das anonyme Erfahrungen mit Sexismus, Belästigung und sexualisierter Gewalt sichtbar macht. Später kippt der Abend in elektronische Sets von X Tin, degen, Ôneyra, Linda shiro und mehr 🌈",
-   "endDate": "2026-11-15T06:00+0100",
+   "description": "Das Handy bleibt draußen, das Buch nicht. Beim Social Reading Club liest Du ganz entspannt mit anderen zusammen und kannst danach einfach weitermachen, wenn Du magst 👀",
+   "endDate": "2026-11-17T20:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/07IK7lgPQpK2XrMjwDQC_postv1.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/5y41L6DFQ2uwqonGQ2L4_gk202516x9photoheadline-53-1.png"
    ],
    "location": {
     "@type": "Place",
@@ -978,80 +1122,24 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10245",
-     "streetAddress": "Revaler Str. 99"
+     "postalCode": "10625",
+     "streetAddress": "Kantstraße 127"
     },
-    "name": "Crack Bellmer"
+    "name": "Dufte Berlin"
    },
-   "name": "SPEAK UP Inline x Stories of Her with X Tin, degen, Ôneyra, Linda shiro & many more",
+   "name": "Social Reading Club #3",
    "offers": {
     "@type": "Offer",
-    "price": "10.00",
+    "price": "0.00",
     "priceCurrency": "EUR",
-    "validFrom": "2026-11-14T17:30+0100"
+    "validFrom": "2026-11-17T18:30+0100"
    },
    "organizer": {
     "@type": "Organization",
-    "name": "Inline",
-    "url": "https://rausgegangen.de/organizations/inline/"
+    "name": "Social Reading Club",
+    "url": "https://rausgegangen.de/organizations/social-reading-club/"
    },
-   "startDate": "2026-11-14T17:30+0100"
-  }
- },
- "https://rausgegangen.de/events/tati-comedy-one-laugh-night-28/": {
-  "fetched": "2026-11-09T12:17:56+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Comedy mit Stil im Tati goes Underground in Berlin. Authentische Stand-up Shows mit bekannten Comedians, Berliner Underground Acts und Newcomern in edler Bar-Atmosphäre mit hochwertigen Cocktails. Die Bühne für spontane Überraschungen. Mal tauchen bekannte Gesichter aus der Comedy-Szene auf, mal brandneue Talente, die man so noch nie gesehen hat.Sicher ist nur eins:Es wird spät, es wird witzig und es wird auch dunkel lustig.Eintritt  ab 16 Jahre",
-   "endDate": "2026-11-12T22:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/kJyays4wROGHyg5J9wGS_tati-comedy-club-berliner-stand-up-nacht.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10405",
-     "streetAddress": "Metzer Straße 2"
-    },
-    "name": "Tati goes Underground"
-   },
-   "name": "Tati Comedy - Die Stand Up Comedy Show",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": null,
-    "lowPrice": null,
-    "offerCount": 3,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "16.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Frühbücher",
-      "price": "14.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Studenten",
-      "price": "14.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "startDate": "2026-11-12T20:00+0100"
+   "startDate": "2026-11-17T18:30+0100"
   }
  }
 }

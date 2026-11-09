@@ -1,6 +1,52 @@
 {
+ "https://rausgegangen.de/events/1-day-chor-berlin-0/": {
+  "fetched": "2026-11-09T21:13:30+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Ein Chor für einen Tag, ohne langes Commitment. Unter Leitung von Constantin Gold entsteht mit anderen ein Medley aus 5 bis 7 Songs, und am Ende wird das gemeinsam Erarbeitete professionell aufgenommen 🎤",
+   "endDate": "2026-12-13T16:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/4JYsZ4KKQ46DQVPPL7v9_design2026eventsonedaychorentwurf01.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "13088",
+     "streetAddress": "Berliner Allee 125"
+    },
+    "name": "PETER EDEL"
+   },
+   "name": "1 DAY CHOR Berlin",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "60.00",
+    "priceCurrency": "EUR",
+    "url": "https://t.rausgegangen.de/tickets/1-day-chor-berlin",
+    "validFrom": "2026-11-05T00:00+0100"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "1 DAY CHOR",
+     "url": "https://rausgegangen.de/organizations/1-day-chor/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Rausgegangen Events",
+     "url": "https://rausgegangen.de/organizations/rausgegangen-events/"
+    }
+   ],
+   "startDate": "2026-12-13T10:30+0100"
+  }
+ },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
-  "fetched": "2026-11-09T14:39:49+01:00",
+  "fetched": "2026-11-09T21:13:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -97,7 +143,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-11-09T14:39:49+01:00",
+  "fetched": "2026-11-09T21:13:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -193,16 +239,16 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/abi-mohanty-tough-tiies-0/": {
-  "fetched": "2026-11-09T20:20:03+01:00",
+ "https://rausgegangen.de/events/amber-georgia-0/": {
+  "fetched": "2026-11-09T21:13:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Dark, raw & unapologetic comedy with Berlin’s Abi Mohanty. Uncomfortable truths, taboo topics & big laughs.Tough Titties isn't just another stand-up show. It's a night of uncomfortable truths wrapped in hilarious stories, sharp observations and the kind of jokes that make you laugh first — and question yourself later.Berlin-based comedian Abi Mohanty brings her signature blend of dark humour, satire and raw honesty to Karakas Comedy Club.Born in India and now based in Berlin, Abi explores the uncomfortable side of life with a wicked sense of humour. Her comedy takes on taboo subjects including religious dogma, restrictive upbringing, mental health, sexuality, identity, individual freedom and the strange realities of being an Ausländer in Europe.Abi has opened for some of the biggest names in European comedy, including Dragos, Mike Rice, Radu Isac and Netflix star Adrienne Iapalucci, as well as Abhishek Upmanyu.She has also made her mark on the London comedy circuit, winning multiple gong shows, including the coveted King Gong at The Comedy Store.Currently converting childhood trauma into jokes one show at a time, Abi has performed across Europe — usually in places where Ryanair goes.Her comedy is sharp, personal and deliberately uncomfortable. No easy stereotypes, no safe topics — just brutally honest stories turned into very good jokes.Come for the dark comedy. Stay for the chaos. And don't be surprised if you feel slightly guilty for laughing afterwards. Dark comedy. Raw honesty. Uncomfortable laughs. Zero apologies.  14 November · Karakas Comedy Club Kurfürstenstraße 9, Berlin 10785",
-   "endDate": "2026-11-14T19:30+0100",
+   "description": "Orange im Glas und dahinter mehr als 60 Winzer:innen aus Georgien, die ihre Weine selbst mitbringen. Statt Messestress eher ein direkter Draht zu einer uralten Weintradition 👀",
+   "endDate": "2026-11-28T17:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/VihvDSydQ2qvMHAqK021_tough-tits-landscape.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/cIF9OMxVScGZqgIavWKV_amber-georgia-berlin-weine-aus-georgien-3.png"
    ],
    "location": {
     "@type": "Place",
@@ -210,30 +256,66 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10785",
-     "streetAddress": "Kurfürstenstraße 9"
+     "postalCode": "10997",
+     "streetAddress": "Köpenicker Str. 16/17"
     },
-    "name": "Karakas Bar"
+    "name": "Magazin in der Heeresbäckerei"
    },
-   "name": "Abi Mohanty - Tough Ti**ies",
+   "name": "Amber Georgia – Low Intervention Wine Fair",
    "offers": {
     "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "14.50",
+    "price": "30.00",
     "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/abi-mohanty-tough-tiies",
-    "validFrom": "2026-11-03T00:29+0100"
+    "url": "https://ticketmaster.evyy.net/c/6519574/2038753/23890?u=https%3A%2F%2Fwww.universe.com%2Fevents%2Famber-georgia-tickets-LJS031%3Fref%3Dticketmaster&utm_medium=affiliate",
+    "validFrom": "2026-11-28T11:00+0100"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Amber Georgia Berlin"
+   },
+   "startDate": "2026-11-28T11:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/berlinale-spotlight-panorama-dokumente-the-other-side-of-the-0/": {
+  "fetched": "2026-11-09T21:13:30+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Filmemacher Tawfik Sabouni wurde vor Jahren aus dem syrischen Foltergefängnis Saidnaya entlassen, das auch als Ort „hinter der Sonne“ bezeichnet wird. Kurz nach dem Sturz des Assad-Regimes im Dezember 2024 kehrt er an den Ort seiner Gefangenschaft zurück. Es geht ihm nicht darum, Wunden wieder aufzureißen, sondern wiederherzustellen, was systematische Gewalt versucht hat auszulöschen: Stimmen, Geschichten und Menschlichkeit. Sabouni lädt vier weitere Saidnaya-Überlebende ein, ihn auf seiner Reise zu begleiten. Gemeinsam kehren sie an die Orte zurück, an denen sie jahrelang gefoltert und entmenschlicht wurden, und spielen in sorgfältig konstruierten Reenactments ihre Gefangenschaft nach – tägliche Rituale, Gesten, Momente des Überlebens. Gedreht innerhalb des ehemaligen Gefängnisses werden die Reenactments zum Ausdrucksmittel für etwas, das sich nicht in Worte fassen lässt. Auf zurückhaltende Weise konfrontiert der Film das Publikum mit den bleibenden Spuren der Haft und gibt nicht nur den auftretenden fünf Männern eine Stimme, sondern auch den Tausenden, die das Assad-Regime nicht überlebt haben und deren Familien noch immer nach Antworten suchen.PROGRAMM Begrüßung N.N.FilmvorführungThe Other Side of the SunVon: Tawfik Sabouni (Regie, Buch), Laurine Estrade (Buch)Land: Belgien / Frankreich / Saudi-Arabien 2026Sprache: Arabisch (mit englischen Untertiteln)Dauer:  92 MinutenFilmgesprächTawfik Sabouni, Regisseur, BuchModeration: N.N.  WEITERE HINWEISEEinlass: 18.00 UhrSprache: DeutschEINTRITT FREI MIT ANMELDUNG  Das Berlinale Spotlight: Panorama Dokumente, Forum & Generation ist eine Kooperation zwischen dem Dokumentationszentrum Flucht, Vertreibung, Versöhnung und dem European Film Market (EFM) der Internationalen Filmfestspiele Berlin.",
+   "endDate": "2026-11-18T21:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/m8KedHGNTY6UQIgIBcx2_websitebildtosots.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10963",
+     "streetAddress": "Stresemannstraße 90"
+    },
+    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
+   },
+   "name": "Berlinale Spotlight – Panorama Dokumente: The Other Side of the Sun",
+   "offers": {
+    "@type": "Offer",
+    "price": "0.00",
+    "priceCurrency": "EUR",
+    "url": "https://buchungen.flucht-vertreibung-versoehnung.de/de/tickets/111",
+    "validFrom": "2026-11-18T18:30+0100"
    },
    "organizer": {
     "@type": "Organization",
-    "name": "Karakas Comedy Club",
-    "url": "https://rausgegangen.de/organizations/karakas-comedy-club-1/"
+    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung",
+    "url": "https://rausgegangen.de/organizations/dokumentationszentrum-flucht-vertreibung-versohnung/"
    },
-   "startDate": "2026-11-14T18:00+0100"
+   "startDate": "2026-11-18T18:30+0100"
   }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-11-09T14:39:49+01:00",
+  "fetched": "2026-11-09T21:13:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -321,75 +403,8 @@
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/cris-cosmo-liebe-dich-selbst-tour-2026-3/": {
-  "fetched": "2026-11-09T20:20:03+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Liebe dich selbst Tour 2026 – Mit seinem neuen Album geht Cris Cosmo im Herbst 2026 auf große Deutschlandtour und bringt die Botschaft von Selbstliebe, Lebensfreude und Zusammenhalt auf die Bühne. Cris Cosmo, bekannt als Botschafter für Toleranz und Weltoffenheit, verbindet Singer-Songwriter, Indie-Pop, Reggae und südamerikanische Grooves zu einem tanzbaren Sound mit starken, positiven Messages. Nach über 2.000 Konzerten begeistert er mit interaktiven Momenten, spontanen Freestyle-Einlagen und einer außergewöhnlichen Bühnenpräsenz – eine Freiheits-Party voller guter Vibes, bei der alle Generationen und Nationen willkommen sind. Der Zutritt zum Monarch ist erst ab 18 Jahren möglich.",
-   "endDate": "2026-11-21T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Zvxq8P9MTq52crjoixf4_cris-cosmo-liebe-dich-selbst-cover-image-by-rene-van-der-voorden-header-1.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10999",
-     "streetAddress": "Skalitzer Str. 134"
-    },
-    "name": "Monarch"
-   },
-   "name": "Cris Cosmo - Liebe dich selbst Tour 2026",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "20.00",
-    "lowPrice": "0.00",
-    "offerCount": 4,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "15.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Ermäßigt",
-      "price": "10.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Supporter",
-      "price": "20.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Begleitperson",
-      "price": "0.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Cris Cosmo"
-   },
-   "startDate": "2026-11-20T19:30+0100"
-  }
- },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
-  "fetched": "2026-11-09T14:39:49+01:00",
+  "fetched": "2026-11-09T21:13:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -434,7 +449,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-09T14:39:49+01:00",
+  "fetched": "2026-11-09T21:13:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -481,7 +496,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-22/": {
-  "fetched": "2026-11-09T14:39:49+01:00",
+  "fetched": "2026-11-09T21:13:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -526,7 +541,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
-  "fetched": "2026-11-09T14:39:49+01:00",
+  "fetched": "2026-11-09T21:13:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -571,7 +586,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
-  "fetched": "2026-11-09T14:39:49+01:00",
+  "fetched": "2026-11-09T21:13:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -618,7 +633,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-11-09T14:39:49+01:00",
+  "fetched": "2026-11-09T21:13:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -669,7 +684,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-brunch-sponsored-by-fritz-kola-winter-edition-0/": {
-  "fetched": "2026-11-09T14:39:49+01:00",
+  "fetched": "2026-11-09T21:13:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -712,7 +727,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-11-09T14:39:49+01:00",
+  "fetched": "2026-11-09T21:13:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -802,7 +817,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1/": {
-  "fetched": "2026-11-09T14:39:49+01:00",
+  "fetched": "2026-11-09T21:13:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -843,16 +858,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/posts-reels-stories-fluchterfahrungen-aus-jugoslawien-im-net-0/": {
-  "fetched": "2026-11-09T20:20:03+01:00",
+ "https://rausgegangen.de/events/love-at-first-slide-berlin-power-point-dating-by-rausgegange-13/": {
+  "fetched": "2026-11-09T21:13:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "TikTok, Instagram, Podcasts & Co. eröffnen neue Räume für Stimmen, die in klassischen Medien oft wenig Gehör finden. Menschen mit jugoslawischer Fluchtgeschichte teilen Erinnerungen, erklären den Krieg, Flucht und Vertreibung und sprechen über Folgen, die über Generationen weiterwirken. Doch wo Chancen für Sichtbarkeit und Austausch entstehen, verbreiten sich auch Desinformation und nationalistische Narrative. Wann werden soziale Medien zu einem Ort der Solidarität und wo beginnt die Gefahr?PROGRAMM Begrüßung Dr. Roland Borchers, Direktor, Dokumentationszentrum Flucht, Vertreibung, Versöhnung, BerlinGesprächFata Hasanović, InfluencerinKrsto Lazarević, Journalist und Podcaster „Neues vom Ballaballa-Balkan“Dr. Eva Tamara Asboth, Postdoc, Österreichische Akademie der Wissenschaften, WienModeration: Simone Gaul, Journalistin und Podcasterin „Die Zeit“ Im Anschluss laden wir Sie zu einem kleinen Empfang ein.   WEITERE HINWEISEEinlass: 18.00 UhrSprache: DeutschEINTRITT FREI Die Veranstaltung wird aufgezeichnet und auf unserem YouTube-Kanal Flucht, Vertreibung, Versöhnung veröffentlicht.Eine Veranstaltung im Rahmen der Veranstaltungsreihe \"Zerfallen. Geflohen. Angekommen? Erfahrungen aus Bosnien und Herzegowina\"Eine Veranstaltung von: Dokumentationszentrum Flucht, Vertreibung, Versöhnung · Bundeszentrale für politische Bildung",
-   "endDate": "2026-11-11T20:00+0100",
+   "description": "Wir bringen mit LOVE AT FIRST SLIDE Dating auf die Bühne: Freund:innen stellen in kurzen Power Point Präsentationen ihre Lieblingssingle vor – charmant, humorvoll und ganz ohne Swipe. Nach den witzigen Pitches kannst du bei Speed-Dating und Barabend neue Begegnungen entdecken. 💘🎤💫",
+   "endDate": "2026-11-11T23:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/tRzV17PhR0y1Q7XSYcZf_2025-sfvvdokuzentrumsrebrenicaveranstaltungsfotosgrafikladenfoto-nihad-nino-pusija.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/G4DW5S6EQHOrXfM562GP_lafsbannerappstraight-2-5.png"
    ],
    "location": {
     "@type": "Place",
@@ -860,29 +875,83 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10963",
-     "streetAddress": "Stresemannstraße 90"
+     "postalCode": "10625",
+     "streetAddress": "Kantstraße 127"
     },
-    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
+    "name": "Dufte Berlin"
    },
-   "name": "Posts, Reels, Stories – Fluchterfahrungen aus Jugoslawien im Netz",
+   "name": "LOVE AT FIRST SLIDE Berlin | Power Point Dating by Rausgegangen 💖",
    "offers": {
-    "@type": "Offer",
-    "price": "0.00",
-    "priceCurrency": "EUR",
-    "url": "https://buchungen.flucht-vertreibung-versoehnung.de/de/tickets/109",
-    "validFrom": "2026-11-11T18:30+0100"
+    "@type": "AggregateOffer",
+    "highPrice": "19.50",
+    "lowPrice": "10.00",
+    "offerCount": 5,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Presenterticket",
+      "price": "10.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Publikum Ticket | Ich bin eine hetero Frau",
+      "price": "19.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Publikum Ticket | Ich bin ein hetero Mann",
+      "price": "19.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Publikum Ticket | Ich bin queer",
+      "price": "19.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Mitgegangen",
+      "price": "3.80",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
    },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung",
-    "url": "https://rausgegangen.de/organizations/dokumentationszentrum-flucht-vertreibung-versohnung/"
-   },
-   "startDate": "2026-11-11T18:30+0100"
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "LOVE AT FIRST SLIDE BERLIN by Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/love-at-first-slide-berlin-by-rausgegangen/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Love at first Slide by Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/page-for-team-love-at-first-slide-by-rausgegangen/"
+    },
+    {
+     "@type": "Organization",
+     "name": "LOVE AT FIRST SLIDE by Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/love-at-first-slide-by-rausgegangen/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Team Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/team-rausgegangen/"
+    }
+   ],
+   "startDate": "2026-11-11T19:00+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
-  "fetched": "2026-11-09T14:39:49+01:00",
+  "fetched": "2026-11-09T21:13:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -919,43 +988,6 @@
    "startDate": "2026-12-19T19:30+0100"
   },
   "seen": "2026-10-31T02:26:10+01:00"
- },
- "https://rausgegangen.de/events/social-reading-club-3-1/": {
-  "fetched": "2026-11-09T20:20:03+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Das Handy bleibt draußen, das Buch nicht. Beim Social Reading Club liest Du ganz entspannt mit anderen zusammen und kannst danach einfach weitermachen, wenn Du magst 👀",
-   "endDate": "2026-11-17T20:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/5y41L6DFQ2uwqonGQ2L4_gk202516x9photoheadline-53-1.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10625",
-     "streetAddress": "Kantstraße 127"
-    },
-    "name": "Dufte Berlin"
-   },
-   "name": "Social Reading Club #3",
-   "offers": {
-    "@type": "Offer",
-    "price": "0.00",
-    "priceCurrency": "EUR",
-    "validFrom": "2026-11-17T18:30+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Social Reading Club",
-    "url": "https://rausgegangen.de/organizations/social-reading-club/"
-   },
-   "startDate": "2026-11-17T18:30+0100"
-  }
  },
  "https://rausgegangen.de/events/speak-up-inline-x-stories-of-her-with-x-tin-degen-oneyra-lin-0/": {
   "fetched": "2026-11-09T20:20:03+01:00",
@@ -994,16 +1026,16 @@
    "startDate": "2026-11-14T17:30+0100"
   }
  },
- "https://rausgegangen.de/events/tati-comedy-tryout-stand-up-comedy-14/": {
-  "fetched": "2026-11-09T17:26:01+01:00",
+ "https://rausgegangen.de/events/tati-comedy-one-laugh-night-27/": {
+  "fetched": "2026-11-09T21:13:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Stand-Up Comedy Tryout / Open MicNeue Talente. Neue Jokes. Neue Energie – live & unfiltriert!TRYOUT ist die Bühne, auf der Comedy entsteht. Newcomer, Fortgeschrittene und spontane Mutige testen hier ihre brandneuen Jokes live vor Publikum. Nichts ist geplant, nichts ist perfekt – und genau das macht diesen Abend so einzigartig.Erlebe einen Abend voller Überraschungen, spontaner Momente und echter Stand-up-Comedy, bei der du manchmal der erste Mensch bist, der einen neuen Gag überhaupt zu hören bekommt.Was dich erwartet:Frische Comedy-Sets & brandneues MaterialAuthentische „Work in Progress“-AtmosphäreMutige Newcomer & überraschende ProfisHumor, der spontan entstehtEnergiegeladenes, ehrliches PublikumFür wen ist TRYOUT?Für alle, die Comedy lieben: Publikum, das über rohe, echte Comedy lachen möchte – und Performer, die mutig sind, Neues auszuprobieren.--Location--Welcome to Tati Goes Underground — Berlin’s intimate, alternative comedy club. Known for its cozy, candle-lit atmosphere and bohemian vibes, Tati is the kind of place where comedians and audiences come together like old friends... with strong opinions and stronger drinks.Metzer Str. 2 in Prenzlauer Berg is a two-minute walk from the U2 \"Senefelder Platz\" station. The bar offers the perfect atmosphere for a successful comedy evening. A cozy interior, friendly staff, and good drinks round out this special comedy event for you.",
-   "endDate": "2026-11-10T20:30+0100",
+   "description": "Comedy mit Stil im Tati goes Underground in Berlin. Authentische Stand-up Shows mit bekannten Comedians, Berliner Underground Acts und Newcomern in edler Bar-Atmosphäre mit hochwertigen Cocktails. Die Bühne für spontane Überraschungen. Mal tauchen bekannte Gesichter aus der Comedy-Szene auf, mal brandneue Talente, die man so noch nie gesehen hat.Sicher ist nur eins:Es wird spät, es wird witzig und es wird auch dunkel lustig.Eintritt  ab 16 Jahre",
+   "endDate": "2026-11-11T22:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/IUObRZ5jQgW7YMCD4a6c_tati-comedy-club-berliner-stand-up-nacht.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/kJyays4wROGHyg5J9wGS_tati-comedy-club-berliner-stand-up-nacht.png"
    ],
    "location": {
     "@type": "Place",
@@ -1016,31 +1048,38 @@
     },
     "name": "Tati goes Underground"
    },
-   "name": "Tati Comedy - Open Mic",
+   "name": "Tati Comedy - Die Stand Up Comedy Show",
    "offers": {
     "@type": "AggregateOffer",
     "highPrice": null,
     "lowPrice": null,
-    "offerCount": 2,
+    "offerCount": 3,
     "offers": [
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
       "name": "Regulär",
-      "price": "15.00",
+      "price": "16.00",
       "priceCurrency": "EUR"
      },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "earlybird",
-      "price": "12.00",
+      "name": "Frühbücher",
+      "price": "14.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Studenten",
+      "price": "14.00",
       "priceCurrency": "EUR"
      }
     ],
     "priceCurrency": "EUR"
    },
-   "startDate": "2026-11-10T19:00+0100"
+   "startDate": "2026-11-11T20:00+0100"
   }
  }
 }

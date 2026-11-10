@@ -1,52 +1,6 @@
 {
- "https://rausgegangen.de/events/1-day-chor-berlin-0/": {
-  "fetched": "2026-11-10T22:07:01+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Ein Chor für einen Tag, ohne langes Commitment. Unter Leitung von Constantin Gold entsteht mit anderen ein Medley aus 5 bis 7 Songs, und am Ende wird das gemeinsam Erarbeitete professionell aufgenommen 🎤",
-   "endDate": "2026-12-13T16:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/4JYsZ4KKQ46DQVPPL7v9_design2026eventsonedaychorentwurf01.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "13088",
-     "streetAddress": "Berliner Allee 125"
-    },
-    "name": "PETER EDEL"
-   },
-   "name": "1 DAY CHOR Berlin",
-   "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "60.00",
-    "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/1-day-chor-berlin",
-    "validFrom": "2026-11-05T00:00+0100"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "1 DAY CHOR",
-     "url": "https://rausgegangen.de/organizations/1-day-chor/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Rausgegangen Events",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-events/"
-    }
-   ],
-   "startDate": "2026-12-13T10:30+0100"
-  }
- },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
-  "fetched": "2026-11-10T17:13:57+01:00",
+  "fetched": "2026-11-11T00:00:36+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -143,7 +97,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-11-10T17:13:57+01:00",
+  "fetched": "2026-11-11T00:00:36+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -239,16 +193,16 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/all-we-need-is-house-by-mad-series-0/": {
-  "fetched": "2026-11-10T23:00:58+01:00",
+ "https://rausgegangen.de/events/alizade-0/": {
+  "fetched": "2026-11-11T00:00:36+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "MAD SERIES | ALL WE NEED IS HOUSE Am 21. November ab 22 Uhr bringt MAD SERIES House, Latin House und Afro House ins Hotel AMANO East Side in Berlin.Freut euch auf sechs DJs, treibende Beats und Specials vor Ort.Bei MAD SERIES seid ihr mittendrin. Ihr tanzt direkt vor und hinter dem DJ und seid Teil der Session. Unsere Sets werden gefilmt, mit euch und der Stimmung auf der Tanzfläche.Bringt eure Freunde mit und feiert mit uns bis tief in die Nacht.🎧 LINEUP Miguel Wave • Nathalie • KJ • Alexander Da Great • Janaa • Stinhow📍 Hotel AMANO East Side Stralauer Platz 30–31, 10243 Berlin 📅 21. November | ab 22 Uhr🎟️ Sichert euch jetzt eure Tickets!ALL WE NEED IS HOUSE",
-   "endDate": "2026-11-22T05:00+0100",
+   "description": "Drei Sprachen im Kopf, klare Ansage im Mic. Alizade bewegt sich zwischen türkischem Trap, Hip Hop und Pop, ohne sich stilistisch klein zu machen 💅🏼",
+   "endDate": "2027-03-18T23:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/pcyMV6yjSZayLof98Of0_madseries16x9.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/RPaXer3QRV2eoGgEPHaF_photo-alizadecredit-ricardo-van-lachterop-kopie.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -256,40 +210,24 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10243",
-     "streetAddress": "Stralauer Platz 30-31"
+     "postalCode": "12435",
+     "streetAddress": "Am Flutgraben 2"
     },
-    "name": "AMANO East Side"
+    "name": "Festsaal Kreuzberg"
    },
-   "name": "All we need is House by MAD SERIES",
+   "name": "Alizade",
    "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "12.79",
-    "lowPrice": "8.97",
-    "offerCount": 2,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Phase 1 – Einlass bis 00 Uhr",
-      "price": "8.97",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Phase 2",
-      "price": "12.79",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
+    "@type": "Offer",
+    "price": "33.50",
+    "priceCurrency": "EUR",
+    "url": "https://www.eventim.de/artist/alizade/",
+    "validFrom": "2027-03-18T19:00+0100"
    },
-   "startDate": "2026-11-21T22:00+0100"
+   "startDate": "2027-03-18T19:00+0100"
   }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-11-10T17:13:57+01:00",
+  "fetched": "2026-11-11T00:00:36+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -378,7 +316,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
-  "fetched": "2026-11-10T17:13:57+01:00",
+  "fetched": "2026-11-11T00:00:36+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -423,7 +361,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-10T17:13:57+01:00",
+  "fetched": "2026-11-11T00:00:36+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -470,7 +408,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-22/": {
-  "fetched": "2026-11-10T17:13:57+01:00",
+  "fetched": "2026-11-11T00:00:36+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -515,7 +453,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
-  "fetched": "2026-11-10T17:13:57+01:00",
+  "fetched": "2026-11-11T00:00:36+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -560,7 +498,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
-  "fetched": "2026-11-10T17:13:57+01:00",
+  "fetched": "2026-11-11T00:00:36+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -607,7 +545,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-11-10T17:13:57+01:00",
+  "fetched": "2026-11-11T00:00:36+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -658,7 +596,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-brunch-sponsored-by-fritz-kola-winter-edition-0/": {
-  "fetched": "2026-11-10T17:13:57+01:00",
+  "fetched": "2026-11-11T00:00:36+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -701,7 +639,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-11-10T17:13:57+01:00",
+  "fetched": "2026-11-11T00:00:36+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -791,7 +729,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1/": {
-  "fetched": "2026-11-10T17:13:57+01:00",
+  "fetched": "2026-11-11T00:00:36+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -832,145 +770,8 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/love-at-first-slide-berlin-power-point-dating-by-rausgegange-13/": {
-  "fetched": "2026-11-10T23:00:58+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Wir bringen mit LOVE AT FIRST SLIDE Dating auf die Bühne: Freund:innen stellen in kurzen Power Point Präsentationen ihre Lieblingssingle vor – charmant, humorvoll und ganz ohne Swipe. Nach den witzigen Pitches kannst du bei Speed-Dating und Barabend neue Begegnungen entdecken. 💘🎤💫",
-   "endDate": "2026-11-11T23:30+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/G4DW5S6EQHOrXfM562GP_lafsbannerappstraight-2-5.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10625",
-     "streetAddress": "Kantstraße 127"
-    },
-    "name": "Dufte Berlin"
-   },
-   "name": "LOVE AT FIRST SLIDE Berlin | Power Point Dating by Rausgegangen 💖",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "19.50",
-    "lowPrice": "10.00",
-    "offerCount": 5,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Presenterticket",
-      "price": "10.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Publikum Ticket | Ich bin eine hetero Frau",
-      "price": "19.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Publikum Ticket | Ich bin ein hetero Mann",
-      "price": "19.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Publikum Ticket | Ich bin queer",
-      "price": "19.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Mitgegangen",
-      "price": "3.80",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "LOVE AT FIRST SLIDE BERLIN by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/love-at-first-slide-berlin-by-rausgegangen/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Love at first Slide by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/page-for-team-love-at-first-slide-by-rausgegangen/"
-    },
-    {
-     "@type": "Organization",
-     "name": "LOVE AT FIRST SLIDE by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/love-at-first-slide-by-rausgegangen/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Team Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/team-rausgegangen/"
-    }
-   ],
-   "startDate": "2026-11-11T19:00+0100"
-  }
- },
- "https://rausgegangen.de/events/pandawomen-2026-aban-ensemble-dj-rosemah-curated-by-yalda-ya-0/": {
-  "fetched": "2026-11-10T23:00:58+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Erst vier Musikerinnen aus Iran, dann DJ ROSEMAH mit Sounds zwischen House, Hip Hop und Klängen aus Afghanistan, Persien und der SWANA Region. Ein Abend, an dem musikalische Welten nicht sauber getrennt bleiben 👀",
-   "endDate": "2026-11-22T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/xujcRKOIRwmSNozh4mi6_23207image-2048x1024.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10435",
-     "streetAddress": "Knaackstraße 97"
-    },
-    "name": "PANDA platforma"
-   },
-   "name": "PANDAwomen 2026: Aban Ensemble / DJ ROSEMAH / Curated by Yalda Yazdani",
-   "offers": {
-    "@type": "Offer",
-    "price": "20.00",
-    "priceCurrency": "EUR",
-    "url": "https://panda-platforma.berlin/events/aban-ensemble-dj-rosemah/",
-    "validFrom": "2026-11-21T20:30+0100"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "PANDA platforma e.V.",
-     "url": "https://rausgegangen.de/organizations/page-for-team-panda-platforma-ev/"
-    },
-    {
-     "@type": "Organization",
-     "name": "PANDAwomen 2026 Festival",
-     "url": "https://rausgegangen.de/organizations/pandawomen-festival/"
-    }
-   ],
-   "startDate": "2026-11-21T20:30+0100"
-  }
- },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
-  "fetched": "2026-11-10T17:13:57+01:00",
+  "fetched": "2026-11-11T00:00:36+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -1007,43 +808,6 @@
    "startDate": "2026-12-19T19:30+0100"
   },
   "seen": "2026-10-31T02:26:10+01:00"
- },
- "https://rausgegangen.de/events/social-reading-club-3-1/": {
-  "fetched": "2026-11-10T23:00:58+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Das Handy bleibt draußen, das Buch nicht. Beim Social Reading Club liest Du ganz entspannt mit anderen zusammen und kannst danach einfach weitermachen, wenn Du magst 👀",
-   "endDate": "2026-11-17T20:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/5y41L6DFQ2uwqonGQ2L4_gk202516x9photoheadline-53-1.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10625",
-     "streetAddress": "Kantstraße 127"
-    },
-    "name": "Dufte Berlin"
-   },
-   "name": "Social Reading Club #3",
-   "offers": {
-    "@type": "Offer",
-    "price": "0.00",
-    "priceCurrency": "EUR",
-    "validFrom": "2026-11-17T18:30+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Social Reading Club",
-    "url": "https://rausgegangen.de/organizations/social-reading-club/"
-   },
-   "startDate": "2026-11-17T18:30+0100"
-  }
  },
  "https://rausgegangen.de/events/tati-comedy-one-laugh-night-28/": {
   "fetched": "2026-11-10T23:00:58+01:00",
@@ -1099,6 +863,40 @@
     "priceCurrency": "EUR"
    },
    "startDate": "2026-11-12T20:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/wessen-denkmaler-deutsche-spuren-in-den-polnischen-westgebie-0/": {
+  "fetched": "2026-11-11T00:00:36+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Umgestaltet, umgedeutet oder dem Verfall überlassen: Deutsche Denkmäler nahmen nach 1945 in den neuen polnischen Westgebieten ganz unterschiedliche Wege. Wie gingen die Menschen vor Ort mit diesen Hinterlassenschaften um? Was passte zum Neuanfang, was blieb fremd, und was änderte sich mit der Zeit?In seinem Fotoprojekt „Denkmalforschung“ untersucht Wojtek Sienkiewicz Denkmäler in niederschlesischen Dörfern. Im Gespräch mit der Kulturwissenschaftlerin Karolina Ćwiek-Rogalska geht er der Frage nach, wie lokale Initiativen, politische Vorgaben und alltägliche Entscheidungen ineinandergreifen. Die Denkmäler erzählen von Aneignung und Vernachlässigung, von Erinnerungspolitik und einem Umgang mit dem deutschen Erbe, der bis heute voller Widersprüche ist. PROGRAMMBegrüßungDr. Roland Borchers, Direktor, Dokumentationszentrum Flucht, Vertreibung, Versöhnung, BerlinKatarzyna Sitko, Direktorin, Polnisches Institut Berlin, BerlinPodiumWojtek Sienkiewicz, FotografProf. Karolina Ćwiek-Rogalska, Institut für Slawistik an der Polnischen Akademie der Wissenschaften, WarschauModeration: Prof. Felix Ackermann, Lehrgebiet Public History an der Fernuniversität in Hagen WEITERE HINWEISE  Einlass: 18.00 UhrSprache: Deutsch, Polnisch (mit Simultanübersetzung)EINTRITT FREI, MIT ANMELDUNGEine Veranstaltung im Rahmen der Sonderausstellung „OSTGEBIETE / ZIEMIE ZACHODNIE. Eine deutsch-polnische Spurensuche.\"",
+   "endDate": "2026-11-26T20:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/5Bp6OORBQvmekU2FPgAA_pi-ex-1.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10963",
+     "streetAddress": "Stresemannstraße 90"
+    },
+    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
+   },
+   "name": "Wessen Denkmäler? Deutsche Spuren in den polnischen Westgebieten",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 0,
+    "offers": [],
+    "priceCurrency": "EUR"
+   },
+   "startDate": "2026-11-26T18:30+0100"
   }
  }
 }

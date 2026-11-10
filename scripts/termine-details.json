@@ -282,147 +282,6 @@
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/cris-cosmo-liebe-dich-selbst-tour-2026-3/": {
-  "fetched": "2026-11-10T00:56:48+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Liebe dich selbst Tour 2026 – Mit seinem neuen Album geht Cris Cosmo im Herbst 2026 auf große Deutschlandtour und bringt die Botschaft von Selbstliebe, Lebensfreude und Zusammenhalt auf die Bühne. Cris Cosmo, bekannt als Botschafter für Toleranz und Weltoffenheit, verbindet Singer-Songwriter, Indie-Pop, Reggae und südamerikanische Grooves zu einem tanzbaren Sound mit starken, positiven Messages. Nach über 2.000 Konzerten begeistert er mit interaktiven Momenten, spontanen Freestyle-Einlagen und einer außergewöhnlichen Bühnenpräsenz – eine Freiheits-Party voller guter Vibes, bei der alle Generationen und Nationen willkommen sind. Der Zutritt zum Monarch ist erst ab 18 Jahren möglich.",
-   "endDate": "2026-11-21T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Zvxq8P9MTq52crjoixf4_cris-cosmo-liebe-dich-selbst-cover-image-by-rene-van-der-voorden-header-1.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10999",
-     "streetAddress": "Skalitzer Str. 134"
-    },
-    "name": "Monarch"
-   },
-   "name": "Cris Cosmo - Liebe dich selbst Tour 2026",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "20.00",
-    "lowPrice": "0.00",
-    "offerCount": 4,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "15.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Ermäßigt",
-      "price": "10.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Supporter",
-      "price": "20.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Begleitperson",
-      "price": "0.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Cris Cosmo"
-   },
-   "startDate": "2026-11-20T19:30+0100"
-  }
- },
- "https://rausgegangen.de/events/donata-strength-release-concert-0/": {
-  "fetched": "2026-11-10T00:56:48+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Zwischen Neuanfang und Rücken gerade machen liegen bei Donata nur ein paar Songs. Sie bringt ihre neue EP Strength mit kompletter Band auf die Bühne und lädt zu einem Abend ein, der eher nach echtem Miteinander klingt als nach bloßem Konzert 💜",
-   "endDate": "2026-11-12T23:30+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Td7PmoF3RX6i3YmuX3OA_2.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10117",
-     "streetAddress": "Auguststraße 24"
-    },
-    "name": "Spiegelsaal | Clärchens Ballhaus"
-   },
-   "name": "Donata - \"Strength\" Release Concert",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "30.00",
-    "lowPrice": "21.80",
-    "offerCount": 5,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Soli-Ticket",
-      "price": "21.80",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regular",
-      "price": "27.10",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Supporter",
-      "price": "32.40",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Friends & Family",
-      "price": "16.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Guestlist",
-      "price": "0.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Donata"
-   },
-   "startDate": "2026-11-12T19:00+0100"
-  }
- },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
   "fetched": "2026-11-09T21:13:30+01:00",
   "ld": {
@@ -746,66 +605,6 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
- "https://rausgegangen.de/events/fliegende-haie-alle-gehn-dumm-tour-12/": {
-  "fetched": "2026-11-10T00:04:23+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Kuck dir die Welt doch an: Alle gehn dumm. Smartphone-Zombies, emotionaler Leerstand, machtbesessene Despoten. Zeit für einen Reset – Fliegende Haie finden: Wenn schon dumm gehen, dann richtig! Ausrasten, durchtanzen und schweißnass Hymnen hinausschreien für eine bessere Welt.Unterdrückung von Frauen, mentale Gesundheit, sexuelle Unfreiheit – Haie reißen Wunden auf, denn wir haben keinen Bock, dass morgen noch alles so ist wie heute. Also Blutrausch an und die Issues zermahlen im Revolvergebiss. Dazu Bässe, die Beine wegreißen wie der Weiße Hai.Der Haie-Hyperpop ist seit der letzten Tour 2025 düsterer geworden, doch live energiegeladen wie eh und je: Instant wirst du hineingesogen in eine Artshow, die das Salzwasser aus deinen Poren drückt, bis sie dich als neuer Mensch wieder ausgespuckt. Durchgeschüttelt, wachgerüttelt, aber glücklich. Nur was blutet, kann auch hailen.",
-   "endDate": "2026-12-11T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/kDdpHEaT06v9EGY8VXh3_fliegende-haie-alle-gehn-dumm-foto-01quer-c-maxim-kaiser.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "12435",
-     "streetAddress": "Alt Treptow 6"
-    },
-    "name": "Kulturhaus Insel Berlin"
-   },
-   "name": "FLIEGENDE HAIE - Alle gehn dumm-Tour",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "27.10",
-    "lowPrice": "16.50",
-    "offerCount": 3,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Social Ticket",
-      "price": "16.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "21.80",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Supporterticket",
-      "price": "27.10",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Fliegende Haie"
-   },
-   "startDate": "2026-12-10T20:00+0100"
-  }
- },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
   "fetched": "2026-11-09T21:13:30+01:00",
   "ld": {
@@ -938,6 +737,85 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/micro-missions-0/": {
+  "fetched": "2026-11-10T02:29:21+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Micro Missions, the stand up comedy show where comedians complete ridiculous missions is now at Göttin der Weisheit!Comedians from the Berlin scene will be making you laugh. Then, they will pick out missions from a box, and will have to give it their best to complete them. We will then judge how well they did, give them points, ridicule them maybe. The comedian with the most points at the end of the night will get a mysterious prize!Ever seen a comedian solve a puzzle? Accomplish an incredibly hard task? No? Neither did we, and that's the most beautiful part of the show. Be their judge, jury and executioner.Location: GÖTTIN DER WEISHEIT Date and Time: 10TH OF NOVEMBER / 19:30 Entry: FREE Donations: APPRECIATED",
+   "endDate": "2026-11-10T22:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/c9vrk1O0Q1KQ2OC1LHxR_facebook-background-ffff191-1.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "12047",
+     "streetAddress": "Lenaustraße 5, 12047 Berlin"
+    },
+    "name": "Göttin der Weisheit"
+   },
+   "name": "Micro Missions",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 0,
+    "offers": [],
+    "priceCurrency": "EUR"
+   },
+   "startDate": "2026-11-10T19:30+0100"
+  }
+ },
+ "https://rausgegangen.de/events/pandawomen-2026-aban-ensemble-dj-rosemah-curated-by-yalda-ya-0/": {
+  "fetched": "2026-11-10T02:29:21+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Erst vier Musikerinnen aus Iran, dann DJ ROSEMAH mit Sounds zwischen House, Hip Hop und Klängen aus Afghanistan, Persien und der SWANA Region. Ein Abend, an dem musikalische Welten nicht sauber getrennt bleiben 👀",
+   "endDate": "2026-11-22T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/xujcRKOIRwmSNozh4mi6_23207image-2048x1024.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10435",
+     "streetAddress": "Knaackstraße 97"
+    },
+    "name": "PANDA platforma"
+   },
+   "name": "PANDAwomen 2026: Aban Ensemble / DJ ROSEMAH / Curated by Yalda Yazdani",
+   "offers": {
+    "@type": "Offer",
+    "price": "20.00",
+    "priceCurrency": "EUR",
+    "url": "https://panda-platforma.berlin/events/aban-ensemble-dj-rosemah/",
+    "validFrom": "2026-11-21T20:30+0100"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "PANDA platforma e.V.",
+     "url": "https://rausgegangen.de/organizations/page-for-team-panda-platforma-ev/"
+    },
+    {
+     "@type": "Organization",
+     "name": "PANDAwomen 2026 Festival",
+     "url": "https://rausgegangen.de/organizations/pandawomen-festival/"
+    }
+   ],
+   "startDate": "2026-11-21T20:30+0100"
+  }
+ },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
   "fetched": "2026-11-09T21:13:30+01:00",
   "ld": {
@@ -977,16 +855,16 @@
   },
   "seen": "2026-10-31T02:26:10+01:00"
  },
- "https://rausgegangen.de/events/social-reading-club-3-1/": {
-  "fetched": "2026-11-10T00:56:48+01:00",
+ "https://rausgegangen.de/events/tati-comedy-one-laugh-night-27/": {
+  "fetched": "2026-11-10T02:29:21+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Das Handy bleibt draußen, das Buch nicht. Beim Social Reading Club liest Du ganz entspannt mit anderen zusammen und kannst danach einfach weitermachen, wenn Du magst 👀",
-   "endDate": "2026-11-17T20:00+0100",
+   "description": "Comedy mit Stil im Tati goes Underground in Berlin. Authentische Stand-up Shows mit bekannten Comedians, Berliner Underground Acts und Newcomern in edler Bar-Atmosphäre mit hochwertigen Cocktails. Die Bühne für spontane Überraschungen. Mal tauchen bekannte Gesichter aus der Comedy-Szene auf, mal brandneue Talente, die man so noch nie gesehen hat.Sicher ist nur eins:Es wird spät, es wird witzig und es wird auch dunkel lustig.Eintritt  ab 16 Jahre",
+   "endDate": "2026-11-11T22:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/5y41L6DFQ2uwqonGQ2L4_gk202516x9photoheadline-53-1.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/kJyays4wROGHyg5J9wGS_tati-comedy-club-berliner-stand-up-nacht.png"
    ],
    "location": {
     "@type": "Place",
@@ -994,24 +872,43 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10625",
-     "streetAddress": "Kantstraße 127"
+     "postalCode": "10405",
+     "streetAddress": "Metzer Straße 2"
     },
-    "name": "Dufte Berlin"
+    "name": "Tati goes Underground"
    },
-   "name": "Social Reading Club #3",
+   "name": "Tati Comedy - Die Stand Up Comedy Show",
    "offers": {
-    "@type": "Offer",
-    "price": "0.00",
-    "priceCurrency": "EUR",
-    "validFrom": "2026-11-17T18:30+0100"
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 3,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "16.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Frühbücher",
+      "price": "14.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Studenten",
+      "price": "14.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
    },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Social Reading Club",
-    "url": "https://rausgegangen.de/organizations/social-reading-club/"
-   },
-   "startDate": "2026-11-17T18:30+0100"
+   "startDate": "2026-11-11T20:00+0100"
   }
  }
 }

@@ -1195,3 +1195,9 @@ h2 { line-height: 1.16; }
 .nl-page .nl-form .btn { background: var(--yellow); border-color: var(--yellow); color: var(--black); --tape-c: var(--yellow); }
 .nl-page .small, .nl-page .nl-msg { margin-top: 14px; color: rgba(255,255,255,.75); }
 .nl-page .small a { color: inherit; }
+.nl-page .nl-next:not([hidden]) { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 20px; }
+.nl-page .nl-more { margin-top: clamp(48px, 8vw, 80px); max-width: 560px; }
+.nl-page .nl-more-title { font-weight: 800; color: #fff; margin: 0 0 12px; }
+.nl-page .nl-more ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 10px 22px; }
+.nl-page .nl-more a { color: rgba(255,255,255,.8); text-decoration: underline; text-underline-offset: 3px; }
+.nl-page .nl-more a:hover { color: var(--yellow); }

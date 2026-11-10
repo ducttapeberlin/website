@@ -313,6 +313,8 @@ if (nlForm) {
       nlForm.style.display = 'none';
     }
     msg.hidden = false;
+    const nlNext = document.getElementById('nl-next');
+    if (nlNext) nlNext.hidden = false;
   });
 }
 

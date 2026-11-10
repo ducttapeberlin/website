@@ -231,99 +231,6 @@
    "startDate": "2026-11-18T18:30+0100"
   }
  },
- "https://rausgegangen.de/events/bodies-baddies-nye-edition-0/": {
-  "fetched": "2026-11-10T13:08:46+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Wenn Du das Jahr queer und mit ordentlich Energie abschließen willst, klingt das hier ziemlich ideal: mehrere Floors, Shows direkt nach dem Countdown und ein Format, das klar aus der Community kommt. Für Queers, Girls, Gays, Theys, Lovers und Allies gedacht 👀",
-   "endDate": "2027-01-01T06:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/RqGvZn1mSD2O5uy0Wezo_rausgegangenbnbsasha-kopie2.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10777",
-     "streetAddress": "Nollendorfplatz 5"
-    },
-    "name": "Metropol"
-   },
-   "name": "BODIES & BADDIES // NYE Party",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "85.40",
-    "lowPrice": "16.50",
-    "offerCount": 7,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Early Bird",
-      "price": "27.10",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Group Tickets First Wave",
-      "price": "32.40",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "First Wave",
-      "price": "37.70",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "VIP Tickets",
-      "price": "85.40",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Group Tickets Second Wave",
-      "price": "43.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Second Wave",
-      "price": "48.30",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Last Wave // Abendkasse",
-      "price": "52.54",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Ocean Eyes",
-    "url": "https://rausgegangen.de/organizations/ocean-eyes/"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Ocean"
-   },
-   "startDate": "2026-12-31T22:00+0100"
-  }
- },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
   "fetched": "2026-11-10T17:13:57+01:00",
   "ld": {
@@ -412,80 +319,6 @@
   "seen": "2026-10-20T15:24:41+02:00",
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/donata-strength-release-concert-0/": {
-  "fetched": "2026-11-10T17:13:57+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Zwischen Neuanfang und Rücken gerade machen liegen bei Donata nur ein paar Songs. Sie bringt ihre neue EP Strength mit kompletter Band auf die Bühne und lädt zu einem Abend ein, der eher nach echtem Miteinander klingt als nach bloßem Konzert 💜",
-   "endDate": "2026-11-12T23:30+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Td7PmoF3RX6i3YmuX3OA_2.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10117",
-     "streetAddress": "Auguststraße 24"
-    },
-    "name": "Spiegelsaal | Clärchens Ballhaus"
-   },
-   "name": "Donata - \"Strength\" Release Concert",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "30.00",
-    "lowPrice": "21.80",
-    "offerCount": 5,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Soli-Ticket",
-      "price": "21.80",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regular",
-      "price": "27.10",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Supporter",
-      "price": "32.40",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Friends & Family",
-      "price": "16.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Guestlist",
-      "price": "0.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Donata"
-   },
-   "startDate": "2026-11-12T19:00+0100"
-  }
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
   "fetched": "2026-11-10T17:13:57+01:00",
@@ -942,54 +775,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/mattiel-4/": {
-  "fetched": "2026-11-10T17:13:57+01:00",
+ "https://rausgegangen.de/events/millennial-mixtape-das-revival-der-nullerjahre-auf-3-floors-0/": {
+  "fetched": "2026-11-10T18:14:51+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Mattiel Brown kommt aus Atlanta, lebt in Italien und klingt trotzdem nach keiner klaren Schublade. Zwischen Vintage Soul und Indie Rock zeigt ihre neue Single eine leisere, persönlichere Seite 👀",
-   "endDate": "2027-05-24T06:00+0200",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/H5QfApkARu6WTlvbe579_mattiel-hp-1270x700-px.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10777",
-     "streetAddress": "Nollendorfplatz 5"
-    },
-    "name": "Mikropol"
-   },
-   "name": "Mattiel",
-   "offers": {
-    "@type": "Offer",
-    "price": "24.90",
-    "priceCurrency": "EUR",
-    "url": "https://www.eventim.de/noapp/event/mattiel-the-at-the-doorstep-tour-mikropol-22313827/?affiliate=KSG&utm_campaign=schoneberg&utm_source=KSG&utm_medium=dp",
-    "validFrom": "2027-05-23T19:00+0200"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Konzertbüro Schoneberg",
-    "url": "https://rausgegangen.de/organizations/schoneberg-konzerte/"
-   },
-   "startDate": "2027-05-23T19:00+0200"
-  }
- },
- "https://rausgegangen.de/events/queerberg-solidarity-show-party-by-and-for-queer-trans-refug-0/": {
-  "fetched": "2026-11-10T17:13:57+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Queerberg feiert zehn Jahre mit einer Nacht von und für queere und trans Geflüchtete. Erst Show, dann Party, alles getragen von einer Community.",
+   "description": "Mainfloor: 'diefeder' (Millennial Pop-Mix)Loungefloor: Little A (00er R'n'B HipHop)Salonfloor: tba «Ist das noch Indie?!»  Wir bringen SexyBack! Am Samstag, den 14. Novomber, verwandelt sich unser kleiner Wohlfühlclub in das Epizentrum für pure Nullerjahre-Nostalgie. Mit dem „Millennial Mixtape“ feiern wir den Sound und das Lebensgefühl eines unvergesslich unbeschwerten Jahrzehnts.Drei Floors – Drei Welten Egal, welche Musikrichtung eure Jugend geprägt hat – auf dem „Millennial Mixtape“ finden alle ihre ganz persönlichen absoluten 00er Banger:• Mainflloor: Die Pop-Explosion mit 'diefeder'! – Hier regieren die Königinnen und Könige der Nullerjahre. Tanzt zu Britney Spears, den No Angels, Justin Timberlake, Shakira und der besten Kylie ever.• Radaufloor: \"Little A\" und sein Hip-Hop & R&B Mix – Hey Ya, willkommen In da Club! Fette Bässe und smoother Groove. Freut euch auf die Tracks von Eminem, 50 Cent, Beyoncé, Nelly und Usher.• Salon: Indie & Rock-Alternative selektiert von DJ Snacky Baba & DJ tba – «Ist das noch Indie?!» Wir sagen: Das ist Disco! Von Arctic Monkeys bis Whitney Houston, von Kraftklub bis Charli XCX und von Two Door Cinema Club bis Nina Chuba wird für alle etwas dabei sein! Die Hardfacts:• Event: Millennial Mixtape – Das Revival der Nullerjahre auf 3 Floors!• Wann: Samstag, 14. Novmeber 2026, ab 21:00 Uhr• Wo: Frannz Club (in der Kulturbrauerei), Schönhauser Allee 36, 10435 Berlin• Eintritt: Early Bird für 8,00 Euro (nur von 21:00 bis 22:00 Uhr und nur an der Abendkasse), danach regulär 12,00 Euro an der Abendkasse. Sichert euch euren Platz auf der Tanzfläche und spult mit uns das Mixtape eurer Jugend zurück!",
    "endDate": "2026-11-15T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/szq3y7GQ0WdLp2q7ikmn_img1980.JPG"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/dyghNqMTteDJHdV9BYbr_facebook-event-banner-mixtape-1411.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -997,62 +792,93 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10999",
-     "streetAddress": "Admiralstr. 1-2"
+     "postalCode": "10435",
+     "streetAddress": "Schönhauser Allee 36"
     },
-    "name": "Südblock"
+    "name": "frannz club berlin"
    },
-   "name": "QueerBerg- Solidarity Show & Party by and for QUEER & TRANS  REFUGEE ARTISTS / 10 Years Anniversary.",
+   "name": "Millennial Mixtape- Das Revival der Nullerjahre auf 3 Floors!",
+   "offers": {
+    "@type": "Offer",
+    "price": "12.00",
+    "priceCurrency": "EUR",
+    "url": "https://shop.copilot.events/frannz/events/820df3ed-f0bf-4d98-ad28-aa2f26619ae6",
+    "validFrom": "2026-11-14T21:00+0100"
+   },
+   "startDate": "2026-11-14T21:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/relachen-cierre-de-una-era-0/": {
+  "fetched": "2026-11-10T18:14:51+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "SHOW 100% in SPANISH!Relachen dice hasta luego, Berlín! 2014 - 2026Patricia Fernández, fundadora y presentadora del show desde 2014, cambia de residencia (de Berlín a Valencia, España), y por esto cerraremos A LO GRANDE con profundo agradecimiento y alegría esta era de comedia en español en Berlín!Este 13 de noviembre contaremos con 8 (se lee OCHO 🤩) fantásticas presentaciones seleccionadas de entre tod@s l@s maravillos@s artistas que, a lo largo de estos 12 años, han formado (y siempre formarán 💘) parte de este hermoso universo cómico:  ✨ Liliana Velásquez (COL) https://www.instagram.com/ladios_v/  ✨ Ayla Merino (MEX) https://www.instagram.com/aylamerino/  ✨ Eliecer Reyes (ESP) https://www.instagram.com/eliecerreyesfalcon/  ✨ Palma Palacios (RD) https://www.instagram.com/palmapalacios/  ✨ ELGRANDE BBX (PER) https://www.instagram.com/elgrandebbx/  ✨ Doel Cupo(MEX) https://www.instagram.com/doelcupo/  ✨ Lu Noboa (ECU) https://www.instagram.com/lalunoboa/  ✨ Chiquilove (VEN) https://www.instagram.com/chiquilovelovelove/Y, al más puro estilo Berlín, Patricia presentará su nuevo número de cabaret: 🎂 cake sitting, nunca antes visto en Relachen! 🤩🔝 Como siempre, ¡calidad garantizada!  Invitamos a toda nuestra querida comunidad hispanoparlante (y adherid@s 😉) a formar parte de esta ÚNICA experiencia. Todo ocurrirá en CIRCUS POTOO, un maravilloso nuevo espacio cultural que tenemos muchas ganas de que conozcan y disfruten.🗣️ Show 100% en español 🔞 Para mayores de 18 años 💶 El bar acepta SÓLO EFECTIVO Si quieres acceder a uno de los solitickets, simplemente escribe al instagram de Relachen (https://www.instagram.com/relachen_berlin/)Nota: Lastimosamente la entrada al recinto (aun) no está adaptada para personas con movilidad reducida.Abriremos puertas a las 18:30h ¡Lleguen temprano porque en el circo hay juegos y entretenimiento análogo que van a querer probar! Show a las 19:30h 🥳💃🏽🕺🏻🤸🏼‍♀️🎶 Luego del show habrá música, baile, canto y, claro que sí, mucho mas RELAJO¡Les esperamos con amor y humor! 💋________________________🎪 INFOS ABOUT THE VENUE 🎪The Circus Potoo is located in a Historic Vaulted Cellar, therefore it is important that all of our guests are respectful to the space. When you purchase a ticket, you agree to follow these simple rules:🚭 NO SMOKING 🚫 NO GRAFFITI   We urge you to be mindful of the flooring and to watch you step as you move through the space. The venue does not have step-free access but this is something we aim to work on for the future.Circus Potoo strives to be a safe space for all walks of life, we do not tolerate discrimination or agressive behaviour towards our staff, artists or guests. Management reserves the right to refuse admission and tickets are non-transferable or refundable unless the event is cancelled.CASH ONLYADULTS ONLY",
+   "endDate": "2026-11-14T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/EVgGIxoS6mkFFlA3woWu_relachen261113rausgegangen.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10405",
+     "streetAddress": "Straßburger Straße 53"
+    },
+    "name": "Circus Potoo"
+   },
+   "name": "Relachen: cierre de una era",
    "offers": {
     "@type": "AggregateOffer",
-    "highPrice": "50.00",
-    "lowPrice": "11.20",
-    "offerCount": 4,
+    "highPrice": "25.00",
+    "lowPrice": "10.00",
+    "offerCount": 3,
     "offers": [
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "Refugee community Ticket",
+      "name": "SOLIDARITY TICKETS",
       "price": "11.20",
       "priceCurrency": "EUR"
      },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "Regulär Ticket",
-      "price": "19.68",
+      "name": "REGULAR TICKETS",
+      "price": "21.80",
       "priceCurrency": "EUR"
      },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "Solidarity Ticket",
-      "price": "30.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Supporter & Donations",
-      "price": "50.00",
+      "name": "SUPPORTER",
+      "price": "27.10",
       "priceCurrency": "EUR"
      }
     ],
     "priceCurrency": "EUR"
    },
-   "startDate": "2026-11-14T20:00+0100"
+   "organizer": {
+    "@type": "Organization",
+    "name": "Circus Potoo",
+    "url": "https://rausgegangen.de/organizations/circus-potoo-2/"
+   },
+   "startDate": "2026-11-13T18:30+0100"
   }
  },
- "https://rausgegangen.de/events/school-of-quilombismo-crip-epistemologies-0/": {
-  "fetched": "2026-11-10T17:13:57+01:00",
+ "https://rausgegangen.de/events/skyline-bling-silvester-auf-dem-klunkerkranich-2026-0/": {
+  "fetched": "2026-11-10T18:14:51+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Hier geht es um Crip-Wissen, das von Menschen mit Behinderung selbst gedacht und weitergegeben wird. Workshops, Vorträge und Interventionen setzen dabei bewusst auf Austausch statt Frontalbetrieb – und das Ganze ist entspannt gestaltet 🫶",
-   "endDate": "2026-11-15T17:30+0100",
+   "description": "SKYLINE BLING Silvester auf dem  Klunkerkranich 2026Donnerstag 31. Oktober 2026, ab 19 Uhr *Wohnzimmer 19 Uhr // *Ostflügel ab 19 Uhr  // *Club „Hinter den Alpen“ ab 20 Uhrw. Baerbel b2b Lisa Luka, Ciao 3lla b2b Francis FF, Elizen The Emperor, francesca, Carlo Bonanza, Silvi Knallt & Emel White, fat lip. Robin Schellenberg, Ilo Pan & Elmo Lewis, DJ Einundneunzig Vier_*_Keine Abendkasse: Tickets NUR im Vorverkauf / Pre-Sale Only! WICHTIG: Bitte lest die wichtigen Hinweise zum Ablauf an Silvester am Ende des Events! Lest diese Hinweise unbedingt VOR dem Ticketkauf, da ihr mit dem Kauf diese Bedingungen akzeptiert!PLEASE NOTE: there are special informations & rules for this event, you find them at the bottom of this event. Make sure to read these informations before buying your ticket, as you agree with these rules through your purchase._*_Das alte Jahr ruft an – wir legen auf. Das Jahr biegt auf die Zielgerade ein und der Kranich holt alles aus dem Federkleid, was glitzert! 3 Floors, 360° Feuerwerk & 14 Artists, die uns fachgerecht nach 2027 katapultieren. Zum Jahreswechsel verwandelt sich unser Dach in eine funkelnde Bühne über der Stadt: unten die Lichter von Neukölln, oben das Feuerwerk, zu bestaunen in 360° Panorama vom Dach der Dächer – und mittendrin ihr. In Schale, in Glitzer, im besten Fall mit beidem. Der Kranich holt die dicken Klunker raus, wir feiern Skyline Bling!Gemeinsam tanzen wir uns raus aus 2026 und rein ins neue Jahr, mit einem Line-up, das den Himmel über Berlin schon weit vor dem Feuerwerk zum Leuchten bringt. An den Decks: Baerbel b2b Lisa Luka, Ciao 3lla b2b Francis FF, Elizen The Emperor, francesca, Carlo Bonanza, Silvi Knallt & Emel White, Robin Schellenberg und fat lip. Auf dem *Ostflügel non-electronic Kontrast Programm – Vinyl Only von den Dusty Balloom Residents Ilo Pan & Elmo Lewis und dem enigmatischem DJ Einundneunzig Vier von Die Umsteiger.Also: Federn aufschütteln, Glitter einpacken, Crew zusammentrommeln und ab aufs Dach. Wir sehen uns ganz oben, Wie immer: mit Aussicht & Absicht!In Liebe, Die Kraniche[EN]We are back with our big New Years Eve Extravaganza on top of Neukölln, with one of the best views of Berlin!3 floors, 360° fireworks and 14 artists who know how to skyrocket us into 2027 with a ton of high vibes.For New Year’s Eve, our rooftop turns once again into a sparkling stage above the city: the street-lights of Neukölln below, the fireworks above, displayed – just for is –  in a 360° panorama show.And right in the middle of it all: us!We bring the bling-bling and all that glitter!Together we’ll dance our way out of 2026 and into the new year, with a line-up rocking the roof – just the way we like it.At our decks: Baerbel b2b Lisa Luka, Ciao 3lla b2b Francis FF, Elizen The Emperor, francesca, Carlo Bonanza, Silvi Knallt & Emel White, Robin Schellenberg, and fat lip. In the *Ostflügel, a non-electronic contrast program, vinyl only, from the Dusty Balloom residents Ilo Pan & Elmo Lewis and the enigmatic DJ Einundneunzig Vier of Die Umsteiger.Start your new year with a view, fluff up those feathers – and fly high like a kite!See you on the roof,With love,die Kraniche._*_Baerbel b2b Lisa Luka [crewport / Rebellion der Träumer]https://soundcloud.com/baerbel_officialhttps://soundcloud.com/lisa_lukaCiao 3lla b2b Francis FF [laut & luise / Un:seen]https://soundcloud.com/ciaoellahttps://soundcloud.com/francis_ffElizen The Emperor [Mixed Feelings / Never Now]https://soundcloud.com/elizentheemperorfrancesca [afterhoursounds] https://soundcloud.com/francesca_unofficialCarlo Bonanza [Aroma+ / Rebellion der Träumer*]https://soundcloud.com/carlobonanzaRobin Schellenberg [Stil Vor Talent / Katermukke]https://soundcloud.com/robinschellenbergSilvi Knallt & Emel White [Monkeycircus / Les Moches]https://soundcloud.com/silviknallthttps://soundcloud.com/emelwhitemusicFat Lip [Les Moches]https://soundcloud.com/lesmoches_berlinIlo Pan & Elmo Lewis [Dusty Ballroom]https://soundcloud.com/klunkerkranich/ilo-panhttps://soundcloud.com/elmolewisDJ einundneunzig vier [Die Umsteiger]no clouds _*_[English version below]ZUSÄTZLICHE WICHTIGE INFOSKLUNKERKRANICH SILVESTER FAQAn Silvester fliegt der Vogel etwas anders als sonst – bitte lest vor dem Ticketkauf unbedingt diese Regeln, da ihr mit dem Kauf auch diese Bedingungen akzeptiert.*Vergesst eure Online-Tickets nicht! Es gibt keine Abendkasse.Die Tickets können nicht rückerstattet werden.WICHTIG: der Einlass ist von NUR von 19 – 21 Uhr, bitte bedenkt: ihr müsst pünktlich erscheinen!Um 21 Uhr ist letzter Einlass, dies ist leider Auflage für die Veranstaltung.Der Einlass ist ausschließlich ab 18 Jahren. Dies gilt auch für Jugendliche unter 18 Jahren in Begleitung ihrer Eltern.WICHTIG: Der Eingang ist NICHT über die Fahrstühle. Der Einlass befindet sich auf der Karl-Marx-Straße 66 – Ein paar Meter weiter rechts vom normalen Eingang findet dann der Einlass statt! Von dort aus nehmen wir zu Fuß genau 895 Stufen auf das Dach der Dächer.EINGANG:GPS Punkt: 52.48248745150579, 13.432510896528736Bilder vom Eingang: https://notausgang.klunkerkranich.org/Eintrittsgelder werden bei zu spätem Erscheinen nicht erstattet.Denkt an warme Kleidung! Draußen ist es kalt. Vor Ort wird es eine Garderobe geben.Wir haben genügend Indoor-Raum. Wir feiern im *Wohnzimmer & im *Club „Hinter den Alpen“ mit richtig Wumms auf den Anlagen, da wir an Silvester keinen Beschränkungen unterworfen sind!Trotzdem ist es draußen immer sehr schön an Silvester & auch in diesem Jahr gibt es einen Tresenfloor am *Ostflügel – Open Air unter unserem großen Zirkuszelt.Der Vogel braucht Futter: vor Ort gibt es vegane Sandwiches und Snacks aus unserer Kantine von Anok & Peas.Auf dem Klunkerkranich herrscht absolutes Feuerwerksverbot!Hierauf werden wir am Einlass achten. Wir freuen uns das Panorama Feuerwerk mit euch zu genießen – abfeuern ist strengstens untersagt!Der Klunkerkranich schließt gegen 7/8 Uhr morgens – vielleicht auch etwas später, je nachdem wie lange wir noch alle miteinander Laune haben ;-) [English version]Dear guests,Please note that the New Years Eve Party is a special event, that will follow some different rules as your usual visit to Klunkekranich – please make sure to read those additional informations carefully, as you agree on these rules through your purchase – it’s also a bit of a FAQ, with useful info!SPECIAL INFOS / FAQNew Years Eve Party KlunkerkranichDon’t forget your ONLINE TICKETS! There won’t be a box-office!IMPORTANT: There won’t be any admittance to the event after 9pm!We will not refund tickets.You will have to arrive between 6pm and 9pm (latest).This is a condition we got to fulfill to be able to host this event.Attendes will have to be 18 years old – in doubt, make sure to carry an ID. This also includes minors acompanied by their parents.Please note: the entrance will NOT be through the elevators! You will enter a couple of meters up the road, at the right side of the usual entrance door – the address remains:Karl Marx Str. 66!From there you will have to take the stairs – 895 steps to happiness!Here is the GPS point: 52.48248745150579, 13.432510896528736Picture of the entrance: https://notausgang.klunkerkranich.org/In case of turning up too late or after 9pm we won’t refund your ticket.Make sure to bring warm clothes – it can be very cold outside! We got a cloack room on site – the party will take place inside *Wohnzimmer & *Club „Hinter den Alpen“! But of course, outside is where we will watch the fireworks – and we also got a floor at *Ostflügel – at the Bar, Open air under our grand circus tent.Food: On site we will have snacks and vegan Sandwiches from our kitchen.MOST IMPORTANT: any fireworks are STRICTLY PROHIBITED!We got enough fireworks around us and they are oh so pretty to watch. We will check bags for fireworks on the door.We will close down the party around 7 / 8am.#www.klunkerkranich.org",
+   "endDate": "2027-01-01T07:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/20VxdkKkSB6FSwWk767w_keyvisual-soq.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/X003uvlQSUpFrX70kn6f_kk-nye26-rausgegangen.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -1060,19 +886,21 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10557",
-     "streetAddress": "John-Foster-Dulles-Allee 10"
+     "postalCode": "12043",
+     "streetAddress": "Karl-Marx-Straße 66"
     },
-    "name": "Haus der Kulturen der Welt | HKW"
+    "name": "KLUNKERKRANICH"
    },
-   "name": "School of Quilombismo: Crip Epistemologies",
+   "name": "SKYLINE BLING  * Silvester auf dem  Klunkerkranich 2026",
    "offers": {
     "@type": "Offer",
-    "price": "0.00",
+    "availability": "https://schema.org/InStock",
+    "price": "48.30",
     "priceCurrency": "EUR",
-    "validFrom": "2026-11-14T10:00+0100"
+    "url": "https://t.rausgegangen.de/tickets/skyline-bling-silvester-auf-dem-klunkerkranich-2026",
+    "validFrom": "2026-11-03T13:23+0100"
    },
-   "startDate": "2026-11-14T10:00+0100"
+   "startDate": "2026-12-31T19:00+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
@@ -1113,5 +941,61 @@
    "startDate": "2026-12-19T19:30+0100"
   },
   "seen": "2026-10-31T02:26:10+01:00"
+ },
+ "https://rausgegangen.de/events/tati-comedy-one-laugh-night-28/": {
+  "fetched": "2026-11-10T18:14:51+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Comedy mit Stil im Tati goes Underground in Berlin. Authentische Stand-up Shows mit bekannten Comedians, Berliner Underground Acts und Newcomern in edler Bar-Atmosphäre mit hochwertigen Cocktails. Die Bühne für spontane Überraschungen. Mal tauchen bekannte Gesichter aus der Comedy-Szene auf, mal brandneue Talente, die man so noch nie gesehen hat.Sicher ist nur eins:Es wird spät, es wird witzig und es wird auch dunkel lustig.Eintritt  ab 16 Jahre",
+   "endDate": "2026-11-12T22:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/kJyays4wROGHyg5J9wGS_tati-comedy-club-berliner-stand-up-nacht.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10405",
+     "streetAddress": "Metzer Straße 2"
+    },
+    "name": "Tati goes Underground"
+   },
+   "name": "Tati Comedy - Die Stand Up Comedy Show",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 3,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "16.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Frühbücher",
+      "price": "14.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Studenten",
+      "price": "14.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "startDate": "2026-11-12T20:00+0100"
+  }
  }
 }

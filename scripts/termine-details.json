@@ -1,4 +1,50 @@
 {
+ "https://rausgegangen.de/events/1-day-chor-berlin-0/": {
+  "fetched": "2026-11-10T14:29:47+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Ein Chor für einen Tag, ohne langes Commitment. Unter Leitung von Constantin Gold entsteht mit anderen ein Medley aus 5 bis 7 Songs, und am Ende wird das gemeinsam Erarbeitete professionell aufgenommen 🎤",
+   "endDate": "2026-12-13T16:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/4JYsZ4KKQ46DQVPPL7v9_design2026eventsonedaychorentwurf01.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "13088",
+     "streetAddress": "Berliner Allee 125"
+    },
+    "name": "PETER EDEL"
+   },
+   "name": "1 DAY CHOR Berlin",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "60.00",
+    "priceCurrency": "EUR",
+    "url": "https://t.rausgegangen.de/tickets/1-day-chor-berlin",
+    "validFrom": "2026-11-05T00:00+0100"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "1 DAY CHOR",
+     "url": "https://rausgegangen.de/organizations/1-day-chor/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Rausgegangen Events",
+     "url": "https://rausgegangen.de/organizations/rausgegangen-events/"
+    }
+   ],
+   "startDate": "2026-12-13T10:30+0100"
+  }
+ },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
   "fetched": "2026-11-10T10:13:13+01:00",
   "ld": {
@@ -286,16 +332,16 @@
    "startDate": "2026-12-31T22:00+0100"
   }
  },
- "https://rausgegangen.de/events/colours-of-the-night-3/": {
-  "fetched": "2026-11-10T12:11:32+01:00",
+ "https://rausgegangen.de/events/comedy-slam-berlin-13/": {
+  "fetched": "2026-11-10T14:29:47+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Der sexpositive Rave für alle Sinne Techno, Melodic Techno & Peak Time by Junior WA & Sika Akis  Dresscode: Sexy · kinky · elegant · fantasievoll · farbenfroh · extravagant Eintritt: 28€ pro Person, NextGen Ticket (18-28 J.) 20€, Social Ticket* 18€Bitte Tickets an der Abendkasse kaufen. Colors of the Night ist keine gewöhnliche Clubnacht.Es ist ein Rave zwischen Ekstase, Verführung und sexueller Freiheit – für Menschen, die tanzen, flirten, spielen und sich treiben lassen wollen.  Dein farbiges Bändchen zeigt, was Dich heute Nacht reizt: Grün = Offen für Abenteuer Gelb = Just Party Blau = Paare unter sich Rot = Bi-Interessiert  Du kannst Deine Farbe jederzeit wechseln. Denn manchmal beginnt eine Nacht ganz harmlos – und entwickelt dann ihre eigene Dynamik.  Auf dem Dancefloor verschmelzen Körper, Licht und treibende Beats. Abseits davon warten sinnliche Rückzugsorte, Kuschelecken und Play-Areas für alle, die mehr als nur tanzen wollen.  Beobachten. Flirten. Berühren. Spielen. Alles darf - nichts muss.  Ein Bändchen zeigt Interesse – es ersetzt niemals eine klare Zustimmung. Fragen ist sexy. Respekt ist Pflicht. Unser Awareness-Team ist die ganze Nacht für Dich da.  DRESSCODE Sexy · kinky · fantasievoll · farbenfroh · extravagant Zeig Haut, Haltung und Fantasie. Lack, Leder, Latex, Dessous, Harness, Glamour, Fetisch, wilde Farben oder ein Look, der garantiert nicht nach Alltag aussieht. Keine Jeans. Keine weißen Sneaker. Keine Langeweile.  Vier Farben. Tausend Möglichkeiten. Welche Farbe trägt Deine Nacht?",
-   "endDate": "2026-11-15T05:00+0100",
+   "description": "Vier der besten Slam-Poet*innen des Landes treffen beim Comedy Slam Berlins aufeinander, um sich mit ihren lustigsten Texten ins Zwerchfell des Publikums zu lesen. In zwei Runden erschüttern sie eure Bauchmuskeln. Workout fürs Zwerchfell! Und ihr entscheidet per Applaus über den lustigsten Text. Am Ende des Abend liegt ihr auf dem Boden vor Lachen, und eine*r der Comedy-Slammer*innen trägt den publikumsgewählten Triumph nach Hause.Einlass: 19:30Beginn: 20:00Was den Comedy Slam ausmachtGanz wie bei Poetry Slams stehen hier Text und Performance im Vordergrund. Die Regeln für die Auftretenden: 8 Minuten Zeitlimit, keine Requisiten, nur selbstgeschriebene Texte. Und das Publikum entscheidet über den Sieg des Abends. Aber anders als sonst, gibt es beim Comedy Slam Berlin ausschließlich lustige Texte: Literatur zum Lachen.Was den Comedy Slam von einer üblichen Stand-Up Show unterscheidet, die die Comedy-Clubs Berlins bevölkern? Hier gibt es nicht nur eine Aneinanderreihung von Witzen. Hier hört ihr durchgängige Geschichten, Erzählungen, Gedichte und ein bisschen Message. Die ganze Vielfalt des Poetry Slams eben. Mit den Zwerchfellerschütterern von Komikern. Poetry Slam meets Stand-Up.Vier geladene Slammer*innen treten im harten Wettkampf gegeneinander an: Und ihr entscheidet, wer die hohe Kunst der Literatur mit jener des Humors am Besten verbinden kann.",
+   "endDate": "2026-11-20T22:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/bkeGYjFzTMiNuNvJG9d2_coloursnightrausgegangen1920x1080.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/pNbniJqT9a5jAyHUlOgw_2025comedy-slam-fotologo.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -303,20 +349,135 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "12099",
-     "streetAddress": "Alt-Tempelhof 17-19"
+     "postalCode": "10119",
+     "streetAddress": "Schönhauser Allee 176"
     },
-    "name": "Insomnia Club Berlin"
+    "name": "Pfefferberg Theater"
    },
-   "name": "Colours of the Night",
+   "name": "Comedy Slam Berlin",
    "offers": {
-    "@type": "Offer",
-    "price": 0,
-    "priceCurrency": "EUR",
-    "url": "https://insomnia.berlin/s-positive/5090",
-    "validFrom": "2026-11-14T22:00+0100"
+    "@type": "AggregateOffer",
+    "highPrice": "39.90",
+    "lowPrice": "14.90",
+    "offerCount": 13,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK 1: Regulär",
+      "price": "24.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK1: Ermäßigt",
+      "price": "22.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK2: Regulär",
+      "price": "22.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK2: Ermäßigt",
+      "price": "19.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK3: Regulär",
+      "price": "19.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK3: Ermäßigt",
+      "price": "17.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK4: Regulär",
+      "price": "17.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK4: Ermäßigt",
+      "price": "14.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Paarplatz Regulär (2 Pers.)",
+      "price": "39.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Paarplatz Ermäßigt (2 Pers.)",
+      "price": "35.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Zweiter Paarplatz (wähl dies zu deinem Kostenpflichtigen Hauptticket, alleine ist es ungültig)",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Schwerbehindertenausweis B-Ticket",
+      "price": "17.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Begleiterticket Schwerbehinderte (ungültig ohne Hauptticket)",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
    },
-   "startDate": "2026-11-14T22:00+0100"
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "Comedy Slam",
+     "url": "https://rausgegangen.de/organizations/p-comedy-slam/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Kiezpoeten",
+     "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Pfefferberg Theater Slams",
+     "url": "https://rausgegangen.de/organizations/p-pfefferberg-theater-slams/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Premium Poetry",
+     "url": "https://rausgegangen.de/organizations/p-premium-poetry/"
+    }
+   ],
+   "startDate": "2026-11-20T20:00+0100"
   }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
@@ -895,16 +1056,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/relachen-cierre-de-una-era-0/": {
-  "fetched": "2026-11-10T13:08:46+01:00",
+ "https://rausgegangen.de/events/queerberg-solidarity-show-party-by-and-for-queer-trans-refug-0/": {
+  "fetched": "2026-11-10T14:29:47+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "SHOW 100% in SPANISH!Relachen dice hasta luego, Berlín! 2014 - 2026Patricia Fernández, fundadora y presentadora del show desde 2014, cambia de residencia (de Berlín a Valencia, España), y por esto cerraremos A LO GRANDE con profundo agradecimiento y alegría esta era de comedia en español en Berlín!Este 13 de noviembre contaremos con 8 (se lee OCHO 🤩) fantásticas presentaciones seleccionadas de entre tod@s l@s maravillos@s artistas que, a lo largo de estos 12 años, han formado (y siempre formarán 💘) parte de este hermoso universo cómico:  ✨ Liliana Velásquez (COL) https://www.instagram.com/ladios_v/  ✨ Ayla Merino (MEX) https://www.instagram.com/aylamerino/  ✨ Eliecer Reyes (ESP) https://www.instagram.com/eliecerreyesfalcon/  ✨ Palma Palacios (RD) https://www.instagram.com/palmapalacios/  ✨ ELGRANDE BBX (PER) https://www.instagram.com/elgrandebbx/  ✨ Doel Cupo(MEX) https://www.instagram.com/doelcupo/  ✨ Lu Noboa (ECU) https://www.instagram.com/lalunoboa/  ✨ Chiquilove (VEN) https://www.instagram.com/chiquilovelovelove/Y, al más puro estilo Berlín, Patricia presentará su nuevo número de cabaret: 🎂 cake sitting, nunca antes visto en Relachen! 🤩🔝 Como siempre, ¡calidad garantizada!  Invitamos a toda nuestra querida comunidad hispanoparlante (y adherid@s 😉) a formar parte de esta ÚNICA experiencia. Todo ocurrirá en CIRCUS POTOO, un maravilloso nuevo espacio cultural que tenemos muchas ganas de que conozcan y disfruten.🗣️ Show 100% en español 🔞 Para mayores de 18 años 💶 El bar acepta SÓLO EFECTIVO Si quieres acceder a uno de los solitickets, simplemente escribe al instagram de Relachen (https://www.instagram.com/relachen_berlin/)Nota: Lastimosamente la entrada al recinto (aun) no está adaptada para personas con movilidad reducida.Abriremos puertas a las 18:30h ¡Lleguen temprano porque en el circo hay juegos y entretenimiento análogo que van a querer probar! Show a las 19:30h 🥳💃🏽🕺🏻🤸🏼‍♀️🎶 Luego del show habrá música, baile, canto y, claro que sí, mucho mas RELAJO¡Les esperamos con amor y humor! 💋________________________🎪 INFOS ABOUT THE VENUE 🎪The Circus Potoo is located in a Historic Vaulted Cellar, therefore it is important that all of our guests are respectful to the space. When you purchase a ticket, you agree to follow these simple rules:🚭 NO SMOKING 🚫 NO GRAFFITI   We urge you to be mindful of the flooring and to watch you step as you move through the space. The venue does not have step-free access but this is something we aim to work on for the future.Circus Potoo strives to be a safe space for all walks of life, we do not tolerate discrimination or agressive behaviour towards our staff, artists or guests. Management reserves the right to refuse admission and tickets are non-transferable or refundable unless the event is cancelled.CASH ONLYADULTS ONLY",
-   "endDate": "2026-11-14T05:00+0100",
+   "description": "Queerberg feiert zehn Jahre mit einer Nacht von und für queere und trans Geflüchtete. Erst Show, dann Party, alles getragen von einer Community.",
+   "endDate": "2026-11-15T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/EVgGIxoS6mkFFlA3woWu_relachen261113rausgegangen.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/szq3y7GQ0WdLp2q7ikmn_img1980.JPG"
    ],
    "location": {
     "@type": "Place",
@@ -912,80 +1073,50 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10405",
-     "streetAddress": "Straßburger Straße 53"
+     "postalCode": "10999",
+     "streetAddress": "Admiralstr. 1-2"
     },
-    "name": "Circus Potoo"
+    "name": "Südblock"
    },
-   "name": "Relachen: cierre de una era",
+   "name": "QueerBerg- Solidarity Show & Party by and for QUEER & TRANS  REFUGEE ARTISTS / 10 Years Anniversary.",
    "offers": {
     "@type": "AggregateOffer",
-    "highPrice": "25.00",
-    "lowPrice": "10.00",
-    "offerCount": 3,
+    "highPrice": "50.00",
+    "lowPrice": "11.20",
+    "offerCount": 4,
     "offers": [
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "SOLIDARITY TICKETS",
+      "name": "Refugee community Ticket",
       "price": "11.20",
       "priceCurrency": "EUR"
      },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "REGULAR TICKETS",
-      "price": "21.80",
+      "name": "Regulär Ticket",
+      "price": "19.68",
       "priceCurrency": "EUR"
      },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "SUPPORTER",
-      "price": "27.10",
+      "name": "Solidarity Ticket",
+      "price": "30.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Supporter & Donations",
+      "price": "50.00",
       "priceCurrency": "EUR"
      }
     ],
     "priceCurrency": "EUR"
    },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Circus Potoo",
-    "url": "https://rausgegangen.de/organizations/circus-potoo-2/"
-   },
-   "startDate": "2026-11-13T18:30+0100"
-  }
- },
- "https://rausgegangen.de/events/school-of-quilombismo-crip-epistemologies-0/": {
-  "fetched": "2026-11-10T12:11:32+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Hier geht es um Crip-Wissen, das von Menschen mit Behinderung selbst gedacht und weitergegeben wird. Workshops, Vorträge und Interventionen setzen dabei bewusst auf Austausch statt Frontalbetrieb – und das Ganze ist entspannt gestaltet 🫶",
-   "endDate": "2026-11-15T17:30+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/20VxdkKkSB6FSwWk767w_keyvisual-soq.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10557",
-     "streetAddress": "John-Foster-Dulles-Allee 10"
-    },
-    "name": "Haus der Kulturen der Welt | HKW"
-   },
-   "name": "School of Quilombismo: Crip Epistemologies",
-   "offers": {
-    "@type": "Offer",
-    "price": "0.00",
-    "priceCurrency": "EUR",
-    "validFrom": "2026-11-14T10:00+0100"
-   },
-   "startDate": "2026-11-14T10:00+0100"
+   "startDate": "2026-11-14T20:00+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
@@ -1027,16 +1158,16 @@
   },
   "seen": "2026-10-31T02:26:10+01:00"
  },
- "https://rausgegangen.de/events/speak-up-inline-x-stories-of-her-with-x-tin-degen-oneyra-lin-0/": {
-  "fetched": "2026-11-10T13:08:46+01:00",
+ "https://rausgegangen.de/events/tati-comedy-one-laugh-night-27/": {
+  "fetched": "2026-11-10T14:29:47+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Erst reden, dann tanzen: Die Party feiert den sechsten Geburtstag von Stories of Her, einem Projekt, das anonyme Erfahrungen mit Sexismus, Belästigung und sexualisierter Gewalt sichtbar macht. Später kippt der Abend in elektronische Sets von X Tin, degen, Ôneyra, Linda shiro und mehr 🌈",
-   "endDate": "2026-11-15T06:00+0100",
+   "description": "Comedy mit Stil im Tati goes Underground in Berlin. Authentische Stand-up Shows mit bekannten Comedians, Berliner Underground Acts und Newcomern in edler Bar-Atmosphäre mit hochwertigen Cocktails. Die Bühne für spontane Überraschungen. Mal tauchen bekannte Gesichter aus der Comedy-Szene auf, mal brandneue Talente, die man so noch nie gesehen hat.Sicher ist nur eins:Es wird spät, es wird witzig und es wird auch dunkel lustig.Eintritt  ab 16 Jahre",
+   "endDate": "2026-11-11T22:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/07IK7lgPQpK2XrMjwDQC_postv1.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/kJyays4wROGHyg5J9wGS_tati-comedy-club-berliner-stand-up-nacht.png"
    ],
    "location": {
     "@type": "Place",
@@ -1044,24 +1175,43 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10245",
-     "streetAddress": "Revaler Str. 99"
+     "postalCode": "10405",
+     "streetAddress": "Metzer Straße 2"
     },
-    "name": "Crack Bellmer"
+    "name": "Tati goes Underground"
    },
-   "name": "SPEAK UP Inline x Stories of Her with X Tin, degen, Ôneyra, Linda shiro & many more",
+   "name": "Tati Comedy - Die Stand Up Comedy Show",
    "offers": {
-    "@type": "Offer",
-    "price": "10.00",
-    "priceCurrency": "EUR",
-    "validFrom": "2026-11-14T17:30+0100"
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 3,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "16.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Frühbücher",
+      "price": "14.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Studenten",
+      "price": "14.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
    },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Inline",
-    "url": "https://rausgegangen.de/organizations/inline/"
-   },
-   "startDate": "2026-11-14T17:30+0100"
+   "startDate": "2026-11-11T20:00+0100"
   }
  }
 }

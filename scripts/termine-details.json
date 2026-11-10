@@ -193,16 +193,16 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/abi-mohanty-tough-tiies-0/": {
-  "fetched": "2026-11-10T12:11:32+01:00",
+ "https://rausgegangen.de/events/bodies-baddies-nye-edition-0/": {
+  "fetched": "2026-11-10T13:08:46+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Dark, raw & unapologetic comedy with Berlin’s Abi Mohanty. Uncomfortable truths, taboo topics & big laughs.Tough Titties isn't just another stand-up show. It's a night of uncomfortable truths wrapped in hilarious stories, sharp observations and the kind of jokes that make you laugh first — and question yourself later.Berlin-based comedian Abi Mohanty brings her signature blend of dark humour, satire and raw honesty to Karakas Comedy Club.Born in India and now based in Berlin, Abi explores the uncomfortable side of life with a wicked sense of humour. Her comedy takes on taboo subjects including religious dogma, restrictive upbringing, mental health, sexuality, identity, individual freedom and the strange realities of being an Ausländer in Europe.Abi has opened for some of the biggest names in European comedy, including Dragos, Mike Rice, Radu Isac and Netflix star Adrienne Iapalucci, as well as Abhishek Upmanyu.She has also made her mark on the London comedy circuit, winning multiple gong shows, including the coveted King Gong at The Comedy Store.Currently converting childhood trauma into jokes one show at a time, Abi has performed across Europe — usually in places where Ryanair goes.Her comedy is sharp, personal and deliberately uncomfortable. No easy stereotypes, no safe topics — just brutally honest stories turned into very good jokes.Come for the dark comedy. Stay for the chaos. And don't be surprised if you feel slightly guilty for laughing afterwards. Dark comedy. Raw honesty. Uncomfortable laughs. Zero apologies.  14 November · Karakas Comedy Club Kurfürstenstraße 9, Berlin 10785",
-   "endDate": "2026-11-14T19:30+0100",
+   "description": "Wenn Du das Jahr queer und mit ordentlich Energie abschließen willst, klingt das hier ziemlich ideal: mehrere Floors, Shows direkt nach dem Countdown und ein Format, das klar aus der Community kommt. Für Queers, Girls, Gays, Theys, Lovers und Allies gedacht 👀",
+   "endDate": "2027-01-01T06:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/VihvDSydQ2qvMHAqK021_tough-tits-landscape.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/RqGvZn1mSD2O5uy0Wezo_rausgegangenbnbsasha-kopie2.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -210,26 +210,80 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10785",
-     "streetAddress": "Kurfürstenstraße 9"
+     "postalCode": "10777",
+     "streetAddress": "Nollendorfplatz 5"
     },
-    "name": "Karakas Bar"
+    "name": "Metropol"
    },
-   "name": "Abi Mohanty - Tough Ti**ies",
+   "name": "BODIES & BADDIES // NYE Party",
    "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "14.50",
-    "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/abi-mohanty-tough-tiies",
-    "validFrom": "2026-11-03T00:29+0100"
+    "@type": "AggregateOffer",
+    "highPrice": "85.40",
+    "lowPrice": "16.50",
+    "offerCount": 7,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Early Bird",
+      "price": "27.10",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Group Tickets First Wave",
+      "price": "32.40",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "First Wave",
+      "price": "37.70",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "VIP Tickets",
+      "price": "85.40",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Group Tickets Second Wave",
+      "price": "43.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Second Wave",
+      "price": "48.30",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Last Wave // Abendkasse",
+      "price": "52.54",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
    },
    "organizer": {
     "@type": "Organization",
-    "name": "Karakas Comedy Club",
-    "url": "https://rausgegangen.de/organizations/karakas-comedy-club-1/"
+    "name": "Ocean Eyes",
+    "url": "https://rausgegangen.de/organizations/ocean-eyes/"
    },
-   "startDate": "2026-11-14T18:00+0100"
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Ocean"
+   },
+   "startDate": "2026-12-31T22:00+0100"
   }
  },
  "https://rausgegangen.de/events/colours-of-the-night-3/": {
@@ -353,6 +407,38 @@
   "seen": "2026-10-20T15:24:41+02:00",
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
+ },
+ "https://rausgegangen.de/events/dein-moment-dein-wein-rheinhessen-zu-gast-in-berlin-0/": {
+  "fetched": "2026-11-10T13:08:46+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Blind probieren, vergleichen, nochmal riechen: In mehreren Weinläden und Restaurants dreht sich gerade alles um Rheinhessen im Glas. Vielleicht stolperst Du dabei über einen Riesling oder Silvaner, den Du ab dann immer wieder bestellst 👀",
+   "endDate": "2026-11-29T00:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/LlmYkJ58TGq9wVBQeO8f_1.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": null,
+     "streetAddress": null
+    },
+    "name": "Berlin"
+   },
+   "name": "Dein Moment. Dein Wein: Rheinhessen zu Gast in Berlin",
+   "offers": {
+    "@type": "Offer",
+    "price": "0.00",
+    "priceCurrency": "EUR",
+    "validFrom": "2026-11-14T00:00+0100"
+   },
+   "startDate": "2026-11-14T00:00+0100"
+  }
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
   "fetched": "2026-11-10T10:13:13+01:00",
@@ -677,79 +763,6 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
- "https://rausgegangen.de/events/geheimkonzert-berlin-24-by-rausgegangen-0/": {
-  "fetched": "2026-11-10T12:11:32+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Na Hallo! Es ist wieder so weit: Ein Abend voller Überraschung - denn wer auf der Bühne steht, bleibt bis zum ersten Ton geheim. Wir hatten schon Blond, Berq, Ennio, Futurebae, Jassin, Anais, Katha Pauer & viele mehr zu Gast – und das schon bevor sie die großen Bühnen der Nation gestürmt haben. Also entdecke die Stars von Morgen bei unseren Geheimkonzerten. 🪩",
-   "endDate": "2026-12-09T22:15+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/mO31iODjTCuFLVfQ493H_gk202516x9photoheadline-32-1.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin"
-    },
-    "name": "Secret location"
-   },
-   "name": "Geheimkonzert Berlin #24 by Rausgegangen",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "29.90",
-    "lowPrice": "24.50",
-    "offerCount": 4,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "SCHNAPPER",
-      "price": "21.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "REGULAR",
-      "price": "25.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "4er FRIENDS BUNDLE",
-      "price": "23.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Mitgegangen",
-      "price": "3.80",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "Rausgegangen Geheimkonzerte",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Rausgegangen Geheimkonzerte Berlin",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte-3/"
-    }
-   ],
-   "startDate": "2026-12-09T20:00+0100"
-  }
- },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
   "fetched": "2026-11-10T10:13:13+01:00",
   "ld": {
@@ -882,16 +895,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/pandawomen-2026-vera-jonas-lisa-hoppe-paul-brody-gaia-mobili-0/": {
-  "fetched": "2026-11-10T12:11:32+01:00",
+ "https://rausgegangen.de/events/relachen-cierre-de-una-era-0/": {
+  "fetched": "2026-11-10T13:08:46+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Erst ganz nah dran, dann plötzlich offen nach allen Seiten: Vera Jónás spielt ihre Songs in einem neuen Trio mit Lisa Hoppe und Paul Brody. Danach schichtet Gaia Mobilij live Loops und akustische Klänge so um, dass Melodien kurz aufblitzen und wieder kippen 👀",
-   "endDate": "2026-11-21T05:00+0100",
+   "description": "SHOW 100% in SPANISH!Relachen dice hasta luego, Berlín! 2014 - 2026Patricia Fernández, fundadora y presentadora del show desde 2014, cambia de residencia (de Berlín a Valencia, España), y por esto cerraremos A LO GRANDE con profundo agradecimiento y alegría esta era de comedia en español en Berlín!Este 13 de noviembre contaremos con 8 (se lee OCHO 🤩) fantásticas presentaciones seleccionadas de entre tod@s l@s maravillos@s artistas que, a lo largo de estos 12 años, han formado (y siempre formarán 💘) parte de este hermoso universo cómico:  ✨ Liliana Velásquez (COL) https://www.instagram.com/ladios_v/  ✨ Ayla Merino (MEX) https://www.instagram.com/aylamerino/  ✨ Eliecer Reyes (ESP) https://www.instagram.com/eliecerreyesfalcon/  ✨ Palma Palacios (RD) https://www.instagram.com/palmapalacios/  ✨ ELGRANDE BBX (PER) https://www.instagram.com/elgrandebbx/  ✨ Doel Cupo(MEX) https://www.instagram.com/doelcupo/  ✨ Lu Noboa (ECU) https://www.instagram.com/lalunoboa/  ✨ Chiquilove (VEN) https://www.instagram.com/chiquilovelovelove/Y, al más puro estilo Berlín, Patricia presentará su nuevo número de cabaret: 🎂 cake sitting, nunca antes visto en Relachen! 🤩🔝 Como siempre, ¡calidad garantizada!  Invitamos a toda nuestra querida comunidad hispanoparlante (y adherid@s 😉) a formar parte de esta ÚNICA experiencia. Todo ocurrirá en CIRCUS POTOO, un maravilloso nuevo espacio cultural que tenemos muchas ganas de que conozcan y disfruten.🗣️ Show 100% en español 🔞 Para mayores de 18 años 💶 El bar acepta SÓLO EFECTIVO Si quieres acceder a uno de los solitickets, simplemente escribe al instagram de Relachen (https://www.instagram.com/relachen_berlin/)Nota: Lastimosamente la entrada al recinto (aun) no está adaptada para personas con movilidad reducida.Abriremos puertas a las 18:30h ¡Lleguen temprano porque en el circo hay juegos y entretenimiento análogo que van a querer probar! Show a las 19:30h 🥳💃🏽🕺🏻🤸🏼‍♀️🎶 Luego del show habrá música, baile, canto y, claro que sí, mucho mas RELAJO¡Les esperamos con amor y humor! 💋________________________🎪 INFOS ABOUT THE VENUE 🎪The Circus Potoo is located in a Historic Vaulted Cellar, therefore it is important that all of our guests are respectful to the space. When you purchase a ticket, you agree to follow these simple rules:🚭 NO SMOKING 🚫 NO GRAFFITI   We urge you to be mindful of the flooring and to watch you step as you move through the space. The venue does not have step-free access but this is something we aim to work on for the future.Circus Potoo strives to be a safe space for all walks of life, we do not tolerate discrimination or agressive behaviour towards our staff, artists or guests. Management reserves the right to refuse admission and tickets are non-transferable or refundable unless the event is cancelled.CASH ONLYADULTS ONLY",
+   "endDate": "2026-11-14T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/CSUU0tbRVVz56IiP3ZYw_23201image-2048x1024.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/EVgGIxoS6mkFFlA3woWu_relachen261113rausgegangen.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -899,32 +912,48 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10435",
-     "streetAddress": "Knaackstraße 97"
+     "postalCode": "10405",
+     "streetAddress": "Straßburger Straße 53"
     },
-    "name": "PANDA platforma"
+    "name": "Circus Potoo"
    },
-   "name": "PANDAwomen 2026: Vera Jónás, Lisa Hoppe & Paul Brody / Gaia Mobilij",
+   "name": "Relachen: cierre de una era",
    "offers": {
-    "@type": "Offer",
-    "price": "17.00",
-    "priceCurrency": "EUR",
-    "url": "https://panda-platforma.berlin/events/vera-j-n-s-lisa-hoppe-paul-brody-gaia-mobilij/",
-    "validFrom": "2026-11-20T20:30+0100"
+    "@type": "AggregateOffer",
+    "highPrice": "25.00",
+    "lowPrice": "10.00",
+    "offerCount": 3,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "SOLIDARITY TICKETS",
+      "price": "11.20",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "REGULAR TICKETS",
+      "price": "21.80",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "SUPPORTER",
+      "price": "27.10",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
    },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "PANDA platforma e.V.",
-     "url": "https://rausgegangen.de/organizations/page-for-team-panda-platforma-ev/"
-    },
-    {
-     "@type": "Organization",
-     "name": "PANDAwomen 2026 Festival",
-     "url": "https://rausgegangen.de/organizations/pandawomen-festival/"
-    }
-   ],
-   "startDate": "2026-11-20T20:30+0100"
+   "organizer": {
+    "@type": "Organization",
+    "name": "Circus Potoo",
+    "url": "https://rausgegangen.de/organizations/circus-potoo-2/"
+   },
+   "startDate": "2026-11-13T18:30+0100"
   }
  },
  "https://rausgegangen.de/events/school-of-quilombismo-crip-epistemologies-0/": {
@@ -998,16 +1027,16 @@
   },
   "seen": "2026-10-31T02:26:10+01:00"
  },
- "https://rausgegangen.de/events/tati-comedy-tryout-stand-up-comedy-14/": {
-  "fetched": "2026-11-10T12:11:32+01:00",
+ "https://rausgegangen.de/events/speak-up-inline-x-stories-of-her-with-x-tin-degen-oneyra-lin-0/": {
+  "fetched": "2026-11-10T13:08:46+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Stand-Up Comedy Tryout / Open MicNeue Talente. Neue Jokes. Neue Energie – live & unfiltriert!TRYOUT ist die Bühne, auf der Comedy entsteht. Newcomer, Fortgeschrittene und spontane Mutige testen hier ihre brandneuen Jokes live vor Publikum. Nichts ist geplant, nichts ist perfekt – und genau das macht diesen Abend so einzigartig.Erlebe einen Abend voller Überraschungen, spontaner Momente und echter Stand-up-Comedy, bei der du manchmal der erste Mensch bist, der einen neuen Gag überhaupt zu hören bekommt.Was dich erwartet:Frische Comedy-Sets & brandneues MaterialAuthentische „Work in Progress“-AtmosphäreMutige Newcomer & überraschende ProfisHumor, der spontan entstehtEnergiegeladenes, ehrliches PublikumFür wen ist TRYOUT?Für alle, die Comedy lieben: Publikum, das über rohe, echte Comedy lachen möchte – und Performer, die mutig sind, Neues auszuprobieren.--Location--Welcome to Tati Goes Underground — Berlin’s intimate, alternative comedy club. Known for its cozy, candle-lit atmosphere and bohemian vibes, Tati is the kind of place where comedians and audiences come together like old friends... with strong opinions and stronger drinks.Metzer Str. 2 in Prenzlauer Berg is a two-minute walk from the U2 \"Senefelder Platz\" station. The bar offers the perfect atmosphere for a successful comedy evening. A cozy interior, friendly staff, and good drinks round out this special comedy event for you.",
-   "endDate": "2026-11-10T20:30+0100",
+   "description": "Erst reden, dann tanzen: Die Party feiert den sechsten Geburtstag von Stories of Her, einem Projekt, das anonyme Erfahrungen mit Sexismus, Belästigung und sexualisierter Gewalt sichtbar macht. Später kippt der Abend in elektronische Sets von X Tin, degen, Ôneyra, Linda shiro und mehr 🌈",
+   "endDate": "2026-11-15T06:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/IUObRZ5jQgW7YMCD4a6c_tati-comedy-club-berliner-stand-up-nacht.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/07IK7lgPQpK2XrMjwDQC_postv1.png"
    ],
    "location": {
     "@type": "Place",
@@ -1015,36 +1044,24 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10405",
-     "streetAddress": "Metzer Straße 2"
+     "postalCode": "10245",
+     "streetAddress": "Revaler Str. 99"
     },
-    "name": "Tati goes Underground"
+    "name": "Crack Bellmer"
    },
-   "name": "Tati Comedy - Open Mic",
+   "name": "SPEAK UP Inline x Stories of Her with X Tin, degen, Ôneyra, Linda shiro & many more",
    "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": null,
-    "lowPrice": null,
-    "offerCount": 2,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "15.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "earlybird",
-      "price": "12.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
+    "@type": "Offer",
+    "price": "10.00",
+    "priceCurrency": "EUR",
+    "validFrom": "2026-11-14T17:30+0100"
    },
-   "startDate": "2026-11-10T19:00+0100"
+   "organizer": {
+    "@type": "Organization",
+    "name": "Inline",
+    "url": "https://rausgegangen.de/organizations/inline/"
+   },
+   "startDate": "2026-11-14T17:30+0100"
   }
  }
 }

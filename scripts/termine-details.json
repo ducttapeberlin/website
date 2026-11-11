@@ -1,4 +1,50 @@
 {
+ "https://rausgegangen.de/events/1-day-chor-berlin-0/": {
+  "fetched": "2026-11-11T17:15:01+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Ein Chor für einen Tag, ohne langes Commitment. Unter Leitung von Constantin Gold entsteht mit anderen ein Medley aus 5 bis 7 Songs, und am Ende wird das gemeinsam Erarbeitete professionell aufgenommen 🎤",
+   "endDate": "2026-12-13T16:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/4JYsZ4KKQ46DQVPPL7v9_design2026eventsonedaychorentwurf01.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "13088",
+     "streetAddress": "Berliner Allee 125"
+    },
+    "name": "PETER EDEL"
+   },
+   "name": "1 DAY CHOR Berlin",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "60.00",
+    "priceCurrency": "EUR",
+    "url": "https://t.rausgegangen.de/tickets/1-day-chor-berlin",
+    "validFrom": "2026-11-05T00:00+0100"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "1 DAY CHOR",
+     "url": "https://rausgegangen.de/organizations/1-day-chor/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Rausgegangen Events",
+     "url": "https://rausgegangen.de/organizations/rausgegangen-events/"
+    }
+   ],
+   "startDate": "2026-12-13T10:30+0100"
+  }
+ },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
   "fetched": "2026-11-11T13:15:30+01:00",
   "ld": {
@@ -192,45 +238,6 @@
   "seen": "2026-10-27T20:46:24+01:00",
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/abi-mohanty-tough-tiies-0/": {
-  "fetched": "2026-11-11T16:12:49+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Dark, raw & unapologetic comedy with Berlin’s Abi Mohanty. Uncomfortable truths, taboo topics & big laughs.Tough Titties isn't just another stand-up show. It's a night of uncomfortable truths wrapped in hilarious stories, sharp observations and the kind of jokes that make you laugh first — and question yourself later.Berlin-based comedian Abi Mohanty brings her signature blend of dark humour, satire and raw honesty to Karakas Comedy Club.Born in India and now based in Berlin, Abi explores the uncomfortable side of life with a wicked sense of humour. Her comedy takes on taboo subjects including religious dogma, restrictive upbringing, mental health, sexuality, identity, individual freedom and the strange realities of being an Ausländer in Europe.Abi has opened for some of the biggest names in European comedy, including Dragos, Mike Rice, Radu Isac and Netflix star Adrienne Iapalucci, as well as Abhishek Upmanyu.She has also made her mark on the London comedy circuit, winning multiple gong shows, including the coveted King Gong at The Comedy Store.Currently converting childhood trauma into jokes one show at a time, Abi has performed across Europe — usually in places where Ryanair goes.Her comedy is sharp, personal and deliberately uncomfortable. No easy stereotypes, no safe topics — just brutally honest stories turned into very good jokes.Come for the dark comedy. Stay for the chaos. And don't be surprised if you feel slightly guilty for laughing afterwards. Dark comedy. Raw honesty. Uncomfortable laughs. Zero apologies.  14 November · Karakas Comedy Club Kurfürstenstraße 9, Berlin 10785",
-   "endDate": "2026-11-14T19:30+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/VihvDSydQ2qvMHAqK021_tough-tits-landscape.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10785",
-     "streetAddress": "Kurfürstenstraße 9"
-    },
-    "name": "Karakas Bar"
-   },
-   "name": "Abi Mohanty - Tough Ti**ies",
-   "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "14.50",
-    "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/abi-mohanty-tough-tiies",
-    "validFrom": "2026-11-03T00:29+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Karakas Comedy Club",
-    "url": "https://rausgegangen.de/organizations/karakas-comedy-club-1/"
-   },
-   "startDate": "2026-11-14T18:00+0100"
-  }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
   "fetched": "2026-11-11T13:15:30+01:00",
@@ -644,6 +651,79 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
+ "https://rausgegangen.de/events/geheimkonzert-berlin-24-by-rausgegangen-0/": {
+  "fetched": "2026-11-11T17:15:01+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Na Hallo! Es ist wieder so weit: Ein Abend voller Überraschung - denn wer auf der Bühne steht, bleibt bis zum ersten Ton geheim. Wir hatten schon Blond, Berq, Ennio, Futurebae, Jassin, Anais, Katha Pauer & viele mehr zu Gast – und das schon bevor sie die großen Bühnen der Nation gestürmt haben. Also entdecke die Stars von Morgen bei unseren Geheimkonzerten. 🪩",
+   "endDate": "2026-12-09T22:15+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/mO31iODjTCuFLVfQ493H_gk202516x9photoheadline-32-1.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin"
+    },
+    "name": "Secret location"
+   },
+   "name": "Geheimkonzert Berlin #24 by Rausgegangen",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "29.90",
+    "lowPrice": "24.50",
+    "offerCount": 4,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "SCHNAPPER",
+      "price": "21.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "REGULAR",
+      "price": "25.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "4er FRIENDS BUNDLE",
+      "price": "23.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Mitgegangen",
+      "price": "3.80",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "Rausgegangen Geheimkonzerte",
+     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Rausgegangen Geheimkonzerte Berlin",
+     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte-3/"
+    }
+   ],
+   "startDate": "2026-12-09T20:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
   "fetched": "2026-11-11T13:15:30+01:00",
   "ld": {
@@ -734,48 +814,6 @@
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/jake-isaac-5/": {
-  "fetched": "2026-11-11T16:12:49+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Zehn Jahre später packt Jake Isaac seine alten Songs noch mal an, und plötzlich hört man, wie viel Weg dazwischen liegt. Der Mann aus Südlondon kam erst übers Schlagzeug zur Musik, unter seiner Soulstimme schiebt also immer auch Rhythmus mit 🙂",
-   "endDate": "2027-05-11T23:00+0200",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/SroI1DKYQ82lBUbI1BAg_jifb-cover.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10435",
-     "streetAddress": "Schönhauser Allee 36"
-    },
-    "name": "frannz club berlin"
-   },
-   "name": "Jake Isaac",
-   "offers": {
-    "@type": "Offer",
-    "price": "36.00",
-    "priceCurrency": "EUR",
-    "url": "https://link.dice.fm/A0137a8279d3",
-    "validFrom": "2027-05-11T20:00+0200"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Z|ART Agency",
-    "url": "https://rausgegangen.de/organizations/zart-agency-gmbh/"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Jake Isaac"
-   },
-   "startDate": "2027-05-11T20:00+0200"
-  }
- },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1/": {
   "fetched": "2026-11-11T13:15:30+01:00",
   "ld": {
@@ -817,99 +855,6 @@
   "seen": "2026-10-27T20:46:24+01:00",
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/relachen-cierre-de-una-era-0/": {
-  "fetched": "2026-11-11T16:12:49+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "SHOW 100% in SPANISH!Relachen dice hasta luego, Berlín! 2014 - 2026Patricia Fernández, fundadora y presentadora del show desde 2014, cambia de residencia (de Berlín a Valencia, España), y por esto cerraremos A LO GRANDE con profundo agradecimiento y alegría esta era de comedia en español en Berlín!Este 13 de noviembre contaremos con 8 (se lee OCHO 🤩) fantásticas presentaciones seleccionadas de entre tod@s l@s maravillos@s artistas que, a lo largo de estos 12 años, han formado (y siempre formarán 💘) parte de este hermoso universo cómico:  ✨ Liliana Velásquez (COL) https://www.instagram.com/ladios_v/  ✨ Ayla Merino (MEX) https://www.instagram.com/aylamerino/  ✨ Eliecer Reyes (ESP) https://www.instagram.com/eliecerreyesfalcon/  ✨ Palma Palacios (RD) https://www.instagram.com/palmapalacios/  ✨ ELGRANDE BBX (PER) https://www.instagram.com/elgrandebbx/  ✨ Doel Cupo(MEX) https://www.instagram.com/doelcupo/  ✨ Lu Noboa (ECU) https://www.instagram.com/lalunoboa/  ✨ Chiquilove (VEN) https://www.instagram.com/chiquilovelovelove/Y, al más puro estilo Berlín, Patricia presentará su nuevo número de cabaret: 🎂 cake sitting, nunca antes visto en Relachen! 🤩🔝 Como siempre, ¡calidad garantizada!  Invitamos a toda nuestra querida comunidad hispanoparlante (y adherid@s 😉) a formar parte de esta ÚNICA experiencia. Todo ocurrirá en CIRCUS POTOO, un maravilloso nuevo espacio cultural que tenemos muchas ganas de que conozcan y disfruten.🗣️ Show 100% en español 🔞 Para mayores de 18 años 💶 El bar acepta SÓLO EFECTIVO Si quieres acceder a uno de los solitickets, simplemente escribe al instagram de Relachen (https://www.instagram.com/relachen_berlin/)Nota: Lastimosamente la entrada al recinto (aun) no está adaptada para personas con movilidad reducida.Abriremos puertas a las 18:30h ¡Lleguen temprano porque en el circo hay juegos y entretenimiento análogo que van a querer probar! Show a las 19:30h 🥳💃🏽🕺🏻🤸🏼‍♀️🎶 Luego del show habrá música, baile, canto y, claro que sí, mucho mas RELAJO¡Les esperamos con amor y humor! 💋________________________🎪 INFOS ABOUT THE VENUE 🎪The Circus Potoo is located in a Historic Vaulted Cellar, therefore it is important that all of our guests are respectful to the space. When you purchase a ticket, you agree to follow these simple rules:🚭 NO SMOKING 🚫 NO GRAFFITI   We urge you to be mindful of the flooring and to watch you step as you move through the space. The venue does not have step-free access but this is something we aim to work on for the future.Circus Potoo strives to be a safe space for all walks of life, we do not tolerate discrimination or agressive behaviour towards our staff, artists or guests. Management reserves the right to refuse admission and tickets are non-transferable or refundable unless the event is cancelled.CASH ONLYADULTS ONLY",
-   "endDate": "2026-11-14T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/EVgGIxoS6mkFFlA3woWu_relachen261113rausgegangen.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10405",
-     "streetAddress": "Straßburger Straße 53"
-    },
-    "name": "Circus Potoo"
-   },
-   "name": "Relachen: cierre de una era",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "25.00",
-    "lowPrice": "10.00",
-    "offerCount": 3,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "SOLIDARITY TICKETS",
-      "price": "11.20",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "REGULAR TICKETS",
-      "price": "21.80",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "SUPPORTER",
-      "price": "27.10",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Circus Potoo",
-    "url": "https://rausgegangen.de/organizations/circus-potoo-2/"
-   },
-   "startDate": "2026-11-13T18:30+0100"
-  }
- },
- "https://rausgegangen.de/events/school-of-quilombismo-crip-epistemologies-0/": {
-  "fetched": "2026-11-11T16:12:49+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Hier geht es um Crip-Wissen, das von Menschen mit Behinderung selbst gedacht und weitergegeben wird. Workshops, Vorträge und Interventionen setzen dabei bewusst auf Austausch statt Frontalbetrieb – und das Ganze ist entspannt gestaltet 🫶",
-   "endDate": "2026-11-15T17:30+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/20VxdkKkSB6FSwWk767w_keyvisual-soq.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10557",
-     "streetAddress": "John-Foster-Dulles-Allee 10"
-    },
-    "name": "Haus der Kulturen der Welt | HKW"
-   },
-   "name": "School of Quilombismo: Crip Epistemologies",
-   "offers": {
-    "@type": "Offer",
-    "price": "0.00",
-    "priceCurrency": "EUR",
-    "validFrom": "2026-11-14T10:00+0100"
-   },
-   "startDate": "2026-11-14T10:00+0100"
-  }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
   "fetched": "2026-11-11T13:15:30+01:00",

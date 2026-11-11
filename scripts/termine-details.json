@@ -193,16 +193,16 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/amber-georgia-0/": {
-  "fetched": "2026-11-11T11:21:18+01:00",
+ "https://rausgegangen.de/events/comedy-slam-berlin-13/": {
+  "fetched": "2026-11-11T12:19:02+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Orange im Glas und dahinter mehr als 60 Winzer:innen aus Georgien, die ihre Weine selbst mitbringen. Statt Messestress eher ein direkter Draht zu einer uralten Weintradition 👀",
-   "endDate": "2026-11-28T17:00+0100",
+   "description": "Vier der besten Slam-Poet*innen des Landes treffen beim Comedy Slam Berlins aufeinander, um sich mit ihren lustigsten Texten ins Zwerchfell des Publikums zu lesen. In zwei Runden erschüttern sie eure Bauchmuskeln. Workout fürs Zwerchfell! Und ihr entscheidet per Applaus über den lustigsten Text. Am Ende des Abend liegt ihr auf dem Boden vor Lachen, und eine*r der Comedy-Slammer*innen trägt den publikumsgewählten Triumph nach Hause.Einlass: 19:30Beginn: 20:00Was den Comedy Slam ausmachtGanz wie bei Poetry Slams stehen hier Text und Performance im Vordergrund. Die Regeln für die Auftretenden: 8 Minuten Zeitlimit, keine Requisiten, nur selbstgeschriebene Texte. Und das Publikum entscheidet über den Sieg des Abends. Aber anders als sonst, gibt es beim Comedy Slam Berlin ausschließlich lustige Texte: Literatur zum Lachen.Was den Comedy Slam von einer üblichen Stand-Up Show unterscheidet, die die Comedy-Clubs Berlins bevölkern? Hier gibt es nicht nur eine Aneinanderreihung von Witzen. Hier hört ihr durchgängige Geschichten, Erzählungen, Gedichte und ein bisschen Message. Die ganze Vielfalt des Poetry Slams eben. Mit den Zwerchfellerschütterern von Komikern. Poetry Slam meets Stand-Up.Vier geladene Slammer*innen treten im harten Wettkampf gegeneinander an: Und ihr entscheidet, wer die hohe Kunst der Literatur mit jener des Humors am Besten verbinden kann.",
+   "endDate": "2026-11-20T22:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/cIF9OMxVScGZqgIavWKV_amber-georgia-berlin-weine-aus-georgien-3.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/pNbniJqT9a5jAyHUlOgw_2025comedy-slam-fotologo.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -210,24 +210,135 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10997",
-     "streetAddress": "Köpenicker Str. 16/17"
+     "postalCode": "10119",
+     "streetAddress": "Schönhauser Allee 176"
     },
-    "name": "Magazin in der Heeresbäckerei"
+    "name": "Pfefferberg Theater"
    },
-   "name": "Amber Georgia – Low Intervention Wine Fair",
+   "name": "Comedy Slam Berlin",
    "offers": {
-    "@type": "Offer",
-    "price": "30.00",
-    "priceCurrency": "EUR",
-    "url": "https://ticketmaster.evyy.net/c/6519574/2038753/23890?u=https%3A%2F%2Fwww.universe.com%2Fevents%2Famber-georgia-tickets-LJS031%3Fref%3Dticketmaster&utm_medium=affiliate",
-    "validFrom": "2026-11-28T11:00+0100"
+    "@type": "AggregateOffer",
+    "highPrice": "39.90",
+    "lowPrice": "14.90",
+    "offerCount": 13,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK 1: Regulär",
+      "price": "24.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK1: Ermäßigt",
+      "price": "22.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK2: Regulär",
+      "price": "22.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK2: Ermäßigt",
+      "price": "19.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK3: Regulär",
+      "price": "19.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK3: Ermäßigt",
+      "price": "17.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK4: Regulär",
+      "price": "17.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK4: Ermäßigt",
+      "price": "14.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Paarplatz Regulär (2 Pers.)",
+      "price": "39.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Paarplatz Ermäßigt (2 Pers.)",
+      "price": "35.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Zweiter Paarplatz (wähl dies zu deinem Kostenpflichtigen Hauptticket, alleine ist es ungültig)",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Schwerbehindertenausweis B-Ticket",
+      "price": "17.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Begleiterticket Schwerbehinderte (ungültig ohne Hauptticket)",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
    },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Amber Georgia Berlin"
-   },
-   "startDate": "2026-11-28T11:00+0100"
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "Comedy Slam",
+     "url": "https://rausgegangen.de/organizations/p-comedy-slam/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Kiezpoeten",
+     "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Pfefferberg Theater Slams",
+     "url": "https://rausgegangen.de/organizations/p-pfefferberg-theater-slams/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Premium Poetry",
+     "url": "https://rausgegangen.de/organizations/p-premium-poetry/"
+    }
+   ],
+   "startDate": "2026-11-20T20:00+0100"
   }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
@@ -812,51 +923,6 @@
    "startDate": "2027-05-23T19:00+0200"
   }
  },
- "https://rausgegangen.de/events/pandawomen-2026-kuula-hetke-perperuna-0/": {
-  "fetched": "2026-11-11T10:17:05+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Mal hörst Du fast den Atem, im nächsten Moment öffnet sich alles weit: Kuula Hetke zerlegen als improvisierendes Flötenduo aus Estland ihre Melodien live und setzen sie neu zusammen. Danach tragen sich bei Perperúna fünf Stimmen gegenseitig durch mehrstimmige Lieder 🌈",
-   "endDate": "2026-11-14T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/WAUbgZPgT12a9sSKq10q_22998image-2048x1024.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10435",
-     "streetAddress": "Knaackstraße 97"
-    },
-    "name": "PANDA platforma"
-   },
-   "name": "PANDAwomen 2026: Kuula Hetke / Perperúna",
-   "offers": {
-    "@type": "Offer",
-    "price": "20.00",
-    "priceCurrency": "EUR",
-    "url": "https://panda-platforma.berlin/events/kuula-hetke-perper-na/",
-    "validFrom": "2026-11-13T20:30+0100"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "PANDA platforma e.V.",
-     "url": "https://rausgegangen.de/organizations/page-for-team-panda-platforma-ev/"
-    },
-    {
-     "@type": "Organization",
-     "name": "PANDAwomen 2026 Festival",
-     "url": "https://rausgegangen.de/organizations/pandawomen-festival/"
-    }
-   ],
-   "startDate": "2026-11-13T20:30+0100"
-  }
- },
  "https://rausgegangen.de/events/pandawomen-2026-pandawomen-closing-event-anastasia-rydlevska-0/": {
   "fetched": "2026-11-11T11:21:18+01:00",
   "ld": {
@@ -893,6 +959,38 @@
     "url": "https://rausgegangen.de/organizations/pandawomen-festival/"
    },
    "startDate": "2026-11-28T20:30+0100"
+  }
+ },
+ "https://rausgegangen.de/events/school-of-quilombismo-crip-epistemologies-0/": {
+  "fetched": "2026-11-11T12:19:02+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Hier geht es um Crip-Wissen, das von Menschen mit Behinderung selbst gedacht und weitergegeben wird. Workshops, Vorträge und Interventionen setzen dabei bewusst auf Austausch statt Frontalbetrieb – und das Ganze ist entspannt gestaltet 🫶",
+   "endDate": "2026-11-15T17:30+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/20VxdkKkSB6FSwWk767w_keyvisual-soq.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10557",
+     "streetAddress": "John-Foster-Dulles-Allee 10"
+    },
+    "name": "Haus der Kulturen der Welt | HKW"
+   },
+   "name": "School of Quilombismo: Crip Epistemologies",
+   "offers": {
+    "@type": "Offer",
+    "price": "0.00",
+    "priceCurrency": "EUR",
+    "validFrom": "2026-11-14T10:00+0100"
+   },
+   "startDate": "2026-11-14T10:00+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
@@ -934,13 +1032,74 @@
   },
   "seen": "2026-10-31T02:26:10+01:00"
  },
- "https://rausgegangen.de/events/tati-comedy-one-laugh-night-28/": {
-  "fetched": "2026-11-11T08:40:41+01:00",
+ "https://rausgegangen.de/events/speed-dating-berlin-30-45-jahre-0/": {
+  "fetched": "2026-11-11T12:19:02+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Swipen fällt aus, stattdessen sitzt Du alle paar Minuten schon dem nächsten Menschen gegenüber. Für die Gespräche gibt es kleine Anstöße, danach bleibt noch Zeit fürs Weiterreden 🙂",
+   "endDate": "2026-12-08T23:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/YHsOcABSsCHTKph7xjgw_speeddating260806templatebannerapp-1-1.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10625",
+     "streetAddress": "Kantstraße 127"
+    },
+    "name": "Dufte Berlin"
+   },
+   "name": "SPEED DATING Berlin | 30 - 45 Jahre",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 2,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Ticket | Ich bin ein Mann",
+      "price": "24.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Ticket | Ich bin eine Frau",
+      "price": "24.90",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "Rausgegangen Events",
+     "url": "https://rausgegangen.de/organizations/rausgegangen-events/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Speed Dating by Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/speed-dating-by-rausgegangen/"
+    }
+   ],
+   "startDate": "2026-12-08T19:30+0100"
+  }
+ },
+ "https://rausgegangen.de/events/tati-comedy-one-laugh-night-27/": {
+  "fetched": "2026-11-11T12:19:02+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
    "description": "Comedy mit Stil im Tati goes Underground in Berlin. Authentische Stand-up Shows mit bekannten Comedians, Berliner Underground Acts und Newcomern in edler Bar-Atmosphäre mit hochwertigen Cocktails. Die Bühne für spontane Überraschungen. Mal tauchen bekannte Gesichter aus der Comedy-Szene auf, mal brandneue Talente, die man so noch nie gesehen hat.Sicher ist nur eins:Es wird spät, es wird witzig und es wird auch dunkel lustig.Eintritt  ab 16 Jahre",
-   "endDate": "2026-11-12T22:00+0100",
+   "endDate": "2026-11-11T22:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
     "https://s3.eu-central-1.amazonaws.com/rausgegangen/kJyays4wROGHyg5J9wGS_tati-comedy-club-berliner-stand-up-nacht.png"
@@ -987,7 +1146,7 @@
     ],
     "priceCurrency": "EUR"
    },
-   "startDate": "2026-11-12T20:00+0100"
+   "startDate": "2026-11-11T20:00+0100"
   }
  }
 }

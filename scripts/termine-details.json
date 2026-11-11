@@ -193,132 +193,6 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/bodies-baddies-nye-edition-0/": {
-  "fetched": "2026-11-11T08:40:41+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Wenn Du das Jahr queer und mit ordentlich Energie abschließen willst, klingt das hier ziemlich ideal: mehrere Floors, Shows direkt nach dem Countdown und ein Format, das klar aus der Community kommt. Für Queers, Girls, Gays, Theys, Lovers und Allies gedacht 👀",
-   "endDate": "2027-01-01T06:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/RqGvZn1mSD2O5uy0Wezo_rausgegangenbnbsasha-kopie2.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10777",
-     "streetAddress": "Nollendorfplatz 5"
-    },
-    "name": "Metropol"
-   },
-   "name": "BODIES & BADDIES // NYE Party",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "85.40",
-    "lowPrice": "16.50",
-    "offerCount": 7,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Early Bird",
-      "price": "27.10",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Group Tickets First Wave",
-      "price": "32.40",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "First Wave",
-      "price": "37.70",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "VIP Tickets",
-      "price": "85.40",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Group Tickets Second Wave",
-      "price": "43.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Second Wave",
-      "price": "48.30",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Last Wave // Abendkasse",
-      "price": "52.54",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Ocean Eyes",
-    "url": "https://rausgegangen.de/organizations/ocean-eyes/"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Ocean"
-   },
-   "startDate": "2026-12-31T22:00+0100"
-  }
- },
- "https://rausgegangen.de/events/colours-of-the-night-3/": {
-  "fetched": "2026-11-11T05:20:53+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Der sexpositive Rave für alle Sinne Techno, Melodic Techno & Peak Time by Junior WA & Sika Akis  Dresscode: Sexy · kinky · elegant · fantasievoll · farbenfroh · extravagant Eintritt: 28€ pro Person, NextGen Ticket (18-28 J.) 20€, Social Ticket* 18€Bitte Tickets an der Abendkasse kaufen. Colors of the Night ist keine gewöhnliche Clubnacht.Es ist ein Rave zwischen Ekstase, Verführung und sexueller Freiheit – für Menschen, die tanzen, flirten, spielen und sich treiben lassen wollen.  Dein farbiges Bändchen zeigt, was Dich heute Nacht reizt: Grün = Offen für Abenteuer Gelb = Just Party Blau = Paare unter sich Rot = Bi-Interessiert  Du kannst Deine Farbe jederzeit wechseln. Denn manchmal beginnt eine Nacht ganz harmlos – und entwickelt dann ihre eigene Dynamik.  Auf dem Dancefloor verschmelzen Körper, Licht und treibende Beats. Abseits davon warten sinnliche Rückzugsorte, Kuschelecken und Play-Areas für alle, die mehr als nur tanzen wollen.  Beobachten. Flirten. Berühren. Spielen. Alles darf - nichts muss.  Ein Bändchen zeigt Interesse – es ersetzt niemals eine klare Zustimmung. Fragen ist sexy. Respekt ist Pflicht. Unser Awareness-Team ist die ganze Nacht für Dich da.  DRESSCODE Sexy · kinky · fantasievoll · farbenfroh · extravagant Zeig Haut, Haltung und Fantasie. Lack, Leder, Latex, Dessous, Harness, Glamour, Fetisch, wilde Farben oder ein Look, der garantiert nicht nach Alltag aussieht. Keine Jeans. Keine weißen Sneaker. Keine Langeweile.  Vier Farben. Tausend Möglichkeiten. Welche Farbe trägt Deine Nacht?",
-   "endDate": "2026-11-15T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/bkeGYjFzTMiNuNvJG9d2_coloursnightrausgegangen1920x1080.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "12099",
-     "streetAddress": "Alt-Tempelhof 17-19"
-    },
-    "name": "Insomnia Club Berlin"
-   },
-   "name": "Colours of the Night",
-   "offers": {
-    "@type": "Offer",
-    "price": 0,
-    "priceCurrency": "EUR",
-    "url": "https://insomnia.berlin/s-positive/5090",
-    "validFrom": "2026-11-14T22:00+0100"
-   },
-   "startDate": "2026-11-14T22:00+0100"
-  }
- },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
   "fetched": "2026-11-11T06:23:40+01:00",
   "ld": {
@@ -407,6 +281,80 @@
   "seen": "2026-10-20T15:24:41+02:00",
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
+ },
+ "https://rausgegangen.de/events/donata-strength-release-concert-0/": {
+  "fetched": "2026-11-11T10:17:05+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Zwischen Neuanfang und Rücken gerade machen liegen bei Donata nur ein paar Songs. Sie bringt ihre neue EP Strength mit kompletter Band auf die Bühne und lädt zu einem Abend ein, der eher nach echtem Miteinander klingt als nach bloßem Konzert 💜",
+   "endDate": "2026-11-12T23:30+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Td7PmoF3RX6i3YmuX3OA_2.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10117",
+     "streetAddress": "Auguststraße 24"
+    },
+    "name": "Spiegelsaal | Clärchens Ballhaus"
+   },
+   "name": "Donata - \"Strength\" Release Concert",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "30.00",
+    "lowPrice": "21.80",
+    "offerCount": 5,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Soli-Ticket",
+      "price": "21.80",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regular",
+      "price": "27.10",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Supporter",
+      "price": "32.40",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Friends & Family",
+      "price": "16.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Guestlist",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Donata"
+   },
+   "startDate": "2026-11-12T19:00+0100"
+  }
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
   "fetched": "2026-11-11T06:23:40+01:00",
@@ -863,16 +811,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/marenera-pizzica-italienische-volksmusik-0/": {
-  "fetched": "2026-11-11T08:40:41+01:00",
+ "https://rausgegangen.de/events/pandawomen-2026-kuula-hetke-perperuna-0/": {
+  "fetched": "2026-11-11T10:17:05+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Süditalienische Volksmusik, die nicht im Archiv bleibt, sondern für Tanz, Rituale und Feste gemacht ist. Marenera spielt Pizzica, Tarantella und andere überlieferte Lieder so, dass Du die Hochzeitsgesellschaft fast schon vor Dir siehst 💃",
-   "endDate": "2027-01-16T05:00+0100",
+   "description": "Mal hörst Du fast den Atem, im nächsten Moment öffnet sich alles weit: Kuula Hetke zerlegen als improvisierendes Flötenduo aus Estland ihre Melodien live und setzen sie neu zusammen. Danach tragen sich bei Perperúna fünf Stimmen gegenseitig durch mehrstimmige Lieder 🌈",
+   "endDate": "2026-11-14T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/QX2v5BFTTY6s0wpjkvQ6_foto-1-treppecreditsgiannis-vassaras.jpeg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/WAUbgZPgT12a9sSKq10q_22998image-2048x1024.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -885,46 +833,13 @@
     },
     "name": "PANDA platforma"
    },
-   "name": "Marenera: Pizzica & italienische Volksmusik",
+   "name": "PANDAwomen 2026: Kuula Hetke / Perperúna",
    "offers": {
     "@type": "Offer",
-    "price": "13.00",
+    "price": "20.00",
     "priceCurrency": "EUR",
-    "url": "https://panda-platforma.berlin/events/marenera-pizzica-italienische-volksmusik/",
-    "validFrom": "2027-01-15T20:30+0100"
-   },
-   "startDate": "2027-01-15T20:30+0100"
-  }
- },
- "https://rausgegangen.de/events/pandawomen-2026-vera-jonas-lisa-hoppe-paul-brody-gaia-mobili-0/": {
-  "fetched": "2026-11-11T08:40:41+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Erst ganz nah dran, dann plötzlich offen nach allen Seiten: Vera Jónás spielt ihre Songs in einem neuen Trio mit Lisa Hoppe und Paul Brody. Danach schichtet Gaia Mobilij live Loops und akustische Klänge so um, dass Melodien kurz aufblitzen und wieder kippen 👀",
-   "endDate": "2026-11-21T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/CSUU0tbRVVz56IiP3ZYw_23201image-2048x1024.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10435",
-     "streetAddress": "Knaackstraße 97"
-    },
-    "name": "PANDA platforma"
-   },
-   "name": "PANDAwomen 2026: Vera Jónás, Lisa Hoppe & Paul Brody / Gaia Mobilij",
-   "offers": {
-    "@type": "Offer",
-    "price": "17.00",
-    "priceCurrency": "EUR",
-    "url": "https://panda-platforma.berlin/events/vera-j-n-s-lisa-hoppe-paul-brody-gaia-mobilij/",
-    "validFrom": "2026-11-20T20:30+0100"
+    "url": "https://panda-platforma.berlin/events/kuula-hetke-perper-na/",
+    "validFrom": "2026-11-13T20:30+0100"
    },
    "organizer": [
     {
@@ -938,7 +853,113 @@
      "url": "https://rausgegangen.de/organizations/pandawomen-festival/"
     }
    ],
-   "startDate": "2026-11-20T20:30+0100"
+   "startDate": "2026-11-13T20:30+0100"
+  }
+ },
+ "https://rausgegangen.de/events/pandawomen-2026-nini-nutsubidze-vepsestikk-0/": {
+  "fetched": "2026-11-11T10:17:05+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Zwei Trompeten auf der einen Seite, georgischer Pop Folk zwischen Soul, R&B und Hip Hop auf der anderen. PANDAwomen packt an einem Abend Nini Nutsubidze und Vepsestikk zusammen, und genau diese scharfen Kanten machen neugierig 👀",
+   "endDate": "2026-11-15T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/j673pt2KTZeOPqOf454Q_23002image-2048x1024.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10435",
+     "streetAddress": "Knaackstraße 97"
+    },
+    "name": "PANDA platforma"
+   },
+   "name": "PANDAwomen 2026: Nini Nutsubidze / Vepsestikk",
+   "offers": {
+    "@type": "Offer",
+    "price": "17.00",
+    "priceCurrency": "EUR",
+    "url": "https://panda-platforma.berlin/events/nini-nutsubidze-vepsestikk/",
+    "validFrom": "2026-11-14T20:30+0100"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "PANDA platforma e.V.",
+     "url": "https://rausgegangen.de/organizations/page-for-team-panda-platforma-ev/"
+    },
+    {
+     "@type": "Organization",
+     "name": "PANDAwomen 2026 Festival",
+     "url": "https://rausgegangen.de/organizations/pandawomen-festival/"
+    }
+   ],
+   "startDate": "2026-11-14T20:30+0100"
+  }
+ },
+ "https://rausgegangen.de/events/relachen-cierre-de-una-era-0/": {
+  "fetched": "2026-11-11T10:17:05+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "SHOW 100% in SPANISH!Relachen dice hasta luego, Berlín! 2014 - 2026Patricia Fernández, fundadora y presentadora del show desde 2014, cambia de residencia (de Berlín a Valencia, España), y por esto cerraremos A LO GRANDE con profundo agradecimiento y alegría esta era de comedia en español en Berlín!Este 13 de noviembre contaremos con 8 (se lee OCHO 🤩) fantásticas presentaciones seleccionadas de entre tod@s l@s maravillos@s artistas que, a lo largo de estos 12 años, han formado (y siempre formarán 💘) parte de este hermoso universo cómico:  ✨ Liliana Velásquez (COL) https://www.instagram.com/ladios_v/  ✨ Ayla Merino (MEX) https://www.instagram.com/aylamerino/  ✨ Eliecer Reyes (ESP) https://www.instagram.com/eliecerreyesfalcon/  ✨ Palma Palacios (RD) https://www.instagram.com/palmapalacios/  ✨ ELGRANDE BBX (PER) https://www.instagram.com/elgrandebbx/  ✨ Doel Cupo(MEX) https://www.instagram.com/doelcupo/  ✨ Lu Noboa (ECU) https://www.instagram.com/lalunoboa/  ✨ Chiquilove (VEN) https://www.instagram.com/chiquilovelovelove/Y, al más puro estilo Berlín, Patricia presentará su nuevo número de cabaret: 🎂 cake sitting, nunca antes visto en Relachen! 🤩🔝 Como siempre, ¡calidad garantizada!  Invitamos a toda nuestra querida comunidad hispanoparlante (y adherid@s 😉) a formar parte de esta ÚNICA experiencia. Todo ocurrirá en CIRCUS POTOO, un maravilloso nuevo espacio cultural que tenemos muchas ganas de que conozcan y disfruten.🗣️ Show 100% en español 🔞 Para mayores de 18 años 💶 El bar acepta SÓLO EFECTIVO Si quieres acceder a uno de los solitickets, simplemente escribe al instagram de Relachen (https://www.instagram.com/relachen_berlin/)Nota: Lastimosamente la entrada al recinto (aun) no está adaptada para personas con movilidad reducida.Abriremos puertas a las 18:30h ¡Lleguen temprano porque en el circo hay juegos y entretenimiento análogo que van a querer probar! Show a las 19:30h 🥳💃🏽🕺🏻🤸🏼‍♀️🎶 Luego del show habrá música, baile, canto y, claro que sí, mucho mas RELAJO¡Les esperamos con amor y humor! 💋________________________🎪 INFOS ABOUT THE VENUE 🎪The Circus Potoo is located in a Historic Vaulted Cellar, therefore it is important that all of our guests are respectful to the space. When you purchase a ticket, you agree to follow these simple rules:🚭 NO SMOKING 🚫 NO GRAFFITI   We urge you to be mindful of the flooring and to watch you step as you move through the space. The venue does not have step-free access but this is something we aim to work on for the future.Circus Potoo strives to be a safe space for all walks of life, we do not tolerate discrimination or agressive behaviour towards our staff, artists or guests. Management reserves the right to refuse admission and tickets are non-transferable or refundable unless the event is cancelled.CASH ONLYADULTS ONLY",
+   "endDate": "2026-11-14T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/EVgGIxoS6mkFFlA3woWu_relachen261113rausgegangen.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10405",
+     "streetAddress": "Straßburger Straße 53"
+    },
+    "name": "Circus Potoo"
+   },
+   "name": "Relachen: cierre de una era",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "25.00",
+    "lowPrice": "10.00",
+    "offerCount": 3,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "SOLIDARITY TICKETS",
+      "price": "11.20",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "REGULAR TICKETS",
+      "price": "21.80",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "SUPPORTER",
+      "price": "27.10",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Circus Potoo",
+    "url": "https://rausgegangen.de/organizations/circus-potoo-2/"
+   },
+   "startDate": "2026-11-13T18:30+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
@@ -980,16 +1001,16 @@
   },
   "seen": "2026-10-31T02:26:10+01:00"
  },
- "https://rausgegangen.de/events/speak-up-inline-x-stories-of-her-with-x-tin-degen-oneyra-lin-0/": {
-  "fetched": "2026-11-11T08:40:41+01:00",
+ "https://rausgegangen.de/events/social-reading-club-3-1/": {
+  "fetched": "2026-11-11T10:17:05+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Erst reden, dann tanzen: Die Party feiert den sechsten Geburtstag von Stories of Her, einem Projekt, das anonyme Erfahrungen mit Sexismus, Belästigung und sexualisierter Gewalt sichtbar macht. Später kippt der Abend in elektronische Sets von X Tin, degen, Ôneyra, Linda shiro und mehr 🌈",
-   "endDate": "2026-11-15T06:00+0100",
+   "description": "Das Handy bleibt draußen, das Buch nicht. Beim Social Reading Club liest Du ganz entspannt mit anderen zusammen und kannst danach einfach weitermachen, wenn Du magst 👀",
+   "endDate": "2026-11-17T20:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/07IK7lgPQpK2XrMjwDQC_postv1.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/5y41L6DFQ2uwqonGQ2L4_gk202516x9photoheadline-53-1.png"
    ],
    "location": {
     "@type": "Place",
@@ -997,24 +1018,24 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10245",
-     "streetAddress": "Revaler Str. 99"
+     "postalCode": "10625",
+     "streetAddress": "Kantstraße 127"
     },
-    "name": "Crack Bellmer"
+    "name": "Dufte Berlin"
    },
-   "name": "SPEAK UP Inline x Stories of Her with X Tin, degen, Ôneyra, Linda shiro & many more",
+   "name": "Social Reading Club #3",
    "offers": {
     "@type": "Offer",
-    "price": "10.00",
+    "price": "0.00",
     "priceCurrency": "EUR",
-    "validFrom": "2026-11-14T17:30+0100"
+    "validFrom": "2026-11-17T18:30+0100"
    },
    "organizer": {
     "@type": "Organization",
-    "name": "Inline",
-    "url": "https://rausgegangen.de/organizations/inline/"
+    "name": "Social Reading Club",
+    "url": "https://rausgegangen.de/organizations/social-reading-club/"
    },
-   "startDate": "2026-11-14T17:30+0100"
+   "startDate": "2026-11-17T18:30+0100"
   }
  },
  "https://rausgegangen.de/events/tati-comedy-one-laugh-night-28/": {

@@ -1,50 +1,4 @@
 {
- "https://rausgegangen.de/events/1-day-chor-berlin-0/": {
-  "fetched": "2026-11-11T17:15:01+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Ein Chor für einen Tag, ohne langes Commitment. Unter Leitung von Constantin Gold entsteht mit anderen ein Medley aus 5 bis 7 Songs, und am Ende wird das gemeinsam Erarbeitete professionell aufgenommen 🎤",
-   "endDate": "2026-12-13T16:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/4JYsZ4KKQ46DQVPPL7v9_design2026eventsonedaychorentwurf01.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "13088",
-     "streetAddress": "Berliner Allee 125"
-    },
-    "name": "PETER EDEL"
-   },
-   "name": "1 DAY CHOR Berlin",
-   "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "60.00",
-    "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/1-day-chor-berlin",
-    "validFrom": "2026-11-05T00:00+0100"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "1 DAY CHOR",
-     "url": "https://rausgegangen.de/organizations/1-day-chor/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Rausgegangen Events",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-events/"
-    }
-   ],
-   "startDate": "2026-12-13T10:30+0100"
-  }
- },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
   "fetched": "2026-11-11T13:15:30+01:00",
   "ld": {
@@ -238,6 +192,44 @@
   "seen": "2026-10-27T20:46:24+01:00",
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
+ },
+ "https://rausgegangen.de/events/berlinale-spotlight-panorama-dokumente-the-other-side-of-the-0/": {
+  "fetched": "2026-11-11T18:22:11+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Filmemacher Tawfik Sabouni wurde vor Jahren aus dem syrischen Foltergefängnis Saidnaya entlassen, das auch als Ort „hinter der Sonne“ bezeichnet wird. Kurz nach dem Sturz des Assad-Regimes im Dezember 2024 kehrt er an den Ort seiner Gefangenschaft zurück. Es geht ihm nicht darum, Wunden wieder aufzureißen, sondern wiederherzustellen, was systematische Gewalt versucht hat auszulöschen: Stimmen, Geschichten und Menschlichkeit. Sabouni lädt vier weitere Saidnaya-Überlebende ein, ihn auf seiner Reise zu begleiten. Gemeinsam kehren sie an die Orte zurück, an denen sie jahrelang gefoltert und entmenschlicht wurden, und spielen in sorgfältig konstruierten Reenactments ihre Gefangenschaft nach – tägliche Rituale, Gesten, Momente des Überlebens. Gedreht innerhalb des ehemaligen Gefängnisses werden die Reenactments zum Ausdrucksmittel für etwas, das sich nicht in Worte fassen lässt. Auf zurückhaltende Weise konfrontiert der Film das Publikum mit den bleibenden Spuren der Haft und gibt nicht nur den auftretenden fünf Männern eine Stimme, sondern auch den Tausenden, die das Assad-Regime nicht überlebt haben und deren Familien noch immer nach Antworten suchen.PROGRAMM Begrüßung N.N.FilmvorführungThe Other Side of the SunVon: Tawfik Sabouni (Regie, Buch), Laurine Estrade (Buch)Land: Belgien / Frankreich / Saudi-Arabien 2026Sprache: Arabisch (mit englischen Untertiteln)Dauer:  92 MinutenFilmgesprächTawfik Sabouni, Regisseur, BuchModeration: N.N.  WEITERE HINWEISEEinlass: 18.00 UhrSprache: DeutschEINTRITT FREI MIT ANMELDUNG  Das Berlinale Spotlight: Panorama Dokumente, Forum & Generation ist eine Kooperation zwischen dem Dokumentationszentrum Flucht, Vertreibung, Versöhnung und dem European Film Market (EFM) der Internationalen Filmfestspiele Berlin.",
+   "endDate": "2026-11-18T21:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/m8KedHGNTY6UQIgIBcx2_websitebildtosots.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10963",
+     "streetAddress": "Stresemannstraße 90"
+    },
+    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
+   },
+   "name": "Berlinale Spotlight – Panorama Dokumente: The Other Side of the Sun",
+   "offers": {
+    "@type": "Offer",
+    "price": "0.00",
+    "priceCurrency": "EUR",
+    "url": "https://buchungen.flucht-vertreibung-versoehnung.de/de/tickets/111",
+    "validFrom": "2026-11-18T18:30+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung",
+    "url": "https://rausgegangen.de/organizations/dokumentationszentrum-flucht-vertreibung-versohnung/"
+   },
+   "startDate": "2026-11-18T18:30+0100"
+  }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
   "fetched": "2026-11-11T13:15:30+01:00",
@@ -651,79 +643,6 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
- "https://rausgegangen.de/events/geheimkonzert-berlin-24-by-rausgegangen-0/": {
-  "fetched": "2026-11-11T17:15:01+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Na Hallo! Es ist wieder so weit: Ein Abend voller Überraschung - denn wer auf der Bühne steht, bleibt bis zum ersten Ton geheim. Wir hatten schon Blond, Berq, Ennio, Futurebae, Jassin, Anais, Katha Pauer & viele mehr zu Gast – und das schon bevor sie die großen Bühnen der Nation gestürmt haben. Also entdecke die Stars von Morgen bei unseren Geheimkonzerten. 🪩",
-   "endDate": "2026-12-09T22:15+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/mO31iODjTCuFLVfQ493H_gk202516x9photoheadline-32-1.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin"
-    },
-    "name": "Secret location"
-   },
-   "name": "Geheimkonzert Berlin #24 by Rausgegangen",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "29.90",
-    "lowPrice": "24.50",
-    "offerCount": 4,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "SCHNAPPER",
-      "price": "21.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "REGULAR",
-      "price": "25.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "4er FRIENDS BUNDLE",
-      "price": "23.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Mitgegangen",
-      "price": "3.80",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "Rausgegangen Geheimkonzerte",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Rausgegangen Geheimkonzerte Berlin",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte-3/"
-    }
-   ],
-   "startDate": "2026-12-09T20:00+0100"
-  }
- },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
   "fetched": "2026-11-11T13:15:30+01:00",
   "ld": {
@@ -856,6 +775,143 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/love-at-first-slide-berlin-power-point-dating-by-rausgegange-13/": {
+  "fetched": "2026-11-11T18:22:11+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Wir bringen mit LOVE AT FIRST SLIDE Dating auf die Bühne: Freund:innen stellen in kurzen Power Point Präsentationen ihre Lieblingssingle vor – charmant, humorvoll und ganz ohne Swipe. Nach den witzigen Pitches kannst du bei Speed-Dating und Barabend neue Begegnungen entdecken. 💘🎤💫",
+   "endDate": "2026-11-11T23:30+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/G4DW5S6EQHOrXfM562GP_lafsbannerappstraight-2-5.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10625",
+     "streetAddress": "Kantstraße 127"
+    },
+    "name": "Dufte Berlin"
+   },
+   "name": "LOVE AT FIRST SLIDE Berlin | Power Point Dating by Rausgegangen 💖",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "19.50",
+    "lowPrice": "10.00",
+    "offerCount": 5,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Presenterticket",
+      "price": "10.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Publikum Ticket | Ich bin eine hetero Frau",
+      "price": "19.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Publikum Ticket | Ich bin ein hetero Mann",
+      "price": "19.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Publikum Ticket | Ich bin queer",
+      "price": "19.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Mitgegangen",
+      "price": "3.80",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "LOVE AT FIRST SLIDE BERLIN by Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/love-at-first-slide-berlin-by-rausgegangen/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Love at first Slide by Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/page-for-team-love-at-first-slide-by-rausgegangen/"
+    },
+    {
+     "@type": "Organization",
+     "name": "LOVE AT FIRST SLIDE by Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/love-at-first-slide-by-rausgegangen/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Team Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/team-rausgegangen/"
+    }
+   ],
+   "startDate": "2026-11-11T19:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/pandawomen-2026-kuula-hetke-perperuna-0/": {
+  "fetched": "2026-11-11T18:22:11+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Mal hörst Du fast den Atem, im nächsten Moment öffnet sich alles weit: Kuula Hetke zerlegen als improvisierendes Flötenduo aus Estland ihre Melodien live und setzen sie neu zusammen. Danach tragen sich bei Perperúna fünf Stimmen gegenseitig durch mehrstimmige Lieder 🌈",
+   "endDate": "2026-11-14T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/WAUbgZPgT12a9sSKq10q_22998image-2048x1024.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10435",
+     "streetAddress": "Knaackstraße 97"
+    },
+    "name": "PANDA platforma"
+   },
+   "name": "PANDAwomen 2026: Kuula Hetke / Perperúna",
+   "offers": {
+    "@type": "Offer",
+    "price": "20.00",
+    "priceCurrency": "EUR",
+    "url": "https://panda-platforma.berlin/events/kuula-hetke-perper-na/",
+    "validFrom": "2026-11-13T20:30+0100"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "PANDA platforma e.V.",
+     "url": "https://rausgegangen.de/organizations/page-for-team-panda-platforma-ev/"
+    },
+    {
+     "@type": "Organization",
+     "name": "PANDAwomen 2026 Festival",
+     "url": "https://rausgegangen.de/organizations/pandawomen-festival/"
+    }
+   ],
+   "startDate": "2026-11-13T20:30+0100"
+  }
+ },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
   "fetched": "2026-11-11T13:15:30+01:00",
   "ld": {
@@ -894,6 +950,43 @@
    "startDate": "2026-12-19T19:30+0100"
   },
   "seen": "2026-10-31T02:26:10+01:00"
+ },
+ "https://rausgegangen.de/events/speak-up-inline-x-stories-of-her-with-x-tin-degen-oneyra-lin-0/": {
+  "fetched": "2026-11-11T18:22:11+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Erst reden, dann tanzen: Die Party feiert den sechsten Geburtstag von Stories of Her, einem Projekt, das anonyme Erfahrungen mit Sexismus, Belästigung und sexualisierter Gewalt sichtbar macht. Später kippt der Abend in elektronische Sets von X Tin, degen, Ôneyra, Linda shiro und mehr 🌈",
+   "endDate": "2026-11-15T06:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/07IK7lgPQpK2XrMjwDQC_postv1.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10245",
+     "streetAddress": "Revaler Str. 99"
+    },
+    "name": "Crack Bellmer"
+   },
+   "name": "SPEAK UP Inline x Stories of Her with X Tin, degen, Ôneyra, Linda shiro & many more",
+   "offers": {
+    "@type": "Offer",
+    "price": "10.00",
+    "priceCurrency": "EUR",
+    "validFrom": "2026-11-14T17:30+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Inline",
+    "url": "https://rausgegangen.de/organizations/inline/"
+   },
+   "startDate": "2026-11-14T17:30+0100"
+  }
  },
  "https://rausgegangen.de/events/speed-dating-berlin-30-45-jahre-0/": {
   "fetched": "2026-11-11T16:12:49+01:00",
@@ -954,6 +1047,62 @@
     }
    ],
    "startDate": "2026-12-08T19:30+0100"
+  }
+ },
+ "https://rausgegangen.de/events/tati-comedy-one-laugh-night-28/": {
+  "fetched": "2026-11-11T18:22:11+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Comedy mit Stil im Tati goes Underground in Berlin. Authentische Stand-up Shows mit bekannten Comedians, Berliner Underground Acts und Newcomern in edler Bar-Atmosphäre mit hochwertigen Cocktails. Die Bühne für spontane Überraschungen. Mal tauchen bekannte Gesichter aus der Comedy-Szene auf, mal brandneue Talente, die man so noch nie gesehen hat.Sicher ist nur eins:Es wird spät, es wird witzig und es wird auch dunkel lustig.Eintritt  ab 16 Jahre",
+   "endDate": "2026-11-12T22:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/kJyays4wROGHyg5J9wGS_tati-comedy-club-berliner-stand-up-nacht.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10405",
+     "streetAddress": "Metzer Straße 2"
+    },
+    "name": "Tati goes Underground"
+   },
+   "name": "Tati Comedy - Die Stand Up Comedy Show",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 3,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "16.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Frühbücher",
+      "price": "14.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Studenten",
+      "price": "14.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "startDate": "2026-11-12T20:00+0100"
   }
  }
 }

@@ -193,16 +193,16 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/berlinale-spotlight-panorama-dokumente-the-other-side-of-the-0/": {
-  "fetched": "2026-11-11T14:36:40+01:00",
+ "https://rausgegangen.de/events/abi-mohanty-tough-tiies-0/": {
+  "fetched": "2026-11-11T16:12:49+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Filmemacher Tawfik Sabouni wurde vor Jahren aus dem syrischen Foltergefängnis Saidnaya entlassen, das auch als Ort „hinter der Sonne“ bezeichnet wird. Kurz nach dem Sturz des Assad-Regimes im Dezember 2024 kehrt er an den Ort seiner Gefangenschaft zurück. Es geht ihm nicht darum, Wunden wieder aufzureißen, sondern wiederherzustellen, was systematische Gewalt versucht hat auszulöschen: Stimmen, Geschichten und Menschlichkeit. Sabouni lädt vier weitere Saidnaya-Überlebende ein, ihn auf seiner Reise zu begleiten. Gemeinsam kehren sie an die Orte zurück, an denen sie jahrelang gefoltert und entmenschlicht wurden, und spielen in sorgfältig konstruierten Reenactments ihre Gefangenschaft nach – tägliche Rituale, Gesten, Momente des Überlebens. Gedreht innerhalb des ehemaligen Gefängnisses werden die Reenactments zum Ausdrucksmittel für etwas, das sich nicht in Worte fassen lässt. Auf zurückhaltende Weise konfrontiert der Film das Publikum mit den bleibenden Spuren der Haft und gibt nicht nur den auftretenden fünf Männern eine Stimme, sondern auch den Tausenden, die das Assad-Regime nicht überlebt haben und deren Familien noch immer nach Antworten suchen.PROGRAMM Begrüßung N.N.FilmvorführungThe Other Side of the SunVon: Tawfik Sabouni (Regie, Buch), Laurine Estrade (Buch)Land: Belgien / Frankreich / Saudi-Arabien 2026Sprache: Arabisch (mit englischen Untertiteln)Dauer:  92 MinutenFilmgesprächTawfik Sabouni, Regisseur, BuchModeration: N.N.  WEITERE HINWEISEEinlass: 18.00 UhrSprache: DeutschEINTRITT FREI MIT ANMELDUNG  Das Berlinale Spotlight: Panorama Dokumente, Forum & Generation ist eine Kooperation zwischen dem Dokumentationszentrum Flucht, Vertreibung, Versöhnung und dem European Film Market (EFM) der Internationalen Filmfestspiele Berlin.",
-   "endDate": "2026-11-18T21:00+0100",
+   "description": "Dark, raw & unapologetic comedy with Berlin’s Abi Mohanty. Uncomfortable truths, taboo topics & big laughs.Tough Titties isn't just another stand-up show. It's a night of uncomfortable truths wrapped in hilarious stories, sharp observations and the kind of jokes that make you laugh first — and question yourself later.Berlin-based comedian Abi Mohanty brings her signature blend of dark humour, satire and raw honesty to Karakas Comedy Club.Born in India and now based in Berlin, Abi explores the uncomfortable side of life with a wicked sense of humour. Her comedy takes on taboo subjects including religious dogma, restrictive upbringing, mental health, sexuality, identity, individual freedom and the strange realities of being an Ausländer in Europe.Abi has opened for some of the biggest names in European comedy, including Dragos, Mike Rice, Radu Isac and Netflix star Adrienne Iapalucci, as well as Abhishek Upmanyu.She has also made her mark on the London comedy circuit, winning multiple gong shows, including the coveted King Gong at The Comedy Store.Currently converting childhood trauma into jokes one show at a time, Abi has performed across Europe — usually in places where Ryanair goes.Her comedy is sharp, personal and deliberately uncomfortable. No easy stereotypes, no safe topics — just brutally honest stories turned into very good jokes.Come for the dark comedy. Stay for the chaos. And don't be surprised if you feel slightly guilty for laughing afterwards. Dark comedy. Raw honesty. Uncomfortable laughs. Zero apologies.  14 November · Karakas Comedy Club Kurfürstenstraße 9, Berlin 10785",
+   "endDate": "2026-11-14T19:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/m8KedHGNTY6UQIgIBcx2_websitebildtosots.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/VihvDSydQ2qvMHAqK021_tough-tits-landscape.png"
    ],
    "location": {
     "@type": "Place",
@@ -210,173 +210,26 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10963",
-     "streetAddress": "Stresemannstraße 90"
+     "postalCode": "10785",
+     "streetAddress": "Kurfürstenstraße 9"
     },
-    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
+    "name": "Karakas Bar"
    },
-   "name": "Berlinale Spotlight – Panorama Dokumente: The Other Side of the Sun",
+   "name": "Abi Mohanty - Tough Ti**ies",
    "offers": {
     "@type": "Offer",
-    "price": "0.00",
+    "availability": "https://schema.org/InStock",
+    "price": "14.50",
     "priceCurrency": "EUR",
-    "url": "https://buchungen.flucht-vertreibung-versoehnung.de/de/tickets/111",
-    "validFrom": "2026-11-18T18:30+0100"
+    "url": "https://t.rausgegangen.de/tickets/abi-mohanty-tough-tiies",
+    "validFrom": "2026-11-03T00:29+0100"
    },
    "organizer": {
     "@type": "Organization",
-    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung",
-    "url": "https://rausgegangen.de/organizations/dokumentationszentrum-flucht-vertreibung-versohnung/"
+    "name": "Karakas Comedy Club",
+    "url": "https://rausgegangen.de/organizations/karakas-comedy-club-1/"
    },
-   "startDate": "2026-11-18T18:30+0100"
-  }
- },
- "https://rausgegangen.de/events/comedy-slam-berlin-13/": {
-  "fetched": "2026-11-11T12:19:02+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Vier der besten Slam-Poet*innen des Landes treffen beim Comedy Slam Berlins aufeinander, um sich mit ihren lustigsten Texten ins Zwerchfell des Publikums zu lesen. In zwei Runden erschüttern sie eure Bauchmuskeln. Workout fürs Zwerchfell! Und ihr entscheidet per Applaus über den lustigsten Text. Am Ende des Abend liegt ihr auf dem Boden vor Lachen, und eine*r der Comedy-Slammer*innen trägt den publikumsgewählten Triumph nach Hause.Einlass: 19:30Beginn: 20:00Was den Comedy Slam ausmachtGanz wie bei Poetry Slams stehen hier Text und Performance im Vordergrund. Die Regeln für die Auftretenden: 8 Minuten Zeitlimit, keine Requisiten, nur selbstgeschriebene Texte. Und das Publikum entscheidet über den Sieg des Abends. Aber anders als sonst, gibt es beim Comedy Slam Berlin ausschließlich lustige Texte: Literatur zum Lachen.Was den Comedy Slam von einer üblichen Stand-Up Show unterscheidet, die die Comedy-Clubs Berlins bevölkern? Hier gibt es nicht nur eine Aneinanderreihung von Witzen. Hier hört ihr durchgängige Geschichten, Erzählungen, Gedichte und ein bisschen Message. Die ganze Vielfalt des Poetry Slams eben. Mit den Zwerchfellerschütterern von Komikern. Poetry Slam meets Stand-Up.Vier geladene Slammer*innen treten im harten Wettkampf gegeneinander an: Und ihr entscheidet, wer die hohe Kunst der Literatur mit jener des Humors am Besten verbinden kann.",
-   "endDate": "2026-11-20T22:30+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/pNbniJqT9a5jAyHUlOgw_2025comedy-slam-fotologo.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10119",
-     "streetAddress": "Schönhauser Allee 176"
-    },
-    "name": "Pfefferberg Theater"
-   },
-   "name": "Comedy Slam Berlin",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "39.90",
-    "lowPrice": "14.90",
-    "offerCount": 13,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "PK 1: Regulär",
-      "price": "24.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "PK1: Ermäßigt",
-      "price": "22.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "PK2: Regulär",
-      "price": "22.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "PK2: Ermäßigt",
-      "price": "19.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "PK3: Regulär",
-      "price": "19.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "PK3: Ermäßigt",
-      "price": "17.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "PK4: Regulär",
-      "price": "17.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "PK4: Ermäßigt",
-      "price": "14.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Paarplatz Regulär (2 Pers.)",
-      "price": "39.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Paarplatz Ermäßigt (2 Pers.)",
-      "price": "35.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Zweiter Paarplatz (wähl dies zu deinem Kostenpflichtigen Hauptticket, alleine ist es ungültig)",
-      "price": "0.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Schwerbehindertenausweis B-Ticket",
-      "price": "17.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Begleiterticket Schwerbehinderte (ungültig ohne Hauptticket)",
-      "price": "0.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "Comedy Slam",
-     "url": "https://rausgegangen.de/organizations/p-comedy-slam/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Kiezpoeten",
-     "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Pfefferberg Theater Slams",
-     "url": "https://rausgegangen.de/organizations/p-pfefferberg-theater-slams/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Premium Poetry",
-     "url": "https://rausgegangen.de/organizations/p-premium-poetry/"
-    }
-   ],
-   "startDate": "2026-11-20T20:00+0100"
+   "startDate": "2026-11-14T18:00+0100"
   }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
@@ -881,6 +734,48 @@
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/jake-isaac-5/": {
+  "fetched": "2026-11-11T16:12:49+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Zehn Jahre später packt Jake Isaac seine alten Songs noch mal an, und plötzlich hört man, wie viel Weg dazwischen liegt. Der Mann aus Südlondon kam erst übers Schlagzeug zur Musik, unter seiner Soulstimme schiebt also immer auch Rhythmus mit 🙂",
+   "endDate": "2027-05-11T23:00+0200",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/SroI1DKYQ82lBUbI1BAg_jifb-cover.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10435",
+     "streetAddress": "Schönhauser Allee 36"
+    },
+    "name": "frannz club berlin"
+   },
+   "name": "Jake Isaac",
+   "offers": {
+    "@type": "Offer",
+    "price": "36.00",
+    "priceCurrency": "EUR",
+    "url": "https://link.dice.fm/A0137a8279d3",
+    "validFrom": "2027-05-11T20:00+0200"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Z|ART Agency",
+    "url": "https://rausgegangen.de/organizations/zart-agency-gmbh/"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Jake Isaac"
+   },
+   "startDate": "2027-05-11T20:00+0200"
+  }
+ },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1/": {
   "fetched": "2026-11-11T13:15:30+01:00",
   "ld": {
@@ -923,16 +818,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/mattiel-4/": {
-  "fetched": "2026-11-11T14:36:40+01:00",
+ "https://rausgegangen.de/events/relachen-cierre-de-una-era-0/": {
+  "fetched": "2026-11-11T16:12:49+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Mattiel Brown kommt aus Atlanta, lebt in Italien und klingt trotzdem nach keiner klaren Schublade. Zwischen Vintage Soul und Indie Rock zeigt ihre neue Single eine leisere, persönlichere Seite 👀",
-   "endDate": "2027-05-24T06:00+0200",
+   "description": "SHOW 100% in SPANISH!Relachen dice hasta luego, Berlín! 2014 - 2026Patricia Fernández, fundadora y presentadora del show desde 2014, cambia de residencia (de Berlín a Valencia, España), y por esto cerraremos A LO GRANDE con profundo agradecimiento y alegría esta era de comedia en español en Berlín!Este 13 de noviembre contaremos con 8 (se lee OCHO 🤩) fantásticas presentaciones seleccionadas de entre tod@s l@s maravillos@s artistas que, a lo largo de estos 12 años, han formado (y siempre formarán 💘) parte de este hermoso universo cómico:  ✨ Liliana Velásquez (COL) https://www.instagram.com/ladios_v/  ✨ Ayla Merino (MEX) https://www.instagram.com/aylamerino/  ✨ Eliecer Reyes (ESP) https://www.instagram.com/eliecerreyesfalcon/  ✨ Palma Palacios (RD) https://www.instagram.com/palmapalacios/  ✨ ELGRANDE BBX (PER) https://www.instagram.com/elgrandebbx/  ✨ Doel Cupo(MEX) https://www.instagram.com/doelcupo/  ✨ Lu Noboa (ECU) https://www.instagram.com/lalunoboa/  ✨ Chiquilove (VEN) https://www.instagram.com/chiquilovelovelove/Y, al más puro estilo Berlín, Patricia presentará su nuevo número de cabaret: 🎂 cake sitting, nunca antes visto en Relachen! 🤩🔝 Como siempre, ¡calidad garantizada!  Invitamos a toda nuestra querida comunidad hispanoparlante (y adherid@s 😉) a formar parte de esta ÚNICA experiencia. Todo ocurrirá en CIRCUS POTOO, un maravilloso nuevo espacio cultural que tenemos muchas ganas de que conozcan y disfruten.🗣️ Show 100% en español 🔞 Para mayores de 18 años 💶 El bar acepta SÓLO EFECTIVO Si quieres acceder a uno de los solitickets, simplemente escribe al instagram de Relachen (https://www.instagram.com/relachen_berlin/)Nota: Lastimosamente la entrada al recinto (aun) no está adaptada para personas con movilidad reducida.Abriremos puertas a las 18:30h ¡Lleguen temprano porque en el circo hay juegos y entretenimiento análogo que van a querer probar! Show a las 19:30h 🥳💃🏽🕺🏻🤸🏼‍♀️🎶 Luego del show habrá música, baile, canto y, claro que sí, mucho mas RELAJO¡Les esperamos con amor y humor! 💋________________________🎪 INFOS ABOUT THE VENUE 🎪The Circus Potoo is located in a Historic Vaulted Cellar, therefore it is important that all of our guests are respectful to the space. When you purchase a ticket, you agree to follow these simple rules:🚭 NO SMOKING 🚫 NO GRAFFITI   We urge you to be mindful of the flooring and to watch you step as you move through the space. The venue does not have step-free access but this is something we aim to work on for the future.Circus Potoo strives to be a safe space for all walks of life, we do not tolerate discrimination or agressive behaviour towards our staff, artists or guests. Management reserves the right to refuse admission and tickets are non-transferable or refundable unless the event is cancelled.CASH ONLYADULTS ONLY",
+   "endDate": "2026-11-14T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/H5QfApkARu6WTlvbe579_mattiel-hp-1270x700-px.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/EVgGIxoS6mkFFlA3woWu_relachen261113rausgegangen.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -940,25 +835,80 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10777",
-     "streetAddress": "Nollendorfplatz 5"
+     "postalCode": "10405",
+     "streetAddress": "Straßburger Straße 53"
     },
-    "name": "Mikropol"
+    "name": "Circus Potoo"
    },
-   "name": "Mattiel",
+   "name": "Relachen: cierre de una era",
    "offers": {
-    "@type": "Offer",
-    "price": "24.90",
-    "priceCurrency": "EUR",
-    "url": "https://www.eventim.de/noapp/event/mattiel-the-at-the-doorstep-tour-mikropol-22313827/?affiliate=KSG&utm_campaign=schoneberg&utm_source=KSG&utm_medium=dp",
-    "validFrom": "2027-05-23T19:00+0200"
+    "@type": "AggregateOffer",
+    "highPrice": "25.00",
+    "lowPrice": "10.00",
+    "offerCount": 3,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "SOLIDARITY TICKETS",
+      "price": "11.20",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "REGULAR TICKETS",
+      "price": "21.80",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "SUPPORTER",
+      "price": "27.10",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
    },
    "organizer": {
     "@type": "Organization",
-    "name": "Konzertbüro Schoneberg",
-    "url": "https://rausgegangen.de/organizations/schoneberg-konzerte/"
+    "name": "Circus Potoo",
+    "url": "https://rausgegangen.de/organizations/circus-potoo-2/"
    },
-   "startDate": "2027-05-23T19:00+0200"
+   "startDate": "2026-11-13T18:30+0100"
+  }
+ },
+ "https://rausgegangen.de/events/school-of-quilombismo-crip-epistemologies-0/": {
+  "fetched": "2026-11-11T16:12:49+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Hier geht es um Crip-Wissen, das von Menschen mit Behinderung selbst gedacht und weitergegeben wird. Workshops, Vorträge und Interventionen setzen dabei bewusst auf Austausch statt Frontalbetrieb – und das Ganze ist entspannt gestaltet 🫶",
+   "endDate": "2026-11-15T17:30+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/20VxdkKkSB6FSwWk767w_keyvisual-soq.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10557",
+     "streetAddress": "John-Foster-Dulles-Allee 10"
+    },
+    "name": "Haus der Kulturen der Welt | HKW"
+   },
+   "name": "School of Quilombismo: Crip Epistemologies",
+   "offers": {
+    "@type": "Offer",
+    "price": "0.00",
+    "priceCurrency": "EUR",
+    "validFrom": "2026-11-14T10:00+0100"
+   },
+   "startDate": "2026-11-14T10:00+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
@@ -999,5 +949,66 @@
    "startDate": "2026-12-19T19:30+0100"
   },
   "seen": "2026-10-31T02:26:10+01:00"
+ },
+ "https://rausgegangen.de/events/speed-dating-berlin-30-45-jahre-0/": {
+  "fetched": "2026-11-11T16:12:49+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Swipen fällt aus, stattdessen sitzt Du alle paar Minuten schon dem nächsten Menschen gegenüber. Für die Gespräche gibt es kleine Anstöße, danach bleibt noch Zeit fürs Weiterreden 🙂",
+   "endDate": "2026-12-08T23:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/YHsOcABSsCHTKph7xjgw_speeddating260806templatebannerapp-1-1.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10625",
+     "streetAddress": "Kantstraße 127"
+    },
+    "name": "Dufte Berlin"
+   },
+   "name": "SPEED DATING Berlin | 30 - 45 Jahre",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 2,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Ticket | Ich bin ein Mann",
+      "price": "24.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Ticket | Ich bin eine Frau",
+      "price": "24.90",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "Rausgegangen Events",
+     "url": "https://rausgegangen.de/organizations/rausgegangen-events/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Speed Dating by Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/speed-dating-by-rausgegangen/"
+    }
+   ],
+   "startDate": "2026-12-08T19:30+0100"
+  }
  }
 }

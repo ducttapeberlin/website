@@ -193,6 +193,280 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/alizade-0/": {
+  "fetched": "2026-11-11T04:12:37+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Drei Sprachen im Kopf, klare Ansage im Mic. Alizade bewegt sich zwischen türkischem Trap, Hip Hop und Pop, ohne sich stilistisch klein zu machen 💅🏼",
+   "endDate": "2027-03-18T23:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/RPaXer3QRV2eoGgEPHaF_photo-alizadecredit-ricardo-van-lachterop-kopie.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "12435",
+     "streetAddress": "Am Flutgraben 2"
+    },
+    "name": "Festsaal Kreuzberg"
+   },
+   "name": "Alizade",
+   "offers": {
+    "@type": "Offer",
+    "price": "33.50",
+    "priceCurrency": "EUR",
+    "url": "https://www.eventim.de/artist/alizade/",
+    "validFrom": "2027-03-18T19:00+0100"
+   },
+   "startDate": "2027-03-18T19:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/bodies-baddies-nye-edition-0/": {
+  "fetched": "2026-11-11T04:12:37+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Wenn Du das Jahr queer und mit ordentlich Energie abschließen willst, klingt das hier ziemlich ideal: mehrere Floors, Shows direkt nach dem Countdown und ein Format, das klar aus der Community kommt. Für Queers, Girls, Gays, Theys, Lovers und Allies gedacht 👀",
+   "endDate": "2027-01-01T06:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/RqGvZn1mSD2O5uy0Wezo_rausgegangenbnbsasha-kopie2.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10777",
+     "streetAddress": "Nollendorfplatz 5"
+    },
+    "name": "Metropol"
+   },
+   "name": "BODIES & BADDIES // NYE Party",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "85.40",
+    "lowPrice": "16.50",
+    "offerCount": 7,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Early Bird",
+      "price": "27.10",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Group Tickets First Wave",
+      "price": "32.40",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "First Wave",
+      "price": "37.70",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "VIP Tickets",
+      "price": "85.40",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Group Tickets Second Wave",
+      "price": "43.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Second Wave",
+      "price": "48.30",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Last Wave // Abendkasse",
+      "price": "52.54",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Ocean Eyes",
+    "url": "https://rausgegangen.de/organizations/ocean-eyes/"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Ocean"
+   },
+   "startDate": "2026-12-31T22:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/comedy-slam-berlin-13/": {
+  "fetched": "2026-11-11T04:12:37+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Vier der besten Slam-Poet*innen des Landes treffen beim Comedy Slam Berlins aufeinander, um sich mit ihren lustigsten Texten ins Zwerchfell des Publikums zu lesen. In zwei Runden erschüttern sie eure Bauchmuskeln. Workout fürs Zwerchfell! Und ihr entscheidet per Applaus über den lustigsten Text. Am Ende des Abend liegt ihr auf dem Boden vor Lachen, und eine*r der Comedy-Slammer*innen trägt den publikumsgewählten Triumph nach Hause.Einlass: 19:30Beginn: 20:00Was den Comedy Slam ausmachtGanz wie bei Poetry Slams stehen hier Text und Performance im Vordergrund. Die Regeln für die Auftretenden: 8 Minuten Zeitlimit, keine Requisiten, nur selbstgeschriebene Texte. Und das Publikum entscheidet über den Sieg des Abends. Aber anders als sonst, gibt es beim Comedy Slam Berlin ausschließlich lustige Texte: Literatur zum Lachen.Was den Comedy Slam von einer üblichen Stand-Up Show unterscheidet, die die Comedy-Clubs Berlins bevölkern? Hier gibt es nicht nur eine Aneinanderreihung von Witzen. Hier hört ihr durchgängige Geschichten, Erzählungen, Gedichte und ein bisschen Message. Die ganze Vielfalt des Poetry Slams eben. Mit den Zwerchfellerschütterern von Komikern. Poetry Slam meets Stand-Up.Vier geladene Slammer*innen treten im harten Wettkampf gegeneinander an: Und ihr entscheidet, wer die hohe Kunst der Literatur mit jener des Humors am Besten verbinden kann.",
+   "endDate": "2026-11-20T22:30+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/pNbniJqT9a5jAyHUlOgw_2025comedy-slam-fotologo.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10119",
+     "streetAddress": "Schönhauser Allee 176"
+    },
+    "name": "Pfefferberg Theater"
+   },
+   "name": "Comedy Slam Berlin",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "39.90",
+    "lowPrice": "14.90",
+    "offerCount": 13,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK 1: Regulär",
+      "price": "24.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK1: Ermäßigt",
+      "price": "22.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK2: Regulär",
+      "price": "22.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK2: Ermäßigt",
+      "price": "19.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK3: Regulär",
+      "price": "19.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK3: Ermäßigt",
+      "price": "17.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK4: Regulär",
+      "price": "17.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK4: Ermäßigt",
+      "price": "14.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Paarplatz Regulär (2 Pers.)",
+      "price": "39.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Paarplatz Ermäßigt (2 Pers.)",
+      "price": "35.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Zweiter Paarplatz (wähl dies zu deinem Kostenpflichtigen Hauptticket, alleine ist es ungültig)",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Schwerbehindertenausweis B-Ticket",
+      "price": "17.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Begleiterticket Schwerbehinderte (ungültig ohne Hauptticket)",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "Comedy Slam",
+     "url": "https://rausgegangen.de/organizations/p-comedy-slam/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Kiezpoeten",
+     "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Pfefferberg Theater Slams",
+     "url": "https://rausgegangen.de/organizations/p-pfefferberg-theater-slams/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Premium Poetry",
+     "url": "https://rausgegangen.de/organizations/p-premium-poetry/"
+    }
+   ],
+   "startDate": "2026-11-20T20:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
   "fetched": "2026-11-11T00:00:36+01:00",
   "ld": {
@@ -281,6 +555,38 @@
   "seen": "2026-10-20T15:24:41+02:00",
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
+ },
+ "https://rausgegangen.de/events/der-schatz-eine-bohmische-familiengeschichte-0/": {
+  "fetched": "2026-11-11T04:12:37+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "April 1945. Die Rote Armee rückt unaufhaltsam vor. Am Fuß des Riesengebirges vergräbt Otto Ther eine Kiste mit einem Diamantkreuz, Schmuck und poliertem Silberbesteck. Sie soll überdauern, bis die Familie nach Hohenelbe, heute Vrchlabí, zurückkehren kann.Jahrzehnte später reist sein Enkel, der Historiker Philipp Ther, mit seinem Vater immer wieder in die verlorene Heimat. Das örtliche Museum übergibt ihnen drei Kisten, für den Historiker ein Schatz ganz anderer Art. Die Familiendokumente darin zeigen, wie tief die eigene Familie in den Nationalsozialismus verstrickt war.In „Mein Schatz“ verbindet Philipp Ther Familien- und Zeitgeschichte zu einer persönlichen Erzählung über Herkunft, Schuld und Erinnerung.„Philipp Ther ist ein sozialhistorischer Prosakünstler.“ Gustav Seibt PROGRAMM BegrüßungDr. Roland Borchers, Direktor, Dokumentationszentrum Flucht, Vertreibung, Versöhnung (Berlin)Lesung und GesprächProf. Dr. Philipp Ther, AutorModeration: em. Prof. Dr. Jürgen Kocka, Freie Universität (Berlin)Der Autor steht nach der Lesung für eine Signierstunde bereit. Im Anschluss laden wir Sie zu einem kleinen Empfang ein.  WEITERE HINWEISE   Büchertisch: Buchhandlung „Der Zauberberg“Einlass: 18.00 Uhr   Sprache: DeutschEINTRITT FREI, MIT ANMELDUNGDie Veranstaltung wird aufgezeichnet und auf unserem YouTube-Kanal Flucht, Vertreibung, Versöhnung veröffentlicht.",
+   "endDate": "2026-12-02T20:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/iONiEZu9RfK8U0wtzZgo_der-schatz-2.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10963",
+     "streetAddress": "Stresemannstraße 90"
+    },
+    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
+   },
+   "name": "Der Schatz – Eine böhmische Familiengeschichte",
+   "offers": {
+    "@type": "Offer",
+    "price": "0.00",
+    "priceCurrency": "EUR",
+    "validFrom": "2026-12-02T18:30+0100"
+   },
+   "startDate": "2026-12-02T18:30+0100"
+  }
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
   "fetched": "2026-11-11T00:00:36+01:00",
@@ -605,16 +911,16 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
- "https://rausgegangen.de/events/hainbach-presents-vive-guests-aude-langlois-felipe-vareschi-0/": {
-  "fetched": "2026-11-11T02:28:43+01:00",
+ "https://rausgegangen.de/events/fliegende-haie-alle-gehn-dumm-tour-12/": {
+  "fetched": "2026-11-11T04:12:37+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Alte Messgeräte, Magnetband, seltsame Synths: Hainbach baut daraus Stücke, die eher klingen wie gefundene Signale als sauber produzierte Tracks. Auf dem neuen Album Vive rücken dabei Melodien und sehr persönliche Momente nach vorn 👾",
-   "endDate": "2027-03-06T05:00+0100",
+   "description": "Kuck dir die Welt doch an: Alle gehn dumm. Smartphone-Zombies, emotionaler Leerstand, machtbesessene Despoten. Zeit für einen Reset – Fliegende Haie finden: Wenn schon dumm gehen, dann richtig! Ausrasten, durchtanzen und schweißnass Hymnen hinausschreien für eine bessere Welt.Unterdrückung von Frauen, mentale Gesundheit, sexuelle Unfreiheit – Haie reißen Wunden auf, denn wir haben keinen Bock, dass morgen noch alles so ist wie heute. Also Blutrausch an und die Issues zermahlen im Revolvergebiss. Dazu Bässe, die Beine wegreißen wie der Weiße Hai.Der Haie-Hyperpop ist seit der letzten Tour 2025 düsterer geworden, doch live energiegeladen wie eh und je: Instant wirst du hineingesogen in eine Artshow, die das Salzwasser aus deinen Poren drückt, bis sie dich als neuer Mensch wieder ausgespuckt. Durchgeschüttelt, wachgerüttelt, aber glücklich. Nur was blutet, kann auch hailen.",
+   "endDate": "2026-12-11T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/XIw2NhMuQoCkeMbbhLeS_bildschirmfoto-2026-11-05-um-135606.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/kDdpHEaT06v9EGY8VXh3_fliegende-haie-alle-gehn-dumm-foto-01quer-c-maxim-kaiser.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -622,20 +928,47 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "13347",
-     "streetAddress": "Gerichtstraße 35"
+     "postalCode": "12435",
+     "streetAddress": "Alt Treptow 6"
     },
-    "name": "silent green Kulturquartier"
+    "name": "Kulturhaus Insel Berlin"
    },
-   "name": "HAINBACH presents VIVE guests: AUDE LANGLOIS & FELIPE VARESCHI",
+   "name": "FLIEGENDE HAIE - Alle gehn dumm-Tour",
    "offers": {
-    "@type": "Offer",
-    "price": "26.00",
-    "priceCurrency": "EUR",
-    "url": "https://www.greyzone-tickets.de/produkte/1395",
-    "validFrom": "2027-03-05T19:00+0100"
+    "@type": "AggregateOffer",
+    "highPrice": "27.10",
+    "lowPrice": "16.50",
+    "offerCount": 3,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Social Ticket",
+      "price": "16.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "21.80",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Supporterticket",
+      "price": "27.10",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
    },
-   "startDate": "2027-03-05T19:00+0100"
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Fliegende Haie"
+   },
+   "startDate": "2026-12-10T20:00+0100"
   }
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
@@ -728,48 +1061,6 @@
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/jake-isaac-5/": {
-  "fetched": "2026-11-11T02:28:43+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Zehn Jahre später packt Jake Isaac seine alten Songs noch mal an, und plötzlich hört man, wie viel Weg dazwischen liegt. Der Mann aus Südlondon kam erst übers Schlagzeug zur Musik, unter seiner Soulstimme schiebt also immer auch Rhythmus mit 🙂",
-   "endDate": "2027-05-11T23:00+0200",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/SroI1DKYQ82lBUbI1BAg_jifb-cover.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10435",
-     "streetAddress": "Schönhauser Allee 36"
-    },
-    "name": "frannz club berlin"
-   },
-   "name": "Jake Isaac",
-   "offers": {
-    "@type": "Offer",
-    "price": "36.00",
-    "priceCurrency": "EUR",
-    "url": "https://link.dice.fm/A0137a8279d3",
-    "validFrom": "2027-05-11T20:00+0200"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Z|ART Agency",
-    "url": "https://rausgegangen.de/organizations/zart-agency-gmbh/"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Jake Isaac"
-   },
-   "startDate": "2027-05-11T20:00+0200"
-  }
- },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1/": {
   "fetched": "2026-11-11T00:00:36+01:00",
   "ld": {
@@ -812,152 +1103,6 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/pandawomen-2026-nini-nutsubidze-vepsestikk-0/": {
-  "fetched": "2026-11-11T02:28:43+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Zwei Trompeten auf der einen Seite, georgischer Pop Folk zwischen Soul, R&B und Hip Hop auf der anderen. PANDAwomen packt an einem Abend Nini Nutsubidze und Vepsestikk zusammen, und genau diese scharfen Kanten machen neugierig 👀",
-   "endDate": "2026-11-15T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/j673pt2KTZeOPqOf454Q_23002image-2048x1024.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10435",
-     "streetAddress": "Knaackstraße 97"
-    },
-    "name": "PANDA platforma"
-   },
-   "name": "PANDAwomen 2026: Nini Nutsubidze / Vepsestikk",
-   "offers": {
-    "@type": "Offer",
-    "price": "17.00",
-    "priceCurrency": "EUR",
-    "url": "https://panda-platforma.berlin/events/nini-nutsubidze-vepsestikk/",
-    "validFrom": "2026-11-14T20:30+0100"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "PANDA platforma e.V.",
-     "url": "https://rausgegangen.de/organizations/page-for-team-panda-platforma-ev/"
-    },
-    {
-     "@type": "Organization",
-     "name": "PANDAwomen 2026 Festival",
-     "url": "https://rausgegangen.de/organizations/pandawomen-festival/"
-    }
-   ],
-   "startDate": "2026-11-14T20:30+0100"
-  }
- },
- "https://rausgegangen.de/events/pandawomen-2026-pandawomen-closing-event-anastasia-rydlevska-0/": {
-  "fetched": "2026-11-11T02:28:43+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Masken, Stimme, Elektronik: Bei Anastasia Rydlevskaya steht Pop neben belarussischer Folklore und bildender Kunst, ohne sich sauber trennen zu lassen. Danach übernimmt DJ Svetomusika mit einem spontanen Mix aus aller Welt 🪩",
-   "endDate": "2026-11-29T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/c6PFSPuQuWhdtlyPLUea_23335image-2048x1024.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10435",
-     "streetAddress": "Knaackstraße 97"
-    },
-    "name": "PANDA platforma"
-   },
-   "name": "PANDAwomen 2026: PANDAwomen closing event: Anastasia Rydlevskaya / DJ Svetomusika",
-   "offers": {
-    "@type": "Offer",
-    "price": "25.00",
-    "priceCurrency": "EUR",
-    "url": "https://panda-platforma.berlin/events/pandawomen-closing-event-anastasia-rydlevskaya-dj-svetomusika/",
-    "validFrom": "2026-11-28T20:30+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "PANDAwomen 2026 Festival",
-    "url": "https://rausgegangen.de/organizations/pandawomen-festival/"
-   },
-   "startDate": "2026-11-28T20:30+0100"
-  }
- },
- "https://rausgegangen.de/events/queerberg-solidarity-show-party-by-and-for-queer-trans-refug-0/": {
-  "fetched": "2026-11-11T02:28:43+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Queerberg feiert zehn Jahre mit einer Nacht von und für queere und trans Geflüchtete. Erst Show, dann Party, alles getragen von einer Community.",
-   "endDate": "2026-11-15T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/szq3y7GQ0WdLp2q7ikmn_img1980.JPG"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10999",
-     "streetAddress": "Admiralstr. 1-2"
-    },
-    "name": "Südblock"
-   },
-   "name": "QueerBerg- Solidarity Show & Party by and for QUEER & TRANS  REFUGEE ARTISTS / 10 Years Anniversary.",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "50.00",
-    "lowPrice": "11.20",
-    "offerCount": 4,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Refugee community Ticket",
-      "price": "11.20",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär Ticket",
-      "price": "19.68",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Solidarity Ticket",
-      "price": "30.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Supporter & Donations",
-      "price": "50.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "startDate": "2026-11-14T20:00+0100"
-  }
- },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
   "fetched": "2026-11-11T00:00:36+01:00",
   "ld": {
@@ -997,13 +1142,13 @@
   },
   "seen": "2026-10-31T02:26:10+01:00"
  },
- "https://rausgegangen.de/events/tati-comedy-one-laugh-night-27/": {
-  "fetched": "2026-11-11T02:28:43+01:00",
+ "https://rausgegangen.de/events/tati-comedy-one-laugh-night-28/": {
+  "fetched": "2026-11-11T04:12:37+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
    "description": "Comedy mit Stil im Tati goes Underground in Berlin. Authentische Stand-up Shows mit bekannten Comedians, Berliner Underground Acts und Newcomern in edler Bar-Atmosphäre mit hochwertigen Cocktails. Die Bühne für spontane Überraschungen. Mal tauchen bekannte Gesichter aus der Comedy-Szene auf, mal brandneue Talente, die man so noch nie gesehen hat.Sicher ist nur eins:Es wird spät, es wird witzig und es wird auch dunkel lustig.Eintritt  ab 16 Jahre",
-   "endDate": "2026-11-11T22:00+0100",
+   "endDate": "2026-11-12T22:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
     "https://s3.eu-central-1.amazonaws.com/rausgegangen/kJyays4wROGHyg5J9wGS_tati-comedy-club-berliner-stand-up-nacht.png"
@@ -1050,7 +1195,7 @@
     ],
     "priceCurrency": "EUR"
    },
-   "startDate": "2026-11-11T20:00+0100"
+   "startDate": "2026-11-12T20:00+0100"
   }
  }
 }

@@ -1,6 +1,6 @@
 {
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
-  "fetched": "2026-11-11T20:25:25+01:00",
+  "fetched": "2026-11-12T04:09:44+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -97,7 +97,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-11-11T20:25:25+01:00",
+  "fetched": "2026-11-12T04:09:44+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -193,8 +193,101 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/bodies-baddies-nye-edition-0/": {
+  "fetched": "2026-11-12T04:09:44+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Wenn Du das Jahr queer und mit ordentlich Energie abschließen willst, klingt das hier ziemlich ideal: mehrere Floors, Shows direkt nach dem Countdown und ein Format, das klar aus der Community kommt. Für Queers, Girls, Gays, Theys, Lovers und Allies gedacht 👀",
+   "endDate": "2027-01-01T06:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/RqGvZn1mSD2O5uy0Wezo_rausgegangenbnbsasha-kopie2.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10777",
+     "streetAddress": "Nollendorfplatz 5"
+    },
+    "name": "Metropol"
+   },
+   "name": "BODIES & BADDIES // NYE Party",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "85.40",
+    "lowPrice": "16.50",
+    "offerCount": 7,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Early Bird",
+      "price": "27.10",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Group Tickets First Wave",
+      "price": "32.40",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "First Wave",
+      "price": "37.70",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "VIP Tickets",
+      "price": "85.40",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Group Tickets Second Wave",
+      "price": "43.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Second Wave",
+      "price": "48.30",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Last Wave // Abendkasse",
+      "price": "52.54",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Ocean Eyes",
+    "url": "https://rausgegangen.de/organizations/ocean-eyes/"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Ocean"
+   },
+   "startDate": "2026-12-31T22:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-11-11T20:25:25+01:00",
+  "fetched": "2026-11-12T04:09:44+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -282,8 +375,40 @@
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/dein-moment-dein-wein-rheinhessen-zu-gast-in-berlin-0/": {
+  "fetched": "2026-11-12T04:09:44+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Blind probieren, vergleichen, nochmal riechen: In mehreren Weinläden und Restaurants dreht sich gerade alles um Rheinhessen im Glas. Vielleicht stolperst Du dabei über einen Riesling oder Silvaner, den Du ab dann immer wieder bestellst 👀",
+   "endDate": "2026-11-29T00:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/LlmYkJ58TGq9wVBQeO8f_1.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": null,
+     "streetAddress": null
+    },
+    "name": "Berlin"
+   },
+   "name": "Dein Moment. Dein Wein: Rheinhessen zu Gast in Berlin",
+   "offers": {
+    "@type": "Offer",
+    "price": "0.00",
+    "priceCurrency": "EUR",
+    "validFrom": "2026-11-14T00:00+0100"
+   },
+   "startDate": "2026-11-14T00:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
-  "fetched": "2026-11-11T20:25:25+01:00",
+  "fetched": "2026-11-12T04:09:44+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -328,7 +453,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-11T20:25:25+01:00",
+  "fetched": "2026-11-12T04:09:44+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -375,7 +500,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-22/": {
-  "fetched": "2026-11-11T20:25:25+01:00",
+  "fetched": "2026-11-12T04:09:44+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -420,7 +545,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
-  "fetched": "2026-11-11T20:25:25+01:00",
+  "fetched": "2026-11-12T04:09:44+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -465,7 +590,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
-  "fetched": "2026-11-11T20:25:25+01:00",
+  "fetched": "2026-11-12T04:09:44+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -512,7 +637,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-11-11T20:25:25+01:00",
+  "fetched": "2026-11-12T04:09:44+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -563,7 +688,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-brunch-sponsored-by-fritz-kola-winter-edition-0/": {
-  "fetched": "2026-11-11T20:25:25+01:00",
+  "fetched": "2026-11-12T04:09:44+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -605,41 +730,8 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
- "https://rausgegangen.de/events/fomo-kiez-dinner-friendsgiving-edition-0/": {
-  "fetched": "2026-11-11T22:53:50+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Erst sitzt Du mit vier Unbekannten am Tisch, ein paar Stunden später kennst Du schon ein ganzes Dutzend. Jede Runde zieht weiter in eine andere Wohnung, bis am Ende alle nochmal zusammenkommen 🌈",
-   "endDate": "2026-11-22T01:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/dBP97xmTKGLGtkHldu10_fomo-canva-design-90.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": null,
-     "streetAddress": null
-    },
-    "name": "Berlin"
-   },
-   "name": "FOMO Kiez Dinner: Friendsgiving Edition",
-   "offers": {
-    "@type": "Offer",
-    "price": "25.00",
-    "priceCurrency": "EUR",
-    "url": "https://luma.com/fomokiezdinner",
-    "validFrom": "2026-11-21T17:30+0100"
-   },
-   "startDate": "2026-11-21T17:30+0100"
-  }
- },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-11-11T20:25:25+01:00",
+  "fetched": "2026-11-12T04:09:44+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -729,7 +821,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1/": {
-  "fetched": "2026-11-11T20:25:25+01:00",
+  "fetched": "2026-11-12T04:09:44+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -770,16 +862,54 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/marenera-pizzica-italienische-volksmusik-0/": {
-  "fetched": "2026-11-11T22:53:50+01:00",
+ "https://rausgegangen.de/events/mattiel-4/": {
+  "fetched": "2026-11-12T04:09:44+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Süditalienische Volksmusik, die nicht im Archiv bleibt, sondern für Tanz, Rituale und Feste gemacht ist. Marenera spielt Pizzica, Tarantella und andere überlieferte Lieder so, dass Du die Hochzeitsgesellschaft fast schon vor Dir siehst 💃",
-   "endDate": "2027-01-16T05:00+0100",
+   "description": "Mattiel Brown kommt aus Atlanta, lebt in Italien und klingt trotzdem nach keiner klaren Schublade. Zwischen Vintage Soul und Indie Rock zeigt ihre neue Single eine leisere, persönlichere Seite 👀",
+   "endDate": "2027-05-24T06:00+0200",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/QX2v5BFTTY6s0wpjkvQ6_foto-1-treppecreditsgiannis-vassaras.jpeg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/H5QfApkARu6WTlvbe579_mattiel-hp-1270x700-px.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10777",
+     "streetAddress": "Nollendorfplatz 5"
+    },
+    "name": "Mikropol"
+   },
+   "name": "Mattiel",
+   "offers": {
+    "@type": "Offer",
+    "price": "24.90",
+    "priceCurrency": "EUR",
+    "url": "https://www.eventim.de/noapp/event/mattiel-the-at-the-doorstep-tour-mikropol-22313827/?affiliate=KSG&utm_campaign=schoneberg&utm_source=KSG&utm_medium=dp",
+    "validFrom": "2027-05-23T19:00+0200"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Konzertbüro Schoneberg",
+    "url": "https://rausgegangen.de/organizations/schoneberg-konzerte/"
+   },
+   "startDate": "2027-05-23T19:00+0200"
+  }
+ },
+ "https://rausgegangen.de/events/pandawomen-2026-nini-nutsubidze-vepsestikk-0/": {
+  "fetched": "2026-11-12T04:09:44+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Zwei Trompeten auf der einen Seite, georgischer Pop Folk zwischen Soul, R&B und Hip Hop auf der anderen. PANDAwomen packt an einem Abend Nini Nutsubidze und Vepsestikk zusammen, und genau diese scharfen Kanten machen neugierig 👀",
+   "endDate": "2026-11-15T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/j673pt2KTZeOPqOf454Q_23002image-2048x1024.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -792,27 +922,39 @@
     },
     "name": "PANDA platforma"
    },
-   "name": "Marenera: Pizzica & italienische Volksmusik",
+   "name": "PANDAwomen 2026: Nini Nutsubidze / Vepsestikk",
    "offers": {
     "@type": "Offer",
-    "price": "13.00",
+    "price": "17.00",
     "priceCurrency": "EUR",
-    "url": "https://panda-platforma.berlin/events/marenera-pizzica-italienische-volksmusik/",
-    "validFrom": "2027-01-15T20:30+0100"
+    "url": "https://panda-platforma.berlin/events/nini-nutsubidze-vepsestikk/",
+    "validFrom": "2026-11-14T20:30+0100"
    },
-   "startDate": "2027-01-15T20:30+0100"
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "PANDA platforma e.V.",
+     "url": "https://rausgegangen.de/organizations/page-for-team-panda-platforma-ev/"
+    },
+    {
+     "@type": "Organization",
+     "name": "PANDAwomen 2026 Festival",
+     "url": "https://rausgegangen.de/organizations/pandawomen-festival/"
+    }
+   ],
+   "startDate": "2026-11-14T20:30+0100"
   }
  },
- "https://rausgegangen.de/events/skyline-bling-silvester-auf-dem-klunkerkranich-2026-0/": {
-  "fetched": "2026-11-11T22:53:50+01:00",
+ "https://rausgegangen.de/events/pandawomen-2026-vera-jonas-lisa-hoppe-paul-brody-gaia-mobili-0/": {
+  "fetched": "2026-11-12T04:09:44+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "895 Stufen vor Mitternacht, dann stehst Du zwischen drei Floors und einmal komplett Feuerwerk rundherum. Tickets gibt es nur im Vorverkauf, also kein spontanes Hochlaufen in Glitzer 🪩",
-   "endDate": "2027-01-01T07:30+0100",
+   "description": "Erst ganz nah dran, dann plötzlich offen nach allen Seiten: Vera Jónás spielt ihre Songs in einem neuen Trio mit Lisa Hoppe und Paul Brody. Danach schichtet Gaia Mobilij live Loops und akustische Klänge so um, dass Melodien kurz aufblitzen und wieder kippen 👀",
+   "endDate": "2026-11-21T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/X003uvlQSUpFrX70kn6f_kk-nye26-rausgegangen.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/CSUU0tbRVVz56IiP3ZYw_23201image-2048x1024.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -820,25 +962,36 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "12043",
-     "streetAddress": "Karl-Marx-Straße 66"
+     "postalCode": "10435",
+     "streetAddress": "Knaackstraße 97"
     },
-    "name": "KLUNKERKRANICH"
+    "name": "PANDA platforma"
    },
-   "name": "SKYLINE BLING  * Silvester auf dem  Klunkerkranich 2026",
+   "name": "PANDAwomen 2026: Vera Jónás, Lisa Hoppe & Paul Brody / Gaia Mobilij",
    "offers": {
     "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "48.30",
+    "price": "17.00",
     "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/skyline-bling-silvester-auf-dem-klunkerkranich-2026",
-    "validFrom": "2026-11-03T13:23+0100"
+    "url": "https://panda-platforma.berlin/events/vera-j-n-s-lisa-hoppe-paul-brody-gaia-mobilij/",
+    "validFrom": "2026-11-20T20:30+0100"
    },
-   "startDate": "2026-12-31T19:00+0100"
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "PANDA platforma e.V.",
+     "url": "https://rausgegangen.de/organizations/page-for-team-panda-platforma-ev/"
+    },
+    {
+     "@type": "Organization",
+     "name": "PANDAwomen 2026 Festival",
+     "url": "https://rausgegangen.de/organizations/pandawomen-festival/"
+    }
+   ],
+   "startDate": "2026-11-20T20:30+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
-  "fetched": "2026-11-11T20:25:25+01:00",
+  "fetched": "2026-11-12T04:09:44+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -875,5 +1028,42 @@
    "startDate": "2026-12-19T19:30+0100"
   },
   "seen": "2026-10-31T02:26:10+01:00"
+ },
+ "https://rausgegangen.de/events/social-reading-club-3-1/": {
+  "fetched": "2026-11-12T04:09:44+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Das Handy bleibt draußen, das Buch nicht. Beim Social Reading Club liest Du ganz entspannt mit anderen zusammen und kannst danach einfach weitermachen, wenn Du magst 👀",
+   "endDate": "2026-11-17T20:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/5y41L6DFQ2uwqonGQ2L4_gk202516x9photoheadline-53-1.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10625",
+     "streetAddress": "Kantstraße 127"
+    },
+    "name": "Dufte Berlin"
+   },
+   "name": "Social Reading Club #3",
+   "offers": {
+    "@type": "Offer",
+    "price": "0.00",
+    "priceCurrency": "EUR",
+    "validFrom": "2026-11-17T18:30+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Social Reading Club",
+    "url": "https://rausgegangen.de/organizations/social-reading-club/"
+   },
+   "startDate": "2026-11-17T18:30+0100"
+  }
  }
 }

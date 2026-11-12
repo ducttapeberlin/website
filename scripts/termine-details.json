@@ -1,6 +1,6 @@
 {
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
-  "fetched": "2026-11-12T12:31:08+01:00",
+  "fetched": "2026-11-12T21:09:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -97,7 +97,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-11-12T12:31:08+01:00",
+  "fetched": "2026-11-12T21:09:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -123,8 +123,15 @@
     "@type": "AggregateOffer",
     "highPrice": "31.34",
     "lowPrice": "16.50",
-    "offerCount": 6,
+    "offerCount": 7,
     "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "MOLLY - Balcony Regular",
+      "price": "26.04",
+      "priceCurrency": "EUR"
+     },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
@@ -193,16 +200,16 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/abi-mohanty-tough-tiies-0/": {
-  "fetched": "2026-11-12T12:31:08+01:00",
+ "https://rausgegangen.de/events/all-we-need-is-house-by-mad-series-0/": {
+  "fetched": "2026-11-12T21:09:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Dark, raw & unapologetic comedy with Berlin’s Abi Mohanty. Uncomfortable truths, taboo topics & big laughs.Tough Titties isn't just another stand-up show. It's a night of uncomfortable truths wrapped in hilarious stories, sharp observations and the kind of jokes that make you laugh first — and question yourself later.Berlin-based comedian Abi Mohanty brings her signature blend of dark humour, satire and raw honesty to Karakas Comedy Club.Born in India and now based in Berlin, Abi explores the uncomfortable side of life with a wicked sense of humour. Her comedy takes on taboo subjects including religious dogma, restrictive upbringing, mental health, sexuality, identity, individual freedom and the strange realities of being an Ausländer in Europe.Abi has opened for some of the biggest names in European comedy, including Dragos, Mike Rice, Radu Isac and Netflix star Adrienne Iapalucci, as well as Abhishek Upmanyu.She has also made her mark on the London comedy circuit, winning multiple gong shows, including the coveted King Gong at The Comedy Store.Currently converting childhood trauma into jokes one show at a time, Abi has performed across Europe — usually in places where Ryanair goes.Her comedy is sharp, personal and deliberately uncomfortable. No easy stereotypes, no safe topics — just brutally honest stories turned into very good jokes.Come for the dark comedy. Stay for the chaos. And don't be surprised if you feel slightly guilty for laughing afterwards. Dark comedy. Raw honesty. Uncomfortable laughs. Zero apologies.  14 November · Karakas Comedy Club Kurfürstenstraße 9, Berlin 10785",
-   "endDate": "2026-11-14T19:30+0100",
+   "description": "MAD SERIES | ALL WE NEED IS HOUSE Am 21. November ab 22 Uhr bringt MAD SERIES House, Latin House und Afro House ins Hotel AMANO East Side in Berlin.Freut euch auf sechs DJs, treibende Beats und Specials vor Ort.Bei MAD SERIES seid ihr mittendrin. Ihr tanzt direkt vor und hinter dem DJ und seid Teil der Session. Unsere Sets werden gefilmt, mit euch und der Stimmung auf der Tanzfläche.Bringt eure Freunde mit und feiert mit uns bis tief in die Nacht.🎧 LINEUP Miguel Wave • Nathalie • KJ • Alexander Da Great • Janaa • Stinhow📍 Hotel AMANO East Side Stralauer Platz 30–31, 10243 Berlin 📅 21. November | ab 22 Uhr🎟️ Sichert euch jetzt eure Tickets!ALL WE NEED IS HOUSE",
+   "endDate": "2026-11-22T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/VihvDSydQ2qvMHAqK021_tough-tits-landscape.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/pcyMV6yjSZayLof98Of0_madseries16x9.png"
    ],
    "location": {
     "@type": "Place",
@@ -210,38 +217,48 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10785",
-     "streetAddress": "Kurfürstenstraße 9"
+     "postalCode": "10243",
+     "streetAddress": "Stralauer Platz 30-31"
     },
-    "name": "Karakas Bar"
+    "name": "AMANO East Side"
    },
-   "name": "Abi Mohanty - Tough Ti**ies",
+   "name": "All we need is House by MAD SERIES",
    "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "14.50",
-    "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/abi-mohanty-tough-tiies",
-    "validFrom": "2026-11-03T00:29+0100"
+    "@type": "AggregateOffer",
+    "highPrice": "12.79",
+    "lowPrice": "8.97",
+    "offerCount": 2,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Phase 1 – Einlass bis 00 Uhr",
+      "price": "8.97",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Phase 2",
+      "price": "12.79",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
    },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Karakas Comedy Club",
-    "url": "https://rausgegangen.de/organizations/karakas-comedy-club-1/"
-   },
-   "startDate": "2026-11-14T18:00+0100"
+   "startDate": "2026-11-21T22:00+0100"
   }
  },
- "https://rausgegangen.de/events/carlo5-die-letzte-tour-der-welt-2/": {
-  "fetched": "2026-11-12T12:31:08+01:00",
+ "https://rausgegangen.de/events/bodies-baddies-nye-edition-0/": {
+  "fetched": "2026-11-12T21:09:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Zwischen Pop und Rap hält Carlo5 seine Songs absichtlich in der Schwebe, mit rauer Stimme und trockenem Witz. Fast alles daran kommt direkt von ihm selbst, vom Schreiben bis zu den Videos 💃",
-   "endDate": "2027-04-09T23:00+0200",
+   "description": "Wenn Du das Jahr queer und mit ordentlich Energie abschließen willst, klingt das hier ziemlich ideal: mehrere Floors, Shows direkt nach dem Countdown und ein Format, das klar aus der Community kommt. Für Queers, Girls, Gays, Theys, Lovers und Allies gedacht 👀",
+   "endDate": "2027-01-01T06:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/fKEeGi7QaihTGY4sKn05_carlo5-tourevent-header.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/RqGvZn1mSD2O5uy0Wezo_rausgegangenbnbsasha-kopie2.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -249,33 +266,84 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10245",
-     "streetAddress": "Revaler Straße 99"
+     "postalCode": "10777",
+     "streetAddress": "Nollendorfplatz 5"
     },
-    "name": "Astra Kulturhaus"
+    "name": "Metropol"
    },
-   "name": "Carlo5 • DIE LETZTE TOUR DER WELT",
+   "name": "BODIES & BADDIES // NYE Party",
    "offers": {
-    "@type": "Offer",
-    "price": "39.80",
-    "priceCurrency": "EUR",
-    "url": "https://carlo5.krasserstoff.com/events/carlo5-die-letzte-tour-der-welt-astra-kulturhaus",
-    "validFrom": "2027-04-09T19:00+0200"
+    "@type": "AggregateOffer",
+    "highPrice": "85.40",
+    "lowPrice": "16.50",
+    "offerCount": 7,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Early Bird",
+      "price": "27.10",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Group Tickets First Wave",
+      "price": "32.40",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "First Wave",
+      "price": "37.70",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "VIP Tickets",
+      "price": "85.40",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Group Tickets Second Wave",
+      "price": "43.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Second Wave",
+      "price": "48.30",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Last Wave // Abendkasse",
+      "price": "52.54",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
    },
    "organizer": {
     "@type": "Organization",
-    "name": "LANDSTREICHER BOOKING",
-    "url": "https://rausgegangen.de/organizations/landstreicher-booking-ah-fk3y/"
+    "name": "Ocean Eyes",
+    "url": "https://rausgegangen.de/organizations/ocean-eyes/"
    },
    "performer": {
     "@type": "PerformingGroup",
-    "name": "Carlo5"
+    "name": "Ocean"
    },
-   "startDate": "2027-04-09T19:00+0200"
+   "startDate": "2026-12-31T22:00+0100"
   }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-11-12T12:31:08+01:00",
+  "fetched": "2026-11-12T21:09:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -363,16 +431,16 @@
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/cris-cosmo-liebe-dich-selbst-tour-2026-3/": {
-  "fetched": "2026-11-12T12:31:08+01:00",
+ "https://rausgegangen.de/events/der-schatz-eine-bohmische-familiengeschichte-0/": {
+  "fetched": "2026-11-12T21:09:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Liebe dich selbst Tour 2026 – Mit seinem neuen Album geht Cris Cosmo im Herbst 2026 auf große Deutschlandtour und bringt die Botschaft von Selbstliebe, Lebensfreude und Zusammenhalt auf die Bühne. Cris Cosmo, bekannt als Botschafter für Toleranz und Weltoffenheit, verbindet Singer-Songwriter, Indie-Pop, Reggae und südamerikanische Grooves zu einem tanzbaren Sound mit starken, positiven Messages. Nach über 2.000 Konzerten begeistert er mit interaktiven Momenten, spontanen Freestyle-Einlagen und einer außergewöhnlichen Bühnenpräsenz – eine Freiheits-Party voller guter Vibes, bei der alle Generationen und Nationen willkommen sind.Support: Antonio Hoffmann Gibt es Hafermilch beim Bund? Der Berliner Songwriter stellt die Fragen, die wirklich zählen, mit Wortwitz, feinen Gitarrenarrangements und kraftvoller Stimme. https://www.instagram.com/antoniohoffmann_/ Der Zutritt zum Monarch ist erst ab 18 Jahren möglich.",
-   "endDate": "2026-11-21T05:00+0100",
+   "description": "April 1945. Die Rote Armee rückt unaufhaltsam vor. Am Fuß des Riesengebirges vergräbt Otto Ther eine Kiste mit einem Diamantkreuz, Schmuck und poliertem Silberbesteck. Sie soll überdauern, bis die Familie nach Hohenelbe, heute Vrchlabí, zurückkehren kann.Jahrzehnte später reist sein Enkel, der Historiker Philipp Ther, mit seinem Vater immer wieder in die verlorene Heimat. Das örtliche Museum übergibt ihnen drei Kisten, für den Historiker ein Schatz ganz anderer Art. Die Familiendokumente darin zeigen, wie tief die eigene Familie in den Nationalsozialismus verstrickt war.In „Mein Schatz“ verbindet Philipp Ther Familien- und Zeitgeschichte zu einer persönlichen Erzählung über Herkunft, Schuld und Erinnerung.„Philipp Ther ist ein sozialhistorischer Prosakünstler.“ Gustav Seibt PROGRAMM BegrüßungDr. Roland Borchers, Direktor, Dokumentationszentrum Flucht, Vertreibung, Versöhnung (Berlin)Lesung und GesprächProf. Dr. Philipp Ther, AutorModeration: em. Prof. Dr. Jürgen Kocka, Freie Universität (Berlin)Der Autor steht nach der Lesung für eine Signierstunde bereit. Im Anschluss laden wir Sie zu einem kleinen Empfang ein.  WEITERE HINWEISE   Büchertisch: Buchhandlung „Der Zauberberg“Einlass: 18.00 Uhr   Sprache: DeutschEINTRITT FREI, MIT ANMELDUNGDie Veranstaltung wird aufgezeichnet und auf unserem YouTube-Kanal Flucht, Vertreibung, Versöhnung veröffentlicht.",
+   "endDate": "2026-12-02T20:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Zvxq8P9MTq52crjoixf4_cris-cosmo-liebe-dich-selbst-cover-image-by-rene-van-der-voorden-header-1.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/iONiEZu9RfK8U0wtzZgo_der-schatz-2.png"
    ],
    "location": {
     "@type": "Place",
@@ -380,58 +448,61 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10999",
-     "streetAddress": "Skalitzer Str. 134"
+     "postalCode": "10963",
+     "streetAddress": "Stresemannstraße 90"
     },
-    "name": "Monarch"
+    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
    },
-   "name": "Cris Cosmo - Liebe dich selbst Tour 2026",
+   "name": "Der Schatz – Eine böhmische Familiengeschichte",
+   "offers": {
+    "@type": "Offer",
+    "price": "0.00",
+    "priceCurrency": "EUR",
+    "validFrom": "2026-12-02T18:30+0100"
+   },
+   "startDate": "2026-12-02T18:30+0100"
+  }
+ },
+ "https://rausgegangen.de/events/donata-strength-release-concert-0/": {
+  "fetched": "2026-11-12T21:09:30+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Zwischen Neuanfang und Rücken gerade machen liegen bei Donata nur ein paar Songs. Sie bringt ihre neue EP Strength mit kompletter Band auf die Bühne und lädt zu einem Abend ein, der eher nach echtem Miteinander klingt als nach bloßem Konzert 💜",
+   "endDate": "2026-11-12T23:30+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Td7PmoF3RX6i3YmuX3OA_2.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10117",
+     "streetAddress": "Auguststraße 24"
+    },
+    "name": "Spiegelsaal | Clärchens Ballhaus"
+   },
+   "name": "Donata - \"Strength\" Release Concert",
    "offers": {
     "@type": "AggregateOffer",
-    "highPrice": "20.00",
-    "lowPrice": "0.00",
-    "offerCount": 4,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "15.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Ermäßigt",
-      "price": "10.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Supporter",
-      "price": "20.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Begleitperson",
-      "price": "0.00",
-      "priceCurrency": "EUR"
-     }
-    ],
+    "highPrice": "30.00",
+    "lowPrice": "21.80",
+    "offerCount": 0,
+    "offers": [],
     "priceCurrency": "EUR"
    },
    "performer": {
     "@type": "PerformingGroup",
-    "name": "Cris Cosmo"
+    "name": "Donata"
    },
-   "startDate": "2026-11-20T19:30+0100"
+   "startDate": "2026-11-12T19:00+0100"
   }
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
-  "fetched": "2026-11-12T12:31:08+01:00",
+  "fetched": "2026-11-12T21:09:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -476,7 +547,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-12T12:31:08+01:00",
+  "fetched": "2026-11-12T21:09:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -523,7 +594,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-22/": {
-  "fetched": "2026-11-12T12:31:08+01:00",
+  "fetched": "2026-11-12T21:09:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -568,7 +639,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
-  "fetched": "2026-11-12T12:31:08+01:00",
+  "fetched": "2026-11-12T21:09:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -613,7 +684,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
-  "fetched": "2026-11-12T12:31:08+01:00",
+  "fetched": "2026-11-12T21:09:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -660,7 +731,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-11-12T12:31:08+01:00",
+  "fetched": "2026-11-12T21:09:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -711,7 +782,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-brunch-sponsored-by-fritz-kola-winter-edition-0/": {
-  "fetched": "2026-11-12T12:31:08+01:00",
+  "fetched": "2026-11-12T21:09:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -753,8 +824,68 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
+ "https://rausgegangen.de/events/fliegende-haie-alle-gehn-dumm-tour-12/": {
+  "fetched": "2026-11-12T21:09:30+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Kuck dir die Welt doch an: Alle gehn dumm. Smartphone-Zombies, emotionaler Leerstand, machtbesessene Despoten. Zeit für einen Reset – Fliegende Haie finden: Wenn schon dumm gehen, dann richtig! Ausrasten, durchtanzen und schweißnass Hymnen hinausschreien für eine bessere Welt.Unterdrückung von Frauen, mentale Gesundheit, sexuelle Unfreiheit – Haie reißen Wunden auf, denn wir haben keinen Bock, dass morgen noch alles so ist wie heute. Also Blutrausch an und die Issues zermahlen im Revolvergebiss. Dazu Bässe, die Beine wegreißen wie der Weiße Hai.Der Haie-Hyperpop ist seit der letzten Tour 2025 düsterer geworden, doch live energiegeladen wie eh und je: Instant wirst du hineingesogen in eine Artshow, die das Salzwasser aus deinen Poren drückt, bis sie dich als neuer Mensch wieder ausgespuckt. Durchgeschüttelt, wachgerüttelt, aber glücklich. Nur was blutet, kann auch hailen.",
+   "endDate": "2026-12-11T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/kDdpHEaT06v9EGY8VXh3_fliegende-haie-alle-gehn-dumm-foto-01quer-c-maxim-kaiser.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "12435",
+     "streetAddress": "Alt Treptow 6"
+    },
+    "name": "Kulturhaus Insel Berlin"
+   },
+   "name": "FLIEGENDE HAIE - Alle gehn dumm-Tour",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "27.10",
+    "lowPrice": "16.50",
+    "offerCount": 3,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Social Ticket",
+      "price": "16.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "21.80",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Supporterticket",
+      "price": "27.10",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Fliegende Haie"
+   },
+   "startDate": "2026-12-10T20:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-11-12T12:31:08+01:00",
+  "fetched": "2026-11-12T21:09:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -844,7 +975,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1/": {
-  "fetched": "2026-11-12T12:31:08+01:00",
+  "fetched": "2026-11-12T21:09:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -885,16 +1016,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/pandawomen-2026-aban-ensemble-dj-rosemah-curated-by-yalda-ya-0/": {
-  "fetched": "2026-11-12T12:31:08+01:00",
+ "https://rausgegangen.de/events/relachen-cierre-de-una-era-0/": {
+  "fetched": "2026-11-12T21:09:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Erst vier Musikerinnen aus Iran, dann DJ ROSEMAH mit Sounds zwischen House, Hip Hop und Klängen aus Afghanistan, Persien und der SWANA Region. Ein Abend, an dem musikalische Welten nicht sauber getrennt bleiben 👀",
-   "endDate": "2026-11-22T05:00+0100",
+   "description": "SHOW 100% in SPANISH!Relachen dice hasta luego, Berlín! 2014 - 2026Patricia Fernández, fundadora y presentadora del show desde 2014, cambia de residencia (de Berlín a Valencia, España), y por esto cerraremos A LO GRANDE con profundo agradecimiento y alegría esta era de comedia en español en Berlín!Este 13 de noviembre contaremos con 8 (se lee OCHO 🤩) fantásticas presentaciones seleccionadas de entre tod@s l@s maravillos@s artistas que, a lo largo de estos 12 años, han formado (y siempre formarán 💘) parte de este hermoso universo cómico:  ✨ Liliana Velásquez (COL) https://www.instagram.com/ladios_v/  ✨ Ayla Merino (MEX) https://www.instagram.com/aylamerino/  ✨ Eliecer Reyes (ESP) https://www.instagram.com/eliecerreyesfalcon/  ✨ Palma Palacios (RD) https://www.instagram.com/palmapalacios/  ✨ ELGRANDE BBX (PER) https://www.instagram.com/elgrandebbx/  ✨ Doel Cupo(MEX) https://www.instagram.com/doelcupo/  ✨ Lu Noboa (ECU) https://www.instagram.com/lalunoboa/  ✨ Chiquilove (VEN) https://www.instagram.com/chiquilovelovelove/Y, al más puro estilo Berlín, Patricia presentará su nuevo número de cabaret: 🎂 cake sitting, nunca antes visto en Relachen! 🤩🔝 Como siempre, ¡calidad garantizada!  Invitamos a toda nuestra querida comunidad hispanoparlante (y adherid@s 😉) a formar parte de esta ÚNICA experiencia. Todo ocurrirá en CIRCUS POTOO, un maravilloso nuevo espacio cultural que tenemos muchas ganas de que conozcan y disfruten.🗣️ Show 100% en español 🔞 Para mayores de 18 años 💶 El bar acepta SÓLO EFECTIVO Si quieres acceder a uno de los solitickets, simplemente escribe al instagram de Relachen (https://www.instagram.com/relachen_berlin/)Nota: Lastimosamente la entrada al recinto (aun) no está adaptada para personas con movilidad reducida.Abriremos puertas a las 18:30h ¡Lleguen temprano porque en el circo hay juegos y entretenimiento análogo que van a querer probar! Show a las 19:30h 🥳💃🏽🕺🏻🤸🏼‍♀️🎶 Luego del show habrá música, baile, canto y, claro que sí, mucho mas RELAJO¡Les esperamos con amor y humor! 💋________________________🎪 INFOS ABOUT THE VENUE 🎪The Circus Potoo is located in a Historic Vaulted Cellar, therefore it is important that all of our guests are respectful to the space. When you purchase a ticket, you agree to follow these simple rules:🚭 NO SMOKING 🚫 NO GRAFFITI   We urge you to be mindful of the flooring and to watch you step as you move through the space. The venue does not have step-free access but this is something we aim to work on for the future.Circus Potoo strives to be a safe space for all walks of life, we do not tolerate discrimination or agressive behaviour towards our staff, artists or guests. Management reserves the right to refuse admission and tickets are non-transferable or refundable unless the event is cancelled.CASH ONLYADULTS ONLY",
+   "endDate": "2026-11-14T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/xujcRKOIRwmSNozh4mi6_23207image-2048x1024.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/EVgGIxoS6mkFFlA3woWu_relachen261113rausgegangen.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -902,68 +1033,52 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10435",
-     "streetAddress": "Knaackstraße 97"
+     "postalCode": "10405",
+     "streetAddress": "Straßburger Straße 53"
     },
-    "name": "PANDA platforma"
+    "name": "Circus Potoo"
    },
-   "name": "PANDAwomen 2026: Aban Ensemble / DJ ROSEMAH / Curated by Yalda Yazdani",
+   "name": "Relachen: cierre de una era",
    "offers": {
-    "@type": "Offer",
-    "price": "20.00",
-    "priceCurrency": "EUR",
-    "url": "https://panda-platforma.berlin/events/aban-ensemble-dj-rosemah/",
-    "validFrom": "2026-11-21T20:30+0100"
+    "@type": "AggregateOffer",
+    "highPrice": "25.00",
+    "lowPrice": "10.00",
+    "offerCount": 3,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "SOLIDARITY TICKETS",
+      "price": "11.20",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "REGULAR TICKETS",
+      "price": "21.80",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "SUPPORTER",
+      "price": "27.10",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
    },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "PANDA platforma e.V.",
-     "url": "https://rausgegangen.de/organizations/page-for-team-panda-platforma-ev/"
-    },
-    {
-     "@type": "Organization",
-     "name": "PANDAwomen 2026 Festival",
-     "url": "https://rausgegangen.de/organizations/pandawomen-festival/"
-    }
-   ],
-   "startDate": "2026-11-21T20:30+0100"
-  }
- },
- "https://rausgegangen.de/events/school-of-quilombismo-crip-epistemologies-0/": {
-  "fetched": "2026-11-12T12:31:08+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Hier geht es um Crip-Wissen, das von Menschen mit Behinderung selbst gedacht und weitergegeben wird. Workshops, Vorträge und Interventionen setzen dabei bewusst auf Austausch statt Frontalbetrieb – und das Ganze ist entspannt gestaltet 🫶",
-   "endDate": "2026-11-15T17:30+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/20VxdkKkSB6FSwWk767w_keyvisual-soq.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10557",
-     "streetAddress": "John-Foster-Dulles-Allee 10"
-    },
-    "name": "Haus der Kulturen der Welt | HKW"
+   "organizer": {
+    "@type": "Organization",
+    "name": "Circus Potoo",
+    "url": "https://rausgegangen.de/organizations/circus-potoo-2/"
    },
-   "name": "School of Quilombismo: Crip Epistemologies",
-   "offers": {
-    "@type": "Offer",
-    "price": "0.00",
-    "priceCurrency": "EUR",
-    "validFrom": "2026-11-14T10:00+0100"
-   },
-   "startDate": "2026-11-14T10:00+0100"
+   "startDate": "2026-11-13T18:30+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
-  "fetched": "2026-11-12T12:31:08+01:00",
+  "fetched": "2026-11-12T21:09:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -1000,42 +1115,5 @@
    "startDate": "2026-12-19T19:30+0100"
   },
   "seen": "2026-10-31T02:26:10+01:00"
- },
- "https://rausgegangen.de/events/speak-up-inline-x-stories-of-her-with-x-tin-degen-oneyra-lin-0/": {
-  "fetched": "2026-11-12T12:31:08+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Erst reden, dann tanzen: Die Party feiert den sechsten Geburtstag von Stories of Her, einem Projekt, das anonyme Erfahrungen mit Sexismus, Belästigung und sexualisierter Gewalt sichtbar macht. Später kippt der Abend in elektronische Sets von X Tin, degen, Ôneyra, Linda shiro und mehr 🌈",
-   "endDate": "2026-11-15T06:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/07IK7lgPQpK2XrMjwDQC_postv1.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10245",
-     "streetAddress": "Revaler Str. 99"
-    },
-    "name": "Crack Bellmer"
-   },
-   "name": "SPEAK UP Inline x Stories of Her with X Tin, degen, Ôneyra, Linda shiro & many more",
-   "offers": {
-    "@type": "Offer",
-    "price": "10.00",
-    "priceCurrency": "EUR",
-    "validFrom": "2026-11-14T17:30+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Inline",
-    "url": "https://rausgegangen.de/organizations/inline/"
-   },
-   "startDate": "2026-11-14T17:30+0100"
-  }
  }
 }

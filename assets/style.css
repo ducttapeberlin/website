@@ -1201,3 +1201,9 @@ h2 { line-height: 1.16; }
 .nl-page .nl-more ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 10px 22px; }
 .nl-page .nl-more a { color: rgba(255,255,255,.8); text-decoration: underline; text-underline-offset: 3px; }
 .nl-page .nl-more a:hover { color: var(--yellow); }
+
+/* Referenzen: 13 Logos, letzte Reihe zentriert (2026-11-12, CURA Berlin dazu) */
+.partners { display: flex; flex-wrap: wrap; justify-content: center; --n: 13; }
+.partner { flex: 0 0 calc((100% - (var(--n) - 1) * clamp(8px, 1.2vw, 16px)) / var(--n)); }
+@media (max-width: 1000px) { .partners { --n: 7; } }
+@media (max-width: 560px) { .partners { --n: 5; } }

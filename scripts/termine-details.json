@@ -1,6 +1,52 @@
 {
+ "https://rausgegangen.de/events/1-day-chor-berlin-0/": {
+  "fetched": "2026-11-13T23:43:45+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Ein Chor für einen Tag, ohne langes Commitment. Unter Leitung von Constantin Gold entsteht mit anderen ein Medley aus 5 bis 7 Songs, und am Ende wird das gemeinsam Erarbeitete professionell aufgenommen 🎤",
+   "endDate": "2026-12-13T16:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/4JYsZ4KKQ46DQVPPL7v9_design2026eventsonedaychorentwurf01.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "13088",
+     "streetAddress": "Berliner Allee 125"
+    },
+    "name": "PETER EDEL"
+   },
+   "name": "1 DAY CHOR Berlin",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "60.00",
+    "priceCurrency": "EUR",
+    "url": "https://t.rausgegangen.de/tickets/1-day-chor-berlin",
+    "validFrom": "2026-11-05T00:00+0100"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "1 DAY CHOR",
+     "url": "https://rausgegangen.de/organizations/1-day-chor/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Rausgegangen Events",
+     "url": "https://rausgegangen.de/organizations/rausgegangen-events/"
+    }
+   ],
+   "startDate": "2026-12-13T10:30+0100"
+  }
+ },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
-  "fetched": "2026-11-13T17:34:02+01:00",
+  "fetched": "2026-11-13T23:43:45+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -97,7 +143,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-11-13T17:34:02+01:00",
+  "fetched": "2026-11-13T23:43:45+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -207,16 +253,16 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/colours-of-the-night-3/": {
-  "fetched": "2026-11-13T17:34:02+01:00",
+ "https://rausgegangen.de/events/abi-mohanty-tough-tiies-0/": {
+  "fetched": "2026-11-13T23:43:45+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Der sexpositive Rave für alle Sinne Techno, Melodic Techno & Peak Time by Junior WA & Sika Akis  Dresscode: Sexy · kinky · elegant · fantasievoll · farbenfroh · extravagant Eintritt: 28€ pro Person, NextGen Ticket (18-28 J.) 20€, Social Ticket* 18€Bitte Tickets an der Abendkasse kaufen. Colors of the Night ist keine gewöhnliche Clubnacht.Es ist ein Rave zwischen Ekstase, Verführung und sexueller Freiheit – für Menschen, die tanzen, flirten, spielen und sich treiben lassen wollen.  Dein farbiges Bändchen zeigt, was Dich heute Nacht reizt: Grün = Offen für Abenteuer Gelb = Just Party Blau = Paare unter sich Rot = Bi-Interessiert  Du kannst Deine Farbe jederzeit wechseln. Denn manchmal beginnt eine Nacht ganz harmlos – und entwickelt dann ihre eigene Dynamik.  Auf dem Dancefloor verschmelzen Körper, Licht und treibende Beats. Abseits davon warten sinnliche Rückzugsorte, Kuschelecken und Play-Areas für alle, die mehr als nur tanzen wollen.  Beobachten. Flirten. Berühren. Spielen. Alles darf - nichts muss.  Ein Bändchen zeigt Interesse – es ersetzt niemals eine klare Zustimmung. Fragen ist sexy. Respekt ist Pflicht. Unser Awareness-Team ist die ganze Nacht für Dich da.  DRESSCODE Sexy · kinky · fantasievoll · farbenfroh · extravagant Zeig Haut, Haltung und Fantasie. Lack, Leder, Latex, Dessous, Harness, Glamour, Fetisch, wilde Farben oder ein Look, der garantiert nicht nach Alltag aussieht. Keine Jeans. Keine weißen Sneaker. Keine Langeweile.  Vier Farben. Tausend Möglichkeiten. Welche Farbe trägt Deine Nacht?",
-   "endDate": "2026-11-15T05:00+0100",
+   "description": "Dark, raw & unapologetic comedy with Berlin’s Abi Mohanty. Uncomfortable truths, taboo topics & big laughs.Tough Titties isn't just another stand-up show. It's a night of uncomfortable truths wrapped in hilarious stories, sharp observations and the kind of jokes that make you laugh first — and question yourself later.Berlin-based comedian Abi Mohanty brings her signature blend of dark humour, satire and raw honesty to Karakas Comedy Club.Born in India and now based in Berlin, Abi explores the uncomfortable side of life with a wicked sense of humour. Her comedy takes on taboo subjects including religious dogma, restrictive upbringing, mental health, sexuality, identity, individual freedom and the strange realities of being an Ausländer in Europe.Abi has opened for some of the biggest names in European comedy, including Dragos, Mike Rice, Radu Isac and Netflix star Adrienne Iapalucci, as well as Abhishek Upmanyu.She has also made her mark on the London comedy circuit, winning multiple gong shows, including the coveted King Gong at The Comedy Store.Currently converting childhood trauma into jokes one show at a time, Abi has performed across Europe — usually in places where Ryanair goes.Her comedy is sharp, personal and deliberately uncomfortable. No easy stereotypes, no safe topics — just brutally honest stories turned into very good jokes.Come for the dark comedy. Stay for the chaos. And don't be surprised if you feel slightly guilty for laughing afterwards. Dark comedy. Raw honesty. Uncomfortable laughs. Zero apologies.  14 November · Karakas Comedy Club Kurfürstenstraße 9, Berlin 10785",
+   "endDate": "2026-11-14T19:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/bkeGYjFzTMiNuNvJG9d2_coloursnightrausgegangen1920x1080.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/VihvDSydQ2qvMHAqK021_tough-tits-landscape.png"
    ],
    "location": {
     "@type": "Place",
@@ -224,24 +270,79 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "12099",
-     "streetAddress": "Alt-Tempelhof 17-19"
+     "postalCode": "10785",
+     "streetAddress": "Kurfürstenstraße 9"
     },
-    "name": "Insomnia Club Berlin"
+    "name": "Karakas Bar"
    },
-   "name": "Colours of the Night",
+   "name": "Abi Mohanty - Tough Ti**ies",
    "offers": {
     "@type": "Offer",
-    "price": 0,
+    "availability": "https://schema.org/InStock",
+    "price": "14.50",
     "priceCurrency": "EUR",
-    "url": "https://insomnia.berlin/s-positive/5090",
-    "validFrom": "2026-11-14T22:00+0100"
+    "url": "https://t.rausgegangen.de/tickets/abi-mohanty-tough-tiies",
+    "validFrom": "2026-11-03T00:29+0100"
    },
-   "startDate": "2026-11-14T22:00+0100"
+   "organizer": {
+    "@type": "Organization",
+    "name": "Karakas Comedy Club",
+    "url": "https://rausgegangen.de/organizations/karakas-comedy-club-1/"
+   },
+   "startDate": "2026-11-14T18:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/all-we-need-is-house-by-mad-series-0/": {
+  "fetched": "2026-11-13T23:43:45+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "MAD SERIES | ALL WE NEED IS HOUSE Am 21. November ab 22 Uhr bringt MAD SERIES House, Latin House und Afro House ins Hotel AMANO East Side in Berlin.Freut euch auf sechs DJs, treibende Beats und Specials vor Ort.Bei MAD SERIES seid ihr mittendrin. Ihr tanzt direkt vor und hinter dem DJ und seid Teil der Session. Unsere Sets werden gefilmt, mit euch und der Stimmung auf der Tanzfläche.Bringt eure Freunde mit und feiert mit uns bis tief in die Nacht.🎧 LINEUP Miguel Wave • Nathalie • KJ • Alexander Da Great • Janaa • Stinhow📍 Hotel AMANO East Side Stralauer Platz 30–31, 10243 Berlin 📅 21. November | ab 22 Uhr🎟️ Sichert euch jetzt eure Tickets!ALL WE NEED IS HOUSE",
+   "endDate": "2026-11-22T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/pcyMV6yjSZayLof98Of0_madseries16x9.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10243",
+     "streetAddress": "Stralauer Platz 30-31"
+    },
+    "name": "AMANO East Side"
+   },
+   "name": "All we need is House by MAD SERIES",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "12.79",
+    "lowPrice": "8.97",
+    "offerCount": 2,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Phase 1 – Einlass bis 00 Uhr",
+      "price": "8.97",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Phase 2",
+      "price": "12.79",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "startDate": "2026-11-21T22:00+0100"
   }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-11-13T17:34:02+01:00",
+  "fetched": "2026-11-13T23:43:45+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -330,7 +431,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
-  "fetched": "2026-11-13T17:34:02+01:00",
+  "fetched": "2026-11-13T23:43:45+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -375,7 +476,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-13T17:34:02+01:00",
+  "fetched": "2026-11-13T23:43:45+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -422,7 +523,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-22/": {
-  "fetched": "2026-11-13T17:34:02+01:00",
+  "fetched": "2026-11-13T23:43:45+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -467,7 +568,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
-  "fetched": "2026-11-13T17:34:02+01:00",
+  "fetched": "2026-11-13T23:43:45+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -512,7 +613,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
-  "fetched": "2026-11-13T17:34:02+01:00",
+  "fetched": "2026-11-13T23:43:45+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -559,7 +660,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-11-13T17:34:02+01:00",
+  "fetched": "2026-11-13T23:43:45+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -610,7 +711,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-brunch-sponsored-by-fritz-kola-winter-edition-0/": {
-  "fetched": "2026-11-13T17:34:02+01:00",
+  "fetched": "2026-11-13T23:43:45+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -652,83 +753,8 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
- "https://rausgegangen.de/events/fomo-kiez-dinner-friendsgiving-edition-0/": {
-  "fetched": "2026-11-13T17:34:02+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Erst sitzt Du mit vier Unbekannten am Tisch, ein paar Stunden später kennst Du schon ein ganzes Dutzend. Jede Runde zieht weiter in eine andere Wohnung, bis am Ende alle nochmal zusammenkommen 🌈",
-   "endDate": "2026-11-22T01:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/cb42ed643ff7443d9080d4527fc3cea8_bildschirmfoto-2026-11-12-um-161251.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": null,
-     "streetAddress": null
-    },
-    "name": "Berlin"
-   },
-   "name": "FOMO Kiez Dinner: Friendsgiving Edition",
-   "offers": {
-    "@type": "Offer",
-    "price": "25.00",
-    "priceCurrency": "EUR",
-    "url": "https://luma.com/fomokiezdinner",
-    "validFrom": "2026-11-21T17:30+0100"
-   },
-   "startDate": "2026-11-21T17:30+0100"
-  }
- },
- "https://rausgegangen.de/events/hits-different-steve-clash-club-tour-2026-berlin-0/": {
-  "fetched": "2026-11-13T17:34:02+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Electronic dance party with your favorite mashup bangers played in a sophisticated DJ set.Steve Clash zerlegt deine Lieblingssongs. Mainstage-Energie und Meilensteine der Popkultur vereinen sich in den sogenannten Power-Mashups. Deine Lieblingssongs nur lauter, etwas kaputter und tanzbarer.Haftbefehl aber Drum N Bass, Peter Fox aber Bass House, Imogen Heap aber Speed House. Hits different.",
-   "endDate": "2026-11-21T22:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/9I0oY3UlTfGrBCKZ1vJC_photobyjoschawiener202608082110131-2.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10999",
-     "streetAddress": "Skalitzer Str. 134"
-    },
-    "name": "Monarch"
-   },
-   "name": "Hits Different - Steve Clash Club Tour 2026 - Berlin",
-   "offers": {
-    "@type": "Offer",
-    "price": "10.00",
-    "priceCurrency": "EUR",
-    "url": "https://ticket2go.de/c/5869",
-    "validFrom": "2026-11-21T18:30+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Steve Clash",
-    "url": "https://rausgegangen.de/organizations/page-for-team-steve-clash/"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Steve Clash"
-   },
-   "startDate": "2026-11-21T18:30+0100"
-  }
- },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-11-13T17:34:02+01:00",
+  "fetched": "2026-11-13T23:43:45+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -818,7 +844,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1/": {
-  "fetched": "2026-11-13T17:34:02+01:00",
+  "fetched": "2026-11-13T23:43:45+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -859,54 +885,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/mattiel-4/": {
-  "fetched": "2026-11-13T17:34:02+01:00",
+ "https://rausgegangen.de/events/plant-based-4-gang-menu-0/": {
+  "fetched": "2026-11-13T23:43:45+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Mattiel Brown kommt aus Atlanta, lebt in Italien und klingt trotzdem nach keiner klaren Schublade. Zwischen Vintage Soul und Indie Rock zeigt ihre neue Single eine leisere, persönlichere Seite 👀",
-   "endDate": "2027-05-24T06:00+0200",
+   "description": "Last HarvestEin Festmenü zur VorweihnachtszeitDie festliche Jahreszeit beginnt am Tisch. Am 27. und 28. November laden wir dich ins Boma Berlin zu Last Harvestein: einem veganen und glutenfreien 4-Gänge-Menü, das die Aromen des späten Herbstes mit einem Hauch festlicher Vorfreude verbindet.Das MenüI · Pão-de-Queijo-Trio Drei vegane brasilianische Pão de Queijo, begleitet von aufgeschlagener Salbei-Bohnen-Creme, Quitten-Senf-Chutney und einer Creme aus geröstetem Knoblauch und Sonnenblumenkernen.II · Karamellisierter Chicorée Karamellisierter Chicorée mit Mandel-Ricotta und glänzender Quitten-Gastrique. Knusprige Kapern setzen einen salzigen Akzent; feiner Kerbel vollendet den Teller.III · Gebratener Kräuterseitling Kräftig gebratener Kräuterseitling mit goldenem Kartoffel-Pavé und konfiertem Hispi-Spitzkohl. Maronen und gerösteter Buchweizen sorgen für einen knusprigen Akzent; Cranberry-Orangen-Mostarda und ein Steinpilz-Thymian-Jus mit gerösteter Zwiebel bringen Frische und Tiefe.IV · Kürbis-Tiramisu Eine herbstliche Interpretation des Tiramisu, vollendet mit knusprigem, glutenfreiem Amaretti.Die wichtigsten InformationenWann: Freitag, 27. November und Samstag, 28. November 2026 Wo: Boma Berlin, Winsstraße 9, 10405  Preis: 49 € pro Person / Getränkebegleitung optional à 20€ Tickets: Nur im Vorverkauf; ein Ticket ist erforderlich. Buchung: SumupstoreDas Menü ist vegan und glutenfrei. Es enthält Soja (Tamari), Schalenfrüchte (Mandeln und Cashews) sowie Senf.Wir freuen uns darauf, mit dir den Beginn der festlichen Jahreszeit zu feiern.Milla’s Tablewww.millasplace.de",
+   "endDate": "2026-11-28T22:15+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/H5QfApkARu6WTlvbe579_mattiel-hp-1270x700-px.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10777",
-     "streetAddress": "Nollendorfplatz 5"
-    },
-    "name": "Mikropol"
-   },
-   "name": "Mattiel",
-   "offers": {
-    "@type": "Offer",
-    "price": "24.90",
-    "priceCurrency": "EUR",
-    "url": "https://www.eventim.de/noapp/event/mattiel-the-at-the-doorstep-tour-mikropol-22313827/?affiliate=KSG&utm_campaign=schoneberg&utm_source=KSG&utm_medium=dp",
-    "validFrom": "2027-05-23T19:00+0200"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Konzertbüro Schoneberg",
-    "url": "https://rausgegangen.de/organizations/schoneberg-konzerte/"
-   },
-   "startDate": "2027-05-23T19:00+0200"
-  }
- },
- "https://rausgegangen.de/events/relachen-cierre-de-una-era-0/": {
-  "fetched": "2026-11-13T17:34:02+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "SHOW 100% in SPANISH!Relachen dice hasta luego, Berlín! 2014 - 2026Patricia Fernández, fundadora y presentadora del show desde 2014, cambia de residencia (de Berlín a Valencia, España), y por esto cerraremos A LO GRANDE con profundo agradecimiento y alegría esta era de comedia en español en Berlín!Este 13 de noviembre contaremos con 8 (se lee OCHO 🤩) fantásticas presentaciones seleccionadas de entre tod@s l@s maravillos@s artistas que, a lo largo de estos 12 años, han formado (y siempre formarán 💘) parte de este hermoso universo cómico:  ✨ Liliana Velásquez (COL) https://www.instagram.com/ladios_v/  ✨ Ayla Merino (MEX) https://www.instagram.com/aylamerino/  ✨ Eliecer Reyes (ESP) https://www.instagram.com/eliecerreyesfalcon/  ✨ Palma Palacios (RD) https://www.instagram.com/palmapalacios/  ✨ ELGRANDE BBX (PER) https://www.instagram.com/elgrandebbx/  ✨ Doel Cupo(MEX) https://www.instagram.com/doelcupo/  ✨ Lu Noboa (ECU) https://www.instagram.com/lalunoboa/  ✨ Chiquilove (VEN) https://www.instagram.com/chiquilovelovelove/Y, al más puro estilo Berlín, Patricia presentará su nuevo número de cabaret: 🎂 cake sitting, nunca antes visto en Relachen! 🤩🔝 Como siempre, ¡calidad garantizada!  Invitamos a toda nuestra querida comunidad hispanoparlante (y adherid@s 😉) a formar parte de esta ÚNICA experiencia. Todo ocurrirá en CIRCUS POTOO, un maravilloso nuevo espacio cultural que tenemos muchas ganas de que conozcan y disfruten.🗣️ Show 100% en español 🔞 Para mayores de 18 años 💶 El bar acepta SÓLO EFECTIVO Si quieres acceder a uno de los solitickets, simplemente escribe al instagram de Relachen (https://www.instagram.com/relachen_berlin/)Nota: Lastimosamente la entrada al recinto (aun) no está adaptada para personas con movilidad reducida.Abriremos puertas a las 18:30h ¡Lleguen temprano porque en el circo hay juegos y entretenimiento análogo que van a querer probar! Show a las 19:30h 🥳💃🏽🕺🏻🤸🏼‍♀️🎶 Luego del show habrá música, baile, canto y, claro que sí, mucho mas RELAJO¡Les esperamos con amor y humor! 💋________________________🎪 INFOS ABOUT THE VENUE 🎪The Circus Potoo is located in a Historic Vaulted Cellar, therefore it is important that all of our guests are respectful to the space. When you purchase a ticket, you agree to follow these simple rules:🚭 NO SMOKING 🚫 NO GRAFFITI   We urge you to be mindful of the flooring and to watch you step as you move through the space. The venue does not have step-free access but this is something we aim to work on for the future.Circus Potoo strives to be a safe space for all walks of life, we do not tolerate discrimination or agressive behaviour towards our staff, artists or guests. Management reserves the right to refuse admission and tickets are non-transferable or refundable unless the event is cancelled.CASH ONLYADULTS ONLY",
-   "endDate": "2026-11-14T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/EVgGIxoS6mkFFlA3woWu_relachen261113rausgegangen.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/5HJ9pRqTxiDlg4Tsddvw_1.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -915,51 +903,28 @@
      "addressCountry": "DE",
      "addressLocality": "Berlin",
      "postalCode": "10405",
-     "streetAddress": "Straßburger Straße 53"
+     "streetAddress": "Winsstraße 9"
     },
-    "name": "Circus Potoo"
+    "name": "BOMA"
    },
-   "name": "Relachen: cierre de una era",
+   "name": "Plant Based 4-Gang Menü",
    "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "25.00",
-    "lowPrice": "10.00",
-    "offerCount": 3,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "SOLIDARITY TICKETS",
-      "price": "11.20",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "REGULAR TICKETS",
-      "price": "21.80",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "SUPPORTER",
-      "price": "27.10",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
+    "@type": "Offer",
+    "price": "49.00",
+    "priceCurrency": "EUR",
+    "url": "https://millasplace.sumupstore.com",
+    "validFrom": "2026-11-27T18:00+0100"
    },
    "organizer": {
     "@type": "Organization",
-    "name": "Circus Potoo",
-    "url": "https://rausgegangen.de/organizations/circus-potoo-2/"
+    "name": "Milla's Table",
+    "url": "https://rausgegangen.de/organizations/millas-table/"
    },
-   "startDate": "2026-11-13T18:30+0100"
+   "startDate": "2026-11-27T18:00+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
-  "fetched": "2026-11-13T17:34:02+01:00",
+  "fetched": "2026-11-13T23:43:45+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -997,16 +962,16 @@
   },
   "seen": "2026-10-31T02:26:10+01:00"
  },
- "https://rausgegangen.de/events/tati-comedy---die-stand-up-comedy-show-115/": {
-  "fetched": "2026-11-13T17:34:02+01:00",
+ "https://rausgegangen.de/events/tati-comedy-tryout-stand-up-comedy-15/": {
+  "fetched": "2026-11-13T23:43:45+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "LIVE Stand Up Comedy in der schönsten Ecke Berlins - dem Prenzlauer Berg.Wir präsentieren euch einen Mix aus erfahrenen Profi-Comedians und den heißesten Newcomern der Berliner Comedy-Szene.Das Ticket muss nicht ausgedruckt werden.Egal wer an diesem Abend auf der Bühne steht - euch erwartet absolut authentische Stand Up Comedy nach amerikanischem Vorbild!Der Einlass wird bis 5 Minuten nach Showbeginn gewährt.--Location--Der \"Comedyflash - Club\" in der Metzer Str. 2 im Prenzlauer Berg ist zwei Fußminuten entfernt von der U2 Station “Senefelder Platz”. Die Bar bietet die perfekte Atmosphäre für einen gelungenen Comedyabend. Eine gemütliche Einrichtung, freundliches Personal und gute Getränke runden dieses besondere Comedyevent für dich ab.Comedyflash - Der Standup ClubMetzer Str. 2, 10405 Berlin",
-   "endDate": "2026-11-13T22:30+0100",
+   "description": "Stand-Up Comedy Tryout / Open MicNeue Talente. Neue Jokes. Neue Energie – live & unfiltriert!TRYOUT ist die Bühne, auf der Comedy entsteht. Newcomer, Fortgeschrittene und spontane Mutige testen hier ihre brandneuen Jokes live vor Publikum. Nichts ist geplant, nichts ist perfekt – und genau das macht diesen Abend so einzigartig.Erlebe einen Abend voller Überraschungen, spontaner Momente und echter Stand-up-Comedy, bei der du manchmal der erste Mensch bist, der einen neuen Gag überhaupt zu hören bekommt.Was dich erwartet:Frische Comedy-Sets & brandneues MaterialAuthentische „Work in Progress“-AtmosphäreMutige Newcomer & überraschende ProfisHumor, der spontan entstehtEnergiegeladenes, ehrliches PublikumFür wen ist TRYOUT?Für alle, die Comedy lieben: Publikum, das über rohe, echte Comedy lachen möchte – und Performer, die mutig sind, Neues auszuprobieren.--Location--Welcome to Tati Goes Underground — Berlin’s intimate, alternative comedy club. Known for its cozy, candle-lit atmosphere and bohemian vibes, Tati is the kind of place where comedians and audiences come together like old friends... with strong opinions and stronger drinks.Metzer Str. 2 in Prenzlauer Berg is a two-minute walk from the U2 \"Senefelder Platz\" station. The bar offers the perfect atmosphere for a successful comedy evening. A cozy interior, friendly staff, and good drinks round out this special comedy event for you.",
+   "endDate": "2026-11-17T20:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/gqlLXG8iSYKiUDo8pXMy_tati-comedy-club-berliner-stand-up-nacht.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/IUObRZ5jQgW7YMCD4a6c_tati-comedy-club-berliner-stand-up-nacht.png"
    ],
    "location": {
     "@type": "Place",
@@ -1019,7 +984,7 @@
     },
     "name": "Tati goes Underground"
    },
-   "name": "Tati Comedy _ Die Stand Up Comedy Show",
+   "name": "Tati Comedy - Open Mic",
    "offers": {
     "@type": "AggregateOffer",
     "highPrice": null,
@@ -1030,20 +995,20 @@
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
       "name": "Regulär",
-      "price": "20.00",
+      "price": "15.00",
       "priceCurrency": "EUR"
      },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "early bird",
-      "price": "18.00",
+      "name": "earlybird",
+      "price": "12.00",
       "priceCurrency": "EUR"
      }
     ],
     "priceCurrency": "EUR"
    },
-   "startDate": "2026-11-13T21:00+0100"
+   "startDate": "2026-11-17T19:00+0100"
   }
  }
 }

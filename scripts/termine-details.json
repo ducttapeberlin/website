@@ -1,4 +1,41 @@
 {
+ "https://rausgegangen.de/events/6euroneunzig-titten-auf-den-tisch-tour-2027-0/": {
+  "fetched": "2026-11-13T02:14:33+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Mutterschaft als Grund, leiser zu werden? Kat und Nina von 6euroneunzig sehen das anders und gehen mit ihrem Debütalbum auf Tour. Zwischen Club und Rap steht der Titel schon wie eine Ansage im Raum 💅🏼",
+   "endDate": "2027-04-16T23:30+0200",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/1SvHq3XcSPKiqR3rZyIt_69tour2027rausgegangeneventheader.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "12435",
+     "streetAddress": "Am Flutgraben 2"
+    },
+    "name": "Festsaal Kreuzberg"
+   },
+   "name": "6euroneunzig - Titten auf den Tisch Tour 2027",
+   "offers": {
+    "@type": "Offer",
+    "price": "42.00",
+    "priceCurrency": "EUR",
+    "url": "https://www.eventim.de/noapp/event/6euroneunzig-titten-auf-dem-tisch-tour-2027-festsaal-kreuzberg-22288617/?affiliate=BBK&utm_campaign=GmbH&utm_source=BBK&utm_medium=dp",
+    "validFrom": "2027-04-16T19:00+0200"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "6Euroneunzig"
+   },
+   "startDate": "2027-04-16T19:00+0200"
+  }
+ },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
   "fetched": "2026-11-12T21:09:30+01:00",
   "ld": {
@@ -200,16 +237,16 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/all-we-need-is-house-by-mad-series-0/": {
-  "fetched": "2026-11-12T21:09:30+01:00",
+ "https://rausgegangen.de/events/cassia-12/": {
+  "fetched": "2026-11-13T02:14:33+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "MAD SERIES | ALL WE NEED IS HOUSE Am 21. November ab 22 Uhr bringt MAD SERIES House, Latin House und Afro House ins Hotel AMANO East Side in Berlin.Freut euch auf sechs DJs, treibende Beats und Specials vor Ort.Bei MAD SERIES seid ihr mittendrin. Ihr tanzt direkt vor und hinter dem DJ und seid Teil der Session. Unsere Sets werden gefilmt, mit euch und der Stimmung auf der Tanzfläche.Bringt eure Freunde mit und feiert mit uns bis tief in die Nacht.🎧 LINEUP Miguel Wave • Nathalie • KJ • Alexander Da Great • Janaa • Stinhow📍 Hotel AMANO East Side Stralauer Platz 30–31, 10243 Berlin 📅 21. November | ab 22 Uhr🎟️ Sichert euch jetzt eure Tickets!ALL WE NEED IS HOUSE",
-   "endDate": "2026-11-22T05:00+0100",
+   "description": "Nach der ersten Welttour klingt Cassia nicht nach Durchatmen, sondern nach Neujustierung. Das Trio aus Manchester baut seine neuen Songs stärker um Drums und Grooves herum, die aktuelle Single lovedrunk. gibt davon schon einen klaren Vorgeschmack 🎟️",
+   "endDate": "2026-11-21T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/pcyMV6yjSZayLof98Of0_madseries16x9.png"
+    "https://rausgegangen.s3.amazonaws.com/uhsz8x1601xc.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -217,129 +254,20 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10243",
-     "streetAddress": "Stralauer Platz 30-31"
+     "postalCode": "10997",
+     "streetAddress": "Cuvrystraße 7"
     },
-    "name": "AMANO East Side"
+    "name": "Lido"
    },
-   "name": "All we need is House by MAD SERIES",
+   "name": "Cassia",
    "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "12.79",
-    "lowPrice": "8.97",
-    "offerCount": 2,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Phase 1 – Einlass bis 00 Uhr",
-      "price": "8.97",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Phase 2",
-      "price": "12.79",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
+    "@type": "Offer",
+    "price": "31.50",
+    "priceCurrency": "EUR",
+    "url": "https://www.kj.de/artist/7358",
+    "validFrom": "2026-11-20T20:00+0100"
    },
-   "startDate": "2026-11-21T22:00+0100"
-  }
- },
- "https://rausgegangen.de/events/bodies-baddies-nye-edition-0/": {
-  "fetched": "2026-11-12T21:09:30+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Wenn Du das Jahr queer und mit ordentlich Energie abschließen willst, klingt das hier ziemlich ideal: mehrere Floors, Shows direkt nach dem Countdown und ein Format, das klar aus der Community kommt. Für Queers, Girls, Gays, Theys, Lovers und Allies gedacht 👀",
-   "endDate": "2027-01-01T06:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/RqGvZn1mSD2O5uy0Wezo_rausgegangenbnbsasha-kopie2.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10777",
-     "streetAddress": "Nollendorfplatz 5"
-    },
-    "name": "Metropol"
-   },
-   "name": "BODIES & BADDIES // NYE Party",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "85.40",
-    "lowPrice": "16.50",
-    "offerCount": 7,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Early Bird",
-      "price": "27.10",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Group Tickets First Wave",
-      "price": "32.40",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "First Wave",
-      "price": "37.70",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "VIP Tickets",
-      "price": "85.40",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Group Tickets Second Wave",
-      "price": "43.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Second Wave",
-      "price": "48.30",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Last Wave // Abendkasse",
-      "price": "52.54",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Ocean Eyes",
-    "url": "https://rausgegangen.de/organizations/ocean-eyes/"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Ocean"
-   },
-   "startDate": "2026-12-31T22:00+0100"
+   "startDate": "2026-11-20T20:00+0100"
   }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
@@ -431,16 +359,16 @@
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/der-schatz-eine-bohmische-familiengeschichte-0/": {
-  "fetched": "2026-11-12T21:09:30+01:00",
+ "https://rausgegangen.de/events/dein-moment-dein-wein-rheinhessen-zu-gast-in-berlin-0/": {
+  "fetched": "2026-11-13T02:14:33+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "April 1945. Die Rote Armee rückt unaufhaltsam vor. Am Fuß des Riesengebirges vergräbt Otto Ther eine Kiste mit einem Diamantkreuz, Schmuck und poliertem Silberbesteck. Sie soll überdauern, bis die Familie nach Hohenelbe, heute Vrchlabí, zurückkehren kann.Jahrzehnte später reist sein Enkel, der Historiker Philipp Ther, mit seinem Vater immer wieder in die verlorene Heimat. Das örtliche Museum übergibt ihnen drei Kisten, für den Historiker ein Schatz ganz anderer Art. Die Familiendokumente darin zeigen, wie tief die eigene Familie in den Nationalsozialismus verstrickt war.In „Mein Schatz“ verbindet Philipp Ther Familien- und Zeitgeschichte zu einer persönlichen Erzählung über Herkunft, Schuld und Erinnerung.„Philipp Ther ist ein sozialhistorischer Prosakünstler.“ Gustav Seibt PROGRAMM BegrüßungDr. Roland Borchers, Direktor, Dokumentationszentrum Flucht, Vertreibung, Versöhnung (Berlin)Lesung und GesprächProf. Dr. Philipp Ther, AutorModeration: em. Prof. Dr. Jürgen Kocka, Freie Universität (Berlin)Der Autor steht nach der Lesung für eine Signierstunde bereit. Im Anschluss laden wir Sie zu einem kleinen Empfang ein.  WEITERE HINWEISE   Büchertisch: Buchhandlung „Der Zauberberg“Einlass: 18.00 Uhr   Sprache: DeutschEINTRITT FREI, MIT ANMELDUNGDie Veranstaltung wird aufgezeichnet und auf unserem YouTube-Kanal Flucht, Vertreibung, Versöhnung veröffentlicht.",
-   "endDate": "2026-12-02T20:00+0100",
+   "description": "Blind probieren, vergleichen, nochmal riechen: In mehreren Weinläden und Restaurants dreht sich gerade alles um Rheinhessen im Glas. Vielleicht stolperst Du dabei über einen Riesling oder Silvaner, den Du ab dann immer wieder bestellst 👀",
+   "endDate": "2026-11-29T00:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/iONiEZu9RfK8U0wtzZgo_der-schatz-2.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/LlmYkJ58TGq9wVBQeO8f_1.png"
    ],
    "location": {
     "@type": "Place",
@@ -448,57 +376,19 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10963",
-     "streetAddress": "Stresemannstraße 90"
+     "postalCode": null,
+     "streetAddress": null
     },
-    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
+    "name": "Berlin"
    },
-   "name": "Der Schatz – Eine böhmische Familiengeschichte",
+   "name": "Dein Moment. Dein Wein: Rheinhessen zu Gast in Berlin",
    "offers": {
     "@type": "Offer",
     "price": "0.00",
     "priceCurrency": "EUR",
-    "validFrom": "2026-12-02T18:30+0100"
+    "validFrom": "2026-11-14T00:00+0100"
    },
-   "startDate": "2026-12-02T18:30+0100"
-  }
- },
- "https://rausgegangen.de/events/donata-strength-release-concert-0/": {
-  "fetched": "2026-11-12T21:09:30+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Zwischen Neuanfang und Rücken gerade machen liegen bei Donata nur ein paar Songs. Sie bringt ihre neue EP Strength mit kompletter Band auf die Bühne und lädt zu einem Abend ein, der eher nach echtem Miteinander klingt als nach bloßem Konzert 💜",
-   "endDate": "2026-11-12T23:30+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Td7PmoF3RX6i3YmuX3OA_2.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10117",
-     "streetAddress": "Auguststraße 24"
-    },
-    "name": "Spiegelsaal | Clärchens Ballhaus"
-   },
-   "name": "Donata - \"Strength\" Release Concert",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "30.00",
-    "lowPrice": "21.80",
-    "offerCount": 0,
-    "offers": [],
-    "priceCurrency": "EUR"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Donata"
-   },
-   "startDate": "2026-11-12T19:00+0100"
+   "startDate": "2026-11-14T00:00+0100"
   }
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
@@ -884,6 +774,39 @@
    "startDate": "2026-12-10T20:00+0100"
   }
  },
+ "https://rausgegangen.de/events/fomo-kiez-dinner-friendsgiving-edition-0/": {
+  "fetched": "2026-11-13T02:14:33+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Erst sitzt Du mit vier Unbekannten am Tisch, ein paar Stunden später kennst Du schon ein ganzes Dutzend. Jede Runde zieht weiter in eine andere Wohnung, bis am Ende alle nochmal zusammenkommen 🌈",
+   "endDate": "2026-11-22T01:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/cb42ed643ff7443d9080d4527fc3cea8_bildschirmfoto-2026-11-12-um-161251.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": null,
+     "streetAddress": null
+    },
+    "name": "Berlin"
+   },
+   "name": "FOMO Kiez Dinner: Friendsgiving Edition",
+   "offers": {
+    "@type": "Offer",
+    "price": "25.00",
+    "priceCurrency": "EUR",
+    "url": "https://luma.com/fomokiezdinner",
+    "validFrom": "2026-11-21T17:30+0100"
+   },
+   "startDate": "2026-11-21T17:30+0100"
+  }
+ },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
   "fetched": "2026-11-12T21:09:30+01:00",
   "ld": {
@@ -1016,16 +939,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/relachen-cierre-de-una-era-0/": {
-  "fetched": "2026-11-12T21:09:30+01:00",
+ "https://rausgegangen.de/events/pandawomen-2026-pandawomen-closing-event-anastasia-rydlevska-0/": {
+  "fetched": "2026-11-13T02:14:33+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "SHOW 100% in SPANISH!Relachen dice hasta luego, Berlín! 2014 - 2026Patricia Fernández, fundadora y presentadora del show desde 2014, cambia de residencia (de Berlín a Valencia, España), y por esto cerraremos A LO GRANDE con profundo agradecimiento y alegría esta era de comedia en español en Berlín!Este 13 de noviembre contaremos con 8 (se lee OCHO 🤩) fantásticas presentaciones seleccionadas de entre tod@s l@s maravillos@s artistas que, a lo largo de estos 12 años, han formado (y siempre formarán 💘) parte de este hermoso universo cómico:  ✨ Liliana Velásquez (COL) https://www.instagram.com/ladios_v/  ✨ Ayla Merino (MEX) https://www.instagram.com/aylamerino/  ✨ Eliecer Reyes (ESP) https://www.instagram.com/eliecerreyesfalcon/  ✨ Palma Palacios (RD) https://www.instagram.com/palmapalacios/  ✨ ELGRANDE BBX (PER) https://www.instagram.com/elgrandebbx/  ✨ Doel Cupo(MEX) https://www.instagram.com/doelcupo/  ✨ Lu Noboa (ECU) https://www.instagram.com/lalunoboa/  ✨ Chiquilove (VEN) https://www.instagram.com/chiquilovelovelove/Y, al más puro estilo Berlín, Patricia presentará su nuevo número de cabaret: 🎂 cake sitting, nunca antes visto en Relachen! 🤩🔝 Como siempre, ¡calidad garantizada!  Invitamos a toda nuestra querida comunidad hispanoparlante (y adherid@s 😉) a formar parte de esta ÚNICA experiencia. Todo ocurrirá en CIRCUS POTOO, un maravilloso nuevo espacio cultural que tenemos muchas ganas de que conozcan y disfruten.🗣️ Show 100% en español 🔞 Para mayores de 18 años 💶 El bar acepta SÓLO EFECTIVO Si quieres acceder a uno de los solitickets, simplemente escribe al instagram de Relachen (https://www.instagram.com/relachen_berlin/)Nota: Lastimosamente la entrada al recinto (aun) no está adaptada para personas con movilidad reducida.Abriremos puertas a las 18:30h ¡Lleguen temprano porque en el circo hay juegos y entretenimiento análogo que van a querer probar! Show a las 19:30h 🥳💃🏽🕺🏻🤸🏼‍♀️🎶 Luego del show habrá música, baile, canto y, claro que sí, mucho mas RELAJO¡Les esperamos con amor y humor! 💋________________________🎪 INFOS ABOUT THE VENUE 🎪The Circus Potoo is located in a Historic Vaulted Cellar, therefore it is important that all of our guests are respectful to the space. When you purchase a ticket, you agree to follow these simple rules:🚭 NO SMOKING 🚫 NO GRAFFITI   We urge you to be mindful of the flooring and to watch you step as you move through the space. The venue does not have step-free access but this is something we aim to work on for the future.Circus Potoo strives to be a safe space for all walks of life, we do not tolerate discrimination or agressive behaviour towards our staff, artists or guests. Management reserves the right to refuse admission and tickets are non-transferable or refundable unless the event is cancelled.CASH ONLYADULTS ONLY",
-   "endDate": "2026-11-14T05:00+0100",
+   "description": "Masken, Stimme, Elektronik: Bei Anastasia Rydlevskaya steht Pop neben belarussischer Folklore und bildender Kunst, ohne sich sauber trennen zu lassen. Danach übernimmt DJ Svetomusika mit einem spontanen Mix aus aller Welt 🪩",
+   "endDate": "2026-11-29T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/EVgGIxoS6mkFFlA3woWu_relachen261113rausgegangen.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/c6PFSPuQuWhdtlyPLUea_23335image-2048x1024.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -1033,48 +956,25 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10405",
-     "streetAddress": "Straßburger Straße 53"
+     "postalCode": "10435",
+     "streetAddress": "Knaackstraße 97"
     },
-    "name": "Circus Potoo"
+    "name": "PANDA platforma"
    },
-   "name": "Relachen: cierre de una era",
+   "name": "PANDAwomen 2026: PANDAwomen closing event: Anastasia Rydlevskaya / DJ Svetomusika",
    "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "25.00",
-    "lowPrice": "10.00",
-    "offerCount": 3,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "SOLIDARITY TICKETS",
-      "price": "11.20",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "REGULAR TICKETS",
-      "price": "21.80",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "SUPPORTER",
-      "price": "27.10",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
+    "@type": "Offer",
+    "price": "25.00",
+    "priceCurrency": "EUR",
+    "url": "https://panda-platforma.berlin/events/pandawomen-closing-event-anastasia-rydlevskaya-dj-svetomusika/",
+    "validFrom": "2026-11-28T20:30+0100"
    },
    "organizer": {
     "@type": "Organization",
-    "name": "Circus Potoo",
-    "url": "https://rausgegangen.de/organizations/circus-potoo-2/"
+    "name": "PANDAwomen 2026 Festival",
+    "url": "https://rausgegangen.de/organizations/pandawomen-festival/"
    },
-   "startDate": "2026-11-13T18:30+0100"
+   "startDate": "2026-11-28T20:30+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {

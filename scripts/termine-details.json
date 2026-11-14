@@ -1,6 +1,43 @@
 {
+ "https://rausgegangen.de/events/6euroneunzig-titten-auf-den-tisch-tour-2027-0/": {
+  "fetched": "2026-11-14T11:44:31+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Mutterschaft als Grund, leiser zu werden? Kat und Nina von 6euroneunzig sehen das anders und gehen mit ihrem Debütalbum auf Tour. Zwischen Club und Rap steht der Titel schon wie eine Ansage im Raum 💅🏼",
+   "endDate": "2027-04-16T23:30+0200",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/1SvHq3XcSPKiqR3rZyIt_69tour2027rausgegangeneventheader.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "12435",
+     "streetAddress": "Am Flutgraben 2"
+    },
+    "name": "Festsaal Kreuzberg"
+   },
+   "name": "6euroneunzig - Titten auf den Tisch Tour 2027",
+   "offers": {
+    "@type": "Offer",
+    "price": "42.00",
+    "priceCurrency": "EUR",
+    "url": "https://www.eventim.de/noapp/event/6euroneunzig-titten-auf-dem-tisch-tour-2027-festsaal-kreuzberg-22288617/?affiliate=BBK&utm_campaign=GmbH&utm_source=BBK&utm_medium=dp",
+    "validFrom": "2027-04-16T19:00+0200"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "6Euroneunzig"
+   },
+   "startDate": "2027-04-16T19:00+0200"
+  }
+ },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
-  "fetched": "2026-11-13T23:43:45+01:00",
+  "fetched": "2026-11-14T11:44:31+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -97,7 +134,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-11-13T23:43:45+01:00",
+  "fetched": "2026-11-14T11:44:31+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -207,16 +244,16 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/amber-georgia-0/": {
-  "fetched": "2026-11-14T04:23:53+01:00",
+ "https://rausgegangen.de/events/carlo5-die-letzte-tour-der-welt-2/": {
+  "fetched": "2026-11-14T11:44:31+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Orange im Glas und dahinter mehr als 60 Winzer:innen aus Georgien, die ihre Weine selbst mitbringen. Statt Messestress eher ein direkter Draht zu einer uralten Weintradition 👀",
-   "endDate": "2026-11-28T17:00+0100",
+   "description": "Zwischen Pop und Rap hält Carlo5 seine Songs absichtlich in der Schwebe, mit rauer Stimme und trockenem Witz. Fast alles daran kommt direkt von ihm selbst, vom Schreiben bis zu den Videos 💃",
+   "endDate": "2027-04-09T23:00+0200",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/cIF9OMxVScGZqgIavWKV_amber-georgia-berlin-weine-aus-georgien-3.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/fKEeGi7QaihTGY4sKn05_carlo5-tourevent-header.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -224,61 +261,33 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10997",
-     "streetAddress": "Köpenicker Str. 16/17"
+     "postalCode": "10245",
+     "streetAddress": "Revaler Straße 99"
     },
-    "name": "Magazin in der Heeresbäckerei"
+    "name": "Astra Kulturhaus"
    },
-   "name": "Amber Georgia – Low Intervention Wine Fair",
+   "name": "Carlo5 • DIE LETZTE TOUR DER WELT",
    "offers": {
     "@type": "Offer",
-    "price": "30.00",
+    "price": "39.80",
     "priceCurrency": "EUR",
-    "url": "https://ticketmaster.evyy.net/c/6519574/2038753/23890?u=https%3A%2F%2Fwww.universe.com%2Fevents%2Famber-georgia-tickets-LJS031%3Fref%3Dticketmaster&utm_medium=affiliate",
-    "validFrom": "2026-11-28T11:00+0100"
+    "url": "https://carlo5.krasserstoff.com/events/carlo5-die-letzte-tour-der-welt-astra-kulturhaus",
+    "validFrom": "2027-04-09T19:00+0200"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "LANDSTREICHER BOOKING",
+    "url": "https://rausgegangen.de/organizations/landstreicher-booking-ah-fk3y/"
    },
    "performer": {
     "@type": "PerformingGroup",
-    "name": "Amber Georgia Berlin"
+    "name": "Carlo5"
    },
-   "startDate": "2026-11-28T11:00+0100"
-  }
- },
- "https://rausgegangen.de/events/cassia-12/": {
-  "fetched": "2026-11-14T04:23:53+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Nach der ersten Welttour klingt Cassia nicht nach Durchatmen, sondern nach Neujustierung. Das Trio aus Manchester baut seine neuen Songs stärker um Drums und Grooves herum, die aktuelle Single lovedrunk. gibt davon schon einen klaren Vorgeschmack 🎟️",
-   "endDate": "2026-11-21T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://rausgegangen.s3.amazonaws.com/uhsz8x1601xc.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10997",
-     "streetAddress": "Cuvrystraße 7"
-    },
-    "name": "Lido"
-   },
-   "name": "Cassia",
-   "offers": {
-    "@type": "Offer",
-    "price": "31.50",
-    "priceCurrency": "EUR",
-    "url": "https://www.kj.de/artist/7358",
-    "validFrom": "2026-11-20T20:00+0100"
-   },
-   "startDate": "2026-11-20T20:00+0100"
+   "startDate": "2027-04-09T19:00+0200"
   }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-11-13T23:43:45+01:00",
+  "fetched": "2026-11-14T11:44:31+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -367,7 +376,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
-  "fetched": "2026-11-13T23:43:45+01:00",
+  "fetched": "2026-11-14T11:44:31+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -412,7 +421,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-13T23:43:45+01:00",
+  "fetched": "2026-11-14T11:44:31+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -459,7 +468,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-22/": {
-  "fetched": "2026-11-13T23:43:45+01:00",
+  "fetched": "2026-11-14T11:44:31+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -504,7 +513,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
-  "fetched": "2026-11-13T23:43:45+01:00",
+  "fetched": "2026-11-14T11:44:31+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -549,7 +558,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
-  "fetched": "2026-11-13T23:43:45+01:00",
+  "fetched": "2026-11-14T11:44:31+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -596,7 +605,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-11-13T23:43:45+01:00",
+  "fetched": "2026-11-14T11:44:31+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -647,7 +656,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-brunch-sponsored-by-fritz-kola-winter-edition-0/": {
-  "fetched": "2026-11-13T23:43:45+01:00",
+  "fetched": "2026-11-14T11:44:31+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -689,8 +698,41 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
+ "https://rausgegangen.de/events/fomo-kiez-dinner-friendsgiving-edition-0/": {
+  "fetched": "2026-11-14T11:44:31+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Erst sitzt Du mit vier Unbekannten am Tisch, ein paar Stunden später kennst Du schon ein ganzes Dutzend. Jede Runde zieht weiter in eine andere Wohnung, bis am Ende alle nochmal zusammenkommen 🌈",
+   "endDate": "2026-11-22T01:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/cb42ed643ff7443d9080d4527fc3cea8_bildschirmfoto-2026-11-12-um-161251.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": null,
+     "streetAddress": null
+    },
+    "name": "Berlin"
+   },
+   "name": "FOMO Kiez Dinner: Friendsgiving Edition",
+   "offers": {
+    "@type": "Offer",
+    "price": "25.00",
+    "priceCurrency": "EUR",
+    "url": "https://luma.com/fomokiezdinner",
+    "validFrom": "2026-11-21T17:30+0100"
+   },
+   "startDate": "2026-11-21T17:30+0100"
+  }
+ },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-11-13T23:43:45+01:00",
+  "fetched": "2026-11-14T11:44:31+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -780,7 +822,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1/": {
-  "fetched": "2026-11-13T23:43:45+01:00",
+  "fetched": "2026-11-14T11:44:31+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -822,7 +864,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/marenera-pizzica-italienische-volksmusik-0/": {
-  "fetched": "2026-11-14T04:23:53+01:00",
+  "fetched": "2026-11-14T11:44:31+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -855,7 +897,7 @@
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
-  "fetched": "2026-11-13T23:43:45+01:00",
+  "fetched": "2026-11-14T11:44:31+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -892,5 +934,115 @@
    "startDate": "2026-12-19T19:30+0100"
   },
   "seen": "2026-10-31T02:26:10+01:00"
+ },
+ "https://rausgegangen.de/events/speed-dating-berlin-30-45-jahre-0/": {
+  "fetched": "2026-11-14T11:44:31+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Swipen fällt aus, stattdessen sitzt Du alle paar Minuten schon dem nächsten Menschen gegenüber. Für die Gespräche gibt es kleine Anstöße, danach bleibt noch Zeit fürs Weiterreden 🙂",
+   "endDate": "2026-12-08T23:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/YHsOcABSsCHTKph7xjgw_speeddating260806templatebannerapp-1-1.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10625",
+     "streetAddress": "Kantstraße 127"
+    },
+    "name": "Dufte Berlin"
+   },
+   "name": "SPEED DATING Berlin | 30 - 45 Jahre | by Rausgegangen",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 2,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Ticket | Ich bin ein Mann",
+      "price": "24.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Ticket | Ich bin eine Frau",
+      "price": "24.90",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "Rausgegangen Events",
+     "url": "https://rausgegangen.de/organizations/rausgegangen-events/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Speed Dating by Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/speed-dating-by-rausgegangen/"
+    }
+   ],
+   "startDate": "2026-12-08T19:30+0100"
+  }
+ },
+ "https://rausgegangen.de/events/tati-comedy-tryout-stand-up-comedy-15/": {
+  "fetched": "2026-11-14T11:44:31+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Stand-Up Comedy Tryout / Open MicNeue Talente. Neue Jokes. Neue Energie – live & unfiltriert!TRYOUT ist die Bühne, auf der Comedy entsteht. Newcomer, Fortgeschrittene und spontane Mutige testen hier ihre brandneuen Jokes live vor Publikum. Nichts ist geplant, nichts ist perfekt – und genau das macht diesen Abend so einzigartig.Erlebe einen Abend voller Überraschungen, spontaner Momente und echter Stand-up-Comedy, bei der du manchmal der erste Mensch bist, der einen neuen Gag überhaupt zu hören bekommt.Was dich erwartet:Frische Comedy-Sets & brandneues MaterialAuthentische „Work in Progress“-AtmosphäreMutige Newcomer & überraschende ProfisHumor, der spontan entstehtEnergiegeladenes, ehrliches PublikumFür wen ist TRYOUT?Für alle, die Comedy lieben: Publikum, das über rohe, echte Comedy lachen möchte – und Performer, die mutig sind, Neues auszuprobieren.--Location--Welcome to Tati Goes Underground — Berlin’s intimate, alternative comedy club. Known for its cozy, candle-lit atmosphere and bohemian vibes, Tati is the kind of place where comedians and audiences come together like old friends... with strong opinions and stronger drinks.Metzer Str. 2 in Prenzlauer Berg is a two-minute walk from the U2 \"Senefelder Platz\" station. The bar offers the perfect atmosphere for a successful comedy evening. A cozy interior, friendly staff, and good drinks round out this special comedy event for you.",
+   "endDate": "2026-11-17T20:30+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/IUObRZ5jQgW7YMCD4a6c_tati-comedy-club-berliner-stand-up-nacht.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10405",
+     "streetAddress": "Metzer Straße 2"
+    },
+    "name": "Tati goes Underground"
+   },
+   "name": "Tati Comedy - Open Mic",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 2,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "15.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "earlybird",
+      "price": "12.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "startDate": "2026-11-17T19:00+0100"
+  }
  }
 }

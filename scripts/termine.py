@@ -521,8 +521,15 @@ def events_ld(events):
               "eventStatus": "https://schema.org/EventScheduled",
               "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
               "location": loc, "organizer": group, "performer": group}
-        if end and end > start:
-            ev["endDate"] = iso(end)
+        # Google möchte immer ein Ende: fehlt es, 3 Stunden nach Beginn; endet es nach Mitternacht, am Folgetag
+        t0 = dt.datetime(date.year, date.month, date.day, *start, tzinfo=ZoneInfo("Europe/Berlin"))
+        if end:
+            t1 = t0.replace(hour=0, minute=0) + dt.timedelta(hours=end[0], minutes=end[1])
+            if t1 <= t0:
+                t1 += dt.timedelta(days=1)
+        else:
+            t1 = t0 + dt.timedelta(hours=3)
+        ev["endDate"] = t1.isoformat()
         desc = re.sub(r"\s+", " ", r.get("Beschreibung") or "").strip()
         if desc:
             ev["description"] = desc[:300].rsplit(" ", 1)[0] + "…" if len(desc) > 300 else desc

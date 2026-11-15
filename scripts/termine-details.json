@@ -1,6 +1,6 @@
 {
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
-  "fetched": "2026-11-15T12:15:10+01:00",
+  "fetched": "2026-11-15T18:52:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -97,7 +97,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-11-15T12:15:10+01:00",
+  "fetched": "2026-11-15T18:52:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -207,8 +207,41 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/alizade-0/": {
+  "fetched": "2026-11-15T18:52:24+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Drei Sprachen im Kopf, klare Ansage im Mic. Alizade bewegt sich zwischen türkischem Trap, Hip Hop und Pop, ohne sich stilistisch klein zu machen 💅🏼",
+   "endDate": "2027-03-18T23:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/RPaXer3QRV2eoGgEPHaF_photo-alizadecredit-ricardo-van-lachterop-kopie.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "12435",
+     "streetAddress": "Am Flutgraben 2"
+    },
+    "name": "Festsaal Kreuzberg"
+   },
+   "name": "Alizade",
+   "offers": {
+    "@type": "Offer",
+    "price": "33.50",
+    "priceCurrency": "EUR",
+    "url": "https://www.eventim.de/artist/alizade/",
+    "validFrom": "2027-03-18T19:00+0100"
+   },
+   "startDate": "2027-03-18T19:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-11-15T12:15:10+01:00",
+  "fetched": "2026-11-15T18:52:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -296,8 +329,40 @@
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/der-schatz-eine-bohmische-familiengeschichte-0/": {
+  "fetched": "2026-11-15T18:52:24+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "April 1945. Die Rote Armee rückt unaufhaltsam vor. Am Fuß des Riesengebirges vergräbt Otto Ther eine Kiste mit einem Diamantkreuz, Schmuck und poliertem Silberbesteck. Sie soll überdauern, bis die Familie nach Hohenelbe, heute Vrchlabí, zurückkehren kann.Jahrzehnte später reist sein Enkel, der Historiker Philipp Ther, mit seinem Vater immer wieder in die verlorene Heimat. Das örtliche Museum übergibt ihnen drei Kisten, für den Historiker ein Schatz ganz anderer Art. Die Familiendokumente darin zeigen, wie tief die eigene Familie in den Nationalsozialismus verstrickt war.In „Mein Schatz“ verbindet Philipp Ther Familien- und Zeitgeschichte zu einer persönlichen Erzählung über Herkunft, Schuld und Erinnerung.„Philipp Ther ist ein sozialhistorischer Prosakünstler.“ Gustav Seibt PROGRAMM BegrüßungDr. Roland Borchers, Direktor, Dokumentationszentrum Flucht, Vertreibung, Versöhnung (Berlin)Lesung und GesprächProf. Dr. Philipp Ther, AutorModeration: em. Prof. Dr. Jürgen Kocka, Freie Universität (Berlin)Der Autor steht nach der Lesung für eine Signierstunde bereit. Im Anschluss laden wir Sie zu einem kleinen Empfang ein.  WEITERE HINWEISE   Büchertisch: Buchhandlung „Der Zauberberg“Einlass: 18.00 Uhr   Sprache: DeutschEINTRITT FREI, MIT ANMELDUNGDie Veranstaltung wird aufgezeichnet und auf unserem YouTube-Kanal Flucht, Vertreibung, Versöhnung veröffentlicht.",
+   "endDate": "2026-12-02T20:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/iONiEZu9RfK8U0wtzZgo_der-schatz-2.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10963",
+     "streetAddress": "Stresemannstraße 90"
+    },
+    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
+   },
+   "name": "Der Schatz – Eine böhmische Familiengeschichte",
+   "offers": {
+    "@type": "Offer",
+    "price": "0.00",
+    "priceCurrency": "EUR",
+    "validFrom": "2026-12-02T18:30+0100"
+   },
+   "startDate": "2026-12-02T18:30+0100"
+  }
+ },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
-  "fetched": "2026-11-15T12:15:10+01:00",
+  "fetched": "2026-11-15T18:52:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -342,7 +407,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-15T12:15:10+01:00",
+  "fetched": "2026-11-15T18:52:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -389,7 +454,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-22/": {
-  "fetched": "2026-11-15T12:15:10+01:00",
+  "fetched": "2026-11-15T18:52:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -434,7 +499,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
-  "fetched": "2026-11-15T12:15:10+01:00",
+  "fetched": "2026-11-15T18:52:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -478,8 +543,55 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
+ "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
+  "fetched": "2026-11-15T18:52:24+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Alle zwei Wochen wird Bingo durch wechselnde Drag-Hosts aus dem DUCT TAPE Universum mit viel Charme, Humor und spannenden Performances aufgemischt. Drei Runden, coole Gewinne und jede Menge Überraschungen garantieren einen Abend, der mehr als nur Glücksspiel ist 🎟️",
+   "endDate": "2026-12-16T22:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/dsOpfIJYSWKxCWfqUnU1_28be860b-ff2c-43a3-a934-bdea454b9030.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "12055",
+     "streetAddress": "Brusendorfer Straße 12"
+    },
+    "name": "TORTE BAR"
+   },
+   "name": "Drag Bingo Night @ Torte Bar by DUCT TAPE",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 0,
+    "offers": [],
+    "priceCurrency": "EUR"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "CURA Berlin",
+     "url": "https://rausgegangen.de/organizations/cura-berlin/"
+    },
+    {
+     "@type": "Organization",
+     "name": "DUCT TAPE",
+     "url": "https://rausgegangen.de/organizations/duct-tape/"
+    }
+   ],
+   "startDate": "2026-12-16T20:00+0100"
+  },
+  "seen": "2026-11-15T18:52:24+01:00"
+ },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-11-15T12:15:10+01:00",
+  "fetched": "2026-11-15T18:52:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -530,7 +642,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-brunch-sponsored-by-fritz-kola-winter-edition-0/": {
-  "fetched": "2026-11-15T12:15:10+01:00",
+  "fetched": "2026-11-15T18:52:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -572,16 +684,16 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
- "https://rausgegangen.de/events/infinity-song-5/": {
-  "fetched": "2026-11-15T12:15:10+01:00",
+ "https://rausgegangen.de/events/fliegende-haie-alle-gehn-dumm-tour-12/": {
+  "fetched": "2026-11-15T18:52:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Infinity Song klingt nach einem Abend, der eher über Stimmen und Stimmung kommt als über großes Getöse. Zwischen Blues und Jazzblues kannst Du Dich auf ein Konzert einstellen, das die leisen Zwischentöne ernst nimmt 👀",
-   "endDate": "2026-11-20T05:00+0100",
+   "description": "Kuck dir die Welt doch an: Alle gehn dumm. Smartphone-Zombies, emotionaler Leerstand, machtbesessene Despoten. Zeit für einen Reset – Fliegende Haie finden: Wenn schon dumm gehen, dann richtig! Ausrasten, durchtanzen und schweißnass Hymnen hinausschreien für eine bessere Welt.Unterdrückung von Frauen, mentale Gesundheit, sexuelle Unfreiheit – Haie reißen Wunden auf, denn wir haben keinen Bock, dass morgen noch alles so ist wie heute. Also Blutrausch an und die Issues zermahlen im Revolvergebiss. Dazu Bässe, die Beine wegreißen wie der Weiße Hai.Der Haie-Hyperpop ist seit der letzten Tour 2025 düsterer geworden, doch live energiegeladen wie eh und je: Instant wirst du hineingesogen in eine Artshow, die das Salzwasser aus deinen Poren drückt, bis sie dich als neuer Mensch wieder ausgespuckt. Durchgeschüttelt, wachgerüttelt, aber glücklich. Nur was blutet, kann auch hailen.",
+   "endDate": "2026-12-11T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://rausgegangen.s3.amazonaws.com/yy6hx1ci5vc5"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/kDdpHEaT06v9EGY8VXh3_fliegende-haie-alle-gehn-dumm-foto-01quer-c-maxim-kaiser.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -589,28 +701,141 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10243",
-     "streetAddress": "Holzmarktstr. 25"
+     "postalCode": "12435",
+     "streetAddress": "Alt Treptow 6"
     },
-    "name": "Säälchen"
+    "name": "Kulturhaus Insel Berlin"
    },
-   "name": "Infinity Song",
+   "name": "FLIEGENDE HAIE - Alle gehn dumm-Tour",
    "offers": {
-    "@type": "Offer",
-    "price": 0,
-    "priceCurrency": "EUR",
-    "url": "https://ticketmaster.evyy.net/c/6519574/2038753/23890?u=https%3A%2F%2Fwww.ticketmaster.de%2Fevent%2Finfinity-song-tickets%2F1647085852&utm_medium=affiliate",
-    "validFrom": "2026-11-19T20:00+0100"
+    "@type": "AggregateOffer",
+    "highPrice": "27.10",
+    "lowPrice": "16.50",
+    "offerCount": 3,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Social Ticket",
+      "price": "16.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "21.80",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Supporterticket",
+      "price": "27.10",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
    },
    "performer": {
     "@type": "PerformingGroup",
-    "name": "Infinity Song"
+    "name": "Fliegende Haie"
    },
-   "startDate": "2026-11-19T20:00+0100"
+   "startDate": "2026-12-10T20:00+0100"
   }
  },
+ "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
+  "fetched": "2026-11-15T18:52:24+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "HOUSE OF PRIDE 2027 | edition #s6xBERLIN’S QUEEREST MAIN PARTYJuly 24, 2027.  Berlin Pride hits its peak — and House of Pride takes over after the Parade.For one unforgettable night our multi-venue Ritter Butzke, AQUAHŌFE Berlin & Kreuzwerk transform into a massive queer playground in the heart of Berlin: seven areas, indoor & outdoor, packed with beats, 50+ performers & djs, wild energy and thousands of people coming together to celebrate exactly who they are.House of Pride is not just another party. It’s a statement. A celebration. A beautiful, sweaty, loud and unapologetic explosion of queer culture. The event supports Berlin Pride and a beneficial project every year! From house to techno, disco to pop, RnB, rave & to everything in between, expect a genre-hopping journey through some of Berlin’s most iconic spaces — with 50+ artists, spectacular performances and enough energy to carry you through 12+ hours of Pride night.Come for the music. Stay for the madness. Dance with strangers. Kiss whoever you want. Lose yourself in the crowd.No labels. No limits. No judgment. Just Pride.HOUSE OF PRIDE 2027July 24, 2027 | 21:00  7 AREAS · INDOOR & OUTDOOR 50+ ARTISTS · 5 GENRES 3,500+ PEOPLE · 12+ HOURS KREUZBERG · BERLINThe official Main Party of Berlin Pride | CSD Berlin 2027.Headliner & Line-Up: TBAThis is your Pride night. Make it c(o)unt.",
+   "endDate": "2027-07-25T11:00+0200",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/DjTKRQ6SvYNM8CgoMbsQ_house-of-pride-2027-8.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10969",
+     "streetAddress": "Ritterstraße 24-27"
+    },
+    "name": "AQUAHÖFE Berlin (AHB)"
+   },
+   "name": "House of Pride (HOP) Berlin | THE MAIN PARTY OF BERLIN PRIDE",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "80.10",
+    "lowPrice": "21.80",
+    "offerCount": 5,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "SUPPORT Ticket | Phase 1",
+      "price": "21.80",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "EARLY BIRD | Regular (Access all night long)",
+      "price": "27.10",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "BESTIE | Phase 1  (2 Pax)",
+      "price": "27.10",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "GROUP | Phase 1 (4 Pax)",
+      "price": "21.80",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "EARLY BIRD | VIP (Acces all night long)",
+      "price": "80.10",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "DUCT TAPE",
+     "url": "https://rausgegangen.de/organizations/duct-tape/"
+    },
+    {
+     "@type": "Organization",
+     "name": "House of Pride",
+     "url": "https://rausgegangen.de/organizations/page-for-team-house-of-pride/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Ritter Butzke",
+     "url": "https://rausgegangen.de/organizations/ritter-butzke-3/"
+    }
+   ],
+   "startDate": "2027-07-24T21:00+0200"
+  },
+  "seen": "2026-11-15T18:52:24+01:00",
+  "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
+  "tickets_ok": true
+ },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1/": {
-  "fetched": "2026-11-15T12:15:10+01:00",
+  "fetched": "2026-11-15T18:52:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -650,5 +875,100 @@
   "seen": "2026-10-27T20:46:24+01:00",
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
+ },
+ "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
+  "fetched": "2026-11-15T18:52:24+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Tipsy Bear presents: Sleigh Queens! 🛷👑Just before Christmas, Tipsy turns into a glittering winter wonderland for one very special night of drag. ❄️Sleigh Queens is a holiday-themed Christmas show with a festive Berlin lineup: expect lip syncs, live performances, camp comedy and an ugly christmas sweater contest. Set to all the Christmas bangers you love (to hate). 🎄Your host EMI guides you through the night, joined by Konfetti N. D. Sky, Maximalismus and Clara Unique. 💅UGLY CHRISTMAS SWEATER CONTEST 🧶 Dig out the most hideous, tacky, blinking, bauble-covered sweater you can find. The queens will crown the ugliest Christmas sweater of the night!Come early for happy hour, bring your friends and stay to party: after the show our DJ keeps the sleigh ride going until late. 🪩📅 Saturday, 19 December 2026 ⏰ Show: 19:30 - 22:00 📍 Tipsy Bear Berlin, Eberswalder Str. 21, 10437 Berlin 🎟️ Tickets: 15 € / 10 € reduced  ",
+   "endDate": "2026-12-19T22:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/cVhXI22ySQaQIMsc06xS_sleigh-queens-banner-no-text.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10437",
+     "streetAddress": "Eberswalder Straße 21"
+    },
+    "name": "Tipsy Bear Berlin"
+   },
+   "name": "Sleigh Queens - A Christmas Drag Show",
+   "offers": {
+    "@type": "Offer",
+    "price": "15.00",
+    "priceCurrency": "EUR",
+    "url": "https://www.eventbrite.de/e/sleigh-queens-by-emi-tickets-2004003535521?aff=oddtdtcreator",
+    "validFrom": "2026-12-19T19:30+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "DUCT TAPE",
+    "url": "https://rausgegangen.de/organizations/duct-tape/"
+   },
+   "startDate": "2026-12-19T19:30+0100"
+  },
+  "seen": "2026-11-15T18:52:24+01:00"
+ },
+ "https://rausgegangen.de/events/tati-comedy-one-laugh-night-29/": {
+  "fetched": "2026-11-15T18:52:24+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Comedy mit Stil im Tati goes Underground in Berlin. Authentische Stand-up Shows mit bekannten Comedians, Berliner Underground Acts und Newcomern in edler Bar-Atmosphäre mit hochwertigen Cocktails. Die Bühne für spontane Überraschungen. Mal tauchen bekannte Gesichter aus der Comedy-Szene auf, mal brandneue Talente, die man so noch nie gesehen hat.Sicher ist nur eins:Es wird spät, es wird witzig und es wird auch dunkel lustig.Eintritt  ab 16 Jahre",
+   "endDate": "2026-11-18T22:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/kJyays4wROGHyg5J9wGS_tati-comedy-club-berliner-stand-up-nacht.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10405",
+     "streetAddress": "Metzer Straße 2"
+    },
+    "name": "Tati goes Underground"
+   },
+   "name": "Tati Comedy - Die Stand Up Comedy Show",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 3,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "16.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Frühbücher",
+      "price": "14.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Studenten",
+      "price": "14.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "startDate": "2026-11-18T20:00+0100"
+  }
  }
 }

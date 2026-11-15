@@ -1,6 +1,52 @@
 {
+ "https://rausgegangen.de/events/1-day-chor-berlin-0/": {
+  "fetched": "2026-11-15T03:51:36+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Ein Chor für einen Tag, ohne langes Commitment. Unter Leitung von Constantin Gold entsteht mit anderen ein Medley aus 5 bis 7 Songs, und am Ende wird das gemeinsam Erarbeitete professionell aufgenommen 🎤",
+   "endDate": "2026-12-13T16:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/4JYsZ4KKQ46DQVPPL7v9_design2026eventsonedaychorentwurf01.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "13088",
+     "streetAddress": "Berliner Allee 125"
+    },
+    "name": "PETER EDEL"
+   },
+   "name": "1 DAY CHOR Berlin",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "60.00",
+    "priceCurrency": "EUR",
+    "url": "https://t.rausgegangen.de/tickets/1-day-chor-berlin",
+    "validFrom": "2026-11-05T00:00+0100"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "1 DAY CHOR",
+     "url": "https://rausgegangen.de/organizations/1-day-chor/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Rausgegangen Events",
+     "url": "https://rausgegangen.de/organizations/rausgegangen-events/"
+    }
+   ],
+   "startDate": "2026-12-13T10:30+0100"
+  }
+ },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
-  "fetched": "2026-11-14T19:19:41+01:00",
+  "fetched": "2026-11-15T03:51:36+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -97,7 +143,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-11-14T19:19:41+01:00",
+  "fetched": "2026-11-15T03:51:36+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -207,16 +253,16 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/alizade-0/": {
-  "fetched": "2026-11-14T19:19:41+01:00",
+ "https://rausgegangen.de/events/all-we-need-is-house-by-mad-series-0/": {
+  "fetched": "2026-11-15T03:51:36+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Drei Sprachen im Kopf, klare Ansage im Mic. Alizade bewegt sich zwischen türkischem Trap, Hip Hop und Pop, ohne sich stilistisch klein zu machen 💅🏼",
-   "endDate": "2027-03-18T23:00+0100",
+   "description": "MAD SERIES | ALL WE NEED IS HOUSE Am 21. November ab 22 Uhr bringt MAD SERIES House, Latin House und Afro House ins Hotel AMANO East Side in Berlin.Freut euch auf sechs DJs, treibende Beats und Specials vor Ort.Bei MAD SERIES seid ihr mittendrin. Ihr tanzt direkt vor und hinter dem DJ und seid Teil der Session. Unsere Sets werden gefilmt, mit euch und der Stimmung auf der Tanzfläche.Bringt eure Freunde mit und feiert mit uns bis tief in die Nacht.🎧 LINEUP Miguel Wave • Nathalie • KJ • Alexander Da Great • Janaa • Stinhow📍 Hotel AMANO East Side Stralauer Platz 30–31, 10243 Berlin 📅 21. November | ab 22 Uhr🎟️ Sichert euch jetzt eure Tickets!ALL WE NEED IS HOUSE",
+   "endDate": "2026-11-22T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/RPaXer3QRV2eoGgEPHaF_photo-alizadecredit-ricardo-van-lachterop-kopie.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/pcyMV6yjSZayLof98Of0_madseries16x9.png"
    ],
    "location": {
     "@type": "Place",
@@ -224,95 +270,40 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "12435",
-     "streetAddress": "Am Flutgraben 2"
+     "postalCode": "10243",
+     "streetAddress": "Stralauer Platz 30-31"
     },
-    "name": "Festsaal Kreuzberg"
+    "name": "AMANO East Side"
    },
-   "name": "Alizade",
+   "name": "All we need is House by MAD SERIES",
    "offers": {
-    "@type": "Offer",
-    "price": "33.50",
-    "priceCurrency": "EUR",
-    "url": "https://www.eventim.de/artist/alizade/",
-    "validFrom": "2027-03-18T19:00+0100"
+    "@type": "AggregateOffer",
+    "highPrice": "12.79",
+    "lowPrice": "8.97",
+    "offerCount": 2,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Phase 1 – Einlass bis 00 Uhr",
+      "price": "8.97",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Phase 2",
+      "price": "12.79",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
    },
-   "startDate": "2027-03-18T19:00+0100"
-  }
- },
- "https://rausgegangen.de/events/berlinale-spotlight-panorama-dokumente-the-other-side-of-the-0/": {
-  "fetched": "2026-11-14T23:37:14+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Filmemacher Tawfik Sabouni wurde vor Jahren aus dem syrischen Foltergefängnis Saidnaya entlassen, das auch als Ort „hinter der Sonne“ bezeichnet wird. Kurz nach dem Sturz des Assad-Regimes im Dezember 2024 kehrt er an den Ort seiner Gefangenschaft zurück. Es geht ihm nicht darum, Wunden wieder aufzureißen, sondern wiederherzustellen, was systematische Gewalt versucht hat auszulöschen: Stimmen, Geschichten und Menschlichkeit. Sabouni lädt vier weitere Saidnaya-Überlebende ein, ihn auf seiner Reise zu begleiten. Gemeinsam kehren sie an die Orte zurück, an denen sie jahrelang gefoltert und entmenschlicht wurden, und spielen in sorgfältig konstruierten Reenactments ihre Gefangenschaft nach – tägliche Rituale, Gesten, Momente des Überlebens. Gedreht innerhalb des ehemaligen Gefängnisses werden die Reenactments zum Ausdrucksmittel für etwas, das sich nicht in Worte fassen lässt. Auf zurückhaltende Weise konfrontiert der Film das Publikum mit den bleibenden Spuren der Haft und gibt nicht nur den auftretenden fünf Männern eine Stimme, sondern auch den Tausenden, die das Assad-Regime nicht überlebt haben und deren Familien noch immer nach Antworten suchen.PROGRAMM Begrüßung N.N.FilmvorführungThe Other Side of the SunVon: Tawfik Sabouni (Regie, Buch), Laurine Estrade (Buch)Land: Belgien / Frankreich / Saudi-Arabien 2026Sprache: Arabisch (mit englischen Untertiteln)Dauer:  92 MinutenFilmgesprächTawfik Sabouni, Regisseur, BuchModeration: N.N.  WEITERE HINWEISEEinlass: 18.00 UhrSprache: DeutschEINTRITT FREI MIT ANMELDUNG  Das Berlinale Spotlight: Panorama Dokumente, Forum & Generation ist eine Kooperation zwischen dem Dokumentationszentrum Flucht, Vertreibung, Versöhnung und dem European Film Market (EFM) der Internationalen Filmfestspiele Berlin.",
-   "endDate": "2026-11-18T21:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/m8KedHGNTY6UQIgIBcx2_websitebildtosots.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10963",
-     "streetAddress": "Stresemannstraße 90"
-    },
-    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
-   },
-   "name": "Berlinale Spotlight – Panorama Dokumente: The Other Side of the Sun",
-   "offers": {
-    "@type": "Offer",
-    "price": "0.00",
-    "priceCurrency": "EUR",
-    "url": "https://buchungen.flucht-vertreibung-versoehnung.de/de/tickets/111",
-    "validFrom": "2026-11-18T18:30+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung",
-    "url": "https://rausgegangen.de/organizations/dokumentationszentrum-flucht-vertreibung-versohnung/"
-   },
-   "startDate": "2026-11-18T18:30+0100"
-  }
- },
- "https://rausgegangen.de/events/colours-of-the-night-3/": {
-  "fetched": "2026-11-14T23:37:14+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Der sexpositive Rave für alle Sinne Techno, Melodic Techno & Peak Time by Junior WA & Sika Akis  Dresscode: Sexy · kinky · elegant · fantasievoll · farbenfroh · extravagant Eintritt: 28€ pro Person, NextGen Ticket (18-28 J.) 20€, Social Ticket* 18€Bitte Tickets an der Abendkasse kaufen. Colors of the Night ist keine gewöhnliche Clubnacht.Es ist ein Rave zwischen Ekstase, Verführung und sexueller Freiheit – für Menschen, die tanzen, flirten, spielen und sich treiben lassen wollen.  Dein farbiges Bändchen zeigt, was Dich heute Nacht reizt: Grün = Offen für Abenteuer Gelb = Just Party Blau = Paare unter sich Rot = Bi-Interessiert  Du kannst Deine Farbe jederzeit wechseln. Denn manchmal beginnt eine Nacht ganz harmlos – und entwickelt dann ihre eigene Dynamik.  Auf dem Dancefloor verschmelzen Körper, Licht und treibende Beats. Abseits davon warten sinnliche Rückzugsorte, Kuschelecken und Play-Areas für alle, die mehr als nur tanzen wollen.  Beobachten. Flirten. Berühren. Spielen. Alles darf - nichts muss.  Ein Bändchen zeigt Interesse – es ersetzt niemals eine klare Zustimmung. Fragen ist sexy. Respekt ist Pflicht. Unser Awareness-Team ist die ganze Nacht für Dich da.  DRESSCODE Sexy · kinky · fantasievoll · farbenfroh · extravagant Zeig Haut, Haltung und Fantasie. Lack, Leder, Latex, Dessous, Harness, Glamour, Fetisch, wilde Farben oder ein Look, der garantiert nicht nach Alltag aussieht. Keine Jeans. Keine weißen Sneaker. Keine Langeweile.  Vier Farben. Tausend Möglichkeiten. Welche Farbe trägt Deine Nacht?",
-   "endDate": "2026-11-15T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/bkeGYjFzTMiNuNvJG9d2_coloursnightrausgegangen1920x1080.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "12099",
-     "streetAddress": "Alt-Tempelhof 17-19"
-    },
-    "name": "Insomnia Club Berlin"
-   },
-   "name": "Colours of the Night",
-   "offers": {
-    "@type": "Offer",
-    "price": 0,
-    "priceCurrency": "EUR",
-    "url": "https://insomnia.berlin/s-positive/5090",
-    "validFrom": "2026-11-14T22:00+0100"
-   },
-   "startDate": "2026-11-14T22:00+0100"
+   "startDate": "2026-11-21T22:00+0100"
   }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-11-14T19:19:41+01:00",
+  "fetched": "2026-11-15T03:51:36+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -400,75 +391,8 @@
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/cris-cosmo-liebe-dich-selbst-tour-2026-3/": {
-  "fetched": "2026-11-14T23:37:14+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Liebe dich selbst Tour 2026 – Mit seinem neuen Album geht Cris Cosmo im Herbst 2026 auf große Deutschlandtour und bringt die Botschaft von Selbstliebe, Lebensfreude und Zusammenhalt auf die Bühne. Cris Cosmo, bekannt als Botschafter für Toleranz und Weltoffenheit, verbindet Singer-Songwriter, Indie-Pop, Reggae und südamerikanische Grooves zu einem tanzbaren Sound mit starken, positiven Messages. Nach über 2.000 Konzerten begeistert er mit interaktiven Momenten, spontanen Freestyle-Einlagen und einer außergewöhnlichen Bühnenpräsenz – eine Freiheits-Party voller guter Vibes, bei der alle Generationen und Nationen willkommen sind.Support: Antonio Hoffmann Gibt es Hafermilch beim Bund? Der Berliner Songwriter stellt die Fragen, die wirklich zählen, mit Wortwitz, feinen Gitarrenarrangements und kraftvoller Stimme. https://www.instagram.com/antoniohoffmann_/ Der Zutritt zum Monarch ist erst ab 18 Jahren möglich.",
-   "endDate": "2026-11-21T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Zvxq8P9MTq52crjoixf4_cris-cosmo-liebe-dich-selbst-cover-image-by-rene-van-der-voorden-header-1.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10999",
-     "streetAddress": "Skalitzer Str. 134"
-    },
-    "name": "Monarch"
-   },
-   "name": "Cris Cosmo - Liebe dich selbst Tour 2026",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "20.00",
-    "lowPrice": "0.00",
-    "offerCount": 4,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "15.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Ermäßigt",
-      "price": "10.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Supporter",
-      "price": "20.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Begleitperson",
-      "price": "0.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Cris Cosmo"
-   },
-   "startDate": "2026-11-20T19:30+0100"
-  }
- },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
-  "fetched": "2026-11-14T19:19:41+01:00",
+  "fetched": "2026-11-15T03:51:36+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -513,7 +437,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-14T19:19:41+01:00",
+  "fetched": "2026-11-15T03:51:36+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -560,7 +484,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-22/": {
-  "fetched": "2026-11-14T19:19:41+01:00",
+  "fetched": "2026-11-15T03:51:36+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -605,7 +529,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
-  "fetched": "2026-11-14T19:19:41+01:00",
+  "fetched": "2026-11-15T03:51:36+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -650,7 +574,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
-  "fetched": "2026-11-14T19:19:41+01:00",
+  "fetched": "2026-11-15T03:51:36+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -697,7 +621,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-11-14T19:19:41+01:00",
+  "fetched": "2026-11-15T03:51:36+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -748,7 +672,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-brunch-sponsored-by-fritz-kola-winter-edition-0/": {
-  "fetched": "2026-11-14T19:19:41+01:00",
+  "fetched": "2026-11-15T03:51:36+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -790,50 +714,8 @@
   },
   "seen": "2026-10-20T15:24:41+02:00"
  },
- "https://rausgegangen.de/events/hits-different-steve-clash-club-tour-2026-berlin-0/": {
-  "fetched": "2026-11-14T23:37:14+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Electronic dance party with your favorite mashup bangers played in a sophisticated DJ set.Steve Clash zerlegt deine Lieblingssongs. Mainstage-Energie und Meilensteine der Popkultur vereinen sich in den sogenannten Power-Mashups. Deine Lieblingssongs nur lauter, etwas kaputter und tanzbarer.Haftbefehl aber Drum N Bass, Peter Fox aber Bass House, Imogen Heap aber Speed House. Hits different.",
-   "endDate": "2026-11-21T22:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/9I0oY3UlTfGrBCKZ1vJC_photobyjoschawiener202608082110131-2.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10999",
-     "streetAddress": "Skalitzer Str. 134"
-    },
-    "name": "Monarch"
-   },
-   "name": "Hits Different - Steve Clash Club Tour 2026 - Berlin",
-   "offers": {
-    "@type": "Offer",
-    "price": "10.00",
-    "priceCurrency": "EUR",
-    "url": "https://ticket2go.de/c/5869",
-    "validFrom": "2026-11-21T18:30+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Steve Clash",
-    "url": "https://rausgegangen.de/organizations/page-for-team-steve-clash/"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Steve Clash"
-   },
-   "startDate": "2026-11-21T18:30+0100"
-  }
- },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-11-14T19:19:41+01:00",
+  "fetched": "2026-11-15T03:51:36+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -923,7 +805,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1/": {
-  "fetched": "2026-11-14T19:19:41+01:00",
+  "fetched": "2026-11-15T03:51:36+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -964,16 +846,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/marenera-pizzica-italienische-volksmusik-0/": {
-  "fetched": "2026-11-14T23:37:14+01:00",
+ "https://rausgegangen.de/events/mattiel-4/": {
+  "fetched": "2026-11-15T03:51:36+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Süditalienische Volksmusik, die nicht im Archiv bleibt, sondern für Tanz, Rituale und Feste gemacht ist. Marenera spielt Pizzica, Tarantella und andere überlieferte Lieder so, dass Du die Hochzeitsgesellschaft fast schon vor Dir siehst 💃",
-   "endDate": "2027-01-16T05:00+0100",
+   "description": "Mattiel Brown kommt aus Atlanta, lebt in Italien und klingt trotzdem nach keiner klaren Schublade. Zwischen Vintage Soul und Indie Rock zeigt ihre neue Single eine leisere, persönlichere Seite 👀",
+   "endDate": "2027-05-24T06:00+0200",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/QX2v5BFTTY6s0wpjkvQ6_foto-1-treppecreditsgiannis-vassaras.jpeg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/H5QfApkARu6WTlvbe579_mattiel-hp-1270x700-px.png"
    ],
    "location": {
     "@type": "Place",
@@ -981,24 +863,143 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10435",
-     "streetAddress": "Knaackstraße 97"
+     "postalCode": "10777",
+     "streetAddress": "Nollendorfplatz 5"
     },
-    "name": "PANDA platforma"
+    "name": "Mikropol"
    },
-   "name": "Marenera: Pizzica & italienische Volksmusik",
+   "name": "Mattiel",
    "offers": {
     "@type": "Offer",
-    "price": "13.00",
+    "price": "24.90",
     "priceCurrency": "EUR",
-    "url": "https://panda-platforma.berlin/events/marenera-pizzica-italienische-volksmusik/",
-    "validFrom": "2027-01-15T20:30+0100"
+    "url": "https://www.eventim.de/noapp/event/mattiel-the-at-the-doorstep-tour-mikropol-22313827/?affiliate=KSG&utm_campaign=schoneberg&utm_source=KSG&utm_medium=dp",
+    "validFrom": "2027-05-23T19:00+0200"
    },
-   "startDate": "2027-01-15T20:30+0100"
+   "organizer": {
+    "@type": "Organization",
+    "name": "Konzertbüro Schoneberg",
+    "url": "https://rausgegangen.de/organizations/schoneberg-konzerte/"
+   },
+   "startDate": "2027-05-23T19:00+0200"
+  }
+ },
+ "https://rausgegangen.de/events/movie2menu-presents-kevin-allein-zu-haus-3/": {
+  "fetched": "2026-11-15T03:51:36+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Zwischen Kindheitserinnerung und Menüfolge läuft Kevin wieder durchs Haus, und die Teller kommen passend zur Szene an Deinen Platz. Kein normaler Kinoabend, eher ein Weihnachtsfilm mit Gängen und feuchter Banditenenergie 🍿",
+   "endDate": "2026-11-23T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/PLKz2h38RG6t1kk16zU0_titelbildneueslogo.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "12043",
+     "streetAddress": "Ganghoferstraße 10"
+    },
+    "name": "Cherry on Top"
+   },
+   "name": "Movie2Menu presents: Kevin - Allein zu Haus",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 4,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Plant Based + Mit Alkohol",
+      "price": "158.54",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Plant Based + Ohne Alkohol",
+      "price": "158.54",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Mit Alkohol",
+      "price": "158.54",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Ohne Alkohol",
+      "price": "158.54",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "Movie2Menu",
+     "url": "https://rausgegangen.de/organizations/movie2menu/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Team - Leif Lüdtke & Paul Rost GbR",
+     "url": "https://rausgegangen.de/organizations/p-team-leif-ludtke-paul-rost-gbr/"
+    }
+   ],
+   "startDate": "2026-11-22T18:30+0100"
+  }
+ },
+ "https://rausgegangen.de/events/paint-taste-connect-0/": {
+  "fetched": "2026-11-15T03:51:36+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Paint, Sip & Taste – dein kreativer Abend mit KoRo-Snack-Tasting 🎨🥂Pinsel in der einen Hand, ein Drink in der anderen und nette Menschen um dich herum: Gemeinsam mit Amorivia verwandeln wir das ich lieb’s Café in einen gemütlichen Ort zum Malen, Snacken und Kennenlernen.Ob allein, mit Freund oder als Paar – hier sind alle willkommen. Ihr malt gegenseitig eure Porträts, probiert euch kreativ aus und entdeckt beim KoRo-Snack-Tasting neue Lieblingssnacks. Du brauchst keine Malkenntnisse: Ein schiefes Lächeln auf der Leinwand gehört genauso dazu wie ein echtes am Tisch.Das erwartet dich:🎨 Paint & Sip: Leinwände, Farben und Pinsel stehen bereit. Du malst deinen Gegenüber in deinem ganz eigenen Stil – ohne Leistungsdruck und mit viel Raum zum Ausprobieren.🍫 KoRo-Snack-Tasting: Probiere dich durch eine Auswahl an KoRo-Snacks und tausche dich mit den anderen über eure Favoriten aus.🥂 Sip & Socialize: Genieße die gemütliche Café-Atmosphäre, gönn dir einen Drink und komm mit anderen ins Gespräch. Auch wenn du allein kommst, findest du vor Ort ein Gegenüber zum Malen.✨ Kleine Spiele & große Enthüllung: Zwischendurch sorgen Mini-Games für Abwechslung. Zum Schluss zeigt ihr euch eure fertigen Porträts – und entdeckt, wie euer Gegenüber euch gesehen hat.📸 Erinnerungen zum Mitnehmen: Zeit für gemeinsame Fotos und selbst gemalte Bilder, die euch auch zu Hause an den Abend erinnern.Komm, wie du bist, und gönn dir einen Abend voller Farbe, neuer Begegnungen und leckerer Entdeckungen.Wir freuen uns auf dich!",
+   "endDate": "2026-11-21T20:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/VkNoNrPQT1sZ38yQyATV_amorivia-paint-your-partner.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10781",
+     "streetAddress": "Elßholzstraße 1"
+    },
+    "name": "Ich Liebs Café"
+   },
+   "name": "PAINT - TASTE - CONNECT",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "24.90",
+    "priceCurrency": "EUR",
+    "url": "https://t.rausgegangen.de/tickets/paint-taste-connect",
+    "validFrom": "2026-10-25T23:45+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Amorivia",
+    "url": "https://rausgegangen.de/organizations/offline-events/"
+   },
+   "startDate": "2026-11-21T17:30+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
-  "fetched": "2026-11-14T19:19:41+01:00",
+  "fetched": "2026-11-15T03:51:36+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -1035,5 +1036,39 @@
    "startDate": "2026-12-19T19:30+0100"
   },
   "seen": "2026-10-31T02:26:10+01:00"
+ },
+ "https://rausgegangen.de/events/wessen-denkmaler-deutsche-spuren-in-den-polnischen-westgebie-0/": {
+  "fetched": "2026-11-15T03:51:36+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Umgestaltet, umgedeutet oder dem Verfall überlassen: Deutsche Denkmäler nahmen nach 1945 in den neuen polnischen Westgebieten ganz unterschiedliche Wege. Wie gingen die Menschen vor Ort mit diesen Hinterlassenschaften um? Was passte zum Neuanfang, was blieb fremd, und was änderte sich mit der Zeit?In seinem Fotoprojekt „Denkmalforschung“ untersucht Wojtek Sienkiewicz Denkmäler in niederschlesischen Dörfern. Im Gespräch mit der Kulturwissenschaftlerin Karolina Ćwiek-Rogalska geht er der Frage nach, wie lokale Initiativen, politische Vorgaben und alltägliche Entscheidungen ineinandergreifen. Die Denkmäler erzählen von Aneignung und Vernachlässigung, von Erinnerungspolitik und einem Umgang mit dem deutschen Erbe, der bis heute voller Widersprüche ist. PROGRAMMBegrüßungDr. Roland Borchers, Direktor, Dokumentationszentrum Flucht, Vertreibung, Versöhnung, BerlinKatarzyna Sitko, Direktorin, Polnisches Institut Berlin, BerlinPodiumWojtek Sienkiewicz, FotografProf. Karolina Ćwiek-Rogalska, Institut für Slawistik an der Polnischen Akademie der Wissenschaften, WarschauModeration: Prof. Felix Ackermann, Lehrgebiet Public History an der Fernuniversität in Hagen WEITERE HINWEISE  Einlass: 18.00 UhrSprache: Deutsch, Polnisch (mit Simultanübersetzung)EINTRITT FREI, MIT ANMELDUNGEine Veranstaltung im Rahmen der Sonderausstellung „OSTGEBIETE / ZIEMIE ZACHODNIE. Eine deutsch-polnische Spurensuche.\"",
+   "endDate": "2026-11-26T20:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/5Bp6OORBQvmekU2FPgAA_pi-ex-1.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10963",
+     "streetAddress": "Stresemannstraße 90"
+    },
+    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
+   },
+   "name": "Wessen Denkmäler? Deutsche Spuren in den polnischen Westgebieten",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 0,
+    "offers": [],
+    "priceCurrency": "EUR"
+   },
+   "startDate": "2026-11-26T18:30+0100"
+  }
  }
 }

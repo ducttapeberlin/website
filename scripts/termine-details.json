@@ -1,6 +1,6 @@
 {
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
-  "fetched": "2026-11-16T12:46:54+01:00",
+  "fetched": "2026-11-16T23:21:41+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -97,7 +97,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-11-16T12:46:54+01:00",
+  "fetched": "2026-11-16T23:21:41+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -207,16 +207,16 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/berlinale-spotlight-forum-chronos-fluss-der-zeit-0/": {
-  "fetched": "2026-11-16T12:46:54+01:00",
+ "https://rausgegangen.de/events/alizade-0/": {
+  "fetched": "2026-11-16T23:21:41+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "„Sarmatische Zeit“ heißt der Gedichtband von Johannes Bobrowski, der für Volker Koepp zum poetischen wie persönlichen Leitmotiv für diese bildstarke wie weitläufige Sondierung einer Region zwischen Ostsee und Schwarzem Meer, entlang der Ströme Memel, Dnister und Pruth wird. Herkunfts-, Sehnsuchts- und Tatort zugleich: Sammelbecken unterschiedlicher Kulturen und Zugehörigkeiten, über ein halbes Jahrhundert Bezugs- und Fluchtpunkt im Schaffen des großen Chronisten sowie Schauplatz wiederkehrender Grausamkeit und Vernichtung. Die Rückkehr zum eigenen Werk mit neuen und alten Weggefährtinnen und Weggefährten wird zur gleichzeitigen Rückschau und Reaktualisierung.Wie durch Delta-Arme entstehen Verbindungen zur deutschen Geschichte und zum gesamteuropäischen Kontext, zwischen Vergangenheit und Gegenwart. Und für einen langen Augenblick scheint in diesem Fluss die Zeit erschreckend stillzustehen, denn spätestens seit Beginn des russischen Angriffskriegs auf die Ukraine 2022 ist das Echo der dieser Region eingeschriebenen Gewalterfahrung nicht mehr zu überhören. Was seinen Ursprung in Gedichten über das Memelland nimmt, entwickelt sich zu einer epochalen Kontemplation über den Menschen in Zeit und Raum.  Volker KoeppGeboren 1944 in Stettin, aufgewachsen in Berlin. Nach einer Ausbildung zum Maschinenschlosser studierte Volker Koepp an der TU Dresden, anschließend an der Deutschen Hochschule für Filmkunst in Babelsberg. Von 1970 bis 1991 war er als Regisseur am DEFA-Studio für Dokumentarfilm beschäftigt. Seither ist er als freier Regisseur, Autor, Produzent sowie in der Lehre tätig. Volker Koepp war mehrfach im Berlinale Forum zu Gast. Neben diversen Auszeichnungen für sein filmisches Werk erhielt er 2014 das Bundesverdienstkreuz 1. Klasse und wurde 2021 Ehrenmitglied der Deutschen Filmakademie.PROGRAMM Begrüßung Dr. Roland Borchers, Direktor, Dokumentationszentrum Flucht, Vertreibung, Versöhnung (Berlin)FilmvorführungChronos – Fluss der ZeitVon: Volker Koepp, Regie, BuchLand: Deutschland 2026Sprache: Deutsch, Ukrainisch, Litauisch, Belarussisch, Russisch, Rumänisch (mit deutschen Untertiteln)Dauer: 200 MinutenFilmgesprächVolker Koepp, RegisseurModeration: Barbara Wurm, Leiterin Berlinale Forum (Berlin) WEITERE HINWEISEEinlass: 17.30 UhrSprache: DeutschEINTRITT FREI MIT ANMELDUNG Das Berlinale Spotlight: Panorama Dokumente, Forum & Generation ist eine Kooperation zwischen dem Dokumentationszentrum Flucht, Vertreibung, Versöhnung und dem European Film Market (EFM) der Internationalen Filmfestspiele Berlin.",
-   "endDate": "2026-12-09T22:00+0100",
+   "description": "Drei Sprachen im Kopf, klare Ansage im Mic. Alizade bewegt sich zwischen türkischem Trap, Hip Hop und Pop, ohne sich stilistisch klein zu machen 💅🏼",
+   "endDate": "2027-03-18T23:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/wDCbAMuThyJFRzPkNbAz_chronospresse01.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/RPaXer3QRV2eoGgEPHaF_photo-alizadecredit-ricardo-van-lachterop-kopie.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -224,29 +224,57 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10963",
-     "streetAddress": "Stresemannstraße 90"
+     "postalCode": "12435",
+     "streetAddress": "Am Flutgraben 2"
     },
-    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
+    "name": "Festsaal Kreuzberg"
    },
-   "name": "Berlinale Spotlight – Forum: Chronos – Fluss der Zeit",
+   "name": "Alizade",
    "offers": {
     "@type": "Offer",
-    "price": "0.00",
+    "price": "33.50",
     "priceCurrency": "EUR",
-    "url": "https://buchungen.flucht-vertreibung-versoehnung.de/de/tickets/112",
-    "validFrom": "2026-12-09T18:00+0100"
+    "url": "https://www.eventim.de/artist/alizade/",
+    "validFrom": "2027-03-18T19:00+0100"
    },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung",
-    "url": "https://rausgegangen.de/organizations/dokumentationszentrum-flucht-vertreibung-versohnung/"
+   "startDate": "2027-03-18T19:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/cassia-12/": {
+  "fetched": "2026-11-16T23:21:41+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Nach der ersten Welttour klingt Cassia nicht nach Durchatmen, sondern nach Neujustierung. Das Trio aus Manchester baut seine neuen Songs stärker um Drums und Grooves herum, die aktuelle Single lovedrunk. gibt davon schon einen klaren Vorgeschmack 🎟️",
+   "endDate": "2026-11-21T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://rausgegangen.s3.amazonaws.com/uhsz8x1601xc.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10997",
+     "streetAddress": "Cuvrystraße 7"
+    },
+    "name": "Lido"
    },
-   "startDate": "2026-12-09T18:00+0100"
+   "name": "Cassia",
+   "offers": {
+    "@type": "Offer",
+    "price": "31.50",
+    "priceCurrency": "EUR",
+    "url": "https://www.kj.de/artist/7358",
+    "validFrom": "2026-11-20T20:00+0100"
+   },
+   "startDate": "2026-11-20T20:00+0100"
   }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-11-16T12:46:54+01:00",
+  "fetched": "2026-11-16T23:21:41+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -334,8 +362,40 @@
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/der-schatz-eine-bohmische-familiengeschichte-0/": {
+  "fetched": "2026-11-16T23:21:41+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "April 1945. Die Rote Armee rückt unaufhaltsam vor. Am Fuß des Riesengebirges vergräbt Otto Ther eine Kiste mit einem Diamantkreuz, Schmuck und poliertem Silberbesteck. Sie soll überdauern, bis die Familie nach Hohenelbe, heute Vrchlabí, zurückkehren kann.Jahrzehnte später reist sein Enkel, der Historiker Philipp Ther, mit seinem Vater immer wieder in die verlorene Heimat. Das örtliche Museum übergibt ihnen drei Kisten, für den Historiker ein Schatz ganz anderer Art. Die Familiendokumente darin zeigen, wie tief die eigene Familie in den Nationalsozialismus verstrickt war.In „Mein Schatz“ verbindet Philipp Ther Familien- und Zeitgeschichte zu einer persönlichen Erzählung über Herkunft, Schuld und Erinnerung.„Philipp Ther ist ein sozialhistorischer Prosakünstler.“ Gustav Seibt PROGRAMM BegrüßungDr. Roland Borchers, Direktor, Dokumentationszentrum Flucht, Vertreibung, Versöhnung (Berlin)Lesung und GesprächProf. Dr. Philipp Ther, AutorModeration: em. Prof. Dr. Jürgen Kocka, Freie Universität (Berlin)Der Autor steht nach der Lesung für eine Signierstunde bereit. Im Anschluss laden wir Sie zu einem kleinen Empfang ein.  WEITERE HINWEISE   Büchertisch: Buchhandlung „Der Zauberberg“Einlass: 18.00 Uhr   Sprache: DeutschEINTRITT FREI, MIT ANMELDUNGDie Veranstaltung wird aufgezeichnet und auf unserem YouTube-Kanal Flucht, Vertreibung, Versöhnung veröffentlicht.",
+   "endDate": "2026-12-02T20:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/iONiEZu9RfK8U0wtzZgo_der-schatz-2.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10963",
+     "streetAddress": "Stresemannstraße 90"
+    },
+    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
+   },
+   "name": "Der Schatz – Eine böhmische Familiengeschichte",
+   "offers": {
+    "@type": "Offer",
+    "price": "0.00",
+    "priceCurrency": "EUR",
+    "validFrom": "2026-12-02T18:30+0100"
+   },
+   "startDate": "2026-12-02T18:30+0100"
+  }
+ },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
-  "fetched": "2026-11-16T12:46:54+01:00",
+  "fetched": "2026-11-16T23:21:41+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -380,7 +440,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-16T12:46:54+01:00",
+  "fetched": "2026-11-16T23:21:41+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -427,7 +487,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-22/": {
-  "fetched": "2026-11-16T12:46:54+01:00",
+  "fetched": "2026-11-16T23:21:41+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -472,7 +532,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
-  "fetched": "2026-11-16T12:46:54+01:00",
+  "fetched": "2026-11-16T23:21:41+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -517,7 +577,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
-  "fetched": "2026-11-16T12:46:54+01:00",
+  "fetched": "2026-11-16T23:21:41+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -564,7 +624,7 @@
   "seen": "2026-11-15T18:52:24+01:00"
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-11-16T12:46:54+01:00",
+  "fetched": "2026-11-16T23:21:41+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -614,68 +674,8 @@
   },
   "seen": "2026-10-27T20:46:24+01:00"
  },
- "https://rausgegangen.de/events/fliegende-haie-alle-gehn-dumm-tour-12/": {
-  "fetched": "2026-11-16T12:46:54+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Kuck dir die Welt doch an: Alle gehn dumm. Smartphone-Zombies, emotionaler Leerstand, machtbesessene Despoten. Zeit für einen Reset – Fliegende Haie finden: Wenn schon dumm gehen, dann richtig! Ausrasten, durchtanzen und schweißnass Hymnen hinausschreien für eine bessere Welt.Unterdrückung von Frauen, mentale Gesundheit, sexuelle Unfreiheit – Haie reißen Wunden auf, denn wir haben keinen Bock, dass morgen noch alles so ist wie heute. Also Blutrausch an und die Issues zermahlen im Revolvergebiss. Dazu Bässe, die Beine wegreißen wie der Weiße Hai.Der Haie-Hyperpop ist seit der letzten Tour 2025 düsterer geworden, doch live energiegeladen wie eh und je: Instant wirst du hineingesogen in eine Artshow, die das Salzwasser aus deinen Poren drückt, bis sie dich als neuer Mensch wieder ausgespuckt. Durchgeschüttelt, wachgerüttelt, aber glücklich. Nur was blutet, kann auch hailen.",
-   "endDate": "2026-12-11T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/kDdpHEaT06v9EGY8VXh3_fliegende-haie-alle-gehn-dumm-foto-01quer-c-maxim-kaiser.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "12435",
-     "streetAddress": "Alt Treptow 6"
-    },
-    "name": "Kulturhaus Insel Berlin"
-   },
-   "name": "FLIEGENDE HAIE - Alle gehn dumm-Tour",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "27.10",
-    "lowPrice": "16.50",
-    "offerCount": 3,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Social Ticket",
-      "price": "16.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "21.80",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Supporterticket",
-      "price": "27.10",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Fliegende Haie"
-   },
-   "startDate": "2026-12-10T20:00+0100"
-  }
- },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-11-16T12:46:54+01:00",
+  "fetched": "2026-11-16T23:21:41+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -765,7 +765,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1/": {
-  "fetched": "2026-11-16T12:46:54+01:00",
+  "fetched": "2026-11-16T23:21:41+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -806,47 +806,8 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/paint-taste-connect-0/": {
-  "fetched": "2026-11-16T12:46:54+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Paint, Sip & Taste – dein kreativer Abend mit KoRo-Snack-Tasting 🎨🥂Pinsel in der einen Hand, ein Drink in der anderen und nette Menschen um dich herum: Gemeinsam mit Amorivia verwandeln wir das ich lieb’s Café in einen gemütlichen Ort zum Malen, Snacken und Kennenlernen.Ob allein, mit Freund oder als Paar – hier sind alle willkommen. Ihr malt gegenseitig eure Porträts, probiert euch kreativ aus und entdeckt beim KoRo-Snack-Tasting neue Lieblingssnacks. Du brauchst keine Malkenntnisse: Ein schiefes Lächeln auf der Leinwand gehört genauso dazu wie ein echtes am Tisch.Das erwartet dich:🎨 Paint & Sip: Leinwände, Farben und Pinsel stehen bereit. Du malst deinen Gegenüber in deinem ganz eigenen Stil – ohne Leistungsdruck und mit viel Raum zum Ausprobieren.🍫 KoRo-Snack-Tasting: Probiere dich durch eine Auswahl an KoRo-Snacks und tausche dich mit den anderen über eure Favoriten aus.🥂 Sip & Socialize: Genieße die gemütliche Café-Atmosphäre, gönn dir einen Drink und komm mit anderen ins Gespräch. Auch wenn du allein kommst, findest du vor Ort ein Gegenüber zum Malen.✨ Kleine Spiele & große Enthüllung: Zwischendurch sorgen Mini-Games für Abwechslung. Zum Schluss zeigt ihr euch eure fertigen Porträts – und entdeckt, wie euer Gegenüber euch gesehen hat.📸 Erinnerungen zum Mitnehmen: Zeit für gemeinsame Fotos und selbst gemalte Bilder, die euch auch zu Hause an den Abend erinnern.Komm, wie du bist, und gönn dir einen Abend voller Farbe, neuer Begegnungen und leckerer Entdeckungen.Wir freuen uns auf dich!",
-   "endDate": "2026-11-21T20:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/VkNoNrPQT1sZ38yQyATV_amorivia-paint-your-partner.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10781",
-     "streetAddress": "Elßholzstraße 1"
-    },
-    "name": "Ich Liebs Café"
-   },
-   "name": "PAINT - TASTE - CONNECT",
-   "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "24.90",
-    "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/paint-taste-connect",
-    "validFrom": "2026-10-25T23:45+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Amorivia",
-    "url": "https://rausgegangen.de/organizations/offline-events/"
-   },
-   "startDate": "2026-11-21T17:30+0100"
-  }
- },
  "https://rausgegangen.de/events/pandawomen-2026-aban-ensemble-dj-rosemah-curated-by-yalda-ya-0/": {
-  "fetched": "2026-11-16T12:46:54+01:00",
+  "fetched": "2026-11-16T23:21:41+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -890,16 +851,16 @@
    "startDate": "2026-11-21T20:30+0100"
   }
  },
- "https://rausgegangen.de/events/plant-based-4-gang-menu-0/": {
-  "fetched": "2026-11-16T12:46:54+01:00",
+ "https://rausgegangen.de/events/pandawomen-2026-vera-jonas-lisa-hoppe-paul-brody-gaia-mobili-0/": {
+  "fetched": "2026-11-16T23:21:41+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Last HarvestEin Festmenü zur VorweihnachtszeitDie festliche Jahreszeit beginnt am Tisch. Am 27. und 28. November laden wir dich ins Boma Berlin zu Last Harvestein: einem veganen und glutenfreien 4-Gänge-Menü, das die Aromen des späten Herbstes mit einem Hauch festlicher Vorfreude verbindet.Das MenüI · Pão-de-Queijo-Trio Drei vegane brasilianische Pão de Queijo, begleitet von aufgeschlagener Salbei-Bohnen-Creme, Quitten-Senf-Chutney und einer Creme aus geröstetem Knoblauch und Sonnenblumenkernen.II · Karamellisierter Chicorée Karamellisierter Chicorée mit Mandel-Ricotta und glänzender Quitten-Gastrique. Knusprige Kapern setzen einen salzigen Akzent; feiner Kerbel vollendet den Teller.III · Gebratener Kräuterseitling Kräftig gebratener Kräuterseitling mit goldenem Kartoffel-Pavé und konfiertem Hispi-Spitzkohl. Maronen und gerösteter Buchweizen sorgen für einen knusprigen Akzent; Cranberry-Orangen-Mostarda und ein Steinpilz-Thymian-Jus mit gerösteter Zwiebel bringen Frische und Tiefe.IV · Kürbis-Tiramisu Eine herbstliche Interpretation des Tiramisu, vollendet mit knusprigem, glutenfreiem Amaretti.Die wichtigsten InformationenWann: Freitag, 27. November und Samstag, 28. November 2026 Wo: Boma Berlin, Winsstraße 9, 10405  Preis: 49 € pro Person / Getränkebegleitung optional à 20€ Tickets: Nur im Vorverkauf; ein Ticket ist erforderlich. Buchung: SumupstoreDas Menü ist vegan und glutenfrei. Es enthält Soja (Tamari), Schalenfrüchte (Mandeln und Cashews) sowie Senf.Wir freuen uns darauf, mit dir den Beginn der festlichen Jahreszeit zu feiern.Milla’s Tablewww.millasplace.de",
-   "endDate": "2026-11-28T22:15+0100",
+   "description": "Erst ganz nah dran, dann plötzlich offen nach allen Seiten: Vera Jónás spielt ihre Songs in einem neuen Trio mit Lisa Hoppe und Paul Brody. Danach schichtet Gaia Mobilij live Loops und akustische Klänge so um, dass Melodien kurz aufblitzen und wieder kippen 👀",
+   "endDate": "2026-11-21T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/5HJ9pRqTxiDlg4Tsddvw_1.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/CSUU0tbRVVz56IiP3ZYw_23201image-2048x1024.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -907,29 +868,36 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10405",
-     "streetAddress": "Winsstraße 9"
+     "postalCode": "10435",
+     "streetAddress": "Knaackstraße 97"
     },
-    "name": "BOMA"
+    "name": "PANDA platforma"
    },
-   "name": "Plant Based 4-Gang Menü",
+   "name": "PANDAwomen 2026: Vera Jónás, Lisa Hoppe & Paul Brody / Gaia Mobilij",
    "offers": {
     "@type": "Offer",
-    "price": "49.00",
+    "price": "17.00",
     "priceCurrency": "EUR",
-    "url": "https://millasplace.sumupstore.com",
-    "validFrom": "2026-11-27T18:00+0100"
+    "url": "https://panda-platforma.berlin/events/vera-j-n-s-lisa-hoppe-paul-brody-gaia-mobilij/",
+    "validFrom": "2026-11-20T20:30+0100"
    },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Milla's Table",
-    "url": "https://rausgegangen.de/organizations/millas-table/"
-   },
-   "startDate": "2026-11-27T18:00+0100"
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "PANDA platforma e.V.",
+     "url": "https://rausgegangen.de/organizations/page-for-team-panda-platforma-ev/"
+    },
+    {
+     "@type": "Organization",
+     "name": "PANDAwomen 2026 Festival",
+     "url": "https://rausgegangen.de/organizations/pandawomen-festival/"
+    }
+   ],
+   "startDate": "2026-11-20T20:30+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
-  "fetched": "2026-11-16T12:46:54+01:00",
+  "fetched": "2026-11-16T23:21:41+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -966,39 +934,5 @@
    "startDate": "2026-12-19T19:30+0100"
   },
   "seen": "2026-11-15T18:52:24+01:00"
- },
- "https://rausgegangen.de/events/wessen-denkmaler-deutsche-spuren-in-den-polnischen-westgebie-0/": {
-  "fetched": "2026-11-16T12:46:54+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Umgestaltet, umgedeutet oder dem Verfall überlassen: Deutsche Denkmäler nahmen nach 1945 in den neuen polnischen Westgebieten ganz unterschiedliche Wege. Wie gingen die Menschen vor Ort mit diesen Hinterlassenschaften um? Was passte zum Neuanfang, was blieb fremd, und was änderte sich mit der Zeit?In seinem Fotoprojekt „Denkmalforschung“ untersucht Wojtek Sienkiewicz Denkmäler in niederschlesischen Dörfern. Im Gespräch mit der Kulturwissenschaftlerin Karolina Ćwiek-Rogalska geht er der Frage nach, wie lokale Initiativen, politische Vorgaben und alltägliche Entscheidungen ineinandergreifen. Die Denkmäler erzählen von Aneignung und Vernachlässigung, von Erinnerungspolitik und einem Umgang mit dem deutschen Erbe, der bis heute voller Widersprüche ist. PROGRAMMBegrüßungDr. Roland Borchers, Direktor, Dokumentationszentrum Flucht, Vertreibung, Versöhnung, BerlinKatarzyna Sitko, Direktorin, Polnisches Institut Berlin, BerlinPodiumWojtek Sienkiewicz, FotografProf. Karolina Ćwiek-Rogalska, Institut für Slawistik an der Polnischen Akademie der Wissenschaften, WarschauModeration: Prof. Felix Ackermann, Lehrgebiet Public History an der Fernuniversität in Hagen WEITERE HINWEISE  Einlass: 18.00 UhrSprache: Deutsch, Polnisch (mit Simultanübersetzung)EINTRITT FREI, MIT ANMELDUNGEine Veranstaltung im Rahmen der Sonderausstellung „OSTGEBIETE / ZIEMIE ZACHODNIE. Eine deutsch-polnische Spurensuche.\"",
-   "endDate": "2026-11-26T20:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/5Bp6OORBQvmekU2FPgAA_pi-ex-1.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10963",
-     "streetAddress": "Stresemannstraße 90"
-    },
-    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
-   },
-   "name": "Wessen Denkmäler? Deutsche Spuren in den polnischen Westgebieten",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": null,
-    "lowPrice": null,
-    "offerCount": 0,
-    "offers": [],
-    "priceCurrency": "EUR"
-   },
-   "startDate": "2026-11-26T18:30+0100"
-  }
  }
 }

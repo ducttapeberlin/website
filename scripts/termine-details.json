@@ -1,6 +1,6 @@
 {
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
-  "fetched": "2026-11-15T18:52:24+01:00",
+  "fetched": "2026-11-16T03:53:07+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -97,7 +97,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-11-15T18:52:24+01:00",
+  "fetched": "2026-11-16T03:53:07+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -207,87 +207,16 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/all-we-need-is-house-by-mad-series-0/": {
-  "fetched": "2026-11-15T23:59:40+01:00",
+ "https://rausgegangen.de/events/berlinale-spotlight-panorama-dokumente-the-other-side-of-the-0/": {
+  "fetched": "2026-11-16T03:53:07+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "MAD SERIES | ALL WE NEED IS HOUSE Am 21. November ab 22 Uhr bringt MAD SERIES House, Latin House und Afro House ins Hotel AMANO East Side in Berlin.Freut euch auf sechs DJs, treibende Beats und Specials vor Ort.Bei MAD SERIES seid ihr mittendrin. Ihr tanzt direkt vor und hinter dem DJ und seid Teil der Session. Unsere Sets werden gefilmt, mit euch und der Stimmung auf der Tanzfläche.Bringt eure Freunde mit und feiert mit uns bis tief in die Nacht.🎧 LINEUP Miguel Wave • Nathalie • KJ • Alexander Da Great • Janaa • Stinhow📍 Hotel AMANO East Side Stralauer Platz 30–31, 10243 Berlin 📅 21. November | ab 22 Uhr🎟️ Sichert euch jetzt eure Tickets!ALL WE NEED IS HOUSE",
-   "endDate": "2026-11-22T05:00+0100",
+   "description": "Filmemacher Tawfik Sabouni wurde vor Jahren aus dem syrischen Foltergefängnis Saidnaya entlassen, das auch als Ort „hinter der Sonne“ bezeichnet wird. Kurz nach dem Sturz des Assad-Regimes im Dezember 2024 kehrt er an den Ort seiner Gefangenschaft zurück. Es geht ihm nicht darum, Wunden wieder aufzureißen, sondern wiederherzustellen, was systematische Gewalt versucht hat auszulöschen: Stimmen, Geschichten und Menschlichkeit. Sabouni lädt vier weitere Saidnaya-Überlebende ein, ihn auf seiner Reise zu begleiten. Gemeinsam kehren sie an die Orte zurück, an denen sie jahrelang gefoltert und entmenschlicht wurden, und spielen in sorgfältig konstruierten Reenactments ihre Gefangenschaft nach – tägliche Rituale, Gesten, Momente des Überlebens. Gedreht innerhalb des ehemaligen Gefängnisses werden die Reenactments zum Ausdrucksmittel für etwas, das sich nicht in Worte fassen lässt. Auf zurückhaltende Weise konfrontiert der Film das Publikum mit den bleibenden Spuren der Haft und gibt nicht nur den auftretenden fünf Männern eine Stimme, sondern auch den Tausenden, die das Assad-Regime nicht überlebt haben und deren Familien noch immer nach Antworten suchen.PROGRAMM Begrüßung N.N.FilmvorführungThe Other Side of the SunVon: Tawfik Sabouni (Regie, Buch), Laurine Estrade (Buch)Land: Belgien / Frankreich / Saudi-Arabien 2026Sprache: Arabisch (mit englischen Untertiteln)Dauer:  92 MinutenFilmgesprächTawfik Sabouni, Regisseur, BuchModeration: N.N.  WEITERE HINWEISEEinlass: 18.00 UhrSprache: DeutschEINTRITT FREI MIT ANMELDUNG  Das Berlinale Spotlight: Panorama Dokumente, Forum & Generation ist eine Kooperation zwischen dem Dokumentationszentrum Flucht, Vertreibung, Versöhnung und dem European Film Market (EFM) der Internationalen Filmfestspiele Berlin.",
+   "endDate": "2026-11-18T21:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/pcyMV6yjSZayLof98Of0_madseries16x9.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10243",
-     "streetAddress": "Stralauer Platz 30-31"
-    },
-    "name": "AMANO East Side"
-   },
-   "name": "All we need is House by MAD SERIES",
-   "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "12.79",
-    "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/all-we-need-is-house-by-mad-series",
-    "validFrom": "2026-11-05T14:34+0100"
-   },
-   "startDate": "2026-11-21T22:00+0100"
-  }
- },
- "https://rausgegangen.de/events/amber-georgia-0/": {
-  "fetched": "2026-11-15T23:59:40+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Orange im Glas und dahinter mehr als 60 Winzer:innen aus Georgien, die ihre Weine selbst mitbringen. Statt Messestress eher ein direkter Draht zu einer uralten Weintradition 👀",
-   "endDate": "2026-11-28T17:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/cIF9OMxVScGZqgIavWKV_amber-georgia-berlin-weine-aus-georgien-3.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10997",
-     "streetAddress": "Köpenicker Str. 16/17"
-    },
-    "name": "Magazin in der Heeresbäckerei"
-   },
-   "name": "Amber Georgia – Low Intervention Wine Fair",
-   "offers": {
-    "@type": "Offer",
-    "price": "30.00",
-    "priceCurrency": "EUR",
-    "url": "https://ticketmaster.evyy.net/c/6519574/2038753/23890?u=https%3A%2F%2Fwww.universe.com%2Fevents%2Famber-georgia-tickets-LJS031%3Fref%3Dticketmaster&utm_medium=affiliate",
-    "validFrom": "2026-11-28T11:00+0100"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Amber Georgia Berlin"
-   },
-   "startDate": "2026-11-28T11:00+0100"
-  }
- },
- "https://rausgegangen.de/events/berlinale-spotlight-forum-chronos-fluss-der-zeit-0/": {
-  "fetched": "2026-11-15T23:59:40+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "„Sarmatische Zeit“ heißt der Gedichtband von Johannes Bobrowski, der für Volker Koepp zum poetischen wie persönlichen Leitmotiv für diese bildstarke wie weitläufige Sondierung einer Region zwischen Ostsee und Schwarzem Meer, entlang der Ströme Memel, Dnister und Pruth wird. Herkunfts-, Sehnsuchts- und Tatort zugleich: Sammelbecken unterschiedlicher Kulturen und Zugehörigkeiten, über ein halbes Jahrhundert Bezugs- und Fluchtpunkt im Schaffen des großen Chronisten sowie Schauplatz wiederkehrender Grausamkeit und Vernichtung. Die Rückkehr zum eigenen Werk mit neuen und alten Weggefährtinnen und Weggefährten wird zur gleichzeitigen Rückschau und Reaktualisierung.Wie durch Delta-Arme entstehen Verbindungen zur deutschen Geschichte und zum gesamteuropäischen Kontext, zwischen Vergangenheit und Gegenwart. Und für einen langen Augenblick scheint in diesem Fluss die Zeit erschreckend stillzustehen, denn spätestens seit Beginn des russischen Angriffskriegs auf die Ukraine 2022 ist das Echo der dieser Region eingeschriebenen Gewalterfahrung nicht mehr zu überhören. Was seinen Ursprung in Gedichten über das Memelland nimmt, entwickelt sich zu einer epochalen Kontemplation über den Menschen in Zeit und Raum.  Volker KoeppGeboren 1944 in Stettin, aufgewachsen in Berlin. Nach einer Ausbildung zum Maschinenschlosser studierte Volker Koepp an der TU Dresden, anschließend an der Deutschen Hochschule für Filmkunst in Babelsberg. Von 1970 bis 1991 war er als Regisseur am DEFA-Studio für Dokumentarfilm beschäftigt. Seither ist er als freier Regisseur, Autor, Produzent sowie in der Lehre tätig. Volker Koepp war mehrfach im Berlinale Forum zu Gast. Neben diversen Auszeichnungen für sein filmisches Werk erhielt er 2014 das Bundesverdienstkreuz 1. Klasse und wurde 2021 Ehrenmitglied der Deutschen Filmakademie.PROGRAMM Begrüßung Dr. Roland Borchers, Direktor, Dokumentationszentrum Flucht, Vertreibung, Versöhnung (Berlin)FilmvorführungChronos – Fluss der ZeitVon: Volker Koepp, Regie, BuchLand: Deutschland 2026Sprache: Deutsch, Ukrainisch, Litauisch, Belarussisch, Russisch, Rumänisch (mit deutschen Untertiteln)Dauer: 200 MinutenFilmgesprächVolker Koepp, RegisseurModeration: Barbara Wurm, Leiterin Berlinale Forum (Berlin) WEITERE HINWEISEEinlass: 17.30 UhrSprache: DeutschEINTRITT FREI MIT ANMELDUNG Das Berlinale Spotlight: Panorama Dokumente, Forum & Generation ist eine Kooperation zwischen dem Dokumentationszentrum Flucht, Vertreibung, Versöhnung und dem European Film Market (EFM) der Internationalen Filmfestspiele Berlin.",
-   "endDate": "2026-12-09T22:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/wDCbAMuThyJFRzPkNbAz_chronospresse01.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/m8KedHGNTY6UQIgIBcx2_websitebildtosots.png"
    ],
    "location": {
     "@type": "Place",
@@ -300,24 +229,172 @@
     },
     "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
    },
-   "name": "Berlinale Spotlight – Forum: Chronos – Fluss der Zeit",
+   "name": "Berlinale Spotlight – Panorama Dokumente: The Other Side of the Sun",
    "offers": {
     "@type": "Offer",
     "price": "0.00",
     "priceCurrency": "EUR",
-    "url": "https://buchungen.flucht-vertreibung-versoehnung.de/de/tickets/112",
-    "validFrom": "2026-12-09T18:00+0100"
+    "url": "https://buchungen.flucht-vertreibung-versoehnung.de/de/tickets/111",
+    "validFrom": "2026-11-18T18:30+0100"
    },
    "organizer": {
     "@type": "Organization",
     "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung",
     "url": "https://rausgegangen.de/organizations/dokumentationszentrum-flucht-vertreibung-versohnung/"
    },
-   "startDate": "2026-12-09T18:00+0100"
+   "startDate": "2026-11-18T18:30+0100"
+  }
+ },
+ "https://rausgegangen.de/events/comedy-slam-berlin-13/": {
+  "fetched": "2026-11-16T03:53:07+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Vier der besten Slam-Poet*innen des Landes treffen beim Comedy Slam Berlins aufeinander, um sich mit ihren lustigsten Texten ins Zwerchfell des Publikums zu lesen. In zwei Runden erschüttern sie eure Bauchmuskeln. Workout fürs Zwerchfell! Und ihr entscheidet per Applaus über den lustigsten Text. Am Ende des Abend liegt ihr auf dem Boden vor Lachen, und eine*r der Comedy-Slammer*innen trägt den publikumsgewählten Triumph nach Hause.Einlass: 19:30Beginn: 20:00Was den Comedy Slam ausmachtGanz wie bei Poetry Slams stehen hier Text und Performance im Vordergrund. Die Regeln für die Auftretenden: 8 Minuten Zeitlimit, keine Requisiten, nur selbstgeschriebene Texte. Und das Publikum entscheidet über den Sieg des Abends. Aber anders als sonst, gibt es beim Comedy Slam Berlin ausschließlich lustige Texte: Literatur zum Lachen.Was den Comedy Slam von einer üblichen Stand-Up Show unterscheidet, die die Comedy-Clubs Berlins bevölkern? Hier gibt es nicht nur eine Aneinanderreihung von Witzen. Hier hört ihr durchgängige Geschichten, Erzählungen, Gedichte und ein bisschen Message. Die ganze Vielfalt des Poetry Slams eben. Mit den Zwerchfellerschütterern von Komikern. Poetry Slam meets Stand-Up.Vier geladene Slammer*innen treten im harten Wettkampf gegeneinander an: Und ihr entscheidet, wer die hohe Kunst der Literatur mit jener des Humors am Besten verbinden kann.",
+   "endDate": "2026-11-20T22:30+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/pNbniJqT9a5jAyHUlOgw_2025comedy-slam-fotologo.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10119",
+     "streetAddress": "Schönhauser Allee 176"
+    },
+    "name": "Pfefferberg Theater"
+   },
+   "name": "Comedy Slam Berlin",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "39.90",
+    "lowPrice": "14.90",
+    "offerCount": 13,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK 1: Regulär",
+      "price": "24.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK1: Ermäßigt",
+      "price": "22.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK2: Regulär",
+      "price": "22.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK2: Ermäßigt",
+      "price": "19.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK3: Regulär",
+      "price": "19.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK3: Ermäßigt",
+      "price": "17.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK4: Regulär",
+      "price": "17.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "PK4: Ermäßigt",
+      "price": "14.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Paarplatz Regulär (2 Pers.)",
+      "price": "39.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Paarplatz Ermäßigt (2 Pers.)",
+      "price": "35.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Zweiter Paarplatz (wähl dies zu deinem Kostenpflichtigen Hauptticket, alleine ist es ungültig)",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Schwerbehindertenausweis B-Ticket",
+      "price": "17.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Begleiterticket Schwerbehinderte (ungültig ohne Hauptticket)",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "Comedy Slam",
+     "url": "https://rausgegangen.de/organizations/p-comedy-slam/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Kiezpoeten",
+     "url": "https://rausgegangen.de/organizations/kiezpoeten-3/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Pfefferberg Theater Slams",
+     "url": "https://rausgegangen.de/organizations/p-pfefferberg-theater-slams/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Premium Poetry",
+     "url": "https://rausgegangen.de/organizations/p-premium-poetry/"
+    }
+   ],
+   "startDate": "2026-11-20T20:00+0100"
   }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-11-15T18:52:24+01:00",
+  "fetched": "2026-11-16T03:53:07+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -406,7 +483,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
-  "fetched": "2026-11-15T18:52:24+01:00",
+  "fetched": "2026-11-16T03:53:07+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -451,7 +528,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-15T18:52:24+01:00",
+  "fetched": "2026-11-16T03:53:07+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -498,7 +575,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-22/": {
-  "fetched": "2026-11-15T18:52:24+01:00",
+  "fetched": "2026-11-16T03:53:07+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -543,7 +620,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
-  "fetched": "2026-11-15T18:52:24+01:00",
+  "fetched": "2026-11-16T03:53:07+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -588,7 +665,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
-  "fetched": "2026-11-15T18:52:24+01:00",
+  "fetched": "2026-11-16T03:53:07+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -635,7 +712,7 @@
   "seen": "2026-11-15T18:52:24+01:00"
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-11-15T18:52:24+01:00",
+  "fetched": "2026-11-16T03:53:07+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -685,16 +762,16 @@
   },
   "seen": "2026-10-27T20:46:24+01:00"
  },
- "https://rausgegangen.de/events/drag-brunch-sponsored-by-fritz-kola-winter-edition-0/": {
-  "fetched": "2026-11-15T18:52:24+01:00",
+ "https://rausgegangen.de/events/hits-different-steve-clash-club-tour-2026-berlin-0/": {
+  "fetched": "2026-11-16T03:53:07+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "WINTER EDITION DRAG BRUNCH ❄️🍹Duct Tape und Fritz-Kola laden euch zur Winter Edition unseres Drag Brunch ein!Am Sonntag, den 15. November, machen wir es uns auf dem Dach des The Dawn Neukölln gemütlich. Freut euch auf einen Mittag mit drei Showblöcken, winterlichen Drinks, gutem Essen und jeder Menge guter Laune.DIE SHOW ❄️ Durch den Brunch führen euch: 👑 EMI 👑 Harpy Freut euch auf drei Showblöcke voller Drag-Performances, kleine Challenges, Gewinnspiele und jede Menge Überraschungen.DAS ESSEN 🍽️ Das Essen bestellt ihr wie gewohnt à la carte direkt aus der Speisekarte des The Dawn.WINTER SPECIALS 🍹 🥤 Exklusive Drink Specials Gemeinsam mit Fritz-Kola erwarten euch winterliche Signature Drinks und Specials.🧡 Aperol for a Good Cause Wer am Eingang eine kleine Spende für unsere Drag Artists dalässt, erhält als Dankeschön einen Aperol Spritz aufs Haus.🎭 Drei Showblöcke Während des gesamten Brunchs erwarten euch Drag-Performances. Perfekt, egal ob ihr zum Frühstück oder auf den letzten Aperol vorbeikommt.WICHTIGE INFOS 📍 📍 The Dawn Neukölln KALLE HALLE, Karl-Marx-Straße 101, 12043 Berlin einfach mit dem Aufzug bis ins Dachgeschoss 📅 Sonntag, 15. November 🕛 12:00 bis 15:00 Uhr 💸 Eintritt frei, ihr zahlt lediglich eure Speisen und Getränke. 🪑 Tischreservierung empfohlenReserviert euren Tisch ganz einfach über OpenTable. Ohne Reservierung können wir euch leider keinen Platz garantieren.Mehr Infos & Updates findet ihr wie immer auf Instagram bei @ducttapeberlin und @fritzkola_berWir sehen uns bei der WINTER EDITION DRAG BRUNCH. ❄️💖",
-   "endDate": "2026-11-15T15:00+0100",
+   "description": "Electronic dance party with your favorite mashup bangers played in a sophisticated DJ set.Steve Clash zerlegt deine Lieblingssongs. Mainstage-Energie und Meilensteine der Popkultur vereinen sich in den sogenannten Power-Mashups. Deine Lieblingssongs nur lauter, etwas kaputter und tanzbarer.Haftbefehl aber Drum N Bass, Peter Fox aber Bass House, Imogen Heap aber Speed House. Hits different.",
+   "endDate": "2026-11-21T22:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/lqWDJ6PcTfapOAkLtrU9_winter-brunch-banner.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/9I0oY3UlTfGrBCKZ1vJC_photobyjoschawiener202608082110131-2.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -702,107 +779,33 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "12043",
-     "streetAddress": "Karl-Marx-Straße 101"
+     "postalCode": "10999",
+     "streetAddress": "Skalitzer Str. 134"
     },
-    "name": "The Dawn Neukölln"
+    "name": "Monarch"
    },
-   "name": "DRAG BRUNCH // sponsored by Fritz-Kola - Winter Edition",
+   "name": "Hits Different - Steve Clash Club Tour 2026 - Berlin",
    "offers": {
     "@type": "Offer",
-    "price": "0.00",
+    "price": "10.00",
     "priceCurrency": "EUR",
-    "url": "https://www.opentable.de/booking/restref/availability?lang=de-DE&restRef=514161&dateTime=2026-11-15T12%3A00&partySize=2&correlationId=ac469bb7-615a-4b57-a6b6-04dec8fac906",
-    "validFrom": "2026-11-15T12:00+0100"
+    "url": "https://ticket2go.de/c/5869",
+    "validFrom": "2026-11-21T18:30+0100"
    },
    "organizer": {
     "@type": "Organization",
-    "name": "DUCT TAPE",
-    "url": "https://rausgegangen.de/organizations/duct-tape/"
+    "name": "Steve Clash",
+    "url": "https://rausgegangen.de/organizations/page-for-team-steve-clash/"
    },
    "performer": {
     "@type": "PerformingGroup",
-    "name": "Harpy Fatale"
+    "name": "Steve Clash"
    },
-   "startDate": "2026-11-15T12:00+0100"
-  },
-  "seen": "2026-10-20T15:24:41+02:00"
- },
- "https://rausgegangen.de/events/geheimkonzert-berlin-24-by-rausgegangen-0/": {
-  "fetched": "2026-11-15T23:59:40+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Na Hallo! Es ist wieder so weit: Ein Abend voller Überraschung - denn wer auf der Bühne steht, bleibt bis zum ersten Ton geheim. Wir hatten schon Blond, Berq, Ennio, Futurebae, Jassin, Anais, Katha Pauer & viele mehr zu Gast – und das schon bevor sie die großen Bühnen der Nation gestürmt haben. Also entdecke die Stars von Morgen bei unseren Geheimkonzerten. 🪩",
-   "endDate": "2026-12-09T22:15+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/mO31iODjTCuFLVfQ493H_gk202516x9photoheadline-32-1.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin"
-    },
-    "name": "Secret location"
-   },
-   "name": "Geheimkonzert Berlin #24 by Rausgegangen",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "29.90",
-    "lowPrice": "24.50",
-    "offerCount": 4,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "SCHNAPPER",
-      "price": "21.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "REGULAR",
-      "price": "25.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "4er FRIENDS BUNDLE",
-      "price": "23.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Mitgegangen",
-      "price": "3.80",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "Rausgegangen Geheimkonzerte",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Rausgegangen Geheimkonzerte Berlin",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte-3/"
-    }
-   ],
-   "startDate": "2026-12-09T20:00+0100"
+   "startDate": "2026-11-21T18:30+0100"
   }
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-11-15T18:52:24+01:00",
+  "fetched": "2026-11-16T03:53:07+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -892,7 +895,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1/": {
-  "fetched": "2026-11-15T18:52:24+01:00",
+  "fetched": "2026-11-16T03:53:07+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -933,16 +936,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/love-at-first-slide-berlin-power-point-dating-by-rausgegange-14/": {
-  "fetched": "2026-11-15T23:59:40+01:00",
+ "https://rausgegangen.de/events/marenera-pizzica-italienische-volksmusik-0/": {
+  "fetched": "2026-11-16T03:53:07+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Wir bringen mit LOVE AT FIRST SLIDE Dating auf die Bühne: Freund:innen stellen in kurzen Power Point Präsentationen ihre Lieblingssingle vor – charmant, humorvoll und ganz ohne Swipe. Nach den witzigen Pitches kannst du bei Speed-Dating und Barabend neue Begegnungen entdecken. 💘🎤💫",
-   "endDate": "2026-12-02T23:30+0100",
+   "description": "Süditalienische Volksmusik, die nicht im Archiv bleibt, sondern für Tanz, Rituale und Feste gemacht ist. Marenera spielt Pizzica, Tarantella und andere überlieferte Lieder so, dass Du die Hochzeitsgesellschaft fast schon vor Dir siehst 💃",
+   "endDate": "2027-01-16T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/G4DW5S6EQHOrXfM562GP_lafsbannerappstraight-2-5.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/QX2v5BFTTY6s0wpjkvQ6_foto-1-treppecreditsgiannis-vassaras.jpeg"
    ],
    "location": {
     "@type": "Place",
@@ -950,122 +953,62 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10625",
-     "streetAddress": "Kantstraße 127"
+     "postalCode": "10435",
+     "streetAddress": "Knaackstraße 97"
     },
-    "name": "Dufte Berlin"
+    "name": "PANDA platforma"
    },
-   "name": "LOVE AT FIRST SLIDE Berlin | Power Point Dating by Rausgegangen 💖",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "19.50",
-    "lowPrice": "10.00",
-    "offerCount": 5,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Presenterticket",
-      "price": "10.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Publikum Ticket | Ich bin eine hetero Frau",
-      "price": "19.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Publikum Ticket | Ich bin ein hetero Mann",
-      "price": "19.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Publikum Ticket | Ich bin queer",
-      "price": "19.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Mitgegangen",
-      "price": "3.80",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "LOVE AT FIRST SLIDE BERLIN by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/love-at-first-slide-berlin-by-rausgegangen/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Love at first Slide by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/page-for-team-love-at-first-slide-by-rausgegangen/"
-    },
-    {
-     "@type": "Organization",
-     "name": "LOVE AT FIRST SLIDE by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/love-at-first-slide-by-rausgegangen/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Team Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/team-rausgegangen/"
-    }
-   ],
-   "startDate": "2026-12-02T19:00+0100"
-  }
- },
- "https://rausgegangen.de/events/paint-taste-connect-0/": {
-  "fetched": "2026-11-15T23:59:40+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Paint, Sip & Taste – dein kreativer Abend mit KoRo-Snack-Tasting 🎨🥂Pinsel in der einen Hand, ein Drink in der anderen und nette Menschen um dich herum: Gemeinsam mit Amorivia verwandeln wir das ich lieb’s Café in einen gemütlichen Ort zum Malen, Snacken und Kennenlernen.Ob allein, mit Freund oder als Paar – hier sind alle willkommen. Ihr malt gegenseitig eure Porträts, probiert euch kreativ aus und entdeckt beim KoRo-Snack-Tasting neue Lieblingssnacks. Du brauchst keine Malkenntnisse: Ein schiefes Lächeln auf der Leinwand gehört genauso dazu wie ein echtes am Tisch.Das erwartet dich:🎨 Paint & Sip: Leinwände, Farben und Pinsel stehen bereit. Du malst deinen Gegenüber in deinem ganz eigenen Stil – ohne Leistungsdruck und mit viel Raum zum Ausprobieren.🍫 KoRo-Snack-Tasting: Probiere dich durch eine Auswahl an KoRo-Snacks und tausche dich mit den anderen über eure Favoriten aus.🥂 Sip & Socialize: Genieße die gemütliche Café-Atmosphäre, gönn dir einen Drink und komm mit anderen ins Gespräch. Auch wenn du allein kommst, findest du vor Ort ein Gegenüber zum Malen.✨ Kleine Spiele & große Enthüllung: Zwischendurch sorgen Mini-Games für Abwechslung. Zum Schluss zeigt ihr euch eure fertigen Porträts – und entdeckt, wie euer Gegenüber euch gesehen hat.📸 Erinnerungen zum Mitnehmen: Zeit für gemeinsame Fotos und selbst gemalte Bilder, die euch auch zu Hause an den Abend erinnern.Komm, wie du bist, und gönn dir einen Abend voller Farbe, neuer Begegnungen und leckerer Entdeckungen.Wir freuen uns auf dich!",
-   "endDate": "2026-11-21T20:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/VkNoNrPQT1sZ38yQyATV_amorivia-paint-your-partner.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10781",
-     "streetAddress": "Elßholzstraße 1"
-    },
-    "name": "Ich Liebs Café"
-   },
-   "name": "PAINT - TASTE - CONNECT",
+   "name": "Marenera: Pizzica & italienische Volksmusik",
    "offers": {
     "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "24.90",
+    "price": "13.00",
     "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/paint-taste-connect",
-    "validFrom": "2026-10-25T23:45+0100"
+    "url": "https://panda-platforma.berlin/events/marenera-pizzica-italienische-volksmusik/",
+    "validFrom": "2027-01-15T20:30+0100"
+   },
+   "startDate": "2027-01-15T20:30+0100"
+  }
+ },
+ "https://rausgegangen.de/events/pandawomen-2026-pandawomen-closing-event-anastasia-rydlevska-0/": {
+  "fetched": "2026-11-16T03:53:07+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Masken, Stimme, Elektronik: Bei Anastasia Rydlevskaya steht Pop neben belarussischer Folklore und bildender Kunst, ohne sich sauber trennen zu lassen. Danach übernimmt DJ Svetomusika mit einem spontanen Mix aus aller Welt 🪩",
+   "endDate": "2026-11-29T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/c6PFSPuQuWhdtlyPLUea_23335image-2048x1024.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10435",
+     "streetAddress": "Knaackstraße 97"
+    },
+    "name": "PANDA platforma"
+   },
+   "name": "PANDAwomen 2026: PANDAwomen closing event: Anastasia Rydlevskaya / DJ Svetomusika",
+   "offers": {
+    "@type": "Offer",
+    "price": "25.00",
+    "priceCurrency": "EUR",
+    "url": "https://panda-platforma.berlin/events/pandawomen-closing-event-anastasia-rydlevskaya-dj-svetomusika/",
+    "validFrom": "2026-11-28T20:30+0100"
    },
    "organizer": {
     "@type": "Organization",
-    "name": "Amorivia",
-    "url": "https://rausgegangen.de/organizations/offline-events/"
+    "name": "PANDAwomen 2026 Festival",
+    "url": "https://rausgegangen.de/organizations/pandawomen-festival/"
    },
-   "startDate": "2026-11-21T17:30+0100"
+   "startDate": "2026-11-28T20:30+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
-  "fetched": "2026-11-15T18:52:24+01:00",
+  "fetched": "2026-11-16T03:53:07+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",

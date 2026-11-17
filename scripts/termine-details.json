@@ -1,6 +1,6 @@
 {
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
-  "fetched": "2026-11-17T15:41:45+01:00",
+  "fetched": "2026-11-18T00:00:43+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -97,7 +97,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-11-17T15:41:45+01:00",
+  "fetched": "2026-11-18T00:00:43+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -207,16 +207,16 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/cassia-12/": {
-  "fetched": "2026-11-17T15:41:45+01:00",
+ "https://rausgegangen.de/events/carlo5-die-letzte-tour-der-welt-2/": {
+  "fetched": "2026-11-18T00:00:43+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Nach der ersten Welttour klingt Cassia nicht nach Durchatmen, sondern nach Neujustierung. Das Trio aus Manchester baut seine neuen Songs stärker um Drums und Grooves herum, die aktuelle Single lovedrunk. gibt davon schon einen klaren Vorgeschmack 🎟️",
-   "endDate": "2026-11-21T05:00+0100",
+   "description": "Zwischen Pop und Rap hält Carlo5 seine Songs absichtlich in der Schwebe, mit rauer Stimme und trockenem Witz. Fast alles daran kommt direkt von ihm selbst, vom Schreiben bis zu den Videos 💃",
+   "endDate": "2027-04-09T23:00+0200",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://rausgegangen.s3.amazonaws.com/uhsz8x1601xc.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/fKEeGi7QaihTGY4sKn05_carlo5-tourevent-header.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -224,24 +224,33 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10997",
-     "streetAddress": "Cuvrystraße 7"
+     "postalCode": "10245",
+     "streetAddress": "Revaler Straße 99"
     },
-    "name": "Lido"
+    "name": "Astra Kulturhaus"
    },
-   "name": "Cassia",
+   "name": "Carlo5 • DIE LETZTE TOUR DER WELT",
    "offers": {
     "@type": "Offer",
-    "price": "31.50",
+    "price": "39.80",
     "priceCurrency": "EUR",
-    "url": "https://www.kj.de/artist/7358",
-    "validFrom": "2026-11-20T20:00+0100"
+    "url": "https://carlo5.krasserstoff.com/events/carlo5-die-letzte-tour-der-welt-astra-kulturhaus",
+    "validFrom": "2027-04-09T19:00+0200"
    },
-   "startDate": "2026-11-20T20:00+0100"
+   "organizer": {
+    "@type": "Organization",
+    "name": "LANDSTREICHER BOOKING",
+    "url": "https://rausgegangen.de/organizations/landstreicher-booking-ah-fk3y/"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Carlo5"
+   },
+   "startDate": "2027-04-09T19:00+0200"
   }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-11-17T15:41:45+01:00",
+  "fetched": "2026-11-18T00:00:43+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -330,7 +339,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/dein-moment-dein-wein-rheinhessen-zu-gast-in-berlin-0/": {
-  "fetched": "2026-11-17T15:41:45+01:00",
+  "fetched": "2026-11-18T00:00:43+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -362,7 +371,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
-  "fetched": "2026-11-17T15:41:45+01:00",
+  "fetched": "2026-11-18T00:00:43+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -407,7 +416,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-17T15:41:45+01:00",
+  "fetched": "2026-11-18T00:00:43+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -454,7 +463,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-22/": {
-  "fetched": "2026-11-17T15:41:45+01:00",
+  "fetched": "2026-11-18T00:00:43+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -499,7 +508,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
-  "fetched": "2026-11-17T15:41:45+01:00",
+  "fetched": "2026-11-18T00:00:43+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -544,7 +553,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
-  "fetched": "2026-11-17T15:41:45+01:00",
+  "fetched": "2026-11-18T00:00:43+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -591,7 +600,7 @@
   "seen": "2026-11-15T18:52:24+01:00"
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-11-17T15:41:45+01:00",
+  "fetched": "2026-11-18T00:00:43+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -641,16 +650,48 @@
   },
   "seen": "2026-10-27T20:46:24+01:00"
  },
- "https://rausgegangen.de/events/hainbach-presents-vive-guests-aude-langlois-felipe-vareschi-0/": {
-  "fetched": "2026-11-17T15:41:45+01:00",
+ "https://rausgegangen.de/events/eisfest-wintermarkt-0/": {
+  "fetched": "2026-11-18T00:00:43+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Alte Messgeräte, Magnetband, seltsame Synths: Hainbach baut daraus Stücke, die eher klingen wie gefundene Signale als sauber produzierte Tracks. Auf dem neuen Album Vive rücken dabei Melodien und sehr persönliche Momente nach vorn 👾",
-   "endDate": "2027-03-06T05:00+0100",
+   "description": "Zwischen Kerzenwachs aus den Bienenstöcken des MINSK und einer Fotowand mit echten Expeditionsanzügen wird Winter plötzlich ziemlich konkret. Neben dem Markt kannst Du auch in die aktuellen Ausstellungen rübergehen 🙂",
+   "endDate": "2026-11-28T20:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/XIw2NhMuQoCkeMbbhLeS_bildschirmfoto-2026-11-05-um-135606.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/jlQimSvgT7mVSBDAFDyr_dasmeisfestwebnlfinalquer.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Potsdam",
+     "postalCode": "14473",
+     "streetAddress": "Max-Planck-Strasse 17"
+    },
+    "name": "DAS MINSK Kunsthaus in Potsdam"
+   },
+   "name": "EISFEST & WINTERMARKT",
+   "offers": {
+    "@type": "Offer",
+    "price": "0.00",
+    "priceCurrency": "EUR",
+    "validFrom": "2026-11-28T11:00+0100"
+   },
+   "startDate": "2026-11-28T11:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/fomo-kiez-dinner-friendsgiving-edition-0/": {
+  "fetched": "2026-11-18T00:00:43+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Erst sitzt Du mit vier Unbekannten am Tisch, ein paar Stunden später kennst Du schon ein ganzes Dutzend. Jede Runde zieht weiter in eine andere Wohnung, bis am Ende alle nochmal zusammenkommen 🌈",
+   "endDate": "2026-11-22T01:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/cb42ed643ff7443d9080d4527fc3cea8_bildschirmfoto-2026-11-12-um-161251.png"
    ],
    "location": {
     "@type": "Place",
@@ -658,24 +699,24 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "13347",
-     "streetAddress": "Gerichtstraße 35"
+     "postalCode": null,
+     "streetAddress": null
     },
-    "name": "silent green Kulturquartier"
+    "name": "Berlin"
    },
-   "name": "HAINBACH presents VIVE guests: AUDE LANGLOIS & FELIPE VARESCHI",
+   "name": "FOMO Kiez Dinner: Friendsgiving Edition",
    "offers": {
     "@type": "Offer",
-    "price": "26.00",
+    "price": "25.00",
     "priceCurrency": "EUR",
-    "url": "https://www.greyzone-tickets.de/produkte/1395",
-    "validFrom": "2027-03-05T19:00+0100"
+    "url": "https://luma.com/fomokiezdinner",
+    "validFrom": "2026-11-21T17:30+0100"
    },
-   "startDate": "2027-03-05T19:00+0100"
+   "startDate": "2026-11-21T17:30+0100"
   }
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-11-17T15:41:45+01:00",
+  "fetched": "2026-11-18T00:00:43+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -765,7 +806,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1/": {
-  "fetched": "2026-11-17T15:41:45+01:00",
+  "fetched": "2026-11-18T00:00:43+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -806,16 +847,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/off-the-rails-zum-zum-special-edu-lobo-0/": {
-  "fetched": "2026-11-17T15:41:45+01:00",
+ "https://rausgegangen.de/events/paint-feast-mit-ania-von-not-the-creative-kind-0/": {
+  "fetched": "2026-11-18T00:00:43+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Brasilianische Rhythmen treffen auf Dub und Drum & Bass, aber gespielt von einem Berliner Liveprojekt statt aus der Konserve. Diesmal nimmt sich ZumZum die Songs von Edu Lobo vor und stellt sie mit vier Musiker:innen neu auf die Bühne 👀",
-   "endDate": "2027-01-15T05:00+0100",
+   "description": "Beim Paint & Feast kommen wir an einem liebevoll gedeckten Tisch mit ausgewählten Köstlichkeiten zusammen, um genau das zu tun, was der Name verspricht: zu malen und zu essen. Lenja & Ania arrangieren kleine, essbare Stillleben, die nicht nur zum Snacken einladen, sondern auch als kreative Inspiration dienen. Wir nutzen den Tisch, um gemeinsam Zeit zu verbringen, zu genießen und uns kreativ auszutoben.Ania führt euch mit ein paar kleinen Übungen zum Warmwerden in eure kreative Seite (ja, jede*r hat eine), und danach sucht ihr euch euer Lieblingsstillleben aus und bringt es auf eure eigene Leinwand. Dafür gibt es verschiedene Kunstmaterialien, damit ihr euch ausprobieren könnt. Eine Schritt-für-Schritt-Anleitung gibt es nicht, denn jeder malt die eigene Vision. Aber keine Angst, du musst keine Künstler*in sein, um Spaß dabei zu haben.Was ist enthalten: Grazing Köstlichkeiten von Feasts of Eden zum Snacken ein Glas Wein oder ein alkoholfreies Getränk, sowie Filterkaffee & Tee inklusive, weitere Getränke können vor Ort erworben werdenalle benötigten Kunstmaterialien Das nehmt ihr mit nach Hause: eine von euch selbst bemalte Leinwand",
+   "endDate": "2026-11-22T15:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/ytEREV4lQ4GXr9zWsfMq_otrzumzumhorizfb.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/R3IiZBqrTYudd0uqMQD1_1.png"
    ],
    "location": {
     "@type": "Place",
@@ -823,38 +864,38 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10245",
-     "streetAddress": "Revaler Strasse 99"
+     "postalCode": "10967",
+     "streetAddress": "Urbanstraße 137A"
     },
-    "name": "Badehaus Berlin"
+    "name": "Feasts of Eden"
    },
-   "name": "Off the Rails: ZumZum • Special Edu Lobo",
+   "name": "PAINT & FEAST mit Ania von N̶o̶t̶ the Creative Kind",
    "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "10.14",
-    "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/off-the-rails-zum-zum-special-edu-lobo",
-    "validFrom": "2026-11-06T14:27+0100"
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 0,
+    "offers": [],
+    "priceCurrency": "EUR"
    },
    "organizer": {
     "@type": "Organization",
-    "name": "Off the Rails",
-    "url": "https://rausgegangen.de/organizations/off-the-rails/"
+    "name": "Team - Feasts of Eden",
+    "url": "https://rausgegangen.de/organizations/p-team-feasts-of-eden/"
    },
-   "startDate": "2027-01-14T19:00+0100"
+   "startDate": "2026-11-22T13:00+0100"
   }
  },
- "https://rausgegangen.de/events/plant-based-4-gang-menu-0/": {
-  "fetched": "2026-11-17T15:41:45+01:00",
+ "https://rausgegangen.de/events/pandawomen-2026-pandawomen-closing-event-anastasia-rydlevska-0/": {
+  "fetched": "2026-11-18T00:00:43+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Last HarvestEin Festmenü zur VorweihnachtszeitDie festliche Jahreszeit beginnt am Tisch. Am 27. und 28. November laden wir dich ins Boma Berlin zu Last Harvestein: einem veganen und glutenfreien 4-Gänge-Menü, das die Aromen des späten Herbstes mit einem Hauch festlicher Vorfreude verbindet.Das MenüI · Pão-de-Queijo-Trio Drei vegane brasilianische Pão de Queijo, begleitet von aufgeschlagener Salbei-Bohnen-Creme, Quitten-Senf-Chutney und einer Creme aus geröstetem Knoblauch und Sonnenblumenkernen.II · Karamellisierter Chicorée Karamellisierter Chicorée mit Mandel-Ricotta und glänzender Quitten-Gastrique. Knusprige Kapern setzen einen salzigen Akzent; feiner Kerbel vollendet den Teller.III · Gebratener Kräuterseitling Kräftig gebratener Kräuterseitling mit goldenem Kartoffel-Pavé und konfiertem Hispi-Spitzkohl. Maronen und gerösteter Buchweizen sorgen für einen knusprigen Akzent; Cranberry-Orangen-Mostarda und ein Steinpilz-Thymian-Jus mit gerösteter Zwiebel bringen Frische und Tiefe.IV · Kürbis-Tiramisu Eine herbstliche Interpretation des Tiramisu, vollendet mit knusprigem, glutenfreiem Amaretti.Die wichtigsten InformationenWann: Freitag, 27. November und Samstag, 28. November 2026 Wo: Boma Berlin, Winsstraße 9, 10405  Preis: 49 € pro Person / Getränkebegleitung optional à 20€ Tickets: Nur im Vorverkauf; ein Ticket ist erforderlich. Buchung: SumupstoreDas Menü ist vegan und glutenfrei. Es enthält Soja (Tamari), Schalenfrüchte (Mandeln und Cashews) sowie Senf.Wir freuen uns darauf, mit dir den Beginn der festlichen Jahreszeit zu feiern.Milla’s Tablewww.millasplace.de",
-   "endDate": "2026-11-28T22:15+0100",
+   "description": "Masken, Stimme, Elektronik: Bei Anastasia Rydlevskaya steht Pop neben belarussischer Folklore und bildender Kunst, ohne sich sauber trennen zu lassen. Danach übernimmt DJ Svetomusika mit einem spontanen Mix aus aller Welt 🪩",
+   "endDate": "2026-11-29T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/5HJ9pRqTxiDlg4Tsddvw_1.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/c6PFSPuQuWhdtlyPLUea_23335image-2048x1024.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -862,29 +903,29 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10405",
-     "streetAddress": "Winsstraße 9"
+     "postalCode": "10435",
+     "streetAddress": "Knaackstraße 97"
     },
-    "name": "BOMA"
+    "name": "PANDA platforma"
    },
-   "name": "Plant Based 4-Gang Menü",
+   "name": "PANDAwomen 2026: PANDAwomen closing event: Anastasia Rydlevskaya / DJ Svetomusika",
    "offers": {
     "@type": "Offer",
-    "price": "49.00",
+    "price": "25.00",
     "priceCurrency": "EUR",
-    "url": "https://millasplace.sumupstore.com",
-    "validFrom": "2026-11-27T18:00+0100"
+    "url": "https://panda-platforma.berlin/events/pandawomen-closing-event-anastasia-rydlevskaya-dj-svetomusika/",
+    "validFrom": "2026-11-28T20:30+0100"
    },
    "organizer": {
     "@type": "Organization",
-    "name": "Milla's Table",
-    "url": "https://rausgegangen.de/organizations/millas-table/"
+    "name": "PANDAwomen 2026 Festival",
+    "url": "https://rausgegangen.de/organizations/pandawomen-festival/"
    },
-   "startDate": "2026-11-27T18:00+0100"
+   "startDate": "2026-11-28T20:30+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
-  "fetched": "2026-11-17T15:41:45+01:00",
+  "fetched": "2026-11-18T00:00:43+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -921,61 +962,5 @@
    "startDate": "2026-12-19T19:30+0100"
   },
   "seen": "2026-11-15T18:52:24+01:00"
- },
- "https://rausgegangen.de/events/tati-comedy-one-laugh-night-29/": {
-  "fetched": "2026-11-17T15:41:45+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Comedy mit Stil im Tati goes Underground in Berlin. Authentische Stand-up Shows mit bekannten Comedians, Berliner Underground Acts und Newcomern in edler Bar-Atmosphäre mit hochwertigen Cocktails. Die Bühne für spontane Überraschungen. Mal tauchen bekannte Gesichter aus der Comedy-Szene auf, mal brandneue Talente, die man so noch nie gesehen hat.Sicher ist nur eins:Es wird spät, es wird witzig und es wird auch dunkel lustig.Eintritt  ab 16 Jahre",
-   "endDate": "2026-11-18T22:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/kJyays4wROGHyg5J9wGS_tati-comedy-club-berliner-stand-up-nacht.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10405",
-     "streetAddress": "Metzer Straße 2"
-    },
-    "name": "Tati goes Underground"
-   },
-   "name": "Tati Comedy - Die Stand Up Comedy Show",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": null,
-    "lowPrice": null,
-    "offerCount": 3,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "16.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Frühbücher",
-      "price": "14.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Studenten",
-      "price": "14.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "startDate": "2026-11-18T20:00+0100"
-  }
  }
 }

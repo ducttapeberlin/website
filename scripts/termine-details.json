@@ -1,6 +1,6 @@
 {
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
-  "fetched": "2026-11-18T15:19:11+01:00",
+  "fetched": "2026-11-18T23:10:04+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -97,7 +97,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-11-18T15:19:11+01:00",
+  "fetched": "2026-11-18T23:10:04+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -207,16 +207,16 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/carlo5-die-letzte-tour-der-welt-2/": {
-  "fetched": "2026-11-18T15:19:11+01:00",
+ "https://rausgegangen.de/events/alizade-0/": {
+  "fetched": "2026-11-18T23:10:04+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Zwischen Pop und Rap hält Carlo5 seine Songs absichtlich in der Schwebe, mit rauer Stimme und trockenem Witz. Fast alles daran kommt direkt von ihm selbst, vom Schreiben bis zu den Videos 💃",
-   "endDate": "2027-04-09T23:00+0200",
+   "description": "Drei Sprachen im Kopf, klare Ansage im Mic. Alizade bewegt sich zwischen türkischem Trap, Hip Hop und Pop, ohne sich stilistisch klein zu machen 💅🏼",
+   "endDate": "2027-03-18T23:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/fKEeGi7QaihTGY4sKn05_carlo5-tourevent-header.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/RPaXer3QRV2eoGgEPHaF_photo-alizadecredit-ricardo-van-lachterop-kopie.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -224,33 +224,96 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10245",
-     "streetAddress": "Revaler Straße 99"
+     "postalCode": "12435",
+     "streetAddress": "Am Flutgraben 2"
     },
-    "name": "Astra Kulturhaus"
+    "name": "Festsaal Kreuzberg"
    },
-   "name": "Carlo5 • DIE LETZTE TOUR DER WELT",
+   "name": "Alizade",
    "offers": {
     "@type": "Offer",
-    "price": "39.80",
+    "price": "33.50",
     "priceCurrency": "EUR",
-    "url": "https://carlo5.krasserstoff.com/events/carlo5-die-letzte-tour-der-welt-astra-kulturhaus",
-    "validFrom": "2027-04-09T19:00+0200"
+    "url": "https://www.eventim.de/artist/alizade/",
+    "validFrom": "2027-03-18T19:00+0100"
    },
-   "organizer": {
-    "@type": "Organization",
-    "name": "LANDSTREICHER BOOKING",
-    "url": "https://rausgegangen.de/organizations/landstreicher-booking-ah-fk3y/"
+   "startDate": "2027-03-18T19:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/chaya-time-die-woc-stand-up-comedy-show-von-jasmin-kettana-u-0/": {
+  "fetched": "2026-11-18T23:10:04+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "CHAYA TIME - die Stand Up Comedy Show von Jasmin Kettana und Mai MyZwei Hosts, eine Bühne, vier Special Guests – und ein Stand-up-Abend ohne Tabus, dafür mit viel Tea zum Spillen. Es geht um Rebellion, Familie, Dating, Identität und den ganz normalen Alltagswahnsinn. Im Publikum sind alle willkommen – aber auf der Bühne stehen ausschließlich BiPoC-Comedians. Keine Wohlfühl-Klischees, sondern Perspektiven, die sonst viel zu selten das Mikro bekommen. Eine Produktion von SMASH COMEDY: intersektional queerfeministisch, maximal lustig und garantiert gottlos gut.Line Up: Blacktigermom, Elissa Hamurcu, Hebby, Adriana Cristina, Ena Soukou",
+   "endDate": "2026-11-24T22:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/2nYO3OQS8Ghf8FyPyCRE_chayas-querformat-1920-x-1080-px.JPEG"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10117",
+     "streetAddress": "Oranienburger Straße 67"
+    },
+    "name": "Downstairs Comedy Club"
    },
+   "name": "CHAYA TIME - die Stand Up Comedy Show von Jasmin Kettana und Mai My",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 3,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "22.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Ermäßigt",
+      "price": "13.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Mitgegangen",
+      "price": "3.80",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "Smash Comedy e.V.",
+     "url": "https://rausgegangen.de/organizations/smash-comedy/"
+    },
+    {
+     "@type": "Organization",
+     "name": "SMASH COMEDY Hamburg",
+     "url": "https://rausgegangen.de/organizations/smash-comedy-hamburg/"
+    }
+   ],
    "performer": {
     "@type": "PerformingGroup",
-    "name": "Carlo5"
+    "name": "Schwessi"
    },
-   "startDate": "2027-04-09T19:00+0200"
+   "startDate": "2026-11-24T20:00+0100"
   }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-11-18T15:19:11+01:00",
+  "fetched": "2026-11-18T23:10:04+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -338,16 +401,16 @@
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/der-schatz-eine-bohmische-familiengeschichte-0/": {
-  "fetched": "2026-11-18T15:19:11+01:00",
+ "https://rausgegangen.de/events/country-to-country-germany-2027-0/": {
+  "fetched": "2026-11-18T23:10:04+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "April 1945. Die Rote Armee rückt unaufhaltsam vor. Am Fuß des Riesengebirges vergräbt Otto Ther eine Kiste mit einem Diamantkreuz, Schmuck und poliertem Silberbesteck. Sie soll überdauern, bis die Familie nach Hohenelbe, heute Vrchlabí, zurückkehren kann.Jahrzehnte später reist sein Enkel, der Historiker Philipp Ther, mit seinem Vater immer wieder in die verlorene Heimat. Das örtliche Museum übergibt ihnen drei Kisten, für den Historiker ein Schatz ganz anderer Art. Die Familiendokumente darin zeigen, wie tief die eigene Familie in den Nationalsozialismus verstrickt war.In „Mein Schatz“ verbindet Philipp Ther Familien- und Zeitgeschichte zu einer persönlichen Erzählung über Herkunft, Schuld und Erinnerung.„Philipp Ther ist ein sozialhistorischer Prosakünstler.“ Gustav Seibt PROGRAMM BegrüßungDr. Roland Borchers, Direktor, Dokumentationszentrum Flucht, Vertreibung, Versöhnung (Berlin)Lesung und GesprächProf. Dr. Philipp Ther, AutorModeration: em. Prof. Dr. Jürgen Kocka, Freie Universität (Berlin)Der Autor steht nach der Lesung für eine Signierstunde bereit. Im Anschluss laden wir Sie zu einem kleinen Empfang ein.  WEITERE HINWEISE   Büchertisch: Buchhandlung „Der Zauberberg“Einlass: 18.00 Uhr   Sprache: DeutschEINTRITT FREI, MIT ANMELDUNGDie Veranstaltung wird aufgezeichnet und auf unserem YouTube-Kanal Flucht, Vertreibung, Versöhnung veröffentlicht.",
-   "endDate": "2026-12-02T20:00+0100",
+   "description": "Country to Country kehrt im März 2027 für zwei Tage voller Live-Musik nach Berlin zurück. In der Uber Eats Music Hall treffen die größten Stars der Country-Musik auf die aufregendsten Newcomer:innen des Genres. SAMSTAG, 6. MÄRZAshley McBrydeCooper AlanCarter FaithBlake WhitenMack GeigerLate Night ThoughtsOwen RieglingBellesBec O'MalleySONNTAG, 7. MÄRZJelly RollDashaEmily Ann RobertsDrew BaldridgeKashus CulpepperGreylan JamesLaci Kaye BoothColin Lynch",
+   "endDate": "2027-03-07T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/iONiEZu9RfK8U0wtzZgo_der-schatz-2.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/mMjeS7G4QHq4zm7Gw2eQ_axs-confirmation-750x568.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -355,23 +418,56 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10963",
-     "streetAddress": "Stresemannstraße 90"
+     "postalCode": "10243",
+     "streetAddress": "Uber-Platz"
     },
-    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
+    "name": "Uber Eats Music Hall"
    },
-   "name": "Der Schatz – Eine böhmische Familiengeschichte",
+   "name": "Country to Country Germany 2027",
+   "offers": {
+    "@type": "Offer",
+    "price": "204.00",
+    "priceCurrency": "EUR",
+    "url": "https://queue-de.axs.com/?c=axsde&e=3616770092191&cpch=Affiliate_Rausgegangen&cpcn=AXSDE_20261006_Affiliate_Rausgegangen_C2C_2027_UEMH&cpdn=AXSDE_20261006_Affiliate_Rausgegangen_C2C_2027_UEMH",
+    "validFrom": "2027-03-06T10:30+0100"
+   },
+   "startDate": "2027-03-06T10:30+0100"
+  }
+ },
+ "https://rausgegangen.de/events/dein-moment-dein-wein-rheinhessen-zu-gast-in-berlin-0/": {
+  "fetched": "2026-11-18T23:10:04+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Blind probieren, vergleichen, nochmal riechen: In mehreren Weinläden und Restaurants dreht sich gerade alles um Rheinhessen im Glas. Vielleicht stolperst Du dabei über einen Riesling oder Silvaner, den Du ab dann immer wieder bestellst 👀",
+   "endDate": "2026-11-29T00:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/LlmYkJ58TGq9wVBQeO8f_1.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": null,
+     "streetAddress": null
+    },
+    "name": "Berlin"
+   },
+   "name": "Dein Moment. Dein Wein: Rheinhessen zu Gast in Berlin",
    "offers": {
     "@type": "Offer",
     "price": "0.00",
     "priceCurrency": "EUR",
-    "validFrom": "2026-12-02T18:30+0100"
+    "validFrom": "2026-11-14T00:00+0100"
    },
-   "startDate": "2026-12-02T18:30+0100"
+   "startDate": "2026-11-14T00:00+0100"
   }
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
-  "fetched": "2026-11-18T15:19:11+01:00",
+  "fetched": "2026-11-18T23:10:04+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -416,7 +512,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-18T15:19:11+01:00",
+  "fetched": "2026-11-18T23:10:04+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -463,7 +559,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-22/": {
-  "fetched": "2026-11-18T15:19:11+01:00",
+  "fetched": "2026-11-18T23:10:04+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -508,7 +604,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
-  "fetched": "2026-11-18T15:19:11+01:00",
+  "fetched": "2026-11-18T23:10:04+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -553,7 +649,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
-  "fetched": "2026-11-18T15:19:11+01:00",
+  "fetched": "2026-11-18T23:10:04+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -600,7 +696,7 @@
   "seen": "2026-11-15T18:52:24+01:00"
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-11-18T15:19:11+01:00",
+  "fetched": "2026-11-18T23:10:04+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -650,50 +746,8 @@
   },
   "seen": "2026-10-27T20:46:24+01:00"
  },
- "https://rausgegangen.de/events/hits-different-steve-clash-club-tour-2026-berlin-0/": {
-  "fetched": "2026-11-18T15:19:11+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Electronic dance party with your favorite mashup bangers played in a sophisticated DJ set.Steve Clash zerlegt deine Lieblingssongs. Mainstage-Energie und Meilensteine der Popkultur vereinen sich in den sogenannten Power-Mashups. Deine Lieblingssongs nur lauter, etwas kaputter und tanzbarer.Haftbefehl aber Drum N Bass, Peter Fox aber Bass House, Imogen Heap aber Speed House. Hits different.",
-   "endDate": "2026-11-21T22:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/9I0oY3UlTfGrBCKZ1vJC_photobyjoschawiener202608082110131-2.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10999",
-     "streetAddress": "Skalitzer Str. 134"
-    },
-    "name": "Monarch"
-   },
-   "name": "Hits Different - Steve Clash Club Tour 2026 - Berlin",
-   "offers": {
-    "@type": "Offer",
-    "price": "10.00",
-    "priceCurrency": "EUR",
-    "url": "https://ticket2go.de/c/5869",
-    "validFrom": "2026-11-21T18:30+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Steve Clash",
-    "url": "https://rausgegangen.de/organizations/page-for-team-steve-clash/"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Steve Clash"
-   },
-   "startDate": "2026-11-21T18:30+0100"
-  }
- },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-11-18T15:19:11+01:00",
+  "fetched": "2026-11-18T23:10:04+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -782,8 +836,56 @@
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/jacob-fortyhands-munster-barking-up-the-tree-of-life-tour-20-4/": {
+  "fetched": "2026-11-18T23:10:04+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Sie kommen aus einem Familienprojekt und stehen live oft zu siebt auf der Bühne, mitten in einer Zeit, in der sonst eher alles klein gehalten wird. Jacob Fortyhands drehen diesen Kontrast einfach um 👀",
+   "endDate": "2027-09-14T06:00+0200",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/FLfZP0SOuyspxBqiKHFA_image00004-kopie-komprimiert.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10777",
+     "streetAddress": "Nollendorfplatz 5"
+    },
+    "name": "Mikropol"
+   },
+   "name": "Jacob Fortyhands - Barking up the tree of life Tour 2027",
+   "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "EUR",
+    "url": "https://www.eventim.de/artist/jacob-fortyhands/",
+    "validFrom": "2027-09-13T20:00+0200"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "PRK DreamHaus GmbH",
+    "url": "https://rausgegangen.de/organizations/prk-dreamhaus/"
+   },
+   "performer": [
+    {
+     "@type": "PerformingGroup",
+     "name": "Jacob Fortyhands"
+    },
+    {
+     "@type": "PerformingGroup",
+     "name": "Jacob Fortyhands"
+    }
+   ],
+   "startDate": "2027-09-13T20:00+0200"
+  }
+ },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1/": {
-  "fetched": "2026-11-18T15:19:11+01:00",
+  "fetched": "2026-11-18T23:10:04+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -824,8 +926,50 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/kulk-live-4/": {
+  "fetched": "2026-11-18T23:10:04+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Zwei Leute, Gitarre, Schlagzeug, und dazwischen eine Band, die auch ihre Beziehung mit auf die Bühne bringt. KULK kommen als Duo aus Thom und Jade, und live soll das eher Chaos als Zurückhaltung sein ⚡",
+   "endDate": "2027-02-04T23:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/jh8aaKrXQZicj0tzVdiM_copy-of-kulklogo.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10115",
+     "streetAddress": "Ackerstraße 169, 10115 Berlin"
+    },
+    "name": "Schokoladen"
+   },
+   "name": "KULK Live",
+   "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "EUR",
+    "url": "https://schokoladen.tickettoaster.de/produkte/102791-tickets-kulk-uk-schokoladen-berlin-am-04-02-2027",
+    "validFrom": "2027-02-04T19:00+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "killmebooking",
+    "url": "https://rausgegangen.de/organizations/page-for-team-killmebooking/"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "KULK"
+   },
+   "startDate": "2027-02-04T19:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
-  "fetched": "2026-11-18T15:19:11+01:00",
+  "fetched": "2026-11-18T23:10:04+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -862,87 +1006,5 @@
    "startDate": "2026-12-19T19:30+0100"
   },
   "seen": "2026-11-15T18:52:24+01:00"
- },
- "https://rausgegangen.de/events/tannz-im-frannz-mit-hiphop-special-0/": {
-  "fetched": "2026-11-18T15:19:11+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "✨Zwei Floors, doppelt gute Vibes: Tannz im Frannz ist zurück! ✨An den Decks: Sony Straight (Main // Pop-Explosion) & Marc Hype -Dusty Donuts-(Lounge // Hiphop Special)Willkommen beim Tannz im Frannz, willkommen zur Pop Explosion auf dem Mainfloor! Sony Straight schmettert euch die legendärsten Pop-Hymnen direkt auf den Dancefloor und feiert mit euch eine Nacht voller Nostalgie, Ohrwürmern, Liebe und purer Eskalation.In der Lounge zelebrieren Marc Hype und seine Crew den \"Keep it Dusty\" Sound. Auf den Teller kommen Classic Hip Hop, Funk, Soul, Disco & 80s Boogie. Es wird anständig abgehen und viel Gutes zurückbringen! Boogielove in der Frannz Lounge & the Beat bringin' Heat! .  ",
-   "endDate": "2026-11-21T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/uCI5OMAbSSaBnAahjNeh_rnimagepickerlibtemp92b320b9-dce2-4af5-8e3a-353555c67d3b.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10435",
-     "streetAddress": "Schönhauser Allee 36"
-    },
-    "name": "frannz club berlin"
-   },
-   "name": "Tannz im Frannz -mit HipHop Special-",
-   "offers": {
-    "@type": "Offer",
-    "price": "10.00",
-    "priceCurrency": "EUR",
-    "url": "https://shop.copilot.events/frannz/events/309e88e6-fa2e-4c37-b281-5f8a625e06d7",
-    "validFrom": "2026-11-20T22:00+0100"
-   },
-   "startDate": "2026-11-20T22:00+0100"
-  }
- },
- "https://rausgegangen.de/events/tati-comedy-tryout-stand-up-comedy-16/": {
-  "fetched": "2026-11-18T15:19:11+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Stand-Up Comedy Tryout / Open MicNeue Talente. Neue Jokes. Neue Energie – live & unfiltriert!TRYOUT ist die Bühne, auf der Comedy entsteht. Newcomer, Fortgeschrittene und spontane Mutige testen hier ihre brandneuen Jokes live vor Publikum. Nichts ist geplant, nichts ist perfekt – und genau das macht diesen Abend so einzigartig.Erlebe einen Abend voller Überraschungen, spontaner Momente und echter Stand-up-Comedy, bei der du manchmal der erste Mensch bist, der einen neuen Gag überhaupt zu hören bekommt.Was dich erwartet:Frische Comedy-Sets & brandneues MaterialAuthentische „Work in Progress“-AtmosphäreMutige Newcomer & überraschende ProfisHumor, der spontan entstehtEnergiegeladenes, ehrliches PublikumFür wen ist TRYOUT?Für alle, die Comedy lieben: Publikum, das über rohe, echte Comedy lachen möchte – und Performer, die mutig sind, Neues auszuprobieren.--Location--Welcome to Tati Goes Underground — Berlin’s intimate, alternative comedy club. Known for its cozy, candle-lit atmosphere and bohemian vibes, Tati is the kind of place where comedians and audiences come together like old friends... with strong opinions and stronger drinks.Metzer Str. 2 in Prenzlauer Berg is a two-minute walk from the U2 \"Senefelder Platz\" station. The bar offers the perfect atmosphere for a successful comedy evening. A cozy interior, friendly staff, and good drinks round out this special comedy event for you.",
-   "endDate": "2026-11-24T20:30+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/IUObRZ5jQgW7YMCD4a6c_tati-comedy-club-berliner-stand-up-nacht.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10405",
-     "streetAddress": "Metzer Straße 2"
-    },
-    "name": "Tati goes Underground"
-   },
-   "name": "Tati Comedy - Open Mic",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": null,
-    "lowPrice": null,
-    "offerCount": 2,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "15.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "earlybird",
-      "price": "12.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "startDate": "2026-11-24T19:00+0100"
-  }
  }
 }

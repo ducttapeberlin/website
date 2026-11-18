@@ -207,16 +207,16 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/carlo5-die-letzte-tour-der-welt-2/": {
-  "fetched": "2026-11-18T00:00:43+01:00",
+ "https://rausgegangen.de/events/cassia-12/": {
+  "fetched": "2026-11-18T05:34:44+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Zwischen Pop und Rap hält Carlo5 seine Songs absichtlich in der Schwebe, mit rauer Stimme und trockenem Witz. Fast alles daran kommt direkt von ihm selbst, vom Schreiben bis zu den Videos 💃",
-   "endDate": "2027-04-09T23:00+0200",
+   "description": "Nach der ersten Welttour klingt Cassia nicht nach Durchatmen, sondern nach Neujustierung. Das Trio aus Manchester baut seine neuen Songs stärker um Drums und Grooves herum, die aktuelle Single lovedrunk. gibt davon schon einen klaren Vorgeschmack 🎟️",
+   "endDate": "2026-11-21T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/fKEeGi7QaihTGY4sKn05_carlo5-tourevent-header.jpg"
+    "https://rausgegangen.s3.amazonaws.com/9c2nsas54tsh.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -224,29 +224,20 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10245",
-     "streetAddress": "Revaler Straße 99"
+     "postalCode": "10997",
+     "streetAddress": "Cuvrystraße 7"
     },
-    "name": "Astra Kulturhaus"
+    "name": "Lido"
    },
-   "name": "Carlo5 • DIE LETZTE TOUR DER WELT",
+   "name": "Cassia",
    "offers": {
     "@type": "Offer",
-    "price": "39.80",
+    "price": "31.50",
     "priceCurrency": "EUR",
-    "url": "https://carlo5.krasserstoff.com/events/carlo5-die-letzte-tour-der-welt-astra-kulturhaus",
-    "validFrom": "2027-04-09T19:00+0200"
+    "url": "https://www.kj.de/artist/7358",
+    "validFrom": "2026-11-20T20:00+0100"
    },
-   "organizer": {
-    "@type": "Organization",
-    "name": "LANDSTREICHER BOOKING",
-    "url": "https://rausgegangen.de/organizations/landstreicher-booking-ah-fk3y/"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Carlo5"
-   },
-   "startDate": "2027-04-09T19:00+0200"
+   "startDate": "2026-11-20T20:00+0100"
   }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
@@ -337,38 +328,6 @@
   "seen": "2026-10-20T15:24:41+02:00",
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/dein-moment-dein-wein-rheinhessen-zu-gast-in-berlin-0/": {
-  "fetched": "2026-11-18T00:00:43+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Blind probieren, vergleichen, nochmal riechen: In mehreren Weinläden und Restaurants dreht sich gerade alles um Rheinhessen im Glas. Vielleicht stolperst Du dabei über einen Riesling oder Silvaner, den Du ab dann immer wieder bestellst 👀",
-   "endDate": "2026-11-29T00:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/LlmYkJ58TGq9wVBQeO8f_1.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": null,
-     "streetAddress": null
-    },
-    "name": "Berlin"
-   },
-   "name": "Dein Moment. Dein Wein: Rheinhessen zu Gast in Berlin",
-   "offers": {
-    "@type": "Offer",
-    "price": "0.00",
-    "priceCurrency": "EUR",
-    "validFrom": "2026-11-14T00:00+0100"
-   },
-   "startDate": "2026-11-14T00:00+0100"
-  }
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
   "fetched": "2026-11-18T00:00:43+01:00",
@@ -650,38 +609,6 @@
   },
   "seen": "2026-10-27T20:46:24+01:00"
  },
- "https://rausgegangen.de/events/eisfest-wintermarkt-0/": {
-  "fetched": "2026-11-18T00:00:43+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Zwischen Kerzenwachs aus den Bienenstöcken des MINSK und einer Fotowand mit echten Expeditionsanzügen wird Winter plötzlich ziemlich konkret. Neben dem Markt kannst Du auch in die aktuellen Ausstellungen rübergehen 🙂",
-   "endDate": "2026-11-28T20:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/jlQimSvgT7mVSBDAFDyr_dasmeisfestwebnlfinalquer.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Potsdam",
-     "postalCode": "14473",
-     "streetAddress": "Max-Planck-Strasse 17"
-    },
-    "name": "DAS MINSK Kunsthaus in Potsdam"
-   },
-   "name": "EISFEST & WINTERMARKT",
-   "offers": {
-    "@type": "Offer",
-    "price": "0.00",
-    "priceCurrency": "EUR",
-    "validFrom": "2026-11-28T11:00+0100"
-   },
-   "startDate": "2026-11-28T11:00+0100"
-  }
- },
  "https://rausgegangen.de/events/fomo-kiez-dinner-friendsgiving-edition-0/": {
   "fetched": "2026-11-18T00:00:43+01:00",
   "ld": {
@@ -846,83 +773,6 @@
   "seen": "2026-10-27T20:46:24+01:00",
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/paint-feast-mit-ania-von-not-the-creative-kind-0/": {
-  "fetched": "2026-11-18T00:00:43+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Beim Paint & Feast kommen wir an einem liebevoll gedeckten Tisch mit ausgewählten Köstlichkeiten zusammen, um genau das zu tun, was der Name verspricht: zu malen und zu essen. Lenja & Ania arrangieren kleine, essbare Stillleben, die nicht nur zum Snacken einladen, sondern auch als kreative Inspiration dienen. Wir nutzen den Tisch, um gemeinsam Zeit zu verbringen, zu genießen und uns kreativ auszutoben.Ania führt euch mit ein paar kleinen Übungen zum Warmwerden in eure kreative Seite (ja, jede*r hat eine), und danach sucht ihr euch euer Lieblingsstillleben aus und bringt es auf eure eigene Leinwand. Dafür gibt es verschiedene Kunstmaterialien, damit ihr euch ausprobieren könnt. Eine Schritt-für-Schritt-Anleitung gibt es nicht, denn jeder malt die eigene Vision. Aber keine Angst, du musst keine Künstler*in sein, um Spaß dabei zu haben.Was ist enthalten: Grazing Köstlichkeiten von Feasts of Eden zum Snacken ein Glas Wein oder ein alkoholfreies Getränk, sowie Filterkaffee & Tee inklusive, weitere Getränke können vor Ort erworben werdenalle benötigten Kunstmaterialien Das nehmt ihr mit nach Hause: eine von euch selbst bemalte Leinwand",
-   "endDate": "2026-11-22T15:30+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/R3IiZBqrTYudd0uqMQD1_1.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10967",
-     "streetAddress": "Urbanstraße 137A"
-    },
-    "name": "Feasts of Eden"
-   },
-   "name": "PAINT & FEAST mit Ania von N̶o̶t̶ the Creative Kind",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": null,
-    "lowPrice": null,
-    "offerCount": 0,
-    "offers": [],
-    "priceCurrency": "EUR"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Team - Feasts of Eden",
-    "url": "https://rausgegangen.de/organizations/p-team-feasts-of-eden/"
-   },
-   "startDate": "2026-11-22T13:00+0100"
-  }
- },
- "https://rausgegangen.de/events/pandawomen-2026-pandawomen-closing-event-anastasia-rydlevska-0/": {
-  "fetched": "2026-11-18T00:00:43+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Masken, Stimme, Elektronik: Bei Anastasia Rydlevskaya steht Pop neben belarussischer Folklore und bildender Kunst, ohne sich sauber trennen zu lassen. Danach übernimmt DJ Svetomusika mit einem spontanen Mix aus aller Welt 🪩",
-   "endDate": "2026-11-29T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/c6PFSPuQuWhdtlyPLUea_23335image-2048x1024.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10435",
-     "streetAddress": "Knaackstraße 97"
-    },
-    "name": "PANDA platforma"
-   },
-   "name": "PANDAwomen 2026: PANDAwomen closing event: Anastasia Rydlevskaya / DJ Svetomusika",
-   "offers": {
-    "@type": "Offer",
-    "price": "25.00",
-    "priceCurrency": "EUR",
-    "url": "https://panda-platforma.berlin/events/pandawomen-closing-event-anastasia-rydlevskaya-dj-svetomusika/",
-    "validFrom": "2026-11-28T20:30+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "PANDAwomen 2026 Festival",
-    "url": "https://rausgegangen.de/organizations/pandawomen-festival/"
-   },
-   "startDate": "2026-11-28T20:30+0100"
-  }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
   "fetched": "2026-11-18T00:00:43+01:00",

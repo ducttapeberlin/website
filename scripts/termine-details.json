@@ -1,6 +1,6 @@
 {
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
-  "fetched": "2026-11-19T14:33:28+01:00",
+  "fetched": "2026-11-19T23:18:43+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -97,7 +97,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-11-19T14:33:28+01:00",
+  "fetched": "2026-11-19T23:18:43+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -208,7 +208,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/bln-reunion-indoor-festival-0/": {
-  "fetched": "2026-11-19T14:33:28+01:00",
+  "fetched": "2026-11-19T23:18:43+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -240,101 +240,8 @@
    "startDate": "2026-12-12T21:00+0100"
   }
  },
- "https://rausgegangen.de/events/bodies-baddies-nye-edition-0/": {
-  "fetched": "2026-11-19T14:33:28+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Wenn Du das Jahr queer und mit ordentlich Energie abschließen willst, klingt das hier ziemlich ideal: mehrere Floors, Shows direkt nach dem Countdown und ein Format, das klar aus der Community kommt. Für Queers, Girls, Gays, Theys, Lovers und Allies gedacht 👀",
-   "endDate": "2027-01-01T06:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/RqGvZn1mSD2O5uy0Wezo_rausgegangenbnbsasha-kopie2.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10777",
-     "streetAddress": "Nollendorfplatz 5"
-    },
-    "name": "Metropol"
-   },
-   "name": "BODIES & BADDIES // NYE Party",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "85.40",
-    "lowPrice": "16.50",
-    "offerCount": 7,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Early Bird",
-      "price": "27.10",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Group Tickets First Wave",
-      "price": "32.40",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "First Wave",
-      "price": "37.70",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "VIP Tickets",
-      "price": "85.40",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Group Tickets Second Wave",
-      "price": "43.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Second Wave",
-      "price": "48.30",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Last Wave // Abendkasse",
-      "price": "52.54",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Ocean Eyes",
-    "url": "https://rausgegangen.de/organizations/ocean-eyes/"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Ocean"
-   },
-   "startDate": "2026-12-31T22:00+0100"
-  }
- },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-11-19T14:33:28+01:00",
+  "fetched": "2026-11-19T23:18:43+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -422,40 +329,8 @@
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/der-schatz-eine-bohmische-familiengeschichte-0/": {
-  "fetched": "2026-11-19T14:33:28+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "April 1945. Die Rote Armee rückt unaufhaltsam vor. Am Fuß des Riesengebirges vergräbt Otto Ther eine Kiste mit einem Diamantkreuz, Schmuck und poliertem Silberbesteck. Sie soll überdauern, bis die Familie nach Hohenelbe, heute Vrchlabí, zurückkehren kann.Jahrzehnte später reist sein Enkel, der Historiker Philipp Ther, mit seinem Vater immer wieder in die verlorene Heimat. Das örtliche Museum übergibt ihnen drei Kisten, für den Historiker ein Schatz ganz anderer Art. Die Familiendokumente darin zeigen, wie tief die eigene Familie in den Nationalsozialismus verstrickt war.In „Mein Schatz“ verbindet Philipp Ther Familien- und Zeitgeschichte zu einer persönlichen Erzählung über Herkunft, Schuld und Erinnerung.„Philipp Ther ist ein sozialhistorischer Prosakünstler.“ Gustav Seibt PROGRAMM BegrüßungDr. Roland Borchers, Direktor, Dokumentationszentrum Flucht, Vertreibung, Versöhnung (Berlin)Lesung und GesprächProf. Dr. Philipp Ther, AutorModeration: em. Prof. Dr. Jürgen Kocka, Freie Universität (Berlin)Der Autor steht nach der Lesung für eine Signierstunde bereit. Im Anschluss laden wir Sie zu einem kleinen Empfang ein.  WEITERE HINWEISE   Büchertisch: Buchhandlung „Der Zauberberg“Einlass: 18.00 Uhr   Sprache: DeutschEINTRITT FREI, MIT ANMELDUNGDie Veranstaltung wird aufgezeichnet und auf unserem YouTube-Kanal Flucht, Vertreibung, Versöhnung veröffentlicht.",
-   "endDate": "2026-12-02T20:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/iONiEZu9RfK8U0wtzZgo_der-schatz-2.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10963",
-     "streetAddress": "Stresemannstraße 90"
-    },
-    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
-   },
-   "name": "Der Schatz – Eine böhmische Familiengeschichte",
-   "offers": {
-    "@type": "Offer",
-    "price": "0.00",
-    "priceCurrency": "EUR",
-    "validFrom": "2026-12-02T18:30+0100"
-   },
-   "startDate": "2026-12-02T18:30+0100"
-  }
- },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
-  "fetched": "2026-11-19T14:33:28+01:00",
+  "fetched": "2026-11-19T23:18:43+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -500,7 +375,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-19T14:33:28+01:00",
+  "fetched": "2026-11-19T23:18:43+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -547,7 +422,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
-  "fetched": "2026-11-19T14:33:28+01:00",
+  "fetched": "2026-11-19T23:18:43+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -592,7 +467,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
-  "fetched": "2026-11-19T14:33:28+01:00",
+  "fetched": "2026-11-19T23:18:43+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -639,7 +514,7 @@
   "seen": "2026-11-15T18:52:24+01:00"
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-11-19T14:33:28+01:00",
+  "fetched": "2026-11-19T23:18:43+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -690,7 +565,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-11-19T14:33:28+01:00",
+  "fetched": "2026-11-19T23:18:43+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -780,7 +655,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1/": {
-  "fetched": "2026-11-19T14:33:28+01:00",
+  "fetched": "2026-11-19T23:18:43+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -821,92 +696,8 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/paint-feast-mit-ania-von-not-the-creative-kind-0/": {
-  "fetched": "2026-11-19T14:33:28+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Beim Paint & Feast kommen wir an einem liebevoll gedeckten Tisch mit ausgewählten Köstlichkeiten zusammen, um genau das zu tun, was der Name verspricht: zu malen und zu essen. Lenja & Ania arrangieren kleine, essbare Stillleben, die nicht nur zum Snacken einladen, sondern auch als kreative Inspiration dienen. Wir nutzen den Tisch, um gemeinsam Zeit zu verbringen, zu genießen und uns kreativ auszutoben.Ania führt euch mit ein paar kleinen Übungen zum Warmwerden in eure kreative Seite (ja, jede*r hat eine), und danach sucht ihr euch euer Lieblingsstillleben aus und bringt es auf eure eigene Leinwand. Dafür gibt es verschiedene Kunstmaterialien, damit ihr euch ausprobieren könnt. Eine Schritt-für-Schritt-Anleitung gibt es nicht, denn jeder malt die eigene Vision. Aber keine Angst, du musst keine Künstler*in sein, um Spaß dabei zu haben.Was ist enthalten: Grazing Köstlichkeiten von Feasts of Eden zum Snacken ein Glas Wein oder ein alkoholfreies Getränk, sowie Filterkaffee & Tee inklusive, weitere Getränke können vor Ort erworben werdenalle benötigten Kunstmaterialien Das nehmt ihr mit nach Hause: eine von euch selbst bemalte Leinwand",
-   "endDate": "2026-11-22T15:30+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/R3IiZBqrTYudd0uqMQD1_1.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10967",
-     "streetAddress": "Urbanstraße 137A"
-    },
-    "name": "Feasts of Eden"
-   },
-   "name": "PAINT & FEAST mit Ania von N̶o̶t̶ the Creative Kind",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": null,
-    "lowPrice": null,
-    "offerCount": 0,
-    "offers": [],
-    "priceCurrency": "EUR"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Team - Feasts of Eden",
-    "url": "https://rausgegangen.de/organizations/p-team-feasts-of-eden/"
-   },
-   "startDate": "2026-11-22T13:00+0100"
-  }
- },
- "https://rausgegangen.de/events/pandawomen-2026-aban-ensemble-dj-rosemah-curated-by-yalda-ya-0/": {
-  "fetched": "2026-11-19T14:33:28+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Erst vier Musikerinnen aus Iran, dann DJ ROSEMAH mit Sounds zwischen House, Hip Hop und Klängen aus Afghanistan, Persien und der SWANA Region. Ein Abend, an dem musikalische Welten nicht sauber getrennt bleiben 👀",
-   "endDate": "2026-11-22T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/xujcRKOIRwmSNozh4mi6_23207image-2048x1024.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10435",
-     "streetAddress": "Knaackstraße 97"
-    },
-    "name": "PANDA platforma"
-   },
-   "name": "PANDAwomen 2026: Aban Ensemble / DJ ROSEMAH / Curated by Yalda Yazdani",
-   "offers": {
-    "@type": "Offer",
-    "price": "20.00",
-    "priceCurrency": "EUR",
-    "url": "https://panda-platforma.berlin/events/aban-ensemble-dj-rosemah/",
-    "validFrom": "2026-11-21T20:30+0100"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "PANDA platforma e.V.",
-     "url": "https://rausgegangen.de/organizations/page-for-team-panda-platforma-ev/"
-    },
-    {
-     "@type": "Organization",
-     "name": "PANDAwomen 2026 Festival",
-     "url": "https://rausgegangen.de/organizations/pandawomen-festival/"
-    }
-   ],
-   "startDate": "2026-11-21T20:30+0100"
-  }
- },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
-  "fetched": "2026-11-19T14:33:28+01:00",
+  "fetched": "2026-11-19T23:18:43+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -944,16 +735,16 @@
   },
   "seen": "2026-11-15T18:52:24+01:00"
  },
- "https://rausgegangen.de/events/wessen-denkmaler-deutsche-spuren-in-den-polnischen-westgebie-0/": {
-  "fetched": "2026-11-19T14:33:28+01:00",
+ "https://rausgegangen.de/events/tati-comedy-tryout-stand-up-comedy-16/": {
+  "fetched": "2026-11-19T23:18:43+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Umgestaltet, umgedeutet oder dem Verfall überlassen: Deutsche Denkmäler nahmen nach 1945 in den neuen polnischen Westgebieten ganz unterschiedliche Wege. Wie gingen die Menschen vor Ort mit diesen Hinterlassenschaften um? Was passte zum Neuanfang, was blieb fremd, und was änderte sich mit der Zeit?In seinem Fotoprojekt „Denkmalforschung“ untersucht Wojtek Sienkiewicz Denkmäler in niederschlesischen Dörfern. Im Gespräch mit der Kulturwissenschaftlerin Karolina Ćwiek-Rogalska geht er der Frage nach, wie lokale Initiativen, politische Vorgaben und alltägliche Entscheidungen ineinandergreifen. Die Denkmäler erzählen von Aneignung und Vernachlässigung, von Erinnerungspolitik und einem Umgang mit dem deutschen Erbe, der bis heute voller Widersprüche ist. PROGRAMMBegrüßungDr. Roland Borchers, Direktor, Dokumentationszentrum Flucht, Vertreibung, Versöhnung, BerlinKatarzyna Sitko, Direktorin, Polnisches Institut Berlin, BerlinPodiumWojtek Sienkiewicz, FotografProf. Karolina Ćwiek-Rogalska, Institut für Slawistik an der Polnischen Akademie der Wissenschaften, WarschauModeration: Prof. Felix Ackermann, Lehrgebiet Public History an der Fernuniversität in Hagen WEITERE HINWEISE  Einlass: 18.00 UhrSprache: Deutsch, Polnisch (mit Simultanübersetzung)EINTRITT FREI, MIT ANMELDUNGEine Veranstaltung im Rahmen der Sonderausstellung „OSTGEBIETE / ZIEMIE ZACHODNIE. Eine deutsch-polnische Spurensuche.\"",
-   "endDate": "2026-11-26T20:00+0100",
+   "description": "Stand-Up Comedy Tryout / Open MicNeue Talente. Neue Jokes. Neue Energie – live & unfiltriert!TRYOUT ist die Bühne, auf der Comedy entsteht. Newcomer, Fortgeschrittene und spontane Mutige testen hier ihre brandneuen Jokes live vor Publikum. Nichts ist geplant, nichts ist perfekt – und genau das macht diesen Abend so einzigartig.Erlebe einen Abend voller Überraschungen, spontaner Momente und echter Stand-up-Comedy, bei der du manchmal der erste Mensch bist, der einen neuen Gag überhaupt zu hören bekommt.Was dich erwartet:Frische Comedy-Sets & brandneues MaterialAuthentische „Work in Progress“-AtmosphäreMutige Newcomer & überraschende ProfisHumor, der spontan entstehtEnergiegeladenes, ehrliches PublikumFür wen ist TRYOUT?Für alle, die Comedy lieben: Publikum, das über rohe, echte Comedy lachen möchte – und Performer, die mutig sind, Neues auszuprobieren.--Location--Welcome to Tati Goes Underground — Berlin’s intimate, alternative comedy club. Known for its cozy, candle-lit atmosphere and bohemian vibes, Tati is the kind of place where comedians and audiences come together like old friends... with strong opinions and stronger drinks.Metzer Str. 2 in Prenzlauer Berg is a two-minute walk from the U2 \"Senefelder Platz\" station. The bar offers the perfect atmosphere for a successful comedy evening. A cozy interior, friendly staff, and good drinks round out this special comedy event for you.",
+   "endDate": "2026-11-24T20:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/5Bp6OORBQvmekU2FPgAA_pi-ex-1.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/IUObRZ5jQgW7YMCD4a6c_tati-comedy-club-berliner-stand-up-nacht.png"
    ],
    "location": {
     "@type": "Place",
@@ -961,21 +752,36 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10963",
-     "streetAddress": "Stresemannstraße 90"
+     "postalCode": "10405",
+     "streetAddress": "Metzer Straße 2"
     },
-    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
+    "name": "Tati goes Underground"
    },
-   "name": "Wessen Denkmäler? Deutsche Spuren in den polnischen Westgebieten",
+   "name": "Tati Comedy - Open Mic",
    "offers": {
     "@type": "AggregateOffer",
     "highPrice": null,
     "lowPrice": null,
-    "offerCount": 0,
-    "offers": [],
+    "offerCount": 2,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "15.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "earlybird",
+      "price": "12.00",
+      "priceCurrency": "EUR"
+     }
+    ],
     "priceCurrency": "EUR"
    },
-   "startDate": "2026-11-26T18:30+0100"
+   "startDate": "2026-11-24T19:00+0100"
   }
  }
 }

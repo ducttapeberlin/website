@@ -1,6 +1,6 @@
 {
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
-  "fetched": "2026-11-18T23:10:04+01:00",
+  "fetched": "2026-11-19T14:33:28+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -97,7 +97,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-11-18T23:10:04+01:00",
+  "fetched": "2026-11-19T14:33:28+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -207,12 +207,138 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-11-18T23:10:04+01:00",
+ "https://rausgegangen.de/events/bln-reunion-indoor-festival-0/": {
+  "fetched": "2026-11-19T14:33:28+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "COSMOPOLITAN is back 💖🪩 A night of queer disco, hot melodies and late-night house. 🎶✨ See you on the dancefloor. 💃🕺🍸 Welcome shot 🍬 Candy Girl & Candy Boy 🎧 Line-up: EMI · Fixie Fate · Bizarre Billy b2b DIN3000 🎭 Show: Duct Tape · Vyla Virus👗 No dress code — wear whatever makes you feel good. Dressing to the theme is welcome, but completely optional.📍 Privatclub, Skalitzer Straße 85–86, 10997 Berlin 🗓️ 28 November · Doors 11 PM 🕚—————————— Presented by Duct Tape × Anytime Artwork: Daniel Hristov, Christian Dogan Typography & Color Palette: EMI",
+   "description": "Drei Floors, 14 Acts, und die neue Eventhalle ist für eine lange elektronische Nacht mitgedacht. Nach vier ausverkauften Ausgaben geht BLN Reunion in die Winterrunde, mit AKA AKA, K Paul und Sascha Braemer 🪩",
+   "endDate": "2026-12-13T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/UByHSSIrQtq4vum0PE35_bln1920x1080variantec.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10997",
+     "streetAddress": "Köpenicker Straße 16"
+    },
+    "name": "Spindler & Klatt"
+   },
+   "name": "BLN REUNION INDOOR FESTIVAL - AKA AKA, K-Paul, Sascha Braemer, Blondee uvm.",
+   "offers": {
+    "@type": "Offer",
+    "price": "22.90",
+    "priceCurrency": "EUR",
+    "url": "https://open-air-berlin.ticket.io/ZO7IuWhk/",
+    "validFrom": "2026-12-12T21:00+0100"
+   },
+   "startDate": "2026-12-12T21:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/bodies-baddies-nye-edition-0/": {
+  "fetched": "2026-11-19T14:33:28+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Wenn Du das Jahr queer und mit ordentlich Energie abschließen willst, klingt das hier ziemlich ideal: mehrere Floors, Shows direkt nach dem Countdown und ein Format, das klar aus der Community kommt. Für Queers, Girls, Gays, Theys, Lovers und Allies gedacht 👀",
+   "endDate": "2027-01-01T06:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/RqGvZn1mSD2O5uy0Wezo_rausgegangenbnbsasha-kopie2.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10777",
+     "streetAddress": "Nollendorfplatz 5"
+    },
+    "name": "Metropol"
+   },
+   "name": "BODIES & BADDIES // NYE Party",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "85.40",
+    "lowPrice": "16.50",
+    "offerCount": 7,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Early Bird",
+      "price": "27.10",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Group Tickets First Wave",
+      "price": "32.40",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "First Wave",
+      "price": "37.70",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "VIP Tickets",
+      "price": "85.40",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Group Tickets Second Wave",
+      "price": "43.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Second Wave",
+      "price": "48.30",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Last Wave // Abendkasse",
+      "price": "52.54",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Ocean Eyes",
+    "url": "https://rausgegangen.de/organizations/ocean-eyes/"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Ocean"
+   },
+   "startDate": "2026-12-31T22:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
+  "fetched": "2026-11-19T14:33:28+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "COSMOPOLITAN is back 💖🪩 A night of queer disco, hot melodies and late-night house. 🎶✨ See you on the dancefloor. 💃🕺🍸 Welcome shot 🍬 Candy & shots with Harpy Fatale 🎧 Line-up: EMI · Fixie Fate · Bizarre Billy b2b DIN3000 🎭 Show: Duct Tape · Vyla Virus👗 No dress code — wear whatever makes you feel good. Dressing to the theme is welcome, but completely optional.📍 Privatclub, Skalitzer Straße 85–86, 10997 Berlin 🗓️ 28 November · Doors 11 PM 🕚—————————— Presented by Duct Tape × Anytime Artwork: Daniel Hristov, Christian Dogan Typography & Color Palette: EMI",
    "endDate": "2026-11-29T06:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
@@ -296,16 +422,16 @@
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/dein-moment-dein-wein-die-mosel-zu-gast-in-berlin-0/": {
-  "fetched": "2026-11-19T04:41:45+01:00",
+ "https://rausgegangen.de/events/der-schatz-eine-bohmische-familiengeschichte-0/": {
+  "fetched": "2026-11-19T14:33:28+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Schieferboden und steile Hänge sind weit weg, im Glas landet trotzdem Mosel. In Berliner Weinläden und Restaurants kannst Du Rieslinge der Region probieren und Dich einmal quer durch diese Weingegend kosten 👩🏻‍🍳",
-   "endDate": "2026-12-20T00:00+0100",
+   "description": "April 1945. Die Rote Armee rückt unaufhaltsam vor. Am Fuß des Riesengebirges vergräbt Otto Ther eine Kiste mit einem Diamantkreuz, Schmuck und poliertem Silberbesteck. Sie soll überdauern, bis die Familie nach Hohenelbe, heute Vrchlabí, zurückkehren kann.Jahrzehnte später reist sein Enkel, der Historiker Philipp Ther, mit seinem Vater immer wieder in die verlorene Heimat. Das örtliche Museum übergibt ihnen drei Kisten, für den Historiker ein Schatz ganz anderer Art. Die Familiendokumente darin zeigen, wie tief die eigene Familie in den Nationalsozialismus verstrickt war.In „Mein Schatz“ verbindet Philipp Ther Familien- und Zeitgeschichte zu einer persönlichen Erzählung über Herkunft, Schuld und Erinnerung.„Philipp Ther ist ein sozialhistorischer Prosakünstler.“ Gustav Seibt PROGRAMM BegrüßungDr. Roland Borchers, Direktor, Dokumentationszentrum Flucht, Vertreibung, Versöhnung (Berlin)Lesung und GesprächProf. Dr. Philipp Ther, AutorModeration: em. Prof. Dr. Jürgen Kocka, Freie Universität (Berlin)Der Autor steht nach der Lesung für eine Signierstunde bereit. Im Anschluss laden wir Sie zu einem kleinen Empfang ein.  WEITERE HINWEISE   Büchertisch: Buchhandlung „Der Zauberberg“Einlass: 18.00 Uhr   Sprache: DeutschEINTRITT FREI, MIT ANMELDUNGDie Veranstaltung wird aufgezeichnet und auf unserem YouTube-Kanal Flucht, Vertreibung, Versöhnung veröffentlicht.",
+   "endDate": "2026-12-02T20:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/leL5ZuVfRYiO3x90gloF_2.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/iONiEZu9RfK8U0wtzZgo_der-schatz-2.png"
    ],
    "location": {
     "@type": "Place",
@@ -313,55 +439,23 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": null,
-     "streetAddress": null
+     "postalCode": "10963",
+     "streetAddress": "Stresemannstraße 90"
     },
-    "name": "Berlin"
+    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
    },
-   "name": "Dein Moment. Dein Wein: Die Mosel zu Gast in Berlin",
+   "name": "Der Schatz – Eine böhmische Familiengeschichte",
    "offers": {
     "@type": "Offer",
     "price": "0.00",
     "priceCurrency": "EUR",
-    "validFrom": "2026-12-07T00:00+0100"
+    "validFrom": "2026-12-02T18:30+0100"
    },
-   "startDate": "2026-12-07T00:00+0100"
-  }
- },
- "https://rausgegangen.de/events/diedaunten-das-kabarett-openmic-berlin-edition-0/": {
-  "fetched": "2026-11-19T04:41:45+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Warum gibt es eigentlich kaum Kabarett-Shows in Berlin? Es ist ja nicht so, dass es an der aktuellen Politik nichts zu meckern oder zu lästern gäbe. Hier ist er: DIEDAUNTEN - ein Abend mit erfahrenen und jungen Kabarettisten und politischen Comedians im Charlottchen. Jede*r hat ca. 10 Minuten.Durch den Abend führt Kriss Rudolph ",
-   "endDate": "2026-11-26T22:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Aw38xYeaTuZSfmr5NyNE_img-20260811-wa0000-1.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10629",
-     "streetAddress": "Droysenstraße 1"
-    },
-    "name": "Charlottchen"
-   },
-   "name": "DIEDAUNTEN - das Kabarett OpenMic (Berlin edition)",
-   "offers": {
-    "@type": "Offer",
-    "price": "10.00",
-    "priceCurrency": "EUR",
-    "validFrom": "2026-11-26T20:00+0100"
-   },
-   "startDate": "2026-11-26T20:00+0100"
+   "startDate": "2026-12-02T18:30+0100"
   }
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
-  "fetched": "2026-11-18T23:10:04+01:00",
+  "fetched": "2026-11-19T14:33:28+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -406,7 +500,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-18T23:10:04+01:00",
+  "fetched": "2026-11-19T14:33:28+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -453,7 +547,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
-  "fetched": "2026-11-18T23:10:04+01:00",
+  "fetched": "2026-11-19T14:33:28+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -498,7 +592,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
-  "fetched": "2026-11-18T23:10:04+01:00",
+  "fetched": "2026-11-19T14:33:28+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -545,7 +639,7 @@
   "seen": "2026-11-15T18:52:24+01:00"
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-11-18T23:10:04+01:00",
+  "fetched": "2026-11-19T14:33:28+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -596,7 +690,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-11-18T23:10:04+01:00",
+  "fetched": "2026-11-19T14:33:28+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -686,7 +780,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1/": {
-  "fetched": "2026-11-18T23:10:04+01:00",
+  "fetched": "2026-11-19T14:33:28+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -727,16 +821,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/love-at-first-slide-berlin-power-point-dating-by-rausgegange-14/": {
-  "fetched": "2026-11-19T04:41:45+01:00",
+ "https://rausgegangen.de/events/paint-feast-mit-ania-von-not-the-creative-kind-0/": {
+  "fetched": "2026-11-19T14:33:28+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Wir bringen mit LOVE AT FIRST SLIDE Dating auf die Bühne: Freund:innen stellen in kurzen Power Point Präsentationen ihre Lieblingssingle vor – charmant, humorvoll und ganz ohne Swipe. Nach den witzigen Pitches kannst du bei Speed-Dating und Barabend neue Begegnungen entdecken. 💘🎤💫",
-   "endDate": "2026-12-02T23:30+0100",
+   "description": "Beim Paint & Feast kommen wir an einem liebevoll gedeckten Tisch mit ausgewählten Köstlichkeiten zusammen, um genau das zu tun, was der Name verspricht: zu malen und zu essen. Lenja & Ania arrangieren kleine, essbare Stillleben, die nicht nur zum Snacken einladen, sondern auch als kreative Inspiration dienen. Wir nutzen den Tisch, um gemeinsam Zeit zu verbringen, zu genießen und uns kreativ auszutoben.Ania führt euch mit ein paar kleinen Übungen zum Warmwerden in eure kreative Seite (ja, jede*r hat eine), und danach sucht ihr euch euer Lieblingsstillleben aus und bringt es auf eure eigene Leinwand. Dafür gibt es verschiedene Kunstmaterialien, damit ihr euch ausprobieren könnt. Eine Schritt-für-Schritt-Anleitung gibt es nicht, denn jeder malt die eigene Vision. Aber keine Angst, du musst keine Künstler*in sein, um Spaß dabei zu haben.Was ist enthalten: Grazing Köstlichkeiten von Feasts of Eden zum Snacken ein Glas Wein oder ein alkoholfreies Getränk, sowie Filterkaffee & Tee inklusive, weitere Getränke können vor Ort erworben werdenalle benötigten Kunstmaterialien Das nehmt ihr mit nach Hause: eine von euch selbst bemalte Leinwand",
+   "endDate": "2026-11-22T15:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/G4DW5S6EQHOrXfM562GP_lafsbannerappstraight-2-5.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/R3IiZBqrTYudd0uqMQD1_1.png"
    ],
    "location": {
     "@type": "Place",
@@ -744,91 +838,38 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10625",
-     "streetAddress": "Kantstraße 127"
+     "postalCode": "10967",
+     "streetAddress": "Urbanstraße 137A"
     },
-    "name": "Dufte Berlin"
+    "name": "Feasts of Eden"
    },
-   "name": "LOVE AT FIRST SLIDE Berlin | Power Point Dating by Rausgegangen 💖",
+   "name": "PAINT & FEAST mit Ania von N̶o̶t̶ the Creative Kind",
    "offers": {
     "@type": "AggregateOffer",
-    "highPrice": "19.50",
-    "lowPrice": "10.00",
-    "offerCount": 5,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Presenterticket",
-      "price": "10.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Publikum Ticket | Ich bin eine hetero Frau",
-      "price": "19.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Publikum Ticket | Ich bin ein hetero Mann",
-      "price": "19.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Publikum Ticket | Ich bin queer",
-      "price": "19.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Mitgegangen",
-      "price": "3.80",
-      "priceCurrency": "EUR"
-     }
-    ],
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 0,
+    "offers": [],
     "priceCurrency": "EUR"
    },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "LOVE AT FIRST SLIDE BERLIN by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/love-at-first-slide-berlin-by-rausgegangen/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Love at first Slide by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/page-for-team-love-at-first-slide-by-rausgegangen/"
-    },
-    {
-     "@type": "Organization",
-     "name": "LOVE AT FIRST SLIDE by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/love-at-first-slide-by-rausgegangen/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Team Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/team-rausgegangen/"
-    }
-   ],
-   "startDate": "2026-12-02T19:00+0100"
+   "organizer": {
+    "@type": "Organization",
+    "name": "Team - Feasts of Eden",
+    "url": "https://rausgegangen.de/organizations/p-team-feasts-of-eden/"
+   },
+   "startDate": "2026-11-22T13:00+0100"
   }
  },
- "https://rausgegangen.de/events/marenera-pizzica-italienische-volksmusik-0/": {
-  "fetched": "2026-11-19T04:41:45+01:00",
+ "https://rausgegangen.de/events/pandawomen-2026-aban-ensemble-dj-rosemah-curated-by-yalda-ya-0/": {
+  "fetched": "2026-11-19T14:33:28+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Süditalienische Volksmusik, die nicht im Archiv bleibt, sondern für Tanz, Rituale und Feste gemacht ist. Marenera spielt Pizzica, Tarantella und andere überlieferte Lieder so, dass Du die Hochzeitsgesellschaft fast schon vor Dir siehst 💃",
-   "endDate": "2027-01-16T05:00+0100",
+   "description": "Erst vier Musikerinnen aus Iran, dann DJ ROSEMAH mit Sounds zwischen House, Hip Hop und Klängen aus Afghanistan, Persien und der SWANA Region. Ein Abend, an dem musikalische Welten nicht sauber getrennt bleiben 👀",
+   "endDate": "2026-11-22T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/QX2v5BFTTY6s0wpjkvQ6_foto-1-treppecreditsgiannis-vassaras.jpeg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/xujcRKOIRwmSNozh4mi6_23207image-2048x1024.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -841,58 +882,31 @@
     },
     "name": "PANDA platforma"
    },
-   "name": "Marenera: Pizzica & italienische Volksmusik",
+   "name": "PANDAwomen 2026: Aban Ensemble / DJ ROSEMAH / Curated by Yalda Yazdani",
    "offers": {
     "@type": "Offer",
-    "price": "13.00",
+    "price": "20.00",
     "priceCurrency": "EUR",
-    "url": "https://panda-platforma.berlin/events/marenera-pizzica-italienische-volksmusik/",
-    "validFrom": "2027-01-15T20:30+0100"
+    "url": "https://panda-platforma.berlin/events/aban-ensemble-dj-rosemah/",
+    "validFrom": "2026-11-21T20:30+0100"
    },
-   "startDate": "2027-01-15T20:30+0100"
-  }
- },
- "https://rausgegangen.de/events/off-the-rails-zum-zum-special-edu-lobo-0/": {
-  "fetched": "2026-11-19T04:41:45+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Brasilianische Rhythmen treffen auf Dub und Drum & Bass, aber gespielt von einem Berliner Liveprojekt statt aus der Konserve. Diesmal nimmt sich ZumZum die Songs von Edu Lobo vor und stellt sie mit vier Musiker:innen neu auf die Bühne 👀",
-   "endDate": "2027-01-15T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/ytEREV4lQ4GXr9zWsfMq_otrzumzumhorizfb.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10245",
-     "streetAddress": "Revaler Strasse 99"
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "PANDA platforma e.V.",
+     "url": "https://rausgegangen.de/organizations/page-for-team-panda-platforma-ev/"
     },
-    "name": "Badehaus Berlin"
-   },
-   "name": "Off the Rails: ZumZum • Special Edu Lobo",
-   "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "10.14",
-    "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/off-the-rails-zum-zum-special-edu-lobo",
-    "validFrom": "2026-11-06T14:27+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Off the Rails",
-    "url": "https://rausgegangen.de/organizations/off-the-rails/"
-   },
-   "startDate": "2027-01-14T19:00+0100"
+    {
+     "@type": "Organization",
+     "name": "PANDAwomen 2026 Festival",
+     "url": "https://rausgegangen.de/organizations/pandawomen-festival/"
+    }
+   ],
+   "startDate": "2026-11-21T20:30+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
-  "fetched": "2026-11-18T23:10:04+01:00",
+  "fetched": "2026-11-19T14:33:28+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -930,16 +944,16 @@
   },
   "seen": "2026-11-15T18:52:24+01:00"
  },
- "https://rausgegangen.de/events/teppich-tuften-bei-tuft-tuft-3/": {
-  "fetched": "2026-11-19T04:41:45+01:00",
+ "https://rausgegangen.de/events/wessen-denkmaler-deutsche-spuren-in-den-polnischen-westgebie-0/": {
+  "fetched": "2026-11-19T14:33:28+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Entdecke den Kreativtrend Tufting: In diesem 3,5-stündigen Workshop bei Tuft Tuft in Prenzlauer Berg gestaltest du mit einer elektrischen Tufting Gun deinen eigenen Teppich oder Wandbehang (40 x 30 cm). Vorkenntnisse brauchst du keine.Nach der Buchung schickst du deine Designidee an Tuft Tuft – am besten ein einfaches Motiv ohne zu viele kleine Details, spätestens 48 Stunden vor Kursbeginn. Vor Ort lernst du die Tuftingtechnik Schritt für Schritt und wählst aus über 50 Garnfarben. Am Ende gibst du deinem Teppich beim sogenannten Shaving selbst den letzten Schliff.Danach wird dein Werk vom Team professionell fertig verklebt: Nach etwa zwei Wochen holst du es im Studio ab oder lässt es dir gegen eine kleine Gebühr nach Hause schicken.Inklusive: Workshop mit Anleitung auf Englisch, alle Materialien und Werkzeuge, über 50 Garnfarben, Snacks und Getränke.Gut zu wissen: Der Workshop findet auf Englisch statt. Wegen des Gewichts der Tufting Guns ist er ab 14 Jahren geeignet. Bitte bequeme Kleidung ohne weite Ärmel tragen und lange Haare zusammenbinden. Das Studio ist leider nicht barrierefrei.Hinter Tuft Tuft steht Chad Wright, der das Tuften während der Pandemie für sich entdeckt hat und heute sein eigenes Studio betreibt.Den Workshop gibt es auch als Geschenkgutschein bei Truestory – der Gutschein kommt direkt per E-Mail.",
-   "endDate": "2026-11-28T14:30+0100",
+   "description": "Umgestaltet, umgedeutet oder dem Verfall überlassen: Deutsche Denkmäler nahmen nach 1945 in den neuen polnischen Westgebieten ganz unterschiedliche Wege. Wie gingen die Menschen vor Ort mit diesen Hinterlassenschaften um? Was passte zum Neuanfang, was blieb fremd, und was änderte sich mit der Zeit?In seinem Fotoprojekt „Denkmalforschung“ untersucht Wojtek Sienkiewicz Denkmäler in niederschlesischen Dörfern. Im Gespräch mit der Kulturwissenschaftlerin Karolina Ćwiek-Rogalska geht er der Frage nach, wie lokale Initiativen, politische Vorgaben und alltägliche Entscheidungen ineinandergreifen. Die Denkmäler erzählen von Aneignung und Vernachlässigung, von Erinnerungspolitik und einem Umgang mit dem deutschen Erbe, der bis heute voller Widersprüche ist. PROGRAMMBegrüßungDr. Roland Borchers, Direktor, Dokumentationszentrum Flucht, Vertreibung, Versöhnung, BerlinKatarzyna Sitko, Direktorin, Polnisches Institut Berlin, BerlinPodiumWojtek Sienkiewicz, FotografProf. Karolina Ćwiek-Rogalska, Institut für Slawistik an der Polnischen Akademie der Wissenschaften, WarschauModeration: Prof. Felix Ackermann, Lehrgebiet Public History an der Fernuniversität in Hagen WEITERE HINWEISE  Einlass: 18.00 UhrSprache: Deutsch, Polnisch (mit Simultanübersetzung)EINTRITT FREI, MIT ANMELDUNGEine Veranstaltung im Rahmen der Sonderausstellung „OSTGEBIETE / ZIEMIE ZACHODNIE. Eine deutsch-polnische Spurensuche.\"",
+   "endDate": "2026-11-26T20:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/TENVNNXjQ2K5PqlZS0p2_tuft-tuft-monstera.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/5Bp6OORBQvmekU2FPgAA_pi-ex-1.png"
    ],
    "location": {
     "@type": "Place",
@@ -947,25 +961,21 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10405",
-     "streetAddress": "Marienburger Straße 21"
+     "postalCode": "10963",
+     "streetAddress": "Stresemannstraße 90"
     },
-    "name": "Tuft Tuft Berlin"
+    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
    },
-   "name": "Teppich tuften bei Tuft Tuft",
+   "name": "Wessen Denkmäler? Deutsche Spuren in den polnischen Westgebieten",
    "offers": {
-    "@type": "Offer",
-    "price": "140.00",
-    "priceCurrency": "EUR",
-    "url": "https://de.truestory.com/erlebe/tufting-workshop-the-og-bei-tuft-tuft/?utm_source=rausgegangen&utm_medium=affiliate&utm_campaign=rausgegangen&utm_content=tufting-workshop-the-og-bei-tuft-tuft",
-    "validFrom": "2026-11-28T11:00+0100"
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 0,
+    "offers": [],
+    "priceCurrency": "EUR"
    },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Team - TrueStory Living Experiences Germany GmbH",
-    "url": "https://rausgegangen.de/organizations/p-team-truestory-living-experiences-germany-gmbh/"
-   },
-   "startDate": "2026-11-28T11:00+0100"
+   "startDate": "2026-11-26T18:30+0100"
   }
  }
 }

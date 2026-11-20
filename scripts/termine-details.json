@@ -1,6 +1,6 @@
 {
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
-  "fetched": "2026-11-19T23:18:43+01:00",
+  "fetched": "2026-11-20T14:14:40+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -97,7 +97,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-11-19T23:18:43+01:00",
+  "fetched": "2026-11-20T14:14:40+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -207,50 +207,8 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/carlo5-die-letzte-tour-der-welt-2/": {
-  "fetched": "2026-11-20T04:34:07+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Zwischen Pop und Rap hält Carlo5 seine Songs absichtlich in der Schwebe, mit rauer Stimme und trockenem Witz. Fast alles daran kommt direkt von ihm selbst, vom Schreiben bis zu den Videos 💃",
-   "endDate": "2027-04-09T23:00+0200",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/fKEeGi7QaihTGY4sKn05_carlo5-tourevent-header.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10245",
-     "streetAddress": "Revaler Straße 99"
-    },
-    "name": "Astra Kulturhaus"
-   },
-   "name": "Carlo5 • DIE LETZTE TOUR DER WELT",
-   "offers": {
-    "@type": "Offer",
-    "price": "39.80",
-    "priceCurrency": "EUR",
-    "url": "https://carlo5.krasserstoff.com/events/carlo5-die-letzte-tour-der-welt-astra-kulturhaus",
-    "validFrom": "2027-04-09T19:00+0200"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "LANDSTREICHER BOOKING",
-    "url": "https://rausgegangen.de/organizations/landstreicher-booking-ah-fk3y/"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Carlo5"
-   },
-   "startDate": "2027-04-09T19:00+0200"
-  }
- },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-11-19T23:18:43+01:00",
+  "fetched": "2026-11-20T14:14:40+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -339,7 +297,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-19T23:18:43+01:00",
+  "fetched": "2026-11-20T14:14:40+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -386,7 +344,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
-  "fetched": "2026-11-19T23:18:43+01:00",
+  "fetched": "2026-11-20T14:14:40+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -431,7 +389,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
-  "fetched": "2026-11-19T23:18:43+01:00",
+  "fetched": "2026-11-20T14:14:40+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -478,7 +436,7 @@
   "seen": "2026-11-15T18:52:24+01:00"
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-11-19T23:18:43+01:00",
+  "fetched": "2026-11-20T14:14:40+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -529,7 +487,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/eisfest-wintermarkt-0/": {
-  "fetched": "2026-11-20T04:34:07+01:00",
+  "fetched": "2026-11-20T14:14:40+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -560,8 +518,50 @@
    "startDate": "2026-11-28T11:00+0100"
   }
  },
+ "https://rausgegangen.de/events/hits-different-steve-clash-club-tour-2026-berlin-0/": {
+  "fetched": "2026-11-20T14:14:40+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Electronic dance party with your favorite mashup bangers played in a sophisticated DJ set.Steve Clash zerlegt deine Lieblingssongs. Mainstage-Energie und Meilensteine der Popkultur vereinen sich in den sogenannten Power-Mashups. Deine Lieblingssongs nur lauter, etwas kaputter und tanzbarer.Haftbefehl aber Drum N Bass, Peter Fox aber Bass House, Imogen Heap aber Speed House. Hits different.",
+   "endDate": "2026-11-21T22:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/9I0oY3UlTfGrBCKZ1vJC_photobyjoschawiener202608082110131-2.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10999",
+     "streetAddress": "Skalitzer Str. 134"
+    },
+    "name": "Monarch"
+   },
+   "name": "Hits Different - Steve Clash Club Tour 2026 - Berlin",
+   "offers": {
+    "@type": "Offer",
+    "price": "10.00",
+    "priceCurrency": "EUR",
+    "url": "https://ticket2go.de/c/5869",
+    "validFrom": "2026-11-21T18:30+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Steve Clash",
+    "url": "https://rausgegangen.de/organizations/page-for-team-steve-clash/"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Steve Clash"
+   },
+   "startDate": "2026-11-21T18:30+0100"
+  }
+ },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-11-19T23:18:43+01:00",
+  "fetched": "2026-11-20T14:14:40+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -650,56 +650,8 @@
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/jacob-fortyhands-munster-barking-up-the-tree-of-life-tour-20-4/": {
-  "fetched": "2026-11-20T04:34:07+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Sie kommen aus einem Familienprojekt und stehen live oft zu siebt auf der Bühne, mitten in einer Zeit, in der sonst eher alles klein gehalten wird. Jacob Fortyhands drehen diesen Kontrast einfach um 👀",
-   "endDate": "2027-09-14T06:00+0200",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/FLfZP0SOuyspxBqiKHFA_image00004-kopie-komprimiert.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10777",
-     "streetAddress": "Nollendorfplatz 5"
-    },
-    "name": "Mikropol"
-   },
-   "name": "Jacob Fortyhands - Barking up the tree of life Tour 2027",
-   "offers": {
-    "@type": "Offer",
-    "price": 0,
-    "priceCurrency": "EUR",
-    "url": "https://www.eventim.de/artist/jacob-fortyhands/",
-    "validFrom": "2027-09-13T20:00+0200"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "PRK Dreamhaus",
-    "url": "https://rausgegangen.de/organizations/dreamhaus/"
-   },
-   "performer": [
-    {
-     "@type": "PerformingGroup",
-     "name": "Jacob Fortyhands"
-    },
-    {
-     "@type": "PerformingGroup",
-     "name": "Jacob Fortyhands"
-    }
-   ],
-   "startDate": "2027-09-13T20:00+0200"
-  }
- },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1/": {
-  "fetched": "2026-11-19T23:18:43+01:00",
+  "fetched": "2026-11-20T14:14:40+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -740,8 +692,83 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/kulk-live-4/": {
+  "fetched": "2026-11-20T14:14:40+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Zwei Leute, Gitarre, Schlagzeug, und dazwischen eine Band, die auch ihre Beziehung mit auf die Bühne bringt. KULK kommen als Duo aus Thom und Jade, und live soll das eher Chaos als Zurückhaltung sein ⚡",
+   "endDate": "2027-02-04T23:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/jh8aaKrXQZicj0tzVdiM_copy-of-kulklogo.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10115",
+     "streetAddress": "Ackerstraße 169, 10115 Berlin"
+    },
+    "name": "Schokoladen"
+   },
+   "name": "KULK Live",
+   "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "EUR",
+    "url": "https://schokoladen.tickettoaster.de/produkte/102791-tickets-kulk-uk-schokoladen-berlin-am-04-02-2027",
+    "validFrom": "2027-02-04T19:00+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "killmebooking",
+    "url": "https://rausgegangen.de/organizations/page-for-team-killmebooking/"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "KULK"
+   },
+   "startDate": "2027-02-04T19:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/lass-sie-verrotten-antigones-parallaxe-2/": {
+  "fetched": "2026-11-20T14:14:40+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Du denkst, jetzt passiert etwas. Veränderung. Steigerung. Entwicklung. Aber in Wirklichkeit passiert: Nichts. So wartet Antigone auf der Bühne, wo sie die immer gleichen Geschichten vom Sterben aufsagen soll. Sie wird noch hunderte Male sterben und eingegraben werden. Und wir werden sie noch hunderte Male wieder ausgraben. Wir wiederholen immer wieder dieselbe Geschichte, und doch erinnern wir uns an nichts. Während draußen immer mehr Menschen sterben, bleibt die Bühne leer von ihren Toten. Für sie gibt es keinen Text.Angestiftet von der ewigen Wiederkehr der sophoklesschen Antigone und unter dem Eindruck der brutalen Ereignisse weltweit eskalierender Konflikte unternimmt eine Gruppe junger Theaterschaffender den paradoxen Versuch, Antigone gerade dadurch am Leben zu halten, dass man sie endlich verrotten lässt.Wenn die Geschichte längst Wirklichkeit geworden ist – welchen Sinn hat es dann noch, sie zu wiederholen? Und wenn die Welt selbst zum Theater des Tötens wird – was kann Theater dann noch sein? Dieser persönliche, körperliche Abend über Theater, Tod, Krise, Erinnerung und Widerstand ist im Rahmen des Hamburger Nachwuchsfestivals KIEZSTÜRMER entstanden.",
+   "endDate": "2026-11-22T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://rausgegangen.s3.amazonaws.com/awjid7xco36c.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10179",
+     "streetAddress": "Klosterstraße 44"
+    },
+    "name": "TD Berlin"
+   },
+   "name": "LASS SIE VERROTTEN!: ANTIGONES PARALLAXE",
+   "offers": {
+    "@type": "Offer",
+    "price": "10.00",
+    "priceCurrency": "EUR",
+    "url": "https://tdberlin.reservix.de/p/reservix/group/553187",
+    "validFrom": "2026-11-21T20:00+0100"
+   },
+   "startDate": "2026-11-21T20:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
-  "fetched": "2026-11-19T23:18:43+01:00",
+  "fetched": "2026-11-20T14:14:40+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -779,8 +806,50 @@
   },
   "seen": "2026-11-15T18:52:24+01:00"
  },
+ "https://rausgegangen.de/events/soffie-how-to-be-a-millionaire-tour-2027-2/": {
+  "fetched": "2026-11-20T14:14:40+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Reich sein heißt bei SOFFIE offenbar nicht Konto, sondern ein voller Raum und Songs, die Leute zusammenziehen. Nach „Für immer Frühling“ kommt sie jetzt mit mehr politischer Kante zurück 🙂",
+   "endDate": "2027-11-06T23:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/LnmT5KSSTaWurfaZu09v_dsc08631chiaranoemii.jpeg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10965",
+     "streetAddress": "Columbiadamm 9-11"
+    },
+    "name": "Columbia Theater"
+   },
+   "name": "SOFFIE - \"How to be a Millionaire\" Tour 2027",
+   "offers": {
+    "@type": "Offer",
+    "price": "32.00",
+    "priceCurrency": "EUR",
+    "url": "https://tickets.eskapaden.net/produkte",
+    "validFrom": "2027-11-06T20:00+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "eskapaden booking",
+    "url": "https://rausgegangen.de/organizations/page-for-team-eskapaden-booking-1/"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Soffie"
+   },
+   "startDate": "2027-11-06T20:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/tati-comedy---die-stand-up-comedy-show-31/": {
-  "fetched": "2026-11-20T04:34:07+01:00",
+  "fetched": "2026-11-20T14:14:40+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",

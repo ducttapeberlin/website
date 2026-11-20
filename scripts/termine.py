@@ -670,6 +670,50 @@ def to_row(url, ld):
     return row
 
 
+def probe_series(rows, urls, cache, now, hidden, config):
+    """Die Organizer-Seite zeigt nur die ersten ~10 Termine. Spätere Termine einer nummerierten Reihe
+    (z. B. drag-bingo-night-torte-bar-25, -26 …) werden direkt über die nächste Nummer gesucht,
+    bis drei Nummern hintereinander nichts liefern."""
+    known = {slug_of(u) for u in urls}
+    found = []
+    tops = {}
+    for r in rows:
+        slug = slug_of(r.get("_url", "") or "")
+        m = re.match(r"(.+)-(\d+)$", slug)
+        if m:
+            tops[m.group(1)] = max(tops.get(m.group(1), -1), int(m.group(2)))
+    for base, top in tops.items():
+        if base in hidden:
+            continue
+        misses, n = 0, top + 1
+        while misses < 3 and n <= top + 15:
+            slug = f"{base}-{n}"
+            n += 1
+            if slug in known or slug in hidden:
+                continue
+            url = f"https://rausgegangen.de/events/{slug}/"
+            ld = event_ld(url, cache, now)
+            organizers = ld and ld.get("organizer")
+            organizers = organizers if isinstance(organizers, list) else [organizers or {}]
+            if not ld or not any("duct-tape" in (o or {}).get("url", "") for o in organizers):
+                cache.pop(url, None)
+                misses += 1
+                continue
+            misses = 0
+            row = to_row(url, ld)
+            row["_seen"] = cache.setdefault(url, {}).setdefault("seen", now.isoformat(timespec="seconds"))
+            if ticket_slug(row["Tickets"]) and not ticket_exists(ticket_slug(row["Tickets"]), cache[url]):
+                row["Tickets"] = ""
+            for key in (base, slug):
+                row.update(config.get("ergaenzungen", {}).get(key, {}))
+            if config.get("featured", {}).get(base):
+                row["Featured"] = config["featured"][base]
+            found.append(row)
+    if found:
+        print(f"Zusätzlich über Reihennummern gefunden: {len(found)}")
+    return found
+
+
 def main():
     try:
         organizer = Path(os.environ["RAUSGEGANGEN_HTML"]).read_text(encoding="utf-8")
@@ -702,6 +746,7 @@ def main():
         if not ld or not any("duct-tape" in (o or {}).get("url", "") for o in organizers):
             continue  # Werbung oder fremdes Event auf der Organizer-Seite
         row = to_row(url, ld)
+        row["_url"] = url
         # Verkaufsstart für Google: rausgegangen nennt ihn nicht immer, dann gilt der Tag, an dem das Event zuerst auftauchte
         row["_seen"] = cache.setdefault(url, {}).setdefault("seen", now.isoformat(timespec="seconds"))
         if ticket_slug(row["Tickets"]) and not ticket_exists(ticket_slug(row["Tickets"]), cache[url]):
@@ -712,6 +757,7 @@ def main():
             row["Featured"] = config["featured"][series(slug)]
         rows.append(row)
     rows += [dict(r) for r in config.get("zusaetzliche_termine", [])]
+    rows += probe_series(rows, urls, cache, now, hidden, config)
 
     events = []
     for r in rows:

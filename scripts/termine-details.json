@@ -486,48 +486,16 @@
   },
   "seen": "2026-10-27T20:46:24+01:00"
  },
- "https://rausgegangen.de/events/eisfest-wintermarkt-0/": {
-  "fetched": "2026-11-20T14:14:40+01:00",
+ "https://rausgegangen.de/events/ezra-collective-10/": {
+  "fetched": "2026-11-20T16:23:45+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Zwischen Kerzenwachs aus den Bienenstöcken des MINSK und einer Fotowand mit echten Expeditionsanzügen wird Winter plötzlich ziemlich konkret. Neben dem Markt kannst Du auch in die aktuellen Ausstellungen rübergehen 🙂",
-   "endDate": "2026-11-28T20:00+0100",
+   "description": "Ezra Collective verbindet Jazz mit Afrobeat und Hip-Hop und erzählt mit ihrem neuen Album die Geschichte der schwarzen Diaspora aus drei Perspektiven. Ihre Musik fühlt sich an wie ein mitreißendes Gespräch zwischen Kontinenten und Generationen – Hoffnung klingt hier wie ein Versprechen 👀",
+   "endDate": "2027-02-14T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/jlQimSvgT7mVSBDAFDyr_dasmeisfestwebnlfinalquer.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Potsdam",
-     "postalCode": "14473",
-     "streetAddress": "Max-Planck-Strasse 17"
-    },
-    "name": "DAS MINSK Kunsthaus in Potsdam"
-   },
-   "name": "EISFEST & WINTERMARKT",
-   "offers": {
-    "@type": "Offer",
-    "price": "0.00",
-    "priceCurrency": "EUR",
-    "validFrom": "2026-11-28T11:00+0100"
-   },
-   "startDate": "2026-11-28T11:00+0100"
-  }
- },
- "https://rausgegangen.de/events/hits-different-steve-clash-club-tour-2026-berlin-0/": {
-  "fetched": "2026-11-20T14:14:40+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Electronic dance party with your favorite mashup bangers played in a sophisticated DJ set.Steve Clash zerlegt deine Lieblingssongs. Mainstage-Energie und Meilensteine der Popkultur vereinen sich in den sogenannten Power-Mashups. Deine Lieblingssongs nur lauter, etwas kaputter und tanzbarer.Haftbefehl aber Drum N Bass, Peter Fox aber Bass House, Imogen Heap aber Speed House. Hits different.",
-   "endDate": "2026-11-21T22:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/9I0oY3UlTfGrBCKZ1vJC_photobyjoschawiener202608082110131-2.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/m754THj7QeuoRL25IafH_ezracollectivesergio-pontieralbum-anc-lead.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -535,29 +503,30 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10999",
-     "streetAddress": "Skalitzer Str. 134"
+     "postalCode": "10965",
+     "streetAddress": "Columbiadamm 13-21"
     },
-    "name": "Monarch"
+    "name": "Columbiahalle"
    },
-   "name": "Hits Different - Steve Clash Club Tour 2026 - Berlin",
+   "name": "EZRA COLLECTIVE",
    "offers": {
     "@type": "Offer",
-    "price": "10.00",
+    "availability": "https://schema.org/InStock",
+    "price": "46.35",
     "priceCurrency": "EUR",
-    "url": "https://ticket2go.de/c/5869",
-    "validFrom": "2026-11-21T18:30+0100"
+    "url": "https://t.rausgegangen.de/tickets/ezra-collective-2",
+    "validFrom": "2026-07-10T11:00+0200"
    },
    "organizer": {
     "@type": "Organization",
-    "name": "Steve Clash",
-    "url": "https://rausgegangen.de/organizations/page-for-team-steve-clash/"
+    "name": "Greyzone Concerts",
+    "url": "https://rausgegangen.de/organizations/greyzone-concerts-ah-q3qn/"
    },
    "performer": {
     "@type": "PerformingGroup",
-    "name": "Steve Clash"
+    "name": "Ezra Collective"
    },
-   "startDate": "2026-11-21T18:30+0100"
+   "startDate": "2027-02-13T20:00+0100"
   }
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
@@ -692,16 +661,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/kulk-live-4/": {
-  "fetched": "2026-11-20T14:14:40+01:00",
+ "https://rausgegangen.de/events/kundalini-activation-by-cari-berlin-11/": {
+  "fetched": "2026-11-20T16:23:45+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Zwei Leute, Gitarre, Schlagzeug, und dazwischen eine Band, die auch ihre Beziehung mit auf die Bühne bringt. KULK kommen als Duo aus Thom und Jade, und live soll das eher Chaos als Zurückhaltung sein ⚡",
-   "endDate": "2027-02-04T23:00+0100",
+   "description": "„Wer bin ich wirklich und was möchte ich im Leben ?“ Diese Frage haben wir uns alle schon gestellt – eine konkrete Antwort darauf zu finden ist gar nicht so einfach. Kundalini Aktivation hilft dir dabei, genau das herauszufinden.   Was ist Kundalini Activation? Ein Aktivierungsprozess der Kundalini-Energie, deiner eigenen Lebensenergie. Sie ist eine ursprüngliche und lebendige Energie, die wir immer dann spüren, wenn wir nicht im Verstand sind, z. B. wenn wir herzhaft lachen, ausgelassen tanzen, vor Wut kochen, in Ekstase sind oder auch eine tiefe Traurigkeit spüren.   Bei der Aktivierung kommt deine Lebensenergie ins Fließen – hierbei kannst du körperliche, emotionale und spirituelle Erfahrungen machen. Ich halte den Raum und unterstütze dich auf deiner inneren Reise.   Was passiert bei einer Session? Du liegst auf deiner Matte, lässt Musik auf dich wirken und entspannst dich - dabei hast du keine Aufgabe. Energie ist Schwingung: bei der Aktivierung kommt deine Energie ins Fließen und kann sich in wellenartiger Form durch deinen Körper bewegen. Dies kann als zuckende Impulse wahrgenommen werden – die Energie und deine Emotionen möchten möglicherweise körperlich Ausdruck finden.   Was bringt dir die Aktivierung? Kundalini Activation Sessions bieten dir einen geschützten Rahmen, in dem deine Emotionen ihren Ausdruck finden dürfen. Auf deinem Weg kann dir die Aktivierung helfen, deinen inneren Kompass wieder klarer wahrzunehmen und somit auch im Außen klarer zu handeln.    Vorbereitung - komme in bequemer und warmer Kleidung, damit du nicht auskühlst, wenn du eine Stunde liegst. - bringe ausreichend Wasser/ Tee mit. - es empfiehlt sich, zwei Stunden vorher nichts zu essen (kein Alkohol 1-2 Tage davor).   Kindern und Menschen die Drogen oder starke Psychopharmaka nehmen, wird von einer Session abgeraten.   Falls du noch Fragen hast, melde dich gerne.   Ich freue mich auf dich. Carina   Location: Studio Sonic Reichenberger Str. 124/2 (Hinterhof rechts, Haus C.) 10999 Berlin Kreuzberg Preis: 55,- €   Email: kundalinibycari@gmail.com Webseite: www.kundalinibycari.de Instagram: kundalini.by.cari",
+   "endDate": "2026-12-05T17:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/jh8aaKrXQZicj0tzVdiM_copy-of-kulklogo.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/nvg3HsFDRwJEw46Q4pht_fbclassquer.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -709,62 +678,21 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10115",
-     "streetAddress": "Ackerstraße 169, 10115 Berlin"
+     "postalCode": "10999",
+     "streetAddress": "Reichenberger Straße 124/2"
     },
-    "name": "Schokoladen"
+    "name": "Studio SoniC"
    },
-   "name": "KULK Live",
+   "name": "Kundalini Activation by Cari // BERLIN",
    "offers": {
     "@type": "Offer",
-    "price": 0,
+    "availability": "https://schema.org/InStock",
+    "price": "55.00",
     "priceCurrency": "EUR",
-    "url": "https://schokoladen.tickettoaster.de/produkte/102791-tickets-kulk-uk-schokoladen-berlin-am-04-02-2027",
-    "validFrom": "2027-02-04T19:00+0100"
+    "url": "https://t.rausgegangen.de/tickets/kundalini-activation-by-cari-berlin-11",
+    "validFrom": "2026-10-11T13:18+0200"
    },
-   "organizer": {
-    "@type": "Organization",
-    "name": "killmebooking",
-    "url": "https://rausgegangen.de/organizations/page-for-team-killmebooking/"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "KULK"
-   },
-   "startDate": "2027-02-04T19:00+0100"
-  }
- },
- "https://rausgegangen.de/events/lass-sie-verrotten-antigones-parallaxe-2/": {
-  "fetched": "2026-11-20T14:14:40+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Du denkst, jetzt passiert etwas. Veränderung. Steigerung. Entwicklung. Aber in Wirklichkeit passiert: Nichts. So wartet Antigone auf der Bühne, wo sie die immer gleichen Geschichten vom Sterben aufsagen soll. Sie wird noch hunderte Male sterben und eingegraben werden. Und wir werden sie noch hunderte Male wieder ausgraben. Wir wiederholen immer wieder dieselbe Geschichte, und doch erinnern wir uns an nichts. Während draußen immer mehr Menschen sterben, bleibt die Bühne leer von ihren Toten. Für sie gibt es keinen Text.Angestiftet von der ewigen Wiederkehr der sophoklesschen Antigone und unter dem Eindruck der brutalen Ereignisse weltweit eskalierender Konflikte unternimmt eine Gruppe junger Theaterschaffender den paradoxen Versuch, Antigone gerade dadurch am Leben zu halten, dass man sie endlich verrotten lässt.Wenn die Geschichte längst Wirklichkeit geworden ist – welchen Sinn hat es dann noch, sie zu wiederholen? Und wenn die Welt selbst zum Theater des Tötens wird – was kann Theater dann noch sein? Dieser persönliche, körperliche Abend über Theater, Tod, Krise, Erinnerung und Widerstand ist im Rahmen des Hamburger Nachwuchsfestivals KIEZSTÜRMER entstanden.",
-   "endDate": "2026-11-22T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://rausgegangen.s3.amazonaws.com/awjid7xco36c.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10179",
-     "streetAddress": "Klosterstraße 44"
-    },
-    "name": "TD Berlin"
-   },
-   "name": "LASS SIE VERROTTEN!: ANTIGONES PARALLAXE",
-   "offers": {
-    "@type": "Offer",
-    "price": "10.00",
-    "priceCurrency": "EUR",
-    "url": "https://tdberlin.reservix.de/p/reservix/group/553187",
-    "validFrom": "2026-11-21T20:00+0100"
-   },
-   "startDate": "2026-11-21T20:00+0100"
+   "startDate": "2026-12-05T15:00+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
@@ -805,96 +733,5 @@
    "startDate": "2026-12-19T19:30+0100"
   },
   "seen": "2026-11-15T18:52:24+01:00"
- },
- "https://rausgegangen.de/events/soffie-how-to-be-a-millionaire-tour-2027-2/": {
-  "fetched": "2026-11-20T14:14:40+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Reich sein heißt bei SOFFIE offenbar nicht Konto, sondern ein voller Raum und Songs, die Leute zusammenziehen. Nach „Für immer Frühling“ kommt sie jetzt mit mehr politischer Kante zurück 🙂",
-   "endDate": "2027-11-06T23:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/LnmT5KSSTaWurfaZu09v_dsc08631chiaranoemii.jpeg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10965",
-     "streetAddress": "Columbiadamm 9-11"
-    },
-    "name": "Columbia Theater"
-   },
-   "name": "SOFFIE - \"How to be a Millionaire\" Tour 2027",
-   "offers": {
-    "@type": "Offer",
-    "price": "32.00",
-    "priceCurrency": "EUR",
-    "url": "https://tickets.eskapaden.net/produkte",
-    "validFrom": "2027-11-06T20:00+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "eskapaden booking",
-    "url": "https://rausgegangen.de/organizations/page-for-team-eskapaden-booking-1/"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Soffie"
-   },
-   "startDate": "2027-11-06T20:00+0100"
-  }
- },
- "https://rausgegangen.de/events/tati-comedy---die-stand-up-comedy-show-31/": {
-  "fetched": "2026-11-20T14:14:40+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "LIVE Stand Up Comedy in der schönsten Ecke Berlins - dem Prenzlauer Berg.Wir präsentieren euch einen Mix aus erfahrenen Profi-Comedians und den heißesten Newcomern der Berliner Comedy-Szene.Das Ticket muss nicht ausgedruckt werden.Egal wer an diesem Abend auf der Bühne steht - euch erwartet absolut authentische Stand Up Comedy nach amerikanischem Vorbild!Der Einlass wird bis 5 Minuten nach Showbeginn gewährt.--Location--Der \"Comedyflash - Club\" in der Metzer Str. 2 im Prenzlauer Berg ist zwei Fußminuten entfernt von der U2 Station “Senefelder Platz”. Die Bar bietet die perfekte Atmosphäre für einen gelungenen Comedyabend. Eine gemütliche Einrichtung, freundliches Personal und gute Getränke runden dieses besondere Comedyevent für dich ab.Comedyflash - Der Standup ClubMetzer Str. 2, 10405 Berlin",
-   "endDate": "2026-11-20T20:30+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/gqlLXG8iSYKiUDo8pXMy_tati-comedy-club-berliner-stand-up-nacht.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10405",
-     "streetAddress": "Metzer Straße 2"
-    },
-    "name": "Tati goes Underground"
-   },
-   "name": "Tati Comedy _ Die Stand Up Comedy Show",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": null,
-    "lowPrice": null,
-    "offerCount": 2,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "22.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "early bird",
-      "price": "16.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "startDate": "2026-11-20T19:00+0100"
-  }
  }
 }

@@ -207,16 +207,16 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/bln-reunion-indoor-festival-0/": {
-  "fetched": "2026-11-19T23:18:43+01:00",
+ "https://rausgegangen.de/events/carlo5-die-letzte-tour-der-welt-2/": {
+  "fetched": "2026-11-20T04:34:07+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Drei Floors, 14 Acts, und die neue Eventhalle ist für eine lange elektronische Nacht mitgedacht. Nach vier ausverkauften Ausgaben geht BLN Reunion in die Winterrunde, mit AKA AKA, K Paul und Sascha Braemer 🪩",
-   "endDate": "2026-12-13T05:00+0100",
+   "description": "Zwischen Pop und Rap hält Carlo5 seine Songs absichtlich in der Schwebe, mit rauer Stimme und trockenem Witz. Fast alles daran kommt direkt von ihm selbst, vom Schreiben bis zu den Videos 💃",
+   "endDate": "2027-04-09T23:00+0200",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/UByHSSIrQtq4vum0PE35_bln1920x1080variantec.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/fKEeGi7QaihTGY4sKn05_carlo5-tourevent-header.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -224,20 +224,29 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10997",
-     "streetAddress": "Köpenicker Straße 16"
+     "postalCode": "10245",
+     "streetAddress": "Revaler Straße 99"
     },
-    "name": "Spindler & Klatt"
+    "name": "Astra Kulturhaus"
    },
-   "name": "BLN REUNION INDOOR FESTIVAL - AKA AKA, K-Paul, Sascha Braemer, Blondee uvm.",
+   "name": "Carlo5 • DIE LETZTE TOUR DER WELT",
    "offers": {
     "@type": "Offer",
-    "price": "22.90",
+    "price": "39.80",
     "priceCurrency": "EUR",
-    "url": "https://open-air-berlin.ticket.io/ZO7IuWhk/",
-    "validFrom": "2026-12-12T21:00+0100"
+    "url": "https://carlo5.krasserstoff.com/events/carlo5-die-letzte-tour-der-welt-astra-kulturhaus",
+    "validFrom": "2027-04-09T19:00+0200"
    },
-   "startDate": "2026-12-12T21:00+0100"
+   "organizer": {
+    "@type": "Organization",
+    "name": "LANDSTREICHER BOOKING",
+    "url": "https://rausgegangen.de/organizations/landstreicher-booking-ah-fk3y/"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Carlo5"
+   },
+   "startDate": "2027-04-09T19:00+0200"
   }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
@@ -328,51 +337,6 @@
   "seen": "2026-10-20T15:24:41+02:00",
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-2/": {
-  "fetched": "2026-11-19T23:18:43+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "DRAG BINGO @ BADEMEISTER 🎱Weißensee, wir sind wieder da! 💋Einmal im Monat verwandelt DUCT TAPE die Bademeister Bar in das Zuhause unseres Drag Bingos. Wir lieben es, nach Weißensee zu kommen und finden: Der Kiez kann ruhig noch ein bisschen mehr Drag vertragen.Freut euch auf einen Abend mit Bingo, Drag Show und Bar Night, gehostet von EMI, Symba oder Magda von Pfeffer aus dem DUCT TAPE Kollektiv. In mehreren Bingo-Runden wird gespielt, gewonnen, performt und natürlich auch ein bisschen eskaliert.Für 5€ bekommt ihr drei Bingo-Scheine für den gesamten Abend und damit die Chance auf verschiedene Preise. Dazu gibt’s Drinks und die leckeren deutschen Snackteller der Bademeister Bar. Also kommt hungrig, durstig und ready to win. 🍻🥨Bringt eure Freund*innen mit und macht euch bereit für ein bisschen mehr Drag in Weißensee.📅 24.09. · 22.10. · 19.11. · 10.12. 🎱 Bingo-Schein: 5 € 💋 Hosted by EMI, Symba & Magda von Pfeffer 📍 Bademeister Bar, Weißensee",
-   "endDate": "2026-11-19T22:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/MHRsSAVSTFKLckljeSrU_cefc30c5-4816-4717-beb8-aad821a67f32.jpeg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "13088",
-     "streetAddress": "Bizetstraße 143"
-    },
-    "name": "Bademeister Bar"
-   },
-   "name": "DRAG BINGO NIGHT @ Bademeister Bar by DUCT TAPE",
-   "offers": {
-    "@type": "Offer",
-    "price": 0,
-    "priceCurrency": "EUR",
-    "validFrom": "2026-11-19T19:00+0100"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "CURA Berlin",
-     "url": "https://rausgegangen.de/organizations/cura-berlin/"
-    },
-    {
-     "@type": "Organization",
-     "name": "DUCT TAPE",
-     "url": "https://rausgegangen.de/organizations/duct-tape/"
-    }
-   ],
-   "startDate": "2026-11-19T19:00+0100"
-  },
-  "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
   "fetched": "2026-11-19T23:18:43+01:00",
@@ -564,6 +528,38 @@
   },
   "seen": "2026-10-27T20:46:24+01:00"
  },
+ "https://rausgegangen.de/events/eisfest-wintermarkt-0/": {
+  "fetched": "2026-11-20T04:34:07+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Zwischen Kerzenwachs aus den Bienenstöcken des MINSK und einer Fotowand mit echten Expeditionsanzügen wird Winter plötzlich ziemlich konkret. Neben dem Markt kannst Du auch in die aktuellen Ausstellungen rübergehen 🙂",
+   "endDate": "2026-11-28T20:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/jlQimSvgT7mVSBDAFDyr_dasmeisfestwebnlfinalquer.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Potsdam",
+     "postalCode": "14473",
+     "streetAddress": "Max-Planck-Strasse 17"
+    },
+    "name": "DAS MINSK Kunsthaus in Potsdam"
+   },
+   "name": "EISFEST & WINTERMARKT",
+   "offers": {
+    "@type": "Offer",
+    "price": "0.00",
+    "priceCurrency": "EUR",
+    "validFrom": "2026-11-28T11:00+0100"
+   },
+   "startDate": "2026-11-28T11:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
   "fetched": "2026-11-19T23:18:43+01:00",
   "ld": {
@@ -654,6 +650,54 @@
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/jacob-fortyhands-munster-barking-up-the-tree-of-life-tour-20-4/": {
+  "fetched": "2026-11-20T04:34:07+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Sie kommen aus einem Familienprojekt und stehen live oft zu siebt auf der Bühne, mitten in einer Zeit, in der sonst eher alles klein gehalten wird. Jacob Fortyhands drehen diesen Kontrast einfach um 👀",
+   "endDate": "2027-09-14T06:00+0200",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/FLfZP0SOuyspxBqiKHFA_image00004-kopie-komprimiert.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10777",
+     "streetAddress": "Nollendorfplatz 5"
+    },
+    "name": "Mikropol"
+   },
+   "name": "Jacob Fortyhands - Barking up the tree of life Tour 2027",
+   "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "EUR",
+    "url": "https://www.eventim.de/artist/jacob-fortyhands/",
+    "validFrom": "2027-09-13T20:00+0200"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "PRK Dreamhaus",
+    "url": "https://rausgegangen.de/organizations/dreamhaus/"
+   },
+   "performer": [
+    {
+     "@type": "PerformingGroup",
+     "name": "Jacob Fortyhands"
+    },
+    {
+     "@type": "PerformingGroup",
+     "name": "Jacob Fortyhands"
+    }
+   ],
+   "startDate": "2027-09-13T20:00+0200"
+  }
+ },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1/": {
   "fetched": "2026-11-19T23:18:43+01:00",
   "ld": {
@@ -735,16 +779,16 @@
   },
   "seen": "2026-11-15T18:52:24+01:00"
  },
- "https://rausgegangen.de/events/tati-comedy-tryout-stand-up-comedy-16/": {
-  "fetched": "2026-11-19T23:18:43+01:00",
+ "https://rausgegangen.de/events/tati-comedy---die-stand-up-comedy-show-31/": {
+  "fetched": "2026-11-20T04:34:07+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Stand-Up Comedy Tryout / Open MicNeue Talente. Neue Jokes. Neue Energie – live & unfiltriert!TRYOUT ist die Bühne, auf der Comedy entsteht. Newcomer, Fortgeschrittene und spontane Mutige testen hier ihre brandneuen Jokes live vor Publikum. Nichts ist geplant, nichts ist perfekt – und genau das macht diesen Abend so einzigartig.Erlebe einen Abend voller Überraschungen, spontaner Momente und echter Stand-up-Comedy, bei der du manchmal der erste Mensch bist, der einen neuen Gag überhaupt zu hören bekommt.Was dich erwartet:Frische Comedy-Sets & brandneues MaterialAuthentische „Work in Progress“-AtmosphäreMutige Newcomer & überraschende ProfisHumor, der spontan entstehtEnergiegeladenes, ehrliches PublikumFür wen ist TRYOUT?Für alle, die Comedy lieben: Publikum, das über rohe, echte Comedy lachen möchte – und Performer, die mutig sind, Neues auszuprobieren.--Location--Welcome to Tati Goes Underground — Berlin’s intimate, alternative comedy club. Known for its cozy, candle-lit atmosphere and bohemian vibes, Tati is the kind of place where comedians and audiences come together like old friends... with strong opinions and stronger drinks.Metzer Str. 2 in Prenzlauer Berg is a two-minute walk from the U2 \"Senefelder Platz\" station. The bar offers the perfect atmosphere for a successful comedy evening. A cozy interior, friendly staff, and good drinks round out this special comedy event for you.",
-   "endDate": "2026-11-24T20:30+0100",
+   "description": "LIVE Stand Up Comedy in der schönsten Ecke Berlins - dem Prenzlauer Berg.Wir präsentieren euch einen Mix aus erfahrenen Profi-Comedians und den heißesten Newcomern der Berliner Comedy-Szene.Das Ticket muss nicht ausgedruckt werden.Egal wer an diesem Abend auf der Bühne steht - euch erwartet absolut authentische Stand Up Comedy nach amerikanischem Vorbild!Der Einlass wird bis 5 Minuten nach Showbeginn gewährt.--Location--Der \"Comedyflash - Club\" in der Metzer Str. 2 im Prenzlauer Berg ist zwei Fußminuten entfernt von der U2 Station “Senefelder Platz”. Die Bar bietet die perfekte Atmosphäre für einen gelungenen Comedyabend. Eine gemütliche Einrichtung, freundliches Personal und gute Getränke runden dieses besondere Comedyevent für dich ab.Comedyflash - Der Standup ClubMetzer Str. 2, 10405 Berlin",
+   "endDate": "2026-11-20T20:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/IUObRZ5jQgW7YMCD4a6c_tati-comedy-club-berliner-stand-up-nacht.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/gqlLXG8iSYKiUDo8pXMy_tati-comedy-club-berliner-stand-up-nacht.png"
    ],
    "location": {
     "@type": "Place",
@@ -757,7 +801,7 @@
     },
     "name": "Tati goes Underground"
    },
-   "name": "Tati Comedy - Open Mic",
+   "name": "Tati Comedy _ Die Stand Up Comedy Show",
    "offers": {
     "@type": "AggregateOffer",
     "highPrice": null,
@@ -768,20 +812,20 @@
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
       "name": "Regulär",
-      "price": "15.00",
+      "price": "22.00",
       "priceCurrency": "EUR"
      },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "earlybird",
-      "price": "12.00",
+      "name": "early bird",
+      "price": "16.00",
       "priceCurrency": "EUR"
      }
     ],
     "priceCurrency": "EUR"
    },
-   "startDate": "2026-11-24T19:00+0100"
+   "startDate": "2026-11-20T19:00+0100"
   }
  }
 }

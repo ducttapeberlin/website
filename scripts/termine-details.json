@@ -296,6 +296,39 @@
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/country-to-country-germany-2027-0/": {
+  "fetched": "2026-11-20T16:39:24+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Country to Country kehrt im März 2027 für zwei Tage voller Live-Musik nach Berlin zurück. In der Uber Eats Music Hall treffen die größten Stars der Country-Musik auf die aufregendsten Newcomer:innen des Genres. SAMSTAG, 6. MÄRZAshley McBrydeCooper AlanCarter FaithBlake WhitenMack GeigerLate Night ThoughtsOwen RieglingBellesBec O'MalleySONNTAG, 7. MÄRZJelly RollDashaEmily Ann RobertsDrew BaldridgeKashus CulpepperGreylan JamesLaci Kaye BoothColin Lynch",
+   "endDate": "2027-03-07T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/mMjeS7G4QHq4zm7Gw2eQ_axs-confirmation-750x568.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10243",
+     "streetAddress": "Uber-Platz"
+    },
+    "name": "Uber Eats Music Hall"
+   },
+   "name": "Country to Country Germany 2027",
+   "offers": {
+    "@type": "Offer",
+    "price": "204.00",
+    "priceCurrency": "EUR",
+    "url": "https://queue-de.axs.com/?c=axsde&e=3616770092191&cpch=Affiliate_Rausgegangen&cpcn=AXSDE_20261006_Affiliate_Rausgegangen_C2C_2027_UEMH&cpdn=AXSDE_20261006_Affiliate_Rausgegangen_C2C_2027_UEMH",
+    "validFrom": "2027-03-06T10:30+0100"
+   },
+   "startDate": "2027-03-06T10:30+0100"
+  }
+ },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
   "fetched": "2026-11-20T14:14:40+01:00",
   "ld": {
@@ -435,6 +468,234 @@
   },
   "seen": "2026-11-15T18:52:24+01:00"
  },
+ "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-0/": {
+  "fetched": "2026-11-20T16:39:24+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Alle zwei Wochen wird Bingo durch wechselnde Drag-Hosts aus dem DUCT TAPE Universum mit viel Charme, Humor und spannenden Performances aufgemischt. Drei Runden, coole Gewinne und jede Menge Überraschungen garantieren einen Abend, der mehr als nur Glücksspiel ist 🎟️",
+   "endDate": "2026-12-09T22:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/dsOpfIJYSWKxCWfqUnU1_28be860b-ff2c-43a3-a934-bdea454b9030.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "12055",
+     "streetAddress": "Brusendorfer Straße 12"
+    },
+    "name": "TORTE BAR"
+   },
+   "name": "Drag Bingo Night @ Torte Bar by DUCT TAPE",
+   "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "EUR",
+    "validFrom": "2026-12-09T19:00+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "DUCT TAPE",
+    "url": "https://rausgegangen.de/organizations/duct-tape/"
+   },
+   "startDate": "2026-12-09T19:00+0100"
+  },
+  "seen": "2026-11-20T16:39:24+01:00"
+ },
+ "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-1/": {
+  "fetched": "2026-11-20T16:39:24+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Alle zwei Wochen wird Bingo durch wechselnde Drag-Hosts aus dem DUCT TAPE Universum mit viel Charme, Humor und spannenden Performances aufgemischt. Drei Runden, coole Gewinne und jede Menge Überraschungen garantieren einen Abend, der mehr als nur Glücksspiel ist 🎟️",
+   "endDate": "2027-01-06T22:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/dsOpfIJYSWKxCWfqUnU1_28be860b-ff2c-43a3-a934-bdea454b9030.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "12055",
+     "streetAddress": "Brusendorfer Straße 12"
+    },
+    "name": "TORTE BAR"
+   },
+   "name": "Drag Bingo Night @ Torte Bar by DUCT TAPE",
+   "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "EUR",
+    "validFrom": "2027-01-06T20:00+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "DUCT TAPE",
+    "url": "https://rausgegangen.de/organizations/duct-tape/"
+   },
+   "startDate": "2027-01-06T20:00+0100"
+  },
+  "seen": "2026-11-20T16:39:24+01:00"
+ },
+ "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-2/": {
+  "fetched": "2026-11-20T16:39:24+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Alle zwei Wochen wird Bingo durch wechselnde Drag-Hosts aus dem DUCT TAPE Universum mit viel Charme, Humor und spannenden Performances aufgemischt. Drei Runden, coole Gewinne und jede Menge Überraschungen garantieren einen Abend, der mehr als nur Glücksspiel ist 🎟️",
+   "endDate": "2027-01-13T22:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/dsOpfIJYSWKxCWfqUnU1_28be860b-ff2c-43a3-a934-bdea454b9030.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "12055",
+     "streetAddress": "Brusendorfer Straße 12"
+    },
+    "name": "TORTE BAR"
+   },
+   "name": "Drag Bingo Night @ Torte Bar by DUCT TAPE",
+   "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "EUR",
+    "validFrom": "2027-01-13T20:00+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "DUCT TAPE",
+    "url": "https://rausgegangen.de/organizations/duct-tape/"
+   },
+   "startDate": "2027-01-13T20:00+0100"
+  },
+  "seen": "2026-11-20T16:39:24+01:00"
+ },
+ "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-3/": {
+  "fetched": "2026-11-20T16:39:24+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Alle zwei Wochen wird Bingo durch wechselnde Drag-Hosts aus dem DUCT TAPE Universum mit viel Charme, Humor und spannenden Performances aufgemischt. Drei Runden, coole Gewinne und jede Menge Überraschungen garantieren einen Abend, der mehr als nur Glücksspiel ist 🎟️",
+   "endDate": "2027-01-27T22:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/dsOpfIJYSWKxCWfqUnU1_28be860b-ff2c-43a3-a934-bdea454b9030.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "12055",
+     "streetAddress": "Brusendorfer Straße 12"
+    },
+    "name": "TORTE BAR"
+   },
+   "name": "Drag Bingo Night @ Torte Bar by DUCT TAPE",
+   "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "EUR",
+    "validFrom": "2027-01-27T20:00+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "DUCT TAPE",
+    "url": "https://rausgegangen.de/organizations/duct-tape/"
+   },
+   "startDate": "2027-01-27T20:00+0100"
+  },
+  "seen": "2026-11-20T16:39:24+01:00"
+ },
+ "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-4/": {
+  "fetched": "2026-11-20T16:39:24+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Alle zwei Wochen wird Bingo durch wechselnde Drag-Hosts aus dem DUCT TAPE Universum mit viel Charme, Humor und spannenden Performances aufgemischt. Drei Runden, coole Gewinne und jede Menge Überraschungen garantieren einen Abend, der mehr als nur Glücksspiel ist 🎟️",
+   "endDate": "2027-02-10T22:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/dsOpfIJYSWKxCWfqUnU1_28be860b-ff2c-43a3-a934-bdea454b9030.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "12055",
+     "streetAddress": "Brusendorfer Straße 12"
+    },
+    "name": "TORTE BAR"
+   },
+   "name": "Drag Bingo Night @ Torte Bar by DUCT TAPE",
+   "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "EUR",
+    "validFrom": "2027-02-10T20:00+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "DUCT TAPE",
+    "url": "https://rausgegangen.de/organizations/duct-tape/"
+   },
+   "startDate": "2027-02-10T20:00+0100"
+  },
+  "seen": "2026-11-20T16:39:24+01:00"
+ },
+ "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-5/": {
+  "fetched": "2026-11-20T16:39:24+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Alle zwei Wochen wird Bingo durch wechselnde Drag-Hosts aus dem DUCT TAPE Universum mit viel Charme, Humor und spannenden Performances aufgemischt. Drei Runden, coole Gewinne und jede Menge Überraschungen garantieren einen Abend, der mehr als nur Glücksspiel ist 🎟️",
+   "endDate": "2027-02-24T22:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/dsOpfIJYSWKxCWfqUnU1_28be860b-ff2c-43a3-a934-bdea454b9030.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "12055",
+     "streetAddress": "Brusendorfer Straße 12"
+    },
+    "name": "TORTE BAR"
+   },
+   "name": "Drag Bingo Night @ Torte Bar by DUCT TAPE",
+   "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "EUR",
+    "validFrom": "2027-02-24T20:00+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "DUCT TAPE",
+    "url": "https://rausgegangen.de/organizations/duct-tape/"
+   },
+   "startDate": "2027-02-24T20:00+0100"
+  },
+  "seen": "2026-11-20T16:39:24+01:00"
+ },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
   "fetched": "2026-11-20T14:14:40+01:00",
   "ld": {
@@ -485,6 +746,66 @@
    "startDate": "2026-12-13T12:00+0100"
   },
   "seen": "2026-10-27T20:46:24+01:00"
+ },
+ "https://rausgegangen.de/events/fritzsessions-vol-30-mit-edo-saiya-alice-stark-hank-234-lott-0/": {
+  "fetched": "2026-11-20T16:39:24+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Zwischen Hyperpop, Rap und Pop steht bei den FritzSessions ein Line up, das eher nach offenem Tab Chaos als nach sauberem Genre klingt. Und mittendrin EDO SAIYA so nah zu hören, obwohl er sonst längst größere Räume füllt 👀",
+   "endDate": "2026-12-15T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/d087df08f6ed4b1fad006de9a423abe6_16x9_fritz_sessions_30_141226-abnahme-neu.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10997",
+     "streetAddress": "Schlesische Strasse 2"
+    },
+    "name": "Bi Nuu"
+   },
+   "name": "FritzSessions, Vol. 30 mit EDO SAIYA, ALICE STARK, HANK, 234, LOTTA & TOSHA",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "14.00",
+    "priceCurrency": "EUR",
+    "url": "https://t.rausgegangen.de/tickets/fritzsessions-vol-30-mit-edo-saiya-alice-stark-hank-234-lott",
+    "validFrom": "2026-11-16T16:30+0100"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "Bi Nuu",
+     "url": "https://rausgegangen.de/organizations/httpswwwfestsaalshopprodukte474-tickets-muito-kaballa-bi-nuu/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Fritz vom rbb",
+     "url": "https://rausgegangen.de/organizations/fritz-vom-rbb/"
+    }
+   ],
+   "performer": [
+    {
+     "@type": "PerformingGroup",
+     "name": "234"
+    },
+    {
+     "@type": "PerformingGroup",
+     "name": "Alice Stark"
+    },
+    {
+     "@type": "PerformingGroup",
+     "name": "Edo Saiya"
+    }
+   ],
+   "startDate": "2026-12-14T18:00+0100"
+  }
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
   "fetched": "2026-11-20T14:14:40+01:00",
@@ -618,16 +939,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/love-at-first-slide-berlin-power-point-dating-by-rausgegange-14/": {
-  "fetched": "2026-11-20T16:32:04+01:00",
+ "https://rausgegangen.de/events/pandawomen-2026-aban-ensemble-dj-rosemah-curated-by-yalda-ya-0/": {
+  "fetched": "2026-11-20T16:39:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Wir bringen mit LOVE AT FIRST SLIDE Dating auf die Bühne: Freund:innen stellen in kurzen Power Point Präsentationen ihre Lieblingssingle vor – charmant, humorvoll und ganz ohne Swipe. Nach den witzigen Pitches kannst du bei Speed-Dating und Barabend neue Begegnungen entdecken. 💘🎤💫",
-   "endDate": "2026-12-02T23:30+0100",
+   "description": "Erst vier Musikerinnen aus Iran, dann DJ ROSEMAH mit Sounds zwischen House, Hip Hop und Klängen aus Afghanistan, Persien und der SWANA Region. Ein Abend, an dem musikalische Welten nicht sauber getrennt bleiben 👀",
+   "endDate": "2026-11-22T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/G4DW5S6EQHOrXfM562GP_lafsbannerappstraight-2-5.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/xujcRKOIRwmSNozh4mi6_23207image-2048x1024.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -635,79 +956,32 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10625",
-     "streetAddress": "Kantstraße 127"
+     "postalCode": "10435",
+     "streetAddress": "Knaackstraße 97"
     },
-    "name": "Dufte Berlin"
+    "name": "PANDA platforma"
    },
-   "name": "LOVE AT FIRST SLIDE Berlin | Power Point Dating by Rausgegangen 💖",
+   "name": "PANDAwomen 2026: Aban Ensemble / DJ ROSEMAH / Curated by Yalda Yazdani",
    "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "19.50",
-    "lowPrice": "10.00",
-    "offerCount": 5,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Presenterticket",
-      "price": "10.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Publikum Ticket | Ich bin eine hetero Frau",
-      "price": "19.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Publikum Ticket | Ich bin ein hetero Mann",
-      "price": "19.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Publikum Ticket | Ich bin queer",
-      "price": "19.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Mitgegangen",
-      "price": "3.80",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
+    "@type": "Offer",
+    "price": "20.00",
+    "priceCurrency": "EUR",
+    "url": "https://panda-platforma.berlin/events/aban-ensemble-dj-rosemah/",
+    "validFrom": "2026-11-21T20:30+0100"
    },
    "organizer": [
     {
      "@type": "Organization",
-     "name": "LOVE AT FIRST SLIDE BERLIN by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/love-at-first-slide-berlin-by-rausgegangen/"
+     "name": "PANDA platforma e.V.",
+     "url": "https://rausgegangen.de/organizations/page-for-team-panda-platforma-ev/"
     },
     {
      "@type": "Organization",
-     "name": "Love at first Slide by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/page-for-team-love-at-first-slide-by-rausgegangen/"
-    },
-    {
-     "@type": "Organization",
-     "name": "LOVE AT FIRST SLIDE by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/love-at-first-slide-by-rausgegangen/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Team Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/team-rausgegangen/"
+     "name": "PANDAwomen 2026 Festival",
+     "url": "https://rausgegangen.de/organizations/pandawomen-festival/"
     }
    ],
-   "startDate": "2026-12-02T19:00+0100"
+   "startDate": "2026-11-21T20:30+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
@@ -749,48 +1023,6 @@
   },
   "seen": "2026-11-15T18:52:24+01:00"
  },
- "https://rausgegangen.de/events/soffie-how-to-be-a-millionaire-tour-2027-2/": {
-  "fetched": "2026-11-20T16:32:04+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Reich sein heißt bei SOFFIE offenbar nicht Konto, sondern ein voller Raum und Songs, die Leute zusammenziehen. Nach „Für immer Frühling“ kommt sie jetzt mit mehr politischer Kante zurück 🙂",
-   "endDate": "2027-11-06T23:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/LnmT5KSSTaWurfaZu09v_dsc08631chiaranoemii.jpeg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10965",
-     "streetAddress": "Columbiadamm 9-11"
-    },
-    "name": "Columbia Theater"
-   },
-   "name": "SOFFIE - \"How to be a Millionaire\" Tour 2027",
-   "offers": {
-    "@type": "Offer",
-    "price": "32.00",
-    "priceCurrency": "EUR",
-    "url": "https://tickets.eskapaden.net/produkte",
-    "validFrom": "2027-11-06T20:00+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "eskapaden booking",
-    "url": "https://rausgegangen.de/organizations/page-for-team-eskapaden-booking-1/"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Soffie"
-   },
-   "startDate": "2027-11-06T20:00+0100"
-  }
- },
  "https://rausgegangen.de/events/system-olympia-live-0/": {
   "fetched": "2026-11-20T16:32:04+01:00",
   "ld": {
@@ -829,16 +1061,16 @@
    "startDate": "2026-12-06T19:30+0100"
   }
  },
- "https://rausgegangen.de/events/teppich-tuften-bei-tuft-tuft-3/": {
-  "fetched": "2026-11-20T16:32:04+01:00",
+ "https://rausgegangen.de/events/wake-shake-coffee-rave-berlin-1/": {
+  "fetched": "2026-11-20T16:39:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Entdecke den Kreativtrend Tufting: In diesem 3,5-stündigen Workshop bei Tuft Tuft in Prenzlauer Berg gestaltest du mit einer elektrischen Tufting Gun deinen eigenen Teppich oder Wandbehang (40 x 30 cm). Vorkenntnisse brauchst du keine.Nach der Buchung schickst du deine Designidee an Tuft Tuft – am besten ein einfaches Motiv ohne zu viele kleine Details, spätestens 48 Stunden vor Kursbeginn. Vor Ort lernst du die Tuftingtechnik Schritt für Schritt und wählst aus über 50 Garnfarben. Am Ende gibst du deinem Teppich beim sogenannten Shaving selbst den letzten Schliff.Danach wird dein Werk vom Team professionell fertig verklebt: Nach etwa zwei Wochen holst du es im Studio ab oder lässt es dir gegen eine kleine Gebühr nach Hause schicken.Inklusive: Workshop mit Anleitung auf Englisch, alle Materialien und Werkzeuge, über 50 Garnfarben, Snacks und Getränke.Gut zu wissen: Der Workshop findet auf Englisch statt. Wegen des Gewichts der Tufting Guns ist er ab 14 Jahren geeignet. Bitte bequeme Kleidung ohne weite Ärmel tragen und lange Haare zusammenbinden. Das Studio ist leider nicht barrierefrei.Hinter Tuft Tuft steht Chad Wright, der das Tuften während der Pandemie für sich entdeckt hat und heute sein eigenes Studio betreibt.Den Workshop gibt es auch als Geschenkgutschein bei Truestory – der Gutschein kommt direkt per E-Mail.",
-   "endDate": "2026-11-28T14:30+0100",
+   "description": "Berlin, it’s time to trade hangovers for high energy.wake & shake invites you to the ultimate daytime Coffee Rave at SuperCoff at Rosenthaler Platz Berlin Mitte, where specialty coffee meets deep, groovy house beats.From 11:30 to 16:30, we’re serving caffeine, community and carefully selected house music to kickstart your weekend the right way.Our DJs NAIR, OMARO & NHEIRO will guide you through a smooth, uplifting journey. Perfect for dancing, connecting and vibing in daylight.No late nights. No regrets. Just great music, good people and strong coffee.-✨ What to expect:Coffee etc. & Croissant incl. in the ticket priceHouse music all dayFresh coffee & relaxed atmosphereBeautiful crowd & good energyFeel-good dancing before sunset-📍 Location: SuperCoff, Weinbergsweg 24, 10119 Berlin 🗓 Date: Saturday, November 21 ⏰ Time: 11:30 - 16:30-Come awake. Come dance. Come shake. Welcome to the Coffee Rave!-#WakeAndShake #CoffeeRaveBerlin #DayParty #HouseMusic #GoodVibes #BerlinEvents",
+   "endDate": "2026-11-21T16:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/TENVNNXjQ2K5PqlZS0p2_tuft-tuft-monstera.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/t489dJZQQkJaSofpnyBg_coffee-rave-banner-rausgegangen.png"
    ],
    "location": {
     "@type": "Place",
@@ -846,25 +1078,40 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10405",
-     "streetAddress": "Marienburger Straße 21"
+     "postalCode": "10119",
+     "streetAddress": "Weinbergsweg 24"
     },
-    "name": "Tuft Tuft Berlin"
+    "name": "SuperCoff"
    },
-   "name": "Teppich tuften bei Tuft Tuft",
+   "name": "WAKE & SHAKE - COFFEE RAVE BERLIN",
    "offers": {
     "@type": "Offer",
-    "price": "140.00",
+    "availability": "https://schema.org/InStock",
+    "price": "11.20",
     "priceCurrency": "EUR",
-    "url": "https://de.truestory.com/erlebe/tufting-workshop-the-og-bei-tuft-tuft/?utm_source=rausgegangen&utm_medium=affiliate&utm_campaign=rausgegangen&utm_content=tufting-workshop-the-og-bei-tuft-tuft",
-    "validFrom": "2026-11-28T11:00+0100"
+    "url": "https://t.rausgegangen.de/tickets/wake-shake-coffee-rave-berlin-1",
+    "validFrom": "2026-11-15T20:15+0100"
    },
    "organizer": {
     "@type": "Organization",
-    "name": "Team - TrueStory Living Experiences Germany GmbH",
-    "url": "https://rausgegangen.de/organizations/p-team-truestory-living-experiences-germany-gmbh/"
+    "name": "wake & shake",
+    "url": "https://rausgegangen.de/organizations/wake-shake/"
    },
-   "startDate": "2026-11-28T11:00+0100"
+   "performer": [
+    {
+     "@type": "PerformingGroup",
+     "name": "AMED NHEIRO"
+    },
+    {
+     "@type": "PerformingGroup",
+     "name": "NAIR"
+    },
+    {
+     "@type": "PerformingGroup",
+     "name": "OMARO"
+    }
+   ],
+   "startDate": "2026-11-21T11:30+0100"
   }
  },
  "https://rausgegangen.de/events/wessen-denkmaler-deutsche-spuren-in-den-polnischen-westgebie-0/": {

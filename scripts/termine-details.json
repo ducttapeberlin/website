@@ -1,6 +1,6 @@
 {
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
-  "fetched": "2026-11-20T14:14:40+01:00",
+  "fetched": "2026-11-20T22:19:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -97,7 +97,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-11-20T14:14:40+01:00",
+  "fetched": "2026-11-20T22:19:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -207,8 +207,45 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/amber-georgia-0/": {
+  "fetched": "2026-11-20T22:19:30+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Orange im Glas und dahinter mehr als 60 Winzer:innen aus Georgien, die ihre Weine selbst mitbringen. Statt Messestress eher ein direkter Draht zu einer uralten Weintradition 👀",
+   "endDate": "2026-11-28T17:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/cIF9OMxVScGZqgIavWKV_amber-georgia-berlin-weine-aus-georgien-3.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10997",
+     "streetAddress": "Köpenicker Str. 16/17"
+    },
+    "name": "Magazin in der Heeresbäckerei"
+   },
+   "name": "Amber Georgia – Low Intervention Wine Fair",
+   "offers": {
+    "@type": "Offer",
+    "price": "35.00",
+    "priceCurrency": "EUR",
+    "url": "https://www.universe.com/events/amber-georgia-tickets-LJS031?ref=share-widget-buffer%3Fref%3Dshare-widget-buffer",
+    "validFrom": "2026-11-28T11:00+0100"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Amber Georgia Berlin"
+   },
+   "startDate": "2026-11-28T11:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-11-20T14:14:40+01:00",
+  "fetched": "2026-11-20T22:19:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -296,41 +333,8 @@
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/country-to-country-germany-2027-0/": {
-  "fetched": "2026-11-20T16:39:24+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Country to Country kehrt im März 2027 für zwei Tage voller Live-Musik nach Berlin zurück. In der Uber Eats Music Hall treffen die größten Stars der Country-Musik auf die aufregendsten Newcomer:innen des Genres. SAMSTAG, 6. MÄRZAshley McBrydeCooper AlanCarter FaithBlake WhitenMack GeigerLate Night ThoughtsOwen RieglingBellesBec O'MalleySONNTAG, 7. MÄRZJelly RollDashaEmily Ann RobertsDrew BaldridgeKashus CulpepperGreylan JamesLaci Kaye BoothColin Lynch",
-   "endDate": "2027-03-07T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/mMjeS7G4QHq4zm7Gw2eQ_axs-confirmation-750x568.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10243",
-     "streetAddress": "Uber-Platz"
-    },
-    "name": "Uber Eats Music Hall"
-   },
-   "name": "Country to Country Germany 2027",
-   "offers": {
-    "@type": "Offer",
-    "price": "204.00",
-    "priceCurrency": "EUR",
-    "url": "https://queue-de.axs.com/?c=axsde&e=3616770092191&cpch=Affiliate_Rausgegangen&cpcn=AXSDE_20261006_Affiliate_Rausgegangen_C2C_2027_UEMH&cpdn=AXSDE_20261006_Affiliate_Rausgegangen_C2C_2027_UEMH",
-    "validFrom": "2027-03-06T10:30+0100"
-   },
-   "startDate": "2027-03-06T10:30+0100"
-  }
- },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-20T14:14:40+01:00",
+  "fetched": "2026-11-20T22:19:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -377,7 +381,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
-  "fetched": "2026-11-20T14:14:40+01:00",
+  "fetched": "2026-11-20T22:19:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -422,7 +426,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
-  "fetched": "2026-11-20T14:14:40+01:00",
+  "fetched": "2026-11-20T22:19:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -697,7 +701,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-11-20T14:14:40+01:00",
+  "fetched": "2026-11-20T22:19:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -808,7 +812,7 @@
   }
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-11-20T14:14:40+01:00",
+  "fetched": "2026-11-20T22:19:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -898,7 +902,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1/": {
-  "fetched": "2026-11-20T14:14:40+01:00",
+  "fetched": "2026-11-20T22:19:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -939,16 +943,112 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/pandawomen-2026-aban-ensemble-dj-rosemah-curated-by-yalda-ya-0/": {
-  "fetched": "2026-11-20T16:39:24+01:00",
+ "https://rausgegangen.de/events/mit-vergnugungspark-berlin-1/": {
+  "fetched": "2026-11-20T22:19:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Erst vier Musikerinnen aus Iran, dann DJ ROSEMAH mit Sounds zwischen House, Hip Hop und Klängen aus Afghanistan, Persien und der SWANA Region. Ein Abend, an dem musikalische Welten nicht sauber getrennt bleiben 👀",
-   "endDate": "2026-11-22T05:00+0100",
+   "description": "Hier findest du an zwei Tagen ein Festival, das mit Musik, Podcasts, Comedy und buntem Essen ganz unterschiedliche Menschen zusammenbringt. Von kreativen Workshops bis zu kinderfreundlichen Attraktionen ist für alle was dabei und neue Highlights werden noch vor dem Start verraten 🤩",
+   "endDate": "2026-11-29T20:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/xujcRKOIRwmSNozh4mi6_23207image-2048x1024.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/wXB5KOdQx2KEI1fvhiIg_mvpark2026bannerticket1200x675pxrzversionzweitewellelineup091126.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10437",
+     "streetAddress": "Gleimstraße 31"
+    },
+    "name": "Colosseum Berlin"
+   },
+   "name": "Mit Vergnügungspark Berlin",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "55.00",
+    "lowPrice": "15.00",
+    "offerCount": 8,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "11 € - Freundschaftsticket",
+      "price": "11.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Phase 3 Wochenendpass",
+      "price": "39.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Phase 3 Wochenendpass + Abendprogramm",
+      "price": "49.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Phase 3 Tagesticket Samstag",
+      "price": "30.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Phase 3 Tagesticket Samstag + Abendprogramm",
+      "price": "40.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Phase 3 Tagesticket Sonntag",
+      "price": "25.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Workshop \"Redaktion\" + Tagesticket Samstag",
+      "price": "30.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Phase 3 NUR Abendprogramm am Samstag",
+      "price": "15.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Mit Vergnügen",
+    "url": "https://rausgegangen.de/organizations/mit-vergnugen-1/"
+   },
+   "startDate": "2026-11-28T14:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/pandawomen-2026-pandawomen-closing-event-anastasia-rydlevska-0/": {
+  "fetched": "2026-11-20T22:19:30+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Masken, Stimme, Elektronik: Bei Anastasia Rydlevskaya steht Pop neben belarussischer Folklore und bildender Kunst, ohne sich sauber trennen zu lassen. Danach übernimmt DJ Svetomusika mit einem spontanen Mix aus aller Welt 🪩",
+   "endDate": "2026-11-29T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/c6PFSPuQuWhdtlyPLUea_23335image-2048x1024.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -961,31 +1061,62 @@
     },
     "name": "PANDA platforma"
    },
-   "name": "PANDAwomen 2026: Aban Ensemble / DJ ROSEMAH / Curated by Yalda Yazdani",
+   "name": "PANDAwomen 2026: PANDAwomen closing event: Anastasia Rydlevskaya / DJ Svetomusika",
    "offers": {
     "@type": "Offer",
-    "price": "20.00",
+    "price": "25.00",
     "priceCurrency": "EUR",
-    "url": "https://panda-platforma.berlin/events/aban-ensemble-dj-rosemah/",
-    "validFrom": "2026-11-21T20:30+0100"
+    "url": "https://panda-platforma.berlin/events/pandawomen-closing-event-anastasia-rydlevskaya-dj-svetomusika/",
+    "validFrom": "2026-11-28T20:30+0100"
    },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "PANDA platforma e.V.",
-     "url": "https://rausgegangen.de/organizations/page-for-team-panda-platforma-ev/"
-    },
-    {
-     "@type": "Organization",
-     "name": "PANDAwomen 2026 Festival",
-     "url": "https://rausgegangen.de/organizations/pandawomen-festival/"
-    }
+   "organizer": {
+    "@type": "Organization",
+    "name": "PANDAwomen 2026 Festival",
+    "url": "https://rausgegangen.de/organizations/pandawomen-festival/"
+   },
+   "startDate": "2026-11-28T20:30+0100"
+  }
+ },
+ "https://rausgegangen.de/events/plant-based-4-gang-menu-0/": {
+  "fetched": "2026-11-20T22:19:30+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Last HarvestEin Festmenü zur VorweihnachtszeitDie festliche Jahreszeit beginnt am Tisch. Am 27. und 28. November laden wir dich ins Boma Berlin zu Last Harvestein: einem veganen und glutenfreien 4-Gänge-Menü, das die Aromen des späten Herbstes mit einem Hauch festlicher Vorfreude verbindet.Das MenüI · Pão-de-Queijo-Trio Drei vegane brasilianische Pão de Queijo, begleitet von aufgeschlagener Salbei-Bohnen-Creme, Quitten-Senf-Chutney und einer Creme aus geröstetem Knoblauch und Sonnenblumenkernen.II · Karamellisierter Chicorée Karamellisierter Chicorée mit Mandel-Ricotta und glänzender Quitten-Gastrique. Knusprige Kapern setzen einen salzigen Akzent; feiner Kerbel vollendet den Teller.III · Gebratener Kräuterseitling Kräftig gebratener Kräuterseitling mit goldenem Kartoffel-Pavé und konfiertem Hispi-Spitzkohl. Maronen und gerösteter Buchweizen sorgen für einen knusprigen Akzent; Cranberry-Orangen-Mostarda und ein Steinpilz-Thymian-Jus mit gerösteter Zwiebel bringen Frische und Tiefe.IV · Kürbis-Tiramisu Eine herbstliche Interpretation des Tiramisu, vollendet mit knusprigem, glutenfreiem Amaretti.Die wichtigsten InformationenWann: Freitag, 27. November und Samstag, 28. November 2026 Wo: Boma Berlin, Winsstraße 9, 10405  Preis: 49 € pro Person / Getränkebegleitung optional à 20€ Tickets: Nur im Vorverkauf; ein Ticket ist erforderlich. Buchung: SumupstoreDas Menü ist vegan und glutenfrei. Es enthält Soja (Tamari), Schalenfrüchte (Mandeln und Cashews) sowie Senf.Wir freuen uns darauf, mit dir den Beginn der festlichen Jahreszeit zu feiern.Milla’s Tablewww.millasplace.de",
+   "endDate": "2026-11-28T22:15+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/5HJ9pRqTxiDlg4Tsddvw_1.jpg"
    ],
-   "startDate": "2026-11-21T20:30+0100"
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10405",
+     "streetAddress": "Winsstraße 9"
+    },
+    "name": "BOMA"
+   },
+   "name": "Plant Based 4-Gang Menü",
+   "offers": {
+    "@type": "Offer",
+    "price": "49.00",
+    "priceCurrency": "EUR",
+    "url": "https://millasplace.sumupstore.com",
+    "validFrom": "2026-11-27T18:00+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Milla's Table",
+    "url": "https://rausgegangen.de/organizations/millas-table/"
+   },
+   "startDate": "2026-11-27T18:00+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
-  "fetched": "2026-11-20T14:14:40+01:00",
+  "fetched": "2026-11-20T22:19:30+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -1022,130 +1153,5 @@
    "startDate": "2026-12-19T19:30+0100"
   },
   "seen": "2026-11-15T18:52:24+01:00"
- },
- "https://rausgegangen.de/events/system-olympia-live-0/": {
-  "fetched": "2026-11-20T16:32:04+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Zwischen nächtlicher Autofahrt und Dancefloor Romanze baut Francesca Macri als System Olympia ihren ganz eigenen Kosmos. Vorher legt Paty Vapor auf, dann wird es eher schimmernd als geschniegelt 🌈",
-   "endDate": "2026-12-07T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/T6hD7XmZQMGrGpaDBruN_261206system-olympiat4gheader-kopie.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10963",
-     "streetAddress": "Obentrautstr. 19-21"
-    },
-    "name": "Gretchen"
-   },
-   "name": "System Olympia *live",
-   "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "27.90",
-    "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/system-olympia-live",
-    "validFrom": "2026-07-03T16:51+0200"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "System Olympia"
-   },
-   "startDate": "2026-12-06T19:30+0100"
-  }
- },
- "https://rausgegangen.de/events/wake-shake-coffee-rave-berlin-1/": {
-  "fetched": "2026-11-20T16:39:24+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Berlin, it’s time to trade hangovers for high energy.wake & shake invites you to the ultimate daytime Coffee Rave at SuperCoff at Rosenthaler Platz Berlin Mitte, where specialty coffee meets deep, groovy house beats.From 11:30 to 16:30, we’re serving caffeine, community and carefully selected house music to kickstart your weekend the right way.Our DJs NAIR, OMARO & NHEIRO will guide you through a smooth, uplifting journey. Perfect for dancing, connecting and vibing in daylight.No late nights. No regrets. Just great music, good people and strong coffee.-✨ What to expect:Coffee etc. & Croissant incl. in the ticket priceHouse music all dayFresh coffee & relaxed atmosphereBeautiful crowd & good energyFeel-good dancing before sunset-📍 Location: SuperCoff, Weinbergsweg 24, 10119 Berlin 🗓 Date: Saturday, November 21 ⏰ Time: 11:30 - 16:30-Come awake. Come dance. Come shake. Welcome to the Coffee Rave!-#WakeAndShake #CoffeeRaveBerlin #DayParty #HouseMusic #GoodVibes #BerlinEvents",
-   "endDate": "2026-11-21T16:30+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/t489dJZQQkJaSofpnyBg_coffee-rave-banner-rausgegangen.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10119",
-     "streetAddress": "Weinbergsweg 24"
-    },
-    "name": "SuperCoff"
-   },
-   "name": "WAKE & SHAKE - COFFEE RAVE BERLIN",
-   "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "11.20",
-    "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/wake-shake-coffee-rave-berlin-1",
-    "validFrom": "2026-11-15T20:15+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "wake & shake",
-    "url": "https://rausgegangen.de/organizations/wake-shake/"
-   },
-   "performer": [
-    {
-     "@type": "PerformingGroup",
-     "name": "AMED NHEIRO"
-    },
-    {
-     "@type": "PerformingGroup",
-     "name": "NAIR"
-    },
-    {
-     "@type": "PerformingGroup",
-     "name": "OMARO"
-    }
-   ],
-   "startDate": "2026-11-21T11:30+0100"
-  }
- },
- "https://rausgegangen.de/events/wessen-denkmaler-deutsche-spuren-in-den-polnischen-westgebie-0/": {
-  "fetched": "2026-11-20T16:32:04+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Umgestaltet, umgedeutet oder dem Verfall überlassen: Deutsche Denkmäler nahmen nach 1945 in den neuen polnischen Westgebieten ganz unterschiedliche Wege. Wie gingen die Menschen vor Ort mit diesen Hinterlassenschaften um? Was passte zum Neuanfang, was blieb fremd, und was änderte sich mit der Zeit?In seinem Fotoprojekt „Denkmalforschung“ untersucht Wojtek Sienkiewicz Denkmäler in niederschlesischen Dörfern. Im Gespräch mit der Kulturwissenschaftlerin Karolina Ćwiek-Rogalska geht er der Frage nach, wie lokale Initiativen, politische Vorgaben und alltägliche Entscheidungen ineinandergreifen. Die Denkmäler erzählen von Aneignung und Vernachlässigung, von Erinnerungspolitik und einem Umgang mit dem deutschen Erbe, der bis heute voller Widersprüche ist. PROGRAMMBegrüßungDr. Roland Borchers, Direktor, Dokumentationszentrum Flucht, Vertreibung, Versöhnung, BerlinKatarzyna Sitko, Direktorin, Polnisches Institut Berlin, BerlinPodiumWojtek Sienkiewicz, FotografProf. Karolina Ćwiek-Rogalska, Institut für Slawistik an der Polnischen Akademie der Wissenschaften, WarschauModeration: Prof. Felix Ackermann, Lehrgebiet Public History an der Fernuniversität in Hagen WEITERE HINWEISE  Einlass: 18.00 UhrSprache: Deutsch, Polnisch (mit Simultanübersetzung)EINTRITT FREI, MIT ANMELDUNGEine Veranstaltung im Rahmen der Sonderausstellung „OSTGEBIETE / ZIEMIE ZACHODNIE. Eine deutsch-polnische Spurensuche.\"",
-   "endDate": "2026-11-26T20:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/5Bp6OORBQvmekU2FPgAA_pi-ex-1.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10963",
-     "streetAddress": "Stresemannstraße 90"
-    },
-    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
-   },
-   "name": "Wessen Denkmäler? Deutsche Spuren in den polnischen Westgebieten",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": null,
-    "lowPrice": null,
-    "offerCount": 0,
-    "offers": [],
-    "priceCurrency": "EUR"
-   },
-   "startDate": "2026-11-26T18:30+0100"
-  }
  }
 }

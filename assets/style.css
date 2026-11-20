@@ -1209,7 +1209,7 @@ h2 { line-height: 1.16; }
 @media (max-width: 560px) { .partners { --n: 5; } }
 
 /* Kollektiv: Queens mit Links zu den Profilen */
-.kv-queens { padding-bottom: 0; }
+.kv-queens { padding-top: 0; }
 .kv-queen-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(24px, 4vw, 48px); color: #D8D8D2; }
 .kv-queen-grid h3 { font-size: clamp(22px, 2.4vw, 30px); margin: 0 0 10px; }
 .kv-queen-grid h3 a { color: var(--yellow); text-decoration: none; }

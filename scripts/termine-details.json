@@ -1,6 +1,6 @@
 {
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
-  "fetched": "2026-11-21T12:28:23+01:00",
+  "fetched": "2026-11-21T20:31:22+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -97,7 +97,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-11-21T12:28:23+01:00",
+  "fetched": "2026-11-21T20:31:22+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -208,7 +208,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/bln-reunion-indoor-festival-0/": {
-  "fetched": "2026-11-21T12:28:23+01:00",
+  "fetched": "2026-11-21T20:31:22+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -241,7 +241,7 @@
   }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-11-21T12:28:23+01:00",
+  "fetched": "2026-11-21T20:31:22+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -329,40 +329,8 @@
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/diedaunten-das-kabarett-openmic-berlin-edition-0/": {
-  "fetched": "2026-11-21T12:28:23+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Warum gibt es eigentlich kaum Kabarett-Shows in Berlin? Es ist ja nicht so, dass es an der aktuellen Politik nichts zu meckern oder zu lästern gäbe. Hier ist er: DIEDAUNTEN - ein Abend mit erfahrenen und jungen Kabarettisten und politischen Comedians im Charlottchen. Jede*r hat ca. 10 Minuten.Durch den Abend führt Kriss Rudolph ",
-   "endDate": "2026-11-26T22:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Aw38xYeaTuZSfmr5NyNE_img-20260811-wa0000-1.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10629",
-     "streetAddress": "Droysenstraße 1"
-    },
-    "name": "Charlottchen"
-   },
-   "name": "DIEDAUNTEN - das Kabarett OpenMic (Berlin edition)",
-   "offers": {
-    "@type": "Offer",
-    "price": "10.00",
-    "priceCurrency": "EUR",
-    "validFrom": "2026-11-26T20:00+0100"
-   },
-   "startDate": "2026-11-26T20:00+0100"
-  }
- },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-21T12:28:23+01:00",
+  "fetched": "2026-11-21T20:31:22+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -409,7 +377,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
-  "fetched": "2026-11-21T12:28:23+01:00",
+  "fetched": "2026-11-21T20:31:22+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -454,7 +422,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
-  "fetched": "2026-11-21T12:28:23+01:00",
+  "fetched": "2026-11-21T20:31:22+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -501,7 +469,7 @@
   "seen": "2026-11-15T18:52:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-0/": {
-  "fetched": "2026-11-21T12:28:23+01:00",
+  "fetched": "2026-11-21T20:31:22+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -539,7 +507,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-1/": {
-  "fetched": "2026-11-21T12:28:23+01:00",
+  "fetched": "2026-11-21T20:31:22+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -577,7 +545,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-2/": {
-  "fetched": "2026-11-21T12:28:23+01:00",
+  "fetched": "2026-11-21T20:31:22+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -615,7 +583,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-21T12:28:23+01:00",
+  "fetched": "2026-11-21T20:31:22+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -653,7 +621,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-4/": {
-  "fetched": "2026-11-21T12:28:23+01:00",
+  "fetched": "2026-11-21T20:31:22+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -691,7 +659,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-5/": {
-  "fetched": "2026-11-21T12:28:23+01:00",
+  "fetched": "2026-11-21T20:31:22+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -729,7 +697,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-11-21T12:28:23+01:00",
+  "fetched": "2026-11-21T20:31:22+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -779,16 +747,16 @@
   },
   "seen": "2026-10-27T20:46:24+01:00"
  },
- "https://rausgegangen.de/events/ezra-collective-10/": {
-  "fetched": "2026-11-21T12:28:23+01:00",
+ "https://rausgegangen.de/events/fliegende-haie-alle-gehn-dumm-tour-12/": {
+  "fetched": "2026-11-21T20:31:22+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Ezra Collective verbindet Jazz mit Afrobeat und Hip-Hop und erzählt mit ihrem neuen Album die Geschichte der schwarzen Diaspora aus drei Perspektiven. Ihre Musik fühlt sich an wie ein mitreißendes Gespräch zwischen Kontinenten und Generationen – Hoffnung klingt hier wie ein Versprechen 👀",
-   "endDate": "2027-02-14T05:00+0100",
+   "description": "Kuck dir die Welt doch an: Alle gehn dumm. Smartphone-Zombies, emotionaler Leerstand, machtbesessene Despoten. Zeit für einen Reset – Fliegende Haie finden: Wenn schon dumm gehen, dann richtig! Ausrasten, durchtanzen und schweißnass Hymnen hinausschreien für eine bessere Welt.Unterdrückung von Frauen, mentale Gesundheit, sexuelle Unfreiheit – Haie reißen Wunden auf, denn wir haben keinen Bock, dass morgen noch alles so ist wie heute. Also Blutrausch an und die Issues zermahlen im Revolvergebiss. Dazu Bässe, die Beine wegreißen wie der Weiße Hai.Der Haie-Hyperpop ist seit der letzten Tour 2025 düsterer geworden, doch live energiegeladen wie eh und je: Instant wirst du hineingesogen in eine Artshow, die das Salzwasser aus deinen Poren drückt, bis sie dich als neuer Mensch wieder ausgespuckt. Durchgeschüttelt, wachgerüttelt, aber glücklich. Nur was blutet, kann auch hailen.",
+   "endDate": "2026-12-11T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/m754THj7QeuoRL25IafH_ezracollectivesergio-pontieralbum-anc-lead.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/kDdpHEaT06v9EGY8VXh3_fliegende-haie-alle-gehn-dumm-foto-01quer-c-maxim-kaiser.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -796,42 +764,59 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10965",
-     "streetAddress": "Columbiadamm 13-21"
+     "postalCode": "12435",
+     "streetAddress": "Alt-Treptow 6"
     },
-    "name": "Columbiahalle"
+    "name": "Insel Berlin"
    },
-   "name": "EZRA COLLECTIVE",
+   "name": "FLIEGENDE HAIE - Alle gehn dumm-Tour",
    "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "46.35",
-    "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/ezra-collective-2",
-    "validFrom": "2026-07-10T11:00+0200"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Greyzone Concerts",
-    "url": "https://rausgegangen.de/organizations/greyzone-concerts-ah-q3qn/"
+    "@type": "AggregateOffer",
+    "highPrice": "27.10",
+    "lowPrice": "16.50",
+    "offerCount": 3,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Social Ticket",
+      "price": "16.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "21.80",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Supporterticket",
+      "price": "27.10",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
    },
    "performer": {
     "@type": "PerformingGroup",
-    "name": "Ezra Collective"
+    "name": "Fliegende Haie"
    },
-   "startDate": "2027-02-13T20:00+0100"
+   "startDate": "2026-12-10T20:00+0100"
   }
  },
- "https://rausgegangen.de/events/hainbach-presents-vive-guests-aude-langlois-felipe-vareschi-0/": {
-  "fetched": "2026-11-21T12:28:23+01:00",
+ "https://rausgegangen.de/events/hits-different-steve-clash-club-tour-2026-berlin-0/": {
+  "fetched": "2026-11-21T20:31:22+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Alte Messgeräte, Magnetband, seltsame Synths: Hainbach baut daraus Stücke, die eher klingen wie gefundene Signale als sauber produzierte Tracks. Auf dem neuen Album Vive rücken dabei Melodien und sehr persönliche Momente nach vorn 👾",
-   "endDate": "2027-03-06T05:00+0100",
+   "description": "Electronic dance party with your favorite mashup bangers played in a sophisticated DJ set.Steve Clash zerlegt deine Lieblingssongs. Mainstage-Energie und Meilensteine der Popkultur vereinen sich in den sogenannten Power-Mashups. Deine Lieblingssongs nur lauter, etwas kaputter und tanzbarer.Haftbefehl aber Drum N Bass, Peter Fox aber Bass House, Imogen Heap aber Speed House. Hits different.",
+   "endDate": "2026-11-21T22:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/XIw2NhMuQoCkeMbbhLeS_bildschirmfoto-2026-11-05-um-135606.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/9I0oY3UlTfGrBCKZ1vJC_photobyjoschawiener202608082110131-2.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -839,24 +824,33 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "13347",
-     "streetAddress": "Gerichtstraße 35"
+     "postalCode": "10999",
+     "streetAddress": "Skalitzer Str. 134"
     },
-    "name": "silent green Kulturquartier"
+    "name": "Monarch"
    },
-   "name": "HAINBACH presents VIVE guests: AUDE LANGLOIS & FELIPE VARESCHI",
+   "name": "Hits Different - Steve Clash Club Tour 2026 - Berlin",
    "offers": {
     "@type": "Offer",
-    "price": "26.00",
+    "price": "10.00",
     "priceCurrency": "EUR",
-    "url": "https://www.greyzone-tickets.de/produkte/1395",
-    "validFrom": "2027-03-05T19:00+0100"
+    "url": "https://ticket2go.de/c/5869",
+    "validFrom": "2026-11-21T18:30+0100"
    },
-   "startDate": "2027-03-05T19:00+0100"
+   "organizer": {
+    "@type": "Organization",
+    "name": "Steve Clash",
+    "url": "https://rausgegangen.de/organizations/page-for-team-steve-clash/"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Steve Clash"
+   },
+   "startDate": "2026-11-21T18:30+0100"
   }
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-11-21T12:28:23+01:00",
+  "fetched": "2026-11-21T20:31:22+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -945,8 +939,56 @@
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/jacob-fortyhands-munster-barking-up-the-tree-of-life-tour-20-4/": {
+  "fetched": "2026-11-21T20:31:22+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Sie kommen aus einem Familienprojekt und stehen live oft zu siebt auf der Bühne, mitten in einer Zeit, in der sonst eher alles klein gehalten wird. Jacob Fortyhands drehen diesen Kontrast einfach um 👀",
+   "endDate": "2027-09-14T06:00+0200",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/FLfZP0SOuyspxBqiKHFA_image00004-kopie-komprimiert.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10777",
+     "streetAddress": "Nollendorfplatz 5"
+    },
+    "name": "Mikropol"
+   },
+   "name": "Jacob Fortyhands - Barking up the tree of life Tour 2027",
+   "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "EUR",
+    "url": "https://www.eventim.de/artist/jacob-fortyhands/",
+    "validFrom": "2027-09-13T20:00+0200"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "PRK Dreamhaus",
+    "url": "https://rausgegangen.de/organizations/dreamhaus/"
+   },
+   "performer": [
+    {
+     "@type": "PerformingGroup",
+     "name": "Jacob Fortyhands"
+    },
+    {
+     "@type": "PerformingGroup",
+     "name": "Jacob Fortyhands"
+    }
+   ],
+   "startDate": "2027-09-13T20:00+0200"
+  }
+ },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1/": {
-  "fetched": "2026-11-21T12:28:23+01:00",
+  "fetched": "2026-11-21T20:31:22+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -987,16 +1029,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/mit-vergnugungspark-berlin-1/": {
-  "fetched": "2026-11-21T12:28:23+01:00",
+ "https://rausgegangen.de/events/love-at-first-slide-berlin-power-point-dating-by-rausgegange-14/": {
+  "fetched": "2026-11-21T20:31:22+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Hier findest du an zwei Tagen ein Festival, das mit Musik, Podcasts, Comedy und buntem Essen ganz unterschiedliche Menschen zusammenbringt. Von kreativen Workshops bis zu kinderfreundlichen Attraktionen ist für alle was dabei und neue Highlights werden noch vor dem Start verraten 🤩",
-   "endDate": "2026-11-29T20:00+0100",
+   "description": "Wir bringen mit LOVE AT FIRST SLIDE Dating auf die Bühne: Freund:innen stellen in kurzen Power Point Präsentationen ihre Lieblingssingle vor – charmant, humorvoll und ganz ohne Swipe. Nach den witzigen Pitches kannst du bei Speed-Dating und Barabend neue Begegnungen entdecken. 💘🎤💫",
+   "endDate": "2026-12-02T23:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/wXB5KOdQx2KEI1fvhiIg_mvpark2026bannerticket1200x675pxrzversionzweitewellelineup091126.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/G4DW5S6EQHOrXfM562GP_lafsbannerappstraight-2-5.png"
    ],
    "location": {
     "@type": "Place",
@@ -1004,87 +1046,83 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10437",
-     "streetAddress": "Gleimstraße 31"
+     "postalCode": "10625",
+     "streetAddress": "Kantstraße 127"
     },
-    "name": "Colosseum Berlin"
+    "name": "Dufte Berlin"
    },
-   "name": "Mit Vergnügungspark Berlin",
+   "name": "LOVE AT FIRST SLIDE Berlin | Power Point Dating by Rausgegangen 💖",
    "offers": {
     "@type": "AggregateOffer",
-    "highPrice": "55.00",
-    "lowPrice": "15.00",
-    "offerCount": 8,
+    "highPrice": "19.50",
+    "lowPrice": "10.00",
+    "offerCount": 5,
     "offers": [
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "11 € - Freundschaftsticket",
-      "price": "11.00",
+      "name": "Presenterticket",
+      "price": "10.00",
       "priceCurrency": "EUR"
      },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "Phase 3 Wochenendpass",
-      "price": "39.00",
+      "name": "Publikum Ticket | Ich bin eine hetero Frau",
+      "price": "19.50",
       "priceCurrency": "EUR"
      },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "Phase 3 Wochenendpass + Abendprogramm",
-      "price": "49.00",
+      "name": "Publikum Ticket | Ich bin ein hetero Mann",
+      "price": "19.50",
       "priceCurrency": "EUR"
      },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "Phase 3 Tagesticket Samstag",
-      "price": "30.00",
+      "name": "Publikum Ticket | Ich bin queer",
+      "price": "19.50",
       "priceCurrency": "EUR"
      },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "Phase 3 Tagesticket Samstag + Abendprogramm",
-      "price": "40.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Phase 3 Tagesticket Sonntag",
-      "price": "25.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Workshop \"Redaktion\" + Tagesticket Samstag",
-      "price": "30.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Phase 3 NUR Abendprogramm am Samstag",
-      "price": "15.00",
+      "name": "Mitgegangen",
+      "price": "3.80",
       "priceCurrency": "EUR"
      }
     ],
     "priceCurrency": "EUR"
    },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Mit Vergnügen",
-    "url": "https://rausgegangen.de/organizations/mit-vergnugen-1/"
-   },
-   "startDate": "2026-11-28T14:00+0100"
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "LOVE AT FIRST SLIDE BERLIN by Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/love-at-first-slide-berlin-by-rausgegangen/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Love at first Slide by Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/page-for-team-love-at-first-slide-by-rausgegangen/"
+    },
+    {
+     "@type": "Organization",
+     "name": "LOVE AT FIRST SLIDE by Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/love-at-first-slide-by-rausgegangen/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Team Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/team-rausgegangen/"
+    }
+   ],
+   "startDate": "2026-12-02T19:00+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
-  "fetched": "2026-11-21T12:28:23+01:00",
+  "fetched": "2026-11-21T20:31:22+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -1122,60 +1160,42 @@
   },
   "seen": "2026-11-15T18:52:24+01:00"
  },
- "https://rausgegangen.de/events/tati-comedy-one-laugh-night-31/": {
-  "fetched": "2026-11-21T12:28:23+01:00",
+ "https://rausgegangen.de/events/streichelt-14/": {
+  "fetched": "2026-11-21T20:31:22+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Comedy mit Stil im Tati goes Underground in Berlin. Authentische Stand-up Shows mit bekannten Comedians, Berliner Underground Acts und Newcomern in edler Bar-Atmosphäre mit hochwertigen Cocktails. Die Bühne für spontane Überraschungen. Mal tauchen bekannte Gesichter aus der Comedy-Szene auf, mal brandneue Talente, die man so noch nie gesehen hat.Sicher ist nur eins:Es wird spät, es wird witzig und es wird auch dunkel lustig.Eintritt  ab 16 Jahre",
-   "endDate": "2026-11-25T22:00+0100",
+   "description": "Pop, der sich bei der Neuen Neuen Deutschen Welle bedient und trotzdem schief genug sitzt, um im Kopf zu bleiben. Streichelt bringt nach drei EPs jetzt sein Debütalbum mit, roh und direkt auf der Bühne 🎟️",
+   "endDate": "2026-11-30T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/kJyays4wROGHyg5J9wGS_tati-comedy-club-berliner-stand-up-nacht.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/6XlnfEfmRQki6V1NVKc0_kopie-von-hochkant1creditsminimalsurreal.jpg"
    ],
    "location": {
     "@type": "Place",
     "address": {
      "@type": "PostalAddress",
      "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10405",
-     "streetAddress": "Metzer Straße 2"
+     "addressLocality": "Potsdam",
+     "postalCode": "14467",
+     "streetAddress": "Schiffbauergasse 6"
     },
-    "name": "Tati goes Underground"
+    "name": "Waschhaus Potsdam"
    },
-   "name": "Tati Comedy - Die Stand Up Comedy Show",
+   "name": "Streichelt",
    "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": null,
-    "lowPrice": null,
-    "offerCount": 3,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "16.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Frühbücher",
-      "price": "14.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Studenten",
-      "price": "14.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "23.92",
+    "priceCurrency": "EUR",
+    "url": "https://t.rausgegangen.de/tickets/streichelt-12",
+    "validFrom": "2026-08-16T16:00+0200"
    },
-   "startDate": "2026-11-25T20:00+0100"
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Streichelt"
+   },
+   "startDate": "2026-11-29T20:00+0100"
   }
  }
 }

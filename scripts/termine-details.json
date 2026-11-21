@@ -207,16 +207,16 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/amber-georgia-0/": {
-  "fetched": "2026-11-20T22:19:30+01:00",
+ "https://rausgegangen.de/events/chaya-time-die-woc-stand-up-comedy-show-von-jasmin-kettana-u-0/": {
+  "fetched": "2026-11-21T03:34:34+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Orange im Glas und dahinter mehr als 60 Winzer:innen aus Georgien, die ihre Weine selbst mitbringen. Statt Messestress eher ein direkter Draht zu einer uralten Weintradition 👀",
-   "endDate": "2026-11-28T17:00+0100",
+   "description": "CHAYA TIME - die Stand Up Comedy Show von Jasmin Kettana und Mai MyZwei Hosts, eine Bühne, vier Special Guests – und ein Stand-up-Abend ohne Tabus, dafür mit viel Tea zum Spillen. Es geht um Rebellion, Familie, Dating, Identität und den ganz normalen Alltagswahnsinn. Im Publikum sind alle willkommen – aber auf der Bühne stehen ausschließlich BiPoC-Comedians. Keine Wohlfühl-Klischees, sondern Perspektiven, die sonst viel zu selten das Mikro bekommen. Eine Produktion von SMASH COMEDY: intersektional queerfeministisch, maximal lustig und garantiert gottlos gut.Line Up: Blacktigermom, Elissa Hamurcu, Hebby, Adriana Cristina, Ena Soukou",
+   "endDate": "2026-11-24T22:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/cIF9OMxVScGZqgIavWKV_amber-georgia-berlin-weine-aus-georgien-3.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/2nYO3OQS8Ghf8FyPyCRE_chayas-querformat-1920-x-1080-px.JPEG"
    ],
    "location": {
     "@type": "Place",
@@ -224,24 +224,59 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10997",
-     "streetAddress": "Köpenicker Str. 16/17"
+     "postalCode": "10117",
+     "streetAddress": "Oranienburger Straße 67"
     },
-    "name": "Magazin in der Heeresbäckerei"
+    "name": "Downstairs Comedy Club"
    },
-   "name": "Amber Georgia – Low Intervention Wine Fair",
+   "name": "CHAYA TIME - die Stand Up Comedy Show von Jasmin Kettana und Mai My",
    "offers": {
-    "@type": "Offer",
-    "price": "35.00",
-    "priceCurrency": "EUR",
-    "url": "https://www.universe.com/events/amber-georgia-tickets-LJS031?ref=share-widget-buffer%3Fref%3Dshare-widget-buffer",
-    "validFrom": "2026-11-28T11:00+0100"
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 3,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "22.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Ermäßigt",
+      "price": "13.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Mitgegangen",
+      "price": "3.80",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
    },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "Smash Comedy e.V.",
+     "url": "https://rausgegangen.de/organizations/smash-comedy/"
+    },
+    {
+     "@type": "Organization",
+     "name": "SMASH COMEDY Hamburg",
+     "url": "https://rausgegangen.de/organizations/smash-comedy-hamburg/"
+    }
+   ],
    "performer": {
     "@type": "PerformingGroup",
-    "name": "Amber Georgia Berlin"
+    "name": "Schwessi"
    },
-   "startDate": "2026-11-28T11:00+0100"
+   "startDate": "2026-11-24T20:00+0100"
   }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
@@ -473,7 +508,7 @@
   "seen": "2026-11-15T18:52:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-0/": {
-  "fetched": "2026-11-20T16:39:24+01:00",
+  "fetched": "2026-11-21T03:34:34+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -511,7 +546,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-1/": {
-  "fetched": "2026-11-20T16:39:24+01:00",
+  "fetched": "2026-11-21T03:34:34+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -549,7 +584,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-2/": {
-  "fetched": "2026-11-20T16:39:24+01:00",
+  "fetched": "2026-11-21T03:34:34+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -587,7 +622,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-20T16:39:24+01:00",
+  "fetched": "2026-11-21T03:34:34+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -625,7 +660,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-4/": {
-  "fetched": "2026-11-20T16:39:24+01:00",
+  "fetched": "2026-11-21T03:34:34+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -663,7 +698,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-5/": {
-  "fetched": "2026-11-20T16:39:24+01:00",
+  "fetched": "2026-11-21T03:34:34+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -751,16 +786,16 @@
   },
   "seen": "2026-10-27T20:46:24+01:00"
  },
- "https://rausgegangen.de/events/fritzsessions-vol-30-mit-edo-saiya-alice-stark-hank-234-lott-0/": {
-  "fetched": "2026-11-20T16:39:24+01:00",
+ "https://rausgegangen.de/events/fomo-kiez-dinner-friendsgiving-edition-0/": {
+  "fetched": "2026-11-21T03:34:34+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Zwischen Hyperpop, Rap und Pop steht bei den FritzSessions ein Line up, das eher nach offenem Tab Chaos als nach sauberem Genre klingt. Und mittendrin EDO SAIYA so nah zu hören, obwohl er sonst längst größere Räume füllt 👀",
-   "endDate": "2026-12-15T05:00+0100",
+   "description": "Erst sitzt Du mit vier Unbekannten am Tisch, ein paar Stunden später kennst Du schon ein ganzes Dutzend. Jede Runde zieht weiter in eine andere Wohnung, bis am Ende alle nochmal zusammenkommen 🌈",
+   "endDate": "2026-11-22T01:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/d087df08f6ed4b1fad006de9a423abe6_16x9_fritz_sessions_30_141226-abnahme-neu.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/cb42ed643ff7443d9080d4527fc3cea8_bildschirmfoto-2026-11-12-um-161251.png"
    ],
    "location": {
     "@type": "Place",
@@ -768,47 +803,20 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10997",
-     "streetAddress": "Schlesische Strasse 2"
+     "postalCode": null,
+     "streetAddress": null
     },
-    "name": "Bi Nuu"
+    "name": "Berlin"
    },
-   "name": "FritzSessions, Vol. 30 mit EDO SAIYA, ALICE STARK, HANK, 234, LOTTA & TOSHA",
+   "name": "FOMO Kiez Dinner: Friendsgiving Edition",
    "offers": {
     "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "14.00",
+    "price": "25.00",
     "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/fritzsessions-vol-30-mit-edo-saiya-alice-stark-hank-234-lott",
-    "validFrom": "2026-11-16T16:30+0100"
+    "url": "https://luma.com/fomokiezdinner",
+    "validFrom": "2026-11-21T17:30+0100"
    },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "Bi Nuu",
-     "url": "https://rausgegangen.de/organizations/httpswwwfestsaalshopprodukte474-tickets-muito-kaballa-bi-nuu/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Fritz vom rbb",
-     "url": "https://rausgegangen.de/organizations/fritz-vom-rbb/"
-    }
-   ],
-   "performer": [
-    {
-     "@type": "PerformingGroup",
-     "name": "234"
-    },
-    {
-     "@type": "PerformingGroup",
-     "name": "Alice Stark"
-    },
-    {
-     "@type": "PerformingGroup",
-     "name": "Edo Saiya"
-    }
-   ],
-   "startDate": "2026-12-14T18:00+0100"
+   "startDate": "2026-11-21T17:30+0100"
   }
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
@@ -943,16 +951,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/mit-vergnugungspark-berlin-1/": {
-  "fetched": "2026-11-20T22:19:30+01:00",
+ "https://rausgegangen.de/events/off-the-rails-zum-zum-special-edu-lobo-0/": {
+  "fetched": "2026-11-21T03:34:34+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Hier findest du an zwei Tagen ein Festival, das mit Musik, Podcasts, Comedy und buntem Essen ganz unterschiedliche Menschen zusammenbringt. Von kreativen Workshops bis zu kinderfreundlichen Attraktionen ist für alle was dabei und neue Highlights werden noch vor dem Start verraten 🤩",
-   "endDate": "2026-11-29T20:00+0100",
+   "description": "Brasilianische Rhythmen treffen auf Dub und Drum & Bass, aber gespielt von einem Berliner Liveprojekt statt aus der Konserve. Diesmal nimmt sich ZumZum die Songs von Edu Lobo vor und stellt sie mit vier Musiker:innen neu auf die Bühne 👀",
+   "endDate": "2027-01-15T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/wXB5KOdQx2KEI1fvhiIg_mvpark2026bannerticket1200x675pxrzversionzweitewellelineup091126.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/ytEREV4lQ4GXr9zWsfMq_otrzumzumhorizfb.png"
    ],
    "location": {
     "@type": "Place",
@@ -960,95 +968,38 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10437",
-     "streetAddress": "Gleimstraße 31"
+     "postalCode": "10245",
+     "streetAddress": "Revaler Strasse 99"
     },
-    "name": "Colosseum Berlin"
+    "name": "Badehaus Berlin"
    },
-   "name": "Mit Vergnügungspark Berlin",
+   "name": "Off the Rails: ZumZum • Special Edu Lobo",
    "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "55.00",
-    "lowPrice": "15.00",
-    "offerCount": 8,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "11 € - Freundschaftsticket",
-      "price": "11.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Phase 3 Wochenendpass",
-      "price": "39.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Phase 3 Wochenendpass + Abendprogramm",
-      "price": "49.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Phase 3 Tagesticket Samstag",
-      "price": "30.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Phase 3 Tagesticket Samstag + Abendprogramm",
-      "price": "40.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Phase 3 Tagesticket Sonntag",
-      "price": "25.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Workshop \"Redaktion\" + Tagesticket Samstag",
-      "price": "30.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Phase 3 NUR Abendprogramm am Samstag",
-      "price": "15.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "10.14",
+    "priceCurrency": "EUR",
+    "url": "https://t.rausgegangen.de/tickets/off-the-rails-zum-zum-special-edu-lobo",
+    "validFrom": "2026-11-06T14:27+0100"
    },
    "organizer": {
     "@type": "Organization",
-    "name": "Mit Vergnügen",
-    "url": "https://rausgegangen.de/organizations/mit-vergnugen-1/"
+    "name": "Off the Rails",
+    "url": "https://rausgegangen.de/organizations/off-the-rails/"
    },
-   "startDate": "2026-11-28T14:00+0100"
+   "startDate": "2027-01-14T19:00+0100"
   }
  },
- "https://rausgegangen.de/events/pandawomen-2026-pandawomen-closing-event-anastasia-rydlevska-0/": {
-  "fetched": "2026-11-20T22:19:30+01:00",
+ "https://rausgegangen.de/events/pandawomen-2026-aban-ensemble-dj-rosemah-curated-by-yalda-ya-0/": {
+  "fetched": "2026-11-21T03:34:34+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Masken, Stimme, Elektronik: Bei Anastasia Rydlevskaya steht Pop neben belarussischer Folklore und bildender Kunst, ohne sich sauber trennen zu lassen. Danach übernimmt DJ Svetomusika mit einem spontanen Mix aus aller Welt 🪩",
-   "endDate": "2026-11-29T05:00+0100",
+   "description": "Erst vier Musikerinnen aus Iran, dann DJ ROSEMAH mit Sounds zwischen House, Hip Hop und Klängen aus Afghanistan, Persien und der SWANA Region. Ein Abend, an dem musikalische Welten nicht sauber getrennt bleiben 👀",
+   "endDate": "2026-11-22T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/c6PFSPuQuWhdtlyPLUea_23335image-2048x1024.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/xujcRKOIRwmSNozh4mi6_23207image-2048x1024.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -1061,20 +1012,27 @@
     },
     "name": "PANDA platforma"
    },
-   "name": "PANDAwomen 2026: PANDAwomen closing event: Anastasia Rydlevskaya / DJ Svetomusika",
+   "name": "PANDAwomen 2026: Aban Ensemble / DJ ROSEMAH / Curated by Yalda Yazdani",
    "offers": {
     "@type": "Offer",
-    "price": "25.00",
+    "price": "20.00",
     "priceCurrency": "EUR",
-    "url": "https://panda-platforma.berlin/events/pandawomen-closing-event-anastasia-rydlevskaya-dj-svetomusika/",
-    "validFrom": "2026-11-28T20:30+0100"
+    "url": "https://panda-platforma.berlin/events/aban-ensemble-dj-rosemah/",
+    "validFrom": "2026-11-21T20:30+0100"
    },
-   "organizer": {
-    "@type": "Organization",
-    "name": "PANDAwomen 2026 Festival",
-    "url": "https://rausgegangen.de/organizations/pandawomen-festival/"
-   },
-   "startDate": "2026-11-28T20:30+0100"
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "PANDA platforma e.V.",
+     "url": "https://rausgegangen.de/organizations/page-for-team-panda-platforma-ev/"
+    },
+    {
+     "@type": "Organization",
+     "name": "PANDAwomen 2026 Festival",
+     "url": "https://rausgegangen.de/organizations/pandawomen-festival/"
+    }
+   ],
+   "startDate": "2026-11-21T20:30+0100"
   }
  },
  "https://rausgegangen.de/events/plant-based-4-gang-menu-0/": {
@@ -1153,5 +1111,61 @@
    "startDate": "2026-12-19T19:30+0100"
   },
   "seen": "2026-11-15T18:52:24+01:00"
+ },
+ "https://rausgegangen.de/events/tati-comedy-one-laugh-night-31/": {
+  "fetched": "2026-11-21T03:34:34+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Comedy mit Stil im Tati goes Underground in Berlin. Authentische Stand-up Shows mit bekannten Comedians, Berliner Underground Acts und Newcomern in edler Bar-Atmosphäre mit hochwertigen Cocktails. Die Bühne für spontane Überraschungen. Mal tauchen bekannte Gesichter aus der Comedy-Szene auf, mal brandneue Talente, die man so noch nie gesehen hat.Sicher ist nur eins:Es wird spät, es wird witzig und es wird auch dunkel lustig.Eintritt  ab 16 Jahre",
+   "endDate": "2026-11-25T22:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/kJyays4wROGHyg5J9wGS_tati-comedy-club-berliner-stand-up-nacht.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10405",
+     "streetAddress": "Metzer Straße 2"
+    },
+    "name": "Tati goes Underground"
+   },
+   "name": "Tati Comedy - Die Stand Up Comedy Show",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 3,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "16.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Frühbücher",
+      "price": "14.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Studenten",
+      "price": "14.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "startDate": "2026-11-25T20:00+0100"
+  }
  }
 }

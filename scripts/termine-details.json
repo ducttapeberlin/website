@@ -1,6 +1,6 @@
 {
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
-  "fetched": "2026-11-20T22:19:30+01:00",
+  "fetched": "2026-11-21T12:28:23+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -97,7 +97,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-11-20T22:19:30+01:00",
+  "fetched": "2026-11-21T12:28:23+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -207,16 +207,16 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/chaya-time-die-woc-stand-up-comedy-show-von-jasmin-kettana-u-0/": {
-  "fetched": "2026-11-21T03:34:34+01:00",
+ "https://rausgegangen.de/events/bln-reunion-indoor-festival-0/": {
+  "fetched": "2026-11-21T12:28:23+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "CHAYA TIME - die Stand Up Comedy Show von Jasmin Kettana und Mai MyZwei Hosts, eine Bühne, vier Special Guests – und ein Stand-up-Abend ohne Tabus, dafür mit viel Tea zum Spillen. Es geht um Rebellion, Familie, Dating, Identität und den ganz normalen Alltagswahnsinn. Im Publikum sind alle willkommen – aber auf der Bühne stehen ausschließlich BiPoC-Comedians. Keine Wohlfühl-Klischees, sondern Perspektiven, die sonst viel zu selten das Mikro bekommen. Eine Produktion von SMASH COMEDY: intersektional queerfeministisch, maximal lustig und garantiert gottlos gut.Line Up: Blacktigermom, Elissa Hamurcu, Hebby, Adriana Cristina, Ena Soukou",
-   "endDate": "2026-11-24T22:00+0100",
+   "description": "Drei Floors, 14 Acts, und die neue Eventhalle ist für eine lange elektronische Nacht mitgedacht. Nach vier ausverkauften Ausgaben geht BLN Reunion in die Winterrunde, mit AKA AKA, K Paul und Sascha Braemer 🪩",
+   "endDate": "2026-12-13T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/2nYO3OQS8Ghf8FyPyCRE_chayas-querformat-1920-x-1080-px.JPEG"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/UByHSSIrQtq4vum0PE35_bln1920x1080variantec.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -224,63 +224,24 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10117",
-     "streetAddress": "Oranienburger Straße 67"
+     "postalCode": "10997",
+     "streetAddress": "Köpenicker Straße 16"
     },
-    "name": "Downstairs Comedy Club"
+    "name": "Spindler & Klatt"
    },
-   "name": "CHAYA TIME - die Stand Up Comedy Show von Jasmin Kettana und Mai My",
+   "name": "BLN REUNION INDOOR FESTIVAL - AKA AKA, K-Paul, Sascha Braemer, Blondee uvm.",
    "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": null,
-    "lowPrice": null,
-    "offerCount": 3,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "22.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Ermäßigt",
-      "price": "13.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Mitgegangen",
-      "price": "3.80",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
+    "@type": "Offer",
+    "price": "22.90",
+    "priceCurrency": "EUR",
+    "url": "https://open-air-berlin.ticket.io/ZO7IuWhk/",
+    "validFrom": "2026-12-12T21:00+0100"
    },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "Smash Comedy e.V.",
-     "url": "https://rausgegangen.de/organizations/smash-comedy/"
-    },
-    {
-     "@type": "Organization",
-     "name": "SMASH COMEDY Hamburg",
-     "url": "https://rausgegangen.de/organizations/smash-comedy-hamburg/"
-    }
-   ],
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Schwessi"
-   },
-   "startDate": "2026-11-24T20:00+0100"
+   "startDate": "2026-12-12T21:00+0100"
   }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-11-20T22:19:30+01:00",
+  "fetched": "2026-11-21T12:28:23+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -368,8 +329,40 @@
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/diedaunten-das-kabarett-openmic-berlin-edition-0/": {
+  "fetched": "2026-11-21T12:28:23+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Warum gibt es eigentlich kaum Kabarett-Shows in Berlin? Es ist ja nicht so, dass es an der aktuellen Politik nichts zu meckern oder zu lästern gäbe. Hier ist er: DIEDAUNTEN - ein Abend mit erfahrenen und jungen Kabarettisten und politischen Comedians im Charlottchen. Jede*r hat ca. 10 Minuten.Durch den Abend führt Kriss Rudolph ",
+   "endDate": "2026-11-26T22:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Aw38xYeaTuZSfmr5NyNE_img-20260811-wa0000-1.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10629",
+     "streetAddress": "Droysenstraße 1"
+    },
+    "name": "Charlottchen"
+   },
+   "name": "DIEDAUNTEN - das Kabarett OpenMic (Berlin edition)",
+   "offers": {
+    "@type": "Offer",
+    "price": "10.00",
+    "priceCurrency": "EUR",
+    "validFrom": "2026-11-26T20:00+0100"
+   },
+   "startDate": "2026-11-26T20:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-20T22:19:30+01:00",
+  "fetched": "2026-11-21T12:28:23+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -416,7 +409,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
-  "fetched": "2026-11-20T22:19:30+01:00",
+  "fetched": "2026-11-21T12:28:23+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -461,7 +454,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
-  "fetched": "2026-11-20T22:19:30+01:00",
+  "fetched": "2026-11-21T12:28:23+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -508,7 +501,7 @@
   "seen": "2026-11-15T18:52:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-0/": {
-  "fetched": "2026-11-21T03:34:34+01:00",
+  "fetched": "2026-11-21T12:28:23+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -546,7 +539,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-1/": {
-  "fetched": "2026-11-21T03:34:34+01:00",
+  "fetched": "2026-11-21T12:28:23+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -584,7 +577,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-2/": {
-  "fetched": "2026-11-21T03:34:34+01:00",
+  "fetched": "2026-11-21T12:28:23+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -622,7 +615,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-21T03:34:34+01:00",
+  "fetched": "2026-11-21T12:28:23+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -660,7 +653,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-4/": {
-  "fetched": "2026-11-21T03:34:34+01:00",
+  "fetched": "2026-11-21T12:28:23+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -698,7 +691,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-5/": {
-  "fetched": "2026-11-21T03:34:34+01:00",
+  "fetched": "2026-11-21T12:28:23+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -736,7 +729,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-11-20T22:19:30+01:00",
+  "fetched": "2026-11-21T12:28:23+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -786,16 +779,16 @@
   },
   "seen": "2026-10-27T20:46:24+01:00"
  },
- "https://rausgegangen.de/events/fomo-kiez-dinner-friendsgiving-edition-0/": {
-  "fetched": "2026-11-21T03:34:34+01:00",
+ "https://rausgegangen.de/events/ezra-collective-10/": {
+  "fetched": "2026-11-21T12:28:23+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Erst sitzt Du mit vier Unbekannten am Tisch, ein paar Stunden später kennst Du schon ein ganzes Dutzend. Jede Runde zieht weiter in eine andere Wohnung, bis am Ende alle nochmal zusammenkommen 🌈",
-   "endDate": "2026-11-22T01:00+0100",
+   "description": "Ezra Collective verbindet Jazz mit Afrobeat und Hip-Hop und erzählt mit ihrem neuen Album die Geschichte der schwarzen Diaspora aus drei Perspektiven. Ihre Musik fühlt sich an wie ein mitreißendes Gespräch zwischen Kontinenten und Generationen – Hoffnung klingt hier wie ein Versprechen 👀",
+   "endDate": "2027-02-14T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/cb42ed643ff7443d9080d4527fc3cea8_bildschirmfoto-2026-11-12-um-161251.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/m754THj7QeuoRL25IafH_ezracollectivesergio-pontieralbum-anc-lead.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -803,24 +796,67 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": null,
-     "streetAddress": null
+     "postalCode": "10965",
+     "streetAddress": "Columbiadamm 13-21"
     },
-    "name": "Berlin"
+    "name": "Columbiahalle"
    },
-   "name": "FOMO Kiez Dinner: Friendsgiving Edition",
+   "name": "EZRA COLLECTIVE",
    "offers": {
     "@type": "Offer",
-    "price": "25.00",
+    "availability": "https://schema.org/InStock",
+    "price": "46.35",
     "priceCurrency": "EUR",
-    "url": "https://luma.com/fomokiezdinner",
-    "validFrom": "2026-11-21T17:30+0100"
+    "url": "https://t.rausgegangen.de/tickets/ezra-collective-2",
+    "validFrom": "2026-07-10T11:00+0200"
    },
-   "startDate": "2026-11-21T17:30+0100"
+   "organizer": {
+    "@type": "Organization",
+    "name": "Greyzone Concerts",
+    "url": "https://rausgegangen.de/organizations/greyzone-concerts-ah-q3qn/"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Ezra Collective"
+   },
+   "startDate": "2027-02-13T20:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/hainbach-presents-vive-guests-aude-langlois-felipe-vareschi-0/": {
+  "fetched": "2026-11-21T12:28:23+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Alte Messgeräte, Magnetband, seltsame Synths: Hainbach baut daraus Stücke, die eher klingen wie gefundene Signale als sauber produzierte Tracks. Auf dem neuen Album Vive rücken dabei Melodien und sehr persönliche Momente nach vorn 👾",
+   "endDate": "2027-03-06T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/XIw2NhMuQoCkeMbbhLeS_bildschirmfoto-2026-11-05-um-135606.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "13347",
+     "streetAddress": "Gerichtstraße 35"
+    },
+    "name": "silent green Kulturquartier"
+   },
+   "name": "HAINBACH presents VIVE guests: AUDE LANGLOIS & FELIPE VARESCHI",
+   "offers": {
+    "@type": "Offer",
+    "price": "26.00",
+    "priceCurrency": "EUR",
+    "url": "https://www.greyzone-tickets.de/produkte/1395",
+    "validFrom": "2027-03-05T19:00+0100"
+   },
+   "startDate": "2027-03-05T19:00+0100"
   }
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-11-20T22:19:30+01:00",
+  "fetched": "2026-11-21T12:28:23+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -910,7 +946,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1/": {
-  "fetched": "2026-11-20T22:19:30+01:00",
+  "fetched": "2026-11-21T12:28:23+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -951,16 +987,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/off-the-rails-zum-zum-special-edu-lobo-0/": {
-  "fetched": "2026-11-21T03:34:34+01:00",
+ "https://rausgegangen.de/events/mit-vergnugungspark-berlin-1/": {
+  "fetched": "2026-11-21T12:28:23+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Brasilianische Rhythmen treffen auf Dub und Drum & Bass, aber gespielt von einem Berliner Liveprojekt statt aus der Konserve. Diesmal nimmt sich ZumZum die Songs von Edu Lobo vor und stellt sie mit vier Musiker:innen neu auf die Bühne 👀",
-   "endDate": "2027-01-15T05:00+0100",
+   "description": "Hier findest du an zwei Tagen ein Festival, das mit Musik, Podcasts, Comedy und buntem Essen ganz unterschiedliche Menschen zusammenbringt. Von kreativen Workshops bis zu kinderfreundlichen Attraktionen ist für alle was dabei und neue Highlights werden noch vor dem Start verraten 🤩",
+   "endDate": "2026-11-29T20:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/ytEREV4lQ4GXr9zWsfMq_otrzumzumhorizfb.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/wXB5KOdQx2KEI1fvhiIg_mvpark2026bannerticket1200x675pxrzversionzweitewellelineup091126.png"
    ],
    "location": {
     "@type": "Place",
@@ -968,113 +1004,87 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10245",
-     "streetAddress": "Revaler Strasse 99"
+     "postalCode": "10437",
+     "streetAddress": "Gleimstraße 31"
     },
-    "name": "Badehaus Berlin"
+    "name": "Colosseum Berlin"
    },
-   "name": "Off the Rails: ZumZum • Special Edu Lobo",
+   "name": "Mit Vergnügungspark Berlin",
    "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "10.14",
-    "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/off-the-rails-zum-zum-special-edu-lobo",
-    "validFrom": "2026-11-06T14:27+0100"
+    "@type": "AggregateOffer",
+    "highPrice": "55.00",
+    "lowPrice": "15.00",
+    "offerCount": 8,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "11 € - Freundschaftsticket",
+      "price": "11.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Phase 3 Wochenendpass",
+      "price": "39.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Phase 3 Wochenendpass + Abendprogramm",
+      "price": "49.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Phase 3 Tagesticket Samstag",
+      "price": "30.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Phase 3 Tagesticket Samstag + Abendprogramm",
+      "price": "40.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Phase 3 Tagesticket Sonntag",
+      "price": "25.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Workshop \"Redaktion\" + Tagesticket Samstag",
+      "price": "30.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Phase 3 NUR Abendprogramm am Samstag",
+      "price": "15.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
    },
    "organizer": {
     "@type": "Organization",
-    "name": "Off the Rails",
-    "url": "https://rausgegangen.de/organizations/off-the-rails/"
+    "name": "Mit Vergnügen",
+    "url": "https://rausgegangen.de/organizations/mit-vergnugen-1/"
    },
-   "startDate": "2027-01-14T19:00+0100"
-  }
- },
- "https://rausgegangen.de/events/pandawomen-2026-aban-ensemble-dj-rosemah-curated-by-yalda-ya-0/": {
-  "fetched": "2026-11-21T03:34:34+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Erst vier Musikerinnen aus Iran, dann DJ ROSEMAH mit Sounds zwischen House, Hip Hop und Klängen aus Afghanistan, Persien und der SWANA Region. Ein Abend, an dem musikalische Welten nicht sauber getrennt bleiben 👀",
-   "endDate": "2026-11-22T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/xujcRKOIRwmSNozh4mi6_23207image-2048x1024.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10435",
-     "streetAddress": "Knaackstraße 97"
-    },
-    "name": "PANDA platforma"
-   },
-   "name": "PANDAwomen 2026: Aban Ensemble / DJ ROSEMAH / Curated by Yalda Yazdani",
-   "offers": {
-    "@type": "Offer",
-    "price": "20.00",
-    "priceCurrency": "EUR",
-    "url": "https://panda-platforma.berlin/events/aban-ensemble-dj-rosemah/",
-    "validFrom": "2026-11-21T20:30+0100"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "PANDA platforma e.V.",
-     "url": "https://rausgegangen.de/organizations/page-for-team-panda-platforma-ev/"
-    },
-    {
-     "@type": "Organization",
-     "name": "PANDAwomen 2026 Festival",
-     "url": "https://rausgegangen.de/organizations/pandawomen-festival/"
-    }
-   ],
-   "startDate": "2026-11-21T20:30+0100"
-  }
- },
- "https://rausgegangen.de/events/plant-based-4-gang-menu-0/": {
-  "fetched": "2026-11-20T22:19:30+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Last HarvestEin Festmenü zur VorweihnachtszeitDie festliche Jahreszeit beginnt am Tisch. Am 27. und 28. November laden wir dich ins Boma Berlin zu Last Harvestein: einem veganen und glutenfreien 4-Gänge-Menü, das die Aromen des späten Herbstes mit einem Hauch festlicher Vorfreude verbindet.Das MenüI · Pão-de-Queijo-Trio Drei vegane brasilianische Pão de Queijo, begleitet von aufgeschlagener Salbei-Bohnen-Creme, Quitten-Senf-Chutney und einer Creme aus geröstetem Knoblauch und Sonnenblumenkernen.II · Karamellisierter Chicorée Karamellisierter Chicorée mit Mandel-Ricotta und glänzender Quitten-Gastrique. Knusprige Kapern setzen einen salzigen Akzent; feiner Kerbel vollendet den Teller.III · Gebratener Kräuterseitling Kräftig gebratener Kräuterseitling mit goldenem Kartoffel-Pavé und konfiertem Hispi-Spitzkohl. Maronen und gerösteter Buchweizen sorgen für einen knusprigen Akzent; Cranberry-Orangen-Mostarda und ein Steinpilz-Thymian-Jus mit gerösteter Zwiebel bringen Frische und Tiefe.IV · Kürbis-Tiramisu Eine herbstliche Interpretation des Tiramisu, vollendet mit knusprigem, glutenfreiem Amaretti.Die wichtigsten InformationenWann: Freitag, 27. November und Samstag, 28. November 2026 Wo: Boma Berlin, Winsstraße 9, 10405  Preis: 49 € pro Person / Getränkebegleitung optional à 20€ Tickets: Nur im Vorverkauf; ein Ticket ist erforderlich. Buchung: SumupstoreDas Menü ist vegan und glutenfrei. Es enthält Soja (Tamari), Schalenfrüchte (Mandeln und Cashews) sowie Senf.Wir freuen uns darauf, mit dir den Beginn der festlichen Jahreszeit zu feiern.Milla’s Tablewww.millasplace.de",
-   "endDate": "2026-11-28T22:15+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/5HJ9pRqTxiDlg4Tsddvw_1.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10405",
-     "streetAddress": "Winsstraße 9"
-    },
-    "name": "BOMA"
-   },
-   "name": "Plant Based 4-Gang Menü",
-   "offers": {
-    "@type": "Offer",
-    "price": "49.00",
-    "priceCurrency": "EUR",
-    "url": "https://millasplace.sumupstore.com",
-    "validFrom": "2026-11-27T18:00+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Milla's Table",
-    "url": "https://rausgegangen.de/organizations/millas-table/"
-   },
-   "startDate": "2026-11-27T18:00+0100"
+   "startDate": "2026-11-28T14:00+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
-  "fetched": "2026-11-20T22:19:30+01:00",
+  "fetched": "2026-11-21T12:28:23+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -1113,7 +1123,7 @@
   "seen": "2026-11-15T18:52:24+01:00"
  },
  "https://rausgegangen.de/events/tati-comedy-one-laugh-night-31/": {
-  "fetched": "2026-11-21T03:34:34+01:00",
+  "fetched": "2026-11-21T12:28:23+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",

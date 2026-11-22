@@ -1,4 +1,50 @@
 {
+ "https://rausgegangen.de/events/1-day-chor-berlin-0/": {
+  "fetched": "2026-11-22T01:29:50+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Ein Chor für einen Tag, ohne langes Commitment. Unter Leitung von Constantin Gold entsteht mit anderen ein Medley aus 5 bis 7 Songs, und am Ende wird das gemeinsam Erarbeitete professionell aufgenommen 🎤",
+   "endDate": "2026-12-13T16:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/4JYsZ4KKQ46DQVPPL7v9_design2026eventsonedaychorentwurf01.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "13088",
+     "streetAddress": "Berliner Allee 125"
+    },
+    "name": "PETER EDEL"
+   },
+   "name": "1 DAY CHOR Berlin",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "60.00",
+    "priceCurrency": "EUR",
+    "url": "https://t.rausgegangen.de/tickets/1-day-chor-berlin",
+    "validFrom": "2026-11-05T00:00+0100"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "1 DAY CHOR",
+     "url": "https://rausgegangen.de/organizations/1-day-chor/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Rausgegangen Events",
+     "url": "https://rausgegangen.de/organizations/rausgegangen-events/"
+    }
+   ],
+   "startDate": "2026-12-13T10:30+0100"
+  }
+ },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
   "fetched": "2026-11-21T20:31:22+01:00",
   "ld": {
@@ -207,16 +253,16 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/bln-reunion-indoor-festival-0/": {
-  "fetched": "2026-11-21T20:31:22+01:00",
+ "https://rausgegangen.de/events/bodies-baddies-nye-edition-0/": {
+  "fetched": "2026-11-22T01:29:50+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Drei Floors, 14 Acts, und die neue Eventhalle ist für eine lange elektronische Nacht mitgedacht. Nach vier ausverkauften Ausgaben geht BLN Reunion in die Winterrunde, mit AKA AKA, K Paul und Sascha Braemer 🪩",
-   "endDate": "2026-12-13T05:00+0100",
+   "description": "Wenn Du das Jahr queer und mit ordentlich Energie abschließen willst, klingt das hier ziemlich ideal: mehrere Floors, Shows direkt nach dem Countdown und ein Format, das klar aus der Community kommt. Für Queers, Girls, Gays, Theys, Lovers und Allies gedacht 👀",
+   "endDate": "2027-01-01T06:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/UByHSSIrQtq4vum0PE35_bln1920x1080variantec.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/RqGvZn1mSD2O5uy0Wezo_rausgegangenbnbsasha-kopie2.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -224,20 +270,152 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10997",
-     "streetAddress": "Köpenicker Straße 16"
+     "postalCode": "10777",
+     "streetAddress": "Nollendorfplatz 5"
     },
-    "name": "Spindler & Klatt"
+    "name": "Metropol"
    },
-   "name": "BLN REUNION INDOOR FESTIVAL - AKA AKA, K-Paul, Sascha Braemer, Blondee uvm.",
+   "name": "BODIES & BADDIES // NYE Party",
    "offers": {
-    "@type": "Offer",
-    "price": "22.90",
-    "priceCurrency": "EUR",
-    "url": "https://open-air-berlin.ticket.io/ZO7IuWhk/",
-    "validFrom": "2026-12-12T21:00+0100"
+    "@type": "AggregateOffer",
+    "highPrice": "85.40",
+    "lowPrice": "16.50",
+    "offerCount": 7,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Early Bird",
+      "price": "27.10",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Group Tickets First Wave",
+      "price": "32.40",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "First Wave",
+      "price": "37.70",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "VIP Tickets",
+      "price": "85.40",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Group Tickets Second Wave",
+      "price": "43.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Second Wave",
+      "price": "48.30",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Last Wave // Abendkasse",
+      "price": "52.54",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
    },
-   "startDate": "2026-12-12T21:00+0100"
+   "organizer": {
+    "@type": "Organization",
+    "name": "Ocean Eyes",
+    "url": "https://rausgegangen.de/organizations/ocean-eyes/"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Ocean"
+   },
+   "startDate": "2026-12-31T22:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/chaya-time-die-woc-stand-up-comedy-show-von-jasmin-kettana-u-0/": {
+  "fetched": "2026-11-22T01:29:50+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "CHAYA TIME - die Stand Up Comedy Show von Jasmin Kettana und Mai MyZwei Hosts, eine Bühne, vier Special Guests – und ein Stand-up-Abend ohne Tabus, dafür mit viel Tea zum Spillen. Es geht um Rebellion, Familie, Dating, Identität und den ganz normalen Alltagswahnsinn. Im Publikum sind alle willkommen – aber auf der Bühne stehen ausschließlich BiPoC-Comedians. Keine Wohlfühl-Klischees, sondern Perspektiven, die sonst viel zu selten das Mikro bekommen. Eine Produktion von SMASH COMEDY: intersektional queerfeministisch, maximal lustig und garantiert gottlos gut.Line Up: Blacktigermom, Elissa Hamurcu, Hebby, Adriana Cristina, Ena Soukou",
+   "endDate": "2026-11-24T22:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/2nYO3OQS8Ghf8FyPyCRE_chayas-querformat-1920-x-1080-px.JPEG"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10117",
+     "streetAddress": "Oranienburger Straße 67"
+    },
+    "name": "Downstairs Comedy Club"
+   },
+   "name": "CHAYA TIME - die Stand Up Comedy Show von Jasmin Kettana und Mai My",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 3,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "22.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Ermäßigt",
+      "price": "13.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Mitgegangen",
+      "price": "3.80",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "Smash Comedy e.V.",
+     "url": "https://rausgegangen.de/organizations/smash-comedy/"
+    },
+    {
+     "@type": "Organization",
+     "name": "SMASH COMEDY Hamburg",
+     "url": "https://rausgegangen.de/organizations/smash-comedy-hamburg/"
+    }
+   ],
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Schwessi"
+   },
+   "startDate": "2026-11-24T20:00+0100"
   }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
@@ -747,108 +925,6 @@
   },
   "seen": "2026-10-27T20:46:24+01:00"
  },
- "https://rausgegangen.de/events/fliegende-haie-alle-gehn-dumm-tour-12/": {
-  "fetched": "2026-11-21T20:31:22+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Kuck dir die Welt doch an: Alle gehn dumm. Smartphone-Zombies, emotionaler Leerstand, machtbesessene Despoten. Zeit für einen Reset – Fliegende Haie finden: Wenn schon dumm gehen, dann richtig! Ausrasten, durchtanzen und schweißnass Hymnen hinausschreien für eine bessere Welt.Unterdrückung von Frauen, mentale Gesundheit, sexuelle Unfreiheit – Haie reißen Wunden auf, denn wir haben keinen Bock, dass morgen noch alles so ist wie heute. Also Blutrausch an und die Issues zermahlen im Revolvergebiss. Dazu Bässe, die Beine wegreißen wie der Weiße Hai.Der Haie-Hyperpop ist seit der letzten Tour 2025 düsterer geworden, doch live energiegeladen wie eh und je: Instant wirst du hineingesogen in eine Artshow, die das Salzwasser aus deinen Poren drückt, bis sie dich als neuer Mensch wieder ausgespuckt. Durchgeschüttelt, wachgerüttelt, aber glücklich. Nur was blutet, kann auch hailen.",
-   "endDate": "2026-12-11T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/kDdpHEaT06v9EGY8VXh3_fliegende-haie-alle-gehn-dumm-foto-01quer-c-maxim-kaiser.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "12435",
-     "streetAddress": "Alt-Treptow 6"
-    },
-    "name": "Insel Berlin"
-   },
-   "name": "FLIEGENDE HAIE - Alle gehn dumm-Tour",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "27.10",
-    "lowPrice": "16.50",
-    "offerCount": 3,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Social Ticket",
-      "price": "16.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "21.80",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Supporterticket",
-      "price": "27.10",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Fliegende Haie"
-   },
-   "startDate": "2026-12-10T20:00+0100"
-  }
- },
- "https://rausgegangen.de/events/hits-different-steve-clash-club-tour-2026-berlin-0/": {
-  "fetched": "2026-11-21T20:31:22+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Electronic dance party with your favorite mashup bangers played in a sophisticated DJ set.Steve Clash zerlegt deine Lieblingssongs. Mainstage-Energie und Meilensteine der Popkultur vereinen sich in den sogenannten Power-Mashups. Deine Lieblingssongs nur lauter, etwas kaputter und tanzbarer.Haftbefehl aber Drum N Bass, Peter Fox aber Bass House, Imogen Heap aber Speed House. Hits different.",
-   "endDate": "2026-11-21T22:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/9I0oY3UlTfGrBCKZ1vJC_photobyjoschawiener202608082110131-2.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10999",
-     "streetAddress": "Skalitzer Str. 134"
-    },
-    "name": "Monarch"
-   },
-   "name": "Hits Different - Steve Clash Club Tour 2026 - Berlin",
-   "offers": {
-    "@type": "Offer",
-    "price": "10.00",
-    "priceCurrency": "EUR",
-    "url": "https://ticket2go.de/c/5869",
-    "validFrom": "2026-11-21T18:30+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Steve Clash",
-    "url": "https://rausgegangen.de/organizations/page-for-team-steve-clash/"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Steve Clash"
-   },
-   "startDate": "2026-11-21T18:30+0100"
-  }
- },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
   "fetched": "2026-11-21T20:31:22+01:00",
   "ld": {
@@ -939,54 +1015,6 @@
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/jacob-fortyhands-munster-barking-up-the-tree-of-life-tour-20-4/": {
-  "fetched": "2026-11-21T20:31:22+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Sie kommen aus einem Familienprojekt und stehen live oft zu siebt auf der Bühne, mitten in einer Zeit, in der sonst eher alles klein gehalten wird. Jacob Fortyhands drehen diesen Kontrast einfach um 👀",
-   "endDate": "2027-09-14T06:00+0200",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/FLfZP0SOuyspxBqiKHFA_image00004-kopie-komprimiert.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10777",
-     "streetAddress": "Nollendorfplatz 5"
-    },
-    "name": "Mikropol"
-   },
-   "name": "Jacob Fortyhands - Barking up the tree of life Tour 2027",
-   "offers": {
-    "@type": "Offer",
-    "price": 0,
-    "priceCurrency": "EUR",
-    "url": "https://www.eventim.de/artist/jacob-fortyhands/",
-    "validFrom": "2027-09-13T20:00+0200"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "PRK Dreamhaus",
-    "url": "https://rausgegangen.de/organizations/dreamhaus/"
-   },
-   "performer": [
-    {
-     "@type": "PerformingGroup",
-     "name": "Jacob Fortyhands"
-    },
-    {
-     "@type": "PerformingGroup",
-     "name": "Jacob Fortyhands"
-    }
-   ],
-   "startDate": "2027-09-13T20:00+0200"
-  }
- },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1/": {
   "fetched": "2026-11-21T20:31:22+01:00",
   "ld": {
@@ -1029,16 +1057,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/love-at-first-slide-berlin-power-point-dating-by-rausgegange-14/": {
-  "fetched": "2026-11-21T20:31:22+01:00",
+ "https://rausgegangen.de/events/mit-vergnugungspark-berlin-1/": {
+  "fetched": "2026-11-22T01:29:50+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Wir bringen mit LOVE AT FIRST SLIDE Dating auf die Bühne: Freund:innen stellen in kurzen Power Point Präsentationen ihre Lieblingssingle vor – charmant, humorvoll und ganz ohne Swipe. Nach den witzigen Pitches kannst du bei Speed-Dating und Barabend neue Begegnungen entdecken. 💘🎤💫",
-   "endDate": "2026-12-02T23:30+0100",
+   "description": "Hier findest du an zwei Tagen ein Festival, das mit Musik, Podcasts, Comedy und buntem Essen ganz unterschiedliche Menschen zusammenbringt. Von kreativen Workshops bis zu kinderfreundlichen Attraktionen ist für alle was dabei und neue Highlights werden noch vor dem Start verraten 🤩",
+   "endDate": "2026-11-29T20:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/G4DW5S6EQHOrXfM562GP_lafsbannerappstraight-2-5.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/wXB5KOdQx2KEI1fvhiIg_mvpark2026bannerticket1200x675pxrzversionzweitewellelineup091126.png"
    ],
    "location": {
     "@type": "Place",
@@ -1046,79 +1074,122 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10625",
-     "streetAddress": "Kantstraße 127"
+     "postalCode": "10437",
+     "streetAddress": "Gleimstraße 31"
     },
-    "name": "Dufte Berlin"
+    "name": "Colosseum Berlin"
    },
-   "name": "LOVE AT FIRST SLIDE Berlin | Power Point Dating by Rausgegangen 💖",
+   "name": "Mit Vergnügungspark Berlin",
    "offers": {
     "@type": "AggregateOffer",
-    "highPrice": "19.50",
-    "lowPrice": "10.00",
-    "offerCount": 5,
+    "highPrice": "55.00",
+    "lowPrice": "15.00",
+    "offerCount": 8,
     "offers": [
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "Presenterticket",
-      "price": "10.00",
+      "name": "11 € - Freundschaftsticket",
+      "price": "11.00",
       "priceCurrency": "EUR"
      },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "Publikum Ticket | Ich bin eine hetero Frau",
-      "price": "19.50",
+      "name": "Phase 3 Wochenendpass",
+      "price": "39.00",
       "priceCurrency": "EUR"
      },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "Publikum Ticket | Ich bin ein hetero Mann",
-      "price": "19.50",
+      "name": "Phase 3 Wochenendpass + Abendprogramm",
+      "price": "49.00",
       "priceCurrency": "EUR"
      },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "Publikum Ticket | Ich bin queer",
-      "price": "19.50",
+      "name": "Phase 3 Tagesticket Samstag",
+      "price": "30.00",
       "priceCurrency": "EUR"
      },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "Mitgegangen",
-      "price": "3.80",
+      "name": "Phase 3 Tagesticket Samstag + Abendprogramm",
+      "price": "40.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Phase 3 Tagesticket Sonntag",
+      "price": "25.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Workshop \"Redaktion\" + Tagesticket Samstag",
+      "price": "30.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Phase 3 NUR Abendprogramm am Samstag",
+      "price": "15.00",
       "priceCurrency": "EUR"
      }
     ],
     "priceCurrency": "EUR"
    },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "LOVE AT FIRST SLIDE BERLIN by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/love-at-first-slide-berlin-by-rausgegangen/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Love at first Slide by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/page-for-team-love-at-first-slide-by-rausgegangen/"
-    },
-    {
-     "@type": "Organization",
-     "name": "LOVE AT FIRST SLIDE by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/love-at-first-slide-by-rausgegangen/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Team Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/team-rausgegangen/"
-    }
+   "organizer": {
+    "@type": "Organization",
+    "name": "Mit Vergnügen",
+    "url": "https://rausgegangen.de/organizations/mit-vergnugen-1/"
+   },
+   "startDate": "2026-11-28T14:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/paint-feast-mit-ania-von-not-the-creative-kind-0/": {
+  "fetched": "2026-11-22T01:29:50+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Beim Paint & Feast kommen wir an einem liebevoll gedeckten Tisch mit ausgewählten Köstlichkeiten zusammen, um genau das zu tun, was der Name verspricht: zu malen und zu essen. Lenja & Ania arrangieren kleine, essbare Stillleben, die nicht nur zum Snacken einladen, sondern auch als kreative Inspiration dienen. Wir nutzen den Tisch, um gemeinsam Zeit zu verbringen, zu genießen und uns kreativ auszutoben.Ania führt euch mit ein paar kleinen Übungen zum Warmwerden in eure kreative Seite (ja, jede*r hat eine), und danach sucht ihr euch euer Lieblingsstillleben aus und bringt es auf eure eigene Leinwand. Dafür gibt es verschiedene Kunstmaterialien, damit ihr euch ausprobieren könnt. Eine Schritt-für-Schritt-Anleitung gibt es nicht, denn jeder malt die eigene Vision. Aber keine Angst, du musst keine Künstler*in sein, um Spaß dabei zu haben.Was ist enthalten: Grazing Köstlichkeiten von Feasts of Eden zum Snacken ein Glas Wein oder ein alkoholfreies Getränk, sowie Filterkaffee & Tee inklusive, weitere Getränke können vor Ort erworben werdenalle benötigten Kunstmaterialien Das nehmt ihr mit nach Hause: eine von euch selbst bemalte Leinwand",
+   "endDate": "2026-11-22T15:30+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/R3IiZBqrTYudd0uqMQD1_1.png"
    ],
-   "startDate": "2026-12-02T19:00+0100"
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10967",
+     "streetAddress": "Urbanstraße 137A"
+    },
+    "name": "Feasts of Eden"
+   },
+   "name": "PAINT & FEAST mit Ania von N̶o̶t̶ the Creative Kind",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 0,
+    "offers": [],
+    "priceCurrency": "EUR"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Team - Feasts of Eden",
+    "url": "https://rausgegangen.de/organizations/p-team-feasts-of-eden/"
+   },
+   "startDate": "2026-11-22T13:00+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
@@ -1160,42 +1231,42 @@
   },
   "seen": "2026-11-15T18:52:24+01:00"
  },
- "https://rausgegangen.de/events/streichelt-14/": {
-  "fetched": "2026-11-21T20:31:22+01:00",
+ "https://rausgegangen.de/events/teppich-tuften-bei-tuft-tuft-3/": {
+  "fetched": "2026-11-22T01:29:50+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Pop, der sich bei der Neuen Neuen Deutschen Welle bedient und trotzdem schief genug sitzt, um im Kopf zu bleiben. Streichelt bringt nach drei EPs jetzt sein Debütalbum mit, roh und direkt auf der Bühne 🎟️",
-   "endDate": "2026-11-30T05:00+0100",
+   "description": "Entdecke den Kreativtrend Tufting: In diesem 3,5-stündigen Workshop bei Tuft Tuft in Prenzlauer Berg gestaltest du mit einer elektrischen Tufting Gun deinen eigenen Teppich oder Wandbehang (40 x 30 cm). Vorkenntnisse brauchst du keine.Nach der Buchung schickst du deine Designidee an Tuft Tuft – am besten ein einfaches Motiv ohne zu viele kleine Details, spätestens 48 Stunden vor Kursbeginn. Vor Ort lernst du die Tuftingtechnik Schritt für Schritt und wählst aus über 50 Garnfarben. Am Ende gibst du deinem Teppich beim sogenannten Shaving selbst den letzten Schliff.Danach wird dein Werk vom Team professionell fertig verklebt: Nach etwa zwei Wochen holst du es im Studio ab oder lässt es dir gegen eine kleine Gebühr nach Hause schicken.Inklusive: Workshop mit Anleitung auf Englisch, alle Materialien und Werkzeuge, über 50 Garnfarben, Snacks und Getränke.Gut zu wissen: Der Workshop findet auf Englisch statt. Wegen des Gewichts der Tufting Guns ist er ab 14 Jahren geeignet. Bitte bequeme Kleidung ohne weite Ärmel tragen und lange Haare zusammenbinden. Das Studio ist leider nicht barrierefrei.Hinter Tuft Tuft steht Chad Wright, der das Tuften während der Pandemie für sich entdeckt hat und heute sein eigenes Studio betreibt.Den Workshop gibt es auch als Geschenkgutschein bei Truestory – der Gutschein kommt direkt per E-Mail.",
+   "endDate": "2026-11-28T14:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/6XlnfEfmRQki6V1NVKc0_kopie-von-hochkant1creditsminimalsurreal.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/TENVNNXjQ2K5PqlZS0p2_tuft-tuft-monstera.jpg"
    ],
    "location": {
     "@type": "Place",
     "address": {
      "@type": "PostalAddress",
      "addressCountry": "DE",
-     "addressLocality": "Potsdam",
-     "postalCode": "14467",
-     "streetAddress": "Schiffbauergasse 6"
+     "addressLocality": "Berlin",
+     "postalCode": "10405",
+     "streetAddress": "Marienburger Straße 21"
     },
-    "name": "Waschhaus Potsdam"
+    "name": "Tuft Tuft Berlin"
    },
-   "name": "Streichelt",
+   "name": "Teppich tuften bei Tuft Tuft",
    "offers": {
     "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "23.92",
+    "price": "140.00",
     "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/streichelt-12",
-    "validFrom": "2026-08-16T16:00+0200"
+    "url": "https://de.truestory.com/erlebe/tufting-workshop-the-og-bei-tuft-tuft/?utm_source=rausgegangen&utm_medium=affiliate&utm_campaign=rausgegangen&utm_content=tufting-workshop-the-og-bei-tuft-tuft",
+    "validFrom": "2026-11-28T11:00+0100"
    },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Streichelt"
+   "organizer": {
+    "@type": "Organization",
+    "name": "Team - TrueStory Living Experiences Germany GmbH",
+    "url": "https://rausgegangen.de/organizations/p-team-truestory-living-experiences-germany-gmbh/"
    },
-   "startDate": "2026-11-29T20:00+0100"
+   "startDate": "2026-11-28T11:00+0100"
   }
  }
 }

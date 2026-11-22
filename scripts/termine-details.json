@@ -1,6 +1,6 @@
 {
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
-  "fetched": "2026-11-22T17:28:04+01:00",
+  "fetched": "2026-11-22T23:36:08+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -97,7 +97,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-11-22T17:28:04+01:00",
+  "fetched": "2026-11-22T23:36:08+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -207,16 +207,16 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/carlo5-die-letzte-tour-der-welt-2/": {
-  "fetched": "2026-11-22T17:28:04+01:00",
+ "https://rausgegangen.de/events/bln-reunion-indoor-festival-0/": {
+  "fetched": "2026-11-22T23:36:08+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Zwischen Pop und Rap hält Carlo5 seine Songs absichtlich in der Schwebe, mit rauer Stimme und trockenem Witz. Fast alles daran kommt direkt von ihm selbst, vom Schreiben bis zu den Videos 💃",
-   "endDate": "2027-04-09T23:00+0200",
+   "description": "Drei Floors, 14 Acts, und die neue Eventhalle ist für eine lange elektronische Nacht mitgedacht. Nach vier ausverkauften Ausgaben geht BLN Reunion in die Winterrunde, mit AKA AKA, K Paul und Sascha Braemer 🪩",
+   "endDate": "2026-12-13T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/fKEeGi7QaihTGY4sKn05_carlo5-tourevent-header.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/UByHSSIrQtq4vum0PE35_bln1920x1080variantec.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -224,33 +224,129 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10245",
-     "streetAddress": "Revaler Straße 99"
+     "postalCode": "10997",
+     "streetAddress": "Köpenicker Straße 16"
     },
-    "name": "Astra Kulturhaus"
+    "name": "Spindler & Klatt"
    },
-   "name": "Carlo5 • DIE LETZTE TOUR DER WELT",
+   "name": "BLN REUNION INDOOR FESTIVAL - AKA AKA, K-Paul, Sascha Braemer, Blondee uvm.",
    "offers": {
     "@type": "Offer",
-    "price": "39.80",
+    "price": "22.90",
     "priceCurrency": "EUR",
-    "url": "https://carlo5.krasserstoff.com/events/carlo5-die-letzte-tour-der-welt-astra-kulturhaus",
-    "validFrom": "2027-04-09T19:00+0200"
+    "url": "https://open-air-berlin.ticket.io/ZO7IuWhk/",
+    "validFrom": "2026-12-12T21:00+0100"
    },
-   "organizer": {
-    "@type": "Organization",
-    "name": "LANDSTREICHER BOOKING",
-    "url": "https://rausgegangen.de/organizations/landstreicher-booking-ah-fk3y/"
+   "startDate": "2026-12-12T21:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/chaya-time-die-woc-stand-up-comedy-show-von-jasmin-kettana-u-0/": {
+  "fetched": "2026-11-22T23:36:08+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "CHAYA TIME - die Stand Up Comedy Show von Jasmin Kettana und Mai MyZwei Hosts, eine Bühne, vier Special Guests – und ein Stand-up-Abend ohne Tabus, dafür mit viel Tea zum Spillen. Es geht um Rebellion, Familie, Dating, Identität und den ganz normalen Alltagswahnsinn. Im Publikum sind alle willkommen – aber auf der Bühne stehen ausschließlich BiPoC-Comedians. Keine Wohlfühl-Klischees, sondern Perspektiven, die sonst viel zu selten das Mikro bekommen. Eine Produktion von SMASH COMEDY: intersektional queerfeministisch, maximal lustig und garantiert gottlos gut.Line Up: Blacktigermom, Elissa Hamurcu, Hebby, Adriana Cristina, Ena Soukou",
+   "endDate": "2026-11-24T22:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/2nYO3OQS8Ghf8FyPyCRE_chayas-querformat-1920-x-1080-px.JPEG"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10117",
+     "streetAddress": "Oranienburger Straße 67"
+    },
+    "name": "Downstairs Comedy Club"
    },
+   "name": "CHAYA TIME - die Stand Up Comedy Show von Jasmin Kettana und Mai My",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 3,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "22.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Ermäßigt",
+      "price": "13.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Mitgegangen",
+      "price": "3.80",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "Smash Comedy e.V.",
+     "url": "https://rausgegangen.de/organizations/smash-comedy/"
+    },
+    {
+     "@type": "Organization",
+     "name": "SMASH COMEDY Hamburg",
+     "url": "https://rausgegangen.de/organizations/smash-comedy-hamburg/"
+    }
+   ],
    "performer": {
     "@type": "PerformingGroup",
-    "name": "Carlo5"
+    "name": "Schwessi"
    },
-   "startDate": "2027-04-09T19:00+0200"
+   "startDate": "2026-11-24T20:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/christmas-brunch-1/": {
+  "fetched": "2026-11-22T23:36:08+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "CHRISTMAS BRUNCH | Mit Live-Musik & KinderbetreuungNach einer längeren Pause kehrt unser Brunch einmalig im Dezember als festliches Special zurück.Genießt frisch zubereitete italienische und internationale Köstlichkeiten, begleitet von leckeren Drinks in unserem Loft-Ambiente.Freut euch unter anderem auf cremige Burrata auf sizilianischer Datteltomatencreme, hausgemachte Blinis mit geräuchertem Lachs und unsere legendäre Porchetta nach Ariccia-Style – und vieles mehr aus unserem vielfältigen Brunchbuffet.Am 06.12.2026 sorgt Live-Musik der Konzertviolinistin Tjaša Kastelic ﻿für festlichen Adventszauber.﻿Für Kinder von 3 bis 11 Jahren bieten wir eine Betreuung im separaten Loft „La Cucina“ mit Spielen und eigenem Buffet an.Informationen:Kinder 0–2 Jahre kostenfrei (ohne Betreuung)Keine Garantie für 2er-Tische | Platzierung auch in Lounge-Bereichen möglichKeine Parkplätze vor Ort, nur KartenzahlungGruppen ab 10 Personen bitten wir um separate AnfrageKontakt: reservierung@fabrik23.com | +49 171 1291402Buche heute und storniere bis 48 Stunden vorher kostenlos! ",
+   "endDate": "2026-12-06T14:30+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/FhDohmnTjq9YNALVb9sQ_fabrik23-44-2.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "13347",
+     "streetAddress": "Gerichtstraße 23"
+    },
+    "name": "Fabrik 23"
+   },
+   "name": "CHRISTMAS BRUNCH | Mit Live-Musik & Kinderbetreuung",
+   "offers": {
+    "@type": "Offer",
+    "price": "59.00",
+    "priceCurrency": "EUR",
+    "url": "https://www.tickettailor.com/events/fabrik23gmbh1",
+    "validFrom": "2026-12-06T11:00+0100"
+   },
+   "startDate": "2026-12-06T11:00+0100"
   }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-11-22T17:28:04+01:00",
+  "fetched": "2026-11-22T23:36:08+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -339,7 +435,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/diedaunten-das-kabarett-openmic-berlin-edition-0/": {
-  "fetched": "2026-11-22T17:28:04+01:00",
+  "fetched": "2026-11-22T23:36:08+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -371,7 +467,7 @@
   }
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-22T17:28:04+01:00",
+  "fetched": "2026-11-22T23:36:08+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -418,7 +514,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
-  "fetched": "2026-11-22T17:28:04+01:00",
+  "fetched": "2026-11-22T23:36:08+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -463,7 +559,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
-  "fetched": "2026-11-22T17:28:04+01:00",
+  "fetched": "2026-11-22T23:36:08+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -510,7 +606,7 @@
   "seen": "2026-11-15T18:52:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-0/": {
-  "fetched": "2026-11-22T17:28:04+01:00",
+  "fetched": "2026-11-22T23:36:08+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -548,7 +644,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-1/": {
-  "fetched": "2026-11-22T17:28:04+01:00",
+  "fetched": "2026-11-22T23:36:08+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -586,7 +682,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-2/": {
-  "fetched": "2026-11-22T17:28:04+01:00",
+  "fetched": "2026-11-22T23:36:08+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -624,7 +720,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-22T17:28:04+01:00",
+  "fetched": "2026-11-22T23:36:08+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -662,7 +758,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-4/": {
-  "fetched": "2026-11-22T17:28:04+01:00",
+  "fetched": "2026-11-22T23:36:08+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -700,7 +796,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-5/": {
-  "fetched": "2026-11-22T17:28:04+01:00",
+  "fetched": "2026-11-22T23:36:08+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -738,7 +834,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-11-22T17:28:04+01:00",
+  "fetched": "2026-11-22T23:36:08+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -788,160 +884,81 @@
   },
   "seen": "2026-10-27T20:46:24+01:00"
  },
- "https://rausgegangen.de/events/eisfest-wintermarkt-0/": {
-  "fetched": "2026-11-22T17:28:04+01:00",
+ "https://rausgegangen.de/events/geheimkonzert-berlin-24-by-rausgegangen-0/": {
+  "fetched": "2026-11-22T23:36:08+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Zwischen Kerzenwachs aus den Bienenstöcken des MINSK und einer Fotowand mit echten Expeditionsanzügen wird Winter plötzlich ziemlich konkret. Neben dem Markt kannst Du auch in die aktuellen Ausstellungen rübergehen 🙂",
-   "endDate": "2026-11-28T20:00+0100",
+   "description": "Na Hallo! Es ist wieder so weit: Ein Abend voller Überraschung - denn wer auf der Bühne steht, bleibt bis zum ersten Ton geheim. Wir hatten schon Blond, Berq, Ennio, Futurebae, Jassin, Anais, Katha Pauer & viele mehr zu Gast – und das schon bevor sie die großen Bühnen der Nation gestürmt haben. Also entdecke die Stars von Morgen bei unseren Geheimkonzerten. 🪩",
+   "endDate": "2026-12-09T22:15+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/jlQimSvgT7mVSBDAFDyr_dasmeisfestwebnlfinalquer.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/mO31iODjTCuFLVfQ493H_gk202516x9photoheadline-32-1.png"
    ],
    "location": {
     "@type": "Place",
     "address": {
      "@type": "PostalAddress",
      "addressCountry": "DE",
-     "addressLocality": "Potsdam",
-     "postalCode": "14473",
-     "streetAddress": "Max-Planck-Strasse 17"
+     "addressLocality": "Berlin"
     },
-    "name": "DAS MINSK Kunsthaus in Potsdam"
+    "name": "Secret location"
    },
-   "name": "EISFEST & WINTERMARKT",
-   "offers": {
-    "@type": "Offer",
-    "price": "0.00",
-    "priceCurrency": "EUR",
-    "validFrom": "2026-11-28T11:00+0100"
-   },
-   "startDate": "2026-11-28T11:00+0100"
-  }
- },
- "https://rausgegangen.de/events/fliegende-haie-alle-gehn-dumm-tour-12/": {
-  "fetched": "2026-11-22T17:28:04+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Kuck dir die Welt doch an: Alle gehn dumm. Smartphone-Zombies, emotionaler Leerstand, machtbesessene Despoten. Zeit für einen Reset – Fliegende Haie finden: Wenn schon dumm gehen, dann richtig! Ausrasten, durchtanzen und schweißnass Hymnen hinausschreien für eine bessere Welt.Unterdrückung von Frauen, mentale Gesundheit, sexuelle Unfreiheit – Haie reißen Wunden auf, denn wir haben keinen Bock, dass morgen noch alles so ist wie heute. Also Blutrausch an und die Issues zermahlen im Revolvergebiss. Dazu Bässe, die Beine wegreißen wie der Weiße Hai.Der Haie-Hyperpop ist seit der letzten Tour 2025 düsterer geworden, doch live energiegeladen wie eh und je: Instant wirst du hineingesogen in eine Artshow, die das Salzwasser aus deinen Poren drückt, bis sie dich als neuer Mensch wieder ausgespuckt. Durchgeschüttelt, wachgerüttelt, aber glücklich. Nur was blutet, kann auch hailen.",
-   "endDate": "2026-12-11T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/kDdpHEaT06v9EGY8VXh3_fliegende-haie-alle-gehn-dumm-foto-01quer-c-maxim-kaiser.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "12435",
-     "streetAddress": "Alt-Treptow 6"
-    },
-    "name": "Insel Berlin"
-   },
-   "name": "FLIEGENDE HAIE - Alle gehn dumm-Tour",
+   "name": "Geheimkonzert Berlin #24 by Rausgegangen",
    "offers": {
     "@type": "AggregateOffer",
-    "highPrice": "27.10",
-    "lowPrice": "16.50",
-    "offerCount": 3,
+    "highPrice": "29.90",
+    "lowPrice": "24.50",
+    "offerCount": 4,
     "offers": [
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "Social Ticket",
-      "price": "16.50",
+      "name": "SCHNAPPER",
+      "price": "21.90",
       "priceCurrency": "EUR"
      },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "21.80",
+      "name": "REGULAR",
+      "price": "25.90",
       "priceCurrency": "EUR"
      },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "Supporterticket",
-      "price": "27.10",
+      "name": "4er FRIENDS BUNDLE",
+      "price": "23.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Mitgegangen",
+      "price": "3.80",
       "priceCurrency": "EUR"
      }
     ],
     "priceCurrency": "EUR"
    },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Fliegende Haie"
-   },
-   "startDate": "2026-12-10T20:00+0100"
-  }
- },
- "https://rausgegangen.de/events/fritzsessions-vol-30-mit-edo-saiya-alice-stark-hank-234-lott-0/": {
-  "fetched": "2026-11-22T17:28:04+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Zwischen Hyperpop, Rap und Pop steht bei den FritzSessions ein Line up, das eher nach offenem Tab Chaos als nach sauberem Genre klingt. Und mittendrin EDO SAIYA so nah zu hören, obwohl er sonst längst größere Räume füllt 👀",
-   "endDate": "2026-12-15T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/d087df08f6ed4b1fad006de9a423abe6_16x9_fritz_sessions_30_141226-abnahme-neu.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10997",
-     "streetAddress": "Schlesische Strasse 2"
-    },
-    "name": "Bi Nuu"
-   },
-   "name": "FritzSessions, Vol. 30 mit EDO SAIYA, ALICE STARK, HANK, 234, LOTTA & TOSHA",
-   "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "14.00",
-    "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/fritzsessions-vol-30-mit-edo-saiya-alice-stark-hank-234-lott",
-    "validFrom": "2026-11-16T16:30+0100"
-   },
    "organizer": [
     {
      "@type": "Organization",
-     "name": "Bi Nuu",
-     "url": "https://rausgegangen.de/organizations/httpswwwfestsaalshopprodukte474-tickets-muito-kaballa-bi-nuu/"
+     "name": "Rausgegangen Geheimkonzerte",
+     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte/"
     },
     {
      "@type": "Organization",
-     "name": "Fritz vom rbb",
-     "url": "https://rausgegangen.de/organizations/fritz-vom-rbb/"
+     "name": "Rausgegangen Geheimkonzerte Berlin",
+     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte-3/"
     }
    ],
-   "performer": [
-    {
-     "@type": "PerformingGroup",
-     "name": "234"
-    },
-    {
-     "@type": "PerformingGroup",
-     "name": "Alice Stark"
-    },
-    {
-     "@type": "PerformingGroup",
-     "name": "Edo Saiya"
-    }
-   ],
-   "startDate": "2026-12-14T18:00+0100"
+   "startDate": "2026-12-09T20:00+0100"
   }
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-11-22T17:28:04+01:00",
+  "fetched": "2026-11-22T23:36:08+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -1031,7 +1048,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1/": {
-  "fetched": "2026-11-22T17:28:04+01:00",
+  "fetched": "2026-11-22T23:36:08+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -1073,7 +1090,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/off-the-rails-zum-zum-special-edu-lobo-0/": {
-  "fetched": "2026-11-22T17:28:04+01:00",
+  "fetched": "2026-11-22T23:36:08+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -1112,7 +1129,7 @@
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
-  "fetched": "2026-11-22T17:28:04+01:00",
+  "fetched": "2026-11-22T23:36:08+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",

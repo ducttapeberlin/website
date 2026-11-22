@@ -1,6 +1,6 @@
 {
  "https://rausgegangen.de/events/1-day-chor-berlin-0/": {
-  "fetched": "2026-11-22T01:29:50+01:00",
+  "fetched": "2026-11-22T09:13:27+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -46,7 +46,7 @@
   }
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
-  "fetched": "2026-11-21T20:31:22+01:00",
+  "fetched": "2026-11-22T09:13:27+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -143,7 +143,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-11-21T20:31:22+01:00",
+  "fetched": "2026-11-22T09:13:27+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -253,173 +253,8 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/bodies-baddies-nye-edition-0/": {
-  "fetched": "2026-11-22T01:29:50+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Wenn Du das Jahr queer und mit ordentlich Energie abschließen willst, klingt das hier ziemlich ideal: mehrere Floors, Shows direkt nach dem Countdown und ein Format, das klar aus der Community kommt. Für Queers, Girls, Gays, Theys, Lovers und Allies gedacht 👀",
-   "endDate": "2027-01-01T06:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/RqGvZn1mSD2O5uy0Wezo_rausgegangenbnbsasha-kopie2.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10777",
-     "streetAddress": "Nollendorfplatz 5"
-    },
-    "name": "Metropol"
-   },
-   "name": "BODIES & BADDIES // NYE Party",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "85.40",
-    "lowPrice": "16.50",
-    "offerCount": 7,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Early Bird",
-      "price": "27.10",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Group Tickets First Wave",
-      "price": "32.40",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "First Wave",
-      "price": "37.70",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "VIP Tickets",
-      "price": "85.40",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Group Tickets Second Wave",
-      "price": "43.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Second Wave",
-      "price": "48.30",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Last Wave // Abendkasse",
-      "price": "52.54",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Ocean Eyes",
-    "url": "https://rausgegangen.de/organizations/ocean-eyes/"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Ocean"
-   },
-   "startDate": "2026-12-31T22:00+0100"
-  }
- },
- "https://rausgegangen.de/events/chaya-time-die-woc-stand-up-comedy-show-von-jasmin-kettana-u-0/": {
-  "fetched": "2026-11-22T01:29:50+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "CHAYA TIME - die Stand Up Comedy Show von Jasmin Kettana und Mai MyZwei Hosts, eine Bühne, vier Special Guests – und ein Stand-up-Abend ohne Tabus, dafür mit viel Tea zum Spillen. Es geht um Rebellion, Familie, Dating, Identität und den ganz normalen Alltagswahnsinn. Im Publikum sind alle willkommen – aber auf der Bühne stehen ausschließlich BiPoC-Comedians. Keine Wohlfühl-Klischees, sondern Perspektiven, die sonst viel zu selten das Mikro bekommen. Eine Produktion von SMASH COMEDY: intersektional queerfeministisch, maximal lustig und garantiert gottlos gut.Line Up: Blacktigermom, Elissa Hamurcu, Hebby, Adriana Cristina, Ena Soukou",
-   "endDate": "2026-11-24T22:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/2nYO3OQS8Ghf8FyPyCRE_chayas-querformat-1920-x-1080-px.JPEG"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10117",
-     "streetAddress": "Oranienburger Straße 67"
-    },
-    "name": "Downstairs Comedy Club"
-   },
-   "name": "CHAYA TIME - die Stand Up Comedy Show von Jasmin Kettana und Mai My",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": null,
-    "lowPrice": null,
-    "offerCount": 3,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "22.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Ermäßigt",
-      "price": "13.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Mitgegangen",
-      "price": "3.80",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "Smash Comedy e.V.",
-     "url": "https://rausgegangen.de/organizations/smash-comedy/"
-    },
-    {
-     "@type": "Organization",
-     "name": "SMASH COMEDY Hamburg",
-     "url": "https://rausgegangen.de/organizations/smash-comedy-hamburg/"
-    }
-   ],
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Schwessi"
-   },
-   "startDate": "2026-11-24T20:00+0100"
-  }
- },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-11-21T20:31:22+01:00",
+  "fetched": "2026-11-22T09:13:27+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -507,8 +342,72 @@
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/dein-moment-dein-wein-rheinhessen-zu-gast-in-berlin-0/": {
+  "fetched": "2026-11-22T09:13:27+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Blind probieren, vergleichen, nochmal riechen: In mehreren Weinläden und Restaurants dreht sich gerade alles um Rheinhessen im Glas. Vielleicht stolperst Du dabei über einen Riesling oder Silvaner, den Du ab dann immer wieder bestellst 👀",
+   "endDate": "2026-11-29T00:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/LlmYkJ58TGq9wVBQeO8f_1.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": null,
+     "streetAddress": null
+    },
+    "name": "Berlin"
+   },
+   "name": "Dein Moment. Dein Wein: Rheinhessen zu Gast in Berlin",
+   "offers": {
+    "@type": "Offer",
+    "price": "0.00",
+    "priceCurrency": "EUR",
+    "validFrom": "2026-11-14T00:00+0100"
+   },
+   "startDate": "2026-11-14T00:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/diedaunten-das-kabarett-openmic-berlin-edition-0/": {
+  "fetched": "2026-11-22T09:13:27+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Warum gibt es eigentlich kaum Kabarett-Shows in Berlin? Es ist ja nicht so, dass es an der aktuellen Politik nichts zu meckern oder zu lästern gäbe. Hier ist er: DIEDAUNTEN - ein Abend mit erfahrenen und jungen Kabarettisten und politischen Comedians im Charlottchen. Jede*r hat ca. 10 Minuten.Durch den Abend führt Kriss Rudolph ",
+   "endDate": "2026-11-26T22:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Aw38xYeaTuZSfmr5NyNE_img-20260811-wa0000-1.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10629",
+     "streetAddress": "Droysenstraße 1"
+    },
+    "name": "Charlottchen"
+   },
+   "name": "DIEDAUNTEN - das Kabarett OpenMic (Berlin edition)",
+   "offers": {
+    "@type": "Offer",
+    "price": "10.00",
+    "priceCurrency": "EUR",
+    "validFrom": "2026-11-26T20:00+0100"
+   },
+   "startDate": "2026-11-26T20:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-21T20:31:22+01:00",
+  "fetched": "2026-11-22T09:13:27+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -555,7 +454,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
-  "fetched": "2026-11-21T20:31:22+01:00",
+  "fetched": "2026-11-22T09:13:27+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -600,7 +499,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
-  "fetched": "2026-11-21T20:31:22+01:00",
+  "fetched": "2026-11-22T09:13:27+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -647,7 +546,7 @@
   "seen": "2026-11-15T18:52:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-0/": {
-  "fetched": "2026-11-21T20:31:22+01:00",
+  "fetched": "2026-11-22T09:13:27+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -685,7 +584,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-1/": {
-  "fetched": "2026-11-21T20:31:22+01:00",
+  "fetched": "2026-11-22T09:13:27+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -723,7 +622,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-2/": {
-  "fetched": "2026-11-21T20:31:22+01:00",
+  "fetched": "2026-11-22T09:13:27+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -761,7 +660,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-21T20:31:22+01:00",
+  "fetched": "2026-11-22T09:13:27+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -799,7 +698,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-4/": {
-  "fetched": "2026-11-21T20:31:22+01:00",
+  "fetched": "2026-11-22T09:13:27+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -837,7 +736,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-5/": {
-  "fetched": "2026-11-21T20:31:22+01:00",
+  "fetched": "2026-11-22T09:13:27+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -875,7 +774,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-11-21T20:31:22+01:00",
+  "fetched": "2026-11-22T09:13:27+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -925,8 +824,40 @@
   },
   "seen": "2026-10-27T20:46:24+01:00"
  },
+ "https://rausgegangen.de/events/eisfest-wintermarkt-0/": {
+  "fetched": "2026-11-22T09:13:27+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Zwischen Kerzenwachs aus den Bienenstöcken des MINSK und einer Fotowand mit echten Expeditionsanzügen wird Winter plötzlich ziemlich konkret. Neben dem Markt kannst Du auch in die aktuellen Ausstellungen rübergehen 🙂",
+   "endDate": "2026-11-28T20:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/jlQimSvgT7mVSBDAFDyr_dasmeisfestwebnlfinalquer.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Potsdam",
+     "postalCode": "14473",
+     "streetAddress": "Max-Planck-Strasse 17"
+    },
+    "name": "DAS MINSK Kunsthaus in Potsdam"
+   },
+   "name": "EISFEST & WINTERMARKT",
+   "offers": {
+    "@type": "Offer",
+    "price": "0.00",
+    "priceCurrency": "EUR",
+    "validFrom": "2026-11-28T11:00+0100"
+   },
+   "startDate": "2026-11-28T11:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-11-21T20:31:22+01:00",
+  "fetched": "2026-11-22T09:13:27+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -1016,7 +947,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1/": {
-  "fetched": "2026-11-21T20:31:22+01:00",
+  "fetched": "2026-11-22T09:13:27+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -1057,143 +988,8 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/mit-vergnugungspark-berlin-1/": {
-  "fetched": "2026-11-22T01:29:50+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Hier findest du an zwei Tagen ein Festival, das mit Musik, Podcasts, Comedy und buntem Essen ganz unterschiedliche Menschen zusammenbringt. Von kreativen Workshops bis zu kinderfreundlichen Attraktionen ist für alle was dabei und neue Highlights werden noch vor dem Start verraten 🤩",
-   "endDate": "2026-11-29T20:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/wXB5KOdQx2KEI1fvhiIg_mvpark2026bannerticket1200x675pxrzversionzweitewellelineup091126.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10437",
-     "streetAddress": "Gleimstraße 31"
-    },
-    "name": "Colosseum Berlin"
-   },
-   "name": "Mit Vergnügungspark Berlin",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "55.00",
-    "lowPrice": "15.00",
-    "offerCount": 8,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "11 € - Freundschaftsticket",
-      "price": "11.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Phase 3 Wochenendpass",
-      "price": "39.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Phase 3 Wochenendpass + Abendprogramm",
-      "price": "49.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Phase 3 Tagesticket Samstag",
-      "price": "30.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Phase 3 Tagesticket Samstag + Abendprogramm",
-      "price": "40.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Phase 3 Tagesticket Sonntag",
-      "price": "25.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Workshop \"Redaktion\" + Tagesticket Samstag",
-      "price": "30.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Phase 3 NUR Abendprogramm am Samstag",
-      "price": "15.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Mit Vergnügen",
-    "url": "https://rausgegangen.de/organizations/mit-vergnugen-1/"
-   },
-   "startDate": "2026-11-28T14:00+0100"
-  }
- },
- "https://rausgegangen.de/events/paint-feast-mit-ania-von-not-the-creative-kind-0/": {
-  "fetched": "2026-11-22T01:29:50+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Beim Paint & Feast kommen wir an einem liebevoll gedeckten Tisch mit ausgewählten Köstlichkeiten zusammen, um genau das zu tun, was der Name verspricht: zu malen und zu essen. Lenja & Ania arrangieren kleine, essbare Stillleben, die nicht nur zum Snacken einladen, sondern auch als kreative Inspiration dienen. Wir nutzen den Tisch, um gemeinsam Zeit zu verbringen, zu genießen und uns kreativ auszutoben.Ania führt euch mit ein paar kleinen Übungen zum Warmwerden in eure kreative Seite (ja, jede*r hat eine), und danach sucht ihr euch euer Lieblingsstillleben aus und bringt es auf eure eigene Leinwand. Dafür gibt es verschiedene Kunstmaterialien, damit ihr euch ausprobieren könnt. Eine Schritt-für-Schritt-Anleitung gibt es nicht, denn jeder malt die eigene Vision. Aber keine Angst, du musst keine Künstler*in sein, um Spaß dabei zu haben.Was ist enthalten: Grazing Köstlichkeiten von Feasts of Eden zum Snacken ein Glas Wein oder ein alkoholfreies Getränk, sowie Filterkaffee & Tee inklusive, weitere Getränke können vor Ort erworben werdenalle benötigten Kunstmaterialien Das nehmt ihr mit nach Hause: eine von euch selbst bemalte Leinwand",
-   "endDate": "2026-11-22T15:30+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/R3IiZBqrTYudd0uqMQD1_1.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10967",
-     "streetAddress": "Urbanstraße 137A"
-    },
-    "name": "Feasts of Eden"
-   },
-   "name": "PAINT & FEAST mit Ania von N̶o̶t̶ the Creative Kind",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": null,
-    "lowPrice": null,
-    "offerCount": 0,
-    "offers": [],
-    "priceCurrency": "EUR"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Team - Feasts of Eden",
-    "url": "https://rausgegangen.de/organizations/p-team-feasts-of-eden/"
-   },
-   "startDate": "2026-11-22T13:00+0100"
-  }
- },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
-  "fetched": "2026-11-21T20:31:22+01:00",
+  "fetched": "2026-11-22T09:13:27+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -1230,43 +1026,5 @@
    "startDate": "2026-12-19T19:30+0100"
   },
   "seen": "2026-11-15T18:52:24+01:00"
- },
- "https://rausgegangen.de/events/teppich-tuften-bei-tuft-tuft-3/": {
-  "fetched": "2026-11-22T01:29:50+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Entdecke den Kreativtrend Tufting: In diesem 3,5-stündigen Workshop bei Tuft Tuft in Prenzlauer Berg gestaltest du mit einer elektrischen Tufting Gun deinen eigenen Teppich oder Wandbehang (40 x 30 cm). Vorkenntnisse brauchst du keine.Nach der Buchung schickst du deine Designidee an Tuft Tuft – am besten ein einfaches Motiv ohne zu viele kleine Details, spätestens 48 Stunden vor Kursbeginn. Vor Ort lernst du die Tuftingtechnik Schritt für Schritt und wählst aus über 50 Garnfarben. Am Ende gibst du deinem Teppich beim sogenannten Shaving selbst den letzten Schliff.Danach wird dein Werk vom Team professionell fertig verklebt: Nach etwa zwei Wochen holst du es im Studio ab oder lässt es dir gegen eine kleine Gebühr nach Hause schicken.Inklusive: Workshop mit Anleitung auf Englisch, alle Materialien und Werkzeuge, über 50 Garnfarben, Snacks und Getränke.Gut zu wissen: Der Workshop findet auf Englisch statt. Wegen des Gewichts der Tufting Guns ist er ab 14 Jahren geeignet. Bitte bequeme Kleidung ohne weite Ärmel tragen und lange Haare zusammenbinden. Das Studio ist leider nicht barrierefrei.Hinter Tuft Tuft steht Chad Wright, der das Tuften während der Pandemie für sich entdeckt hat und heute sein eigenes Studio betreibt.Den Workshop gibt es auch als Geschenkgutschein bei Truestory – der Gutschein kommt direkt per E-Mail.",
-   "endDate": "2026-11-28T14:30+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/TENVNNXjQ2K5PqlZS0p2_tuft-tuft-monstera.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10405",
-     "streetAddress": "Marienburger Straße 21"
-    },
-    "name": "Tuft Tuft Berlin"
-   },
-   "name": "Teppich tuften bei Tuft Tuft",
-   "offers": {
-    "@type": "Offer",
-    "price": "140.00",
-    "priceCurrency": "EUR",
-    "url": "https://de.truestory.com/erlebe/tufting-workshop-the-og-bei-tuft-tuft/?utm_source=rausgegangen&utm_medium=affiliate&utm_campaign=rausgegangen&utm_content=tufting-workshop-the-og-bei-tuft-tuft",
-    "validFrom": "2026-11-28T11:00+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Team - TrueStory Living Experiences Germany GmbH",
-    "url": "https://rausgegangen.de/organizations/p-team-truestory-living-experiences-germany-gmbh/"
-   },
-   "startDate": "2026-11-28T11:00+0100"
-  }
  }
 }

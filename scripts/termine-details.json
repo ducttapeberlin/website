@@ -240,16 +240,16 @@
    "startDate": "2026-12-12T21:00+0100"
   }
  },
- "https://rausgegangen.de/events/chaya-time-die-woc-stand-up-comedy-show-von-jasmin-kettana-u-0/": {
-  "fetched": "2026-11-22T23:36:08+01:00",
+ "https://rausgegangen.de/events/cheiland-der-christmas-planner-1/": {
+  "fetched": "2026-11-23T04:49:14+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "CHAYA TIME - die Stand Up Comedy Show von Jasmin Kettana und Mai MyZwei Hosts, eine Bühne, vier Special Guests – und ein Stand-up-Abend ohne Tabus, dafür mit viel Tea zum Spillen. Es geht um Rebellion, Familie, Dating, Identität und den ganz normalen Alltagswahnsinn. Im Publikum sind alle willkommen – aber auf der Bühne stehen ausschließlich BiPoC-Comedians. Keine Wohlfühl-Klischees, sondern Perspektiven, die sonst viel zu selten das Mikro bekommen. Eine Produktion von SMASH COMEDY: intersektional queerfeministisch, maximal lustig und garantiert gottlos gut.Line Up: Blacktigermom, Elissa Hamurcu, Hebby, Adriana Cristina, Ena Soukou",
-   "endDate": "2026-11-24T22:00+0100",
+   "description": "Und schon wieder steht Weihnachten vor der Tür. Und schon wieder lauern uns die gefürchteten Weihnachtsfeiern auf. Ja, da sollten wir aufpassen, denn so manch einer hat beim Schrottwichteln seinen Ehepartner gewonnen.Wie viele Punkte würden Sie Ihren Weihnachtsfeiern auf einer Skala von 1-10 geben und warum sind es nur 3?Schade eigentlich. Aber geht es nicht besser? Lustiger? Origineller? Doch, es geht. Er ist gekommen, um uns die Freude an der Verwandtschaft zurückzubringen: C.Heiland.Er gibt sich uns ganz und gar hin. Mit Haut, Haaren und Omnichord. Diesem seltsamen japanischen Kult-Instrument ohne Saiten und Tasten. Der Heiland kommt, spricht, singt und überschüttet uns mit Liebe und Humor. Und ja, manchmal tanzt er sogar.Der Weg zu Ihrer persönlichen Heiland-Erscheinung ist nah. Banal oder besinnlich – lassen Sie sich vom ganzen Weihnachtswahnsinn erlösen und haben einfach einen richtig guten Abend! Der vielfach mit Preisen ausgezeichnete C.Heiland wird auf die Bühne hinabsteigen, um auch Ihr Fest mit frecher Comedy und anarchischem Musikkabarett zu retten.Ein Abend, scharf wie Pfefferkuchen und süß wie Zimtsternchen. So macht Weihnachten wieder Spaß. Und wenn Sie ganz lieb waren, gibt’s zuhause vielleicht sogar Geschenke und mindestens 8 Punkte.",
+   "endDate": "2026-12-09T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/2nYO3OQS8Ghf8FyPyCRE_chayas-querformat-1920-x-1080-px.JPEG"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/nvsFTuCSnKjiXnnZsDpP_c-ceiland-christmas-foto-olli-haas-original.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -257,92 +257,20 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10117",
-     "streetAddress": "Oranienburger Straße 67"
+     "postalCode": "10961",
+     "streetAddress": "Mehringdamm 34"
     },
-    "name": "Downstairs Comedy Club"
+    "name": "BKA Theater"
    },
-   "name": "CHAYA TIME - die Stand Up Comedy Show von Jasmin Kettana und Mai My",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": null,
-    "lowPrice": null,
-    "offerCount": 3,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "22.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Ermäßigt",
-      "price": "13.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Mitgegangen",
-      "price": "3.80",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "Smash Comedy e.V.",
-     "url": "https://rausgegangen.de/organizations/smash-comedy/"
-    },
-    {
-     "@type": "Organization",
-     "name": "SMASH COMEDY Hamburg",
-     "url": "https://rausgegangen.de/organizations/smash-comedy-hamburg/"
-    }
-   ],
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Schwessi"
-   },
-   "startDate": "2026-11-24T20:00+0100"
-  }
- },
- "https://rausgegangen.de/events/christmas-brunch-1/": {
-  "fetched": "2026-11-22T23:36:08+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "CHRISTMAS BRUNCH | Mit Live-Musik & KinderbetreuungNach einer längeren Pause kehrt unser Brunch einmalig im Dezember als festliches Special zurück.Genießt frisch zubereitete italienische und internationale Köstlichkeiten, begleitet von leckeren Drinks in unserem Loft-Ambiente.Freut euch unter anderem auf cremige Burrata auf sizilianischer Datteltomatencreme, hausgemachte Blinis mit geräuchertem Lachs und unsere legendäre Porchetta nach Ariccia-Style – und vieles mehr aus unserem vielfältigen Brunchbuffet.Am 06.12.2026 sorgt Live-Musik der Konzertviolinistin Tjaša Kastelic ﻿für festlichen Adventszauber.﻿Für Kinder von 3 bis 11 Jahren bieten wir eine Betreuung im separaten Loft „La Cucina“ mit Spielen und eigenem Buffet an.Informationen:Kinder 0–2 Jahre kostenfrei (ohne Betreuung)Keine Garantie für 2er-Tische | Platzierung auch in Lounge-Bereichen möglichKeine Parkplätze vor Ort, nur KartenzahlungGruppen ab 10 Personen bitten wir um separate AnfrageKontakt: reservierung@fabrik23.com | +49 171 1291402Buche heute und storniere bis 48 Stunden vorher kostenlos! ",
-   "endDate": "2026-12-06T14:30+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/FhDohmnTjq9YNALVb9sQ_fabrik23-44-2.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "13347",
-     "streetAddress": "Gerichtstraße 23"
-    },
-    "name": "Fabrik 23"
-   },
-   "name": "CHRISTMAS BRUNCH | Mit Live-Musik & Kinderbetreuung",
+   "name": "C.Heiland: Der C.Hristmas Planner",
    "offers": {
     "@type": "Offer",
-    "price": "59.00",
+    "price": "25.00",
     "priceCurrency": "EUR",
-    "url": "https://www.tickettailor.com/events/fabrik23gmbh1",
-    "validFrom": "2026-12-06T11:00+0100"
+    "url": "https://bka-theater-webshop.comfortticket.de/de/veranstaltung/0d60aa6d-479d-4320-8251-af131be95f9c/4782",
+    "validFrom": "2026-12-08T20:00+0100"
    },
-   "startDate": "2026-12-06T11:00+0100"
+   "startDate": "2026-12-08T20:00+0100"
   }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
@@ -434,16 +362,16 @@
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/diedaunten-das-kabarett-openmic-berlin-edition-0/": {
-  "fetched": "2026-11-22T23:36:08+01:00",
+ "https://rausgegangen.de/events/dein-moment-dein-wein-die-mosel-zu-gast-in-berlin-0/": {
+  "fetched": "2026-11-23T04:49:14+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Warum gibt es eigentlich kaum Kabarett-Shows in Berlin? Es ist ja nicht so, dass es an der aktuellen Politik nichts zu meckern oder zu lästern gäbe. Hier ist er: DIEDAUNTEN - ein Abend mit erfahrenen und jungen Kabarettisten und politischen Comedians im Charlottchen. Jede*r hat ca. 10 Minuten.Durch den Abend führt Kriss Rudolph ",
-   "endDate": "2026-11-26T22:00+0100",
+   "description": "Schieferboden und steile Hänge sind weit weg, im Glas landet trotzdem Mosel. In Berliner Weinläden und Restaurants kannst Du Rieslinge der Region probieren und Dich einmal quer durch diese Weingegend kosten 👩🏻‍🍳",
+   "endDate": "2026-12-20T00:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Aw38xYeaTuZSfmr5NyNE_img-20260811-wa0000-1.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/leL5ZuVfRYiO3x90gloF_2.png"
    ],
    "location": {
     "@type": "Place",
@@ -451,19 +379,51 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10629",
-     "streetAddress": "Droysenstraße 1"
+     "postalCode": null,
+     "streetAddress": null
     },
-    "name": "Charlottchen"
+    "name": "Berlin"
    },
-   "name": "DIEDAUNTEN - das Kabarett OpenMic (Berlin edition)",
+   "name": "Dein Moment. Dein Wein: Die Mosel zu Gast in Berlin",
    "offers": {
     "@type": "Offer",
-    "price": "10.00",
+    "price": "0.00",
     "priceCurrency": "EUR",
-    "validFrom": "2026-11-26T20:00+0100"
+    "validFrom": "2026-12-07T00:00+0100"
    },
-   "startDate": "2026-11-26T20:00+0100"
+   "startDate": "2026-12-07T00:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/der-schatz-eine-bohmische-familiengeschichte-0/": {
+  "fetched": "2026-11-23T04:49:14+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "April 1945. Die Rote Armee rückt unaufhaltsam vor. Am Fuß des Riesengebirges vergräbt Otto Ther eine Kiste mit einem Diamantkreuz, Schmuck und poliertem Silberbesteck. Sie soll überdauern, bis die Familie nach Hohenelbe, heute Vrchlabí, zurückkehren kann.Jahrzehnte später reist sein Enkel, der Historiker Philipp Ther, mit seinem Vater immer wieder in die verlorene Heimat. Das örtliche Museum übergibt ihnen drei Kisten, für den Historiker ein Schatz ganz anderer Art. Die Familiendokumente darin zeigen, wie tief die eigene Familie in den Nationalsozialismus verstrickt war.In „Mein Schatz“ verbindet Philipp Ther Familien- und Zeitgeschichte zu einer persönlichen Erzählung über Herkunft, Schuld und Erinnerung.„Philipp Ther ist ein sozialhistorischer Prosakünstler.“ Gustav Seibt PROGRAMM BegrüßungDr. Roland Borchers, Direktor, Dokumentationszentrum Flucht, Vertreibung, Versöhnung (Berlin)Lesung und GesprächProf. Dr. Philipp Ther, AutorModeration: em. Prof. Dr. Jürgen Kocka, Freie Universität (Berlin)Der Autor steht nach der Lesung für eine Signierstunde bereit. Im Anschluss laden wir Sie zu einem kleinen Empfang ein.  WEITERE HINWEISE   Büchertisch: Buchhandlung „Der Zauberberg“Einlass: 18.00 Uhr   Sprache: DeutschEINTRITT FREI, MIT ANMELDUNGDie Veranstaltung wird aufgezeichnet und auf unserem YouTube-Kanal Flucht, Vertreibung, Versöhnung veröffentlicht.",
+   "endDate": "2026-12-02T20:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/iONiEZu9RfK8U0wtzZgo_der-schatz-2.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10963",
+     "streetAddress": "Stresemannstraße 90"
+    },
+    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
+   },
+   "name": "Der Schatz – Eine böhmische Familiengeschichte",
+   "offers": {
+    "@type": "Offer",
+    "price": "0.00",
+    "priceCurrency": "EUR",
+    "validFrom": "2026-12-02T18:30+0100"
+   },
+   "startDate": "2026-12-02T18:30+0100"
   }
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
@@ -884,79 +844,6 @@
   },
   "seen": "2026-10-27T20:46:24+01:00"
  },
- "https://rausgegangen.de/events/geheimkonzert-berlin-24-by-rausgegangen-0/": {
-  "fetched": "2026-11-22T23:36:08+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Na Hallo! Es ist wieder so weit: Ein Abend voller Überraschung - denn wer auf der Bühne steht, bleibt bis zum ersten Ton geheim. Wir hatten schon Blond, Berq, Ennio, Futurebae, Jassin, Anais, Katha Pauer & viele mehr zu Gast – und das schon bevor sie die großen Bühnen der Nation gestürmt haben. Also entdecke die Stars von Morgen bei unseren Geheimkonzerten. 🪩",
-   "endDate": "2026-12-09T22:15+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/mO31iODjTCuFLVfQ493H_gk202516x9photoheadline-32-1.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin"
-    },
-    "name": "Secret location"
-   },
-   "name": "Geheimkonzert Berlin #24 by Rausgegangen",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "29.90",
-    "lowPrice": "24.50",
-    "offerCount": 4,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "SCHNAPPER",
-      "price": "21.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "REGULAR",
-      "price": "25.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "4er FRIENDS BUNDLE",
-      "price": "23.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Mitgegangen",
-      "price": "3.80",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "Rausgegangen Geheimkonzerte",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Rausgegangen Geheimkonzerte Berlin",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte-3/"
-    }
-   ],
-   "startDate": "2026-12-09T20:00+0100"
-  }
- },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
   "fetched": "2026-11-22T23:36:08+01:00",
   "ld": {
@@ -1089,45 +976,6 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/off-the-rails-zum-zum-special-edu-lobo-0/": {
-  "fetched": "2026-11-22T23:36:08+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Brasilianische Rhythmen treffen auf Dub und Drum & Bass, aber gespielt von einem Berliner Liveprojekt statt aus der Konserve. Diesmal nimmt sich ZumZum die Songs von Edu Lobo vor und stellt sie mit vier Musiker:innen neu auf die Bühne 👀",
-   "endDate": "2027-01-15T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/ytEREV4lQ4GXr9zWsfMq_otrzumzumhorizfb.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10245",
-     "streetAddress": "Revaler Strasse 99"
-    },
-    "name": "Badehaus Berlin"
-   },
-   "name": "Off the Rails: ZumZum • Special Edu Lobo",
-   "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "10.14",
-    "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/off-the-rails-zum-zum-special-edu-lobo",
-    "validFrom": "2026-11-06T14:27+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Off the Rails",
-    "url": "https://rausgegangen.de/organizations/off-the-rails/"
-   },
-   "startDate": "2027-01-14T19:00+0100"
-  }
- },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
   "fetched": "2026-11-22T23:36:08+01:00",
   "ld": {
@@ -1166,5 +1014,92 @@
    "startDate": "2026-12-19T19:30+0100"
   },
   "seen": "2026-11-15T18:52:24+01:00"
+ },
+ "https://rausgegangen.de/events/soffie-how-to-be-a-millionaire-tour-2027-2/": {
+  "fetched": "2026-11-23T04:49:14+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Reich sein heißt bei SOFFIE offenbar nicht Konto, sondern ein voller Raum und Songs, die Leute zusammenziehen. Nach „Für immer Frühling“ kommt sie jetzt mit mehr politischer Kante zurück 🙂",
+   "endDate": "2027-11-06T23:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/LnmT5KSSTaWurfaZu09v_dsc08631chiaranoemii.jpeg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10965",
+     "streetAddress": "Columbiadamm 9-11"
+    },
+    "name": "Columbia Theater"
+   },
+   "name": "SOFFIE - \"How to be a Millionaire\" Tour 2027",
+   "offers": {
+    "@type": "Offer",
+    "price": "32.00",
+    "priceCurrency": "EUR",
+    "url": "https://tickets.eskapaden.net/produkte",
+    "validFrom": "2027-11-06T20:00+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "eskapaden booking",
+    "url": "https://rausgegangen.de/organizations/page-for-team-eskapaden-booking-1/"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Soffie"
+   },
+   "startDate": "2027-11-06T20:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/wunder-001-16-djs-8-collectives-free-entry-0/": {
+  "fetched": "2026-11-23T04:49:14+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "WUNDER oo1: 9 Collectives I 18 DJs I 1 Live Act I 1 Mission  LIMITED FREE TICKETS AVAILABLE VIA THIS LINK  ***LINEUP:  ROOM TRAX: Angioma b2b MarsattacXDISTANT LIFEFORMS: Lifka b2b LucineeCUNTCORE: Dj handbag b2b WHYTOCHAIN REACTION: Adri Alibi b2b Loulou FerrariORBIT BERLIN: Kobzev b2b Flight Møde (DE)HUMAN NATURE (by GLIA): Impedance b2b EMA ZDEŠARSTAY TOXIC: Art Cruel aka Reita D Russo b2b Dj OmarOTRES BIENSKI: nuarrrrr b2b SavaHOLYBERG: Holywanderer b2b KoaboAnna Karina (LIVE) ***  WUNDER is a new c o m m u n i t y - driven event series built on the belief that real change starts within ourselves—and created for e v e r y o n e learning to believe in that power.For each edition, diverse collectives unite to showcase their unique sound and express solidarity through B2B sets. Depending on the venue, each experience is enhanced with live acts, performances, pop-ups and visual art. - pm for collaboration proposalsOur instrument is m u s i c; our s p a c e — the dancefloor.We gather across two floors, share our energy, exchange smiles, and use what we do best—bringing people t o g e t h e r —to send a spark of light exactly where it’s needed most.All donations and proceeds from each event will go towards several Ukrainian organizations.  ***  WUNDER ... gibt es immer",
+   "endDate": "2026-12-06T09:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/ef40529ee28b41709ad435fa500e155c_wunder-001-cover-2.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10407",
+     "streetAddress": "Storkower Straße 119"
+    },
+    "name": "119"
+   },
+   "name": "𝗪𝗨𝗡𝗗𝗘𝗥 𝟬𝟬𝟭 - 18 DJs - 9 COLLECTIVES - 𝗙𝗥𝗘𝗘 𝗘𝗡𝗧𝗥𝗬*",
+   "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "EUR",
+    "url": "https://ra.co/events/2586490",
+    "validFrom": "2026-12-05T20:00+0100"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "the bRAVEs",
+     "url": "https://rausgegangen.de/organizations/the-braves-1/"
+    },
+    {
+     "@type": "Organization",
+     "name": "WUNDER",
+     "url": "https://rausgegangen.de/organizations/wunder/"
+    }
+   ],
+   "startDate": "2026-12-05T20:00+0100"
+  }
  }
 }

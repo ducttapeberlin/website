@@ -200,44 +200,6 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/berlinale-spotlight-forum-chronos-fluss-der-zeit-0/": {
-  "fetched": "2026-11-24T22:00:41+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "„Sarmatische Zeit“ heißt der Gedichtband von Johannes Bobrowski, der für Volker Koepp zum poetischen wie persönlichen Leitmotiv für diese bildstarke wie weitläufige Sondierung einer Region zwischen Ostsee und Schwarzem Meer, entlang der Ströme Memel, Dnister und Pruth wird. Herkunfts-, Sehnsuchts- und Tatort zugleich: Sammelbecken unterschiedlicher Kulturen und Zugehörigkeiten, über ein halbes Jahrhundert Bezugs- und Fluchtpunkt im Schaffen des großen Chronisten sowie Schauplatz wiederkehrender Grausamkeit und Vernichtung. Die Rückkehr zum eigenen Werk mit neuen und alten Weggefährtinnen und Weggefährten wird zur gleichzeitigen Rückschau und Reaktualisierung.Wie durch Delta-Arme entstehen Verbindungen zur deutschen Geschichte und zum gesamteuropäischen Kontext, zwischen Vergangenheit und Gegenwart. Und für einen langen Augenblick scheint in diesem Fluss die Zeit erschreckend stillzustehen, denn spätestens seit Beginn des russischen Angriffskriegs auf die Ukraine 2022 ist das Echo der dieser Region eingeschriebenen Gewalterfahrung nicht mehr zu überhören. Was seinen Ursprung in Gedichten über das Memelland nimmt, entwickelt sich zu einer epochalen Kontemplation über den Menschen in Zeit und Raum.  Volker KoeppGeboren 1944 in Stettin, aufgewachsen in Berlin. Nach einer Ausbildung zum Maschinenschlosser studierte Volker Koepp an der TU Dresden, anschließend an der Deutschen Hochschule für Filmkunst in Babelsberg. Von 1970 bis 1991 war er als Regisseur am DEFA-Studio für Dokumentarfilm beschäftigt. Seither ist er als freier Regisseur, Autor, Produzent sowie in der Lehre tätig. Volker Koepp war mehrfach im Berlinale Forum zu Gast. Neben diversen Auszeichnungen für sein filmisches Werk erhielt er 2014 das Bundesverdienstkreuz 1. Klasse und wurde 2021 Ehrenmitglied der Deutschen Filmakademie.PROGRAMM Begrüßung Dr. Roland Borchers, Direktor, Dokumentationszentrum Flucht, Vertreibung, Versöhnung (Berlin)FilmvorführungChronos – Fluss der ZeitVon: Volker Koepp, Regie, BuchLand: Deutschland 2026Sprache: Deutsch, Ukrainisch, Litauisch, Belarussisch, Russisch, Rumänisch (mit deutschen Untertiteln)Dauer: 200 MinutenFilmgesprächVolker Koepp, RegisseurModeration: Barbara Wurm, Leiterin Berlinale Forum (Berlin) WEITERE HINWEISEEinlass: 17.30 UhrSprache: DeutschEINTRITT FREI MIT ANMELDUNG Das Berlinale Spotlight: Panorama Dokumente, Forum & Generation ist eine Kooperation zwischen dem Dokumentationszentrum Flucht, Vertreibung, Versöhnung und dem European Film Market (EFM) der Internationalen Filmfestspiele Berlin.",
-   "endDate": "2026-12-09T22:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/wDCbAMuThyJFRzPkNbAz_chronospresse01.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10963",
-     "streetAddress": "Stresemannstraße 90"
-    },
-    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
-   },
-   "name": "Berlinale Spotlight – Forum: Chronos – Fluss der Zeit",
-   "offers": {
-    "@type": "Offer",
-    "price": "0.00",
-    "priceCurrency": "EUR",
-    "url": "https://buchungen.flucht-vertreibung-versoehnung.de/de/tickets/112",
-    "validFrom": "2026-12-09T18:00+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung",
-    "url": "https://rausgegangen.de/organizations/dokumentationszentrum-flucht-vertreibung-versohnung/"
-   },
-   "startDate": "2026-12-09T18:00+0100"
-  }
- },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
   "fetched": "2026-11-24T22:00:41+01:00",
   "ld": {
@@ -327,16 +289,16 @@
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/dein-moment-dein-wein-die-mosel-zu-gast-in-berlin-0/": {
-  "fetched": "2026-11-24T22:03:28+01:00",
+ "https://rausgegangen.de/events/der-schatz-eine-bohmische-familiengeschichte-0/": {
+  "fetched": "2026-11-24T22:10:15+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Schieferboden und steile Hänge sind weit weg, im Glas landet trotzdem Mosel. In Berliner Weinläden und Restaurants kannst Du Rieslinge der Region probieren und Dich einmal quer durch diese Weingegend kosten 👩🏻‍🍳",
-   "endDate": "2026-12-20T00:00+0100",
+   "description": "April 1945. Die Rote Armee rückt unaufhaltsam vor. Am Fuß des Riesengebirges vergräbt Otto Ther eine Kiste mit einem Diamantkreuz, Schmuck und poliertem Silberbesteck. Sie soll überdauern, bis die Familie nach Hohenelbe, heute Vrchlabí, zurückkehren kann.Jahrzehnte später reist sein Enkel, der Historiker Philipp Ther, mit seinem Vater immer wieder in die verlorene Heimat. Das örtliche Museum übergibt ihnen drei Kisten, für den Historiker ein Schatz ganz anderer Art. Die Familiendokumente darin zeigen, wie tief die eigene Familie in den Nationalsozialismus verstrickt war.In „Mein Schatz“ verbindet Philipp Ther Familien- und Zeitgeschichte zu einer persönlichen Erzählung über Herkunft, Schuld und Erinnerung.„Philipp Ther ist ein sozialhistorischer Prosakünstler.“ Gustav Seibt PROGRAMM BegrüßungDr. Roland Borchers, Direktor, Dokumentationszentrum Flucht, Vertreibung, Versöhnung (Berlin)Lesung und GesprächProf. Dr. Philipp Ther, AutorModeration: em. Prof. Dr. Jürgen Kocka, Freie Universität (Berlin)Der Autor steht nach der Lesung für eine Signierstunde bereit. Im Anschluss laden wir Sie zu einem kleinen Empfang ein.  WEITERE HINWEISE   Büchertisch: Buchhandlung „Der Zauberberg“Einlass: 18.00 Uhr   Sprache: DeutschEINTRITT FREI, MIT ANMELDUNGDie Veranstaltung wird aufgezeichnet und auf unserem YouTube-Kanal Flucht, Vertreibung, Versöhnung veröffentlicht.",
+   "endDate": "2026-12-02T20:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/leL5ZuVfRYiO3x90gloF_2.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/iONiEZu9RfK8U0wtzZgo_der-schatz-2.png"
    ],
    "location": {
     "@type": "Place",
@@ -344,19 +306,53 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": null,
-     "streetAddress": null
+     "postalCode": "10963",
+     "streetAddress": "Stresemannstraße 90"
     },
-    "name": "Berlin"
+    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
    },
-   "name": "Dein Moment. Dein Wein: Die Mosel zu Gast in Berlin",
+   "name": "Der Schatz – Eine böhmische Familiengeschichte",
    "offers": {
     "@type": "Offer",
     "price": "0.00",
     "priceCurrency": "EUR",
-    "validFrom": "2026-12-07T00:00+0100"
+    "validFrom": "2026-12-02T18:30+0100"
    },
-   "startDate": "2026-12-07T00:00+0100"
+   "startDate": "2026-12-02T18:30+0100"
+  }
+ },
+ "https://rausgegangen.de/events/die-ades-zabel-company-wenn-ediths-glocken-lauten-vol-23-4/": {
+  "fetched": "2026-11-24T22:10:15+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Mit Ades Zabel, Biggy van Blond, Bob Schneider, Nicolai Tegeler & Roman ShamovEdith Schröder, die pralle Prekariats-Prinzessin, die Neuköllner Bezirksbürgermeisterin der Herzen und klebrig-süße Kirsche auf der Chantré-Torte, sorgt mit ihrer üppig ausgestatteten Weihnachtsshow – nunmehr sage und schreibe zum 23. Mal(!) - Jahr für Jahr für ein unvergessliches Erlebnis über den Dächern und in den Herzen von Berlin.Weihnachten in Neukölln: Welcher Vogel da auf den Tisch kommt, wo der Klempner noch schnell ein Rohr verlegt, wie Leggingsboutique-Biggi sich das Kleingeld für die hochwertigen Geschenke dazuverdient und wie viele Atomkraftwerke freigeschaltet werden müssen, um Juttas Weihnachtsbalkon am Leuchten zu halten.Wenn Ediths Glocken läuten – darauf erstmal einen Futschi!",
+   "endDate": "2026-11-30T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/ZrWoGeEfRtybC0A8azBB_ades-zabel-company-ediths-glocken-2019-foto-joern-hartmann-16-9.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10961",
+     "streetAddress": "Mehringdamm 34"
+    },
+    "name": "BKA Theater"
+   },
+   "name": "Die Ades Zabel Company: Wenn Ediths Glocken läuten Vol. 23",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "20.50",
+    "priceCurrency": "EUR",
+    "url": "https://bka-theater-webshop.comfortticket.de/de/produktion/0d60aa6d-479d-4320-8251-af131be95f9c/490",
+    "validFrom": "2026-11-21T21:01+0100"
+   },
+   "startDate": "2026-11-29T19:00+0100"
   }
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
@@ -812,16 +808,16 @@
   "tickets": "duct-tape-11",
   "tickets_ok": false
  },
- "https://rausgegangen.de/events/fliegende-haie-alle-gehn-dumm-tour-12/": {
-  "fetched": "2026-11-24T22:00:41+01:00",
+ "https://rausgegangen.de/events/hainbach-presents-vive-guests-aude-langlois-felipe-vareschi-0/": {
+  "fetched": "2026-11-24T22:10:15+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Kuck dir die Welt doch an: Alle gehn dumm. Smartphone-Zombies, emotionaler Leerstand, machtbesessene Despoten. Zeit für einen Reset – Fliegende Haie finden: Wenn schon dumm gehen, dann richtig! Ausrasten, durchtanzen und schweißnass Hymnen hinausschreien für eine bessere Welt.Unterdrückung von Frauen, mentale Gesundheit, sexuelle Unfreiheit – Haie reißen Wunden auf, denn wir haben keinen Bock, dass morgen noch alles so ist wie heute. Also Blutrausch an und die Issues zermahlen im Revolvergebiss. Dazu Bässe, die Beine wegreißen wie der Weiße Hai.Der Haie-Hyperpop ist seit der letzten Tour 2025 düsterer geworden, doch live energiegeladen wie eh und je: Instant wirst du hineingesogen in eine Artshow, die das Salzwasser aus deinen Poren drückt, bis sie dich als neuer Mensch wieder ausgespuckt. Durchgeschüttelt, wachgerüttelt, aber glücklich. Nur was blutet, kann auch hailen.",
-   "endDate": "2026-12-11T05:00+0100",
+   "description": "Alte Messgeräte, Magnetband, seltsame Synths: Hainbach baut daraus Stücke, die eher klingen wie gefundene Signale als sauber produzierte Tracks. Auf dem neuen Album Vive rücken dabei Melodien und sehr persönliche Momente nach vorn 👾",
+   "endDate": "2027-03-06T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/kDdpHEaT06v9EGY8VXh3_fliegende-haie-alle-gehn-dumm-foto-01quer-c-maxim-kaiser.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/XIw2NhMuQoCkeMbbhLeS_bildschirmfoto-2026-11-05-um-135606.png"
    ],
    "location": {
     "@type": "Place",
@@ -829,47 +825,20 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "12435",
-     "streetAddress": "Alt-Treptow 6"
+     "postalCode": "13347",
+     "streetAddress": "Gerichtstraße 35"
     },
-    "name": "Insel Berlin"
+    "name": "silent green Kulturquartier"
    },
-   "name": "FLIEGENDE HAIE - Alle gehn dumm-Tour",
+   "name": "HAINBACH presents VIVE guests: AUDE LANGLOIS & FELIPE VARESCHI",
    "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "27.10",
-    "lowPrice": "16.50",
-    "offerCount": 3,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Social Ticket",
-      "price": "16.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "21.80",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Supporterticket",
-      "price": "27.10",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
+    "@type": "Offer",
+    "price": "26.00",
+    "priceCurrency": "EUR",
+    "url": "https://www.greyzone-tickets.de/produkte/1395",
+    "validFrom": "2027-03-05T19:00+0100"
    },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Fliegende Haie"
-   },
-   "startDate": "2026-12-10T20:00+0100"
+   "startDate": "2027-03-05T19:00+0100"
   }
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
@@ -1004,6 +973,113 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/mwita-mataro-austrodrama-tour-2/": {
+  "fetched": "2026-11-24T22:10:15+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Da steht einer auf der Bühne, der nach Jahren bei At Pavillon seine Solostimme ziemlich klar gefunden hat. Auf Austrodrama steckt zwischen poppigen Refrains und Rockdruck eine sehr persönliche Suche nach Identität 👀",
+   "endDate": "2027-03-11T23:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/G3qH2PYQtaTF54sd2kSQ_mwitamataroimg4187byatilavadoc.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10179",
+     "streetAddress": "Holzmarktstraße 15-18"
+    },
+    "name": "LARK"
+   },
+   "name": "Mwita Mataro - Austrodrama Tour",
+   "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "EUR",
+    "url": "https://tickets.loft.de/event/mwita-mataro-bazoo7",
+    "validFrom": "2027-03-11T19:00+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "killmebooking",
+    "url": "https://rausgegangen.de/organizations/page-for-team-killmebooking/"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Mwita Mataro"
+   },
+   "startDate": "2027-03-11T19:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/open-air-in-berlin-0/": {
+  "fetched": "2026-11-24T22:10:15+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Kopfhörer auf, und plötzlich ist ein Konzert auch das, was zwischen Dir und den Songs passiert. LIN spielt das Open Air als Silent Show über kabellose Hörer, mit Soli und ermäßigten Tickets statt starrer Preisschilder 🎟️",
+   "endDate": "2027-05-29T23:00+0200",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/BdY1OERbSV9fsSqiuPid_creditstimovogt.jpeg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10245",
+     "streetAddress": "Markgrafendamm"
+    },
+    "name": "Lebendige Stadtgärtnerei"
+   },
+   "name": "LIN Open-Air in Berlin",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "34.52",
+    "lowPrice": "19.68",
+    "offerCount": 3,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Normalpreis",
+      "price": "27.10",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Soli-Preis",
+      "price": "34.52",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Ermäßigt",
+      "price": "19.68",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Listenrecords",
+    "url": "https://rausgegangen.de/organizations/listenrecords-1/"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "LIN"
+   },
+   "startDate": "2027-05-29T19:00+0200"
+  }
+ },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
   "fetched": "2026-11-24T22:00:41+01:00",
   "ld": {
@@ -1043,16 +1119,16 @@
   },
   "seen": "2026-11-15T18:52:24+01:00"
  },
- "https://rausgegangen.de/events/ubin-eoh-honey-blondie-lesung-2027-0/": {
-  "fetched": "2026-11-24T22:03:28+01:00",
+ "https://rausgegangen.de/events/welcome-back-der-neue-smart-2-ist-da-0/": {
+  "fetched": "2026-11-24T22:10:15+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Ein Berlin der 90er, erzählt über eine Freundschaft, die lange nachwirkt. Ubin Eoh liest aus ihrem Debütroman Honey & Blondie und bringt genau diesen persönlichen Ton mit, den man aus ihrem Podcast kennt 💌",
-   "endDate": "2027-02-04T05:00+0100",
+   "description": "Zwischen Kinderverkehrsschule und Fotobox steht ein Auto, das zum ersten Mal gezeigt wird. Der neue smart #2 bekommt seinen ersten Auftritt 👀",
+   "endDate": "2026-11-28T16:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/vwFM8GdSDidLXCZmOCKA_eohubincnevenallgeier.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/8d1a7e87226b40cd92c7ca37c07fff7d_rausgegangen-header-1200-x-366-px.png"
    ],
    "location": {
     "@type": "Place",
@@ -1060,25 +1136,19 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10119",
-     "streetAddress": "Schönhauser Allee 176"
+     "postalCode": "10587",
+     "streetAddress": "Salzufer 1"
     },
-    "name": "Pfefferberg Theater"
+    "name": "Mercedes-Welt am Salzufer"
    },
-   "name": "Ubin Eoh /// Honey & Blondie - Lesung 2027",
+   "name": "Welcome Back! Der neue smart #2 ist da!",
    "offers": {
     "@type": "Offer",
-    "price": "24.80",
+    "price": "0.00",
     "priceCurrency": "EUR",
-    "url": "https://www.eventim.de/noapp/event/ubin-eoh-lesung-honey-blondie-literatur-live-pfefferberg-theater-22383841/?affiliate=AAG&utm_campaign=allartistsagency&utm_source=AAG&utm_medium=dp",
-    "validFrom": "2027-02-03T20:00+0100"
+    "validFrom": "2026-11-28T09:00+0100"
    },
-   "organizer": {
-    "@type": "Organization",
-    "name": "All Artists Agency",
-    "url": "https://rausgegangen.de/organizations/all-artists-agency-1/"
-   },
-   "startDate": "2027-02-03T20:00+0100"
+   "startDate": "2026-11-28T09:00+0100"
   }
  }
 }

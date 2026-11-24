@@ -200,6 +200,116 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/bln-reunion-indoor-festival-0/": {
+  "fetched": "2026-11-24T15:21:45+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Drei Floors, 14 Acts, und die neue Eventhalle ist für eine lange elektronische Nacht mitgedacht. Nach vier ausverkauften Ausgaben geht BLN Reunion in die Winterrunde, mit AKA AKA, K Paul und Sascha Braemer 🪩",
+   "endDate": "2026-12-13T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/UByHSSIrQtq4vum0PE35_bln1920x1080variantec.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10997",
+     "streetAddress": "Köpenicker Straße 16"
+    },
+    "name": "Spindler & Klatt"
+   },
+   "name": "BLN REUNION INDOOR FESTIVAL - AKA AKA, K-Paul, Sascha Braemer, Blondee uvm.",
+   "offers": {
+    "@type": "Offer",
+    "price": "22.90",
+    "priceCurrency": "EUR",
+    "url": "https://open-air-berlin.ticket.io/ZO7IuWhk/",
+    "validFrom": "2026-12-12T21:00+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Open Air 030 Berlin",
+    "url": "https://rausgegangen.de/organizations/open-air-030-berlin/"
+   },
+   "startDate": "2026-12-12T21:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/chaya-time-die-woc-stand-up-comedy-show-von-jasmin-kettana-u-0/": {
+  "fetched": "2026-11-24T15:21:45+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Zwei Hosts, vier Gäste, und auf der Bühne stehen nur BiPoC Comedians. Zwischen Dating, Familie und Identität wird nicht nett um den Punkt herumgeredet, sondern direkt ins Mikro 😂",
+   "endDate": "2026-11-24T22:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/2nYO3OQS8Ghf8FyPyCRE_chayas-querformat-1920-x-1080-px.JPEG"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10117",
+     "streetAddress": "Oranienburger Straße 67"
+    },
+    "name": "Downstairs Comedy Club"
+   },
+   "name": "CHAYA TIME - die Stand Up Comedy Show von Jasmin Kettana und Mai My",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 3,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "22.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Ermäßigt",
+      "price": "13.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Mitgegangen",
+      "price": "3.80",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "Smash Comedy e.V.",
+     "url": "https://rausgegangen.de/organizations/smash-comedy/"
+    },
+    {
+     "@type": "Organization",
+     "name": "SMASH COMEDY Hamburg",
+     "url": "https://rausgegangen.de/organizations/smash-comedy-hamburg/"
+    }
+   ],
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Schwessi"
+   },
+   "startDate": "2026-11-24T20:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
   "fetched": "2026-11-24T13:46:33+01:00",
   "ld": {
@@ -289,16 +399,16 @@
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/diedaunten-das-kabarett-openmic-berlin-edition-0/": {
-  "fetched": "2026-11-24T13:46:33+01:00",
+ "https://rausgegangen.de/events/country-to-country-germany-2027-0/": {
+  "fetched": "2026-11-24T15:21:45+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Warum gibt es eigentlich kaum Kabarett-Shows in Berlin? Es ist ja nicht so, dass es an der aktuellen Politik nichts zu meckern oder zu lästern gäbe. Hier ist er: DIEDAUNTEN - ein Abend mit erfahrenen und jungen Kabarettisten und politischen Comedians im Charlottchen. Jede*r hat ca. 10 Minuten.Durch den Abend führt Kriss Rudolph ",
-   "endDate": "2026-11-26T22:00+0100",
+   "description": "Country to Country kehrt im März 2027 für zwei Tage voller Live-Musik nach Berlin zurück. In der Uber Eats Music Hall treffen die größten Stars der Country-Musik auf die aufregendsten Newcomer:innen des Genres. SAMSTAG, 6. MÄRZAshley McBrydeCooper AlanCarter FaithBlake WhitenMack GeigerLate Night ThoughtsOwen RieglingBellesBec O'MalleySONNTAG, 7. MÄRZJelly RollDashaEmily Ann RobertsDrew BaldridgeKashus CulpepperGreylan JamesLaci Kaye BoothColin Lynch",
+   "endDate": "2027-03-07T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Aw38xYeaTuZSfmr5NyNE_img-20260811-wa0000-1.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/mMjeS7G4QHq4zm7Gw2eQ_axs-confirmation-750x568.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -306,19 +416,52 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10629",
-     "streetAddress": "Droysenstraße 1"
+     "postalCode": "10243",
+     "streetAddress": "Uber-Platz"
     },
-    "name": "Charlottchen"
+    "name": "Uber Eats Music Hall"
    },
-   "name": "DIEDAUNTEN - das Kabarett OpenMic (Berlin edition)",
+   "name": "Country to Country Germany 2027",
    "offers": {
     "@type": "Offer",
-    "price": "10.00",
+    "price": "204.00",
     "priceCurrency": "EUR",
-    "validFrom": "2026-11-26T20:00+0100"
+    "url": "https://queue-de.axs.com/?c=axsde&e=3616770092191&cpch=Affiliate_Rausgegangen&cpcn=AXSDE_20261006_Affiliate_Rausgegangen_C2C_2027_UEMH&cpdn=AXSDE_20261006_Affiliate_Rausgegangen_C2C_2027_UEMH",
+    "validFrom": "2027-03-06T10:30+0100"
    },
-   "startDate": "2026-11-26T20:00+0100"
+   "startDate": "2027-03-06T10:30+0100"
+  }
+ },
+ "https://rausgegangen.de/events/der-schatz-eine-bohmische-familiengeschichte-0/": {
+  "fetched": "2026-11-24T15:21:45+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "April 1945. Die Rote Armee rückt unaufhaltsam vor. Am Fuß des Riesengebirges vergräbt Otto Ther eine Kiste mit einem Diamantkreuz, Schmuck und poliertem Silberbesteck. Sie soll überdauern, bis die Familie nach Hohenelbe, heute Vrchlabí, zurückkehren kann.Jahrzehnte später reist sein Enkel, der Historiker Philipp Ther, mit seinem Vater immer wieder in die verlorene Heimat. Das örtliche Museum übergibt ihnen drei Kisten, für den Historiker ein Schatz ganz anderer Art. Die Familiendokumente darin zeigen, wie tief die eigene Familie in den Nationalsozialismus verstrickt war.In „Mein Schatz“ verbindet Philipp Ther Familien- und Zeitgeschichte zu einer persönlichen Erzählung über Herkunft, Schuld und Erinnerung.„Philipp Ther ist ein sozialhistorischer Prosakünstler.“ Gustav Seibt PROGRAMM BegrüßungDr. Roland Borchers, Direktor, Dokumentationszentrum Flucht, Vertreibung, Versöhnung (Berlin)Lesung und GesprächProf. Dr. Philipp Ther, AutorModeration: em. Prof. Dr. Jürgen Kocka, Freie Universität (Berlin)Der Autor steht nach der Lesung für eine Signierstunde bereit. Im Anschluss laden wir Sie zu einem kleinen Empfang ein.  WEITERE HINWEISE   Büchertisch: Buchhandlung „Der Zauberberg“Einlass: 18.00 Uhr   Sprache: DeutschEINTRITT FREI, MIT ANMELDUNGDie Veranstaltung wird aufgezeichnet und auf unserem YouTube-Kanal Flucht, Vertreibung, Versöhnung veröffentlicht.",
+   "endDate": "2026-12-02T20:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/iONiEZu9RfK8U0wtzZgo_der-schatz-2.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10963",
+     "streetAddress": "Stresemannstraße 90"
+    },
+    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
+   },
+   "name": "Der Schatz – Eine böhmische Familiengeschichte",
+   "offers": {
+    "@type": "Offer",
+    "price": "0.00",
+    "priceCurrency": "EUR",
+    "validFrom": "2026-12-02T18:30+0100"
+   },
+   "startDate": "2026-12-02T18:30+0100"
   }
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
@@ -739,79 +882,6 @@
   },
   "seen": "2026-10-27T20:46:24+01:00"
  },
- "https://rausgegangen.de/events/geheimkonzert-berlin-24-by-rausgegangen-0/": {
-  "fetched": "2026-11-24T13:46:33+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Na Hallo! Es ist wieder so weit: Ein Abend voller Überraschung - denn wer auf der Bühne steht, bleibt bis zum ersten Ton geheim. Wir hatten schon Blond, Berq, Ennio, Futurebae, Jassin, Anais, Katha Pauer & viele mehr zu Gast – und das schon bevor sie die großen Bühnen der Nation gestürmt haben. Also entdecke die Stars von Morgen bei unseren Geheimkonzerten. 🪩",
-   "endDate": "2026-12-09T22:15+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/mO31iODjTCuFLVfQ493H_gk202516x9photoheadline-32-1.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin"
-    },
-    "name": "Secret location"
-   },
-   "name": "Geheimkonzert Berlin #24 by Rausgegangen",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "29.90",
-    "lowPrice": "24.50",
-    "offerCount": 4,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "SCHNAPPER",
-      "price": "21.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "REGULAR",
-      "price": "25.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "4er FRIENDS BUNDLE",
-      "price": "23.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Mitgegangen",
-      "price": "3.80",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "Rausgegangen Geheimkonzerte",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Rausgegangen Geheimkonzerte Berlin",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte-3/"
-    }
-   ],
-   "startDate": "2026-12-09T20:00+0100"
-  }
- },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
   "fetched": "2026-11-24T13:46:33+01:00",
   "ld": {
@@ -944,71 +1014,6 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/plant-based-4-gang-menu-1/": {
-  "fetched": "2026-11-24T13:46:33+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Last HarvestEin Festmenü zur VorweihnachtszeitDie festliche Jahreszeit beginnt am Tisch. Am 27. und 28. November laden wir dich ins Boma Berlin zu Last Harvestein: einem veganen und glutenfreien 4-Gänge-Menü, das die Aromen des späten Herbstes mit einem Hauch festlicher Vorfreude verbindet.Das MenüI · Pão-de-Queijo-Trio Drei vegane brasilianische Pão de Queijo, begleitet von aufgeschlagener Salbei-Bohnen-Creme, Quitten-Senf-Chutney und einer Creme aus geröstetem Knoblauch und Sonnenblumenkernen.II · Karamellisierter Chicorée Karamellisierter Chicorée mit Mandel-Ricotta und glänzender Quitten-Gastrique. Knusprige Kapern setzen einen salzigen Akzent; feiner Kerbel vollendet den Teller.III · Gebratener Kräuterseitling Kräftig gebratener Kräuterseitling mit goldenem Kartoffel-Pavé und konfiertem Hispi-Spitzkohl. Maronen und gerösteter Buchweizen sorgen für einen knusprigen Akzent; Cranberry-Orangen-Mostarda und ein Steinpilz-Thymian-Jus mit gerösteter Zwiebel bringen Frische und Tiefe.IV · Kürbis-Tiramisu Eine herbstliche Interpretation des Tiramisu, vollendet mit knusprigem, glutenfreiem Amaretti.Die wichtigsten InformationenWann: Freitag, 27. November und Samstag, 28. November 2026 Wo: Boma Berlin, Winsstraße 9, 10405  Preis: 49 € pro Person / Getränkebegleitung optional à 20€ Tickets: Nur im Vorverkauf; ein Ticket ist erforderlich. Buchung: SumupstoreDas Menü ist vegan und glutenfrei. Es enthält Soja (Tamari), Schalenfrüchte (Mandeln und Cashews) sowie Senf.Wir freuen uns darauf, mit dir den Beginn der festlichen Jahreszeit zu feiern.Milla’s Tablewww.millasplace.de",
-   "endDate": "2026-11-28T22:15+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/5HJ9pRqTxiDlg4Tsddvw_1.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10405",
-     "streetAddress": "Winsstraße 9"
-    },
-    "name": "BOMA"
-   },
-   "name": "Plant Based 4-Gang Menü",
-   "offers": {
-    "@type": "Offer",
-    "price": "49.00",
-    "priceCurrency": "EUR",
-    "validFrom": "2026-11-28T18:00+0100"
-   },
-   "startDate": "2026-11-28T18:00+0100"
-  }
- },
- "https://rausgegangen.de/events/rockfrannz-mit-class-of-91-special-0/": {
-  "fetched": "2026-11-24T13:46:33+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Mainfloor: \"Class of '91\" Special mit DJ Mig & DJ StanLoungefloor: Pop Non-Stop mit Danny D.Salon: Lautstark Welcome to the \"Class of '91\"! ⚡🎸**Erinnerst du dich noch an das Jahr, in dem die Musikwelt komplett auf den Kopf gestellt wurde? Vor genau 35 Jahren erlebte die Rockszene eine absolute Explosion. Ein einziges Jahr schenkte uns so viele legendäre Meisterwerke, die bis heute in den Herzen aller Rockfans weltweit fest verankert sind.Wir bringen diesen epochalen Vibe zurück auf die Tanzfläche und feiern the Class of '91! Es ist schier unglaublich, was uns dieses Jahr für Hightlights der Rockgeschichte geliefert hat, von Nirvanas Nervermind, Pearls Jams Ten über Guns'n'Roses' Use Your Illusions I & II, Metallicas The Black Album bis hin zu Soundgardens Badmotorfinger und Red Hot Chili Peppers' Blood Sugar Sex Magik. Allein aus der Zusammenstellung dieser unfassbaren Alben wird die Einzigartigkeit des Jahres 1991 für die Rockwelt sofort augenscheinlich. Das muss gebührend gefeiert werden! Mach dich also bereit für eine Zeitreise in ein Jahr voller musikalischer Meilensteine. Der \"Lautstark\"-Salon nimmt sich zudem der härteren Gangart an und lässt Gitarren Wände flirren & Doublebass Infernos wahr werden. Rock spielt klar die Hauptrolle auf dem Mainfloor und im Salon, aber auch 'nen Oskar an den besten Nebendarsteller in der Lounge wollen wir uns verdienen: dort bieten wir Pop- Non Stop zur Abwechslung!",
-   "endDate": "2026-11-28T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/ovItG0lJRZG1sf0v8eR2_rock-at-frannz-nov.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10435",
-     "streetAddress": "Schönhauser Allee 36"
-    },
-    "name": "frannz club berlin"
-   },
-   "name": "Rock@Frannz -mit \"Class of '91\" Special-",
-   "offers": {
-    "@type": "Offer",
-    "price": "10.00",
-    "priceCurrency": "EUR",
-    "url": "https://shop.copilot.events/frannz/events/c182203c-37b4-4765-aa4d-366379f60b70",
-    "validFrom": "2026-11-27T21:00+0100"
-   },
-   "startDate": "2026-11-27T21:00+0100"
-  }
- },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
   "fetched": "2026-11-24T13:46:33+01:00",
   "ld": {
@@ -1048,16 +1053,16 @@
   },
   "seen": "2026-11-15T18:52:24+01:00"
  },
- "https://rausgegangen.de/events/wunder-001-16-djs-8-collectives-free-entry-0/": {
-  "fetched": "2026-11-24T13:46:33+01:00",
+ "https://rausgegangen.de/events/tati-comedy-tryout-stand-up-comedy-16/": {
+  "fetched": "2026-11-24T15:21:45+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "WUNDER oo1: 9 Collectives I 18 DJs I 1 Live Act I 1 Mission  LIMITED FREE TICKETS AVAILABLE VIA THIS LINK  ***LINEUP:  ROOM TRAX: Angioma b2b MarsattacXDISTANT LIFEFORMS: Lifka b2b LucineeCUNTCORE: Dj handbag b2b WHYTOCHAIN REACTION: Adri Alibi b2b Loulou FerrariORBIT BERLIN: Kobzev b2b Flight Møde (DE)HUMAN NATURE (by GLIA): Impedance b2b EMA ZDEŠARSTAY TOXIC: Art Cruel aka Reita D Russo b2b Dj OmarOTRES BIENSKI: nuarrrrr b2b SavaHOLYBERG: Holywanderer b2b KoaboAnna Karina (LIVE) ***  WUNDER is a new c o m m u n i t y - driven event series built on the belief that real change starts within ourselves—and created for e v e r y o n e learning to believe in that power.For each edition, diverse collectives unite to showcase their unique sound and express solidarity through B2B sets. Depending on the venue, each experience is enhanced with live acts, performances, pop-ups and visual art. - pm for collaboration proposalsOur instrument is m u s i c; our s p a c e — the dancefloor.We gather across two floors, share our energy, exchange smiles, and use what we do best—bringing people t o g e t h e r —to send a spark of light exactly where it’s needed most.All donations and proceeds from each event will go towards several Ukrainian organizations.  ***  WUNDER ... gibt es immer",
-   "endDate": "2026-12-06T09:00+0100",
+   "description": "Stand-Up Comedy Tryout / Open MicNeue Talente. Neue Jokes. Neue Energie – live & unfiltriert!TRYOUT ist die Bühne, auf der Comedy entsteht. Newcomer, Fortgeschrittene und spontane Mutige testen hier ihre brandneuen Jokes live vor Publikum. Nichts ist geplant, nichts ist perfekt – und genau das macht diesen Abend so einzigartig.Erlebe einen Abend voller Überraschungen, spontaner Momente und echter Stand-up-Comedy, bei der du manchmal der erste Mensch bist, der einen neuen Gag überhaupt zu hören bekommt.Was dich erwartet:Frische Comedy-Sets & brandneues MaterialAuthentische „Work in Progress“-AtmosphäreMutige Newcomer & überraschende ProfisHumor, der spontan entstehtEnergiegeladenes, ehrliches PublikumFür wen ist TRYOUT?Für alle, die Comedy lieben: Publikum, das über rohe, echte Comedy lachen möchte – und Performer, die mutig sind, Neues auszuprobieren.--Location--Welcome to Tati Goes Underground — Berlin’s intimate, alternative comedy club. Known for its cozy, candle-lit atmosphere and bohemian vibes, Tati is the kind of place where comedians and audiences come together like old friends... with strong opinions and stronger drinks.Metzer Str. 2 in Prenzlauer Berg is a two-minute walk from the U2 \"Senefelder Platz\" station. The bar offers the perfect atmosphere for a successful comedy evening. A cozy interior, friendly staff, and good drinks round out this special comedy event for you.",
+   "endDate": "2026-11-24T20:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/beeb83a6fd6148b98c1350d2a308bcde_wunder-001-banner-2.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/IUObRZ5jQgW7YMCD4a6c_tati-comedy-club-berliner-stand-up-nacht.png"
    ],
    "location": {
     "@type": "Place",
@@ -1065,32 +1070,69 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10407",
-     "streetAddress": "Storkower Straße 119"
+     "postalCode": "10405",
+     "streetAddress": "Metzer Straße 2"
     },
-    "name": "119"
+    "name": "Tati goes Underground"
    },
-   "name": "𝗪𝗨𝗡𝗗𝗘𝗥 𝟬𝟬𝟭 - 18 DJs - 9 COLLECTIVES - 𝗙𝗥𝗘𝗘 𝗘𝗡𝗧𝗥𝗬*",
+   "name": "Tati Comedy - Open Mic",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 2,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "15.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "earlybird",
+      "price": "12.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "startDate": "2026-11-24T19:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/vegetarisches-all-you-can-taste-menu-im-cafe-zeitouna-14/": {
+  "fetched": "2026-11-24T15:21:45+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Entdeckt gemeinsam die Vielfalt der levantinischen Küche: Im gemütlichen Café Zeitouna in Neukölln erwartet euch ein vegetarisches „All You Can Taste“-Erlebnis. Auf reich gedeckten Platten serviert euch das Team die Highlights der Speisekarte – feine Dips, frische Meze und hausgemachte Spezialitäten nach überlieferten Familienrezepten.Inklusive: ca. 1,5–2 Stunden Genuss, großzügige Platte mit allen Highlights der Karte, optional mit abgestimmter Weinbegleitung.Gut zu wissen: Buchbar ab 2 Personen, montags sowie donnerstags bis sonntags (Mo und Do ab 17 Uhr, Fr und Sa ab 18 Uhr, So ab 14 Uhr). Kinder ab 10 Jahren in Begleitung eines Erwachsenen. Die Location ist barrierefrei.Das Erlebnis gibt es auch als Geschenkgutschein bei Truestory – der Gutschein kommt direkt per E-Mail.",
+   "endDate": "2026-11-30T19:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/iw69fi6cTyy7vfaaVRQe_1000083831.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "12059",
+     "streetAddress": "Treptower Straße 91"
+    },
+    "name": "Café Zeitouna"
+   },
+   "name": "Vegetarisches „All You Can Taste“-Menü im Café Zeitouna",
    "offers": {
     "@type": "Offer",
-    "price": 0,
+    "price": "35.00",
     "priceCurrency": "EUR",
-    "url": "https://ra.co/events/2586490",
-    "validFrom": "2026-12-05T20:00+0100"
+    "url": "https://de.truestory.com/erlebe/vegetarisches-all-you-can-taste-menue-cafe-zeitouna/?utm_source=rausgegangen&utm_medium=affiliate&utm_campaign=rausgegangen&utm_content=vegetarisches-all-you-can-taste-menue-cafe-zeitouna",
+    "validFrom": "2026-11-30T17:00+0100"
    },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "the bRAVEs",
-     "url": "https://rausgegangen.de/organizations/the-braves-1/"
-    },
-    {
-     "@type": "Organization",
-     "name": "WUNDER",
-     "url": "https://rausgegangen.de/organizations/wunder/"
-    }
-   ],
-   "startDate": "2026-12-05T20:00+0100"
+   "startDate": "2026-11-30T17:00+0100"
   }
  }
 }

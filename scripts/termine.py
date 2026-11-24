@@ -42,7 +42,7 @@ FMT_START, FMT_END = "<!-- FMT:START -->", "<!-- FMT:END -->"
 N_START, N_END = "<!-- NEXT:START -->", "<!-- NEXT:END -->"
 # Format-Seiten (drag-brunch.html usw., EN unter en/): dort stehen nur die Termine des jeweiligen Formats
 FORMAT_PAGES = {
-    "drag-bingo": lambda r: (r.get("Format") or "").strip() == "Drag Bingo",
+    "drag-bingo": lambda r: "bingo" in (r.get("Format") or "").lower(),  # auch "Musik Bingo"
     "drag-brunch": lambda r: "brunch" in (r.get("Titel") or "").lower(),
     "drag-shows": lambda r: (r.get("Format") or "").strip() == "Show",
 }
@@ -476,7 +476,8 @@ def render_all(events):
         day = (f"{wd}, {date.day} {L['months'][date.month - 1]} {date.year}" if L is EN
                else f"{wd}, {date:%d.%m.%Y}")
         when_line = " · ".join(x for x in [day, time, doors] if x)
-        tape = f'<span class="city-tape">{esc(city(r))}</span>' if city(r) else ""
+        label = (r.get("Tape") or "").strip() or city(r)  # Tape aufs Poster: andere Stadt oder Sonderformat (z. B. Musikbingo)
+        tape = f'<span class="city-tape">{esc(label)}</span>' if label else ""
         media = (f'{tape}<img src="{L["prefix"]}{poster}" alt="Poster: {esc(title)}" loading="lazy">' if poster else
                  f'<div class="tevent-noposter"><span>{date:%d.%m.}</span></div>')
         shown, rest = split_teaser(desc)

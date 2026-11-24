@@ -12,11 +12,12 @@
    "Eventseite": "https://ducttape.berlin/drag-fruehschoppen-muenchen"
   },
   "duct-tape-11": {
-   "Titel": "Musik Bingo",
-   "Format": "Drag Bingo",
+   "Titel": "Musikbingo in der Orangerie",
+   "Format": "Musik Bingo",
    "Beginn": "20:00",
    "Einlass": "19:00",
-   "Ende": ""
+   "Ende": "",
+   "Tape": "Musikbingo"
   }
  },
  "ausblenden": [],

@@ -68,7 +68,7 @@ EN = {"weekdays": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Satu
 L = DE
 
 # Tisch-Reservierung per Mail für Bars ohne Online-Buchung (Emanuel, 2026-10-27): Schlüssel = Teil des Ortsnamens
-RESERVIERUNG_MAIL = {"torte": "table@torte-bar.de", "bademeister": "mail@bademeisterbar.de"}
+RESERVIERUNG_MAIL = {"torte": "table@torte-bar.de", "bademeister": "mail@bademeisterbar.de", "orangerie": "reserve@orangerie-nk.de"}
 
 
 def esc(s):

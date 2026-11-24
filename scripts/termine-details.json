@@ -200,40 +200,6 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/assaden-whispertome-prasentiert-filmvorfuhrung-und-podiumsdi-0/": {
-  "fetched": "2026-11-24T22:00:41+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Was oft hinter Türen verschwindet, rückt dieser Abend nach vorn. Gezeigt wird der Dokumentarfilm FASSADEN, danach sprechen Betroffene und Expert:innen über häusliche Gewalt und gesellschaftliche Verantwortung 🤝",
-   "endDate": "2026-11-27T22:30+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/ejinNopIQ4qopp4fbzn6_orangen-tag-2026-was-keiner-sieht.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10405",
-     "streetAddress": "Prenzlauer Allee 80"
-    },
-    "name": "Zeiss-Großplanetarium"
-   },
-   "name": "WhisperToMe präsentiert: Filmvorführung FASSADEN und Podiumsdiskussion zum Internationalen Tag zur Beseitigung von Gewalt gegen Frauen",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "10.00",
-    "lowPrice": "7.00",
-    "offerCount": 0,
-    "offers": [],
-    "priceCurrency": "EUR"
-   },
-   "startDate": "2026-11-27T18:00+0100"
-  }
- },
  "https://rausgegangen.de/events/berlinale-spotlight-forum-chronos-fluss-der-zeit-0/": {
   "fetched": "2026-11-24T22:00:41+01:00",
   "ld": {
@@ -361,16 +327,16 @@
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/der-schatz-eine-bohmische-familiengeschichte-0/": {
-  "fetched": "2026-11-24T22:00:41+01:00",
+ "https://rausgegangen.de/events/dein-moment-dein-wein-die-mosel-zu-gast-in-berlin-0/": {
+  "fetched": "2026-11-24T22:03:28+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "April 1945. Die Rote Armee rückt unaufhaltsam vor. Am Fuß des Riesengebirges vergräbt Otto Ther eine Kiste mit einem Diamantkreuz, Schmuck und poliertem Silberbesteck. Sie soll überdauern, bis die Familie nach Hohenelbe, heute Vrchlabí, zurückkehren kann.Jahrzehnte später reist sein Enkel, der Historiker Philipp Ther, mit seinem Vater immer wieder in die verlorene Heimat. Das örtliche Museum übergibt ihnen drei Kisten, für den Historiker ein Schatz ganz anderer Art. Die Familiendokumente darin zeigen, wie tief die eigene Familie in den Nationalsozialismus verstrickt war.In „Mein Schatz“ verbindet Philipp Ther Familien- und Zeitgeschichte zu einer persönlichen Erzählung über Herkunft, Schuld und Erinnerung.„Philipp Ther ist ein sozialhistorischer Prosakünstler.“ Gustav Seibt PROGRAMM BegrüßungDr. Roland Borchers, Direktor, Dokumentationszentrum Flucht, Vertreibung, Versöhnung (Berlin)Lesung und GesprächProf. Dr. Philipp Ther, AutorModeration: em. Prof. Dr. Jürgen Kocka, Freie Universität (Berlin)Der Autor steht nach der Lesung für eine Signierstunde bereit. Im Anschluss laden wir Sie zu einem kleinen Empfang ein.  WEITERE HINWEISE   Büchertisch: Buchhandlung „Der Zauberberg“Einlass: 18.00 Uhr   Sprache: DeutschEINTRITT FREI, MIT ANMELDUNGDie Veranstaltung wird aufgezeichnet und auf unserem YouTube-Kanal Flucht, Vertreibung, Versöhnung veröffentlicht.",
-   "endDate": "2026-12-02T20:00+0100",
+   "description": "Schieferboden und steile Hänge sind weit weg, im Glas landet trotzdem Mosel. In Berliner Weinläden und Restaurants kannst Du Rieslinge der Region probieren und Dich einmal quer durch diese Weingegend kosten 👩🏻‍🍳",
+   "endDate": "2026-12-20T00:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/iONiEZu9RfK8U0wtzZgo_der-schatz-2.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/leL5ZuVfRYiO3x90gloF_2.png"
    ],
    "location": {
     "@type": "Place",
@@ -378,19 +344,19 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10963",
-     "streetAddress": "Stresemannstraße 90"
+     "postalCode": null,
+     "streetAddress": null
     },
-    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
+    "name": "Berlin"
    },
-   "name": "Der Schatz – Eine böhmische Familiengeschichte",
+   "name": "Dein Moment. Dein Wein: Die Mosel zu Gast in Berlin",
    "offers": {
     "@type": "Offer",
     "price": "0.00",
     "priceCurrency": "EUR",
-    "validFrom": "2026-12-02T18:30+0100"
+    "validFrom": "2026-12-07T00:00+0100"
    },
-   "startDate": "2026-12-02T18:30+0100"
+   "startDate": "2026-12-07T00:00+0100"
   }
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
@@ -1038,38 +1004,6 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/plant-based-4-gang-menu-1/": {
-  "fetched": "2026-11-24T22:00:41+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Last HarvestEin Festmenü zur VorweihnachtszeitDie festliche Jahreszeit beginnt am Tisch. Am 27. und 28. November laden wir dich ins Boma Berlin zu Last Harvestein: einem veganen und glutenfreien 4-Gänge-Menü, das die Aromen des späten Herbstes mit einem Hauch festlicher Vorfreude verbindet.Das MenüI · Pão-de-Queijo-Trio Drei vegane brasilianische Pão de Queijo, begleitet von aufgeschlagener Salbei-Bohnen-Creme, Quitten-Senf-Chutney und einer Creme aus geröstetem Knoblauch und Sonnenblumenkernen.II · Karamellisierter Chicorée Karamellisierter Chicorée mit Mandel-Ricotta und glänzender Quitten-Gastrique. Knusprige Kapern setzen einen salzigen Akzent; feiner Kerbel vollendet den Teller.III · Gebratener Kräuterseitling Kräftig gebratener Kräuterseitling mit goldenem Kartoffel-Pavé und konfiertem Hispi-Spitzkohl. Maronen und gerösteter Buchweizen sorgen für einen knusprigen Akzent; Cranberry-Orangen-Mostarda und ein Steinpilz-Thymian-Jus mit gerösteter Zwiebel bringen Frische und Tiefe.IV · Kürbis-Tiramisu Eine herbstliche Interpretation des Tiramisu, vollendet mit knusprigem, glutenfreiem Amaretti.Die wichtigsten InformationenWann: Freitag, 27. November und Samstag, 28. November 2026 Wo: Boma Berlin, Winsstraße 9, 10405  Preis: 49 € pro Person / Getränkebegleitung optional à 20€ Tickets: Nur im Vorverkauf; ein Ticket ist erforderlich. Buchung: SumupstoreDas Menü ist vegan und glutenfrei. Es enthält Soja (Tamari), Schalenfrüchte (Mandeln und Cashews) sowie Senf.Wir freuen uns darauf, mit dir den Beginn der festlichen Jahreszeit zu feiern.Milla’s Tablewww.millasplace.de",
-   "endDate": "2026-11-28T22:15+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/5HJ9pRqTxiDlg4Tsddvw_1.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10405",
-     "streetAddress": "Winsstraße 9"
-    },
-    "name": "BOMA"
-   },
-   "name": "Plant Based 4-Gang Menü",
-   "offers": {
-    "@type": "Offer",
-    "price": "49.00",
-    "priceCurrency": "EUR",
-    "validFrom": "2026-11-28T18:00+0100"
-   },
-   "startDate": "2026-11-28T18:00+0100"
-  }
- },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
   "fetched": "2026-11-24T22:00:41+01:00",
   "ld": {
@@ -1109,16 +1043,16 @@
   },
   "seen": "2026-11-15T18:52:24+01:00"
  },
- "https://rausgegangen.de/events/wunder-001-16-djs-8-collectives-free-entry-0/": {
-  "fetched": "2026-11-24T22:00:41+01:00",
+ "https://rausgegangen.de/events/ubin-eoh-honey-blondie-lesung-2027-0/": {
+  "fetched": "2026-11-24T22:03:28+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "WUNDER oo1: 9 Collectives I 18 DJs I 1 Live Act I 1 Mission  LIMITED FREE TICKETS AVAILABLE VIA THIS LINK  ***LINEUP:  ROOM TRAX: Angioma b2b MarsattacXDISTANT LIFEFORMS: Lifka b2b LucineeCUNTCORE: Dj handbag b2b WHYTOCHAIN REACTION: Adri Alibi b2b Loulou FerrariORBIT BERLIN: Kobzev b2b Flight Møde (DE)HUMAN NATURE (by GLIA): Impedance b2b EMA ZDEŠARSTAY TOXIC: Art Cruel aka Reita D Russo b2b Dj OmarOTRES BIENSKI: nuarrrrr b2b SavaHOLYBERG: Holywanderer b2b KoaboAnna Karina (LIVE) ***  WUNDER is a new c o m m u n i t y - driven event series built on the belief that real change starts within ourselves—and created for e v e r y o n e learning to believe in that power.For each edition, diverse collectives unite to showcase their unique sound and express solidarity through B2B sets. Depending on the venue, each experience is enhanced with live acts, performances, pop-ups and visual art. - pm for collaboration proposalsOur instrument is m u s i c; our s p a c e — the dancefloor.We gather across two floors, share our energy, exchange smiles, and use what we do best—bringing people t o g e t h e r —to send a spark of light exactly where it’s needed most.All donations and proceeds from each event will go towards several Ukrainian organizations.  ***  WUNDER ... gibt es immer",
-   "endDate": "2026-12-06T09:00+0100",
+   "description": "Ein Berlin der 90er, erzählt über eine Freundschaft, die lange nachwirkt. Ubin Eoh liest aus ihrem Debütroman Honey & Blondie und bringt genau diesen persönlichen Ton mit, den man aus ihrem Podcast kennt 💌",
+   "endDate": "2027-02-04T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/beeb83a6fd6148b98c1350d2a308bcde_wunder-001-banner-2.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/vwFM8GdSDidLXCZmOCKA_eohubincnevenallgeier.png"
    ],
    "location": {
     "@type": "Place",
@@ -1126,32 +1060,25 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10407",
-     "streetAddress": "Storkower Straße 119"
+     "postalCode": "10119",
+     "streetAddress": "Schönhauser Allee 176"
     },
-    "name": "119"
+    "name": "Pfefferberg Theater"
    },
-   "name": "𝗪𝗨𝗡𝗗𝗘𝗥 𝟬𝟬𝟭 - 18 DJs - 9 COLLECTIVES - 𝗙𝗥𝗘𝗘 𝗘𝗡𝗧𝗥𝗬*",
+   "name": "Ubin Eoh /// Honey & Blondie - Lesung 2027",
    "offers": {
     "@type": "Offer",
-    "price": 0,
+    "price": "24.80",
     "priceCurrency": "EUR",
-    "url": "https://ra.co/events/2586490",
-    "validFrom": "2026-12-05T20:00+0100"
+    "url": "https://www.eventim.de/noapp/event/ubin-eoh-lesung-honey-blondie-literatur-live-pfefferberg-theater-22383841/?affiliate=AAG&utm_campaign=allartistsagency&utm_source=AAG&utm_medium=dp",
+    "validFrom": "2027-02-03T20:00+0100"
    },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "the bRAVEs",
-     "url": "https://rausgegangen.de/organizations/the-braves-1/"
-    },
-    {
-     "@type": "Organization",
-     "name": "WUNDER",
-     "url": "https://rausgegangen.de/organizations/wunder/"
-    }
-   ],
-   "startDate": "2026-12-05T20:00+0100"
+   "organizer": {
+    "@type": "Organization",
+    "name": "All Artists Agency",
+    "url": "https://rausgegangen.de/organizations/all-artists-agency-1/"
+   },
+   "startDate": "2027-02-03T20:00+0100"
   }
  }
 }

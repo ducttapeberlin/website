@@ -200,6 +200,39 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/cheiland-der-christmas-planner-1/": {
+  "fetched": "2026-11-25T00:08:05+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Und schon wieder steht Weihnachten vor der Tür. Und schon wieder lauern uns die gefürchteten Weihnachtsfeiern auf. Ja, da sollten wir aufpassen, denn so manch einer hat beim Schrottwichteln seinen Ehepartner gewonnen.Wie viele Punkte würden Sie Ihren Weihnachtsfeiern auf einer Skala von 1-10 geben und warum sind es nur 3?Schade eigentlich. Aber geht es nicht besser? Lustiger? Origineller? Doch, es geht. Er ist gekommen, um uns die Freude an der Verwandtschaft zurückzubringen: C.Heiland.Er gibt sich uns ganz und gar hin. Mit Haut, Haaren und Omnichord. Diesem seltsamen japanischen Kult-Instrument ohne Saiten und Tasten. Der Heiland kommt, spricht, singt und überschüttet uns mit Liebe und Humor. Und ja, manchmal tanzt er sogar.Der Weg zu Ihrer persönlichen Heiland-Erscheinung ist nah. Banal oder besinnlich – lassen Sie sich vom ganzen Weihnachtswahnsinn erlösen und haben einfach einen richtig guten Abend! Der vielfach mit Preisen ausgezeichnete C.Heiland wird auf die Bühne hinabsteigen, um auch Ihr Fest mit frecher Comedy und anarchischem Musikkabarett zu retten.Ein Abend, scharf wie Pfefferkuchen und süß wie Zimtsternchen. So macht Weihnachten wieder Spaß. Und wenn Sie ganz lieb waren, gibt’s zuhause vielleicht sogar Geschenke und mindestens 8 Punkte.",
+   "endDate": "2026-12-09T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/nvsFTuCSnKjiXnnZsDpP_c-ceiland-christmas-foto-olli-haas-original.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10961",
+     "streetAddress": "Mehringdamm 34"
+    },
+    "name": "BKA Theater"
+   },
+   "name": "C.Heiland: Der C.Hristmas Planner",
+   "offers": {
+    "@type": "Offer",
+    "price": "25.00",
+    "priceCurrency": "EUR",
+    "url": "https://bka-theater-webshop.comfortticket.de/de/veranstaltung/0d60aa6d-479d-4320-8251-af131be95f9c/4782",
+    "validFrom": "2026-12-08T20:00+0100"
+   },
+   "startDate": "2026-12-08T20:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
   "fetched": "2026-11-24T22:00:41+01:00",
   "ld": {
@@ -288,72 +321,6 @@
   "seen": "2026-10-20T15:24:41+02:00",
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
- },
- "https://rausgegangen.de/events/der-schatz-eine-bohmische-familiengeschichte-0/": {
-  "fetched": "2026-11-24T22:10:15+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "April 1945. Die Rote Armee rückt unaufhaltsam vor. Am Fuß des Riesengebirges vergräbt Otto Ther eine Kiste mit einem Diamantkreuz, Schmuck und poliertem Silberbesteck. Sie soll überdauern, bis die Familie nach Hohenelbe, heute Vrchlabí, zurückkehren kann.Jahrzehnte später reist sein Enkel, der Historiker Philipp Ther, mit seinem Vater immer wieder in die verlorene Heimat. Das örtliche Museum übergibt ihnen drei Kisten, für den Historiker ein Schatz ganz anderer Art. Die Familiendokumente darin zeigen, wie tief die eigene Familie in den Nationalsozialismus verstrickt war.In „Mein Schatz“ verbindet Philipp Ther Familien- und Zeitgeschichte zu einer persönlichen Erzählung über Herkunft, Schuld und Erinnerung.„Philipp Ther ist ein sozialhistorischer Prosakünstler.“ Gustav Seibt PROGRAMM BegrüßungDr. Roland Borchers, Direktor, Dokumentationszentrum Flucht, Vertreibung, Versöhnung (Berlin)Lesung und GesprächProf. Dr. Philipp Ther, AutorModeration: em. Prof. Dr. Jürgen Kocka, Freie Universität (Berlin)Der Autor steht nach der Lesung für eine Signierstunde bereit. Im Anschluss laden wir Sie zu einem kleinen Empfang ein.  WEITERE HINWEISE   Büchertisch: Buchhandlung „Der Zauberberg“Einlass: 18.00 Uhr   Sprache: DeutschEINTRITT FREI, MIT ANMELDUNGDie Veranstaltung wird aufgezeichnet und auf unserem YouTube-Kanal Flucht, Vertreibung, Versöhnung veröffentlicht.",
-   "endDate": "2026-12-02T20:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/iONiEZu9RfK8U0wtzZgo_der-schatz-2.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10963",
-     "streetAddress": "Stresemannstraße 90"
-    },
-    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
-   },
-   "name": "Der Schatz – Eine böhmische Familiengeschichte",
-   "offers": {
-    "@type": "Offer",
-    "price": "0.00",
-    "priceCurrency": "EUR",
-    "validFrom": "2026-12-02T18:30+0100"
-   },
-   "startDate": "2026-12-02T18:30+0100"
-  }
- },
- "https://rausgegangen.de/events/die-ades-zabel-company-wenn-ediths-glocken-lauten-vol-23-4/": {
-  "fetched": "2026-11-24T22:10:15+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Mit Ades Zabel, Biggy van Blond, Bob Schneider, Nicolai Tegeler & Roman ShamovEdith Schröder, die pralle Prekariats-Prinzessin, die Neuköllner Bezirksbürgermeisterin der Herzen und klebrig-süße Kirsche auf der Chantré-Torte, sorgt mit ihrer üppig ausgestatteten Weihnachtsshow – nunmehr sage und schreibe zum 23. Mal(!) - Jahr für Jahr für ein unvergessliches Erlebnis über den Dächern und in den Herzen von Berlin.Weihnachten in Neukölln: Welcher Vogel da auf den Tisch kommt, wo der Klempner noch schnell ein Rohr verlegt, wie Leggingsboutique-Biggi sich das Kleingeld für die hochwertigen Geschenke dazuverdient und wie viele Atomkraftwerke freigeschaltet werden müssen, um Juttas Weihnachtsbalkon am Leuchten zu halten.Wenn Ediths Glocken läuten – darauf erstmal einen Futschi!",
-   "endDate": "2026-11-30T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/ZrWoGeEfRtybC0A8azBB_ades-zabel-company-ediths-glocken-2019-foto-joern-hartmann-16-9.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10961",
-     "streetAddress": "Mehringdamm 34"
-    },
-    "name": "BKA Theater"
-   },
-   "name": "Die Ades Zabel Company: Wenn Ediths Glocken läuten Vol. 23",
-   "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "20.50",
-    "priceCurrency": "EUR",
-    "url": "https://bka-theater-webshop.comfortticket.de/de/produktion/0d60aa6d-479d-4320-8251-af131be95f9c/490",
-    "validFrom": "2026-11-21T21:01+0100"
-   },
-   "startDate": "2026-11-29T19:00+0100"
-  }
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
   "fetched": "2026-11-24T22:00:41+01:00",
@@ -808,39 +775,6 @@
   "tickets": "duct-tape-11",
   "tickets_ok": false
  },
- "https://rausgegangen.de/events/hainbach-presents-vive-guests-aude-langlois-felipe-vareschi-0/": {
-  "fetched": "2026-11-24T22:10:15+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Alte Messgeräte, Magnetband, seltsame Synths: Hainbach baut daraus Stücke, die eher klingen wie gefundene Signale als sauber produzierte Tracks. Auf dem neuen Album Vive rücken dabei Melodien und sehr persönliche Momente nach vorn 👾",
-   "endDate": "2027-03-06T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/XIw2NhMuQoCkeMbbhLeS_bildschirmfoto-2026-11-05-um-135606.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "13347",
-     "streetAddress": "Gerichtstraße 35"
-    },
-    "name": "silent green Kulturquartier"
-   },
-   "name": "HAINBACH presents VIVE guests: AUDE LANGLOIS & FELIPE VARESCHI",
-   "offers": {
-    "@type": "Offer",
-    "price": "26.00",
-    "priceCurrency": "EUR",
-    "url": "https://www.greyzone-tickets.de/produkte/1395",
-    "validFrom": "2027-03-05T19:00+0100"
-   },
-   "startDate": "2027-03-05T19:00+0100"
-  }
- },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
   "fetched": "2026-11-24T22:00:41+01:00",
   "ld": {
@@ -973,113 +907,6 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/mwita-mataro-austrodrama-tour-2/": {
-  "fetched": "2026-11-24T22:10:15+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Da steht einer auf der Bühne, der nach Jahren bei At Pavillon seine Solostimme ziemlich klar gefunden hat. Auf Austrodrama steckt zwischen poppigen Refrains und Rockdruck eine sehr persönliche Suche nach Identität 👀",
-   "endDate": "2027-03-11T23:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/G3qH2PYQtaTF54sd2kSQ_mwitamataroimg4187byatilavadoc.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10179",
-     "streetAddress": "Holzmarktstraße 15-18"
-    },
-    "name": "LARK"
-   },
-   "name": "Mwita Mataro - Austrodrama Tour",
-   "offers": {
-    "@type": "Offer",
-    "price": 0,
-    "priceCurrency": "EUR",
-    "url": "https://tickets.loft.de/event/mwita-mataro-bazoo7",
-    "validFrom": "2027-03-11T19:00+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "killmebooking",
-    "url": "https://rausgegangen.de/organizations/page-for-team-killmebooking/"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Mwita Mataro"
-   },
-   "startDate": "2027-03-11T19:00+0100"
-  }
- },
- "https://rausgegangen.de/events/open-air-in-berlin-0/": {
-  "fetched": "2026-11-24T22:10:15+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Kopfhörer auf, und plötzlich ist ein Konzert auch das, was zwischen Dir und den Songs passiert. LIN spielt das Open Air als Silent Show über kabellose Hörer, mit Soli und ermäßigten Tickets statt starrer Preisschilder 🎟️",
-   "endDate": "2027-05-29T23:00+0200",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/BdY1OERbSV9fsSqiuPid_creditstimovogt.jpeg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10245",
-     "streetAddress": "Markgrafendamm"
-    },
-    "name": "Lebendige Stadtgärtnerei"
-   },
-   "name": "LIN Open-Air in Berlin",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "34.52",
-    "lowPrice": "19.68",
-    "offerCount": 3,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Normalpreis",
-      "price": "27.10",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Soli-Preis",
-      "price": "34.52",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Ermäßigt",
-      "price": "19.68",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Listenrecords",
-    "url": "https://rausgegangen.de/organizations/listenrecords-1/"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "LIN"
-   },
-   "startDate": "2027-05-29T19:00+0200"
-  }
- },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
   "fetched": "2026-11-24T22:00:41+01:00",
   "ld": {
@@ -1119,6 +946,55 @@
   },
   "seen": "2026-11-15T18:52:24+01:00"
  },
+ "https://rausgegangen.de/events/tati-comedy---die-stand-up-comedy-show-33/": {
+  "fetched": "2026-11-25T00:08:05+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "LIVE Stand Up Comedy in der schönsten Ecke Berlins - dem Prenzlauer Berg.Wir präsentieren euch einen Mix aus erfahrenen Profi-Comedians und den heißesten Newcomern der Berliner Comedy-Szene.Das Ticket muss nicht ausgedruckt werden.Egal wer an diesem Abend auf der Bühne steht - euch erwartet absolut authentische Stand Up Comedy nach amerikanischem Vorbild!Der Einlass wird bis 5 Minuten nach Showbeginn gewährt.--Location--Der \"Comedyflash - Club\" in der Metzer Str. 2 im Prenzlauer Berg ist zwei Fußminuten entfernt von der U2 Station “Senefelder Platz”. Die Bar bietet die perfekte Atmosphäre für einen gelungenen Comedyabend. Eine gemütliche Einrichtung, freundliches Personal und gute Getränke runden dieses besondere Comedyevent für dich ab.Comedyflash - Der Standup ClubMetzer Str. 2, 10405 Berlin",
+   "endDate": "2026-11-27T20:30+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/gqlLXG8iSYKiUDo8pXMy_tati-comedy-club-berliner-stand-up-nacht.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10405",
+     "streetAddress": "Metzer Straße 2"
+    },
+    "name": "Tati goes Underground"
+   },
+   "name": "Tati Comedy _ Die Stand Up Comedy Show",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 2,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "20.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "early bird",
+      "price": "16.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "startDate": "2026-11-27T19:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/welcome-back-der-neue-smart-2-ist-da-0/": {
   "fetched": "2026-11-24T22:10:15+01:00",
   "ld": {
@@ -1149,6 +1025,51 @@
     "validFrom": "2026-11-28T09:00+0100"
    },
    "startDate": "2026-11-28T09:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/wunder-001-16-djs-8-collectives-free-entry-0/": {
+  "fetched": "2026-11-25T00:08:05+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "WUNDER oo1: 9 Collectives I 18 DJs I 1 Live Act I 1 Mission  LIMITED FREE TICKETS AVAILABLE VIA THIS LINK  ***LINEUP:  ROOM TRAX: Angioma b2b MarsattacXDISTANT LIFEFORMS: Lifka b2b LucineeCUNTCORE: Dj handbag b2b WHYTOCHAIN REACTION: Adri Alibi b2b Loulou FerrariORBIT BERLIN: Kobzev b2b Flight Møde (DE)HUMAN NATURE (by GLIA): Impedance b2b EMA ZDEŠARSTAY TOXIC: Art Cruel aka Reita D Russo b2b Dj OmarOTRES BIENSKI: nuarrrrr b2b SavaHOLYBERG: Holywanderer b2b KoaboAnna Karina (LIVE) ***  WUNDER is a new c o m m u n i t y - driven event series built on the belief that real change starts within ourselves—and created for e v e r y o n e learning to believe in that power.For each edition, diverse collectives unite to showcase their unique sound and express solidarity through B2B sets. Depending on the venue, each experience is enhanced with live acts, performances, pop-ups and visual art. - pm for collaboration proposalsOur instrument is m u s i c; our s p a c e — the dancefloor.We gather across two floors, share our energy, exchange smiles, and use what we do best—bringing people t o g e t h e r —to send a spark of light exactly where it’s needed most.All donations and proceeds from each event will go towards several Ukrainian organizations.  ***  WUNDER ... gibt es immer",
+   "endDate": "2026-12-06T09:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/beeb83a6fd6148b98c1350d2a308bcde_wunder-001-banner-2.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10407",
+     "streetAddress": "Storkower Straße 119"
+    },
+    "name": "119"
+   },
+   "name": "𝗪𝗨𝗡𝗗𝗘𝗥 𝟬𝟬𝟭 - 18 DJs - 9 COLLECTIVES - 𝗙𝗥𝗘𝗘 𝗘𝗡𝗧𝗥𝗬*",
+   "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "EUR",
+    "url": "https://ra.co/events/2586490",
+    "validFrom": "2026-12-05T20:00+0100"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "the bRAVEs",
+     "url": "https://rausgegangen.de/organizations/the-braves-1/"
+    },
+    {
+     "@type": "Organization",
+     "name": "WUNDER",
+     "url": "https://rausgegangen.de/organizations/wunder/"
+    }
+   ],
+   "startDate": "2026-12-05T20:00+0100"
   }
  }
 }

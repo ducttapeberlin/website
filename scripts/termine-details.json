@@ -1,6 +1,6 @@
 {
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
-  "fetched": "2026-11-23T15:58:55+01:00",
+  "fetched": "2026-11-24T03:23:25+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -97,7 +97,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-11-23T15:58:55+01:00",
+  "fetched": "2026-11-24T03:23:25+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -123,15 +123,8 @@
     "@type": "AggregateOffer",
     "highPrice": "31.34",
     "lowPrice": "16.50",
-    "offerCount": 8,
+    "offerCount": 7,
     "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "MOLLY - Balcony Regular",
-      "price": "26.04",
-      "priceCurrency": "EUR"
-     },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
@@ -208,7 +201,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/assaden-whispertome-prasentiert-filmvorfuhrung-und-podiumsdi-0/": {
-  "fetched": "2026-11-23T15:58:55+01:00",
+  "fetched": "2026-11-24T03:23:25+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -241,7 +234,7 @@
   }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-11-23T15:58:55+01:00",
+  "fetched": "2026-11-24T03:23:25+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -330,7 +323,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-23T15:58:55+01:00",
+  "fetched": "2026-11-24T03:23:25+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -377,7 +370,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
-  "fetched": "2026-11-23T15:58:55+01:00",
+  "fetched": "2026-11-24T03:23:25+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -422,7 +415,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
-  "fetched": "2026-11-23T15:58:55+01:00",
+  "fetched": "2026-11-24T03:23:25+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -469,7 +462,7 @@
   "seen": "2026-11-15T18:52:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-0/": {
-  "fetched": "2026-11-23T15:58:55+01:00",
+  "fetched": "2026-11-24T03:23:25+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -507,7 +500,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-1/": {
-  "fetched": "2026-11-23T15:58:55+01:00",
+  "fetched": "2026-11-24T03:23:25+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -545,7 +538,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-2/": {
-  "fetched": "2026-11-23T15:58:55+01:00",
+  "fetched": "2026-11-24T03:23:25+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -583,7 +576,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-23T15:58:55+01:00",
+  "fetched": "2026-11-24T03:23:25+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -621,7 +614,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-4/": {
-  "fetched": "2026-11-23T15:58:55+01:00",
+  "fetched": "2026-11-24T03:23:25+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -659,7 +652,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-5/": {
-  "fetched": "2026-11-23T15:58:55+01:00",
+  "fetched": "2026-11-24T03:23:25+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -697,7 +690,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-11-23T15:58:55+01:00",
+  "fetched": "2026-11-24T03:23:25+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -747,8 +740,68 @@
   },
   "seen": "2026-10-27T20:46:24+01:00"
  },
+ "https://rausgegangen.de/events/fliegende-haie-alle-gehn-dumm-tour-12/": {
+  "fetched": "2026-11-24T03:23:25+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Kuck dir die Welt doch an: Alle gehn dumm. Smartphone-Zombies, emotionaler Leerstand, machtbesessene Despoten. Zeit für einen Reset – Fliegende Haie finden: Wenn schon dumm gehen, dann richtig! Ausrasten, durchtanzen und schweißnass Hymnen hinausschreien für eine bessere Welt.Unterdrückung von Frauen, mentale Gesundheit, sexuelle Unfreiheit – Haie reißen Wunden auf, denn wir haben keinen Bock, dass morgen noch alles so ist wie heute. Also Blutrausch an und die Issues zermahlen im Revolvergebiss. Dazu Bässe, die Beine wegreißen wie der Weiße Hai.Der Haie-Hyperpop ist seit der letzten Tour 2025 düsterer geworden, doch live energiegeladen wie eh und je: Instant wirst du hineingesogen in eine Artshow, die das Salzwasser aus deinen Poren drückt, bis sie dich als neuer Mensch wieder ausgespuckt. Durchgeschüttelt, wachgerüttelt, aber glücklich. Nur was blutet, kann auch hailen.",
+   "endDate": "2026-12-11T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/kDdpHEaT06v9EGY8VXh3_fliegende-haie-alle-gehn-dumm-foto-01quer-c-maxim-kaiser.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "12435",
+     "streetAddress": "Alt-Treptow 6"
+    },
+    "name": "Insel Berlin"
+   },
+   "name": "FLIEGENDE HAIE - Alle gehn dumm-Tour",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "27.10",
+    "lowPrice": "16.50",
+    "offerCount": 3,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Social Ticket",
+      "price": "16.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "21.80",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Supporterticket",
+      "price": "27.10",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Fliegende Haie"
+   },
+   "startDate": "2026-12-10T20:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-11-23T15:58:55+01:00",
+  "fetched": "2026-11-24T03:23:25+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -838,7 +891,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1/": {
-  "fetched": "2026-11-23T15:58:55+01:00",
+  "fetched": "2026-11-24T03:23:25+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -880,7 +933,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/mit-vergnugungspark-berlin-1/": {
-  "fetched": "2026-11-23T15:58:55+01:00",
+  "fetched": "2026-11-24T03:23:25+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -975,8 +1028,57 @@
    "startDate": "2026-11-28T14:00+0100"
   }
  },
+ "https://rausgegangen.de/events/skyline-bling-silvester-auf-dem-klunkerkranich-2026-0/": {
+  "fetched": "2026-11-24T03:23:25+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "895 Stufen vor Mitternacht, dann stehst Du zwischen drei Floors und einmal komplett Feuerwerk rundherum. Tickets gibt es nur im Vorverkauf, also kein spontanes Hochlaufen in Glitzer 🪩",
+   "endDate": "2027-01-01T07:30+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/X003uvlQSUpFrX70kn6f_kk-nye26-rausgegangen.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "12043",
+     "streetAddress": "Karl-Marx-Straße 66"
+    },
+    "name": "KLUNKERKRANICH"
+   },
+   "name": "SKYLINE BLING  * Silvester auf dem  Klunkerkranich 2026",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 2,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Phase 1",
+      "price": "48.30",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Phase 2",
+      "price": "53.60",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "startDate": "2026-12-31T19:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
-  "fetched": "2026-11-23T15:58:55+01:00",
+  "fetched": "2026-11-24T03:23:25+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -1013,5 +1115,99 @@
    "startDate": "2026-12-19T19:30+0100"
   },
   "seen": "2026-11-15T18:52:24+01:00"
+ },
+ "https://rausgegangen.de/events/tati-comedy-one-laugh-night-31/": {
+  "fetched": "2026-11-24T03:23:25+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Comedy mit Stil im Tati goes Underground in Berlin. Authentische Stand-up Shows mit bekannten Comedians, Berliner Underground Acts und Newcomern in edler Bar-Atmosphäre mit hochwertigen Cocktails. Die Bühne für spontane Überraschungen. Mal tauchen bekannte Gesichter aus der Comedy-Szene auf, mal brandneue Talente, die man so noch nie gesehen hat.Sicher ist nur eins:Es wird spät, es wird witzig und es wird auch dunkel lustig.Eintritt  ab 16 Jahre",
+   "endDate": "2026-11-25T22:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/kJyays4wROGHyg5J9wGS_tati-comedy-club-berliner-stand-up-nacht.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10405",
+     "streetAddress": "Metzer Straße 2"
+    },
+    "name": "Tati goes Underground"
+   },
+   "name": "Tati Comedy - Die Stand Up Comedy Show",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 3,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "16.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Frühbücher",
+      "price": "14.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Studenten",
+      "price": "14.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "startDate": "2026-11-25T20:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/teppich-tuften-bei-tuft-tuft-3/": {
+  "fetched": "2026-11-24T03:23:25+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Entdecke den Kreativtrend Tufting: In diesem 3,5-stündigen Workshop bei Tuft Tuft in Prenzlauer Berg gestaltest du mit einer elektrischen Tufting Gun deinen eigenen Teppich oder Wandbehang (40 x 30 cm). Vorkenntnisse brauchst du keine.Nach der Buchung schickst du deine Designidee an Tuft Tuft – am besten ein einfaches Motiv ohne zu viele kleine Details, spätestens 48 Stunden vor Kursbeginn. Vor Ort lernst du die Tuftingtechnik Schritt für Schritt und wählst aus über 50 Garnfarben. Am Ende gibst du deinem Teppich beim sogenannten Shaving selbst den letzten Schliff.Danach wird dein Werk vom Team professionell fertig verklebt: Nach etwa zwei Wochen holst du es im Studio ab oder lässt es dir gegen eine kleine Gebühr nach Hause schicken.Inklusive: Workshop mit Anleitung auf Englisch, alle Materialien und Werkzeuge, über 50 Garnfarben, Snacks und Getränke.Gut zu wissen: Der Workshop findet auf Englisch statt. Wegen des Gewichts der Tufting Guns ist er ab 14 Jahren geeignet. Bitte bequeme Kleidung ohne weite Ärmel tragen und lange Haare zusammenbinden. Das Studio ist leider nicht barrierefrei.Hinter Tuft Tuft steht Chad Wright, der das Tuften während der Pandemie für sich entdeckt hat und heute sein eigenes Studio betreibt.Den Workshop gibt es auch als Geschenkgutschein bei Truestory – der Gutschein kommt direkt per E-Mail.",
+   "endDate": "2026-11-28T14:30+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/TENVNNXjQ2K5PqlZS0p2_tuft-tuft-monstera.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10405",
+     "streetAddress": "Marienburger Straße 21"
+    },
+    "name": "Tuft Tuft Berlin"
+   },
+   "name": "Teppich tuften bei Tuft Tuft",
+   "offers": {
+    "@type": "Offer",
+    "price": "140.00",
+    "priceCurrency": "EUR",
+    "url": "https://de.truestory.com/erlebe/tufting-workshop-the-og-bei-tuft-tuft/?utm_source=rausgegangen&utm_medium=affiliate&utm_campaign=rausgegangen&utm_content=tufting-workshop-the-og-bei-tuft-tuft",
+    "validFrom": "2026-11-28T11:00+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Team - TrueStory Living Experiences Germany GmbH",
+    "url": "https://rausgegangen.de/organizations/p-team-truestory-living-experiences-germany-gmbh/"
+   },
+   "startDate": "2026-11-28T11:00+0100"
+  }
  }
 }

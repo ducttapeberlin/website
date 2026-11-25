@@ -1,6 +1,6 @@
 {
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
-  "fetched": "2026-11-25T06:31:47+01:00",
+  "fetched": "2026-11-25T18:26:58+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -24,10 +24,24 @@
    "name": "A Berlin Drag Queens CHRISTMAS SHOW by DUCT TAPE",
    "offers": {
     "@type": "AggregateOffer",
-    "highPrice": "239.10",
+    "highPrice": "186.10",
     "lowPrice": "16.50",
-    "offerCount": 6,
+    "offerCount": 8,
     "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Parkett - FINAL",
+      "price": "34.52",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Balkon - FINAL",
+      "price": "29.22",
+      "priceCurrency": "EUR"
+     },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
@@ -97,7 +111,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-11-25T06:31:47+01:00",
+  "fetched": "2026-11-25T18:26:58+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -123,8 +137,22 @@
     "@type": "AggregateOffer",
     "highPrice": "31.34",
     "lowPrice": "16.50",
-    "offerCount": 7,
+    "offerCount": 9,
     "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Parkett - FINAL",
+      "price": "34.52",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Balkon - FINAL",
+      "price": "29.22",
+      "priceCurrency": "EUR"
+     },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
@@ -157,7 +185,7 @@
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
       "name": "LOGE für 5 Personen ✨",
-      "price": "239.10",
+      "price": "186.10",
       "priceCurrency": "EUR"
      },
      {
@@ -200,16 +228,16 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/berlinale-spotlight-forum-chronos-fluss-der-zeit-0/": {
-  "fetched": "2026-11-25T06:31:47+01:00",
+ "https://rausgegangen.de/events/assaden-whispertome-prasentiert-filmvorfuhrung-und-podiumsdi-0/": {
+  "fetched": "2026-11-25T18:26:58+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "„Sarmatische Zeit“ heißt der Gedichtband von Johannes Bobrowski, der für Volker Koepp zum poetischen wie persönlichen Leitmotiv für diese bildstarke wie weitläufige Sondierung einer Region zwischen Ostsee und Schwarzem Meer, entlang der Ströme Memel, Dnister und Pruth wird. Herkunfts-, Sehnsuchts- und Tatort zugleich: Sammelbecken unterschiedlicher Kulturen und Zugehörigkeiten, über ein halbes Jahrhundert Bezugs- und Fluchtpunkt im Schaffen des großen Chronisten sowie Schauplatz wiederkehrender Grausamkeit und Vernichtung. Die Rückkehr zum eigenen Werk mit neuen und alten Weggefährtinnen und Weggefährten wird zur gleichzeitigen Rückschau und Reaktualisierung.Wie durch Delta-Arme entstehen Verbindungen zur deutschen Geschichte und zum gesamteuropäischen Kontext, zwischen Vergangenheit und Gegenwart. Und für einen langen Augenblick scheint in diesem Fluss die Zeit erschreckend stillzustehen, denn spätestens seit Beginn des russischen Angriffskriegs auf die Ukraine 2022 ist das Echo der dieser Region eingeschriebenen Gewalterfahrung nicht mehr zu überhören. Was seinen Ursprung in Gedichten über das Memelland nimmt, entwickelt sich zu einer epochalen Kontemplation über den Menschen in Zeit und Raum.  Volker KoeppGeboren 1944 in Stettin, aufgewachsen in Berlin. Nach einer Ausbildung zum Maschinenschlosser studierte Volker Koepp an der TU Dresden, anschließend an der Deutschen Hochschule für Filmkunst in Babelsberg. Von 1970 bis 1991 war er als Regisseur am DEFA-Studio für Dokumentarfilm beschäftigt. Seither ist er als freier Regisseur, Autor, Produzent sowie in der Lehre tätig. Volker Koepp war mehrfach im Berlinale Forum zu Gast. Neben diversen Auszeichnungen für sein filmisches Werk erhielt er 2014 das Bundesverdienstkreuz 1. Klasse und wurde 2021 Ehrenmitglied der Deutschen Filmakademie.PROGRAMM Begrüßung Dr. Roland Borchers, Direktor, Dokumentationszentrum Flucht, Vertreibung, Versöhnung (Berlin)FilmvorführungChronos – Fluss der ZeitVon: Volker Koepp, Regie, BuchLand: Deutschland 2026Sprache: Deutsch, Ukrainisch, Litauisch, Belarussisch, Russisch, Rumänisch (mit deutschen Untertiteln)Dauer: 200 MinutenFilmgesprächVolker Koepp, RegisseurModeration: Barbara Wurm, Leiterin Berlinale Forum (Berlin) WEITERE HINWEISEEinlass: 17.30 UhrSprache: DeutschEINTRITT FREI MIT ANMELDUNG Das Berlinale Spotlight: Panorama Dokumente, Forum & Generation ist eine Kooperation zwischen dem Dokumentationszentrum Flucht, Vertreibung, Versöhnung und dem European Film Market (EFM) der Internationalen Filmfestspiele Berlin.",
-   "endDate": "2026-12-09T22:00+0100",
+   "description": "Was oft hinter Türen verschwindet, rückt dieser Abend nach vorn. Gezeigt wird der Dokumentarfilm FASSADEN, danach sprechen Betroffene und Expert:innen über häusliche Gewalt und gesellschaftliche Verantwortung 🤝",
+   "endDate": "2026-11-27T22:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/wDCbAMuThyJFRzPkNbAz_chronospresse01.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/870f2dcae9104d6da031b0d2b6a4bde0_orange-day-2026-im-planetarium.png"
    ],
    "location": {
     "@type": "Place",
@@ -217,71 +245,25 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10963",
-     "streetAddress": "Stresemannstraße 90"
+     "postalCode": "10405",
+     "streetAddress": "Prenzlauer Allee 80"
     },
-    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
+    "name": "Zeiss-Großplanetarium"
    },
-   "name": "Berlinale Spotlight – Forum: Chronos – Fluss der Zeit",
+   "name": "WhisperToMe präsentiert: Filmvorführung FASSADEN und Podiumsdiskussion zum Internationalen Tag zur Beseitigung von Gewalt gegen Frauen",
    "offers": {
-    "@type": "Offer",
-    "price": "0.00",
-    "priceCurrency": "EUR",
-    "url": "https://buchungen.flucht-vertreibung-versoehnung.de/de/tickets/112",
-    "validFrom": "2026-12-09T18:00+0100"
+    "@type": "AggregateOffer",
+    "highPrice": "10.00",
+    "lowPrice": "7.00",
+    "offerCount": 0,
+    "offers": [],
+    "priceCurrency": "EUR"
    },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung",
-    "url": "https://rausgegangen.de/organizations/dokumentationszentrum-flucht-vertreibung-versohnung/"
-   },
-   "startDate": "2026-12-09T18:00+0100"
-  }
- },
- "https://rausgegangen.de/events/carlo5-die-letzte-tour-der-welt-2/": {
-  "fetched": "2026-11-25T06:31:47+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Zwischen Pop und Rap hält Carlo5 seine Songs absichtlich in der Schwebe, mit rauer Stimme und trockenem Witz. Fast alles daran kommt direkt von ihm selbst, vom Schreiben bis zu den Videos 💃",
-   "endDate": "2027-04-09T23:00+0200",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/fKEeGi7QaihTGY4sKn05_carlo5-tourevent-header.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10245",
-     "streetAddress": "Revaler Straße 99"
-    },
-    "name": "Astra Kulturhaus"
-   },
-   "name": "Carlo5 • DIE LETZTE TOUR DER WELT",
-   "offers": {
-    "@type": "Offer",
-    "price": "39.80",
-    "priceCurrency": "EUR",
-    "url": "https://carlo5.krasserstoff.com/events/carlo5-die-letzte-tour-der-welt-astra-kulturhaus",
-    "validFrom": "2027-04-09T19:00+0200"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "LANDSTREICHER BOOKING",
-    "url": "https://rausgegangen.de/organizations/landstreicher-booking-ah-fk3y/"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Carlo5"
-   },
-   "startDate": "2027-04-09T19:00+0200"
+   "startDate": "2026-11-27T18:00+0100"
   }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-11-25T06:31:47+01:00",
+  "fetched": "2026-11-25T18:26:58+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -369,8 +351,40 @@
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/diedaunten-das-kabarett-openmic-berlin-edition-0/": {
+  "fetched": "2026-11-25T18:26:58+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Warum gibt es eigentlich kaum Kabarett-Shows in Berlin? Es ist ja nicht so, dass es an der aktuellen Politik nichts zu meckern oder zu lästern gäbe. Hier ist er: DIEDAUNTEN - ein Abend mit erfahrenen und jungen Kabarettisten und politischen Comedians im Charlottchen. Jede*r hat ca. 10 Minuten.Durch den Abend führt Kriss Rudolph ",
+   "endDate": "2026-11-26T22:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Aw38xYeaTuZSfmr5NyNE_img-20260811-wa0000-1.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10629",
+     "streetAddress": "Droysenstraße 1"
+    },
+    "name": "Charlottchen"
+   },
+   "name": "DIEDAUNTEN - das Kabarett OpenMic (Berlin edition)",
+   "offers": {
+    "@type": "Offer",
+    "price": "10.00",
+    "priceCurrency": "EUR",
+    "validFrom": "2026-11-26T20:00+0100"
+   },
+   "startDate": "2026-11-26T20:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-25T06:31:47+01:00",
+  "fetched": "2026-11-25T18:26:58+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -417,7 +431,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
-  "fetched": "2026-11-25T06:31:47+01:00",
+  "fetched": "2026-11-25T18:26:58+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -462,7 +476,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
-  "fetched": "2026-11-25T06:31:47+01:00",
+  "fetched": "2026-11-25T18:26:58+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -509,7 +523,7 @@
   "seen": "2026-11-15T18:52:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-0/": {
-  "fetched": "2026-11-25T06:31:47+01:00",
+  "fetched": "2026-11-25T18:26:58+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -547,7 +561,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-1/": {
-  "fetched": "2026-11-25T06:31:47+01:00",
+  "fetched": "2026-11-25T18:26:58+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -585,7 +599,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-2/": {
-  "fetched": "2026-11-25T06:31:47+01:00",
+  "fetched": "2026-11-25T18:26:58+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -623,7 +637,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-25T06:31:47+01:00",
+  "fetched": "2026-11-25T18:26:58+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -661,7 +675,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-4/": {
-  "fetched": "2026-11-25T06:31:47+01:00",
+  "fetched": "2026-11-25T18:26:58+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -699,7 +713,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-5/": {
-  "fetched": "2026-11-25T06:31:47+01:00",
+  "fetched": "2026-11-25T18:26:58+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -737,7 +751,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-11-25T06:31:47+01:00",
+  "fetched": "2026-11-25T18:26:58+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -788,7 +802,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/duct-tape-11/": {
-  "fetched": "2026-11-25T06:31:47+01:00",
+  "fetched": "2026-11-25T18:26:58+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -796,7 +810,7 @@
    "endDate": "2026-12-18T00:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://rausgegangen.s3.amazonaws.com/zjqc0k1my3ni.jpg"
+    "https://rausgegangen.s3.amazonaws.com/nek56008ydak.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -809,7 +823,7 @@
     },
     "name": "Orangerie Neukölln"
    },
-   "name": "DUCT TAPE",
+   "name": "Musikbingo with DUCT TAPE",
    "offers": {
     "@type": "Offer",
     "price": "10.00",
@@ -823,7 +837,7 @@
   "tickets_ok": false
  },
  "https://rausgegangen.de/events/eisfest-wintermarkt-0/": {
-  "fetched": "2026-11-25T06:31:47+01:00",
+  "fetched": "2026-11-25T18:26:58+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -854,8 +868,51 @@
    "startDate": "2026-11-28T11:00+0100"
   }
  },
+ "https://rausgegangen.de/events/ezra-collective-10/": {
+  "fetched": "2026-11-25T18:26:58+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Ezra Collective verbindet Jazz mit Afrobeat und Hip-Hop und erzählt mit ihrem neuen Album die Geschichte der schwarzen Diaspora aus drei Perspektiven. Ihre Musik fühlt sich an wie ein mitreißendes Gespräch zwischen Kontinenten und Generationen – Hoffnung klingt hier wie ein Versprechen 👀",
+   "endDate": "2027-02-14T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/m754THj7QeuoRL25IafH_ezracollectivesergio-pontieralbum-anc-lead.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10965",
+     "streetAddress": "Columbiadamm 13-21"
+    },
+    "name": "Columbiahalle"
+   },
+   "name": "EZRA COLLECTIVE",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "46.35",
+    "priceCurrency": "EUR",
+    "url": "https://t.rausgegangen.de/tickets/ezra-collective-2",
+    "validFrom": "2026-07-10T11:00+0200"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Greyzone Concerts",
+    "url": "https://rausgegangen.de/organizations/greyzone-concerts-ah-q3qn/"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Ezra Collective"
+   },
+   "startDate": "2027-02-13T20:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-11-25T06:31:47+01:00",
+  "fetched": "2026-11-25T18:26:58+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -944,8 +1001,56 @@
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/jacob-fortyhands-munster-barking-up-the-tree-of-life-tour-20-4/": {
+  "fetched": "2026-11-25T18:26:58+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Sie kommen aus einem Familienprojekt und stehen live oft zu siebt auf der Bühne, mitten in einer Zeit, in der sonst eher alles klein gehalten wird. Jacob Fortyhands drehen diesen Kontrast einfach um 👀",
+   "endDate": "2027-09-14T06:00+0200",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/FLfZP0SOuyspxBqiKHFA_image00004-kopie-komprimiert.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10777",
+     "streetAddress": "Nollendorfplatz 5"
+    },
+    "name": "Mikropol"
+   },
+   "name": "Jacob Fortyhands - Barking up the tree of life Tour 2027",
+   "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "EUR",
+    "url": "https://www.eventim.de/artist/jacob-fortyhands/",
+    "validFrom": "2027-09-13T20:00+0200"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "PRK Dreamhaus",
+    "url": "https://rausgegangen.de/organizations/dreamhaus/"
+   },
+   "performer": [
+    {
+     "@type": "PerformingGroup",
+     "name": "Jacob Fortyhands"
+    },
+    {
+     "@type": "PerformingGroup",
+     "name": "Jacob Fortyhands"
+    }
+   ],
+   "startDate": "2027-09-13T20:00+0200"
+  }
+ },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1/": {
-  "fetched": "2026-11-25T06:31:47+01:00",
+  "fetched": "2026-11-25T18:26:58+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -953,7 +1058,7 @@
    "endDate": "2026-12-13T13:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/FqUyrGF8QGO53aNt6lTr_image0.jpeg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/09ca205bc62747a4a69193673ee6525c_fesch_rg_xmas.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -968,12 +1073,27 @@
    },
    "name": "Jung & Fesch - Der Drag Frühschoppen im Wirtshaus Fesch",
    "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "35.00",
-    "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
-    "validFrom": "2026-10-22T12:00+0200"
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 2,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "35.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Stehausschank (ohne Essen)",
+      "price": "12.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
    },
    "organizer": {
     "@type": "Organization",
@@ -986,16 +1106,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/kulk-live-4/": {
-  "fetched": "2026-11-25T06:31:47+01:00",
+ "https://rausgegangen.de/events/kundalini-activation-by-cari-berlin-11/": {
+  "fetched": "2026-11-25T18:26:58+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Zwei Leute, Gitarre, Schlagzeug, und dazwischen eine Band, die auch ihre Beziehung mit auf die Bühne bringt. KULK kommen als Duo aus Thom und Jade, und live soll das eher Chaos als Zurückhaltung sein ⚡",
-   "endDate": "2027-02-04T23:00+0100",
+   "description": "„Wer bin ich wirklich und was möchte ich im Leben ?“ Diese Frage haben wir uns alle schon gestellt – eine konkrete Antwort darauf zu finden ist gar nicht so einfach. Kundalini Aktivation hilft dir dabei, genau das herauszufinden.   Was ist Kundalini Activation? Ein Aktivierungsprozess der Kundalini-Energie, deiner eigenen Lebensenergie. Sie ist eine ursprüngliche und lebendige Energie, die wir immer dann spüren, wenn wir nicht im Verstand sind, z. B. wenn wir herzhaft lachen, ausgelassen tanzen, vor Wut kochen, in Ekstase sind oder auch eine tiefe Traurigkeit spüren.   Bei der Aktivierung kommt deine Lebensenergie ins Fließen – hierbei kannst du körperliche, emotionale und spirituelle Erfahrungen machen. Ich halte den Raum und unterstütze dich auf deiner inneren Reise.   Was passiert bei einer Session? Du liegst auf deiner Matte, lässt Musik auf dich wirken und entspannst dich - dabei hast du keine Aufgabe. Energie ist Schwingung: bei der Aktivierung kommt deine Energie ins Fließen und kann sich in wellenartiger Form durch deinen Körper bewegen. Dies kann als zuckende Impulse wahrgenommen werden – die Energie und deine Emotionen möchten möglicherweise körperlich Ausdruck finden.   Was bringt dir die Aktivierung? Kundalini Activation Sessions bieten dir einen geschützten Rahmen, in dem deine Emotionen ihren Ausdruck finden dürfen. Auf deinem Weg kann dir die Aktivierung helfen, deinen inneren Kompass wieder klarer wahrzunehmen und somit auch im Außen klarer zu handeln.    Vorbereitung - komme in bequemer und warmer Kleidung, damit du nicht auskühlst, wenn du eine Stunde liegst. - bringe ausreichend Wasser/ Tee mit. - es empfiehlt sich, zwei Stunden vorher nichts zu essen (kein Alkohol 1-2 Tage davor).   Kindern und Menschen die Drogen oder starke Psychopharmaka nehmen, wird von einer Session abgeraten.   Falls du noch Fragen hast, melde dich gerne.   Ich freue mich auf dich. Carina   Location: Studio Sonic Reichenberger Str. 124/2 (Hinterhof rechts, Haus C.) 10999 Berlin Kreuzberg Preis: 55,- €   Email: kundalinibycari@gmail.com Webseite: www.kundalinibycari.de Instagram: kundalini.by.cari",
+   "endDate": "2026-12-05T17:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/jh8aaKrXQZicj0tzVdiM_copy-of-kulklogo.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/nvg3HsFDRwJEw46Q4pht_fbclassquer.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -1003,33 +1123,25 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10115",
-     "streetAddress": "Ackerstraße 169, 10115 Berlin"
+     "postalCode": "10999",
+     "streetAddress": "Reichenberger Straße 124/2"
     },
-    "name": "Schokoladen"
+    "name": "Studio SoniC"
    },
-   "name": "KULK Live",
+   "name": "Kundalini Activation by Cari // BERLIN",
    "offers": {
     "@type": "Offer",
-    "price": 0,
+    "availability": "https://schema.org/InStock",
+    "price": "55.00",
     "priceCurrency": "EUR",
-    "url": "https://schokoladen.tickettoaster.de/produkte/102791-tickets-kulk-uk-schokoladen-berlin-am-04-02-2027",
-    "validFrom": "2027-02-04T19:00+0100"
+    "url": "https://t.rausgegangen.de/tickets/kundalini-activation-by-cari-berlin-11",
+    "validFrom": "2026-10-11T13:18+0200"
    },
-   "organizer": {
-    "@type": "Organization",
-    "name": "killmebooking",
-    "url": "https://rausgegangen.de/organizations/page-for-team-killmebooking/"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "KULK"
-   },
-   "startDate": "2027-02-04T19:00+0100"
+   "startDate": "2026-12-05T15:00+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
-  "fetched": "2026-11-25T06:31:47+01:00",
+  "fetched": "2026-11-25T18:26:58+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -1066,81 +1178,5 @@
    "startDate": "2026-12-19T19:30+0100"
   },
   "seen": "2026-11-15T18:52:24+01:00"
- },
- "https://rausgegangen.de/events/sojawachs-duftkerzen-gieen-bei-the-bequem-2/": {
-  "fetched": "2026-11-25T06:31:47+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Gieß deine eigene Duftkerze: Bei the bequem in Kreuzberg zeigt dir Gründerin Anastasia Schritt für Schritt, wie aus pflanzlichem Sojawachs und ausgewählten Duftölen deine persönliche Kerze entsteht.Du erfährst, worauf es bei den Rohstoffen ankommt, wie Düfte im Raum wirken und wie du Docht und Wachs richtig verarbeitest. Bei Tee oder Kaffee und Gebäck wählst du deinen Duft und gießt die Kerze selbst. Am Ende nimmst du sie mit nach Hause.Inklusive: Kerzenworkshop (ca. 1,5 Stunden), Einführung in Kerzenhandwerk und Duftöle, alle Materialien inkl. 100 % Sojawachs, Tee, Kaffee, Wasser und Gebäck, deine selbst gegossene Duftkerze.Gut zu wissen: Der Workshop findet auf Englisch statt. Ab 16 Jahren.Hinter the bequem steht Anastasia, die seit 2017 in Berlin lebt. Weil sie selten den passenden Raumduft fand, entwickelte sie eigene Rezepturen und vertiefte ihr Wissen 2022 am Parfümerie-Institut in Südfrankreich.Den Workshop gibt es auch als Geschenkgutschein bei Truestory – der Gutschein kommt direkt per E-Mail.",
-   "endDate": "2026-12-16T20:15+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/MyejuntaRsieaGTsycL6_dsc0908-5vsco-copy.JPG"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10965",
-     "streetAddress": "Kreuzbergstraße 8"
-    },
-    "name": "the bequem"
-   },
-   "name": "Sojawachs-Duftkerzen gießen bei the bequem",
-   "offers": {
-    "@type": "Offer",
-    "price": "50.00",
-    "priceCurrency": "EUR",
-    "url": "https://de.truestory.com/erlebe/duftkerzen-giessen-the-beqeuem/?utm_source=rausgegangen&utm_medium=affiliate&utm_campaign=rausgegangen&utm_content=duftkerzen-giessen-the-beqeuem",
-    "validFrom": "2026-12-16T18:30+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Team - TrueStory Living Experiences Germany GmbH",
-    "url": "https://rausgegangen.de/organizations/p-team-truestory-living-experiences-germany-gmbh/"
-   },
-   "startDate": "2026-12-16T18:30+0100"
-  }
- },
- "https://rausgegangen.de/events/ubin-eoh-honey-blondie-lesung-2027-0/": {
-  "fetched": "2026-11-25T06:31:47+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Ein Berlin der 90er, erzählt über eine Freundschaft, die lange nachwirkt. Ubin Eoh liest aus ihrem Debütroman Honey & Blondie und bringt genau diesen persönlichen Ton mit, den man aus ihrem Podcast kennt 💌",
-   "endDate": "2027-02-04T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/vwFM8GdSDidLXCZmOCKA_eohubincnevenallgeier.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10119",
-     "streetAddress": "Schönhauser Allee 176"
-    },
-    "name": "Pfefferberg Theater"
-   },
-   "name": "Ubin Eoh /// Honey & Blondie - Lesung 2027",
-   "offers": {
-    "@type": "Offer",
-    "price": "24.80",
-    "priceCurrency": "EUR",
-    "url": "https://www.eventim.de/noapp/event/ubin-eoh-lesung-honey-blondie-literatur-live-pfefferberg-theater-22383841/?affiliate=AAG&utm_campaign=allartistsagency&utm_source=AAG&utm_medium=dp",
-    "validFrom": "2027-02-03T20:00+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "All Artists Agency",
-    "url": "https://rausgegangen.de/organizations/all-artists-agency-1/"
-   },
-   "startDate": "2027-02-03T20:00+0100"
-  }
  }
 }

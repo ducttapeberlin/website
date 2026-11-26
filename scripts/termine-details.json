@@ -1,6 +1,6 @@
 {
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
-  "fetched": "2026-11-25T18:26:58+01:00",
+  "fetched": "2026-11-26T02:52:01+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -111,7 +111,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-11-25T18:26:58+01:00",
+  "fetched": "2026-11-26T02:52:01+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -228,16 +228,16 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/assaden-whispertome-prasentiert-filmvorfuhrung-und-podiumsdi-0/": {
-  "fetched": "2026-11-25T18:26:58+01:00",
+ "https://rausgegangen.de/events/alternative-berlin-tour-subkultur-street-art-underground-eng-9/": {
+  "fetched": "2026-11-26T02:52:01+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Was oft hinter Türen verschwindet, rückt dieser Abend nach vorn. Gezeigt wird der Dokumentarfilm FASSADEN, danach sprechen Betroffene und Expert:innen über häusliche Gewalt und gesellschaftliche Verantwortung 🤝",
-   "endDate": "2026-11-27T22:30+0100",
+   "description": "Diese Tour zeigt die Seite von Berlin, die in keinem Reiseführer steht. Ein Guide aus der Szene führt dich durch Mitte, Kreuzberg und Friedrichshain und erzählt von Street Art, Punk, Techno-Underground und der Hausbesetzerszene. Unterwegs geht es zu Orten wie dem Haus Schwarzenberg, dem YAAM, dem Baumhaus an der Mauer und dem Künstlerhaus Bethanien. Gut zu wissen: Die Tour findet nur auf Englisch statt.Dauer: ca. 3 StundenAb 12 JahrenTreffpunkt: Rathausstraße 6, 10178 BerlinMitbringen: ein AB-Einzelfahrschein für die Öffis und Kleidung passend zum Wetter, eventuell einen RegenschirmBarrierefreiheit: Die Tour ist zu Fuß und mit öffentlichen Verkehrsmitteln unterwegs. Bitte vorab beim Veranstalter nachfragen. Tickets gibt es über Truestory.",
+   "endDate": "2026-12-04T14:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/870f2dcae9104d6da031b0d2b6a4bde0_orange-day-2026-im-planetarium.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Bn0K4RR8S8y26b9PYae8_imgi4pxl20231228151726614-1480x710.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -245,25 +245,29 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10405",
-     "streetAddress": "Prenzlauer Allee 80"
+     "postalCode": "10178",
+     "streetAddress": "Rathausstraße 6"
     },
-    "name": "Zeiss-Großplanetarium"
+    "name": "Treffpunkt Alternative Berlin Tours (Rathausstraße)"
    },
-   "name": "WhisperToMe präsentiert: Filmvorführung FASSADEN und Podiumsdiskussion zum Internationalen Tag zur Beseitigung von Gewalt gegen Frauen",
+   "name": "Alternative Berlin Tour: Subkultur, Street Art & Underground (English)",
    "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "10.00",
-    "lowPrice": "7.00",
-    "offerCount": 0,
-    "offers": [],
-    "priceCurrency": "EUR"
+    "@type": "Offer",
+    "price": "20.00",
+    "priceCurrency": "EUR",
+    "url": "https://de.truestory.com/erlebe/alternative-berlin-tour-1/?utm_source=rausgegangen&utm_medium=affiliate&utm_campaign=rausgegangen&utm_content=alternative-berlin-tour-1",
+    "validFrom": "2026-12-04T11:00+0100"
    },
-   "startDate": "2026-11-27T18:00+0100"
+   "organizer": {
+    "@type": "Organization",
+    "name": "Team - TrueStory Living Experiences Germany GmbH",
+    "url": "https://rausgegangen.de/organizations/p-team-truestory-living-experiences-germany-gmbh/"
+   },
+   "startDate": "2026-12-04T11:00+0100"
   }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-11-25T18:26:58+01:00",
+  "fetched": "2026-11-26T02:52:01+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -351,40 +355,8 @@
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/diedaunten-das-kabarett-openmic-berlin-edition-0/": {
-  "fetched": "2026-11-25T18:26:58+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Warum gibt es eigentlich kaum Kabarett-Shows in Berlin? Es ist ja nicht so, dass es an der aktuellen Politik nichts zu meckern oder zu lästern gäbe. Hier ist er: DIEDAUNTEN - ein Abend mit erfahrenen und jungen Kabarettisten und politischen Comedians im Charlottchen. Jede*r hat ca. 10 Minuten.Durch den Abend führt Kriss Rudolph ",
-   "endDate": "2026-11-26T22:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Aw38xYeaTuZSfmr5NyNE_img-20260811-wa0000-1.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10629",
-     "streetAddress": "Droysenstraße 1"
-    },
-    "name": "Charlottchen"
-   },
-   "name": "DIEDAUNTEN - das Kabarett OpenMic (Berlin edition)",
-   "offers": {
-    "@type": "Offer",
-    "price": "10.00",
-    "priceCurrency": "EUR",
-    "validFrom": "2026-11-26T20:00+0100"
-   },
-   "startDate": "2026-11-26T20:00+0100"
-  }
- },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-25T18:26:58+01:00",
+  "fetched": "2026-11-26T02:52:01+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -431,7 +403,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
-  "fetched": "2026-11-25T18:26:58+01:00",
+  "fetched": "2026-11-26T02:52:01+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -476,7 +448,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
-  "fetched": "2026-11-25T18:26:58+01:00",
+  "fetched": "2026-11-26T02:52:01+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -523,7 +495,7 @@
   "seen": "2026-11-15T18:52:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-0/": {
-  "fetched": "2026-11-25T18:26:58+01:00",
+  "fetched": "2026-11-26T02:52:01+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -561,7 +533,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-1/": {
-  "fetched": "2026-11-25T18:26:58+01:00",
+  "fetched": "2026-11-26T02:52:01+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -599,7 +571,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-2/": {
-  "fetched": "2026-11-25T18:26:58+01:00",
+  "fetched": "2026-11-26T02:52:01+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -637,7 +609,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-25T18:26:58+01:00",
+  "fetched": "2026-11-26T02:52:01+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -675,7 +647,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-4/": {
-  "fetched": "2026-11-25T18:26:58+01:00",
+  "fetched": "2026-11-26T02:52:01+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -713,7 +685,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-5/": {
-  "fetched": "2026-11-25T18:26:58+01:00",
+  "fetched": "2026-11-26T02:52:01+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -751,7 +723,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-11-25T18:26:58+01:00",
+  "fetched": "2026-11-26T02:52:01+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -802,7 +774,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/duct-tape-11/": {
-  "fetched": "2026-11-25T18:26:58+01:00",
+  "fetched": "2026-11-26T02:52:01+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -836,83 +808,8 @@
   "tickets": "duct-tape-11",
   "tickets_ok": false
  },
- "https://rausgegangen.de/events/eisfest-wintermarkt-0/": {
-  "fetched": "2026-11-25T18:26:58+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Zwischen Kerzenwachs aus den Bienenstöcken des MINSK und einer Fotowand mit echten Expeditionsanzügen wird Winter plötzlich ziemlich konkret. Neben dem Markt kannst Du auch in die aktuellen Ausstellungen rübergehen 🙂",
-   "endDate": "2026-11-28T20:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/jlQimSvgT7mVSBDAFDyr_dasmeisfestwebnlfinalquer.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Potsdam",
-     "postalCode": "14473",
-     "streetAddress": "Max-Planck-Strasse 17"
-    },
-    "name": "DAS MINSK Kunsthaus in Potsdam"
-   },
-   "name": "EISFEST & WINTERMARKT",
-   "offers": {
-    "@type": "Offer",
-    "price": "0.00",
-    "priceCurrency": "EUR",
-    "validFrom": "2026-11-28T11:00+0100"
-   },
-   "startDate": "2026-11-28T11:00+0100"
-  }
- },
- "https://rausgegangen.de/events/ezra-collective-10/": {
-  "fetched": "2026-11-25T18:26:58+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Ezra Collective verbindet Jazz mit Afrobeat und Hip-Hop und erzählt mit ihrem neuen Album die Geschichte der schwarzen Diaspora aus drei Perspektiven. Ihre Musik fühlt sich an wie ein mitreißendes Gespräch zwischen Kontinenten und Generationen – Hoffnung klingt hier wie ein Versprechen 👀",
-   "endDate": "2027-02-14T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/m754THj7QeuoRL25IafH_ezracollectivesergio-pontieralbum-anc-lead.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10965",
-     "streetAddress": "Columbiadamm 13-21"
-    },
-    "name": "Columbiahalle"
-   },
-   "name": "EZRA COLLECTIVE",
-   "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "46.35",
-    "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/ezra-collective-2",
-    "validFrom": "2026-07-10T11:00+0200"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Greyzone Concerts",
-    "url": "https://rausgegangen.de/organizations/greyzone-concerts-ah-q3qn/"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Ezra Collective"
-   },
-   "startDate": "2027-02-13T20:00+0100"
-  }
- },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-11-25T18:26:58+01:00",
+  "fetched": "2026-11-26T02:52:01+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -1001,56 +898,8 @@
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/jacob-fortyhands-munster-barking-up-the-tree-of-life-tour-20-4/": {
-  "fetched": "2026-11-25T18:26:58+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Sie kommen aus einem Familienprojekt und stehen live oft zu siebt auf der Bühne, mitten in einer Zeit, in der sonst eher alles klein gehalten wird. Jacob Fortyhands drehen diesen Kontrast einfach um 👀",
-   "endDate": "2027-09-14T06:00+0200",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/FLfZP0SOuyspxBqiKHFA_image00004-kopie-komprimiert.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10777",
-     "streetAddress": "Nollendorfplatz 5"
-    },
-    "name": "Mikropol"
-   },
-   "name": "Jacob Fortyhands - Barking up the tree of life Tour 2027",
-   "offers": {
-    "@type": "Offer",
-    "price": 0,
-    "priceCurrency": "EUR",
-    "url": "https://www.eventim.de/artist/jacob-fortyhands/",
-    "validFrom": "2027-09-13T20:00+0200"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "PRK Dreamhaus",
-    "url": "https://rausgegangen.de/organizations/dreamhaus/"
-   },
-   "performer": [
-    {
-     "@type": "PerformingGroup",
-     "name": "Jacob Fortyhands"
-    },
-    {
-     "@type": "PerformingGroup",
-     "name": "Jacob Fortyhands"
-    }
-   ],
-   "startDate": "2027-09-13T20:00+0200"
-  }
- },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1/": {
-  "fetched": "2026-11-25T18:26:58+01:00",
+  "fetched": "2026-11-26T02:52:01+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -1107,7 +956,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/kundalini-activation-by-cari-berlin-11/": {
-  "fetched": "2026-11-25T18:26:58+01:00",
+  "fetched": "2026-11-26T02:52:01+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -1140,8 +989,112 @@
    "startDate": "2026-12-05T15:00+0100"
   }
  },
+ "https://rausgegangen.de/events/off-the-rails-zum-zum-special-edu-lobo-0/": {
+  "fetched": "2026-11-26T02:52:01+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Brasilianische Rhythmen treffen auf Dub und Drum & Bass, aber gespielt von einem Berliner Liveprojekt statt aus der Konserve. Diesmal nimmt sich ZumZum die Songs von Edu Lobo vor und stellt sie mit vier Musiker:innen neu auf die Bühne 👀",
+   "endDate": "2027-01-15T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/ytEREV4lQ4GXr9zWsfMq_otrzumzumhorizfb.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10245",
+     "streetAddress": "Revaler Strasse 99"
+    },
+    "name": "Badehaus Berlin"
+   },
+   "name": "Off the Rails: ZumZum • Special Edu Lobo",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "10.14",
+    "priceCurrency": "EUR",
+    "url": "https://t.rausgegangen.de/tickets/off-the-rails-zum-zum-special-edu-lobo",
+    "validFrom": "2026-11-06T14:27+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Off the Rails",
+    "url": "https://rausgegangen.de/organizations/off-the-rails/"
+   },
+   "startDate": "2027-01-14T19:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/open-air-in-berlin-0/": {
+  "fetched": "2026-11-26T02:52:01+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Kopfhörer auf, und plötzlich ist ein Konzert auch das, was zwischen Dir und den Songs passiert. LIN spielt das Open Air als Silent Show über kabellose Hörer, mit Soli und ermäßigten Tickets statt starrer Preisschilder 🎟️",
+   "endDate": "2027-05-29T23:00+0200",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/BdY1OERbSV9fsSqiuPid_creditstimovogt.jpeg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10245",
+     "streetAddress": "Markgrafendamm"
+    },
+    "name": "Lebendige Stadtgärtnerei"
+   },
+   "name": "LIN Open-Air in Berlin",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "34.52",
+    "lowPrice": "19.68",
+    "offerCount": 3,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Normalpreis",
+      "price": "27.10",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Soli-Preis",
+      "price": "34.52",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Ermäßigt",
+      "price": "19.68",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Listenrecords",
+    "url": "https://rausgegangen.de/organizations/listenrecords-1/"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "LIN"
+   },
+   "startDate": "2027-05-29T19:00+0200"
+  }
+ },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
-  "fetched": "2026-11-25T18:26:58+01:00",
+  "fetched": "2026-11-26T02:52:01+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -1178,5 +1131,85 @@
    "startDate": "2026-12-19T19:30+0100"
   },
   "seen": "2026-11-15T18:52:24+01:00"
+ },
+ "https://rausgegangen.de/events/soffie-how-to-be-a-millionaire-tour-2027-2/": {
+  "fetched": "2026-11-26T02:52:01+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Reich sein heißt bei SOFFIE offenbar nicht Konto, sondern ein voller Raum und Songs, die Leute zusammenziehen. Nach „Für immer Frühling“ kommt sie jetzt mit mehr politischer Kante zurück 🙂",
+   "endDate": "2027-11-06T23:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/LnmT5KSSTaWurfaZu09v_dsc08631chiaranoemii.jpeg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10965",
+     "streetAddress": "Columbiadamm 9-11"
+    },
+    "name": "Columbia Theater"
+   },
+   "name": "SOFFIE - \"How to be a Millionaire\" Tour 2027",
+   "offers": {
+    "@type": "Offer",
+    "price": "32.00",
+    "priceCurrency": "EUR",
+    "url": "https://tickets.eskapaden.net/produkte",
+    "validFrom": "2027-11-06T20:00+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "eskapaden booking",
+    "url": "https://rausgegangen.de/organizations/page-for-team-eskapaden-booking-1/"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Soffie"
+   },
+   "startDate": "2027-11-06T20:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/ubin-eoh-honey-blondie-lesung-2027-0/": {
+  "fetched": "2026-11-26T02:52:01+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Ein Berlin der 90er, erzählt über eine Freundschaft, die lange nachwirkt. Ubin Eoh liest aus ihrem Debütroman Honey & Blondie und bringt genau diesen persönlichen Ton mit, den man aus ihrem Podcast kennt 💌",
+   "endDate": "2027-02-04T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/vwFM8GdSDidLXCZmOCKA_eohubincnevenallgeier.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10119",
+     "streetAddress": "Schönhauser Allee 176"
+    },
+    "name": "Pfefferberg Theater"
+   },
+   "name": "Ubin Eoh /// Honey & Blondie - Lesung 2027",
+   "offers": {
+    "@type": "Offer",
+    "price": "24.80",
+    "priceCurrency": "EUR",
+    "url": "https://www.eventim.de/noapp/event/ubin-eoh-lesung-honey-blondie-literatur-live-pfefferberg-theater-22383841/?affiliate=AAG&utm_campaign=allartistsagency&utm_source=AAG&utm_medium=dp",
+    "validFrom": "2027-02-03T20:00+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "All Artists Agency",
+    "url": "https://rausgegangen.de/organizations/all-artists-agency-1/"
+   },
+   "startDate": "2027-02-03T20:00+0100"
+  }
  }
 }

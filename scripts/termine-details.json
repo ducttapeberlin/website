@@ -1,6 +1,6 @@
 {
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
-  "fetched": "2026-11-26T12:08:24+01:00",
+  "fetched": "2026-11-26T21:18:18+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -111,7 +111,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-11-26T12:08:24+01:00",
+  "fetched": "2026-11-26T21:18:18+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -228,8 +228,46 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/bln-reunion-indoor-festival-0/": {
+  "fetched": "2026-11-26T21:18:18+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Drei Floors, 14 Acts, und die neue Eventhalle ist für eine lange elektronische Nacht mitgedacht. Nach vier ausverkauften Ausgaben geht BLN Reunion in die Winterrunde, mit AKA AKA, K Paul und Sascha Braemer 🪩",
+   "endDate": "2026-12-13T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/UByHSSIrQtq4vum0PE35_bln1920x1080variantec.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10997",
+     "streetAddress": "Köpenicker Straße 16"
+    },
+    "name": "Spindler & Klatt"
+   },
+   "name": "BLN REUNION INDOOR FESTIVAL - AKA AKA, K-Paul, Sascha Braemer, Blondee uvm.",
+   "offers": {
+    "@type": "Offer",
+    "price": "22.90",
+    "priceCurrency": "EUR",
+    "url": "https://open-air-berlin.ticket.io/ZO7IuWhk/",
+    "validFrom": "2026-12-12T21:00+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Open Air 030 Berlin",
+    "url": "https://rausgegangen.de/organizations/open-air-030-berlin/"
+   },
+   "startDate": "2026-12-12T21:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-11-26T12:08:24+01:00",
+  "fetched": "2026-11-26T21:18:18+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -318,7 +356,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-26T12:08:24+01:00",
+  "fetched": "2026-11-26T21:18:18+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -365,7 +403,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
-  "fetched": "2026-11-26T12:08:24+01:00",
+  "fetched": "2026-11-26T21:18:18+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -410,7 +448,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
-  "fetched": "2026-11-26T12:08:24+01:00",
+  "fetched": "2026-11-26T21:18:18+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -457,7 +495,7 @@
   "seen": "2026-11-15T18:52:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-0/": {
-  "fetched": "2026-11-26T12:08:24+01:00",
+  "fetched": "2026-11-26T21:18:18+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -495,7 +533,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-1/": {
-  "fetched": "2026-11-26T12:08:24+01:00",
+  "fetched": "2026-11-26T21:18:18+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -533,7 +571,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-2/": {
-  "fetched": "2026-11-26T12:08:24+01:00",
+  "fetched": "2026-11-26T21:18:18+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -571,7 +609,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-26T12:08:24+01:00",
+  "fetched": "2026-11-26T21:18:18+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -609,7 +647,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-4/": {
-  "fetched": "2026-11-26T12:08:24+01:00",
+  "fetched": "2026-11-26T21:18:18+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -647,7 +685,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-5/": {
-  "fetched": "2026-11-26T12:08:24+01:00",
+  "fetched": "2026-11-26T21:18:18+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -685,7 +723,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-11-26T12:08:24+01:00",
+  "fetched": "2026-11-26T21:18:18+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -736,15 +774,15 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/duct-tape-11/": {
-  "fetched": "2026-11-26T12:08:24+01:00",
+  "fetched": "2026-11-26T21:18:18+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Musikbingo in der Orangerie 🎶Bingo, aber mit Musik: Statt Zahlen gibt es Songs. Auf jedem Bingo-Blatt stehen Musiktitel, und aus einer festen Auswahl werden zufällig Songs angespielt. Wer den Song erkennt, hakt ihn ab. Fünf in einer Reihe heißt Bingo!Drei Runden, präsentiert von DUCT TAPE, Berlins Drag-Kollektiv. Zu gewinnen gibt es Gutscheine für die Bar, Freigetränke, Shots, coole Überraschungen und mehr. 🍸📅 Donnerstag, 17.12.2026🕗 Einlass 19 Uhr, Start 20 Uhr📍 Orangerie Neukölln, Schierker Straße 8, 12051 Berlin🎟️ 10 € pro Person🪑 Tischreservierung vorab empfohlen: https://orangerie.heytutto.com/reserve oder per Mail an reserve@orangerie-nk.deMehr von DUCT TAPE: https://ducttape.berlinDUCT TAPE ist ein Berliner Drag-Kollektiv, 2022 gegründet von EMI, Symba und Magda von Pfeffer, und produziert die größte Drag Show Berlins. Das Kollektiv verbindet Drag mit Theater, Comedy, Tanz und Musik, stand auf der Hauptbühne des Berliner CSD, tourt international und wurde 2024 mit dem REMIX Popculture Icon Award ausgezeichnet.Der Zugang zur Orangerie ist barrierefrei.",
+   "description": "Musikbingo in der Orangerie 🎶Bingo, aber mit Musik: Statt Zahlen gibt es Songs. Auf jedem Bingo-Blatt stehen Musiktitel, und aus einer festen Auswahl werden zufällig Songs angespielt. Wer den Song erkennt, hakt ihn ab. Fünf in einer Reihe heißt Bingo!Drei Runden, präsentiert von DUCT TAPE, Berlins Drag-Kollektiv. Zu gewinnen gibt es Gutscheine für die Bar, Freigetränke, Shots, coole Überraschungen und mehr. 🍸📅 Donnerstag, 17.12.2026🕗 Einlass 19 Uhr, Start 20 Uhr📍 Orangerie Neukölln, Schierker Straße 8, 12051 Berlin🎟️ 10 € pro Person🪑 Tischreservierung vorab empfohlen: https://orangerie-nk.de/reserve?experience=musikbingo&date=2026-12-17 oder per Mail an reserve@orangerie-nk.deMehr von DUCT TAPE: https://ducttape.berlinDUCT TAPE ist ein Berliner Drag-Kollektiv, 2022 gegründet von EMI, Symba und Magda von Pfeffer, und produziert die größte Drag Show Berlins. Das Kollektiv verbindet Drag mit Theater, Comedy, Tanz und Musik, stand auf der Hauptbühne des Berliner CSD, tourt international und wurde 2024 mit dem REMIX Popculture Icon Award ausgezeichnet.Der Zugang zur Orangerie ist barrierefrei.",
    "endDate": "2026-12-18T00:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://rausgegangen.s3.amazonaws.com/nek56008ydak.jpg"
+    "https://rausgegangen.s3.amazonaws.com/46threhb1no5.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -770,81 +808,68 @@
   "tickets": "duct-tape-11",
   "tickets_ok": false
  },
- "https://rausgegangen.de/events/geheimkonzert-berlin-24-by-rausgegangen-0/": {
-  "fetched": "2026-11-26T12:08:24+01:00",
+ "https://rausgegangen.de/events/fliegende-haie-alle-gehn-dumm-tour-12/": {
+  "fetched": "2026-11-26T21:18:18+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Na Hallo! Es ist wieder so weit: Ein Abend voller Überraschung - denn wer auf der Bühne steht, bleibt bis zum ersten Ton geheim. Wir hatten schon Blond, Berq, Ennio, Futurebae, Jassin, Anais, Katha Pauer & viele mehr zu Gast – und das schon bevor sie die großen Bühnen der Nation gestürmt haben. Also entdecke die Stars von Morgen bei unseren Geheimkonzerten. 🪩",
-   "endDate": "2026-12-09T22:15+0100",
+   "description": "Kuck dir die Welt doch an: Alle gehn dumm. Smartphone-Zombies, emotionaler Leerstand, machtbesessene Despoten. Zeit für einen Reset – Fliegende Haie finden: Wenn schon dumm gehen, dann richtig! Ausrasten, durchtanzen und schweißnass Hymnen hinausschreien für eine bessere Welt.Unterdrückung von Frauen, mentale Gesundheit, sexuelle Unfreiheit – Haie reißen Wunden auf, denn wir haben keinen Bock, dass morgen noch alles so ist wie heute. Also Blutrausch an und die Issues zermahlen im Revolvergebiss. Dazu Bässe, die Beine wegreißen wie der Weiße Hai.Der Haie-Hyperpop ist seit der letzten Tour 2025 düsterer geworden, doch live energiegeladen wie eh und je: Instant wirst du hineingesogen in eine Artshow, die das Salzwasser aus deinen Poren drückt, bis sie dich als neuer Mensch wieder ausgespuckt. Durchgeschüttelt, wachgerüttelt, aber glücklich. Nur was blutet, kann auch hailen.",
+   "endDate": "2026-12-11T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/mO31iODjTCuFLVfQ493H_gk202516x9photoheadline-32-1.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/kDdpHEaT06v9EGY8VXh3_fliegende-haie-alle-gehn-dumm-foto-01quer-c-maxim-kaiser.jpg"
    ],
    "location": {
     "@type": "Place",
     "address": {
      "@type": "PostalAddress",
      "addressCountry": "DE",
-     "addressLocality": "Berlin"
+     "addressLocality": "Berlin",
+     "postalCode": "12435",
+     "streetAddress": "Alt-Treptow 6"
     },
-    "name": "Secret location"
+    "name": "Insel Berlin"
    },
-   "name": "Geheimkonzert Berlin #24 by Rausgegangen",
+   "name": "FLIEGENDE HAIE - Alle gehn dumm-Tour",
    "offers": {
     "@type": "AggregateOffer",
-    "highPrice": "29.90",
-    "lowPrice": "24.50",
-    "offerCount": 4,
+    "highPrice": "27.10",
+    "lowPrice": "16.50",
+    "offerCount": 3,
     "offers": [
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "SCHNAPPER",
-      "price": "21.90",
+      "name": "Social Ticket",
+      "price": "16.50",
       "priceCurrency": "EUR"
      },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "REGULAR",
-      "price": "25.90",
+      "name": "Regulär",
+      "price": "21.80",
       "priceCurrency": "EUR"
      },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "4er FRIENDS BUNDLE",
-      "price": "23.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Mitgegangen",
-      "price": "3.80",
+      "name": "Supporterticket",
+      "price": "27.10",
       "priceCurrency": "EUR"
      }
     ],
     "priceCurrency": "EUR"
    },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "Rausgegangen Geheimkonzerte",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Rausgegangen Geheimkonzerte Berlin",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte-3/"
-    }
-   ],
-   "startDate": "2026-12-09T20:00+0100"
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Fliegende Haie"
+   },
+   "startDate": "2026-12-10T20:00+0100"
   }
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-11-26T12:08:24+01:00",
+  "fetched": "2026-11-26T21:18:18+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -934,7 +959,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1/": {
-  "fetched": "2026-11-26T12:08:24+01:00",
+  "fetched": "2026-11-26T21:18:18+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -990,16 +1015,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/mit-vergnugungspark-berlin-1/": {
-  "fetched": "2026-11-26T12:08:24+01:00",
+ "https://rausgegangen.de/events/nnavy-1/": {
+  "fetched": "2026-11-26T21:18:18+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Hier findest du an zwei Tagen ein Festival, das mit Musik, Podcasts, Comedy und buntem Essen ganz unterschiedliche Menschen zusammenbringt. Von kreativen Workshops bis zu kinderfreundlichen Attraktionen ist für alle was dabei und neue Highlights werden noch vor dem Start verraten 🤩",
-   "endDate": "2026-11-29T20:00+0100",
+   "description": "Zwischen Soul, R&B und Jazz steht bei NNAVY vor allem diese Stimme im Raum, die man schon von COLORSxSTUDIOS kennt. Gerade startet sie mit ihrem Debütalbum I’ll Wait For You in ein neues Kapitel 🎟️",
+   "endDate": "2027-04-28T22:00+0200",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/wXB5KOdQx2KEI1fvhiIg_mvpark2026bannerticket1200x675pxrzversionzweitewellelineup091126.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/040868a2185c491397fa4742df7c6edf_nnavy_spring2027_1920x1080_de.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -1007,87 +1032,33 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10437",
-     "streetAddress": "Gleimstraße 31"
+     "postalCode": "10997",
+     "streetAddress": "Skalitzer Strasse 85-86"
     },
-    "name": "Colosseum Berlin"
+    "name": "Privatclub Berlin"
    },
-   "name": "Mit Vergnügungspark Berlin",
+   "name": "NNAVY // SUPPORT: AKA KELZZ",
    "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "55.00",
-    "lowPrice": "15.00",
-    "offerCount": 8,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "11 € - Freundschaftsticket",
-      "price": "11.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Phase 3 Wochenendpass",
-      "price": "39.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Phase 3 Wochenendpass + Abendprogramm",
-      "price": "49.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Phase 3 Tagesticket Samstag",
-      "price": "30.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Phase 3 Tagesticket Samstag + Abendprogramm",
-      "price": "40.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Phase 3 Tagesticket Sonntag",
-      "price": "25.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Workshop \"Redaktion\" + Tagesticket Samstag",
-      "price": "30.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Phase 3 NUR Abendprogramm am Samstag",
-      "price": "15.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
+    "@type": "Offer",
+    "price": "29.50",
+    "priceCurrency": "EUR",
+    "url": "https://www.reservix.de/tickets-nnavy-ill-wait-for-you-spring-tour-2027-in-berlin-privatclub-berlin-am-28-4-2027/e2635191",
+    "validFrom": "2027-04-28T19:00+0200"
    },
    "organizer": {
     "@type": "Organization",
-    "name": "Mit Vergnügen",
-    "url": "https://rausgegangen.de/organizations/mit-vergnugen-1/"
+    "name": "RBK Fusion",
+    "url": "https://rausgegangen.de/organizations/rbk-fusion/"
    },
-   "startDate": "2026-11-28T14:00+0100"
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "NNAVY"
+   },
+   "startDate": "2027-04-28T19:00+0200"
   }
  },
  "https://rausgegangen.de/events/off-the-rails-zum-zum-special-edu-lobo-0/": {
-  "fetched": "2026-11-26T12:08:24+01:00",
+  "fetched": "2026-11-26T21:18:18+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -1125,16 +1096,16 @@
    "startDate": "2027-01-14T19:00+0100"
   }
  },
- "https://rausgegangen.de/events/rockfrannz-mit-class-of-91-special-0/": {
-  "fetched": "2026-11-26T12:08:24+01:00",
+ "https://rausgegangen.de/events/rock-for-cure-2026/": {
+  "fetched": "2026-11-26T21:18:18+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Mainfloor: \"Class of '91\" Special mit DJ Mig & DJ StanLoungefloor: Pop Non-Stop mit Danny D.Salon: Lautstark Welcome to the \"Class of '91\"! ⚡🎸**Erinnerst du dich noch an das Jahr, in dem die Musikwelt komplett auf den Kopf gestellt wurde? Vor genau 35 Jahren erlebte die Rockszene eine absolute Explosion. Ein einziges Jahr schenkte uns so viele legendäre Meisterwerke, die bis heute in den Herzen aller Rockfans weltweit fest verankert sind.Wir bringen diesen epochalen Vibe zurück auf die Tanzfläche und feiern the Class of '91! Es ist schier unglaublich, was uns dieses Jahr für Hightlights der Rockgeschichte geliefert hat, von Nirvanas Nervermind, Pearls Jams Ten über Guns'n'Roses' Use Your Illusions I & II, Metallicas The Black Album bis hin zu Soundgardens Badmotorfinger und Red Hot Chili Peppers' Blood Sugar Sex Magik. Allein aus der Zusammenstellung dieser unfassbaren Alben wird die Einzigartigkeit des Jahres 1991 für die Rockwelt sofort augenscheinlich. Das muss gebührend gefeiert werden! Mach dich also bereit für eine Zeitreise in ein Jahr voller musikalischer Meilensteine. Der \"Lautstark\"-Salon nimmt sich zudem der härteren Gangart an und lässt Gitarren Wände flirren & Doublebass Infernos wahr werden. Rock spielt klar die Hauptrolle auf dem Mainfloor und im Salon, aber auch 'nen Oskar an den besten Nebendarsteller in der Lounge wollen wir uns verdienen: dort bieten wir Pop- Non Stop zur Abwechslung!",
-   "endDate": "2026-11-28T05:00+0100",
+   "description": "Zwischen Lametta und schiefen Tönen wird Weihnachten kurz ziemlich laut. Erst singst Du mit SingSisySing die großen Festtagssongs, danach geht es in die Kitschmas Disco und das Ticket unterstützt Menschen mit und nach Brustkrebs 🤝",
+   "endDate": "2026-12-12T22:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/ovItG0lJRZG1sf0v8eR2_rock-at-frannz-nov.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/riIhsZEZQfOZMLMjBICT_rfcticketshopheader.png"
    ],
    "location": {
     "@type": "Place",
@@ -1142,24 +1113,59 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10435",
-     "streetAddress": "Schönhauser Allee 36"
+     "postalCode": "12435",
+     "streetAddress": "Alt-Treptow 6"
     },
-    "name": "frannz club berlin"
+    "name": "Insel Berlin"
    },
-   "name": "Rock@Frannz -mit \"Class of '91\" Special-",
+   "name": "ROCK FOR CURE 2026 – Open-Air Weihnachtssingen.",
    "offers": {
-    "@type": "Offer",
-    "price": "10.00",
-    "priceCurrency": "EUR",
-    "url": "https://shop.copilot.events/frannz/events/c182203c-37b4-4765-aa4d-366379f60b70",
-    "validFrom": "2026-11-27T21:00+0100"
+    "@type": "AggregateOffer",
+    "highPrice": "16.50",
+    "lowPrice": "8.55",
+    "offerCount": 4,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "HOLLY JOLLY BUUSENFREUND*IN - Stehplatz Erwachsene",
+      "price": "16.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "SILENT NIGHT ROCKER*IN - Sitzplatz Erwachsene",
+      "price": "16.50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "JINGLE BELL JUMPER - Stehplatz Kids 3-18 Jahre",
+      "price": "8.55",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "LITTLE DRUMMER KID - Sitzplatz Kids 3-18 Jahre",
+      "price": "8.55",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
    },
-   "startDate": "2026-11-27T21:00+0100"
+   "organizer": {
+    "@type": "Organization",
+    "name": "dasBUUSENKOLLEKTIV e. V.",
+    "url": "https://rausgegangen.de/organizations/dasbuusenkollektiv/"
+   },
+   "startDate": "2026-12-12T17:00+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
-  "fetched": "2026-11-26T12:08:24+01:00",
+  "fetched": "2026-11-26T21:18:18+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -1197,16 +1203,16 @@
   },
   "seen": "2026-11-15T18:52:24+01:00"
  },
- "https://rausgegangen.de/events/speed-dating-berlin-30-45-jahre-0/": {
-  "fetched": "2026-11-26T12:08:24+01:00",
+ "https://rausgegangen.de/events/tati-comedy---die-stand-up-comedy-show-33/": {
+  "fetched": "2026-11-26T21:18:18+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Swipen fällt aus, stattdessen sitzt Du alle paar Minuten schon dem nächsten Menschen gegenüber. Für die Gespräche gibt es kleine Anstöße, danach bleibt noch Zeit fürs Weiterreden 🙂",
-   "endDate": "2026-12-08T23:00+0100",
+   "description": "LIVE Stand Up Comedy in der schönsten Ecke Berlins - dem Prenzlauer Berg.Wir präsentieren euch einen Mix aus erfahrenen Profi-Comedians und den heißesten Newcomern der Berliner Comedy-Szene.Das Ticket muss nicht ausgedruckt werden.Egal wer an diesem Abend auf der Bühne steht - euch erwartet absolut authentische Stand Up Comedy nach amerikanischem Vorbild!Der Einlass wird bis 5 Minuten nach Showbeginn gewährt.--Location--Der \"Comedyflash - Club\" in der Metzer Str. 2 im Prenzlauer Berg ist zwei Fußminuten entfernt von der U2 Station “Senefelder Platz”. Die Bar bietet die perfekte Atmosphäre für einen gelungenen Comedyabend. Eine gemütliche Einrichtung, freundliches Personal und gute Getränke runden dieses besondere Comedyevent für dich ab.Comedyflash - Der Standup ClubMetzer Str. 2, 10405 Berlin",
+   "endDate": "2026-11-27T20:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/YHsOcABSsCHTKph7xjgw_speeddating260806templatebannerapp-1-1.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/gqlLXG8iSYKiUDo8pXMy_tati-comedy-club-berliner-stand-up-nacht.png"
    ],
    "location": {
     "@type": "Place",
@@ -1214,12 +1220,12 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10625",
-     "streetAddress": "Kantstraße 127"
+     "postalCode": "10405",
+     "streetAddress": "Metzer Straße 2"
     },
-    "name": "Dufte Berlin"
+    "name": "Tati goes Underground"
    },
-   "name": "SPEED DATING Berlin | 30 - 45 Jahre | by Rausgegangen",
+   "name": "Tati Comedy _ Die Stand Up Comedy Show",
    "offers": {
     "@type": "AggregateOffer",
     "highPrice": null,
@@ -1229,71 +1235,21 @@
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "Ticket | Ich bin ein Mann",
-      "price": "24.90",
+      "name": "Regulär",
+      "price": "20.00",
       "priceCurrency": "EUR"
      },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "Ticket | Ich bin eine Frau",
-      "price": "24.90",
+      "name": "early bird",
+      "price": "16.00",
       "priceCurrency": "EUR"
      }
     ],
     "priceCurrency": "EUR"
    },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "Rausgegangen Events",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-events/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Speed Dating by Rausgegangen",
-     "url": "https://rausgegangen.de/organizations/speed-dating-by-rausgegangen/"
-    }
-   ],
-   "startDate": "2026-12-08T19:30+0100"
-  }
- },
- "https://rausgegangen.de/events/system-olympia-live-0/": {
-  "fetched": "2026-11-26T12:08:24+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Zwischen nächtlicher Autofahrt und Dancefloor Romanze baut Francesca Macri als System Olympia ihren ganz eigenen Kosmos. Vorher legt Paty Vapor auf, dann wird es eher schimmernd als geschniegelt 🌈",
-   "endDate": "2026-12-07T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/T6hD7XmZQMGrGpaDBruN_261206system-olympiat4gheader-kopie.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10963",
-     "streetAddress": "Obentrautstr. 19-21"
-    },
-    "name": "Gretchen"
-   },
-   "name": "System Olympia *live",
-   "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "27.90",
-    "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/system-olympia-live",
-    "validFrom": "2026-07-03T16:51+0200"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "System Olympia"
-   },
-   "startDate": "2026-12-06T19:30+0100"
+   "startDate": "2026-11-27T19:00+0100"
   }
  }
 }

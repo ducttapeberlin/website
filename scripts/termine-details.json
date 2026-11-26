@@ -1,6 +1,6 @@
 {
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
-  "fetched": "2026-11-26T02:52:01+01:00",
+  "fetched": "2026-11-26T12:08:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -111,7 +111,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-11-26T02:52:01+01:00",
+  "fetched": "2026-11-26T12:08:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -228,46 +228,8 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/alternative-berlin-tour-subkultur-street-art-underground-eng-9/": {
-  "fetched": "2026-11-26T02:52:01+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Diese Tour zeigt die Seite von Berlin, die in keinem Reiseführer steht. Ein Guide aus der Szene führt dich durch Mitte, Kreuzberg und Friedrichshain und erzählt von Street Art, Punk, Techno-Underground und der Hausbesetzerszene. Unterwegs geht es zu Orten wie dem Haus Schwarzenberg, dem YAAM, dem Baumhaus an der Mauer und dem Künstlerhaus Bethanien. Gut zu wissen: Die Tour findet nur auf Englisch statt.Dauer: ca. 3 StundenAb 12 JahrenTreffpunkt: Rathausstraße 6, 10178 BerlinMitbringen: ein AB-Einzelfahrschein für die Öffis und Kleidung passend zum Wetter, eventuell einen RegenschirmBarrierefreiheit: Die Tour ist zu Fuß und mit öffentlichen Verkehrsmitteln unterwegs. Bitte vorab beim Veranstalter nachfragen. Tickets gibt es über Truestory.",
-   "endDate": "2026-12-04T14:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/Bn0K4RR8S8y26b9PYae8_imgi4pxl20231228151726614-1480x710.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10178",
-     "streetAddress": "Rathausstraße 6"
-    },
-    "name": "Treffpunkt Alternative Berlin Tours (Rathausstraße)"
-   },
-   "name": "Alternative Berlin Tour: Subkultur, Street Art & Underground (English)",
-   "offers": {
-    "@type": "Offer",
-    "price": "20.00",
-    "priceCurrency": "EUR",
-    "url": "https://de.truestory.com/erlebe/alternative-berlin-tour-1/?utm_source=rausgegangen&utm_medium=affiliate&utm_campaign=rausgegangen&utm_content=alternative-berlin-tour-1",
-    "validFrom": "2026-12-04T11:00+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Team - TrueStory Living Experiences Germany GmbH",
-    "url": "https://rausgegangen.de/organizations/p-team-truestory-living-experiences-germany-gmbh/"
-   },
-   "startDate": "2026-12-04T11:00+0100"
-  }
- },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-11-26T02:52:01+01:00",
+  "fetched": "2026-11-26T12:08:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -356,7 +318,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-26T02:52:01+01:00",
+  "fetched": "2026-11-26T12:08:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -403,7 +365,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
-  "fetched": "2026-11-26T02:52:01+01:00",
+  "fetched": "2026-11-26T12:08:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -448,7 +410,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
-  "fetched": "2026-11-26T02:52:01+01:00",
+  "fetched": "2026-11-26T12:08:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -495,7 +457,7 @@
   "seen": "2026-11-15T18:52:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-0/": {
-  "fetched": "2026-11-26T02:52:01+01:00",
+  "fetched": "2026-11-26T12:08:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -533,7 +495,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-1/": {
-  "fetched": "2026-11-26T02:52:01+01:00",
+  "fetched": "2026-11-26T12:08:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -571,7 +533,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-2/": {
-  "fetched": "2026-11-26T02:52:01+01:00",
+  "fetched": "2026-11-26T12:08:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -609,7 +571,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-26T02:52:01+01:00",
+  "fetched": "2026-11-26T12:08:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -647,7 +609,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-4/": {
-  "fetched": "2026-11-26T02:52:01+01:00",
+  "fetched": "2026-11-26T12:08:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -685,7 +647,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-5/": {
-  "fetched": "2026-11-26T02:52:01+01:00",
+  "fetched": "2026-11-26T12:08:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -723,7 +685,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-11-26T02:52:01+01:00",
+  "fetched": "2026-11-26T12:08:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -774,7 +736,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/duct-tape-11/": {
-  "fetched": "2026-11-26T02:52:01+01:00",
+  "fetched": "2026-11-26T12:08:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -808,8 +770,81 @@
   "tickets": "duct-tape-11",
   "tickets_ok": false
  },
+ "https://rausgegangen.de/events/geheimkonzert-berlin-24-by-rausgegangen-0/": {
+  "fetched": "2026-11-26T12:08:24+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Na Hallo! Es ist wieder so weit: Ein Abend voller Überraschung - denn wer auf der Bühne steht, bleibt bis zum ersten Ton geheim. Wir hatten schon Blond, Berq, Ennio, Futurebae, Jassin, Anais, Katha Pauer & viele mehr zu Gast – und das schon bevor sie die großen Bühnen der Nation gestürmt haben. Also entdecke die Stars von Morgen bei unseren Geheimkonzerten. 🪩",
+   "endDate": "2026-12-09T22:15+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/mO31iODjTCuFLVfQ493H_gk202516x9photoheadline-32-1.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin"
+    },
+    "name": "Secret location"
+   },
+   "name": "Geheimkonzert Berlin #24 by Rausgegangen",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "29.90",
+    "lowPrice": "24.50",
+    "offerCount": 4,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "SCHNAPPER",
+      "price": "21.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "REGULAR",
+      "price": "25.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "4er FRIENDS BUNDLE",
+      "price": "23.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Mitgegangen",
+      "price": "3.80",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "Rausgegangen Geheimkonzerte",
+     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Rausgegangen Geheimkonzerte Berlin",
+     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte-3/"
+    }
+   ],
+   "startDate": "2026-12-09T20:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-11-26T02:52:01+01:00",
+  "fetched": "2026-11-26T12:08:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -899,7 +934,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1/": {
-  "fetched": "2026-11-26T02:52:01+01:00",
+  "fetched": "2026-11-26T12:08:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -955,16 +990,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/kundalini-activation-by-cari-berlin-11/": {
-  "fetched": "2026-11-26T02:52:01+01:00",
+ "https://rausgegangen.de/events/mit-vergnugungspark-berlin-1/": {
+  "fetched": "2026-11-26T12:08:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "„Wer bin ich wirklich und was möchte ich im Leben ?“ Diese Frage haben wir uns alle schon gestellt – eine konkrete Antwort darauf zu finden ist gar nicht so einfach. Kundalini Aktivation hilft dir dabei, genau das herauszufinden.   Was ist Kundalini Activation? Ein Aktivierungsprozess der Kundalini-Energie, deiner eigenen Lebensenergie. Sie ist eine ursprüngliche und lebendige Energie, die wir immer dann spüren, wenn wir nicht im Verstand sind, z. B. wenn wir herzhaft lachen, ausgelassen tanzen, vor Wut kochen, in Ekstase sind oder auch eine tiefe Traurigkeit spüren.   Bei der Aktivierung kommt deine Lebensenergie ins Fließen – hierbei kannst du körperliche, emotionale und spirituelle Erfahrungen machen. Ich halte den Raum und unterstütze dich auf deiner inneren Reise.   Was passiert bei einer Session? Du liegst auf deiner Matte, lässt Musik auf dich wirken und entspannst dich - dabei hast du keine Aufgabe. Energie ist Schwingung: bei der Aktivierung kommt deine Energie ins Fließen und kann sich in wellenartiger Form durch deinen Körper bewegen. Dies kann als zuckende Impulse wahrgenommen werden – die Energie und deine Emotionen möchten möglicherweise körperlich Ausdruck finden.   Was bringt dir die Aktivierung? Kundalini Activation Sessions bieten dir einen geschützten Rahmen, in dem deine Emotionen ihren Ausdruck finden dürfen. Auf deinem Weg kann dir die Aktivierung helfen, deinen inneren Kompass wieder klarer wahrzunehmen und somit auch im Außen klarer zu handeln.    Vorbereitung - komme in bequemer und warmer Kleidung, damit du nicht auskühlst, wenn du eine Stunde liegst. - bringe ausreichend Wasser/ Tee mit. - es empfiehlt sich, zwei Stunden vorher nichts zu essen (kein Alkohol 1-2 Tage davor).   Kindern und Menschen die Drogen oder starke Psychopharmaka nehmen, wird von einer Session abgeraten.   Falls du noch Fragen hast, melde dich gerne.   Ich freue mich auf dich. Carina   Location: Studio Sonic Reichenberger Str. 124/2 (Hinterhof rechts, Haus C.) 10999 Berlin Kreuzberg Preis: 55,- €   Email: kundalinibycari@gmail.com Webseite: www.kundalinibycari.de Instagram: kundalini.by.cari",
-   "endDate": "2026-12-05T17:00+0100",
+   "description": "Hier findest du an zwei Tagen ein Festival, das mit Musik, Podcasts, Comedy und buntem Essen ganz unterschiedliche Menschen zusammenbringt. Von kreativen Workshops bis zu kinderfreundlichen Attraktionen ist für alle was dabei und neue Highlights werden noch vor dem Start verraten 🤩",
+   "endDate": "2026-11-29T20:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/nvg3HsFDRwJEw46Q4pht_fbclassquer.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/wXB5KOdQx2KEI1fvhiIg_mvpark2026bannerticket1200x675pxrzversionzweitewellelineup091126.png"
    ],
    "location": {
     "@type": "Place",
@@ -972,25 +1007,87 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10999",
-     "streetAddress": "Reichenberger Straße 124/2"
+     "postalCode": "10437",
+     "streetAddress": "Gleimstraße 31"
     },
-    "name": "Studio SoniC"
+    "name": "Colosseum Berlin"
    },
-   "name": "Kundalini Activation by Cari // BERLIN",
+   "name": "Mit Vergnügungspark Berlin",
    "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "55.00",
-    "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/kundalini-activation-by-cari-berlin-11",
-    "validFrom": "2026-10-11T13:18+0200"
+    "@type": "AggregateOffer",
+    "highPrice": "55.00",
+    "lowPrice": "15.00",
+    "offerCount": 8,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "11 € - Freundschaftsticket",
+      "price": "11.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Phase 3 Wochenendpass",
+      "price": "39.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Phase 3 Wochenendpass + Abendprogramm",
+      "price": "49.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Phase 3 Tagesticket Samstag",
+      "price": "30.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Phase 3 Tagesticket Samstag + Abendprogramm",
+      "price": "40.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Phase 3 Tagesticket Sonntag",
+      "price": "25.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Workshop \"Redaktion\" + Tagesticket Samstag",
+      "price": "30.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Phase 3 NUR Abendprogramm am Samstag",
+      "price": "15.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
    },
-   "startDate": "2026-12-05T15:00+0100"
+   "organizer": {
+    "@type": "Organization",
+    "name": "Mit Vergnügen",
+    "url": "https://rausgegangen.de/organizations/mit-vergnugen-1/"
+   },
+   "startDate": "2026-11-28T14:00+0100"
   }
  },
  "https://rausgegangen.de/events/off-the-rails-zum-zum-special-edu-lobo-0/": {
-  "fetched": "2026-11-26T02:52:01+01:00",
+  "fetched": "2026-11-26T12:08:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -1028,16 +1125,16 @@
    "startDate": "2027-01-14T19:00+0100"
   }
  },
- "https://rausgegangen.de/events/open-air-in-berlin-0/": {
-  "fetched": "2026-11-26T02:52:01+01:00",
+ "https://rausgegangen.de/events/rockfrannz-mit-class-of-91-special-0/": {
+  "fetched": "2026-11-26T12:08:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Kopfhörer auf, und plötzlich ist ein Konzert auch das, was zwischen Dir und den Songs passiert. LIN spielt das Open Air als Silent Show über kabellose Hörer, mit Soli und ermäßigten Tickets statt starrer Preisschilder 🎟️",
-   "endDate": "2027-05-29T23:00+0200",
+   "description": "Mainfloor: \"Class of '91\" Special mit DJ Mig & DJ StanLoungefloor: Pop Non-Stop mit Danny D.Salon: Lautstark Welcome to the \"Class of '91\"! ⚡🎸**Erinnerst du dich noch an das Jahr, in dem die Musikwelt komplett auf den Kopf gestellt wurde? Vor genau 35 Jahren erlebte die Rockszene eine absolute Explosion. Ein einziges Jahr schenkte uns so viele legendäre Meisterwerke, die bis heute in den Herzen aller Rockfans weltweit fest verankert sind.Wir bringen diesen epochalen Vibe zurück auf die Tanzfläche und feiern the Class of '91! Es ist schier unglaublich, was uns dieses Jahr für Hightlights der Rockgeschichte geliefert hat, von Nirvanas Nervermind, Pearls Jams Ten über Guns'n'Roses' Use Your Illusions I & II, Metallicas The Black Album bis hin zu Soundgardens Badmotorfinger und Red Hot Chili Peppers' Blood Sugar Sex Magik. Allein aus der Zusammenstellung dieser unfassbaren Alben wird die Einzigartigkeit des Jahres 1991 für die Rockwelt sofort augenscheinlich. Das muss gebührend gefeiert werden! Mach dich also bereit für eine Zeitreise in ein Jahr voller musikalischer Meilensteine. Der \"Lautstark\"-Salon nimmt sich zudem der härteren Gangart an und lässt Gitarren Wände flirren & Doublebass Infernos wahr werden. Rock spielt klar die Hauptrolle auf dem Mainfloor und im Salon, aber auch 'nen Oskar an den besten Nebendarsteller in der Lounge wollen wir uns verdienen: dort bieten wir Pop- Non Stop zur Abwechslung!",
+   "endDate": "2026-11-28T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/BdY1OERbSV9fsSqiuPid_creditstimovogt.jpeg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/ovItG0lJRZG1sf0v8eR2_rock-at-frannz-nov.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -1045,56 +1142,24 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10245",
-     "streetAddress": "Markgrafendamm"
+     "postalCode": "10435",
+     "streetAddress": "Schönhauser Allee 36"
     },
-    "name": "Lebendige Stadtgärtnerei"
+    "name": "frannz club berlin"
    },
-   "name": "LIN Open-Air in Berlin",
+   "name": "Rock@Frannz -mit \"Class of '91\" Special-",
    "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "34.52",
-    "lowPrice": "19.68",
-    "offerCount": 3,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Normalpreis",
-      "price": "27.10",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Soli-Preis",
-      "price": "34.52",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Ermäßigt",
-      "price": "19.68",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
+    "@type": "Offer",
+    "price": "10.00",
+    "priceCurrency": "EUR",
+    "url": "https://shop.copilot.events/frannz/events/c182203c-37b4-4765-aa4d-366379f60b70",
+    "validFrom": "2026-11-27T21:00+0100"
    },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Listenrecords",
-    "url": "https://rausgegangen.de/organizations/listenrecords-1/"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "LIN"
-   },
-   "startDate": "2027-05-29T19:00+0200"
+   "startDate": "2026-11-27T21:00+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
-  "fetched": "2026-11-26T02:52:01+01:00",
+  "fetched": "2026-11-26T12:08:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -1132,16 +1197,16 @@
   },
   "seen": "2026-11-15T18:52:24+01:00"
  },
- "https://rausgegangen.de/events/soffie-how-to-be-a-millionaire-tour-2027-2/": {
-  "fetched": "2026-11-26T02:52:01+01:00",
+ "https://rausgegangen.de/events/speed-dating-berlin-30-45-jahre-0/": {
+  "fetched": "2026-11-26T12:08:24+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Reich sein heißt bei SOFFIE offenbar nicht Konto, sondern ein voller Raum und Songs, die Leute zusammenziehen. Nach „Für immer Frühling“ kommt sie jetzt mit mehr politischer Kante zurück 🙂",
-   "endDate": "2027-11-06T23:00+0100",
+   "description": "Swipen fällt aus, stattdessen sitzt Du alle paar Minuten schon dem nächsten Menschen gegenüber. Für die Gespräche gibt es kleine Anstöße, danach bleibt noch Zeit fürs Weiterreden 🙂",
+   "endDate": "2026-12-08T23:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/LnmT5KSSTaWurfaZu09v_dsc08631chiaranoemii.jpeg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/YHsOcABSsCHTKph7xjgw_speeddating260806templatebannerapp-1-1.png"
    ],
    "location": {
     "@type": "Place",
@@ -1149,67 +1214,86 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10965",
-     "streetAddress": "Columbiadamm 9-11"
+     "postalCode": "10625",
+     "streetAddress": "Kantstraße 127"
     },
-    "name": "Columbia Theater"
+    "name": "Dufte Berlin"
    },
-   "name": "SOFFIE - \"How to be a Millionaire\" Tour 2027",
+   "name": "SPEED DATING Berlin | 30 - 45 Jahre | by Rausgegangen",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": null,
+    "lowPrice": null,
+    "offerCount": 2,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Ticket | Ich bin ein Mann",
+      "price": "24.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Ticket | Ich bin eine Frau",
+      "price": "24.90",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "Rausgegangen Events",
+     "url": "https://rausgegangen.de/organizations/rausgegangen-events/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Speed Dating by Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/speed-dating-by-rausgegangen/"
+    }
+   ],
+   "startDate": "2026-12-08T19:30+0100"
+  }
+ },
+ "https://rausgegangen.de/events/system-olympia-live-0/": {
+  "fetched": "2026-11-26T12:08:24+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Zwischen nächtlicher Autofahrt und Dancefloor Romanze baut Francesca Macri als System Olympia ihren ganz eigenen Kosmos. Vorher legt Paty Vapor auf, dann wird es eher schimmernd als geschniegelt 🌈",
+   "endDate": "2026-12-07T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/T6hD7XmZQMGrGpaDBruN_261206system-olympiat4gheader-kopie.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10963",
+     "streetAddress": "Obentrautstr. 19-21"
+    },
+    "name": "Gretchen"
+   },
+   "name": "System Olympia *live",
    "offers": {
     "@type": "Offer",
-    "price": "32.00",
+    "availability": "https://schema.org/InStock",
+    "price": "27.90",
     "priceCurrency": "EUR",
-    "url": "https://tickets.eskapaden.net/produkte",
-    "validFrom": "2027-11-06T20:00+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "eskapaden booking",
-    "url": "https://rausgegangen.de/organizations/page-for-team-eskapaden-booking-1/"
+    "url": "https://t.rausgegangen.de/tickets/system-olympia-live",
+    "validFrom": "2026-07-03T16:51+0200"
    },
    "performer": {
     "@type": "PerformingGroup",
-    "name": "Soffie"
+    "name": "System Olympia"
    },
-   "startDate": "2027-11-06T20:00+0100"
-  }
- },
- "https://rausgegangen.de/events/ubin-eoh-honey-blondie-lesung-2027-0/": {
-  "fetched": "2026-11-26T02:52:01+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Ein Berlin der 90er, erzählt über eine Freundschaft, die lange nachwirkt. Ubin Eoh liest aus ihrem Debütroman Honey & Blondie und bringt genau diesen persönlichen Ton mit, den man aus ihrem Podcast kennt 💌",
-   "endDate": "2027-02-04T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/vwFM8GdSDidLXCZmOCKA_eohubincnevenallgeier.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10119",
-     "streetAddress": "Schönhauser Allee 176"
-    },
-    "name": "Pfefferberg Theater"
-   },
-   "name": "Ubin Eoh /// Honey & Blondie - Lesung 2027",
-   "offers": {
-    "@type": "Offer",
-    "price": "24.80",
-    "priceCurrency": "EUR",
-    "url": "https://www.eventim.de/noapp/event/ubin-eoh-lesung-honey-blondie-literatur-live-pfefferberg-theater-22383841/?affiliate=AAG&utm_campaign=allartistsagency&utm_source=AAG&utm_medium=dp",
-    "validFrom": "2027-02-03T20:00+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "All Artists Agency",
-    "url": "https://rausgegangen.de/organizations/all-artists-agency-1/"
-   },
-   "startDate": "2027-02-03T20:00+0100"
+   "startDate": "2026-12-06T19:30+0100"
   }
  }
 }

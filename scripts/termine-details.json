@@ -1,6 +1,6 @@
 {
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
-  "fetched": "2026-11-27T03:58:54+01:00",
+  "fetched": "2026-11-27T13:48:48+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -111,7 +111,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-11-27T03:58:54+01:00",
+  "fetched": "2026-11-27T13:48:48+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -228,8 +228,50 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/bike-routes-2/": {
+  "fetched": "2026-11-27T13:48:48+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Gerade noch im Vorprogramm von Bleachers, jetzt steht Bike Routes mit eigener Show da. Der Songwriter aus New Jersey mischt Indie Rock mit Emo und Pop Punk, nah dran an Angst und Herzschmerz 🎟️",
+   "endDate": "2027-02-24T23:45+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/frMb7uYjShSogHPSPejh_brfb-cover.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10777",
+     "streetAddress": "Nollendorfplatz 5"
+    },
+    "name": "Mikropol"
+   },
+   "name": "Bike Routes",
+   "offers": {
+    "@type": "Offer",
+    "price": "30.00",
+    "priceCurrency": "EUR",
+    "url": "https://link.dice.fm/A5ed36a9c3b2",
+    "validFrom": "2027-02-24T20:00+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Z|ART Agency",
+    "url": "https://rausgegangen.de/organizations/zart-agency-gmbh/"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Bike Routes"
+   },
+   "startDate": "2027-02-24T20:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-11-27T03:58:54+01:00",
+  "fetched": "2026-11-27T13:48:48+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -317,16 +359,16 @@
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/dein-moment-dein-wein-die-mosel-zu-gast-in-berlin-0/": {
-  "fetched": "2026-11-27T03:58:54+01:00",
+ "https://rausgegangen.de/events/der-schatz-eine-bohmische-familiengeschichte-0/": {
+  "fetched": "2026-11-27T13:48:48+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Schieferboden und steile Hänge sind weit weg, im Glas landet trotzdem Mosel. In Berliner Weinläden und Restaurants kannst Du Rieslinge der Region probieren und Dich einmal quer durch diese Weingegend kosten 👩🏻‍🍳",
-   "endDate": "2026-12-20T00:00+0100",
+   "description": "April 1945. Die Rote Armee rückt unaufhaltsam vor. Am Fuß des Riesengebirges vergräbt Otto Ther eine Kiste mit einem Diamantkreuz, Schmuck und poliertem Silberbesteck. Sie soll überdauern, bis die Familie nach Hohenelbe, heute Vrchlabí, zurückkehren kann.Jahrzehnte später reist sein Enkel, der Historiker Philipp Ther, mit seinem Vater immer wieder in die verlorene Heimat. Das örtliche Museum übergibt ihnen drei Kisten, für den Historiker ein Schatz ganz anderer Art. Die Familiendokumente darin zeigen, wie tief die eigene Familie in den Nationalsozialismus verstrickt war.In „Mein Schatz“ verbindet Philipp Ther Familien- und Zeitgeschichte zu einer persönlichen Erzählung über Herkunft, Schuld und Erinnerung.„Philipp Ther ist ein sozialhistorischer Prosakünstler.“ Gustav Seibt PROGRAMM BegrüßungDr. Roland Borchers, Direktor, Dokumentationszentrum Flucht, Vertreibung, Versöhnung (Berlin)Lesung und GesprächProf. Dr. Philipp Ther, AutorModeration: em. Prof. Dr. Jürgen Kocka, Freie Universität (Berlin)Der Autor steht nach der Lesung für eine Signierstunde bereit. Im Anschluss laden wir Sie zu einem kleinen Empfang ein.  WEITERE HINWEISE   Büchertisch: Buchhandlung „Der Zauberberg“Einlass: 18.00 Uhr   Sprache: DeutschEINTRITT FREI, MIT ANMELDUNGDie Veranstaltung wird aufgezeichnet und auf unserem YouTube-Kanal Flucht, Vertreibung, Versöhnung veröffentlicht.",
+   "endDate": "2026-12-02T20:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/leL5ZuVfRYiO3x90gloF_2.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/iONiEZu9RfK8U0wtzZgo_der-schatz-2.png"
    ],
    "location": {
     "@type": "Place",
@@ -334,23 +376,23 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": null,
-     "streetAddress": null
+     "postalCode": "10963",
+     "streetAddress": "Stresemannstraße 90"
     },
-    "name": "Berlin"
+    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
    },
-   "name": "Dein Moment. Dein Wein: Die Mosel zu Gast in Berlin",
+   "name": "Der Schatz – Eine böhmische Familiengeschichte",
    "offers": {
     "@type": "Offer",
     "price": "0.00",
     "priceCurrency": "EUR",
-    "validFrom": "2026-12-07T00:00+0100"
+    "validFrom": "2026-12-02T18:30+0100"
    },
-   "startDate": "2026-12-07T00:00+0100"
+   "startDate": "2026-12-02T18:30+0100"
   }
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-27T03:58:54+01:00",
+  "fetched": "2026-11-27T13:48:48+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -397,7 +439,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
-  "fetched": "2026-11-27T03:58:54+01:00",
+  "fetched": "2026-11-27T13:48:48+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -442,7 +484,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
-  "fetched": "2026-11-27T03:58:54+01:00",
+  "fetched": "2026-11-27T13:48:48+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -489,7 +531,7 @@
   "seen": "2026-11-15T18:52:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-0/": {
-  "fetched": "2026-11-27T03:58:54+01:00",
+  "fetched": "2026-11-27T13:48:48+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -527,7 +569,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-1/": {
-  "fetched": "2026-11-27T03:58:54+01:00",
+  "fetched": "2026-11-27T13:48:48+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -565,7 +607,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-2/": {
-  "fetched": "2026-11-27T03:58:54+01:00",
+  "fetched": "2026-11-27T13:48:48+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -603,7 +645,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-27T03:58:54+01:00",
+  "fetched": "2026-11-27T13:48:48+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -641,7 +683,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-4/": {
-  "fetched": "2026-11-27T03:58:54+01:00",
+  "fetched": "2026-11-27T13:48:48+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -679,7 +721,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-5/": {
-  "fetched": "2026-11-27T03:58:54+01:00",
+  "fetched": "2026-11-27T13:48:48+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -717,7 +759,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-11-27T03:58:54+01:00",
+  "fetched": "2026-11-27T13:48:48+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -768,7 +810,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/duct-tape-11/": {
-  "fetched": "2026-11-27T03:58:54+01:00",
+  "fetched": "2026-11-27T13:48:48+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -803,7 +845,7 @@
   "tickets_ok": false
  },
  "https://rausgegangen.de/events/geheimkonzert-berlin-24-by-rausgegangen-0/": {
-  "fetched": "2026-11-27T03:58:54+01:00",
+  "fetched": "2026-11-27T13:48:48+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -876,7 +918,7 @@
   }
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-11-27T03:58:54+01:00",
+  "fetched": "2026-11-27T13:48:48+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -966,7 +1008,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1/": {
-  "fetched": "2026-11-27T03:58:54+01:00",
+  "fetched": "2026-11-27T13:48:48+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -1022,88 +1064,8 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/kulk-live-4/": {
-  "fetched": "2026-11-27T03:58:54+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Zwei Leute, Gitarre, Schlagzeug, und dazwischen eine Band, die auch ihre Beziehung mit auf die Bühne bringt. KULK kommen als Duo aus Thom und Jade, und live soll das eher Chaos als Zurückhaltung sein ⚡",
-   "endDate": "2027-02-04T23:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/jh8aaKrXQZicj0tzVdiM_copy-of-kulklogo.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10115",
-     "streetAddress": "Ackerstraße 169, 10115 Berlin"
-    },
-    "name": "Schokoladen"
-   },
-   "name": "KULK Live",
-   "offers": {
-    "@type": "Offer",
-    "price": 0,
-    "priceCurrency": "EUR",
-    "url": "https://schokoladen.tickettoaster.de/produkte/102791-tickets-kulk-uk-schokoladen-berlin-am-04-02-2027",
-    "validFrom": "2027-02-04T19:00+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "killmebooking",
-    "url": "https://rausgegangen.de/organizations/page-for-team-killmebooking/"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "KULK"
-   },
-   "startDate": "2027-02-04T19:00+0100"
-  }
- },
- "https://rausgegangen.de/events/lederschmuck-workshop-mit-upgecyceltem-leder-bei-wara-design-1/": {
-  "fetched": "2026-11-27T03:58:54+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Verwandle Leder aus alten Berliner Sofas und Sesseln in deinen eigenen Schmuck: In diesem 2-stündigen Upcycling-Workshop bei Wara Designs im Ohma Studio in Friedrichshain gestaltest du ein ganz persönliches Schmuckstück. Vorkenntnisse brauchst du keine.Nach ersten Inspirationen wählst du dein Wunschdesign. Schritt für Schritt lernst du, das gerettete Leder zu schneiden und zu formen. Silberschmiedin Caroline stellt Haken, Ösen und Verbindungsstücke bereit und zeigt dir, wie du alles perfekt zusammensetzt. Am Ende nimmst du dein fertiges Unikat mit nach Hause.Inklusive: 2-stündiger Workshop, alle Materialien und Werkzeuge, Anleitung durch eine erfahrene Silberschmiedin, dein Leder-Unikat zum Mitnehmen.Gut zu wissen: Der Kurs findet auf Englisch statt. Ab 18 Jahren, Jüngere in Begleitung eines Erwachsenen.Hinter Wara Designs steht die französische Silberschmiedin Caroline, die das Handwerk in Peru gelernt hat und heute in Berlin nachhaltigen Schmuck im Sinne der Slow-Fashion-Bewegung fertigt.Den Workshop gibt es auch als Geschenkgutschein bei Truestory – der Gutschein kommt direkt per E-Mail.",
-   "endDate": "2026-12-11T20:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/89L959FoSQq3a4psCU8D_pxl20260409174337561.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10245",
-     "streetAddress": "Boxhagener Straße 110"
-    },
-    "name": "Ohma Studio"
-   },
-   "name": "Lederschmuck-Workshop mit upgecyceltem Leder bei Wara Designs",
-   "offers": {
-    "@type": "Offer",
-    "price": "55.00",
-    "priceCurrency": "EUR",
-    "url": "https://de.truestory.com/erlebe/schmuck-workshop-mit-upgecyceltem-leder-bei-wara-designs/?utm_source=rausgegangen&utm_medium=affiliate&utm_campaign=rausgegangen&utm_content=schmuck-workshop-mit-upgecyceltem-leder-bei-wara-designs",
-    "validFrom": "2026-12-11T18:00+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Team - TrueStory Living Experiences Germany GmbH",
-    "url": "https://rausgegangen.de/organizations/p-team-truestory-living-experiences-germany-gmbh/"
-   },
-   "startDate": "2026-12-11T18:00+0100"
-  }
- },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
-  "fetched": "2026-11-27T03:58:54+01:00",
+  "fetched": "2026-11-27T13:48:48+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",

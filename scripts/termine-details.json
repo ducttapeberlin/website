@@ -1,6 +1,52 @@
 {
+ "https://rausgegangen.de/events/1-day-chor-berlin-0/": {
+  "fetched": "2026-11-27T23:08:59+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Ein Chor für einen Tag, ohne langes Commitment. Unter Leitung von Constantin Gold entsteht mit anderen ein Medley aus 5 bis 7 Songs, und am Ende wird das gemeinsam Erarbeitete professionell aufgenommen 🎤",
+   "endDate": "2026-12-13T16:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/4JYsZ4KKQ46DQVPPL7v9_design2026eventsonedaychorentwurf01.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "13088",
+     "streetAddress": "Berliner Allee 125"
+    },
+    "name": "PETER EDEL"
+   },
+   "name": "1 DAY CHOR Berlin",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "60.00",
+    "priceCurrency": "EUR",
+    "url": "https://t.rausgegangen.de/tickets/1-day-chor-berlin",
+    "validFrom": "2026-11-05T00:00+0100"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "1 DAY CHOR",
+     "url": "https://rausgegangen.de/organizations/1-day-chor/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Rausgegangen Events",
+     "url": "https://rausgegangen.de/organizations/rausgegangen-events/"
+    }
+   ],
+   "startDate": "2026-12-13T10:30+0100"
+  }
+ },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
-  "fetched": "2026-11-27T13:48:48+01:00",
+  "fetched": "2026-11-27T23:08:59+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -111,7 +157,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-11-27T13:48:48+01:00",
+  "fetched": "2026-11-27T23:08:59+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -228,50 +274,8 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/bike-routes-2/": {
-  "fetched": "2026-11-27T13:48:48+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Gerade noch im Vorprogramm von Bleachers, jetzt steht Bike Routes mit eigener Show da. Der Songwriter aus New Jersey mischt Indie Rock mit Emo und Pop Punk, nah dran an Angst und Herzschmerz 🎟️",
-   "endDate": "2027-02-24T23:45+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/frMb7uYjShSogHPSPejh_brfb-cover.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10777",
-     "streetAddress": "Nollendorfplatz 5"
-    },
-    "name": "Mikropol"
-   },
-   "name": "Bike Routes",
-   "offers": {
-    "@type": "Offer",
-    "price": "30.00",
-    "priceCurrency": "EUR",
-    "url": "https://link.dice.fm/A5ed36a9c3b2",
-    "validFrom": "2027-02-24T20:00+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Z|ART Agency",
-    "url": "https://rausgegangen.de/organizations/zart-agency-gmbh/"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Bike Routes"
-   },
-   "startDate": "2027-02-24T20:00+0100"
-  }
- },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-11-27T13:48:48+01:00",
+  "fetched": "2026-11-27T23:08:59+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -359,40 +363,8 @@
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/der-schatz-eine-bohmische-familiengeschichte-0/": {
-  "fetched": "2026-11-27T13:48:48+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "April 1945. Die Rote Armee rückt unaufhaltsam vor. Am Fuß des Riesengebirges vergräbt Otto Ther eine Kiste mit einem Diamantkreuz, Schmuck und poliertem Silberbesteck. Sie soll überdauern, bis die Familie nach Hohenelbe, heute Vrchlabí, zurückkehren kann.Jahrzehnte später reist sein Enkel, der Historiker Philipp Ther, mit seinem Vater immer wieder in die verlorene Heimat. Das örtliche Museum übergibt ihnen drei Kisten, für den Historiker ein Schatz ganz anderer Art. Die Familiendokumente darin zeigen, wie tief die eigene Familie in den Nationalsozialismus verstrickt war.In „Mein Schatz“ verbindet Philipp Ther Familien- und Zeitgeschichte zu einer persönlichen Erzählung über Herkunft, Schuld und Erinnerung.„Philipp Ther ist ein sozialhistorischer Prosakünstler.“ Gustav Seibt PROGRAMM BegrüßungDr. Roland Borchers, Direktor, Dokumentationszentrum Flucht, Vertreibung, Versöhnung (Berlin)Lesung und GesprächProf. Dr. Philipp Ther, AutorModeration: em. Prof. Dr. Jürgen Kocka, Freie Universität (Berlin)Der Autor steht nach der Lesung für eine Signierstunde bereit. Im Anschluss laden wir Sie zu einem kleinen Empfang ein.  WEITERE HINWEISE   Büchertisch: Buchhandlung „Der Zauberberg“Einlass: 18.00 Uhr   Sprache: DeutschEINTRITT FREI, MIT ANMELDUNGDie Veranstaltung wird aufgezeichnet und auf unserem YouTube-Kanal Flucht, Vertreibung, Versöhnung veröffentlicht.",
-   "endDate": "2026-12-02T20:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/iONiEZu9RfK8U0wtzZgo_der-schatz-2.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10963",
-     "streetAddress": "Stresemannstraße 90"
-    },
-    "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung"
-   },
-   "name": "Der Schatz – Eine böhmische Familiengeschichte",
-   "offers": {
-    "@type": "Offer",
-    "price": "0.00",
-    "priceCurrency": "EUR",
-    "validFrom": "2026-12-02T18:30+0100"
-   },
-   "startDate": "2026-12-02T18:30+0100"
-  }
- },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-27T13:48:48+01:00",
+  "fetched": "2026-11-27T23:08:59+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -439,7 +411,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
-  "fetched": "2026-11-27T13:48:48+01:00",
+  "fetched": "2026-11-27T23:08:59+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -484,7 +456,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
-  "fetched": "2026-11-27T13:48:48+01:00",
+  "fetched": "2026-11-27T23:08:59+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -531,7 +503,7 @@
   "seen": "2026-11-15T18:52:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-0/": {
-  "fetched": "2026-11-27T13:48:48+01:00",
+  "fetched": "2026-11-27T23:08:59+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -569,7 +541,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-1/": {
-  "fetched": "2026-11-27T13:48:48+01:00",
+  "fetched": "2026-11-27T23:08:59+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -607,7 +579,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-2/": {
-  "fetched": "2026-11-27T13:48:48+01:00",
+  "fetched": "2026-11-27T23:08:59+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -645,7 +617,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-27T13:48:48+01:00",
+  "fetched": "2026-11-27T23:08:59+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -683,7 +655,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-4/": {
-  "fetched": "2026-11-27T13:48:48+01:00",
+  "fetched": "2026-11-27T23:08:59+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -721,7 +693,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-5/": {
-  "fetched": "2026-11-27T13:48:48+01:00",
+  "fetched": "2026-11-27T23:08:59+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -759,7 +731,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-11-27T13:48:48+01:00",
+  "fetched": "2026-11-27T23:08:59+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -810,7 +782,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/duct-tape-11/": {
-  "fetched": "2026-11-27T13:48:48+01:00",
+  "fetched": "2026-11-27T23:08:59+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -844,81 +816,128 @@
   "tickets": "duct-tape-11",
   "tickets_ok": false
  },
- "https://rausgegangen.de/events/geheimkonzert-berlin-24-by-rausgegangen-0/": {
-  "fetched": "2026-11-27T13:48:48+01:00",
+ "https://rausgegangen.de/events/fliegende-haie-alle-gehn-dumm-tour-12/": {
+  "fetched": "2026-11-27T23:08:59+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Na Hallo! Es ist wieder so weit: Ein Abend voller Überraschung - denn wer auf der Bühne steht, bleibt bis zum ersten Ton geheim. Wir hatten schon Blond, Berq, Ennio, Futurebae, Jassin, Anais, Katha Pauer & viele mehr zu Gast – und das schon bevor sie die großen Bühnen der Nation gestürmt haben. Also entdecke die Stars von Morgen bei unseren Geheimkonzerten. 🪩",
-   "endDate": "2026-12-09T22:15+0100",
+   "description": "Kuck dir die Welt doch an: Alle gehn dumm. Smartphone-Zombies, emotionaler Leerstand, machtbesessene Despoten. Zeit für einen Reset – Fliegende Haie finden: Wenn schon dumm gehen, dann richtig! Ausrasten, durchtanzen und schweißnass Hymnen hinausschreien für eine bessere Welt.Unterdrückung von Frauen, mentale Gesundheit, sexuelle Unfreiheit – Haie reißen Wunden auf, denn wir haben keinen Bock, dass morgen noch alles so ist wie heute. Also Blutrausch an und die Issues zermahlen im Revolvergebiss. Dazu Bässe, die Beine wegreißen wie der Weiße Hai.Der Haie-Hyperpop ist seit der letzten Tour 2025 düsterer geworden, doch live energiegeladen wie eh und je: Instant wirst du hineingesogen in eine Artshow, die das Salzwasser aus deinen Poren drückt, bis sie dich als neuer Mensch wieder ausgespuckt. Durchgeschüttelt, wachgerüttelt, aber glücklich. Nur was blutet, kann auch hailen.",
+   "endDate": "2026-12-11T05:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/mO31iODjTCuFLVfQ493H_gk202516x9photoheadline-32-1.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/kDdpHEaT06v9EGY8VXh3_fliegende-haie-alle-gehn-dumm-foto-01quer-c-maxim-kaiser.jpg"
    ],
    "location": {
     "@type": "Place",
     "address": {
      "@type": "PostalAddress",
      "addressCountry": "DE",
-     "addressLocality": "Berlin"
+     "addressLocality": "Berlin",
+     "postalCode": "12435",
+     "streetAddress": "Alt-Treptow 6"
     },
-    "name": "Secret location"
+    "name": "Insel Berlin"
    },
-   "name": "Geheimkonzert Berlin #24 by Rausgegangen",
+   "name": "FLIEGENDE HAIE - Alle gehn dumm-Tour",
    "offers": {
     "@type": "AggregateOffer",
-    "highPrice": "29.90",
-    "lowPrice": "24.50",
-    "offerCount": 4,
+    "highPrice": "27.10",
+    "lowPrice": "16.50",
+    "offerCount": 3,
     "offers": [
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "SCHNAPPER",
-      "price": "21.90",
+      "name": "Social Ticket",
+      "price": "16.50",
       "priceCurrency": "EUR"
      },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "REGULAR",
-      "price": "25.90",
+      "name": "Regulär",
+      "price": "21.80",
       "priceCurrency": "EUR"
      },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "4er FRIENDS BUNDLE",
-      "price": "23.90",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Mitgegangen",
-      "price": "3.80",
+      "name": "Supporterticket",
+      "price": "27.10",
       "priceCurrency": "EUR"
      }
     ],
     "priceCurrency": "EUR"
    },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Fliegende Haie"
+   },
+   "startDate": "2026-12-10T20:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/fritzsessions-vol-30-mit-edo-saiya-alice-stark-hank-234-lott-0/": {
+  "fetched": "2026-11-27T23:08:59+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Zwischen Hyperpop, Rap und Pop steht bei den FritzSessions ein Line up, das eher nach offenem Tab Chaos als nach sauberem Genre klingt. Und mittendrin EDO SAIYA so nah zu hören, obwohl er sonst längst größere Räume füllt 👀",
+   "endDate": "2026-12-15T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/d087df08f6ed4b1fad006de9a423abe6_16x9_fritz_sessions_30_141226-abnahme-neu.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10997",
+     "streetAddress": "Im U-Bhf. Schlesisches Tor"
+    },
+    "name": "Bi Nuu"
+   },
+   "name": "FritzSessions, Vol. 30 mit EDO SAIYA, ALICE STARK, HANK, 234, LOTTA & TOSHA",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "14.00",
+    "priceCurrency": "EUR",
+    "url": "https://t.rausgegangen.de/tickets/fritzsessions-vol-30-mit-edo-saiya-alice-stark-hank-234-lott",
+    "validFrom": "2026-11-16T16:30+0100"
+   },
    "organizer": [
     {
      "@type": "Organization",
-     "name": "Rausgegangen Geheimkonzerte",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte/"
+     "name": "Bi Nuu",
+     "url": "https://rausgegangen.de/organizations/httpswwwfestsaalshopprodukte474-tickets-muito-kaballa-bi-nuu/"
     },
     {
      "@type": "Organization",
-     "name": "Rausgegangen Geheimkonzerte Berlin",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte-3/"
+     "name": "Fritz vom rbb",
+     "url": "https://rausgegangen.de/organizations/fritz-vom-rbb/"
     }
    ],
-   "startDate": "2026-12-09T20:00+0100"
+   "performer": [
+    {
+     "@type": "PerformingGroup",
+     "name": "234"
+    },
+    {
+     "@type": "PerformingGroup",
+     "name": "Alice Stark"
+    },
+    {
+     "@type": "PerformingGroup",
+     "name": "Edo Saiya"
+    }
+   ],
+   "startDate": "2026-12-14T18:00+0100"
   }
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-11-27T13:48:48+01:00",
+  "fetched": "2026-11-27T23:08:59+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -1008,7 +1027,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1/": {
-  "fetched": "2026-11-27T13:48:48+01:00",
+  "fetched": "2026-11-27T23:08:59+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -1064,8 +1083,142 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/lederschmuck-workshop-mit-upgecyceltem-leder-bei-wara-design-1/": {
+  "fetched": "2026-11-27T23:08:59+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Verwandle Leder aus alten Berliner Sofas und Sesseln in deinen eigenen Schmuck: In diesem 2-stündigen Upcycling-Workshop bei Wara Designs im Ohma Studio in Friedrichshain gestaltest du ein ganz persönliches Schmuckstück. Vorkenntnisse brauchst du keine.Nach ersten Inspirationen wählst du dein Wunschdesign. Schritt für Schritt lernst du, das gerettete Leder zu schneiden und zu formen. Silberschmiedin Caroline stellt Haken, Ösen und Verbindungsstücke bereit und zeigt dir, wie du alles perfekt zusammensetzt. Am Ende nimmst du dein fertiges Unikat mit nach Hause.Inklusive: 2-stündiger Workshop, alle Materialien und Werkzeuge, Anleitung durch eine erfahrene Silberschmiedin, dein Leder-Unikat zum Mitnehmen.Gut zu wissen: Der Kurs findet auf Englisch statt. Ab 18 Jahren, Jüngere in Begleitung eines Erwachsenen.Hinter Wara Designs steht die französische Silberschmiedin Caroline, die das Handwerk in Peru gelernt hat und heute in Berlin nachhaltigen Schmuck im Sinne der Slow-Fashion-Bewegung fertigt.Den Workshop gibt es auch als Geschenkgutschein bei Truestory – der Gutschein kommt direkt per E-Mail.",
+   "endDate": "2026-12-11T20:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/89L959FoSQq3a4psCU8D_pxl20260409174337561.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10245",
+     "streetAddress": "Boxhagener Straße 110"
+    },
+    "name": "Ohma Studio"
+   },
+   "name": "Lederschmuck-Workshop mit upgecyceltem Leder bei Wara Designs",
+   "offers": {
+    "@type": "Offer",
+    "price": "55.00",
+    "priceCurrency": "EUR",
+    "url": "https://de.truestory.com/erlebe/schmuck-workshop-mit-upgecyceltem-leder-bei-wara-designs/?utm_source=rausgegangen&utm_medium=affiliate&utm_campaign=rausgegangen&utm_content=schmuck-workshop-mit-upgecyceltem-leder-bei-wara-designs",
+    "validFrom": "2026-12-11T18:00+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Team - TrueStory Living Experiences Germany GmbH",
+    "url": "https://rausgegangen.de/organizations/p-team-truestory-living-experiences-germany-gmbh/"
+   },
+   "startDate": "2026-12-11T18:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/mit-vergnugungspark-berlin-1/": {
+  "fetched": "2026-11-27T23:08:59+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Hier findest du an zwei Tagen ein Festival, das mit Musik, Podcasts, Comedy und buntem Essen ganz unterschiedliche Menschen zusammenbringt. Von kreativen Workshops bis zu kinderfreundlichen Attraktionen ist für alle was dabei und neue Highlights werden noch vor dem Start verraten 🤩",
+   "endDate": "2026-11-29T20:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/wXB5KOdQx2KEI1fvhiIg_mvpark2026bannerticket1200x675pxrzversionzweitewellelineup091126.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10437",
+     "streetAddress": "Gleimstraße 31"
+    },
+    "name": "Colosseum Berlin"
+   },
+   "name": "Mit Vergnügungspark Berlin",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "55.00",
+    "lowPrice": "15.00",
+    "offerCount": 8,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "11 € - Freundschaftsticket",
+      "price": "11.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Phase 3 Wochenendpass",
+      "price": "39.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Phase 3 Wochenendpass + Abendprogramm",
+      "price": "49.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Phase 3 Tagesticket Samstag",
+      "price": "30.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Phase 3 Tagesticket Samstag + Abendprogramm",
+      "price": "40.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Phase 3 Tagesticket Sonntag",
+      "price": "25.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Workshop \"Redaktion\" + Tagesticket Samstag",
+      "price": "30.00",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Phase 3 NUR Abendprogramm am Samstag",
+      "price": "15.00",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Mit Vergnügen",
+    "url": "https://rausgegangen.de/organizations/mit-vergnugen-1/"
+   },
+   "startDate": "2026-11-28T14:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
-  "fetched": "2026-11-27T13:48:48+01:00",
+  "fetched": "2026-11-27T23:08:59+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",

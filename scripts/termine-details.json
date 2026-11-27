@@ -1,6 +1,6 @@
 {
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
-  "fetched": "2026-11-26T21:18:18+01:00",
+  "fetched": "2026-11-27T03:58:54+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -111,7 +111,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-11-26T21:18:18+01:00",
+  "fetched": "2026-11-27T03:58:54+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -228,46 +228,8 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/bln-reunion-indoor-festival-0/": {
-  "fetched": "2026-11-26T21:18:18+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Drei Floors, 14 Acts, und die neue Eventhalle ist für eine lange elektronische Nacht mitgedacht. Nach vier ausverkauften Ausgaben geht BLN Reunion in die Winterrunde, mit AKA AKA, K Paul und Sascha Braemer 🪩",
-   "endDate": "2026-12-13T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/UByHSSIrQtq4vum0PE35_bln1920x1080variantec.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10997",
-     "streetAddress": "Köpenicker Straße 16"
-    },
-    "name": "Spindler & Klatt"
-   },
-   "name": "BLN REUNION INDOOR FESTIVAL - AKA AKA, K-Paul, Sascha Braemer, Blondee uvm.",
-   "offers": {
-    "@type": "Offer",
-    "price": "22.90",
-    "priceCurrency": "EUR",
-    "url": "https://open-air-berlin.ticket.io/ZO7IuWhk/",
-    "validFrom": "2026-12-12T21:00+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Open Air 030 Berlin",
-    "url": "https://rausgegangen.de/organizations/open-air-030-berlin/"
-   },
-   "startDate": "2026-12-12T21:00+0100"
-  }
- },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-11-26T21:18:18+01:00",
+  "fetched": "2026-11-27T03:58:54+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -355,8 +317,40 @@
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/dein-moment-dein-wein-die-mosel-zu-gast-in-berlin-0/": {
+  "fetched": "2026-11-27T03:58:54+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Schieferboden und steile Hänge sind weit weg, im Glas landet trotzdem Mosel. In Berliner Weinläden und Restaurants kannst Du Rieslinge der Region probieren und Dich einmal quer durch diese Weingegend kosten 👩🏻‍🍳",
+   "endDate": "2026-12-20T00:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/leL5ZuVfRYiO3x90gloF_2.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": null,
+     "streetAddress": null
+    },
+    "name": "Berlin"
+   },
+   "name": "Dein Moment. Dein Wein: Die Mosel zu Gast in Berlin",
+   "offers": {
+    "@type": "Offer",
+    "price": "0.00",
+    "priceCurrency": "EUR",
+    "validFrom": "2026-12-07T00:00+0100"
+   },
+   "startDate": "2026-12-07T00:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-26T21:18:18+01:00",
+  "fetched": "2026-11-27T03:58:54+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -403,7 +397,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
-  "fetched": "2026-11-26T21:18:18+01:00",
+  "fetched": "2026-11-27T03:58:54+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -448,7 +442,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
-  "fetched": "2026-11-26T21:18:18+01:00",
+  "fetched": "2026-11-27T03:58:54+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -495,7 +489,7 @@
   "seen": "2026-11-15T18:52:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-0/": {
-  "fetched": "2026-11-26T21:18:18+01:00",
+  "fetched": "2026-11-27T03:58:54+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -533,7 +527,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-1/": {
-  "fetched": "2026-11-26T21:18:18+01:00",
+  "fetched": "2026-11-27T03:58:54+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -571,7 +565,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-2/": {
-  "fetched": "2026-11-26T21:18:18+01:00",
+  "fetched": "2026-11-27T03:58:54+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -609,7 +603,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-26T21:18:18+01:00",
+  "fetched": "2026-11-27T03:58:54+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -647,7 +641,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-4/": {
-  "fetched": "2026-11-26T21:18:18+01:00",
+  "fetched": "2026-11-27T03:58:54+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -685,7 +679,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-5/": {
-  "fetched": "2026-11-26T21:18:18+01:00",
+  "fetched": "2026-11-27T03:58:54+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -723,7 +717,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-11-26T21:18:18+01:00",
+  "fetched": "2026-11-27T03:58:54+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -774,7 +768,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/duct-tape-11/": {
-  "fetched": "2026-11-26T21:18:18+01:00",
+  "fetched": "2026-11-27T03:58:54+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -808,68 +802,81 @@
   "tickets": "duct-tape-11",
   "tickets_ok": false
  },
- "https://rausgegangen.de/events/fliegende-haie-alle-gehn-dumm-tour-12/": {
-  "fetched": "2026-11-26T21:18:18+01:00",
+ "https://rausgegangen.de/events/geheimkonzert-berlin-24-by-rausgegangen-0/": {
+  "fetched": "2026-11-27T03:58:54+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Kuck dir die Welt doch an: Alle gehn dumm. Smartphone-Zombies, emotionaler Leerstand, machtbesessene Despoten. Zeit für einen Reset – Fliegende Haie finden: Wenn schon dumm gehen, dann richtig! Ausrasten, durchtanzen und schweißnass Hymnen hinausschreien für eine bessere Welt.Unterdrückung von Frauen, mentale Gesundheit, sexuelle Unfreiheit – Haie reißen Wunden auf, denn wir haben keinen Bock, dass morgen noch alles so ist wie heute. Also Blutrausch an und die Issues zermahlen im Revolvergebiss. Dazu Bässe, die Beine wegreißen wie der Weiße Hai.Der Haie-Hyperpop ist seit der letzten Tour 2025 düsterer geworden, doch live energiegeladen wie eh und je: Instant wirst du hineingesogen in eine Artshow, die das Salzwasser aus deinen Poren drückt, bis sie dich als neuer Mensch wieder ausgespuckt. Durchgeschüttelt, wachgerüttelt, aber glücklich. Nur was blutet, kann auch hailen.",
-   "endDate": "2026-12-11T05:00+0100",
+   "description": "Na Hallo! Es ist wieder so weit: Ein Abend voller Überraschung - denn wer auf der Bühne steht, bleibt bis zum ersten Ton geheim. Wir hatten schon Blond, Berq, Ennio, Futurebae, Jassin, Anais, Katha Pauer & viele mehr zu Gast – und das schon bevor sie die großen Bühnen der Nation gestürmt haben. Also entdecke die Stars von Morgen bei unseren Geheimkonzerten. 🪩",
+   "endDate": "2026-12-09T22:15+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/kDdpHEaT06v9EGY8VXh3_fliegende-haie-alle-gehn-dumm-foto-01quer-c-maxim-kaiser.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/mO31iODjTCuFLVfQ493H_gk202516x9photoheadline-32-1.png"
    ],
    "location": {
     "@type": "Place",
     "address": {
      "@type": "PostalAddress",
      "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "12435",
-     "streetAddress": "Alt-Treptow 6"
+     "addressLocality": "Berlin"
     },
-    "name": "Insel Berlin"
+    "name": "Secret location"
    },
-   "name": "FLIEGENDE HAIE - Alle gehn dumm-Tour",
+   "name": "Geheimkonzert Berlin #24 by Rausgegangen",
    "offers": {
     "@type": "AggregateOffer",
-    "highPrice": "27.10",
-    "lowPrice": "16.50",
-    "offerCount": 3,
+    "highPrice": "29.90",
+    "lowPrice": "24.50",
+    "offerCount": 4,
     "offers": [
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "Social Ticket",
-      "price": "16.50",
+      "name": "SCHNAPPER",
+      "price": "21.90",
       "priceCurrency": "EUR"
      },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "21.80",
+      "name": "REGULAR",
+      "price": "25.90",
       "priceCurrency": "EUR"
      },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "Supporterticket",
-      "price": "27.10",
+      "name": "4er FRIENDS BUNDLE",
+      "price": "23.90",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Mitgegangen",
+      "price": "3.80",
       "priceCurrency": "EUR"
      }
     ],
     "priceCurrency": "EUR"
    },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Fliegende Haie"
-   },
-   "startDate": "2026-12-10T20:00+0100"
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "Rausgegangen Geheimkonzerte",
+     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Rausgegangen Geheimkonzerte Berlin",
+     "url": "https://rausgegangen.de/organizations/rausgegangen-geheimkonzerte-3/"
+    }
+   ],
+   "startDate": "2026-12-09T20:00+0100"
   }
  },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-11-26T21:18:18+01:00",
+  "fetched": "2026-11-27T03:58:54+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -959,7 +966,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1/": {
-  "fetched": "2026-11-26T21:18:18+01:00",
+  "fetched": "2026-11-27T03:58:54+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -1015,16 +1022,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/nnavy-1/": {
-  "fetched": "2026-11-26T21:18:18+01:00",
+ "https://rausgegangen.de/events/kulk-live-4/": {
+  "fetched": "2026-11-27T03:58:54+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Zwischen Soul, R&B und Jazz steht bei NNAVY vor allem diese Stimme im Raum, die man schon von COLORSxSTUDIOS kennt. Gerade startet sie mit ihrem Debütalbum I’ll Wait For You in ein neues Kapitel 🎟️",
-   "endDate": "2027-04-28T22:00+0200",
+   "description": "Zwei Leute, Gitarre, Schlagzeug, und dazwischen eine Band, die auch ihre Beziehung mit auf die Bühne bringt. KULK kommen als Duo aus Thom und Jade, und live soll das eher Chaos als Zurückhaltung sein ⚡",
+   "endDate": "2027-02-04T23:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/040868a2185c491397fa4742df7c6edf_nnavy_spring2027_1920x1080_de.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/jh8aaKrXQZicj0tzVdiM_copy-of-kulklogo.png"
    ],
    "location": {
     "@type": "Place",
@@ -1032,41 +1039,41 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10997",
-     "streetAddress": "Skalitzer Strasse 85-86"
+     "postalCode": "10115",
+     "streetAddress": "Ackerstraße 169, 10115 Berlin"
     },
-    "name": "Privatclub Berlin"
+    "name": "Schokoladen"
    },
-   "name": "NNAVY // SUPPORT: AKA KELZZ",
+   "name": "KULK Live",
    "offers": {
     "@type": "Offer",
-    "price": "29.50",
+    "price": 0,
     "priceCurrency": "EUR",
-    "url": "https://www.reservix.de/tickets-nnavy-ill-wait-for-you-spring-tour-2027-in-berlin-privatclub-berlin-am-28-4-2027/e2635191",
-    "validFrom": "2027-04-28T19:00+0200"
+    "url": "https://schokoladen.tickettoaster.de/produkte/102791-tickets-kulk-uk-schokoladen-berlin-am-04-02-2027",
+    "validFrom": "2027-02-04T19:00+0100"
    },
    "organizer": {
     "@type": "Organization",
-    "name": "RBK Fusion",
-    "url": "https://rausgegangen.de/organizations/rbk-fusion/"
+    "name": "killmebooking",
+    "url": "https://rausgegangen.de/organizations/page-for-team-killmebooking/"
    },
    "performer": {
     "@type": "PerformingGroup",
-    "name": "NNAVY"
+    "name": "KULK"
    },
-   "startDate": "2027-04-28T19:00+0200"
+   "startDate": "2027-02-04T19:00+0100"
   }
  },
- "https://rausgegangen.de/events/off-the-rails-zum-zum-special-edu-lobo-0/": {
-  "fetched": "2026-11-26T21:18:18+01:00",
+ "https://rausgegangen.de/events/lederschmuck-workshop-mit-upgecyceltem-leder-bei-wara-design-1/": {
+  "fetched": "2026-11-27T03:58:54+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Brasilianische Rhythmen treffen auf Dub und Drum & Bass, aber gespielt von einem Berliner Liveprojekt statt aus der Konserve. Diesmal nimmt sich ZumZum die Songs von Edu Lobo vor und stellt sie mit vier Musiker:innen neu auf die Bühne 👀",
-   "endDate": "2027-01-15T05:00+0100",
+   "description": "Verwandle Leder aus alten Berliner Sofas und Sesseln in deinen eigenen Schmuck: In diesem 2-stündigen Upcycling-Workshop bei Wara Designs im Ohma Studio in Friedrichshain gestaltest du ein ganz persönliches Schmuckstück. Vorkenntnisse brauchst du keine.Nach ersten Inspirationen wählst du dein Wunschdesign. Schritt für Schritt lernst du, das gerettete Leder zu schneiden und zu formen. Silberschmiedin Caroline stellt Haken, Ösen und Verbindungsstücke bereit und zeigt dir, wie du alles perfekt zusammensetzt. Am Ende nimmst du dein fertiges Unikat mit nach Hause.Inklusive: 2-stündiger Workshop, alle Materialien und Werkzeuge, Anleitung durch eine erfahrene Silberschmiedin, dein Leder-Unikat zum Mitnehmen.Gut zu wissen: Der Kurs findet auf Englisch statt. Ab 18 Jahren, Jüngere in Begleitung eines Erwachsenen.Hinter Wara Designs steht die französische Silberschmiedin Caroline, die das Handwerk in Peru gelernt hat und heute in Berlin nachhaltigen Schmuck im Sinne der Slow-Fashion-Bewegung fertigt.Den Workshop gibt es auch als Geschenkgutschein bei Truestory – der Gutschein kommt direkt per E-Mail.",
+   "endDate": "2026-12-11T20:00+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/ytEREV4lQ4GXr9zWsfMq_otrzumzumhorizfb.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/89L959FoSQq3a4psCU8D_pxl20260409174337561.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -1075,97 +1082,28 @@
      "addressCountry": "DE",
      "addressLocality": "Berlin",
      "postalCode": "10245",
-     "streetAddress": "Revaler Strasse 99"
+     "streetAddress": "Boxhagener Straße 110"
     },
-    "name": "Badehaus Berlin"
+    "name": "Ohma Studio"
    },
-   "name": "Off the Rails: ZumZum • Special Edu Lobo",
+   "name": "Lederschmuck-Workshop mit upgecyceltem Leder bei Wara Designs",
    "offers": {
     "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "10.14",
+    "price": "55.00",
     "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/off-the-rails-zum-zum-special-edu-lobo",
-    "validFrom": "2026-11-06T14:27+0100"
+    "url": "https://de.truestory.com/erlebe/schmuck-workshop-mit-upgecyceltem-leder-bei-wara-designs/?utm_source=rausgegangen&utm_medium=affiliate&utm_campaign=rausgegangen&utm_content=schmuck-workshop-mit-upgecyceltem-leder-bei-wara-designs",
+    "validFrom": "2026-12-11T18:00+0100"
    },
    "organizer": {
     "@type": "Organization",
-    "name": "Off the Rails",
-    "url": "https://rausgegangen.de/organizations/off-the-rails/"
+    "name": "Team - TrueStory Living Experiences Germany GmbH",
+    "url": "https://rausgegangen.de/organizations/p-team-truestory-living-experiences-germany-gmbh/"
    },
-   "startDate": "2027-01-14T19:00+0100"
-  }
- },
- "https://rausgegangen.de/events/rock-for-cure-2026/": {
-  "fetched": "2026-11-26T21:18:18+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Zwischen Lametta und schiefen Tönen wird Weihnachten kurz ziemlich laut. Erst singst Du mit SingSisySing die großen Festtagssongs, danach geht es in die Kitschmas Disco und das Ticket unterstützt Menschen mit und nach Brustkrebs 🤝",
-   "endDate": "2026-12-12T22:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/riIhsZEZQfOZMLMjBICT_rfcticketshopheader.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "12435",
-     "streetAddress": "Alt-Treptow 6"
-    },
-    "name": "Insel Berlin"
-   },
-   "name": "ROCK FOR CURE 2026 – Open-Air Weihnachtssingen.",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "16.50",
-    "lowPrice": "8.55",
-    "offerCount": 4,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "HOLLY JOLLY BUUSENFREUND*IN - Stehplatz Erwachsene",
-      "price": "16.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "SILENT NIGHT ROCKER*IN - Sitzplatz Erwachsene",
-      "price": "16.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "JINGLE BELL JUMPER - Stehplatz Kids 3-18 Jahre",
-      "price": "8.55",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "LITTLE DRUMMER KID - Sitzplatz Kids 3-18 Jahre",
-      "price": "8.55",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "dasBUUSENKOLLEKTIV e. V.",
-    "url": "https://rausgegangen.de/organizations/dasbuusenkollektiv/"
-   },
-   "startDate": "2026-12-12T17:00+0100"
+   "startDate": "2026-12-11T18:00+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
-  "fetched": "2026-11-26T21:18:18+01:00",
+  "fetched": "2026-11-27T03:58:54+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -1202,54 +1140,5 @@
    "startDate": "2026-12-19T19:30+0100"
   },
   "seen": "2026-11-15T18:52:24+01:00"
- },
- "https://rausgegangen.de/events/tati-comedy---die-stand-up-comedy-show-33/": {
-  "fetched": "2026-11-26T21:18:18+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "LIVE Stand Up Comedy in der schönsten Ecke Berlins - dem Prenzlauer Berg.Wir präsentieren euch einen Mix aus erfahrenen Profi-Comedians und den heißesten Newcomern der Berliner Comedy-Szene.Das Ticket muss nicht ausgedruckt werden.Egal wer an diesem Abend auf der Bühne steht - euch erwartet absolut authentische Stand Up Comedy nach amerikanischem Vorbild!Der Einlass wird bis 5 Minuten nach Showbeginn gewährt.--Location--Der \"Comedyflash - Club\" in der Metzer Str. 2 im Prenzlauer Berg ist zwei Fußminuten entfernt von der U2 Station “Senefelder Platz”. Die Bar bietet die perfekte Atmosphäre für einen gelungenen Comedyabend. Eine gemütliche Einrichtung, freundliches Personal und gute Getränke runden dieses besondere Comedyevent für dich ab.Comedyflash - Der Standup ClubMetzer Str. 2, 10405 Berlin",
-   "endDate": "2026-11-27T20:30+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/gqlLXG8iSYKiUDo8pXMy_tati-comedy-club-berliner-stand-up-nacht.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10405",
-     "streetAddress": "Metzer Straße 2"
-    },
-    "name": "Tati goes Underground"
-   },
-   "name": "Tati Comedy _ Die Stand Up Comedy Show",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": null,
-    "lowPrice": null,
-    "offerCount": 2,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "20.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "early bird",
-      "price": "16.00",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "startDate": "2026-11-27T19:00+0100"
-  }
  }
 }

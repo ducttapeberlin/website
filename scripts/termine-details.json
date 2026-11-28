@@ -1,50 +1,4 @@
 {
- "https://rausgegangen.de/events/1-day-chor-berlin-0/": {
-  "fetched": "2026-11-27T23:08:59+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Ein Chor für einen Tag, ohne langes Commitment. Unter Leitung von Constantin Gold entsteht mit anderen ein Medley aus 5 bis 7 Songs, und am Ende wird das gemeinsam Erarbeitete professionell aufgenommen 🎤",
-   "endDate": "2026-12-13T16:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/4JYsZ4KKQ46DQVPPL7v9_design2026eventsonedaychorentwurf01.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "13088",
-     "streetAddress": "Berliner Allee 125"
-    },
-    "name": "PETER EDEL"
-   },
-   "name": "1 DAY CHOR Berlin",
-   "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "60.00",
-    "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/1-day-chor-berlin",
-    "validFrom": "2026-11-05T00:00+0100"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "1 DAY CHOR",
-     "url": "https://rausgegangen.de/organizations/1-day-chor/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Rausgegangen Events",
-     "url": "https://rausgegangen.de/organizations/rausgegangen-events/"
-    }
-   ],
-   "startDate": "2026-12-13T10:30+0100"
-  }
- },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
   "fetched": "2026-11-27T23:08:59+01:00",
   "ld": {
@@ -274,6 +228,86 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/bln-reunion-indoor-festival-0/": {
+  "fetched": "2026-11-28T05:00:46+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Drei Floors, 14 Acts, und die neue Eventhalle ist für eine lange elektronische Nacht mitgedacht. Nach vier ausverkauften Ausgaben geht BLN Reunion in die Winterrunde, mit AKA AKA, K Paul und Sascha Braemer 🪩",
+   "endDate": "2026-12-13T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/UByHSSIrQtq4vum0PE35_bln1920x1080variantec.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10997",
+     "streetAddress": "Köpenicker Straße 16"
+    },
+    "name": "Spindler & Klatt"
+   },
+   "name": "BLN REUNION INDOOR FESTIVAL - AKA AKA, K-Paul, Sascha Braemer, Blondee uvm.",
+   "offers": {
+    "@type": "Offer",
+    "price": "22.90",
+    "priceCurrency": "EUR",
+    "url": "https://open-air-berlin.ticket.io/ZO7IuWhk/",
+    "validFrom": "2026-12-12T21:00+0100"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Open Air 030 Berlin",
+    "url": "https://rausgegangen.de/organizations/open-air-030-berlin/"
+   },
+   "startDate": "2026-12-12T21:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/carlo5-die-letzte-tour-der-welt-2/": {
+  "fetched": "2026-11-28T05:00:46+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Zwischen Pop und Rap hält Carlo5 seine Songs absichtlich in der Schwebe, mit rauer Stimme und trockenem Witz. Fast alles daran kommt direkt von ihm selbst, vom Schreiben bis zu den Videos 💃",
+   "endDate": "2027-04-09T23:00+0200",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/fKEeGi7QaihTGY4sKn05_carlo5-tourevent-header.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10245",
+     "streetAddress": "Revaler Straße 99"
+    },
+    "name": "Astra Kulturhaus"
+   },
+   "name": "Carlo5 • DIE LETZTE TOUR DER WELT",
+   "offers": {
+    "@type": "Offer",
+    "price": "39.80",
+    "priceCurrency": "EUR",
+    "url": "https://carlo5.krasserstoff.com/events/carlo5-die-letzte-tour-der-welt-astra-kulturhaus",
+    "validFrom": "2027-04-09T19:00+0200"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "LANDSTREICHER BOOKING",
+    "url": "https://rausgegangen.de/organizations/landstreicher-booking-ah-fk3y/"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Carlo5"
+   },
+   "startDate": "2027-04-09T19:00+0200"
+  }
+ },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
   "fetched": "2026-11-27T23:08:59+01:00",
   "ld": {
@@ -362,6 +396,40 @@
   "seen": "2026-10-20T15:24:41+02:00",
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
+ },
+ "https://rausgegangen.de/events/die-ades-zabel-company-wenn-ediths-glocken-lauten-vol-23-4/": {
+  "fetched": "2026-11-28T05:00:46+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Mit Ades Zabel, Biggy van Blond, Bob Schneider, Nicolai Tegeler & Roman ShamovEdith Schröder, die pralle Prekariats-Prinzessin, die Neuköllner Bezirksbürgermeisterin der Herzen und klebrig-süße Kirsche auf der Chantré-Torte, sorgt mit ihrer üppig ausgestatteten Weihnachtsshow – nunmehr sage und schreibe zum 23. Mal(!) - Jahr für Jahr für ein unvergessliches Erlebnis über den Dächern und in den Herzen von Berlin.Weihnachten in Neukölln: Welcher Vogel da auf den Tisch kommt, wo der Klempner noch schnell ein Rohr verlegt, wie Leggingsboutique-Biggi sich das Kleingeld für die hochwertigen Geschenke dazuverdient und wie viele Atomkraftwerke freigeschaltet werden müssen, um Juttas Weihnachtsbalkon am Leuchten zu halten.Wenn Ediths Glocken läuten – darauf erstmal einen Futschi!",
+   "endDate": "2026-11-30T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/ZrWoGeEfRtybC0A8azBB_ades-zabel-company-ediths-glocken-2019-foto-joern-hartmann-16-9.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10961",
+     "streetAddress": "Mehringdamm 34"
+    },
+    "name": "BKA Theater"
+   },
+   "name": "Die Ades Zabel Company: Wenn Ediths Glocken läuten Vol. 23",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "20.50",
+    "priceCurrency": "EUR",
+    "url": "https://bka-theater-webshop.comfortticket.de/de/produktion/0d60aa6d-479d-4320-8251-af131be95f9c/490",
+    "validFrom": "2026-11-21T21:01+0100"
+   },
+   "startDate": "2026-11-29T19:00+0100"
+  }
  },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
   "fetched": "2026-11-27T23:08:59+01:00",
@@ -816,126 +884,6 @@
   "tickets": "duct-tape-11",
   "tickets_ok": false
  },
- "https://rausgegangen.de/events/fliegende-haie-alle-gehn-dumm-tour-12/": {
-  "fetched": "2026-11-27T23:08:59+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Kuck dir die Welt doch an: Alle gehn dumm. Smartphone-Zombies, emotionaler Leerstand, machtbesessene Despoten. Zeit für einen Reset – Fliegende Haie finden: Wenn schon dumm gehen, dann richtig! Ausrasten, durchtanzen und schweißnass Hymnen hinausschreien für eine bessere Welt.Unterdrückung von Frauen, mentale Gesundheit, sexuelle Unfreiheit – Haie reißen Wunden auf, denn wir haben keinen Bock, dass morgen noch alles so ist wie heute. Also Blutrausch an und die Issues zermahlen im Revolvergebiss. Dazu Bässe, die Beine wegreißen wie der Weiße Hai.Der Haie-Hyperpop ist seit der letzten Tour 2025 düsterer geworden, doch live energiegeladen wie eh und je: Instant wirst du hineingesogen in eine Artshow, die das Salzwasser aus deinen Poren drückt, bis sie dich als neuer Mensch wieder ausgespuckt. Durchgeschüttelt, wachgerüttelt, aber glücklich. Nur was blutet, kann auch hailen.",
-   "endDate": "2026-12-11T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/kDdpHEaT06v9EGY8VXh3_fliegende-haie-alle-gehn-dumm-foto-01quer-c-maxim-kaiser.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "12435",
-     "streetAddress": "Alt-Treptow 6"
-    },
-    "name": "Insel Berlin"
-   },
-   "name": "FLIEGENDE HAIE - Alle gehn dumm-Tour",
-   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "27.10",
-    "lowPrice": "16.50",
-    "offerCount": 3,
-    "offers": [
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Social Ticket",
-      "price": "16.50",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Regulär",
-      "price": "21.80",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Supporterticket",
-      "price": "27.10",
-      "priceCurrency": "EUR"
-     }
-    ],
-    "priceCurrency": "EUR"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Fliegende Haie"
-   },
-   "startDate": "2026-12-10T20:00+0100"
-  }
- },
- "https://rausgegangen.de/events/fritzsessions-vol-30-mit-edo-saiya-alice-stark-hank-234-lott-0/": {
-  "fetched": "2026-11-27T23:08:59+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Zwischen Hyperpop, Rap und Pop steht bei den FritzSessions ein Line up, das eher nach offenem Tab Chaos als nach sauberem Genre klingt. Und mittendrin EDO SAIYA so nah zu hören, obwohl er sonst längst größere Räume füllt 👀",
-   "endDate": "2026-12-15T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/d087df08f6ed4b1fad006de9a423abe6_16x9_fritz_sessions_30_141226-abnahme-neu.png"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10997",
-     "streetAddress": "Im U-Bhf. Schlesisches Tor"
-    },
-    "name": "Bi Nuu"
-   },
-   "name": "FritzSessions, Vol. 30 mit EDO SAIYA, ALICE STARK, HANK, 234, LOTTA & TOSHA",
-   "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "14.00",
-    "priceCurrency": "EUR",
-    "url": "https://t.rausgegangen.de/tickets/fritzsessions-vol-30-mit-edo-saiya-alice-stark-hank-234-lott",
-    "validFrom": "2026-11-16T16:30+0100"
-   },
-   "organizer": [
-    {
-     "@type": "Organization",
-     "name": "Bi Nuu",
-     "url": "https://rausgegangen.de/organizations/httpswwwfestsaalshopprodukte474-tickets-muito-kaballa-bi-nuu/"
-    },
-    {
-     "@type": "Organization",
-     "name": "Fritz vom rbb",
-     "url": "https://rausgegangen.de/organizations/fritz-vom-rbb/"
-    }
-   ],
-   "performer": [
-    {
-     "@type": "PerformingGroup",
-     "name": "234"
-    },
-    {
-     "@type": "PerformingGroup",
-     "name": "Alice Stark"
-    },
-    {
-     "@type": "PerformingGroup",
-     "name": "Edo Saiya"
-    }
-   ],
-   "startDate": "2026-12-14T18:00+0100"
-  }
- },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
   "fetched": "2026-11-27T23:08:59+01:00",
   "ld": {
@@ -1083,44 +1031,6 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/lederschmuck-workshop-mit-upgecyceltem-leder-bei-wara-design-1/": {
-  "fetched": "2026-11-27T23:08:59+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Verwandle Leder aus alten Berliner Sofas und Sesseln in deinen eigenen Schmuck: In diesem 2-stündigen Upcycling-Workshop bei Wara Designs im Ohma Studio in Friedrichshain gestaltest du ein ganz persönliches Schmuckstück. Vorkenntnisse brauchst du keine.Nach ersten Inspirationen wählst du dein Wunschdesign. Schritt für Schritt lernst du, das gerettete Leder zu schneiden und zu formen. Silberschmiedin Caroline stellt Haken, Ösen und Verbindungsstücke bereit und zeigt dir, wie du alles perfekt zusammensetzt. Am Ende nimmst du dein fertiges Unikat mit nach Hause.Inklusive: 2-stündiger Workshop, alle Materialien und Werkzeuge, Anleitung durch eine erfahrene Silberschmiedin, dein Leder-Unikat zum Mitnehmen.Gut zu wissen: Der Kurs findet auf Englisch statt. Ab 18 Jahren, Jüngere in Begleitung eines Erwachsenen.Hinter Wara Designs steht die französische Silberschmiedin Caroline, die das Handwerk in Peru gelernt hat und heute in Berlin nachhaltigen Schmuck im Sinne der Slow-Fashion-Bewegung fertigt.Den Workshop gibt es auch als Geschenkgutschein bei Truestory – der Gutschein kommt direkt per E-Mail.",
-   "endDate": "2026-12-11T20:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/89L959FoSQq3a4psCU8D_pxl20260409174337561.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10245",
-     "streetAddress": "Boxhagener Straße 110"
-    },
-    "name": "Ohma Studio"
-   },
-   "name": "Lederschmuck-Workshop mit upgecyceltem Leder bei Wara Designs",
-   "offers": {
-    "@type": "Offer",
-    "price": "55.00",
-    "priceCurrency": "EUR",
-    "url": "https://de.truestory.com/erlebe/schmuck-workshop-mit-upgecyceltem-leder-bei-wara-designs/?utm_source=rausgegangen&utm_medium=affiliate&utm_campaign=rausgegangen&utm_content=schmuck-workshop-mit-upgecyceltem-leder-bei-wara-designs",
-    "validFrom": "2026-12-11T18:00+0100"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Team - TrueStory Living Experiences Germany GmbH",
-    "url": "https://rausgegangen.de/organizations/p-team-truestory-living-experiences-germany-gmbh/"
-   },
-   "startDate": "2026-12-11T18:00+0100"
-  }
- },
  "https://rausgegangen.de/events/mit-vergnugungspark-berlin-1/": {
   "fetched": "2026-11-27T23:08:59+01:00",
   "ld": {
@@ -1255,5 +1165,37 @@
    "startDate": "2026-12-19T19:30+0100"
   },
   "seen": "2026-11-15T18:52:24+01:00"
+ },
+ "https://rausgegangen.de/events/welcome-back-der-neue-smart-2-ist-da-0/": {
+  "fetched": "2026-11-28T05:00:46+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Zwischen Kinderverkehrsschule und Fotobox steht ein Auto, das zum ersten Mal gezeigt wird. Der neue smart #2 bekommt seinen ersten Auftritt 👀",
+   "endDate": "2026-11-28T16:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/8d1a7e87226b40cd92c7ca37c07fff7d_rausgegangen-header-1200-x-366-px.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10587",
+     "streetAddress": "Salzufer 1"
+    },
+    "name": "Mercedes-Welt am Salzufer"
+   },
+   "name": "Welcome Back! Der neue smart #2 ist da!",
+   "offers": {
+    "@type": "Offer",
+    "price": "0.00",
+    "priceCurrency": "EUR",
+    "validFrom": "2026-11-28T09:00+0100"
+   },
+   "startDate": "2026-11-28T09:00+0100"
+  }
  }
 }

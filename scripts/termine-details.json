@@ -1,6 +1,6 @@
 {
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-0/": {
-  "fetched": "2026-11-27T23:08:59+01:00",
+  "fetched": "2026-11-28T14:18:03+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -111,7 +111,7 @@
   "tickets_ok": true
  },
  "https://rausgegangen.de/events/a-berlin-drag-queens-christmas-show-1/": {
-  "fetched": "2026-11-27T23:08:59+01:00",
+  "fetched": "2026-11-28T14:18:03+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -228,16 +228,16 @@
   "tickets": "a-berlin-drag-queens-christmas-show-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/bln-reunion-indoor-festival-0/": {
-  "fetched": "2026-11-28T05:00:46+01:00",
+ "https://rausgegangen.de/events/christmas-brunch-1/": {
+  "fetched": "2026-11-28T14:18:03+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Drei Floors, 14 Acts, und die neue Eventhalle ist für eine lange elektronische Nacht mitgedacht. Nach vier ausverkauften Ausgaben geht BLN Reunion in die Winterrunde, mit AKA AKA, K Paul und Sascha Braemer 🪩",
-   "endDate": "2026-12-13T05:00+0100",
+   "description": "CHRISTMAS BRUNCH | Mit Live-Musik & KinderbetreuungNach einer längeren Pause kehrt unser Brunch einmalig im Dezember als festliches Special zurück.Genießt frisch zubereitete italienische und internationale Köstlichkeiten, begleitet von leckeren Drinks in unserem Loft-Ambiente.Freut euch unter anderem auf cremige Burrata auf sizilianischer Datteltomatencreme, hausgemachte Blinis mit geräuchertem Lachs und unsere legendäre Porchetta nach Ariccia-Style – und vieles mehr aus unserem vielfältigen Brunchbuffet.Am 06.12.2026 sorgt Live-Musik der Konzertviolinistin Tjaša Kastelic ﻿für festlichen Adventszauber.﻿Für Kinder von 3 bis 11 Jahren bieten wir eine Betreuung im separaten Loft „La Cucina“ mit Spielen und eigenem Buffet an.Informationen:Kinder 0–2 Jahre kostenfrei (ohne Betreuung)Keine Garantie für 2er-Tische | Platzierung auch in Lounge-Bereichen möglichKeine Parkplätze vor Ort, nur KartenzahlungGruppen ab 10 Personen bitten wir um separate AnfrageKontakt: reservierung@fabrik23.com | +49 171 1291402Buche heute und storniere bis 48 Stunden vorher kostenlos! ",
+   "endDate": "2026-12-06T14:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/UByHSSIrQtq4vum0PE35_bln1920x1080variantec.jpg"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/FhDohmnTjq9YNALVb9sQ_fabrik23-44-2.jpg"
    ],
    "location": {
     "@type": "Place",
@@ -245,71 +245,24 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10997",
-     "streetAddress": "Köpenicker Straße 16"
+     "postalCode": "13347",
+     "streetAddress": "Gerichtstraße 23"
     },
-    "name": "Spindler & Klatt"
+    "name": "Fabrik 23"
    },
-   "name": "BLN REUNION INDOOR FESTIVAL - AKA AKA, K-Paul, Sascha Braemer, Blondee uvm.",
+   "name": "CHRISTMAS BRUNCH | Mit Live-Musik & Kinderbetreuung",
    "offers": {
     "@type": "Offer",
-    "price": "22.90",
+    "price": "59.00",
     "priceCurrency": "EUR",
-    "url": "https://open-air-berlin.ticket.io/ZO7IuWhk/",
-    "validFrom": "2026-12-12T21:00+0100"
+    "url": "https://www.tickettailor.com/events/fabrik23gmbh1",
+    "validFrom": "2026-12-06T11:00+0100"
    },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Open Air 030 Berlin",
-    "url": "https://rausgegangen.de/organizations/open-air-030-berlin/"
-   },
-   "startDate": "2026-12-12T21:00+0100"
-  }
- },
- "https://rausgegangen.de/events/carlo5-die-letzte-tour-der-welt-2/": {
-  "fetched": "2026-11-28T05:00:46+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Zwischen Pop und Rap hält Carlo5 seine Songs absichtlich in der Schwebe, mit rauer Stimme und trockenem Witz. Fast alles daran kommt direkt von ihm selbst, vom Schreiben bis zu den Videos 💃",
-   "endDate": "2027-04-09T23:00+0200",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/fKEeGi7QaihTGY4sKn05_carlo5-tourevent-header.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10245",
-     "streetAddress": "Revaler Straße 99"
-    },
-    "name": "Astra Kulturhaus"
-   },
-   "name": "Carlo5 • DIE LETZTE TOUR DER WELT",
-   "offers": {
-    "@type": "Offer",
-    "price": "39.80",
-    "priceCurrency": "EUR",
-    "url": "https://carlo5.krasserstoff.com/events/carlo5-die-letzte-tour-der-welt-astra-kulturhaus",
-    "validFrom": "2027-04-09T19:00+0200"
-   },
-   "organizer": {
-    "@type": "Organization",
-    "name": "LANDSTREICHER BOOKING",
-    "url": "https://rausgegangen.de/organizations/landstreicher-booking-ah-fk3y/"
-   },
-   "performer": {
-    "@type": "PerformingGroup",
-    "name": "Carlo5"
-   },
-   "startDate": "2027-04-09T19:00+0200"
+   "startDate": "2026-12-06T11:00+0100"
   }
  },
  "https://rausgegangen.de/events/cosmopolitan-disco-all-night-1/": {
-  "fetched": "2026-11-27T23:08:59+01:00",
+  "fetched": "2026-11-28T14:18:03+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -397,42 +350,8 @@
   "tickets": "cosmopolitan-disco-all-night-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/die-ades-zabel-company-wenn-ediths-glocken-lauten-vol-23-4/": {
-  "fetched": "2026-11-28T05:00:46+01:00",
-  "ld": {
-   "@context": "https://schema.org",
-   "@type": "Event",
-   "description": "Mit Ades Zabel, Biggy van Blond, Bob Schneider, Nicolai Tegeler & Roman ShamovEdith Schröder, die pralle Prekariats-Prinzessin, die Neuköllner Bezirksbürgermeisterin der Herzen und klebrig-süße Kirsche auf der Chantré-Torte, sorgt mit ihrer üppig ausgestatteten Weihnachtsshow – nunmehr sage und schreibe zum 23. Mal(!) - Jahr für Jahr für ein unvergessliches Erlebnis über den Dächern und in den Herzen von Berlin.Weihnachten in Neukölln: Welcher Vogel da auf den Tisch kommt, wo der Klempner noch schnell ein Rohr verlegt, wie Leggingsboutique-Biggi sich das Kleingeld für die hochwertigen Geschenke dazuverdient und wie viele Atomkraftwerke freigeschaltet werden müssen, um Juttas Weihnachtsbalkon am Leuchten zu halten.Wenn Ediths Glocken läuten – darauf erstmal einen Futschi!",
-   "endDate": "2026-11-30T05:00+0100",
-   "eventStatus": "https://schema.org/EventScheduled",
-   "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/ZrWoGeEfRtybC0A8azBB_ades-zabel-company-ediths-glocken-2019-foto-joern-hartmann-16-9.jpg"
-   ],
-   "location": {
-    "@type": "Place",
-    "address": {
-     "@type": "PostalAddress",
-     "addressCountry": "DE",
-     "addressLocality": "Berlin",
-     "postalCode": "10961",
-     "streetAddress": "Mehringdamm 34"
-    },
-    "name": "BKA Theater"
-   },
-   "name": "Die Ades Zabel Company: Wenn Ediths Glocken läuten Vol. 23",
-   "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "price": "20.50",
-    "priceCurrency": "EUR",
-    "url": "https://bka-theater-webshop.comfortticket.de/de/produktion/0d60aa6d-479d-4320-8251-af131be95f9c/490",
-    "validFrom": "2026-11-21T21:01+0100"
-   },
-   "startDate": "2026-11-29T19:00+0100"
-  }
- },
  "https://rausgegangen.de/events/drag-bingo-bademeister-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-27T23:08:59+01:00",
+  "fetched": "2026-11-28T14:18:03+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -479,7 +398,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-23/": {
-  "fetched": "2026-11-27T23:08:59+01:00",
+  "fetched": "2026-11-28T14:18:03+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -524,7 +443,7 @@
   "seen": "2026-10-20T15:24:41+02:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-24/": {
-  "fetched": "2026-11-27T23:08:59+01:00",
+  "fetched": "2026-11-28T14:18:03+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -571,7 +490,7 @@
   "seen": "2026-11-15T18:52:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-0/": {
-  "fetched": "2026-11-27T23:08:59+01:00",
+  "fetched": "2026-11-28T14:18:03+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -609,7 +528,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-1/": {
-  "fetched": "2026-11-27T23:08:59+01:00",
+  "fetched": "2026-11-28T14:18:03+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -647,7 +566,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-2/": {
-  "fetched": "2026-11-27T23:08:59+01:00",
+  "fetched": "2026-11-28T14:18:03+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -685,7 +604,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-3/": {
-  "fetched": "2026-11-27T23:08:59+01:00",
+  "fetched": "2026-11-28T14:18:03+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -723,7 +642,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-4/": {
-  "fetched": "2026-11-27T23:08:59+01:00",
+  "fetched": "2026-11-28T14:18:03+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -761,7 +680,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-bingo-night-torte-bar-by-duct-tape-5/": {
-  "fetched": "2026-11-27T23:08:59+01:00",
+  "fetched": "2026-11-28T14:18:03+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -799,7 +718,7 @@
   "seen": "2026-11-20T16:39:24+01:00"
  },
  "https://rausgegangen.de/events/drag-brunch-christmas-edition-sponsored-by-fritz-kola-0/": {
-  "fetched": "2026-11-27T23:08:59+01:00",
+  "fetched": "2026-11-28T14:18:03+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -850,7 +769,7 @@
   "seen": "2026-10-27T20:46:24+01:00"
  },
  "https://rausgegangen.de/events/duct-tape-11/": {
-  "fetched": "2026-11-27T23:08:59+01:00",
+  "fetched": "2026-11-28T14:18:03+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -884,8 +803,117 @@
   "tickets": "duct-tape-11",
   "tickets_ok": false
  },
+ "https://rausgegangen.de/events/fritzsessions-vol-30-mit-edo-saiya-alice-stark-hank-234-lott-0/": {
+  "fetched": "2026-11-28T14:18:03+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Zwischen Hyperpop, Rap und Pop steht bei den FritzSessions ein Line up, das eher nach offenem Tab Chaos als nach sauberem Genre klingt. Und mittendrin EDO SAIYA so nah zu hören, obwohl er sonst längst größere Räume füllt 👀",
+   "endDate": "2026-12-15T05:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/d087df08f6ed4b1fad006de9a423abe6_16x9_fritz_sessions_30_141226-abnahme-neu.png"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10997",
+     "streetAddress": "Im U-Bhf. Schlesisches Tor"
+    },
+    "name": "Bi Nuu"
+   },
+   "name": "FritzSessions, Vol. 30 mit EDO SAIYA, ALICE STARK, HANK, 234, LOTTA & TOSHA",
+   "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "14.00",
+    "priceCurrency": "EUR",
+    "url": "https://t.rausgegangen.de/tickets/fritzsessions-vol-30-mit-edo-saiya-alice-stark-hank-234-lott",
+    "validFrom": "2026-11-16T16:30+0100"
+   },
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "Bi Nuu",
+     "url": "https://rausgegangen.de/organizations/httpswwwfestsaalshopprodukte474-tickets-muito-kaballa-bi-nuu/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Fritz vom rbb",
+     "url": "https://rausgegangen.de/organizations/fritz-vom-rbb/"
+    }
+   ],
+   "performer": [
+    {
+     "@type": "PerformingGroup",
+     "name": "234"
+    },
+    {
+     "@type": "PerformingGroup",
+     "name": "Alice Stark"
+    },
+    {
+     "@type": "PerformingGroup",
+     "name": "Edo Saiya"
+    }
+   ],
+   "startDate": "2026-12-14T18:00+0100"
+  }
+ },
+ "https://rausgegangen.de/events/hive-tea-drag-shows-on-the-roof-hosted-by-gieza-poke-vamilie-0/": {
+  "fetched": "2026-11-28T14:18:03+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Zwischen Advent und Drag passt mehr zusammen, als Mariah Carey uns weismachen will. Gieza Poke übernimmt das Hosting, später schiebt Emorine elektronische Tracks auf den Tanzboden 🌈",
+   "endDate": "2026-11-29T01:00+0100",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/15Yee8aDTmaRZzqHXSzL_90063785011487566309798371448053202981528962n.jpeg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "12043",
+     "streetAddress": "Karl-Marx-Straße 66"
+    },
+    "name": "KLUNKERKRANICH"
+   },
+   "name": "HIVE TEA * DRAG SHOWS ON THE ROOF hosted by Gieza Poke | Vamilienfa†er & Emorine [DJ Sets]",
+   "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "10.14",
+    "lowPrice": "1.66",
+    "offerCount": 2,
+    "offers": [
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Regulär",
+      "price": "10.14",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "availabilty": "https://schema.org/InStock",
+      "name": "Social Access Ticket",
+      "price": "1.66",
+      "priceCurrency": "EUR"
+     }
+    ],
+    "priceCurrency": "EUR"
+   },
+   "startDate": "2026-11-28T18:00+0100"
+  }
+ },
  "https://rausgegangen.de/events/house-of-pride-hop-berlin-the-main-party-of-berlin-pride-0/": {
-  "fetched": "2026-11-27T23:08:59+01:00",
+  "fetched": "2026-11-28T14:18:03+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -974,8 +1002,56 @@
   "tickets": "house-of-pride-hop-berlin-the-main-party-of-berlin-pride",
   "tickets_ok": true
  },
+ "https://rausgegangen.de/events/jacob-fortyhands-munster-barking-up-the-tree-of-life-tour-20-4/": {
+  "fetched": "2026-11-28T14:18:03+01:00",
+  "ld": {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "description": "Sie kommen aus einem Familienprojekt und stehen live oft zu siebt auf der Bühne, mitten in einer Zeit, in der sonst eher alles klein gehalten wird. Jacob Fortyhands drehen diesen Kontrast einfach um 👀",
+   "endDate": "2027-09-14T06:00+0200",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "image": [
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/FLfZP0SOuyspxBqiKHFA_image00004-kopie-komprimiert.jpg"
+   ],
+   "location": {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "addressCountry": "DE",
+     "addressLocality": "Berlin",
+     "postalCode": "10777",
+     "streetAddress": "Nollendorfplatz 5"
+    },
+    "name": "Mikropol"
+   },
+   "name": "Jacob Fortyhands - Barking up the tree of life Tour 2027",
+   "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "EUR",
+    "url": "https://www.eventim.de/artist/jacob-fortyhands/",
+    "validFrom": "2027-09-13T20:00+0200"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "PRK Dreamhaus",
+    "url": "https://rausgegangen.de/organizations/dreamhaus/"
+   },
+   "performer": [
+    {
+     "@type": "PerformingGroup",
+     "name": "Jacob Fortyhands"
+    },
+    {
+     "@type": "PerformingGroup",
+     "name": "Jacob Fortyhands"
+    }
+   ],
+   "startDate": "2027-09-13T20:00+0200"
+  }
+ },
  "https://rausgegangen.de/events/jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1/": {
-  "fetched": "2026-11-27T23:08:59+01:00",
+  "fetched": "2026-11-28T14:18:03+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -1031,16 +1107,16 @@
   "tickets": "jung-fesch-das-drag-fruhschoppen-im-wirtshaus-fesch-1",
   "tickets_ok": true
  },
- "https://rausgegangen.de/events/mit-vergnugungspark-berlin-1/": {
-  "fetched": "2026-11-27T23:08:59+01:00",
+ "https://rausgegangen.de/events/love-at-first-slide-berlin-power-point-dating-by-rausgegange-14/": {
+  "fetched": "2026-11-28T14:18:03+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Hier findest du an zwei Tagen ein Festival, das mit Musik, Podcasts, Comedy und buntem Essen ganz unterschiedliche Menschen zusammenbringt. Von kreativen Workshops bis zu kinderfreundlichen Attraktionen ist für alle was dabei und neue Highlights werden noch vor dem Start verraten 🤩",
-   "endDate": "2026-11-29T20:00+0100",
+   "description": "Wir bringen mit LOVE AT FIRST SLIDE Dating auf die Bühne: Freund:innen stellen in kurzen Power Point Präsentationen ihre Lieblingssingle vor – charmant, humorvoll und ganz ohne Swipe. Nach den witzigen Pitches kannst du bei Speed-Dating und Barabend neue Begegnungen entdecken. 💘🎤💫",
+   "endDate": "2026-12-02T23:30+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/wXB5KOdQx2KEI1fvhiIg_mvpark2026bannerticket1200x675pxrzversionzweitewellelineup091126.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/G4DW5S6EQHOrXfM562GP_lafsbannerappstraight-2-5.png"
    ],
    "location": {
     "@type": "Place",
@@ -1048,87 +1124,83 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10437",
-     "streetAddress": "Gleimstraße 31"
+     "postalCode": "10625",
+     "streetAddress": "Kantstraße 127"
     },
-    "name": "Colosseum Berlin"
+    "name": "Dufte Berlin"
    },
-   "name": "Mit Vergnügungspark Berlin",
+   "name": "LOVE AT FIRST SLIDE Berlin | Power Point Dating by Rausgegangen 💖",
    "offers": {
     "@type": "AggregateOffer",
-    "highPrice": "55.00",
-    "lowPrice": "15.00",
-    "offerCount": 8,
+    "highPrice": "19.50",
+    "lowPrice": "10.00",
+    "offerCount": 5,
     "offers": [
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "11 € - Freundschaftsticket",
-      "price": "11.00",
+      "name": "Presenterticket",
+      "price": "10.00",
       "priceCurrency": "EUR"
      },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "Phase 3 Wochenendpass",
-      "price": "39.00",
+      "name": "Publikum Ticket | Ich bin eine hetero Frau",
+      "price": "19.50",
       "priceCurrency": "EUR"
      },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "Phase 3 Wochenendpass + Abendprogramm",
-      "price": "49.00",
+      "name": "Publikum Ticket | Ich bin ein hetero Mann",
+      "price": "19.50",
       "priceCurrency": "EUR"
      },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "Phase 3 Tagesticket Samstag",
-      "price": "30.00",
+      "name": "Publikum Ticket | Ich bin queer",
+      "price": "19.50",
       "priceCurrency": "EUR"
      },
      {
       "@type": "Offer",
       "availabilty": "https://schema.org/InStock",
-      "name": "Phase 3 Tagesticket Samstag + Abendprogramm",
-      "price": "40.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Phase 3 Tagesticket Sonntag",
-      "price": "25.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Workshop \"Redaktion\" + Tagesticket Samstag",
-      "price": "30.00",
-      "priceCurrency": "EUR"
-     },
-     {
-      "@type": "Offer",
-      "availabilty": "https://schema.org/InStock",
-      "name": "Phase 3 NUR Abendprogramm am Samstag",
-      "price": "15.00",
+      "name": "Mitgegangen",
+      "price": "3.80",
       "priceCurrency": "EUR"
      }
     ],
     "priceCurrency": "EUR"
    },
-   "organizer": {
-    "@type": "Organization",
-    "name": "Mit Vergnügen",
-    "url": "https://rausgegangen.de/organizations/mit-vergnugen-1/"
-   },
-   "startDate": "2026-11-28T14:00+0100"
+   "organizer": [
+    {
+     "@type": "Organization",
+     "name": "LOVE AT FIRST SLIDE BERLIN by Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/love-at-first-slide-berlin-by-rausgegangen/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Love at first Slide by Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/page-for-team-love-at-first-slide-by-rausgegangen/"
+    },
+    {
+     "@type": "Organization",
+     "name": "LOVE AT FIRST SLIDE by Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/love-at-first-slide-by-rausgegangen/"
+    },
+    {
+     "@type": "Organization",
+     "name": "Team Rausgegangen",
+     "url": "https://rausgegangen.de/organizations/team-rausgegangen/"
+    }
+   ],
+   "startDate": "2026-12-02T19:00+0100"
   }
  },
  "https://rausgegangen.de/events/sleigh-queens-a-very-christmas-drag-show-0/": {
-  "fetched": "2026-11-27T23:08:59+01:00",
+  "fetched": "2026-11-28T14:18:03+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
@@ -1166,16 +1238,16 @@
   },
   "seen": "2026-11-15T18:52:24+01:00"
  },
- "https://rausgegangen.de/events/welcome-back-der-neue-smart-2-ist-da-0/": {
-  "fetched": "2026-11-28T05:00:46+01:00",
+ "https://rausgegangen.de/events/sojawachs-duftkerzen-gieen-bei-the-bequem-2/": {
+  "fetched": "2026-11-28T14:18:03+01:00",
   "ld": {
    "@context": "https://schema.org",
    "@type": "Event",
-   "description": "Zwischen Kinderverkehrsschule und Fotobox steht ein Auto, das zum ersten Mal gezeigt wird. Der neue smart #2 bekommt seinen ersten Auftritt 👀",
-   "endDate": "2026-11-28T16:00+0100",
+   "description": "Gieß deine eigene Duftkerze: Bei the bequem in Kreuzberg zeigt dir Gründerin Anastasia Schritt für Schritt, wie aus pflanzlichem Sojawachs und ausgewählten Duftölen deine persönliche Kerze entsteht.Du erfährst, worauf es bei den Rohstoffen ankommt, wie Düfte im Raum wirken und wie du Docht und Wachs richtig verarbeitest. Bei Tee oder Kaffee und Gebäck wählst du deinen Duft und gießt die Kerze selbst. Am Ende nimmst du sie mit nach Hause.Inklusive: Kerzenworkshop (ca. 1,5 Stunden), Einführung in Kerzenhandwerk und Duftöle, alle Materialien inkl. 100 % Sojawachs, Tee, Kaffee, Wasser und Gebäck, deine selbst gegossene Duftkerze.Gut zu wissen: Der Workshop findet auf Englisch statt. Ab 16 Jahren.Hinter the bequem steht Anastasia, die seit 2017 in Berlin lebt. Weil sie selten den passenden Raumduft fand, entwickelte sie eigene Rezepturen und vertiefte ihr Wissen 2022 am Parfümerie-Institut in Südfrankreich.Den Workshop gibt es auch als Geschenkgutschein bei Truestory – der Gutschein kommt direkt per E-Mail.",
+   "endDate": "2026-12-16T20:15+0100",
    "eventStatus": "https://schema.org/EventScheduled",
    "image": [
-    "https://s3.eu-central-1.amazonaws.com/rausgegangen/8d1a7e87226b40cd92c7ca37c07fff7d_rausgegangen-header-1200-x-366-px.png"
+    "https://s3.eu-central-1.amazonaws.com/rausgegangen/MyejuntaRsieaGTsycL6_dsc0908-5vsco-copy.JPG"
    ],
    "location": {
     "@type": "Place",
@@ -1183,19 +1255,25 @@
      "@type": "PostalAddress",
      "addressCountry": "DE",
      "addressLocality": "Berlin",
-     "postalCode": "10587",
-     "streetAddress": "Salzufer 1"
+     "postalCode": "10965",
+     "streetAddress": "Kreuzbergstraße 8"
     },
-    "name": "Mercedes-Welt am Salzufer"
+    "name": "the bequem"
    },
-   "name": "Welcome Back! Der neue smart #2 ist da!",
+   "name": "Sojawachs-Duftkerzen gießen bei the bequem",
    "offers": {
     "@type": "Offer",
-    "price": "0.00",
+    "price": "50.00",
     "priceCurrency": "EUR",
-    "validFrom": "2026-11-28T09:00+0100"
+    "url": "https://de.truestory.com/erlebe/duftkerzen-giessen-the-beqeuem/?utm_source=rausgegangen&utm_medium=affiliate&utm_campaign=rausgegangen&utm_content=duftkerzen-giessen-the-beqeuem",
+    "validFrom": "2026-12-16T18:30+0100"
    },
-   "startDate": "2026-11-28T09:00+0100"
+   "organizer": {
+    "@type": "Organization",
+    "name": "Team - TrueStory Living Experiences Germany GmbH",
+    "url": "https://rausgegangen.de/organizations/p-team-truestory-living-experiences-germany-gmbh/"
+   },
+   "startDate": "2026-12-16T18:30+0100"
   }
  }
 }
